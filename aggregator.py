@@ -296,10 +296,14 @@ def fetch_perplexity_results(max_results=10):
         ],
          "response_format": {"type": "json_object"} # Request JSON if possible
     }
+    
+    # Ensure the key is treated as a string
+    api_key_str = str(PERPLEXITY_API_KEY) 
+    
     headers = {
         "accept": "application/json",
         "content-type": "application/json",
-        "Authorization": f"Bearer {PERPLEXITY_API_KEY}"
+        "Authorization": "Bearer " + api_key_str # Use the explicitly converted string
     }
 
     try:
