@@ -282,7 +282,7 @@ def fetch_perplexity_results(max_results=10):
     
     # Simplify payload
     payload = {
-        "model": "llama-3-sonar-large-32k-online",
+        "model": "sonar-pro",
         "messages": [
             {
                 "role": "system",
