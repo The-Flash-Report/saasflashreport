@@ -307,6 +307,9 @@ def fetch_perplexity_results(max_results=10):
     }
 
     try:
+        # DEBUG: Print the header before sending (key will be masked in logs)
+        print(f"DEBUG: Sending Perplexity Header: {headers.get('Authorization')}") 
+        
         print("Fetching from Perplexity API...")
         response = requests.post(url, json=payload, headers=headers)
         response.raise_for_status()  # Raise an exception for bad status codes
