@@ -26,18 +26,19 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
-    - name: Make build script executable
-      run: chmod +x ./build.sh
+    # We don't need build.sh anymore for the main execution in Actions
+    # - name: Make build script executable
+    #  run: chmod +x ./build.sh
         
-    - name: Set environment variables and run build script
+    - name: Run aggregator script directly
       env:
         NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
         REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
         REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
-        PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }} # Added Perplexity Key
-      # Now the build script just runs the aggregator
-      run: ./build.sh
+        PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+      # Run python script directly instead of build.sh
+      run: python3 aggregator.py
       
     - name: Commit and push changes
       run: |
