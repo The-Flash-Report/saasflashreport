@@ -293,8 +293,8 @@ def fetch_perplexity_results(max_results=10):
                 # Simplified user message
                 "content": f"Top recent news about: {NEWS_API_QUERY}"
             }
-        ],
-        "response_format": {} # Re-added empty object as per docs example
+        ]
+        # Completely removed response_format key
     }
     
     # Ensure the key is treated as a string
