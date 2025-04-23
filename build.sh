@@ -9,7 +9,7 @@ set -o pipefail  # Return non-zero if any command in a pipe fails
 
 # Log function for better output
 log() {
-  echo "$(date '+%Y-%m-%d %H:%M:%S') - $1"
+  echo "$(date +'%Y-%m-%d %H:%M:%S') - $1"
 }
 
 # Create directories if they don't exist
@@ -24,15 +24,10 @@ check_env() {
   
   # Only warn if not set, don't exit (script will skip those sources)
   [[ -z "${NEWS_API_KEY}" ]] && log "WARNING: NEWS_API_KEY not set. News API results will be skipped."
+  [[ -z "${PERPLEXITY_API_KEY}" ]] && log "WARNING: PERPLEXITY_API_KEY not set. Perplexity results will be skipped."
   [[ -z "${REDDIT_CLIENT_ID}" ]] && log "WARNING: REDDIT_CLIENT_ID not set. Reddit results will be skipped."
   [[ -z "${REDDIT_CLIENT_SECRET}" ]] && log "WARNING: REDDIT_CLIENT_SECRET not set. Reddit results will be skipped."
   [[ -z "${REDDIT_USER_AGENT}" ]] && log "WARNING: REDDIT_USER_AGENT not set. Default will be used."
-}
-
-# Install dependencies
-install_deps() {
-  log "Installing dependencies..."
-  pip install -r requirements.txt
 }
 
 # Run the aggregator
@@ -54,7 +49,8 @@ verify_output() {
     if [[ -f "$ARCHIVE_FILE" ]]; then
       log "SUCCESS: Archive file was created: $ARCHIVE_FILE"
     else
-      log "WARNING: Archive file was not created: $ARCHIVE_FILE"
+      log "ERROR: Archive file was not created: $ARCHIVE_FILE"
+      return 1
     fi
   else
     log "ERROR: index.html was not created!"
@@ -68,7 +64,6 @@ main() {
   
   ensure_dirs
   check_env
-  install_deps
   run_aggregator
   verify_output
   
