@@ -280,10 +280,9 @@ def fetch_perplexity_results(max_results=10):
     headlines = []
     url = "https://api.perplexity.ai/chat/completions"
     
-    # Using a query similar to NewsAPI, asking Perplexity to find recent AI news
-    # Requesting JSON output might help structure the response.
+    # Simplify payload
     payload = {
-        "model": "sonar-medium-online", # Model capable of accessing recent web info
+        "model": "sonar-medium-online", 
         "messages": [
             {
                 "role": "system",
@@ -291,10 +290,11 @@ def fetch_perplexity_results(max_results=10):
             },
             {
                 "role": "user",
-                "content": f"Find the top {max_results} news headlines (with URLs) from the last 24 hours about: {NEWS_API_QUERY}. Provide the results as a JSON list where each item has 'title' and 'url' keys."
+                # Simplified user message
+                "content": f"Top recent news about: {NEWS_API_QUERY}"
             }
         ],
-         "response_format": {"type": "json_object"} # Request JSON if possible
+        "response_format": {} # Re-added empty object as per docs example
     }
     
     # Ensure the key is treated as a string
@@ -362,9 +362,14 @@ def fetch_perplexity_results(max_results=10):
 
     except requests.exceptions.RequestException as e:
         print(f"Error fetching from Perplexity API: {e}")
-        if response:
-             print(f"Response status code: {response.status_code}")
-             print(f"Response text: {response.text}")
+        # Check if response object exists before accessing it
+        if 'response' in locals() and response is not None:
+             try:
+                 print(f"Response status code: {response.status_code}")
+                 # Try to print the full response text for more detailed errors
+                 print(f"Response text: {response.text}") 
+             except Exception as print_e:
+                 print(f"Error printing response details: {print_e}")
     except Exception as e:
         print(f"An unexpected error occurred processing Perplexity API data: {e}")
 
