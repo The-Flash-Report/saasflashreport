@@ -535,28 +535,41 @@ def main():
             f.write(archive_index_html)
         print("Successfully updated archive index")
         
-        # Update recent archives in footer of index.html
-        # Read the current index.html
-        with open(latest_filename, 'r', encoding='utf-8') as f:
-            index_content = f.read()
-        
-        # Get the 5 most recent archive files
-        recent_archives = archive_files[:5]
-        
-        # Create the HTML for recent archive links
-        archive_links_html = '\n                '.join([f'<a href="archive/{archive_file}">{archive_file.replace(".html", "")}</a>' for archive_file in recent_archives])
-        
-        # Use regex to replace the archive links in the footer
-        pattern = r'<div class="archive-links">.*?Recent Archives:.*?<!-- Placeholder archive links -->.*?(.*?)</div>'
-        replacement = f'<div class="archive-links">\n                Recent Archives:\n                <!-- Placeholder archive links -->\n                {archive_links_html}\n            </div>'
-        updated_index_content = re.sub(pattern, replacement, index_content, flags=re.DOTALL)
-        
-        # Save the updated index.html
-        with open(latest_filename, 'w', encoding='utf-8') as f:
-            f.write(updated_index_content)
-        print("Successfully updated recent archives in index.html footer")
+        # --- Start Replacement Block ---
+        # Get the 5 most recent archive files (assuming archive_files is available)
+        if 'archive_files' in locals() and archive_files:
+            recent_archives = archive_files[:5]
+            
+            # Create the HTML for recent archive links
+            archive_links_html = '\n                '.join([
+                f'<a href="archive/{archive_file}">{archive_file.replace(".html", "")}' 
+                for archive_file in recent_archives
+            ])
+            
+            # Replace ONLY the placeholder in the already rendered HTML
+            # 'output_html' holds the result from template.render() before it's first written
+            final_output_html = output_html.replace('<!-- ARCHIVE_LINKS_PLACEHOLDER -->', archive_links_html)
+
+            # Save the final version with replaced links to index.html
+            try:
+                with open(latest_filename, 'w', encoding='utf-8') as f:
+                    f.write(final_output_html) # Write the final version
+                print(f"Successfully updated recent archives in {latest_filename} footer")
+            except IOError as e:
+                print(f"Error writing updated {latest_filename} file: {e}")
+        else:
+             print("Skipping footer archive links update (no archive files found).")
+             # If no archives, write the original output_html anyway
+             try:
+                with open(latest_filename, 'w', encoding='utf-8') as f:
+                    f.write(output_html)
+                print(f"Successfully wrote {latest_filename} without footer update.")
+             except IOError as e:
+                print(f"Error writing {latest_filename} file: {e}")
+        # --- End Replacement Block ---
+            
     except Exception as e:
-        print(f"Error updating archive index: {e}")
+        print(f"Error processing archive files or updating footer: {e}")
 
     end_time = datetime.datetime.now()
     print(f"Aggregation finished in {(end_time - start_time).total_seconds():.2f} seconds.")
