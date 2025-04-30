@@ -28,7 +28,7 @@ def generate_sitemap():
     
     # Setup Jinja2 template environment
     env = Environment(loader=FileSystemLoader('.'))
-    template = env.get_template('sitemap.xml.j2')
+    template = env.get_template('sitemap.xml')
     
     # Render the sitemap template
     output = template.render(
