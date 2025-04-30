@@ -35,7 +35,7 @@ MAX_HEADLINE_WORDS = 8
 
 # Add these new constants
 MAX_RSS_ENTRIES_PER_SOURCE = 3  # Limit RSS entries per source (Updated from 5 to 3)
-RSS_CUTOFF_DAYS = 7  # Only include RSS entries from the last 7 days
+RSS_CUTOFF_DAYS = 2  # Only include RSS entries from the last 2 days (Changed from 7)
 
 RSS_FEEDS = {
     "OpenAI": "https://openai.com/blog/rss.xml",
@@ -71,15 +71,15 @@ CATEGORIES = [
 # NOTE: This is a simple keyword approach and may need refinement.
 # Order matters: More specific categories should come first.
 CATEGORY_KEYWORDS = {
-    'Companies': ['openai', 'google', 'meta', 'anthropic', 'microsoft', 'nvidia', 'tesla', 'apple', 'amazon', 'ibm', 'baidu', 'deepmind', 'hugging face', 'stability ai'],
+    'AI Companies': ['openai', 'google', 'meta', 'anthropic', 'microsoft', 'nvidia', 'tesla', 'apple', 'amazon', 'ibm', 'baidu', 'deepmind', 'hugging face', 'stability ai'],
     'AI Products': ['launch', 'release', 'beta', 'model', 'api', 'platform', 'framework', 'library', 'tool', 'service', 'update', 'feature', 'gpu', 'chip', 'hardware'],
     'Creator Economy': ['art', 'music', 'video', 'image', 'generate', 'creative', 'creator', 'artist', 'design', 'diffusion', 'stable diffusion', 'midjourney', 'dall-e', 'sora', 'suno', 'udio'],
-    'Business News': ['funding', 'business', 'investment', 'market', 'strategy', 'policy', 'regulation', 'competition', 'partnership', 'acquisition', 'stock', 'earnings', 'startup', 'venture capital', 'ipo'],
-    'Research Breakthroughs': ['research', 'paper', 'study', 'breakthrough', 'arxiv', 'neurips', 'icml', 'cvpr', 'scientific', 'discovery', 'publish', 'journal'],
-    'Deep Learning': ['neural network', 'transformer', 'cnn', 'rnn', 'gan', 'reinforcement learning', 'pytorch', 'tensorflow', 'jax', 'algorithm', 'architecture', 'training', 'inference'],
-    'Industries': ['healthcare', 'finance', 'automotive', 'retail', 'manufacturing', 'logistics', 'energy', 'legal', 'education', 'pharma', 'drug discovery'],
-    'Applications': ['chatbot', 'assistant', 'autonomous', 'recommendation', 'translation', 'summarization', 'detection', 'prediction', 'robotics', 'agent'],
-    'Controversy': ['ethics', 'bias', 'risk', 'safety', 'regulation', 'job', 'privacy', 'agi', 'alignment', 'doom', 'existential', 'responsible ai', 'fairness'],
+    'Generative AI': ['generator', 'generative', 'text-to-image', 'text-to-video', 'diffusion', 'gan', 'synthesis', 'synthetic', 'deepfake', 'style transfer'],
+    'AI Business News': ['funding', 'business', 'investment', 'market', 'strategy', 'competition', 'partnership', 'acquisition', 'stock', 'earnings', 'startup', 'venture capital', 'ipo'],
+    'AI Research & Methods': ['research', 'paper', 'study', 'breakthrough', 'arxiv', 'neurips', 'icml', 'cvpr', 'scientific', 'discovery', 'publish', 'journal', 'neural network', 'transformer', 'cnn', 'rnn', 'reinforcement learning', 'pytorch', 'tensorflow', 'jax', 'algorithm', 'architecture', 'training', 'inference'],
+    'AI in Practice': ['healthcare', 'finance', 'automotive', 'retail', 'manufacturing', 'logistics', 'energy', 'legal', 'education', 'pharma', 'drug discovery', 'use case', 'implementation', 'deployment', 'solution'],
+    'AI Ethics & Policy': ['ethics', 'bias', 'risk', 'safety', 'regulation', 'job', 'privacy', 'agi', 'alignment', 'doom', 'existential', 'responsible ai', 'fairness', 'policy', 'governance', 'transparency'],
+    'Weird': ['strange', 'unusual', 'weird', 'odd', 'curious', 'bizarre', 'unexpected', 'surprising', 'funny', 'humor', 'meme'],
     'Trending Now': ['ai', 'artificial intelligence', 'gpt', 'llm'] # Catch-all / high-level terms
 }
 
@@ -101,23 +101,23 @@ def categorize_headline(title, url, source=None):
     """Attempts to categorize headline based on keywords or source, aligning with project brief categories."""
     title_lower = title.lower()
 
-    # 1. Prioritize Company Blogs/Sources for 'Companies' Category
+    # 1. Prioritize Company Blogs/Sources for 'AI Companies' Category
     # Expanded list based on common AI players
     company_sources_or_keywords = ['openai', 'google ai', 'meta ai', 'anthropic', 'microsoft research', 'nvidia blog', 'deepmind']
     if source and any(cs.lower() in source.lower() for cs in company_sources_or_keywords):
-        # Check if title also mentions business terms, otherwise default to Companies
-        business_kws = CATEGORY_KEYWORDS['Business News']
+        # Check if title also mentions business terms, otherwise default to AI Companies
+        business_kws = CATEGORY_KEYWORDS['AI Business News']
         if any(kw in title_lower for kw in business_kws):
-            return 'Business News'
-        return 'Companies'
+            return 'AI Business News'
+        return 'AI Companies'
 
     # 2. Check for specific company names in the title itself
-    if any(company in title_lower for company in CATEGORY_KEYWORDS['Companies']):
-         # Check if title also mentions business terms, otherwise default to Companies
-        business_kws = CATEGORY_KEYWORDS['Business News']
+    if any(company in title_lower for company in CATEGORY_KEYWORDS['AI Companies']):
+         # Check if title also mentions business terms, otherwise default to AI Companies
+        business_kws = CATEGORY_KEYWORDS['AI Business News']
         if any(kw in title_lower for kw in business_kws):
-            return 'Business News'
-        return 'Companies'
+            return 'AI Business News'
+        return 'AI Companies'
 
     # 3. Check for specific trending keywords first
     if any(kw in title_lower for kw in TRENDING_KEYWORDS):
@@ -125,8 +125,8 @@ def categorize_headline(title, url, source=None):
 
     # 4. Iterate through other categories based on keywords (order matters)
     for category, keywords in CATEGORY_KEYWORDS.items():
-        # Skip Companies as it was handled above, skip Trending Now default
-        if category in ['Companies', 'Trending Now']:
+        # Skip AI Companies as it was handled above, skip Trending Now default
+        if category in ['AI Companies', 'Trending Now']:
             continue
         if any(keyword in title_lower for keyword in keywords):
             return category
@@ -347,9 +347,13 @@ def fetch_rss_entries():
 
             print(f"Successfully fetched {len(feed.entries)} entries from {source}.")
             
-            # Apply uniform limit for all sources
+            # Apply source-specific limits
             source_limit = MAX_RSS_ENTRIES_PER_SOURCE
-            # The Google-specific limit check below has been removed.
+            
+            # Special handling for Google AI - limit to only 1 entry
+            if source == "Google AI":
+                source_limit = 1
+                print(f"  - Note: Applying stricter limit (1) for Google AI feed")
                 
             entry_count = 0
             for entry in feed.entries:
@@ -519,6 +523,32 @@ def main():
 
 
     print(f"Headlines after deduplication: {len(unique_headlines)}")
+
+    # 2.5 Additional deduplication for overlapping sources like Google
+    google_keywords = ['google', 'alphabet', 'gemini', 'bard']
+    google_headline_count = sum(1 for item in unique_headlines if any(kw in item['title'].lower() for kw in google_keywords))
+    
+    if google_headline_count > 5:  # If we have more than 5 Google headlines
+        print(f"Found {google_headline_count} Google-related headlines. Applying additional filtering...")
+        
+        # Sort Google headlines by source preference (keep RSS feeds over NewsAPI)
+        kept_google = []
+        other_headlines = []
+        
+        # First pass: separate Google headlines and others
+        for item in unique_headlines:
+            if any(kw in item['title'].lower() for kw in google_keywords):
+                kept_google.append(item)
+            else:
+                other_headlines.append(item)
+        
+        # Sort by source preference and limit to 5
+        kept_google.sort(key=lambda x: 0 if 'Google AI' in x.get('source', '') else 1)
+        kept_google = kept_google[:5]
+        
+        # Combine filtered results
+        unique_headlines = other_headlines + kept_google
+        print(f"After Google filtering: {len(unique_headlines)} headlines remain")
 
     # 3. Rewrite & Categorize
     categorized_data = {cat: [] for cat in CATEGORIES}
