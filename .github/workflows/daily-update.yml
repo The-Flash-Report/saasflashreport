@@ -44,12 +44,15 @@ jobs:
       # Run python script directly instead of build.sh
       run: python3 aggregator.py
       
+    - name: Generate sitemap
+      run: python3 generate_sitemap.py
+      
     - name: Commit and push changes
       run: |
         git config --global user.name 'GitHub Action'
         git config --global user.email 'action@github.com'
         # Stage all the generated files first
-        git add index.html archive/ archive_index_template.html
+        git add index.html archive/ archive_index_template.html sitemap.xml
         # Stash any changes so we can apply them after pulling
         git stash
         # Pull the latest changes from the repository
@@ -57,7 +60,7 @@ jobs:
         # Restore our stashed changes
         git stash pop
         # Add again in case of conflicts
-        git add index.html archive/ archive_index_template.html
+        git add index.html archive/ archive_index_template.html sitemap.xml
         # Commit only if there are changes
         git diff --staged --quiet || git commit -m "Daily update: $(date +'%Y-%m-%d')"
         # Push changes

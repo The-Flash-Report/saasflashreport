@@ -36,6 +36,12 @@ run_aggregator() {
   python3 aggregator.py
 }
 
+# Generate sitemap
+generate_sitemap() {
+  log "Generating sitemap.xml..."
+  python3 generate_sitemap.py
+}
+
 # Verify the output was created
 verify_output() {
   log "Verifying output..."
@@ -52,6 +58,13 @@ verify_output() {
       log "ERROR: Archive file was not created: $ARCHIVE_FILE"
       return 1
     fi
+
+    if [[ -f "sitemap.xml" ]]; then
+      log "SUCCESS: sitemap.xml was generated"
+    else
+      log "ERROR: sitemap.xml was not generated"
+      return 1
+    fi
   else
     log "ERROR: index.html was not created!"
     return 1
@@ -65,6 +78,7 @@ main() {
   ensure_dirs
   check_env
   run_aggregator
+  generate_sitemap
   verify_output
   
   log "Build process complete!"

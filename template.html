@@ -4,6 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Flash Report - Daily AI News</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Get the latest AI news daily: OpenAI updates, generative AI models, AI tools, and machine learning breakthroughs in one quick read.">
+    <meta name="keywords" content="latest ai news, openai news, anthropic news, generative ai models, diffusion models, ai use cases, ai video editing software, new ai tools, large language models, llms, ai research papers, nvidia ai news, ai applications in healthcare">
+    <meta name="author" content="AI Flash Report">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://aiflashreport.com{{ canonical_path|default('/') }}">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="AI Flash Report - Daily AI News Roundup">
+    <meta property="og:description" content="Your daily AI news digest: The latest from OpenAI, Anthropic, Google AI, and more. Get updated on AI tools, research breakthroughs, and industry trends.">
+    <meta property="og:image" content="https://aiflashreport.com/images/og-image.png">
+    <meta property="og:url" content="https://aiflashreport.com{{ canonical_path|default('/') }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AI Flash Report">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI Flash Report - Daily AI News">
+    <meta name="twitter:description" content="Daily roundup of the latest AI news, tools, and research breakthroughs.">
+    <meta name="twitter:image" content="https://aiflashreport.com/images/twitter-card.png">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://aiflashreport.com{{ canonical_path|default('/') }}"
+      },
+      "headline": "AI Flash Report - Daily AI News Roundup - {{ update_time }}",
+      "datePublished": "{{ update_time }}T00:00:00+00:00",
+      "dateModified": "{{ update_time }}T00:00:00+00:00",
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI Flash Report",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://aiflashreport.com/images/logo.png"
+        }
+      },
+      "description": "Daily roundup of the latest artificial intelligence news, including updates from major AI companies, new tools, research breakthroughs, and practical applications."
+    }
+    </script>
+    
     <!-- Simple SVG Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
     <style>
@@ -185,6 +232,37 @@
         <!-- Site Title -->
         <h1><a href="/index.html" style="text-decoration: none; color: inherit;">AI <span class="wire-part">Flash</span> Report</a></h1>
         <p class="subtitle">Daily AI News Roundup - Updated: {{ update_time }}</p>
+        
+        <!-- SEO-friendly date heading (hidden visually but available to search engines) -->
+        <h2 style="text-align: center; font-size: 1em; margin-top: 0; margin-bottom: 20px; color: #555;">
+            Latest AI News for {{ update_time | datetime_format }}
+        </h2>
+
+        <!-- Breadcrumbs navigation for SEO -->
+        <nav class="breadcrumbs" style="font-size: 0.85em; margin-bottom: 15px; color: #666;">
+            <ol itemscope itemtype="https://schema.org/BreadcrumbList" style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap;">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" style="margin-right: 5px;">
+                    <a itemprop="item" href="/" style="color: #666; text-decoration: none;">
+                        <span itemprop="name">Home</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                {% if canonical_path != "/" %}
+                <li style="margin-right: 5px;">&gt;</li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" style="margin-right: 5px;">
+                    <a itemprop="item" href="/archive/" style="color: #666; text-decoration: none;">
+                        <span itemprop="name">Archive</span>
+                    </a>
+                    <meta itemprop="position" content="2" />
+                </li>
+                <li style="margin-right: 5px;">&gt;</li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">{{ update_time | datetime_format }}</span>
+                    <meta itemprop="position" content="3" />
+                </li>
+                {% endif %}
+            </ol>
+        </nav>
 
         <!-- Vertical News Feed -->
         <div class="main-content">

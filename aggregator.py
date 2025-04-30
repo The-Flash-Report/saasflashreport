@@ -567,19 +567,44 @@ def main():
 
     # 5. Render template
     env = Environment(loader=FileSystemLoader('.'))
+    
+    # Add custom filter for date formatting
+    def datetime_format(value, format="%B %d, %Y"):
+        """Format a date string YYYY-MM-DD as Month DD, YYYY"""
+        try:
+            date_obj = datetime.datetime.strptime(value, "%Y-%m-%d")
+            return date_obj.strftime(format)
+        except (ValueError, TypeError):
+            return value
+    
+    env.filters['datetime_format'] = datetime_format
+    
     template = env.get_template('template.html')
+    
+    # Define canonical path based on whether it's the main page or an archive
+    today_date_str = datetime.datetime.now().strftime("%Y-%m-%d")
+    
+    # For the main index.html
     output_html = template.render(
         categories=categorized_data,
         prompt_of_the_day=prompt_data,
-        update_time=datetime.datetime.now().strftime("%Y-%m-%d")
+        update_time=datetime.datetime.now().strftime("%Y-%m-%d"),
+        canonical_path="/"  # Root canonical path for the main page
     )
 
     # 6. Save to dated archive file
-    today_date_str = datetime.datetime.now().strftime("%Y-%m-%d")
     archive_filename = os.path.join(archive_dir, f"{today_date_str}.html")
     try:
+        # For the archive page, render with its own canonical path
+        archive_html = template.render(
+            categories=categorized_data,
+            prompt_of_the_day=prompt_data,
+            update_time=today_date_str,
+            canonical_path=f"/archive/{today_date_str}.html"  # Archive-specific canonical path
+        )
+        
         with open(archive_filename, 'w', encoding='utf-8') as f:
-            f.write(output_html)
+            f.write(archive_html)
         print(f"Successfully saved archive to {archive_filename}")
     except IOError as e:
         print(f"Error writing archive file {archive_filename}: {e}")

@@ -2,27 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aiflashreport.com/</loc>
-    <lastmod>2025-04-30</lastmod>
+    <lastmod>{{current_date}}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://aiflashreport.com/about.html</loc>
-    <lastmod>2025-04-30</lastmod>
+    <lastmod>{{current_date}}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aiflashreport.com/archive/index.html</loc>
-    <lastmod>2025-04-30</lastmod>
+    <lastmod>{{current_date}}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-  <!-- Archives (these would typically be generated dynamically) -->
+  <!-- Archives (will be generated dynamically) -->
+  {% for archive in archive_files %}
   <url>
-    <loc>https://aiflashreport.com/archive/2025-04-30.html</loc>
-    <lastmod>2025-04-30</lastmod>
+    <loc>https://aiflashreport.com/archive/{{archive}}</loc>
+    <lastmod>{{archive_dates[loop.index0]}}</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
+  {% endfor %}
 </urlset> 
