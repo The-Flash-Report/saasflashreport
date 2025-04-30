@@ -581,30 +581,29 @@ def main():
     
     template = env.get_template('template.html')
     
-    # Define canonical path based on whether it's the main page or an archive
-    today_date_str = datetime.datetime.now().strftime("%Y-%m-%d")
+    # Calculate dates for navigation
     yesterday_date_str = (datetime.datetime.now() - datetime.timedelta(days=1)).strftime("%Y-%m-%d")
     tomorrow_date_str = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
-    
-    # For the main index.html
-    output_html = template.render(
+
+    # Render template with data
+    rendered_html = template.render(
+        update_time=datetime.datetime.now().strftime("%Y-%m-%d"),
+        canonical_path="/",
         categories=categorized_data,
         prompt_of_the_day=prompt_data,
-        update_time=today_date_str,
-        canonical_path="/",  # Root canonical path for the main page
         yesterday_date=yesterday_date_str,
         tomorrow_date=tomorrow_date_str
     )
 
     # 6. Save to dated archive file
-    archive_filename = os.path.join(archive_dir, f"{today_date_str}.html")
+    archive_filename = os.path.join(archive_dir, f"{datetime.datetime.now().strftime('%Y-%m-%d')}.html")
     try:
         # For the archive page, render with its own canonical path
         archive_html = template.render(
+            update_time=datetime.datetime.now().strftime("%Y-%m-%d"),
+            canonical_path=f"/archive/{datetime.datetime.now().strftime('%Y-%m-%d')}.html",  # Archive-specific canonical path
             categories=categorized_data,
             prompt_of_the_day=prompt_data,
-            update_time=today_date_str,
-            canonical_path=f"/archive/{today_date_str}.html",  # Archive-specific canonical path
             yesterday_date=yesterday_date_str,
             tomorrow_date=tomorrow_date_str
         )
@@ -619,7 +618,7 @@ def main():
     latest_filename = "index.html"
     try:
         with open(latest_filename, 'w', encoding='utf-8') as f:
-            f.write(output_html)
+            f.write(rendered_html)
         print(f"Successfully updated {latest_filename}")
     except IOError as e:
         print(f"Error writing latest file {latest_filename}: {e}")
@@ -720,22 +719,22 @@ def main():
             ])
             
             # Replace ONLY the placeholder in the already rendered HTML
-            # 'output_html' holds the result from template.render() before it's first written
-            final_output_html = output_html.replace('<!-- ARCHIVE_LINKS_PLACEHOLDER -->', archive_links_html)
+            # 'rendered_html' holds the result from template.render() before it's first written
+            final_rendered_html = rendered_html.replace('<!-- ARCHIVE_LINKS_PLACEHOLDER -->', archive_links_html)
 
             # Save the final version with replaced links to index.html
             try:
                 with open(latest_filename, 'w', encoding='utf-8') as f:
-                    f.write(final_output_html) # Write the final version
+                    f.write(final_rendered_html) # Write the final version
                 print(f"Successfully updated recent archives in {latest_filename} footer")
             except IOError as e:
                 print(f"Error writing updated {latest_filename} file: {e}")
         else:
              print("Skipping footer archive links update (no archive files found).")
-             # If no archives, write the original output_html anyway
+             # If no archives, write the original rendered_html anyway
              try:
                 with open(latest_filename, 'w', encoding='utf-8') as f:
-                    f.write(output_html)
+                    f.write(rendered_html)
                 print(f"Successfully wrote {latest_filename} without footer update.")
              except IOError as e:
                 print(f"Error writing {latest_filename} file: {e}")
