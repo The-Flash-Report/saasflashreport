@@ -48,8 +48,11 @@ jobs:
       run: |
         git config --global user.name 'GitHub Action'
         git config --global user.email 'action@github.com'
+        # First pull the latest changes from the repository to avoid conflicts
+        git pull --rebase origin main
         # Add potentially generated placeholder files too
         git add index.html archive/ archive_index_template.html 
         # Commit only if there are changes
         git diff --staged --quiet || git commit -m "Daily update: $(date +'%Y-%m-%d')"
-        git push 
+        # Force push with lease to ensure our changes go through while being safe
+        git push --force-with-lease 
