@@ -30,7 +30,7 @@ MAX_REDDIT_POSTS_PER_SUB = 5 # Max posts to fetch per subreddit
 REDDIT_TIME_FILTER = 'day' # Time filter: hour, day, week, month, year, all
 
 NEWS_API_QUERY = 'ai OR "artificial intelligence" OR gpt OR llm OR "machine learning" OR openai OR anthropic OR claude OR sam altman OR google ai OR meta ai'
-MAX_NEWS_API_ARTICLES = 25 # Number of articles to fetch from NewsAPI
+MAX_NEWS_API_ARTICLES = 100 # Number of articles to fetch from NewsAPI (Increased from 25)
 MAX_HEADLINE_WORDS = 8
 
 RSS_FEEDS = {
@@ -213,9 +213,14 @@ def fetch_reddit_posts():
     return headlines
 
 def fetch_newsapi_articles():
-    """Fetches and processes articles from NewsAPI."""
+    """Fetches and processes articles from NewsAPI with enhanced logging."""
+    
+    # Log if the API key is missing right at the start
     if not NEWS_API_KEY:
+        print("LOG: NEWS_API_KEY is not set. Skipping NewsAPI fetch.")
         return []
+
+    print(f"LOG: NEWS_API_KEY is present (partially masked): {NEWS_API_KEY[:4]}...{NEWS_API_KEY[-4:]}")
 
     headlines = []
     base_url = "https://newsapi.org/v2/everything"
@@ -226,28 +231,89 @@ def fetch_newsapi_articles():
         'sortBy': 'publishedAt', # Get latest articles first
         'pageSize': MAX_NEWS_API_ARTICLES
     }
+
+    # Construct the full URL for logging (mask API key)
+    log_params = params.copy()
+    log_params['apiKey'] = '***MASKED***'
+    request_url = base_url + '?' + requests.compat.urlencode(log_params)
+    print(f"LOG: Attempting to fetch from NewsAPI URL: {request_url}")
+
     try:
-        print("Fetching from NewsAPI...")
-        response = requests.get(base_url, params=params)
-        response.raise_for_status()
+        response = requests.get(base_url, params=params, timeout=15) # Added timeout
+        
+        # Log status code immediately
+        print(f"LOG: NewsAPI response status code: {response.status_code}")
+        
+        response.raise_for_status() # Raise HTTPError for bad responses (4xx or 5xx)
+
         data = response.json()
         articles = data.get('articles', [])
-        print(f"Successfully fetched {len(articles)} articles from NewsAPI.")
+        total_articles_received = len(articles)
+        print(f"LOG: Successfully received {total_articles_received} articles from NewsAPI before internal filtering.")
 
-        for article in articles:
-            # Basic check for relevance (sometimes news API returns less relevant items)
-            if not any(kw in article['title'].lower() for kw in ['ai', 'gpt', 'llm', 'prompt', 'claude', 'openai', 'anthropic', 'google', 'meta', 'tool']): continue
+        # Define the keywords for internal filtering
+        title_keywords = ['ai', 'gpt', 'llm', 'prompt', 'claude', 'openai', 'anthropic', 'google', 'meta', 'tool']
+        print(f"LOG: Internal title filter keywords: {title_keywords}")
 
-            headlines.append({
-                'title': article['title'],
-                'url': article['url'],
-                'source': 'NewsAPI'
-            })
+        articles_kept = 0
+        for i, article in enumerate(articles):
+            title_lower = article.get('title', '').lower()
+            url = article.get('url', '#')
+            source_name = article.get('source', {}).get('name', 'Unknown Source') # Get source name if available
 
+            # Check for keywords
+            if not any(kw in title_lower for kw in title_keywords):
+                 print(f"LOG: Skipping article {i+1}/{total_articles_received}: Title '{article.get('title', 'N/A')}' missing required keywords.")
+                 continue # Skip this article
+
+            # Check for potentially problematic non-English characters sometimes returned
+            try:
+                article_title = article.get('title', 'No Title')
+                # Attempt to encode/decode to catch potential issues early
+                article_title.encode('utf-8').decode('utf-8') 
+                
+                # Create the headline dictionary
+                headline_data = {
+                    'title': article_title,
+                    'url': url,
+                    'source': f'NewsAPI ({source_name})' # Include original source name
+                }
+                headlines.append(headline_data)
+                articles_kept += 1
+                # Print the kept headline
+                print(f"LOG: Kept NewsAPI Headline: {headline_data['title']} ({headline_data['url']})") 
+            except UnicodeEncodeError as ue_error:
+                print(f"LOG: Skipping article {i+1}/{total_articles_received} due to encoding error in title: {ue_error}")
+                continue
+
+
+        print(f"LOG: Kept {articles_kept} articles from NewsAPI after internal filtering.")
+
+    except requests.exceptions.Timeout:
+        print("ERROR: Request to NewsAPI timed out.")
+    except requests.exceptions.HTTPError as http_err:
+        print(f"ERROR: HTTP error occurred with NewsAPI: {http_err}")
+        # Try to get more details from the response body if available
+        try:
+            error_details = response.json()
+            print(f"ERROR Details: {json.dumps(error_details, indent=2)}")
+        except json.JSONDecodeError:
+            print(f"ERROR Details: Could not parse error response body. Raw text: {response.text}")
+        except Exception as e:
+             print(f"ERROR: Could not extract error details: {e}. Raw text: {response.text}")
     except requests.exceptions.RequestException as e:
-        print(f"Error fetching from NewsAPI: {e}")
+        # Catch other request-related errors (DNS, connection, etc.)
+        print(f"ERROR: Error during NewsAPI request: {e}")
+    except json.JSONDecodeError as json_err:
+        print(f"ERROR: Could not decode JSON response from NewsAPI: {json_err}")
+        print(f"Raw response text: {response.text}")
     except Exception as e:
-        print(f"An unexpected error occurred processing NewsAPI data: {e}")
+        # Catch any other unexpected errors during processing
+        print(f"ERROR: An unexpected error occurred processing NewsAPI data: {e}")
+        # Include traceback for unexpected errors
+        import traceback
+        traceback.print_exc() 
+
     return headlines
 
 def fetch_rss_entries():
