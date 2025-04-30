@@ -192,6 +192,31 @@
                 {% if headlines %}
                     <div class="headline-block">
                         <h3>{{ category }}</h3>
+
+                        {# **** INSERTED BLOCK: Category descriptions with keywords **** #}
+                        {% if category == 'Trending Now' %}
+                            <p class="category-description"><i>Catch up on the latest AI news, top headlines, and breaking artificial intelligence updates.</i></p>
+                        {% elif category == 'AI Products' %}
+                            <p class="category-description"><i>Discover new AI tools, recent AI software releases, platform updates, and hardware news.</i></p>
+                        {% elif category == 'Creator Economy' %}
+                            <p class="category-description"><i>Explore AI tools for artists, music generation, video editing software, and writing assistants for creators.</i></p>
+                        {% elif category == 'Generative AI' %}
+                            <p class="category-description"><i>Learn about generative AI models like LLMs and diffusion models, plus text-to-image AI and content generation tech.</i></p>
+                        {% elif category == 'AI Business News' %}
+                            <p class="category-description"><i>Stay informed on AI company funding, startup investments, AI market analysis, stock news, and industry partnerships.</i></p>
+                        {% elif category == 'AI Research & Methods' %}
+                            <p class="category-description"><i>Read the latest AI research papers, machine learning publications, deep learning breakthroughs, and algorithm developments.</i></p>
+                        {% elif category == 'AI in Practice' %}
+                            <p class="category-description"><i>See real-world AI deployment: AI applications in healthcare, finance, retail, and other enterprise AI solutions.</i></p>
+                        {% elif category == 'AI Companies' %}
+                            <p class="category-description"><i>Follow updates from major AI companies and industry leaders like OpenAI, Google AI, Anthropic, and Nvidia.</i></p>
+                        {% elif category == 'AI Ethics & Policy' %}
+                            <p class="category-description"><i>Understand responsible AI development, AI safety guidelines, AI regulation news, bias detection, and alignment research.</i></p>
+                        {% elif category == 'Weird' %}
+                            <p class="category-description"><i>The lighter side of AI: funny AI stories, unexpected results, and unusual AI projects.</i></p>
+                        {% endif %}
+                        {# **** END INSERTED BLOCK **** #}
+
                         {% for headline in headlines %}
                             <p>
                                 <a href="{{ headline.url }}" target="_blank">{{ headline.rewritten_title }}</a>

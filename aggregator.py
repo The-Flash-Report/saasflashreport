@@ -33,26 +33,38 @@ NEWS_API_QUERY = 'ai OR "artificial intelligence" OR gpt OR llm OR "machine lear
 MAX_NEWS_API_ARTICLES = 100 # Number of articles to fetch from NewsAPI (Increased from 25)
 MAX_HEADLINE_WORDS = 8
 
+# Add these new constants
+MAX_RSS_ENTRIES_PER_SOURCE = 3  # Limit RSS entries per source (Updated from 5 to 3)
+RSS_CUTOFF_DAYS = 7  # Only include RSS entries from the last 7 days
+
 RSS_FEEDS = {
     "OpenAI": "https://openai.com/blog/rss.xml",
-    "Anthropic": "https://www.anthropic.com/news/rss.xml",
+    "Anthropic": "https://www.anthropic.com/rss/",  # Updated URL
     "Google AI": "https://blog.google/technology/ai/rss/",
-    "Meta AI": "https://ai.meta.com/blog/rss/"
-    # Add more relevant RSS feeds (e.g., specific tech news sites)
+    "Meta AI": "https://ai.meta.com/blog/rss/",
+    # New RSS feeds
+    "Import AI": "https://jack-clark.net/feed/",
+    "Machine Learning Mastery": "https://machinelearningmastery.com/blog/feed/",
+    "The Batch": "https://read.deeplearning.ai/the-batch/rss/",
+    "VentureBeat AI": "https://venturebeat.com/category/ai/feed/",
+    "Towards Data Science": "https://towardsdatascience.com/feed",
+    "Synced Review": "https://syncedreview.com/feed/",
+    "Analytics Vidhya": "https://www.analyticsvidhya.com/blog/feed/",
+    "The Gradient": "https://thegradient.pub/rss/"
 }
 
 # Define categories based on the project brief
 CATEGORIES = [
-    'Trending Now',         # Populated potentially by top reddit posts or specific keywords
-    'AI Products',          # New tools, models, services
-    'Creator Economy',      # AI for art, music, video, etc.
-    'Business News',        # Funding, partnerships, market trends
-    'Research Breakthroughs', # Papers, studies, scientific discoveries
-    'Industries',           # AI applications in specific sectors
-    'Deep Learning',        # Technical developments, frameworks
-    'Companies',            # News specifically about major AI players
-    'Applications',         # Real-world AI implementations
-    'Controversy'           # Ethics, bias, safety, regulation
+    'Trending Now',
+    'AI Products',
+    'Creator Economy',
+    'Generative AI',
+    'AI Business News',
+    'AI Research & Methods',
+    'AI in Practice',
+    'AI Companies',
+    'AI Ethics & Policy',
+    'Weird'
 ]
 
 # Define keywords for categorization (more aligned with the brief)
@@ -319,6 +331,10 @@ def fetch_newsapi_articles():
 def fetch_rss_entries():
     """Fetches and processes entries from configured RSS feeds."""
     all_entries = []
+    
+    # Calculate the cutoff date
+    cutoff_date = datetime.datetime.now() - datetime.timedelta(days=RSS_CUTOFF_DAYS)
+    
     for source, url in RSS_FEEDS.items():
         try:
             print(f"Fetching RSS feed from {source} ({url})...")
@@ -330,12 +346,42 @@ def fetch_rss_entries():
                 continue
 
             print(f"Successfully fetched {len(feed.entries)} entries from {source}.")
+            
+            # Apply uniform limit for all sources
+            source_limit = MAX_RSS_ENTRIES_PER_SOURCE
+            # The Google-specific limit check below has been removed.
+                
+            entry_count = 0
             for entry in feed.entries:
+                # Stop if we've reached the limit for this source
+                if entry_count >= source_limit:
+                    break
+                    
                 title = entry.get('title', 'No Title')
                 link = entry.get('link', '#')
+                
+                # Try to get the published date
+                try:
+                    if 'published_parsed' in entry and entry.published_parsed:
+                        # Convert time tuple to datetime
+                        pub_date = datetime.datetime(*entry.published_parsed[:6])
+                        # Skip entries older than the cutoff date
+                        if pub_date < cutoff_date:
+                            print(f"  - Skipping old entry: {title[:30]}... (published {pub_date.strftime('%Y-%m-%d')})")
+                            continue
+                except (AttributeError, ValueError) as e:
+                    # If we can't parse the date, assume it's recent
+                    print(f"  - Warning: Couldn't parse date for entry: {title[:30]}... - {e}")
+                
                 all_entries.append({'title': title, 'url': link, 'source': source})
+                entry_count += 1
+                
+            print(f"  - Added {entry_count} recent entries from {source} (limit: {source_limit}).")
+                
         except Exception as e:
             print(f"Error parsing RSS feed for {source}: {e}")
+    
+    print(f"Total RSS entries after limits and date filtering: {len(all_entries)}")
     return all_entries
 
 def fetch_perplexity_results(max_results=10):
