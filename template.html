@@ -239,29 +239,45 @@
         </h2>
 
         <!-- Breadcrumbs navigation for SEO -->
-        <nav class="breadcrumbs" style="font-size: 0.85em; margin-bottom: 15px; color: #666;">
-            <ol itemscope itemtype="https://schema.org/BreadcrumbList" style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap;">
+        <nav class="breadcrumbs" style="font-size: 0.85em; margin-bottom: 15px; color: #666; display: flex; justify-content: space-between; align-items: center;">
+            {% if canonical_path == "/" %}
+            <!-- Home page version with date navigation arrows -->
+            <div class="nav-arrow" style="flex: 1; text-align: left;">
+                <a href="/archive/{{ yesterday_date }}.html" style="color: #666; text-decoration: none; font-size: 1em;">← Previous</a>
+            </div>
+            <ol itemscope itemtype="https://schema.org/BreadcrumbList" style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; flex: 2; justify-content: center;">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" style="margin-right: 5px;">
+                    <span itemprop="name">Home</span>
+                    <meta itemprop="position" content="1" />
+                </li>
+            </ol>
+            <div class="nav-arrow" style="flex: 1; text-align: right;">
+                <span style="color: #ccc; font-size: 1em;">Next →</span>
+            </div>
+            {% else %}
+            <!-- Archive page version with date navigation arrows -->
+            <div class="nav-arrow" style="flex: 1; text-align: left;">
+                <a href="/archive/{{ yesterday_date }}.html" style="color: #666; text-decoration: none; font-size: 1em;">← Previous</a>
+            </div>
+            <ol itemscope itemtype="https://schema.org/BreadcrumbList" style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; flex: 2; justify-content: center;">
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" style="margin-right: 5px;">
                     <a itemprop="item" href="/" style="color: #666; text-decoration: none;">
                         <span itemprop="name">Home</span>
                     </a>
                     <meta itemprop="position" content="1" />
                 </li>
-                {% if canonical_path != "/" %}
-                <li style="margin-right: 5px;">&gt;</li>
-                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" style="margin-right: 5px;">
-                    <a itemprop="item" href="/archive/" style="color: #666; text-decoration: none;">
-                        <span itemprop="name">Archive</span>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" style="margin-right: 0;">
+                    <span style="margin: 0 5px;">/</span>
+                    <a itemprop="item" href="{{ canonical_path }}" style="color: #666; text-decoration: none;">
+                        <span itemprop="name">{{ update_time }}</span>
                     </a>
                     <meta itemprop="position" content="2" />
                 </li>
-                <li style="margin-right: 5px;">&gt;</li>
-                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <span itemprop="name">{{ update_time | datetime_format }}</span>
-                    <meta itemprop="position" content="3" />
-                </li>
-                {% endif %}
             </ol>
+            <div class="nav-arrow" style="flex: 1; text-align: right;">
+                <a href="/archive/{{ tomorrow_date }}.html" style="color: #666; text-decoration: none; font-size: 1em;">Next →</a>
+            </div>
+            {% endif %}
         </nav>
 
         <!-- Vertical News Feed -->

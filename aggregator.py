@@ -583,13 +583,17 @@ def main():
     
     # Define canonical path based on whether it's the main page or an archive
     today_date_str = datetime.datetime.now().strftime("%Y-%m-%d")
+    yesterday_date_str = (datetime.datetime.now() - datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+    tomorrow_date_str = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
     
     # For the main index.html
     output_html = template.render(
         categories=categorized_data,
         prompt_of_the_day=prompt_data,
-        update_time=datetime.datetime.now().strftime("%Y-%m-%d"),
-        canonical_path="/"  # Root canonical path for the main page
+        update_time=today_date_str,
+        canonical_path="/",  # Root canonical path for the main page
+        yesterday_date=yesterday_date_str,
+        tomorrow_date=tomorrow_date_str
     )
 
     # 6. Save to dated archive file
@@ -600,7 +604,9 @@ def main():
             categories=categorized_data,
             prompt_of_the_day=prompt_data,
             update_time=today_date_str,
-            canonical_path=f"/archive/{today_date_str}.html"  # Archive-specific canonical path
+            canonical_path=f"/archive/{today_date_str}.html",  # Archive-specific canonical path
+            yesterday_date=yesterday_date_str,
+            tomorrow_date=tomorrow_date_str
         )
         
         with open(archive_filename, 'w', encoding='utf-8') as f:
