@@ -17,6 +17,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
+        ref: main # Explicitly checkout main branch
         fetch-depth: 0 # Needed for checking existing archives potentially
     
     - name: Set up Python
@@ -43,6 +44,9 @@ jobs:
         PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
       # Run python script directly instead of build.sh
       run: python3 aggregator.py
+      
+    - name: List files
+      run: ls -la
       
     - name: Generate sitemap
       run: python3 generate_sitemap.py
