@@ -3,7 +3,7 @@
     <!-- Main page -->
     <url>
         <loc>https://aiflashreport.com/</loc>
-        <lastmod>{{ current_date }}</lastmod>
+        <lastmod>2025-05-01</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -11,18 +11,151 @@
     <!-- Archive index -->
     <url>
         <loc>https://aiflashreport.com/archive/</loc>
-        <lastmod>{{ current_date }}</lastmod>
+        <lastmod>2025-05-01</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     
     <!-- Archive entries -->
-    {% for date in archive_dates %}
+    
     <url>
-        <loc>https://aiflashreport.com/archive/{{ archive_files[loop.index0] }}</loc>
-        <lastmod>{{ date }}</lastmod>
+        <loc>https://aiflashreport.com/archive/2025-05-01.html</loc>
+        <lastmod>2025-05-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
-    {% endfor %}
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-30.html</loc>
+        <lastmod>2025-04-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-29.html</loc>
+        <lastmod>2025-04-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-28.html</loc>
+        <lastmod>2025-04-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-27.html</loc>
+        <lastmod>2025-04-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-26.html</loc>
+        <lastmod>2025-04-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-25.html</loc>
+        <lastmod>2025-04-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-24.html</loc>
+        <lastmod>2025-04-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-23.html</loc>
+        <lastmod>2025-04-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-22.html</loc>
+        <lastmod>2025-04-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-21.html</loc>
+        <lastmod>2025-04-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-20.html</loc>
+        <lastmod>2025-04-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-19.html</loc>
+        <lastmod>2025-04-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-18.html</loc>
+        <lastmod>2025-04-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-17.html</loc>
+        <lastmod>2025-04-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-16.html</loc>
+        <lastmod>2025-04-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-15.html</loc>
+        <lastmod>2025-04-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-14.html</loc>
+        <lastmod>2025-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-13.html</loc>
+        <lastmod>2025-04-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-04-12.html</loc>
+        <lastmod>2025-04-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
 </urlset> 
