@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Flash Report - Daily AI News</title>
+    <!-- Cache busting for template changes -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <!-- SEO Meta Tags -->
     <meta name="description" content="Get the latest AI news daily: OpenAI updates, generative AI models, AI tools, and machine learning breakthroughs in one quick read.">
     <meta name="keywords" content="latest ai news, openai news, anthropic news, generative ai models, diffusion models, ai use cases, ai video editing software, new ai tools, large language models, llms, ai research papers, nvidia ai news, ai applications in healthcare">
@@ -86,7 +90,7 @@
         }
         h1 .wire-part {
             color: #cc0000; /* Red color */
-            font-weight: normal;
+            font-weight: 600; /* Use semi-bold */
         }
         .subtitle {
             text-align: center;
@@ -105,22 +109,31 @@
 
         h3 {
             font-size: 1.5em; /* Larger category headers */
-            margin-top: 25px; /* Add space above category headers */
+            margin-top: 20px; /* Add space above category headers */
             margin-bottom: 10px;
             color: #000;
             font-weight: 800; /* Extra bold */
             text-transform: uppercase; /* Uppercase headers */
-            border-bottom: 2px solid #ccc; /* Thicker bottom border */
+            border-bottom: 2px solid #cc0000; /* Thicker bottom border - RED */
             padding-bottom: 5px;
             letter-spacing: 0.5px; /* Slightly increased letter spacing */
         }
         .headline-block {
-             margin-bottom: 25px; /* More space below each category block */
+             margin-bottom: 20px; /* More space below each category block */
              padding: 0;
         }
         .headline-block p {
-            margin: 0 0 6px 0; /* Slightly more space between headlines */
+            margin: 0 0 8px 0; /* Slightly more space between headlines */
             line-height: 1.2;
+        }
+        .category-description {
+            font-size: 1.0em;
+            margin-top: 5px;      /* Space below category title */
+            margin-bottom: 15px;  /* Space above first headline */
+            color: #555;         /* Muted grey color */
+            line-height: 1.4;
+            font-style: normal;  /* Remove italics */
+            font-weight: 500; /* Medium weight */
         }
         .headline-block a {
             text-decoration: none;
@@ -233,11 +246,6 @@
         <h1><a href="/index.html" style="text-decoration: none; color: inherit;">AI <span class="wire-part">Flash</span> Report</a></h1>
         <p class="subtitle">Daily AI News Roundup - Updated: {{ update_time }}</p>
         
-        <!-- SEO-friendly date heading (hidden visually but available to search engines) -->
-        <h2 style="text-align: center; font-size: 1em; margin-top: 0; margin-bottom: 20px; color: #555;">
-            Latest AI News for {{ update_time | datetime_format }}
-        </h2>
-
         <!-- Breadcrumbs navigation for SEO -->
         <nav class="breadcrumbs" style="font-size: 0.85em; margin-bottom: 15px; color: #666; display: flex; justify-content: space-between; align-items: center;">
             {% if canonical_path == "/" %}

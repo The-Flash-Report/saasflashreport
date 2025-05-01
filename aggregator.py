@@ -579,6 +579,7 @@ def main():
     
     env.filters['datetime_format'] = datetime_format
     
+    # Use the main template again
     template = env.get_template('template.html')
     
     # Calculate dates for navigation
