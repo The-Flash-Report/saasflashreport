@@ -1,0 +1,103 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+**Author:** Bryan Collins
+
+## Git Workflow Guidelines
+
+### Understanding the Sync Problem
+This project uses GitHub Actions to automatically update content daily. This creates a unique challenge: 
+- Local changes can become out of sync with the remote repository
+- Push attempts are rejected with "Updates were rejected because the remote contains work"
+- Content files (HTML) are generated both locally and by the workflow
+
+### Recommended Workflow
+
+#### Before Making Changes
+1. **Pull latest changes:**
+   ```bash
+   git pull --rebase
+   ```
+
+2. **Check workflow status:**
+   - Visit GitHub repository Actions tab to verify workflow status
+   - Note when the last automatic update occurred
+
+#### Making Code Changes
+1. Only modify template and code files, NOT generated content:
+   - ✅ aggregator.py
+   - ✅ template.html
+   - ✅ .github/workflows/daily-update.yml
+   - ✅ generate_sitemap.py
+   - ✅ build.sh
+   - ❌ index.html (auto-generated)
+   - ❌ archive/*.html (auto-generated)
+   - ❌ sitemap.xml (auto-generated)
+
+2. For local testing:
+   ```bash
+   ./build.sh
+   ```
+
+#### Committing Changes
+1. **Stage only code files (not generated content):**
+   ```bash
+   git add aggregator.py template.html [other code files]
+   ```
+
+2. **Commit with descriptive message:**
+   ```bash
+   git commit -m "Descriptive message about code changes"
+   ```
+
+3. **Pull again with rebase before pushing:**
+   ```bash
+   git pull --rebase
+   ```
+
+4. **Push changes:**
+   ```bash
+   git push
+   ```
+
+#### After Pushing Code Changes
+1. **Trigger workflow manually** (optional but recommended):
+   - Visit GitHub repository Actions tab
+   - Select "Daily News Update" workflow
+   - Click "Run workflow" button
+   - Select branch (main) and click "Run workflow"
+
+2. **Verify changes take effect** after workflow completes:
+   - Check the live site
+   - Verify the generated content includes your changes
+
+### Troubleshooting Sync Issues
+
+If your push is rejected:
+1. **Pull with rebase:**
+   ```bash
+   git pull --rebase
+   ```
+
+2. **Resolve any conflicts** (usually in generated files):
+   ```bash
+   # If conflicts exist in content files, use:
+   git checkout --theirs index.html
+   git checkout --theirs sitemap.xml
+   git checkout --theirs archive/[date].html
+   git add .
+   git rebase --continue
+   ```
+
+3. **Try pushing again:**
+   ```bash
+   git push
+   ```
+
+If issues persist:
+1. Stash your changes
+2. Pull from remote
+3. Apply stash and resolve conflicts
+4. Push changes
