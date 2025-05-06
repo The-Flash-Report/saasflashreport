@@ -178,13 +178,13 @@ def get_prompt_of_the_day():
 # --- Data Fetching Functions ---
 
 def fetch_reddit_posts():
-    """Fetches recent posts from specified subreddits."""
+    """Fetches hot posts from specified subreddits - similar to getHotPosts() in Reddit API."""
     if not all([REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT]):
         print("Skipping Reddit fetch due to missing API credentials.")
         return []
 
     all_headlines = []
-    print(f"Fetching Reddit posts from {len(SUBREDDITS)} subreddits...")
+    print(f"Fetching hot Reddit posts from {len(SUBREDDITS)} subreddits...")
     
     try:
         # Initialize Reddit API client
@@ -196,9 +196,9 @@ def fetch_reddit_posts():
         
         for sub_name in SUBREDDITS:
             try:
-                print(f"Getting posts from r/{sub_name}...")
+                print(f"Getting hot posts from r/{sub_name}...")
                 
-                # Fetch hot posts from the subreddit
+                # Fetch hot posts from the subreddit (equivalent to getHotPosts() in Reddit API)
                 subreddit = reddit.subreddit(sub_name)
                 hot_posts = subreddit.hot(limit=MAX_REDDIT_POSTS_PER_SUB)
                 
@@ -230,15 +230,15 @@ def fetch_reddit_posts():
                     if added_count >= MAX_REDDIT_POSTS_PER_SUB:
                         break
                 
-                print(f"  - Added {added_count} posts from r/{sub_name}")
+                print(f"  - Added {added_count} hot posts from r/{sub_name}")
                 
             except Exception as e:
-                print(f"Error fetching posts from r/{sub_name}: {e}")
+                print(f"Error fetching hot posts from r/{sub_name}: {e}")
                 
     except Exception as e:
         print(f"Error initializing Reddit API: {e}")
     
-    print(f"Fetched {len(all_headlines)} total posts from Reddit.")
+    print(f"Fetched {len(all_headlines)} total hot posts from Reddit.")
     return all_headlines
 
 def fetch_newsapi_articles():
