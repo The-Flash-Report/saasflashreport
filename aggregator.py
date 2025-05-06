@@ -29,7 +29,7 @@ if not all([REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT]):
 # Updated Subreddits list but keep the ones the user wants
 SUBREDDITS = [
     "artificial", "LargeLanguageModels", "LocalLLaMA", "singularity", "MachineLearning", # Original
-    "chatgpt", "claudeai", "characterai", "openai", "artificialintelligence",
+    "chatgpt", "claudeai", "characterai", "openai", "ArtificialIntelligence",
     "ai_agents", "StableDiffusion", "AIArt" # Added by user
 ]
 MAX_REDDIT_POSTS_PER_SUB = 2 # Keep the reduced number
