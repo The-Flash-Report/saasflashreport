@@ -435,12 +435,12 @@ def fetch_perplexity_results(max_results=10):
         "messages": [
             {
                 "role": "system",
-                "content": "You are an AI news aggregator. Find recent top news articles about AI."
+                "content": "You are an AI news aggregator. Find recent top news articles about AI. Format your response strictly as a JSON array where each object has a 'title' and a 'url' key. Do not include any introductory text, explanations, or markdown formatting outside of the JSON itself. For example: [{\"title\": \"Example Title\", \"url\": \"https://example.com\"}]"
             },
             {
                 "role": "user",
-                # Simplified user message
-                "content": f"Top recent news about: {NEWS_API_QUERY}"
+                # Simplified user message, reinforcing JSON output
+                "content": f"Top recent news about: {NEWS_API_QUERY}. Respond only with the JSON array of articles."
             }
         ]
         # Completely removed response_format key
@@ -461,9 +461,20 @@ def fetch_perplexity_results(max_results=10):
         
         print("Fetching from Perplexity API...")
         response = requests.post(url, json=payload, headers=headers)
-        response.raise_for_status()  # Raise an exception for bad status codes
         
-        data = response.json()
+        # Try to parse JSON, but if it fails, print the raw text
+        try:
+            data = response.json()
+        except json.JSONDecodeError as jd_error:
+            print(f"Error: Could not decode JSON directly from Perplexity response. Status Code: {response.status_code}")
+            print(f"Raw Perplexity response text: {response.text}")
+            # If JSON decoding fails, we can't proceed with the expected data structure.
+            # We should raise for status to catch underlying HTTP errors, or return if it's a 2xx but not JSON.
+            response.raise_for_status() 
+            return headlines # Return empty or previously gathered headlines
+
+        response.raise_for_status()  # Raise an exception for bad status codes if JSON parsing was okay
+        
         # Attempt to parse the content if the response is structured as expected
         if 'choices' in data and data['choices']:
              message_content = data['choices'][0]['message']['content']
@@ -495,18 +506,17 @@ def fetch_perplexity_results(max_results=10):
                              count += 1
                       print(f"Successfully extracted {count} headlines from Perplexity (nested structure).")
                  else:
-                     print("Perplexity response content was not the expected list of headlines.")
-                     # Optionally, print the raw content for debugging:
-                     # print(f"Raw content from Perplexity: {message_content}")
+                     print("Perplexity response content (after parsing message_content) was not the expected list or dict of headlines.")
+                     print(f"Parsed message content from Perplexity: {extracted_data}") # Log what was parsed
                      
              except json.JSONDecodeError:
-                 print(f"Error: Could not decode JSON from Perplexity response content.")
-                 # print(f"Raw content from Perplexity: {message_content}")
+                 print(f"Error: Could not decode JSON from Perplexity message content.")
+                 print(f"Raw message content from Perplexity: {message_content}") # Print the message_content that failed to parse
              except Exception as e:
                 print(f"Error processing Perplexity response content: {e}")
         else:
-            print("Perplexity API response did not contain expected choices.")
-            # print(f"Full Perplexity response: {data}")
+            print("Perplexity API response did not contain expected 'choices'.")
+            print(f"Full Perplexity response data: {data}") # Log the data if choices are missing
 
 
     except requests.exceptions.RequestException as e:
@@ -516,7 +526,7 @@ def fetch_perplexity_results(max_results=10):
              try:
                  print(f"Response status code: {response.status_code}")
                  # Try to print the full response text for more detailed errors
-                 print(f"Response text: {response.text}") 
+                 print(f"Response text from RequestException: {response.text}") 
              except Exception as print_e:
                  print(f"Error printing response details: {print_e}")
     except Exception as e:
