@@ -6,6 +6,7 @@ import praw # Added for Reddit API
 from jinja2 import Environment, FileSystemLoader
 import json # Added for Perplexity JSON handling
 import re # Added for footer update regex
+from langdetect import detect, LangDetectException # Added for language detection
 
 # --- Configuration ---
 NEWS_API_KEY = os.environ.get("NEWS_API_KEY")
@@ -363,6 +364,22 @@ def fetch_rss_entries():
                     
                 title = entry.get('title', 'No Title')
                 link = entry.get('link', '#')
+
+                # Language detection
+                try:
+                    if title and title != 'No Title':
+                        lang = detect(title)
+                        if lang != 'en':
+                            print(f"  - Skipping non-English entry (lang: {lang}): {title[:50]}...")
+                            continue
+                    else: # If title is empty or 'No Title', skip it.
+                        print(f"  - Skipping entry with no valid title from {source}.")
+                        continue
+                except LangDetectException:
+                    # If language detection fails (e.g., title is too short, ambiguous, or not text)
+                    # We can choose to skip it or allow it. For now, let's skip to be safe.
+                    print(f"  - Skipping entry due to language detection error (possibly too short/ambiguous): {title[:50]}...")
+                    continue
                 
                 # Try to get the published date
                 try:
@@ -385,7 +402,7 @@ def fetch_rss_entries():
         except Exception as e:
             print(f"Error parsing RSS feed for {source}: {e}")
     
-    print(f"Total RSS entries after limits and date filtering: {len(all_entries)}")
+    print(f"Total RSS entries after limits, date, and language filtering: {len(all_entries)}")
     return all_entries
 
 def fetch_perplexity_results(max_results=10):
@@ -511,20 +528,35 @@ def main():
     all_headlines = news_headlines + rss_headlines + reddit_posts + perplexity_results
     print(f"Total headlines fetched before deduplication: {len(all_headlines)}")
 
-    # 2. Deduplicate
-    unique_headlines = []
+    # 2. Deduplicate by URL
+    unique_headlines_by_url = []
     seen_urls = set()
     for item in all_headlines:
         if item['url'] and item['url'] not in seen_urls:
-            unique_headlines.append(item)
+            unique_headlines_by_url.append(item)
             seen_urls.add(item['url'])
         elif not item['url']:
              print(f"Warning: Headline '{item['title'][:50]}...' has no URL, skipping.")
+    print(f"Headlines after URL deduplication: {len(unique_headlines_by_url)}")
 
+    # NEW STEP: Generate rewritten_title for all and then deduplicate by it
+    headlines_with_rewritten_title = []
+    for item in unique_headlines_by_url:
+        item['rewritten_title'] = rewrite_headline(item['title']) # Generate rewritten title
+        headlines_with_rewritten_title.append(item)
 
-    print(f"Headlines after deduplication: {len(unique_headlines)}")
+    unique_headlines = [] # This will be the input for Google deduplication and categorization
+    seen_rewritten_titles = set()
+    for item in headlines_with_rewritten_title:
+        if item['rewritten_title'] not in seen_rewritten_titles:
+            unique_headlines.append(item)
+            seen_rewritten_titles.add(item['rewritten_title'])
+        else:
+            print(f"Deduplicating by rewritten title: '{item['rewritten_title']}' (URL: {item['url']})")
+    print(f"Headlines after rewritten title deduplication: {len(unique_headlines)}")
 
     # 2.5 Additional deduplication for overlapping sources like Google
+    # This section now operates on `unique_headlines` which has been deduplicated by URL and rewritten_title
     google_keywords = ['google', 'alphabet', 'gemini', 'bard']
     google_headline_count = sum(1 for item in unique_headlines if any(kw in item['title'].lower() for kw in google_keywords))
     
@@ -552,8 +584,8 @@ def main():
 
     # 3. Rewrite & Categorize
     categorized_data = {cat: [] for cat in CATEGORIES}
-    for item in unique_headlines:
-        item['rewritten_title'] = rewrite_headline(item['title'])
+    for item in unique_headlines: # This `unique_headlines` is now the result of all deduplication steps
+        # item['rewritten_title'] is already generated
         category = categorize_headline(item['title'], item['url'], item.get('source'))
         if category in categorized_data:
             categorized_data[category].append(item)
