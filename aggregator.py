@@ -22,13 +22,18 @@ REDDIT_CLIENT_ID = os.environ.get("REDDIT_CLIENT_ID")
 REDDIT_CLIENT_SECRET = os.environ.get("REDDIT_CLIENT_SECRET")
 REDDIT_USER_AGENT = os.environ.get("REDDIT_USER_AGENT", "PromptWireAggregator/0.1 by YourUsername") # Default UA
 
+# Re-enabled Reddit API credential check
 if not all([REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT]):
     print("Warning: Reddit API credentials (CLIENT_ID, CLIENT_SECRET, USER_AGENT) not fully set in environment variables. Reddit source will be skipped.")
 
-# Subreddits to fetch posts from
-SUBREDDITS = ["artificial", "LargeLanguageModels", "LocalLLaMA", "singularity", "MachineLearning"]
-MAX_REDDIT_POSTS_PER_SUB = 5 # Max posts to fetch per subreddit
-REDDIT_TIME_FILTER = 'day' # Time filter: hour, day, week, month, year, all
+# Updated Subreddits list but keep the ones the user wants
+SUBREDDITS = [
+    "artificial", "LargeLanguageModels", "LocalLLaMA", "singularity", "MachineLearning", # Original
+    "chatgpt", "claudeai", "characterai", "openai", "artificialintelligence",
+    "ai_agents", "StableDiffusion", "AIArt" # Added by user
+]
+MAX_REDDIT_POSTS_PER_SUB = 2 # Keep the reduced number
+REDDIT_TIME_FILTER = 'day' # Restore this constant
 
 NEWS_API_QUERY = 'ai OR "artificial intelligence" OR gpt OR llm OR "machine learning" OR openai OR anthropic OR claude OR sam altman OR google ai OR meta ai'
 MAX_NEWS_API_ARTICLES = 100 # Number of articles to fetch from NewsAPI (Increased from 25)
@@ -173,57 +178,68 @@ def get_prompt_of_the_day():
 # --- Data Fetching Functions ---
 
 def fetch_reddit_posts():
-    """Fetches top posts from specified subreddits using PRAW."""
+    """Fetches recent posts from specified subreddits."""
     if not all([REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT]):
+        print("Skipping Reddit fetch due to missing API credentials.")
         return []
 
-    headlines = []
+    all_headlines = []
+    print(f"Fetching Reddit posts from {len(SUBREDDITS)} subreddits...")
+    
     try:
-        print("Connecting to Reddit...")
+        # Initialize Reddit API client
         reddit = praw.Reddit(
             client_id=REDDIT_CLIENT_ID,
             client_secret=REDDIT_CLIENT_SECRET,
-            user_agent=REDDIT_USER_AGENT,
-            read_only=True # Read-only mode is sufficient
+            user_agent=REDDIT_USER_AGENT
         )
-        print("Connected to Reddit successfully.")
-
+        
         for sub_name in SUBREDDITS:
             try:
-                print(f"Fetching posts from r/{sub_name}...")
+                print(f"Getting posts from r/{sub_name}...")
+                
+                # Fetch hot posts from the subreddit
                 subreddit = reddit.subreddit(sub_name)
-                # Fetch top posts within the specified time frame
-                top_posts = subreddit.top(time_filter=REDDIT_TIME_FILTER, limit=MAX_REDDIT_POSTS_PER_SUB)
-
-                count = 0
-                for post in top_posts:
-                    # Skip self-posts with no meaningful external link unless desired
-                    # if post.is_self and not post.selftext:
-                    #     continue
-
-                    # Use post URL for link posts, or reddit comments URL for self-posts
-                    post_url = post.url if not post.is_self else f"https://www.reddit.com{post.permalink}"
-
-                    headlines.append({
+                hot_posts = subreddit.hot(limit=MAX_REDDIT_POSTS_PER_SUB)
+                
+                added_count = 0
+                for post in hot_posts:
+                    # Skip stickied posts and posts without titles
+                    if post.stickied or not post.title:
+                        continue
+                    
+                    # Skip non-English posts using language detection
+                    try:
+                        lang = detect(post.title)
+                        if lang != 'en':
+                            print(f"  - Skipping non-English post (lang: {lang}) from r/{sub_name}: {post.title[:50]}...")
+                            continue
+                    except LangDetectException:
+                        print(f"  - Skipping post due to language detection error from r/{sub_name}: {post.title[:50]}...")
+                        continue
+                    
+                    # Add the post to our list
+                    all_headlines.append({
                         'title': post.title,
-                        'url': post_url,
-                        'source': f'Reddit r/{sub_name}'
+                        'url': f"https://www.reddit.com{post.permalink}",
+                        'source': f"Reddit r/{sub_name}"
                     })
-                    count += 1
-                print(f"  - Fetched {count} posts from r/{sub_name}.")
-
-            except praw.exceptions.PRAWException as e:
-                print(f"Error fetching from subreddit r/{sub_name}: {e}")
+                    added_count += 1
+                    
+                    # Stop if we've hit our limit for this subreddit
+                    if added_count >= MAX_REDDIT_POSTS_PER_SUB:
+                        break
+                
+                print(f"  - Added {added_count} posts from r/{sub_name}")
+                
             except Exception as e:
-                print(f"An unexpected error occurred processing r/{sub_name}: {e}")
-
-    except praw.exceptions.PRAWException as e:
-        print(f"Error initializing Reddit connection: {e}")
+                print(f"Error fetching posts from r/{sub_name}: {e}")
+                
     except Exception as e:
-        print(f"An unexpected error occurred during Reddit processing: {e}")
-
-    print(f"Fetched {len(headlines)} total posts from Reddit.")
-    return headlines
+        print(f"Error initializing Reddit API: {e}")
+    
+    print(f"Fetched {len(all_headlines)} total posts from Reddit.")
+    return all_headlines
 
 def fetch_newsapi_articles():
     """Fetches and processes articles from NewsAPI with enhanced logging."""
