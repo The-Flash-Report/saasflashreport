@@ -92,6 +92,17 @@ CATEGORY_KEYWORDS = {
 # Define keywords that strongly suggest a 'Trending Now' priority
 TRENDING_KEYWORDS = ['exclusive', 'breaking', 'leak', 'major', 'significant']
 
+# New: Define keywords that will cause an article to be skipped
+NEGATIVE_KEYWORDS = [
+    'ufo', 'alien', 'paranormal', # For UFO type stories
+    'airport', 'airline', 'travel disruption', # For airport staffing type stories
+    'trump', 'biden', 'election', 'politics', # General, often off-topic politics
+    'gossip', 'scandal',
+    'glen tullman', # Added
+    'fyodorov',     # Added
+    # Add more specific terms as needed based on observed off-topic articles
+]
+
 # --- Helper Functions ---
 
 def rewrite_headline(title, max_words=MAX_HEADLINE_WORDS):
@@ -286,13 +297,19 @@ def fetch_newsapi_articles():
 
         articles_kept = 0
         for i, article in enumerate(articles):
-            title_lower = article.get('title', '').lower()
+            title = article.get('title', 'No Title') # Get title early
+            title_lower = title.lower()
             url = article.get('url', '#')
             source_name = article.get('source', {}).get('name', 'Unknown Source') # Get source name if available
 
-            # Check for keywords
+            # New: Check for negative keywords first
+            if any(neg_keyword in title_lower for neg_keyword in NEGATIVE_KEYWORDS):
+                print(f"LOG: Skipping article {i+1}/{total_articles_received}: Title '{title}' contains negative keyword.")
+                continue # Skip this article
+
+            # Check for positive keywords (existing check)
             if not any(kw in title_lower for kw in title_keywords):
-                 print(f"LOG: Skipping article {i+1}/{total_articles_received}: Title '{article.get('title', 'N/A')}' missing required keywords.")
+                 print(f"LOG: Skipping article {i+1}/{total_articles_received}: Title '{title}' missing required positive keywords.")
                  continue # Skip this article
 
             # Check for potentially problematic non-English characters sometimes returned
@@ -359,61 +376,40 @@ def fetch_rss_entries():
             if feed.bozo:
                 print(f"Warning: Feed from {source} might be ill-formed. Reason: {feed.bozo_exception}")
             if not feed.entries:
-                print(f"No entries found for {source}.")
+                print(f"No entries found for {source}. Skipping.")
                 continue
 
-            print(f"Successfully fetched {len(feed.entries)} entries from {source}.")
-            
-            # Apply source-specific limits
-            source_limit = MAX_RSS_ENTRIES_PER_SOURCE
-            
-            # Special handling for Google AI - limit to only 1 entry
-            if source == "Google AI":
-                source_limit = 1
-                print(f"  - Note: Applying stricter limit (1) for Google AI feed")
-                
-            entry_count = 0
+            added_count = 0
             for entry in feed.entries:
-                # Stop if we've reached the limit for this source
-                if entry_count >= source_limit:
-                    break
-                    
-                title = entry.get('title', 'No Title')
-                link = entry.get('link', '#')
-
-                # Language detection
-                try:
-                    if title and title != 'No Title':
-                        lang = detect(title)
-                        if lang != 'en':
-                            print(f"  - Skipping non-English entry (lang: {lang}): {title[:50]}...")
-                            continue
-                    else: # If title is empty or 'No Title', skip it.
-                        print(f"  - Skipping entry with no valid title from {source}.")
-                        continue
-                except LangDetectException:
-                    # If language detection fails (e.g., title is too short, ambiguous, or not text)
-                    # We can choose to skip it or allow it. For now, let's skip to be safe.
-                    print(f"  - Skipping entry due to language detection error (possibly too short/ambiguous): {title[:50]}...")
+                # Check for essential attributes
+                if not hasattr(entry, 'title') or not hasattr(entry, 'link'):
+                    print(f"  - Skipping entry from {source} due to missing title or link.")
                     continue
                 
-                # Try to get the published date
+                title_lower = entry.title.lower()
+
+                # New: Check for negative keywords
+                if any(neg_keyword in title_lower for neg_keyword in NEGATIVE_KEYWORDS):
+                    print(f"  - Skipping entry from {source} due to negative keyword: {entry.title[:50]}...")
+                    continue
+
+                # Published date handling
                 try:
                     if 'published_parsed' in entry and entry.published_parsed:
                         # Convert time tuple to datetime
                         pub_date = datetime.datetime(*entry.published_parsed[:6])
                         # Skip entries older than the cutoff date
                         if pub_date < cutoff_date:
-                            print(f"  - Skipping old entry: {title[:30]}... (published {pub_date.strftime('%Y-%m-%d')})")
+                            print(f"  - Skipping old entry: {entry.title[:30]}... (published {pub_date.strftime('%Y-%m-%d')})")
                             continue
                 except (AttributeError, ValueError) as e:
                     # If we can't parse the date, assume it's recent
-                    print(f"  - Warning: Couldn't parse date for entry: {title[:30]}... - {e}")
+                    print(f"  - Warning: Couldn't parse date for entry: {entry.title[:30]}... - {e}")
                 
-                all_entries.append({'title': title, 'url': link, 'source': source})
-                entry_count += 1
+                all_entries.append({'title': entry.title, 'url': entry.link, 'source': source})
+                added_count += 1
                 
-            print(f"  - Added {entry_count} recent entries from {source} (limit: {source_limit}).")
+            print(f"  - Added {added_count} recent entries from {source} (limit: {MAX_RSS_ENTRIES_PER_SOURCE}).")
                 
         except Exception as e:
             print(f"Error parsing RSS feed for {source}: {e}")
