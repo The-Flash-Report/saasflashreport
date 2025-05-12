@@ -51,7 +51,8 @@ EXCLUDED_SITES = [
     'pypi.org',
     'prtimes.jp',
     'thestar.com',
-    'biztoc.com'
+    'biztoc.com',
+    'freerepublic.com'
 ]
 
 # URL patterns that indicate low-quality content
@@ -76,7 +77,8 @@ SUBREDDITS = [
 MAX_REDDIT_POSTS_PER_SUB = 2 # Keep the reduced number
 REDDIT_TIME_FILTER = 'day' # Restore this constant
 
-NEWS_API_QUERY = 'ai OR "artificial intelligence" OR gpt OR llm OR "machine learning" OR openai OR anthropic OR claude OR sam altman OR google ai OR meta ai'
+# Updated NewsAPI query to be more inclusive
+NEWS_API_QUERY = '(artificial intelligence OR AI OR "machine learning" OR "deep learning" OR "neural network" OR "large language model" OR LLM OR GPT OR "generative AI") AND (technology OR business OR science OR research OR innovation)'
 MAX_NEWS_API_ARTICLES = 100 # Number of articles to fetch from NewsAPI (Increased from 25)
 MAX_HEADLINE_WORDS = 8
 
@@ -84,12 +86,18 @@ MAX_HEADLINE_WORDS = 8
 MAX_RSS_ENTRIES_PER_SOURCE = 3  # Limit RSS entries per source (Updated from 5 to 3)
 RSS_CUTOFF_DAYS = 2  # Only include RSS entries from the last 2 days (Changed from 7)
 
+# Add major news sources to RSS feeds
 RSS_FEEDS = {
     "OpenAI": "https://openai.com/blog/rss.xml",
     "Anthropic": "https://www.anthropic.com/rss/",  # Updated URL
     "Google AI": "https://blog.google/technology/ai/rss/",
     "Meta AI": "https://ai.meta.com/blog/rss/",
-    # New RSS feeds
+    # Major news sources
+    "The Economist": "https://www.economist.com/science-and-technology/rss.xml",
+    "MIT Technology Review": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+    "Wired": "https://www.wired.com/tag/artificial-intelligence/feed/rss",
+    "The Verge": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml",
+    # Existing RSS feeds
     "Import AI": "https://jack-clark.net/feed/",
     "Machine Learning Mastery": "https://machinelearningmastery.com/blog/feed/",
     "The Batch": "https://read.deeplearning.ai/the-batch/rss/",
@@ -299,7 +307,8 @@ def fetch_newsapi_articles():
         'apiKey': NEWS_API_KEY,
         'language': 'en',
         'sortBy': 'publishedAt', # Get latest articles first
-        'pageSize': MAX_NEWS_API_ARTICLES
+        'pageSize': MAX_NEWS_API_ARTICLES,
+        'domains': 'economist.com,nytimes.com,wsj.com,ft.com,technologyreview.com,wired.com,theverge.com,techcrunch.com,reuters.com,bloomberg.com' # Added major news domains
     }
 
     # Construct the full URL for logging (mask API key)
@@ -321,8 +330,8 @@ def fetch_newsapi_articles():
         total_articles_received = len(articles)
         print(f"LOG: Successfully received {total_articles_received} articles from NewsAPI before internal filtering.")
 
-        # Define the keywords for internal filtering
-        title_keywords = ['ai', 'gpt', 'llm', 'prompt', 'claude', 'openai', 'anthropic', 'google', 'meta', 'tool']
+        # Updated keywords for internal filtering - more inclusive
+        title_keywords = ['ai', 'artificial intelligence', 'machine learning', 'deep learning', 'neural', 'gpt', 'llm', 'openai', 'anthropic', 'google', 'meta', 'microsoft', 'nvidia', 'intelligence', 'technology', 'research', 'innovation']
         print(f"LOG: Internal title filter keywords: {title_keywords}")
 
         articles_kept = 0
