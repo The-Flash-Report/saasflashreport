@@ -118,4 +118,54 @@ Please refer to the `git-workflow.mdc` for contribution guidelines. Key points i
 
 *   **Git Workflow:** `promptwire/.cursor/rules/git-workflow.mdc`
 *   **Project Brief:** `promptwire/.cursor/rules/project-brief.mdc`
-*   **SEO Guidelines:** `promptwire/.cursor/rules/seo-guidelines.mdc` 
+*   **SEO Guidelines:** `promptwire/.cursor/rules/seo-guidelines.mdc`
+
+## Configuration
+
+The aggregator can be configured through `config.json`. This file contains settings for site exclusions and content filtering:
+
+```json
+{
+    "excluded_sites": [
+        "pypi.org",
+        "prtimes.jp",
+        "thestar.com",
+        "biztoc.com"
+    ],
+    "low_quality_url_patterns": [
+        "/tag/",
+        "/category/",
+        "/author/",
+        "/page/",
+        "/feed/",
+        "/rss/",
+        "/amp/",
+        "/mobile/",
+        "/m/"
+    ],
+    "negative_keywords": [
+        "ufo",
+        "alien",
+        "paranormal",
+        "airport",
+        "airline",
+        "travel disruption",
+        "trump",
+        "biden",
+        "election",
+        "politics",
+        "gossip",
+        "scandal",
+        "glen tullman",
+        "fyodorov"
+    ]
+}
+```
+
+### Configuration Options
+
+- `excluded_sites`: List of domains to completely exclude from aggregation
+- `low_quality_url_patterns`: URL patterns that indicate low-quality content
+- `negative_keywords`: Keywords that will cause an article to be skipped
+
+To add or remove sites from the exclusion list, simply edit the `excluded_sites` array in `config.json`. The changes will take effect the next time the aggregator runs. 

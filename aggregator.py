@@ -8,6 +8,21 @@ import json # Added for Perplexity JSON handling
 import re # Added for footer update regex
 from langdetect import detect, LangDetectException # Added for language detection
 
+# Load configuration
+def load_config():
+    try:
+        with open('config.json', 'r') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print("Warning: config.json not found. Using default configuration.")
+        return {
+            "excluded_sites": [],
+            "low_quality_url_patterns": [],
+            "negative_keywords": []
+        }
+
+config = load_config()
+
 # --- Configuration ---
 NEWS_API_KEY = os.environ.get("NEWS_API_KEY")
 if not NEWS_API_KEY:
@@ -25,6 +40,32 @@ REDDIT_USER_AGENT = os.environ.get("REDDIT_USER_AGENT", "PromptWireAggregator/0.
 # Re-enabled Reddit API credential check
 if not all([REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT]):
     print("Warning: Reddit API credentials (CLIENT_ID, CLIENT_SECRET, USER_AGENT) not fully set in environment variables. Reddit source will be skipped.")
+
+# Load configuration values
+EXCLUDED_SITES = config.get('excluded_sites', [])
+LOW_QUALITY_URL_PATTERNS = config.get('low_quality_url_patterns', [])
+NEGATIVE_KEYWORDS = config.get('negative_keywords', [])
+
+# Sites to exclude from NewsAPI results
+EXCLUDED_SITES = [
+    'pypi.org',
+    'prtimes.jp',
+    'thestar.com',
+    'biztoc.com'
+]
+
+# URL patterns that indicate low-quality content
+LOW_QUALITY_URL_PATTERNS = [
+    '/tag/',
+    '/category/',
+    '/author/',
+    '/page/',
+    '/feed/',
+    '/rss/',
+    '/amp/',
+    '/mobile/',
+    '/m/'
+]
 
 # Updated Subreddits list but keep the ones the user wants
 SUBREDDITS = [
@@ -91,17 +132,6 @@ CATEGORY_KEYWORDS = {
 
 # Define keywords that strongly suggest a 'Trending Now' priority
 TRENDING_KEYWORDS = ['exclusive', 'breaking', 'leak', 'major', 'significant']
-
-# New: Define keywords that will cause an article to be skipped
-NEGATIVE_KEYWORDS = [
-    'ufo', 'alien', 'paranormal', # For UFO type stories
-    'airport', 'airline', 'travel disruption', # For airport staffing type stories
-    'trump', 'biden', 'election', 'politics', # General, often off-topic politics
-    'gossip', 'scandal',
-    'glen tullman', # Added
-    'fyodorov',     # Added
-    # Add more specific terms as needed based on observed off-topic articles
-]
 
 # --- Helper Functions ---
 
@@ -302,6 +332,16 @@ def fetch_newsapi_articles():
             url = article.get('url', '#')
             source_name = article.get('source', {}).get('name', 'Unknown Source') # Get source name if available
 
+            # Check for excluded sites
+            if any(excluded_site in url.lower() for excluded_site in EXCLUDED_SITES):
+                print(f"LOG: Skipping article {i+1}/{total_articles_received}: URL '{url}' is from excluded site.")
+                continue
+
+            # Check for low-quality URL patterns
+            if any(pattern in url.lower() for pattern in LOW_QUALITY_URL_PATTERNS):
+                print(f"LOG: Skipping article {i+1}/{total_articles_received}: URL '{url}' matches low-quality pattern.")
+                continue
+
             # New: Check for negative keywords first
             if any(neg_keyword in title_lower for neg_keyword in NEGATIVE_KEYWORDS):
                 print(f"LOG: Skipping article {i+1}/{total_articles_received}: Title '{title}' contains negative keyword.")
@@ -318,6 +358,16 @@ def fetch_newsapi_articles():
                 # Attempt to encode/decode to catch potential issues early
                 article_title.encode('utf-8').decode('utf-8') 
                 
+                # Add language detection
+                try:
+                    lang = detect(article_title)
+                    if lang != 'en':
+                        print(f"LOG: Skipping non-English article (lang: {lang}): {article_title[:50]}...")
+                        continue
+                except LangDetectException:
+                    print(f"LOG: Skipping article due to language detection error: {article_title[:50]}...")
+                    continue
+                
                 # Create the headline dictionary
                 headline_data = {
                     'title': article_title,
@@ -331,7 +381,6 @@ def fetch_newsapi_articles():
             except UnicodeEncodeError as ue_error:
                 print(f"LOG: Skipping article {i+1}/{total_articles_received} due to encoding error in title: {ue_error}")
                 continue
-
 
         print(f"LOG: Kept {articles_kept} articles from NewsAPI after internal filtering.")
 
@@ -388,9 +437,29 @@ def fetch_rss_entries():
                 
                 title_lower = entry.title.lower()
 
+                # Check for excluded sites
+                if any(excluded_site in entry.link.lower() for excluded_site in EXCLUDED_SITES):
+                    print(f"  - Skipping entry from {source} due to excluded site: {entry.link}")
+                    continue
+
+                # Check for low-quality URL patterns
+                if any(pattern in entry.link.lower() for pattern in LOW_QUALITY_URL_PATTERNS):
+                    print(f"  - Skipping entry from {source} due to low-quality URL pattern: {entry.link}")
+                    continue
+
                 # New: Check for negative keywords
                 if any(neg_keyword in title_lower for neg_keyword in NEGATIVE_KEYWORDS):
                     print(f"  - Skipping entry from {source} due to negative keyword: {entry.title[:50]}...")
+                    continue
+
+                # Add language detection
+                try:
+                    lang = detect(entry.title)
+                    if lang != 'en':
+                        print(f"  - Skipping non-English entry (lang: {lang}) from {source}: {entry.title[:50]}...")
+                        continue
+                except LangDetectException:
+                    print(f"  - Skipping entry due to language detection error from {source}: {entry.title[:50]}...")
                     continue
 
                 # Published date handling
