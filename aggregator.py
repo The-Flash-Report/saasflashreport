@@ -618,6 +618,19 @@ def main():
     archive_dir = 'archive'
     os.makedirs(archive_dir, exist_ok=True)
 
+    # --- New: Load previously processed URLs ---
+    processed_urls_file = 'processed_urls.json'
+    try:
+        with open(processed_urls_file, 'r') as f:
+            historical_urls = set(json.load(f))
+        print(f"Loaded {len(historical_urls)} previously processed URLs.")
+    except FileNotFoundError:
+        historical_urls = set()
+        print("No previously processed URLs file found. Starting fresh.")
+    except json.JSONDecodeError:
+        historical_urls = set()
+        print(f"Warning: Could not decode {processed_urls_file}. Starting with an empty set of historical URLs.")
+
     # 1. Fetch data
     news_headlines = fetch_newsapi_articles()
     rss_headlines = fetch_rss_entries()
@@ -626,18 +639,24 @@ def main():
 
     # Combine all sources
     all_headlines = news_headlines + rss_headlines + reddit_posts + perplexity_results
-    print(f"Total headlines fetched before deduplication: {len(all_headlines)}")
+    print(f"Total headlines fetched before any deduplication: {len(all_headlines)}")
 
-    # 2. Deduplicate by URL
-    unique_headlines_by_url = []
-    seen_urls = set()
+    # --- New: Filter against historical URLs first ---
+    current_run_headlines = []
     for item in all_headlines:
-        if item['url'] and item['url'] not in seen_urls:
+        if item.get('url') and item['url'] not in historical_urls:
+            current_run_headlines.append(item)
+        elif item.get('url'):
+            print(f"Skipping already processed URL: {item['url']}")
+    print(f"Headlines after filtering against historical URLs: {len(current_run_headlines)}")
+
+    # 2. Deduplicate by URL (for the current batch)
+    unique_headlines_by_url = []
+    seen_urls_current_run = set()
+    for item in current_run_headlines: # Use filtered list
+        if item['url'] and item['url'] not in seen_urls_current_run:
             unique_headlines_by_url.append(item)
-            seen_urls.add(item['url'])
-        elif not item['url']:
-             print(f"Warning: Headline '{item['title'][:50]}...' has no URL, skipping.")
-    print(f"Headlines after URL deduplication: {len(unique_headlines_by_url)}")
+            seen_urls_current_run.add(item['url'])
 
     # NEW STEP: Generate rewritten_title for all and then deduplicate by it
     headlines_with_rewritten_title = []
@@ -749,7 +768,14 @@ def main():
 
     # 7. Save the same output as index.html for the latest view
     latest_filename = "index.html"
+    newly_published_urls_for_this_run = set() # To collect URLs published in this specific run
     try:
+        # Before rendering, collect URLs that will be published
+        for category_list in categorized_data.values():
+            for item in category_list:
+                if item.get('url'):
+                    newly_published_urls_for_this_run.add(item['url'])
+
         with open(latest_filename, 'w', encoding='utf-8') as f:
             f.write(rendered_html)
         print(f"Successfully updated {latest_filename}")
@@ -875,6 +901,18 @@ def main():
             
     except Exception as e:
         print(f"Error processing archive files or updating footer: {e}")
+
+    # --- New: Update and save processed URLs ---
+    if newly_published_urls_for_this_run:
+        updated_historical_urls = historical_urls.union(newly_published_urls_for_this_run)
+        try:
+            with open(processed_urls_file, 'w') as f:
+                json.dump(list(updated_historical_urls), f, indent=4)
+            print(f"Successfully updated {processed_urls_file} with {len(newly_published_urls_for_this_run)} new URLs. Total: {len(updated_historical_urls)}.")
+        except IOError as e:
+            print(f"Error writing {processed_urls_file}: {e}")
+    else:
+        print("No new URLs were published in this run. Processed URLs file not updated.")
 
     end_time = datetime.datetime.now()
     print(f"Aggregation finished in {(end_time - start_time).total_seconds():.2f} seconds.")

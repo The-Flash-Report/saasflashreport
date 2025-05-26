@@ -1,4 +1,16 @@
-
 .DS_Store
 
 *.bak
+
+# Python virtual environment
+venv/
+*.venv/
+
+# Environment variables file
+.env
+
+# Auto-generated files by aggregator.py
+index.html
+archive/
+sitemap.xml
+processed_urls.json
