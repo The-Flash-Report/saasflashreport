@@ -101,8 +101,9 @@ This workflow:
 1.  Checks out the `main` branch.
 2.  Sets up Python and installs dependencies.
 3.  Runs `aggregator.py` using API keys stored as GitHub Secrets.
+    *   The script now includes **historical deduplication**. It maintains a `processed_urls.json` file (which should be in `.gitignore`) to track all URLs published in previous runs. This prevents the same article from reappearing on subsequent days.
 4.  Runs `generate_sitemap.py`.
-5.  Commits the generated `index.html`, archive files, and `sitemap.xml` back to the `main` branch.
+5.  Commits the generated `index.html`, archive files, `sitemap.xml`, and the updated `processed_urls.json` back to the `main` branch.
 6.  Pushes the changes to GitHub, which (if configured) updates the live site.
 
 Refer to `promptwire/.cursor/rules/git-workflow.mdc` for details on the Git workflow for manual changes.
@@ -112,7 +113,7 @@ Refer to `promptwire/.cursor/rules/git-workflow.mdc` for details on the Git work
 Please refer to the `git-workflow.mdc` for contribution guidelines. Key points include:
 *   Work on feature branches.
 *   Ensure API keys are not committed.
-*   Restore generated files (`index.html`, `archive/`) before committing if they were changed locally during testing. The GitHub Action is responsible for their final generation.
+*   Restore generated files (`index.html`, `archive/`, `sitemap.xml`, `processed_urls.json`) before committing if they were changed locally during testing. The GitHub Action is responsible for their final generation.
 
 ## Further Documentation
 
