@@ -169,4 +169,10 @@ The aggregator can be configured through `config.json`. This file contains setti
 - `low_quality_url_patterns`: URL patterns that indicate low-quality content
 - `negative_keywords`: Keywords that will cause an article to be skipped
 
-To add or remove sites from the exclusion list, simply edit the `excluded_sites` array in `config.json`. The changes will take effect the next time the aggregator runs. 
+To add or remove sites from the exclusion list, simply edit the `excluded_sites` array in `config.json`. The changes will take effect the next time the aggregator runs.
+
+## Note on Deduplication Logic
+
+The current deduplication logic prevents the same article URL from being published more than once across all days. However, if a story remains present in the news feeds for multiple days, it may appear on two consecutive days (e.g., on both May 24 and May 25) before being filtered out on subsequent days. This is because the deduplication is based on URLs already published in previous runs, and the update to the deduplication list happens after each day's publication.
+
+If you want stricter deduplication (so a story never appears on two consecutive days), you would need to compare today's candidate URLs against both the historical set and the previous day's published URLs before publishing. This is not implemented by default, as it is common for news aggregators to allow stories to remain visible for more than one day if they are still current in the feeds. 
