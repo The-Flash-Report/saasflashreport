@@ -263,6 +263,129 @@
             color: #cc0000;
             font-weight: bold;
         }
+        
+        /* Newsletter Signup Form Styling */
+        .newsletter-signup {
+            border: none;
+            border-left: 4px solid #cc0000;
+            background-color: #f8f8f8;
+            padding: 25px;
+            margin: 40px 0 30px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            position: relative;
+        }
+        .newsletter-signup:before {
+            content: "📧"; /* Email emoji as decoration */
+            position: absolute;
+            top: -15px;
+            left: 15px;
+            font-size: 24px;
+            background: white;
+            padding: 0 10px;
+        }
+        .newsletter-signup h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #cc0000;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1.1em;
+        }
+        .newsletter-signup p {
+            margin-bottom: 20px;
+            color: #555;
+            font-size: 1em;
+            line-height: 1.4;
+        }
+        .newsletter-form {
+            max-width: 450px;
+            margin: 0 auto;
+        }
+        .form-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            align-items: stretch;
+        }
+        .newsletter-form input[type="email"] {
+            flex: 1;
+            padding: 14px 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            font-family: inherit;
+            transition: border-color 0.2s ease;
+        }
+        .newsletter-form input[type="email"]:focus {
+            outline: none;
+            border-color: #cc0000;
+            box-shadow: 0 0 0 2px rgba(204, 0, 0, 0.1);
+        }
+        .newsletter-form button {
+            padding: 14px 24px;
+            background-color: #cc0000;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 14px;
+            font-family: inherit;
+            transition: background-color 0.2s ease;
+            white-space: nowrap;
+        }
+        .newsletter-form button:hover {
+            background-color: #aa0000;
+        }
+        .newsletter-form button:active {
+            background-color: #990000;
+        }
+        .frequency-options {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            font-size: 13px;
+            color: #666;
+            margin-top: 10px;
+        }
+        .frequency-options label {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            transition: color 0.2s ease;
+        }
+        .frequency-options label:hover {
+            color: #cc0000;
+        }
+        .frequency-options input[type="radio"] {
+            margin: 0;
+            accent-color: #cc0000;
+        }
+        .privacy-note {
+            font-size: 11px;
+            color: #888;
+            margin-top: 15px;
+            line-height: 1.3;
+        }
+        
+        /* Mobile responsiveness for newsletter form */
+        @media (max-width: 480px) {
+            .form-row {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .newsletter-form button {
+                width: 100%;
+            }
+            .frequency-options {
+                flex-direction: column;
+                gap: 8px;
+                align-items: center;
+            }
+        }
     </style>
     <script defer data-domain="aiflashreport" src="https://plausible.io/js/script.js"></script>
 
@@ -371,8 +494,31 @@
             <p class="platforms"><strong>Use with:</strong> {{ prompt_of_the_day.platforms | join(", ") }}</p>
         </div>
 
+        <!-- Newsletter Signup Form -->
+        <div class="newsletter-signup">
+            <h3>Get AI News Delivered Daily</h3>
+            <p><strong>Join 1,000+ AI enthusiasts</strong> getting the most important AI news, breakthroughs, and tools delivered to their inbox every morning. No spam, unsubscribe anytime.</p>
+            
+            <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="newsletter-form" action="/thank-you">
+                <!-- Hidden honeypot field for spam protection -->
+                <p style="display: none;">
+                    <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                </p>
+                
+                <div class="form-row">
+                    <input type="email" name="email" placeholder="Enter your email address" required>
+                    <button type="submit">Get AI News</button>
+                </div>
+                
+                <p class="privacy-note">
+                    🔒 We respect your privacy. Unsubscribe at any time. 
+                    Read our <a href="/privacy.html" style="color: #cc0000;">Privacy Policy</a>.
+                </p>
+            </form>
+        </div>
+
         <footer>
-            AI Flash Report - Automated AI News Aggregation | <a href="/archive/">See Archive Index</a> | <a href="/about.html">About</a>
+            AI Flash Report - Automated AI News Aggregation | <a href="/archive/">See Archive Index</a> | <a href="/about.html">About</a> | <a href="/contact.html">Contact</a>
             <div class="archive-links">
                 Recent Archives:
                 <!-- ARCHIVE_LINKS_PLACEHOLDER -->
@@ -380,5 +526,44 @@
         </footer>
 
     </div> <!-- end .container -->
+
+    <!-- Newsletter Form Analytics & UX Script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const newsletterForm = document.querySelector('form[name="newsletter"]');
+        
+        if (newsletterForm) {
+            newsletterForm.addEventListener('submit', function(e) {
+                // Track newsletter signup with Plausible
+                if (window.plausible) {
+                    window.plausible('Newsletter Signup');
+                }
+                
+                // Provide immediate user feedback
+                const submitButton = this.querySelector('button[type="submit"]');
+                const originalText = submitButton.textContent;
+                submitButton.textContent = 'Subscribing...';
+                submitButton.disabled = true;
+                
+                // Re-enable button after a delay (in case of form errors)
+                setTimeout(function() {
+                    submitButton.textContent = originalText;
+                    submitButton.disabled = false;
+                }, 3000);
+            });
+        }
+        
+        // Track external link clicks for better analytics
+        document.querySelectorAll('a[target="_blank"]').forEach(function(link) {
+            link.addEventListener('click', function() {
+                if (window.plausible) {
+                    window.plausible('External Link Click', {
+                        props: { url: this.href }
+                    });
+                }
+            });
+        });
+    });
+    </script>
 </body>
 </html> 
