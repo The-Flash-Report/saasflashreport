@@ -41,7 +41,7 @@ This feature extends the existing AI Flash Report aggregation platform to create
    - The system must update automatically with each aggregator run
 
 2. **Google AI News Page** (`google-ai-news.html`)
-   - The system must filter articles containing keywords: "Google", "Bard", "Gemini", "DeepMind", "Google AI"
+   - The system must filter articles containing keywords: "Google", "Gemini", "DeepMind", "Google AI"
    - The system must exclude generic Google news not related to AI
    - The system must prioritize content from Google AI blog RSS feed
 

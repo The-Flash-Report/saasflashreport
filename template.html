@@ -15,13 +15,13 @@
     <meta name="robots" content="index, follow">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://aiflashreport.com/">
+    <link rel="canonical" href="https://aiflashreport.com{{ canonical_path|default('/') }}">
     
     <!-- Open Graph Tags -->
     <meta property="og:title" content="AI Flash Report - Daily AI News Roundup">
     <meta property="og:description" content="Your daily AI news digest: The latest from OpenAI, Anthropic, Google AI, and more. Get updated on AI tools, research breakthroughs, and industry trends.">
     <meta property="og:image" content="https://aiflashreport.com/images/og-image.png">
-    <meta property="og:url" content="https://aiflashreport.com/">
+    <meta property="og:url" content="https://aiflashreport.com{{ canonical_path|default('/') }}">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="AI Flash Report">
     
@@ -38,11 +38,11 @@
       "@type": "NewsArticle",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://aiflashreport.com/"
+        "@id": "https://aiflashreport.com{{ canonical_path|default('/') }}"
       },
-      "headline": "AI Flash Report - Daily AI News Roundup - 2025-05-28",
-      "datePublished": "2025-05-28T00:00:00+00:00",
-      "dateModified": "2025-05-28T00:00:00+00:00",
+      "headline": "AI Flash Report - Daily AI News Roundup - {{ update_time }}",
+      "datePublished": "{{ update_time }}T00:00:00+00:00",
+      "dateModified": "{{ update_time }}T00:00:00+00:00",
       "publisher": {
         "@type": "Organization",
         "name": "AI Flash Report",
@@ -397,14 +397,14 @@
     <div class="container">
         <!-- Site Title -->
         <h1><a href="/index.html" style="text-decoration: none; color: inherit;">AI <span class="wire-part">Flash</span> Report</a></h1>
-        <p class="subtitle">Daily AI News Roundup - Updated: 2025-05-28</p>
+        <p class="subtitle">Daily AI News Roundup - Updated: {{ update_time }}</p>
         
         <!-- Breadcrumbs navigation for SEO -->
         <nav class="breadcrumbs" style="font-size: 0.85em; margin-bottom: 15px; color: #666; display: flex; justify-content: space-between; align-items: center;">
-            
+            {% if canonical_path == "/" %}
             <!-- Home page version with date navigation arrows -->
             <div class="nav-arrow" style="flex: 1; text-align: left;">
-                <a href="/archive/2025-05-27.html" style="color: #666; text-decoration: none; font-size: 1em;">← Previous</a>
+                <a href="/archive/{{ yesterday_date }}.html" style="color: #666; text-decoration: none; font-size: 1em;">← Previous</a>
             </div>
             <ol itemscope itemtype="https://schema.org/BreadcrumbList" style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; flex: 2; justify-content: center;">
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" style="margin-right: 5px;">
@@ -415,188 +415,71 @@
             <div class="nav-arrow" style="flex: 1; text-align: right;">
                 <span style="color: #ccc; font-size: 1em;">Next →</span>
             </div>
-            
+            {% else %}
+            <!-- Archive page version with date navigation arrows -->
+            <div class="nav-arrow" style="flex: 1; text-align: left;">
+                <a href="/archive/{{ yesterday_date }}.html" style="color: #666; text-decoration: none; font-size: 1em;">← Previous</a>
+            </div>
+            <ol itemscope itemtype="https://schema.org/BreadcrumbList" style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; flex: 2; justify-content: center;">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" style="margin-right: 5px;">
+                    <a itemprop="item" href="/" style="color: #666; text-decoration: none;">
+                        <span itemprop="name">Home</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" style="margin-right: 0;">
+                    <span style="margin: 0 5px;">/</span>
+                    <a itemprop="item" href="{{ canonical_path }}" style="color: #666; text-decoration: none;">
+                        <span itemprop="name">{{ update_time }}</span>
+                    </a>
+                    <meta itemprop="position" content="2" />
+                </li>
+            </ol>
+            <div class="nav-arrow" style="flex: 1; text-align: right;">
+                <a href="/archive/{{ tomorrow_date }}.html" style="color: #666; text-decoration: none; font-size: 1em;">Next →</a>
+            </div>
+            {% endif %}
         </nav>
 
         <!-- Vertical News Feed -->
         <div class="main-content">
-            
-                
+            {% for category, headlines in categories.items() %}
+                {% if headlines %}
                     <div class="headline-block">
-                        <h3>Trending Now</h3>
+                        <h3>{{ category }}</h3>
 
-                        
-                        
+                        {# **** INSERTED BLOCK: Category descriptions with keywords **** #}
+                        {% if category == 'Trending Now' %}
                             <p class="category-description"><i>Catch up on the latest AI news, top headlines, and breaking artificial intelligence updates.</i></p>
-                        
-                        
-
-                        
-                            <p>
-                                <a href="https://techcrunch.com/2025/05/01/chatgpt-everything-to-know-about-the-ai-chatbot/" target="_blank">CHATGPT: EVERYTHING YOU NEED TO KNOW ABOUT THE...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://venturebeat.com/security/shadow-ai-is-consultings-survival-strategy-in-the-genai-era/" target="_blank">SECURITY LEADERS LOSE VISIBILITY AS CONSULTANTS DEPLOY SHADOW...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://venturebeat.com/games/build-a-rocket-boy-drops-trailer-detailing-mindseyes-blend-of-grand-theft-auto-and-ai-robot-combat/" target="_blank">BUILD A ROCKET BOY DROPS TRAILER DETAILING MINDSEYE’S...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1kwucpn/no_hate_but_claude4_is_disappointing/" target="_blank">😞NO HATE BUT CLAUDE-4 IS DISAPPOINTING</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1kwk1jm/wife_isnt_home_that_means_h200_in_the_living_room/" target="_blank">WIFE ISN’T HOME, THAT MEANS H200 IN THE...</a>
-                            </p>
-                        
-                    </div>
-                
-            
-                
-                    <div class="headline-block">
-                        <h3>AI Products</h3>
-
-                        
-                        
+                        {% elif category == 'AI Products' %}
                             <p class="category-description"><i>Discover new AI tools, recent AI software releases, platform updates, and hardware news.</i></p>
-                        
-                        
-
-                        
-                            <p>
-                                <a href="https://venturebeat.com/ai/spotts-ai-native-recruiting-platform-scores-3-2m-to-end-hiring-software-chaos/" target="_blank">SPOTT’S AI-NATIVE RECRUITING PLATFORM SCORES $3.2M TO END...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://venturebeat.com/ai/mistral-launches-api-for-building-ai-agents-that-run-python-generate-images-perform-rag-and-more/" target="_blank">MISTRAL LAUNCHES API FOR BUILDING AI AGENTS THAT...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://towardsdatascience.com/bayesian-optimization-for-hyperparameter-tuning-of-deep-learning-models/" target="_blank">BAYESIAN OPTIMIZATION FOR HYPERPARAMETER TUNING OF DEEP LEARNING...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/StableDiffusion/comments/1kwzp0m/i_wrote_software_to_create_my_diffusion_models/" target="_blank">I WROTE SOFTWARE TO CREATE MY DIFFUSION MODELS...</a>
-                            </p>
-                        
-                    </div>
-                
-            
-                
-                    <div class="headline-block">
-                        <h3>Creator Economy</h3>
-
-                        
-                        
+                        {% elif category == 'Creator Economy' %}
                             <p class="category-description"><i>Explore AI tools for artists, music generation, video editing software, and writing assistants for creators.</i></p>
-                        
-                        
-
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/artificial/comments/1kx0j8e/ive_been_a_plumber_for_10_years_and_now_tech_bros/" target="_blank">I'VE BEEN A PLUMBER FOR 10 YEARS, AND...</a>
-                            </p>
-                        
-                    </div>
-                
-            
-                
-            
-                
-                    <div class="headline-block">
-                        <h3>AI Business News</h3>
-
-                        
-                        
+                        {% elif category == 'Generative AI' %}
+                            <p class="category-description"><i>Learn about generative AI models like LLMs and diffusion models, plus text-to-image AI and content generation tech.</i></p>
+                        {% elif category == 'AI Business News' %}
                             <p class="category-description"><i>Stay informed on AI company funding, startup investments, AI market analysis, stock news, and industry partnerships.</i></p>
-                        
-                        
-
-                        
-                            <p>
-                                <a href="https://venturebeat.com/data-infrastructure/what-salesforces-8b-acquisition-of-informatica-means-for-enterprise-data-and-ai/" target="_blank">WHAT SALESFORCE’S $8B ACQUISITION OF INFORMATICA MEANS FOR...</a>
-                            </p>
-                        
-                    </div>
-                
-            
-                
-                    <div class="headline-block">
-                        <h3>AI Research & Methods</h3>
-
-                        
-                        
+                        {% elif category == 'AI Research & Methods' %}
                             <p class="category-description"><i>Read the latest AI research papers, machine learning publications, deep learning breakthroughs, and algorithm developments.</i></p>
-                        
-                        
-
-                        
-                            <p>
-                                <a href="https://towardsdatascience.com/reinforcement-learning-made-simple-build-a-q-learning-agent-in-python/" target="_blank">REINFORCEMENT LEARNING MADE SIMPLE: BUILD A Q-LEARNING AGENT...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://towardsdatascience.com/why-regularization-isnt-enough-a-better-way-to-train-neural-networks-with-two-objectives/" target="_blank">WHY REGULARIZATION ISN’T ENOUGH: A BETTER WAY TO...</a>
-                            </p>
-                        
-                    </div>
-                
-            
-                
-            
-                
-                    <div class="headline-block">
-                        <h3>AI Companies</h3>
-
-                        
-                        
+                        {% elif category == 'AI in Practice' %}
+                            <p class="category-description"><i>See real-world AI deployment: AI applications in healthcare, finance, retail, and other enterprise AI solutions.</i></p>
+                        {% elif category == 'AI Companies' %}
                             <p class="category-description"><i>Follow updates from major AI companies and industry leaders like OpenAI, Google AI, Anthropic, and Nvidia.</i></p>
-                        
-                        
-
-                        
-                            <p>
-                                <a href="https://venturebeat.com/ai/everyones-looking-to-get-in-on-vibe-coding-and-google-is-no-different-with-stitch-its-follow-up-to-jules/" target="_blank">EVERYONE’S LOOKING TO GET IN ON VIBE CODING...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://venturebeat.com/ai/anthropic-debuts-conversational-voice-mode-for-claude-mobile-apps/" target="_blank">ANTHROPIC DEBUTS CLAUDE CONVERSATIONAL VOICE MODE ON MOBILE...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://towardsdatascience.com/how-microsoft-power-bi-elevated-my-data-analysis-and-visualization-workflow/" target="_blank">HOW MICROSOFT POWER BI ELEVATED MY DATA ANALYSIS...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/ChatGPT/comments/1kwu3tr/impossible_challenges_google_veo_3/" target="_blank">IMPOSSIBLE CHALLENGES (GOOGLE VEO 3 )</a>
-                            </p>
-                        
-                    </div>
-                
-            
-                
-                    <div class="headline-block">
-                        <h3>AI Ethics & Policy</h3>
-
-                        
-                        
+                        {% elif category == 'AI Ethics & Policy' %}
                             <p class="category-description"><i>Understand responsible AI development, AI safety guidelines, AI regulation news, bias detection, and alignment research.</i></p>
-                        
-                        
+                        {% elif category == 'Weird' %}
+                            <p class="category-description"><i>The lighter side of AI: funny AI stories, unexpected results, and unusual AI projects.</i></p>
+                        {% endif %}
+                        {# **** END INSERTED BLOCK **** #}
 
-                        
+                        {% for headline in headlines %}
                             <p>
-                                <a href="https://www.reddit.com/r/artificial/comments/1kwvijg/sam_altman_emails_elon_musk_in_2015_we_structure/" target="_blank">SAM ALTMAN EMAILS ELON MUSK IN 2015: "WE...</a>
+                                <a href="{{ headline.url }}" target="_blank">{{ headline.rewritten_title }}</a>
                             </p>
-                        
+                        {% endfor %}
                     </div>
-                
-            
-                
-            
+                {% endif %}
+            {% endfor %}
         </div>
 
         <!-- Prompt of the Day moved below news -->
@@ -606,9 +489,9 @@
                  <h2>Prompt of the Day</h2>
                  <a href="https://promptwritingstudio.com" target="_blank" class="prompt-link-button">Get More AI Prompts</a>
             </div>
-            <h4>Sustainable AI Startup Logo Concept</h4>
-            <p>Generate 3 distinct logo concepts for a startup called 'EcoMind AI' that focuses on energy-efficient artificial intelligence. Each concept should visually represent both 'ecology' and 'intelligence' in a minimalist style.</p>
-            <p class="platforms"><strong>Use with:</strong> Ideogram, Midjourney, LogoAI</p>
+            <h4>{{ prompt_of_the_day.title }}</h4>
+            <p>{{ prompt_of_the_day.text }}</p>
+            <p class="platforms"><strong>Use with:</strong> {{ prompt_of_the_day.platforms | join(", ") }}</p>
         </div>
 
         <!-- Newsletter Signup Form -->
@@ -638,11 +521,7 @@
             AI Flash Report - Automated AI News Aggregation | <a href="/archive/">See Archive Index</a> | <a href="/about.html">About</a> | <a href="/contact.html">Contact</a>
             <div class="archive-links">
                 Recent Archives:
-                <a href="archive/2025-05-28.html">2025-05-28
-                <a href="archive/2025-05-27.html">2025-05-27
-                <a href="archive/2025-05-26.html">2025-05-26
-                <a href="archive/2025-05-25.html">2025-05-25
-                <a href="archive/2025-05-24.html">2025-05-24
+                <!-- ARCHIVE_LINKS_PLACEHOLDER -->
             </div>
         </footer>
 

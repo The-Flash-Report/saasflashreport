@@ -1,0 +1,73 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+**Author:** Bryan Collins
+
+## SEO Guidelines
+
+### Current Implementation
+The site has been optimized for search with:
+- Meta description, keywords, and title tags
+- Open Graph and Twitter Card metadata for social sharing
+- Schema.org structured data (NewsArticle format)
+- Dynamic sitemap.xml that updates daily
+- Semantic HTML with proper heading hierarchy
+- Breadcrumb navigation with structured data
+- Category descriptions with target keywords
+
+### Required Images
+The following images need to be created and placed in the /images directory:
+- `og-image.png` - 1200×630px image for Facebook/LinkedIn sharing
+- `twitter-card.png` - 1200×600px image for Twitter sharing
+- `logo.png` - Organization logo for Schema.org structured data
+
+### Keyword Strategy
+Maintain these keywords in template meta tags and category descriptions:
+
+**Primary Keywords:**
+- latest ai news
+- openai news
+- anthropic news
+
+**Secondary Keywords:**
+- generative ai models
+- diffusion models
+- ai use cases 
+- ai video editing software
+- new ai tools
+
+**Long-tail Keywords:**
+- large language models (llms)
+- ai research papers
+- nvidia ai news
+- ai applications in healthcare
+
+### SEO Maintenance Tasks
+
+#### Daily (Automated):
+- Dynamic sitemap generation with current dates
+- Schema.org structured data with current date
+- Archive file generation with canonical URLs
+
+#### Monthly (Manual):
+- Check Google Search Console for any issues
+- Review indexing status of archive pages
+- Check for broken links or 404 errors
+
+#### Quarterly (Manual):
+- Update meta descriptions to reflect current focus
+- Review and update category descriptions with relevant keywords
+- Check performance of SEO implementation in Search Console
+
+### Content Guidelines for SEO
+1. **Headlines:** Keep headlines under 8 words, uppercase for emphasis
+2. **Category Descriptions:** Include primary and secondary keywords
+3. **Archive Pages:** Maintain consistent structure with canonical URLs
+4. **Images:** Ensure all required SEO images are present and optimized
+
+### Google Search Console
+- Submit sitemap.xml after any structure changes
+- Monitor for crawl errors or indexing issues
+- Track performance of target keywords

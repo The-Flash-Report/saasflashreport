@@ -16,25 +16,11 @@
         <priority>0.8</priority>
     </url>
     
-    <!-- Keyword Pages -->
-    {% if keyword_pages %}
-    {% for page_key, page_info in keyword_pages.items() %}
-    <url>
-        <loc>https://aiflashreport.com/{{ page_info.filename }}</loc>
-        <lastmod>{{ current_date }}</lastmod> <!-- Assuming keyword pages are regenerated daily if content changes -->
-        <changefreq>weekly</changefreq> <!-- Or daily if you expect frequent updates -->
-        <priority>0.9</priority>
-    </url>
-    {% endfor %}
-    {% endif %}
-
     <!-- Archive entries -->
-    {% for archive_file in archive_files %}
+    {% for i in range(archive_files|length) %}
     <url>
-        <loc>https://aiflashreport.com/archive/{{ archive_file }}</loc>
-        {# Assuming current_date for lastmod as archive files are static once generated for a past date #}
-        {# Or, if archive_dates was passed and contained modification dates, it could be used here #}
-        <lastmod>{{ current_date }}</lastmod> 
+        <loc>https://aiflashreport.com/archive/{{ archive_files[i] }}</loc>
+        <lastmod>{{ archive_dates[i] }}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
