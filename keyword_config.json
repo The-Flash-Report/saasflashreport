@@ -1,0 +1,138 @@
+{
+  "keyword_pages": {
+    "openai-news": {
+      "title": "OpenAI News",
+      "description": "Latest news and updates about OpenAI, GPT models, and ChatGPT",
+      "filename": "openai-news.html",
+      "keywords": ["OpenAI", "GPT", "ChatGPT", "GPT-4", "GPT-3"],
+      "negative_keywords": [],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "OpenAI News - Latest Updates on GPT and ChatGPT",
+      "meta_description": "Stay updated with the latest OpenAI news, GPT model releases, and ChatGPT developments. Daily aggregated AI news from trusted sources."
+    },
+    "google-ai-news": {
+      "title": "Google AI News",
+      "description": "Latest developments from Google AI, Gemini, and DeepMind",
+      "filename": "google-ai-news.html",
+      "keywords": ["Google", "Gemini", "DeepMind", "Google AI"],
+      "negative_keywords": ["Google Search", "Google Maps", "Google Drive", "Android"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Google AI News - Gemini, DeepMind & Google AI Updates",
+      "meta_description": "Latest Google AI news including Gemini model updates, DeepMind research, and Google's artificial intelligence developments."
+    },
+    "chatgpt-news": {
+      "title": "ChatGPT News",
+      "description": "All ChatGPT-related news, updates, and developments",
+      "filename": "chatgpt-news.html",
+      "keywords": ["ChatGPT", "GPT-4", "GPT-3", "Chat GPT"],
+      "negative_keywords": [],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "ChatGPT News - Latest GPT Updates and Developments",
+      "meta_description": "Comprehensive ChatGPT news coverage including new features, updates, and developments in GPT technology.",
+      "content_max_age_days": 7
+    },
+    "chatgpt-updates": {
+      "title": "ChatGPT Updates",
+      "description": "Official ChatGPT updates, releases, and new features",
+      "filename": "chatgpt-updates.html",
+      "keywords": ["ChatGPT", "GPT-4", "GPT-3", "Chat GPT"],
+      "required_keywords": ["update", "release", "feature", "new", "launch"],
+      "negative_keywords": [],
+      "max_articles": 30,
+      "page_type": "automated",
+      "meta_title": "ChatGPT Updates - New Features and Releases",
+      "meta_description": "Track the latest ChatGPT updates, new features, and official releases from OpenAI."
+    },
+    "machine-learning-news": {
+      "title": "Machine Learning News",
+      "description": "Latest machine learning developments, research, and applications",
+      "filename": "machine-learning-news.html",
+      "keywords": ["machine learning", "ML", "model training", "supervised learning", "unsupervised learning"],
+      "negative_keywords": ["beginner", "tutorial", "introduction", "basics"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Machine Learning News - Latest ML Research and Developments",
+      "meta_description": "Stay current with machine learning news, research breakthroughs, and industry applications from leading sources.",
+      "content_max_age_days": 14
+    },
+    "deep-learning-news": {
+      "title": "Deep Learning News",
+      "description": "Deep learning research, neural networks, and technical breakthroughs",
+      "filename": "deep-learning-news.html",
+      "keywords": ["deep learning", "neural network", "CNN", "RNN", "transformer", "attention mechanism"],
+      "negative_keywords": ["beginner", "tutorial", "introduction"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Deep Learning News - Neural Networks and AI Research",
+      "meta_description": "Latest deep learning research, neural network innovations, and technical breakthroughs in artificial intelligence.",
+      "content_max_age_days": 14
+    },
+    "ai-research-news": {
+      "title": "AI Research News",
+      "description": "Academic AI research, papers, and scientific breakthroughs",
+      "filename": "ai-research-news.html",
+      "keywords": ["research", "paper", "study", "arxiv", "conference", "NIPS", "ICML", "ICLR"],
+      "negative_keywords": [],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "AI Research News - Latest Papers and Scientific Breakthroughs",
+      "meta_description": "Academic AI research news, latest papers from arXiv, and breakthroughs from top AI conferences and institutions."
+    },
+    "ai-startup-news": {
+      "title": "AI Startup News",
+      "description": "AI startup funding, acquisitions, and business developments",
+      "filename": "ai-startup-news.html",
+      "keywords": ["funding", "startup", "venture capital", "acquisition", "IPO", "Series A", "Series B"],
+      "required_keywords": ["AI", "artificial intelligence", "machine learning", "ML"],
+      "negative_keywords": [],
+      "max_articles": 40,
+      "page_type": "automated",
+      "meta_title": "AI Startup News - Funding, Acquisitions & Business Updates",
+      "meta_description": "Track AI startup funding rounds, acquisitions, and business developments in the artificial intelligence industry."
+    },
+    "ai-industry-news": {
+      "title": "AI Industry News",
+      "description": "Business developments, partnerships, and market trends in AI",
+      "filename": "ai-industry-news.html",
+      "keywords": ["partnership", "collaboration", "market", "industry", "business", "enterprise"],
+      "required_keywords": ["AI", "artificial intelligence", "machine learning"],
+      "negative_keywords": [],
+      "max_articles": 40,
+      "page_type": "automated",
+      "meta_title": "AI Industry News - Business Developments and Market Trends",
+      "meta_description": "AI industry news covering business partnerships, market trends, and enterprise artificial intelligence developments."
+    },
+    "ai-news-today": {
+      "title": "AI News Today",
+      "description": "Today's top AI stories - curated daily highlights",
+      "filename": "ai-news-today.html",
+      "keywords": [],
+      "negative_keywords": [],
+      "max_articles": 5,
+      "page_type": "curated",
+      "meta_title": "AI News Today - Daily Curated AI Headlines",
+      "meta_description": "Today's most important AI news stories, carefully curated and summarized for quick reading."
+    },
+    "ai-breakthrough-news": {
+      "title": "AI Breakthrough News",
+      "description": "Major AI breakthroughs and groundbreaking announcements",
+      "filename": "ai-breakthrough-news.html",
+      "keywords": ["breakthrough", "groundbreaking", "revolutionary", "major", "significant"],
+      "required_keywords": ["AI", "artificial intelligence"],
+      "negative_keywords": [],
+      "max_articles": 20,
+      "page_type": "curated",
+      "meta_title": "AI Breakthrough News - Major AI Developments",
+      "meta_description": "Major AI breakthroughs, revolutionary developments, and groundbreaking announcements in artificial intelligence."
+    }
+  },
+  "settings": {
+    "content_freshness_days": 7,
+    "enable_keyword_scoring": true,
+    "duplicate_handling": "show_on_all_matching",
+    "case_sensitive": false
+  }
+} 

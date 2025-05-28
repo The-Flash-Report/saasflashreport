@@ -1,0 +1,97 @@
+# Environment variables and API keys
+.env
+.env.local
+.env.production
+.env.staging
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Development and testing
+test_*.py
+debug_*.py
+scratch_*.py
+
+# Node modules (if any frontend build tools are added)
+node_modules/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Comments about what IS tracked for deployment:
+# The following files ARE committed for the static site deployment:
+# - index.html (generated)
+# - archive/*.html (generated daily)
+# - sitemap.xml (generated)
+# - processed_urls.json (state tracking)
+# - All keyword pages: *.html (generated)
+# - Static assets: favicon.svg, site.webmanifest, robots.txt

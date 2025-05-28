@@ -1,0 +1,12 @@
+{% extends "template.html" %}
+
+{% block title %}{{ keyword_page_config.meta_title | default(keyword_page_config.title + " - AI Flash Report") }}{% endblock %}
+
+{% block page_title %}{{ keyword_page_config.title }}{% endblock %}
+
+{% block meta_tags %}
+<meta name="description" content="{{ keyword_page_config.meta_description | default(keyword_page_config.description) }}">
+{% if keyword_page_config.keywords %}
+<meta name="keywords" content="{{ keyword_page_config.keywords | join(', ') }}, ai news, artificial intelligence, machine learning">
+{% endif %}
+{% endblock %} 
