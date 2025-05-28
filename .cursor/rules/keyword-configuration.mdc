@@ -1,0 +1,112 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Keyword Configuration Rules
+
+## Overview
+The `keyword_config.json` file defines keyword-specific content pages for the news aggregation website. This file controls how articles are filtered, categorized, and displayed on different pages.
+
+## File Structure
+```json
+{
+  "keyword_pages": {
+    "page-identifier": { ...page configuration... }
+  },
+  "settings": {
+    ...global settings...
+  }
+}
+```
+
+## Page Configuration Fields
+
+### Required Fields
+- **`title`** (String): Main title displayed on the page
+- **`description`** (String): Brief description of the page content
+- **`filename`** (String): HTML filename for the generated page (e.g., "openai-news.html")
+- **`keywords`** (Array): Primary keywords to filter articles (OR logic)
+- **`page_type`** (String): Either "automated" or "curated"
+
+### Optional Fields
+- **`required_keywords`** (Array): Keywords that MUST be present (AND logic)
+- **`negative_keywords`** (Array): Keywords that exclude articles
+- **`max_articles`** (Integer, Default: 50): Maximum articles to display
+- **`meta_title`** (String): HTML `<title>` tag content
+- **`meta_description`** (String): HTML meta description
+- **`content_max_age_days`** (Integer): Maximum age of articles in days
+
+## Page Types
+
+### Automated Pages
+- Articles automatically filtered based on keywords
+- Use `keywords`, `required_keywords`, and `negative_keywords` for filtering
+- Content freshness controlled by `content_max_age_days`
+
+### Curated Pages
+- Articles manually specified in `curated_content/page-key.json`
+- `keywords` field is ignored for this type
+- Full editorial control over content
+
+## Global Settings
+
+### Required Settings
+- **`content_freshness_days`** (Integer, Default: 7): Global article age limit
+- **`enable_keyword_scoring`** (Boolean, Default: true): Enable relevance scoring
+- **`case_sensitive`** (Boolean, Default: false): Case sensitivity for keyword matching
+
+### Optional Settings
+- **`duplicate_handling`** (String, Default: "show_on_all_matching"): How to handle articles matching multiple pages
+
+## Example Configuration
+```json
+{
+  "keyword_pages": {
+    "chatgpt-updates": {
+      "title": "ChatGPT Updates",
+      "description": "Latest news and updates about ChatGPT.",
+      "filename": "chatgpt-updates.html",
+      "keywords": ["chatgpt", "gpt-4", "openai update"],
+      "negative_keywords": ["rumor", "speculation"],
+      "page_type": "automated",
+      "content_max_age_days": 14
+    }
+  },
+  "settings": {
+    "content_freshness_days": 7,
+    "enable_keyword_scoring": true,
+    "duplicate_handling": "show_on_all_matching",
+    "case_sensitive": false
+  }
+}
+```
+
+## Best Practices
+
+### Keyword Selection
+- Choose specific, relevant keywords for accurate filtering
+- Use `required_keywords` to ensure topic relevance
+- Add `negative_keywords` to filter out unwanted content
+- Test keyword combinations to ensure proper filtering
+
+### SEO Optimization
+- Always include `meta_title` and `meta_description` for SEO
+- Use descriptive, keyword-rich titles and descriptions
+- Keep titles under 60 characters and descriptions under 160 characters
+
+### Content Quality
+- Set appropriate `max_articles` limits to avoid overwhelming pages
+- Use `content_max_age_days` to maintain content freshness
+- Review and adjust keywords based on content quality
+
+### Maintenance
+- Regularly review generated pages for content accuracy
+- Update keywords based on emerging topics and terminology
+- Monitor for false positives/negatives and adjust filters accordingly
+
+## Integration with aggregator.py
+- The script loads configuration using `load_keyword_config()`
+- Schema validation is performed at startup
+- Each page defined in `keyword_pages` generates a corresponding HTML file
+- Global settings affect all page processing and filtering

@@ -1,0 +1,199 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Project Replication Guide
+
+## Overview
+This guide details how to replicate the automated news aggregation website for any chosen niche. The project creates a static HTML website that automatically fetches, categorizes, and displays news from various sources daily.
+
+## Core Architecture
+- **Backend Logic**: `aggregator.py` (Python with requests, feedparser, praw, jinja2, langdetect)
+- **Configuration**: `config.json`, `keyword_config.json`
+- **Frontend**: `template.html`, `archive_index_template.html`
+- **Automation**: GitHub Actions workflow (`.github/workflows/daily-update.yml`)
+- **SEO**: `generate_sitemap.py`, `sitemap_template.xml`, `robots.txt`
+
+## Phase 1: Niche Definition & Planning
+
+### Required Information
+1. **Primary Niche/Topic**: Central theme of the news site
+2. **Site Name/Brand**: Website name and branding
+3. **Key Categories**: Main sub-topics within the niche
+4. **Target Keywords**: 
+   - 3-5 primary keywords
+   - 5-10 secondary keywords
+   - Relevant long-tail keywords
+5. **RSS Feeds**: 5-10 trusted RSS feeds for the niche
+6. **Reddit Subreddits**: 3-5 relevant subreddits
+7. **NewsAPI Query**: Broad query string for general news
+8. **Negative Keywords**: Keywords that should exclude articles
+9. **Excluded Sites**: Websites to ignore
+
+## Phase 2: Configuration Updates
+
+### Update aggregator.py Constants
+```python
+# News API query for the niche
+NEWS_API_QUERY = '(your niche keywords) AND (news OR update)'
+
+# Relevant subreddits
+SUBREDDITS = ['niche_subreddit1', 'niche_subreddit2']
+
+# RSS feeds for the niche
+RSS_FEEDS = {
+    "Niche Source 1": "URL_to_RSS_feed_1",
+    "Niche Source 2": "URL_to_RSS_feed_2",
+}
+
+# Categories for content organization
+CATEGORIES = [
+    'Niche Category 1',
+    'Niche Category 2',
+]
+
+# Keywords for categorization
+CATEGORY_KEYWORDS = {
+    'Niche Category 1': ['keyword1', 'keyword2'],
+    'Niche Category 2': ['keyword3', 'keyword4'],
+}
+
+# Trending keywords (optional)
+TRENDING_KEYWORDS = ['trending_term1', 'trending_term2']
+```
+
+### Update config.json
+```json
+{
+  "excluded_sites": ["domain1.com", "domain2.com"],
+  "negative_keywords": ["unwanted_term1", "unwanted_term2"],
+  "low_quality_url_patterns": ["default patterns"]
+}
+```
+
+### Update template.html
+- **Site Title**: Change main title and meta tags
+- **Meta Description & Keywords**: Update with niche-specific content
+- **Open Graph Tags**: Update og:title, og:description, og:image, og:url
+- **Twitter Card Tags**: Update twitter:title, twitter:description, twitter:image
+- **Schema.org Data**: Update headline, publisher info, description
+- **Site Header**: Update h1 and logo elements
+- **Footer**: Update copyright and links
+
+### Required Images
+Create and place these images:
+- `/images/og-image.png` (1200x630px for Facebook/LinkedIn)
+- `/images/twitter-card.png` (1200x600px for Twitter)
+- `/images/logo.png` (for Schema.org and site header)
+- Favicon files (`favicon.ico`, etc.)
+
+## Phase 3: Technical Setup
+
+### Environment Setup
+```bash
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Required Environment Variables
+```bash
+export NEWS_API_KEY="your_newsapi_key"
+export REDDIT_CLIENT_ID="your_reddit_client_id"
+export REDDIT_CLIENT_SECRET="your_reddit_client_secret"
+export REDDIT_USER_AGENT="web:yournicheaggregator:v0.1 (by /u/yourusername)"
+export PERPLEXITY_API_KEY="your_perplexity_key"  # Optional
+```
+
+### Dependencies (requirements.txt)
+```
+requests
+feedparser
+praw
+Jinja2
+langdetect
+```
+
+## Phase 4: Customization & Branding
+
+### CSS Styling
+- Modify CSS in `template.html` or separate stylesheet
+- Match desired look and feel for the niche
+- Ensure responsive design
+
+### Essential Pages
+1. **Contact Form** (`contact.html`):
+   - User feedback and partnership inquiries
+   - Netlify form integration with `data-netlify="true"`
+   - Professional styling matching site theme
+
+2. **Privacy Policy** (`privacy.html`):
+   - Legal compliance for data collection (GDPR/CCPA)
+   - Data collection practices documentation
+   - Analytics and cookie usage details
+
+### SEO Configuration
+- Update `generate_sitemap.py` with new domain
+- Modify `sitemap_template.xml` base URLs
+- Update `robots.txt` sitemap directive
+
+## Phase 5: Testing & Deployment
+
+### Local Testing
+```bash
+# Test the aggregation script
+python3 aggregator.py
+
+# Verify generated files
+ls -la *.html
+ls -la archive/
+```
+
+### GitHub Actions Setup
+- Configure repository secrets for API keys
+- Test the daily-update workflow
+- Verify automated deployment works
+
+### Monitoring & Maintenance
+- Set up analytics (Plausible, Google Analytics)
+- Monitor for API rate limits
+- Review and adjust keywords based on performance
+- Update excluded sites as needed
+
+## Common Customizations by Niche
+
+### Technology/Software
+- Focus on GitHub releases, product announcements
+- Categories: "New Tools", "Updates", "Security", "Open Source"
+- Sources: Developer blogs, GitHub, Product Hunt
+
+### Health/Medical
+- Focus on research papers, clinical trials
+- Categories: "Research", "Treatment", "Prevention", "Policy"
+- Sources: Medical journals, health organizations
+
+### Finance/Crypto
+- Focus on market news, regulatory changes
+- Categories: "Markets", "Regulation", "Technology", "Analysis"
+- Sources: Financial news outlets, regulatory sites
+
+### Sports/Fitness
+- Focus on training, nutrition, competitions
+- Categories: "Training", "Nutrition", "Competitions", "Gear"
+- Sources: Sports blogs, official organizations
+
+## Quality Assurance Checklist
+- [ ] All API keys properly configured
+- [ ] RSS feeds returning valid content
+- [ ] Categories properly filtering content
+- [ ] SEO tags updated for niche
+- [ ] Images optimized and properly sized
+- [ ] Contact form working with Netlify
+- [ ] Privacy policy updated for jurisdiction
+- [ ] GitHub Actions workflow tested
+- [ ] Sitemap generating correctly
+- [ ] Mobile responsiveness verified
