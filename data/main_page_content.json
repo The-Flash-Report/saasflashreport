@@ -1,6 +1,13 @@
 {
     "AI Companies": [
         {
+            "title": "Creating websites in minutes with AI Website Builder",
+            "url": "https://openai.com/index/wix",
+            "source": "OpenAI",
+            "published_date_obj": "2025-05-29",
+            "rewritten_title": "CREATING WEBSITES IN MINUTES WITH AI WEBSITE BUILDER"
+        },
+        {
             "title": "10 tips for 10 years of Google Photos",
             "url": "https://blog.google/products/photos/google-photos-10-years-tips-tricks/",
             "source": "Google AI",
@@ -13,6 +20,27 @@
             "source": "Google AI",
             "published_date_obj": "2025-05-28",
             "rewritten_title": "HIGHLIGHTS FROM THE DIALOGUES STAGE AT I/O 2025"
+        },
+        {
+            "title": "Import AI 414: Superpersuasion; OpenAI models avoid shutdown; weather prediction and AI",
+            "url": "https://jack-clark.net/2025/05/26/import-ai-414-superpersuasion-openai-models-avoid-shutdown-weather-prediction-and-ai/",
+            "source": "Import AI",
+            "published_date_obj": "2025-05-26",
+            "rewritten_title": "IMPORT AI 414: SUPERPERSUASION; OPENAI MODELS AVOID SHUTDOWN;..."
+        },
+        {
+            "title": "Mistral launches new code embedding model that outperforms OpenAI and Cohere in real-world retrieval tasks",
+            "url": "https://venturebeat.com/ai/mistral-launches-new-code-embedding-model-that-outperforms-openai-and-cohere-in-real-world-retrieval-tasks/",
+            "source": "VentureBeat AI",
+            "published_date_obj": "2025-05-28",
+            "rewritten_title": "MISTRAL LAUNCHES NEW CODE EMBEDDING MODEL THAT OUTPERFORMS..."
+        },
+        {
+            "title": "Nvidia CEO takes a shot at U.S. policy cutting off AI chip sales to China",
+            "url": "https://venturebeat.com/games/nvidia-ceo-takes-a-shot-at-u-s-policy-cutting-off-ai-chip-sales-to-china/",
+            "source": "VentureBeat AI",
+            "published_date_obj": "2025-05-28",
+            "rewritten_title": "NVIDIA CEO TAKES A SHOT AT U.S. POLICY..."
         },
         {
             "title": "Nvidia beats estimates for Q1 results as revenues rise 69% from a year ago",
@@ -66,6 +94,13 @@
     ],
     "AI Products": [
         {
+            "title": "s3: The new RAG framework that trains search agents with minimal data",
+            "url": "https://venturebeat.com/ai/s3-the-new-rag-framework-that-trains-search-agents-with-minimal-data/",
+            "source": "VentureBeat AI",
+            "published_date_obj": "2025-05-28",
+            "rewritten_title": "S3: THE NEW RAG FRAMEWORK THAT TRAINS SEARCH..."
+        },
+        {
             "title": "Spott\u2019s AI-native recruiting platform scores $3.2M to end hiring software chaos",
             "url": "https://venturebeat.com/ai/spotts-ai-native-recruiting-platform-scores-3-2m-to-end-hiring-software-chaos/",
             "source": "VentureBeat AI",
@@ -108,6 +143,20 @@
             "source": "VentureBeat AI",
             "published_date_obj": "2025-05-28",
             "rewritten_title": "AKOOL LIVE CAMERA CAN TRANSLATE VIDEO CALLS IN..."
+        },
+        {
+            "title": "How to Generate Synthetic Data: A Comprehensive Guide Using Bayesian Sampling and Univariate Distributions",
+            "url": "https://towardsdatascience.com/how-to-generate-synthetic-data-a-comprehensive-guide-using-bayesian-sampling-and-univariate-distributions/",
+            "source": "Towards Data Science",
+            "published_date_obj": "2025-05-26",
+            "rewritten_title": "HOW TO GENERATE SYNTHETIC DATA: A COMPREHENSIVE GUIDE..."
+        },
+        {
+            "title": "Understanding Matrices | Part 1: Matrix-Vector Multiplication",
+            "url": "https://towardsdatascience.com/understanding-matrices-part-1-matrix-vector-multiplication/",
+            "source": "Towards Data Science",
+            "published_date_obj": "2025-05-26",
+            "rewritten_title": "UNDERSTANDING MATRICES | PART 1: MATRIX-VECTOR MULTIPLICATION"
         }
     ],
     "Generative AI": [],
@@ -144,6 +193,13 @@
             "source": "Towards Data Science",
             "published_date_obj": "2025-05-26",
             "rewritten_title": "THE BEST AI BOOKS & COURSES FOR GETTING..."
+        },
+        {
+            "title": "Demystifying Policy Optimization in RL: An Introduction to PPO and GRPO",
+            "url": "https://towardsdatascience.com/demystifying-policy-optimization-in-rl-an-introduction-to-ppo-and-grpo/",
+            "source": "Towards Data Science",
+            "published_date_obj": "2025-05-26",
+            "rewritten_title": "DEMYSTIFYING POLICY OPTIMIZATION IN RL: AN INTRODUCTION TO..."
         }
     ],
     "Weird": [],
@@ -184,6 +240,13 @@
             "rewritten_title": "THE AI HYPE INDEX: COLLEGE STUDENTS ARE HOOKED..."
         },
         {
+            "title": "DanaBot takedown shows how agentic AI cut months of SOC analysis to weeks",
+            "url": "https://venturebeat.com/security/agentic-ai-defeated-danabot-exposing-key-lessons-for-soc-teams/",
+            "source": "VentureBeat AI",
+            "published_date_obj": "2025-05-29",
+            "rewritten_title": "DANABOT TAKEDOWN SHOWS HOW AGENTIC AI CUT MONTHS..."
+        },
+        {
             "title": "Rumi raises $4.7M to change passive media into interactive AI experiences",
             "url": "https://venturebeat.com/games/rumi-raises-4-7m-to-change-passive-media-into-interactive-ai-experiences/",
             "source": "VentureBeat AI",
@@ -205,6 +268,20 @@
             "rewritten_title": "BUILD A ROCKET BOY DROPS TRAILER DETAILING MINDSEYE\u2019S..."
         },
         {
+            "title": "From disruption to reinvention: How knowledge workers can thrive after AI",
+            "url": "https://venturebeat.com/ai/from-disruption-to-reinvention-how-knowledge-workers-can-thrive-after-ai/",
+            "source": "VentureBeat AI",
+            "published_date_obj": "2025-05-26",
+            "rewritten_title": "FROM DISRUPTION TO REINVENTION: HOW KNOWLEDGE WORKERS CAN..."
+        },
+        {
+            "title": "From Data to Stories: Code Agents for KPI Narratives",
+            "url": "https://towardsdatascience.com/from-data-to-stories-code-agents-for-kpi-narratives/",
+            "source": "Towards Data Science",
+            "published_date_obj": "2025-05-29",
+            "rewritten_title": "FROM DATA TO STORIES: CODE AGENTS FOR KPI..."
+        },
+        {
             "title": "Multi-Agent Communication with the A2A Python\u00a0SDK",
             "url": "https://towardsdatascience.com/multi-agent-communication-with-the-a2a-python-sdk/",
             "source": "Towards Data Science",
@@ -224,6 +301,13 @@
             "source": "Towards Data Science",
             "published_date_obj": "2025-05-27",
             "rewritten_title": "CODE AGENTS: THE FUTURE OF AGENTIC AI"
+        },
+        {
+            "title": "5 Statistical Concepts You Need to Know Before Your Next Data Science Interview",
+            "url": "https://towardsdatascience.com/5-statistical-concepts-you-need-to-know-before-your-next-data-science-interview/",
+            "source": "Towards Data Science",
+            "published_date_obj": "2025-05-26",
+            "rewritten_title": "5 STATISTICAL CONCEPTS YOU NEED TO KNOW BEFORE..."
         }
     ]
 }

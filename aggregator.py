@@ -197,61 +197,41 @@ def calculate_keyword_relevance_score(article, page_config):
     return score
 
 def filter_articles_for_keyword_page(all_articles, page_key, page_config):
-    """Filter articles for a specific keyword page based on its configuration."""
-    filtered_articles = []
-    case_sensitive = keyword_config.get('settings', {}).get('case_sensitive', False)
+    """Filter articles for a specific keyword page using keywords and relevance scoring."""
+    matching_articles = []
+    keywords = page_config.get('keywords', [])
     
-    # Get content_max_age_days from page_config, default to a large number if not specified
-    # so that pages without this config are not aggressively filtered by date here.
-    # The global RSS_CUTOFF_DAYS (2) in fetch_rss_entries will still apply for those.
-    content_max_age_days = page_config.get('content_max_age_days') # Will be None if not set
-    today = datetime.date.today()
-
-    for i, article in enumerate(all_articles):
+    if not keywords:
+        print(f"No keywords configured for page {page_key}. Returning empty list.")
+        return []
+    
+    for article in all_articles:
         title = article.get('title', '')
+        url = article.get('url', '')
         
-        # --- DATE FILTERING START ---
-        if content_max_age_days is not None:
-            article_date = article.get('published_date_obj') # This is a datetime.date object or None
-            if article_date:
-                age_delta = today - article_date
-                if age_delta.days > content_max_age_days:
-                    continue
-        # --- DATE FILTERING END ---
-
-        if not title:
+        # Skip excluded URLs
+        if any(excluded_url in url.lower() for excluded_url in ['reddit.com', 'twitter.com', 'x.com']):
             continue
         
-        negative_keywords = page_config.get('negative_keywords', [])
-        if negative_keywords and matches_keywords(title, negative_keywords, case_sensitive):
-            continue
+        # Check if article matches keywords and calculate relevance score
+        score = calculate_keyword_relevance_score(article, page_config)
         
-        required_keywords = page_config.get('required_keywords', [])
-        if required_keywords and not matches_keywords(title, required_keywords, case_sensitive):
-            continue
-        
-        keywords = page_config.get('keywords', [])
-        if keywords and not matches_keywords(title, keywords, case_sensitive):
-            continue
-        
-        relevance_score = calculate_keyword_relevance_score(article, page_config)
-        
-        if relevance_score > 0:
+        if score > 0:
             article_copy = article.copy()
-            article_copy['relevance_score'] = relevance_score
-            filtered_articles.append(article_copy)
-
-    # Sort by relevance score (highest first)
-    filtered_articles.sort(key=lambda x: x.get('relevance_score', 0), reverse=True)
+            article_copy['relevance_score'] = score
+            # Ensure rewritten_title exists
+            if 'rewritten_title' not in article_copy:
+                article_copy['rewritten_title'] = rewrite_headline(article_copy.get('title', ''))
+            matching_articles.append(article_copy)
     
-    # Limit to max articles
-    max_articles = page_config.get('max_articles', 50)
-    filtered_articles = filtered_articles[:max_articles]
+    # Sort by relevance score (highest first), then by publication date
+    matching_articles.sort(key=lambda x: (x.get('relevance_score', 0), x.get('published_date_obj') or datetime.datetime.min), reverse=True)
     
-    return filtered_articles
+    print(f"Found {len(matching_articles)} articles for {page_key}")
+    return matching_articles
 
 def generate_keyword_pages_data(all_articles):
-    """Generate filtered data for all keyword pages."""
+    """Generate filtered data for all keyword pages with pagination support."""
     keyword_pages_data = {}
     
     if not keyword_config.get('keyword_pages'):
@@ -268,11 +248,10 @@ def generate_keyword_pages_data(all_articles):
             print(f"Created directory: {curated_dir}")
         except OSError as e:
             print(f"Error creating directory {curated_dir}: {e}")
-            # Decide if you want to stop or continue if directory creation fails
-            # For now, we'll continue and individual file loads will fail gracefully
 
     for page_key, page_config in keyword_config['keyword_pages'].items():
         if page_config.get('page_type') == 'curated':
+            # Handle curated pages (existing logic)
             print(f"Processing curated page: {page_key}")
             curated_content_path = os.path.join(curated_dir, f"{page_key}.json")
             articles = []
@@ -285,17 +264,11 @@ def generate_keyword_pages_data(all_articles):
                         articles = []
                     else:
                         # Ensure 'rewritten_title' exists, defaulting from 'title'
-                        # Also ensure 'published_date_obj' is serializable if it somehow gets in here
-                        # (though curated content isn't expected to have it by default)
                         for article in articles:
                             if 'rewritten_title' not in article and 'title' in article:
                                 article['rewritten_title'] = rewrite_headline(article['title'])
                             if 'source' not in article: 
                                 article['source'] = "Curated"
-                            # If by chance a date object is here, ensure it's a string for saving
-                            if 'published_date_obj' in article and isinstance(article['published_date_obj'], (datetime.date, datetime.datetime)):
-                                article['published_date_str_for_curated'] = article['published_date_obj'].isoformat()
-
                         print(f"  - Loaded {len(articles)} articles from {curated_content_path}")
                 except json.JSONDecodeError:
                     print(f"Warning: Error decoding JSON from {curated_content_path}. Skipping.")
@@ -306,40 +279,61 @@ def generate_keyword_pages_data(all_articles):
             else:
                 print(f"Warning: Curated content file {curated_content_path} not found. Page will be empty.")
             
-            # Even if articles list is empty, create the structure so an empty page can be generated
+            # For curated pages, don't use pagination - just store all articles
             keyword_pages_data[page_key] = {
                 'config': page_config,
-                'articles': articles # This will be the manually loaded articles or an empty list
+                'articles': articles,
+                'total_pages': 1,
+                'current_page': 1,
+                'total_stories': len(articles)
             }
-        else: # Automated page
-            filtered_articles = filter_articles_for_keyword_page(all_articles, page_key, page_config)
-            # Always add the page_key, even if articles are empty, so the template can render it
+        else: 
+            # Handle automated pages with accumulation and pagination
+            print(f"Processing automated page: {page_key}")
+            
+            # Step 1: Load existing stories
+            existing_stories = load_existing_topic_stories(page_key)
+            
+            # Step 2: Get new stories from today's articles
+            new_stories = filter_articles_for_keyword_page(all_articles, page_key, page_config)
+            
+            # Step 3: Merge and deduplicate
+            all_stories = merge_and_deduplicate_stories(existing_stories, new_stories)
+            
+            # Step 4: Save updated story list
+            save_topic_stories(page_key, all_stories)
+            
+            # Step 5: Create pagination data
+            pages = paginate_stories(all_stories)
+            
             keyword_pages_data[page_key] = {
                 'config': page_config,
-                'articles': filtered_articles # This will be an empty list if none were found
+                'all_stories': all_stories,
+                'pages': pages,
+                'total_pages': len(pages),
+                'total_stories': len(all_stories),
+                'new_stories_count': len([s for s in new_stories if s.get('url') not in {es.get('url') for es in existing_stories}])
             }
+            
+            print(f"  - {page_key}: {len(all_stories)} total stories across {len(pages)} pages")
     
     return keyword_pages_data
 
 def generate_keyword_page_files(keyword_pages_data, env, prompt_of_the_day):
-    """Generate HTML files for keyword pages."""
-    print(f"Generating {len(keyword_pages_data)} keyword page files...")
+    """Generate HTML files for keyword pages with pagination support."""
+    print(f"Generating keyword page files for {len(keyword_pages_data)} topics...")
     
     # Ensure the output directory exists
-    # Output keyword pages to the root directory
-    output_dir = "." 
+    output_dir = "."
     os.makedirs(output_dir, exist_ok=True)
 
-    # The 'env' is passed in, so we don't need to re-initialize FileSystemLoader here.
-    # We just need to ensure the globals are set correctly for this rendering context if they haven't been.
-    # However, these globals are typically set on the env when it's first created in main().
-    # For safety, let's ensure they are available if this function were ever called with a different env.
+    # Set template globals
     env.globals['current_year'] = datetime.datetime.now().year
     env.globals['prompt_of_the_day'] = prompt_of_the_day
     env.globals['all_keyword_pages_config'] = keyword_config.get('keyword_pages', {})
 
     try:
-        template = env.get_template("keyword_template.html") # This will now look in 'templates/keyword_template.html'
+        template = env.get_template("keyword_template.html")
         print("Using keyword_template.html for keyword pages.")
     except jinja2_exceptions.TemplateNotFound:
         print("Error: keyword_template.html not found. Make sure it's in the templates directory.")
@@ -349,41 +343,111 @@ def generate_keyword_page_files(keyword_pages_data, env, prompt_of_the_day):
         return
 
     for page_key, data in keyword_pages_data.items():
-        # if not data['articles'] and data['config'].get('page_type') == 'automated':
-        #     print(f"  - Skipping generation of {page_key}.html as it's an automated page with no new articles.")
-        #     continue
-
-        # Ensure 'categories' is structured as expected by keyword_template.html
-        # For keyword pages, articles are typically not further sub-categorized in the same way as the main page.
-        # We'll put all articles under a single category, which is the page title itself.
-        page_specific_categories = {data['config']['title']: data['articles']}
         
-        # Determine canonical path
-        # All keyword pages are at the root level, e.g., /openai-news.html
-        canonical_path = f"/{page_key}.html"
+        if data['config'].get('page_type') == 'curated':
+            # Handle curated pages (single page, no pagination)
+            page_specific_categories = {data['config']['title']: data['articles']}
+            canonical_path = f"/{page_key}.html"
 
-        try:
-            # Pass keyword_page_config for meta tags and specific content
-            # Pass prompt_of_the_day for the prompt widget
-            html_content = template.render(
-                categories=page_specific_categories,
-                page_title=data['config']['title'],
-                page_description=data['config'].get('description', ''), # Use .get for safety
-                update_time=datetime.datetime.now().strftime("%Y-%m-%d"), # Add update_time
-                current_year=datetime.datetime.now().year, # Add current_year
-                is_keyword_page=True, # Flag to indicate this is a keyword page
-                keyword_page_config=data['config'], # Pass the full config for this page
-                canonical_path=canonical_path,
-                prompt_of_the_day=prompt_of_the_day, # Pass prompt data
-                all_keyword_pages_config=keyword_config.get('keyword_pages', {}) # Added for navigation
-            )
-            with open(os.path.join(output_dir, f"{page_key}.html"), "w") as f:
-                f.write(html_content)
-            print(f"  - Successfully generated {page_key}.html")
-        except Exception as e:
-            print(f"Error generating page for {page_key}: {e}")
-            import traceback
-            traceback.print_exc()
+            try:
+                html_content = template.render(
+                    categories=page_specific_categories,
+                    page_title=data['config']['title'],
+                    page_description=data['config'].get('description', ''),
+                    update_time=datetime.datetime.now().strftime("%Y-%m-%d"),
+                    current_year=datetime.datetime.now().year,
+                    is_keyword_page=True,
+                    keyword_page_config=data['config'],
+                    canonical_path=canonical_path,
+                    prompt_of_the_day=prompt_of_the_day,
+                    all_keyword_pages_config=keyword_config.get('keyword_pages', {}),
+                    # Pagination info for curated pages (single page)
+                    current_page=1,
+                    total_pages=1,
+                    total_stories=len(data['articles']),
+                    page_key=page_key
+                )
+                with open(os.path.join(output_dir, f"{page_key}.html"), "w") as f:
+                    f.write(html_content)
+                print(f"  - Successfully generated {page_key}.html (curated)")
+            except Exception as e:
+                print(f"Error generating curated page for {page_key}: {e}")
+                import traceback
+                traceback.print_exc()
+        
+        else:
+            # Handle automated pages with pagination
+            pages = data.get('pages', [])
+            total_pages = len(pages)
+            
+            if total_pages == 0:
+                # Create empty page if no stories
+                pages = [[]]
+                total_pages = 1
+            
+            for page_num, page_stories in enumerate(pages, 1):
+                # For page 1, use the base filename (e.g., openai-news.html)
+                # For other pages, use page-N format (e.g., openai-news-page-2.html)
+                if page_num == 1:
+                    filename = f"{page_key}.html"
+                    canonical_path = f"/{page_key}.html"
+                else:
+                    filename = f"{page_key}-page-{page_num}.html"
+                    canonical_path = f"/{page_key}-page-{page_num}.html"
+                
+                # Structure stories for template (single category)
+                page_specific_categories = {data['config']['title']: page_stories}
+                
+                # Calculate pagination URLs
+                pagination_info = {
+                    'current_page': page_num,
+                    'total_pages': total_pages,
+                    'total_stories': data['total_stories'],
+                    'new_stories_count': data.get('new_stories_count', 0),
+                    'page_key': page_key,
+                    'prev_url': None,
+                    'next_url': None
+                }
+                
+                # Set previous page URL
+                if page_num > 1:
+                    if page_num == 2:
+                        pagination_info['prev_url'] = f"/{page_key}.html"
+                    else:
+                        pagination_info['prev_url'] = f"/{page_key}-page-{page_num-1}.html"
+                
+                # Set next page URL
+                if page_num < total_pages:
+                    pagination_info['next_url'] = f"/{page_key}-page-{page_num+1}.html"
+
+                try:
+                    html_content = template.render(
+                        categories=page_specific_categories,
+                        page_title=f"{data['config']['title']} - Page {page_num}" if page_num > 1 else data['config']['title'],
+                        page_description=data['config'].get('description', ''),
+                        update_time=datetime.datetime.now().strftime("%Y-%m-%d"),
+                        current_year=datetime.datetime.now().year,
+                        is_keyword_page=True,
+                        keyword_page_config=data['config'],
+                        canonical_path=canonical_path,
+                        prompt_of_the_day=prompt_of_the_day,
+                        all_keyword_pages_config=keyword_config.get('keyword_pages', {}),
+                        # Pagination data
+                        **pagination_info
+                    )
+                    
+                    with open(os.path.join(output_dir, filename), "w") as f:
+                        f.write(html_content)
+                    
+                    if page_num == 1:
+                        print(f"  - Successfully generated {filename} ({len(page_stories)} stories, {total_pages} total pages)")
+                    else:
+                        print(f"    - Generated {filename} ({len(page_stories)} stories)")
+                        
+                except Exception as e:
+                    print(f"Error generating page {page_num} for {page_key}: {e}")
+                    import traceback
+                    traceback.print_exc()
 
     # Generate non-keyword pages that might have been overwritten (e.g. about.html, contact.html if they were in keyword_pages_data)
     # This logic might need refinement if other static pages are handled differently.
@@ -440,7 +504,7 @@ SUBREDDITS = [
     "chatgpt", "claudeai", "characterai", "openai", "ArtificialIntelligence",
     "ai_agents", "StableDiffusion", "AIArt" # Added by user
 ]
-MAX_REDDIT_POSTS_PER_SUB = 2 # Keep the reduced number
+MAX_REDDIT_POSTS_PER_SUB = 5 # Increased from 2 to 5
 REDDIT_TIME_FILTER = 'day' # Restore this constant
 
 # Updated NewsAPI query to be more inclusive
@@ -449,28 +513,31 @@ MAX_NEWS_API_ARTICLES = 100 # Number of articles to fetch from NewsAPI (Increase
 MAX_HEADLINE_WORDS = 8
 
 # Add these new constants
-MAX_RSS_ENTRIES_PER_SOURCE = 3  # Limit RSS entries per source (Updated from 5 to 3)
-RSS_CUTOFF_DAYS = 2  # Only include RSS entries from the last 2 days (Changed from 7)
+MAX_RSS_ENTRIES_PER_SOURCE = 10  # Increased from 3 to 10
+RSS_CUTOFF_DAYS = 3  # Temporarily increased from 1 to 3 for testing pagination
+PERPLEXITY_RETRY_ATTEMPTS = 3
+PERPLEXITY_RETRY_DELAY = 2  # seconds
+
+# Pagination constants for topic pages
+STORIES_PER_PAGE = 20  # Number of stories to display per page
+MAX_TOTAL_STORIES_PER_TOPIC = 200  # Maximum stories to keep in total per topic
 
 # Add major news sources to RSS feeds
 RSS_FEEDS = {
+    # Working company/organization feeds
     "OpenAI": "https://openai.com/blog/rss.xml",
-    "Anthropic": "https://www.anthropic.com/rss/",  # Updated URL
     "Google AI": "https://blog.google/technology/ai/rss/",
-    "Meta AI": "https://ai.meta.com/blog/rss/",
-    # Major news sources
+    
+    # Working major news sources
     "The Economist": "https://www.economist.com/science-and-technology/rss.xml",
     "MIT Technology Review": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
-    "Wired": "https://www.wired.com/tag/artificial-intelligence/feed/rss",
-    "The Verge": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml",
-    # Existing RSS feeds
+    
+    # Working specialized AI feeds
     "Import AI": "https://jack-clark.net/feed/",
     "Machine Learning Mastery": "https://machinelearningmastery.com/blog/feed/",
-    "The Batch": "https://read.deeplearning.ai/the-batch/rss/",
     "VentureBeat AI": "https://venturebeat.com/category/ai/feed/",
     "Towards Data Science": "https://towardsdatascience.com/feed",
     "Synced Review": "https://syncedreview.com/feed/",
-    "Analytics Vidhya": "https://www.analyticsvidhya.com/blog/feed/",
     "The Gradient": "https://thegradient.pub/rss/"
 }
 
@@ -1152,6 +1219,106 @@ def main():
     # 4. Get Prompt of the Day
     prompt_data = get_prompt_of_the_day()
 
+    # 4.5. Generate Daily AI Flash Summary (restored functionality)
+    print("Generating Daily AI Flash Summary...")
+    
+    # Generate fallback flash summary from existing aggregated articles
+    current_date = datetime.datetime.now().strftime("%B %d, %Y")
+    
+    # Try to load existing aggregated data
+    main_page_content_file = 'data/main_page_content.json'
+    try:
+        with open(main_page_content_file, 'r', encoding='utf-8') as f:
+            flash_categorized_data = json.load(f)
+        print("FLASH SUMMARY: Loaded existing categorized data")
+    except (FileNotFoundError, json.JSONDecodeError):
+        print("FLASH SUMMARY: Using current run data for flash summary")
+        flash_categorized_data = categorized_data
+    
+    # Generate headline from categorized data
+    headline = "AI Industry Continues Rapid Evolution"
+    top_stories = []
+    priority_categories = ['Trending Now', 'AI Companies', 'AI Products', 'AI Business News', 'AI Research & Methods']
+    
+    for category in priority_categories:
+        if category in flash_categorized_data and flash_categorized_data[category]:
+            category_articles = flash_categorized_data[category][:2]
+            for article in category_articles:
+                if len(top_stories) < 3:  # Limit to 3 stories
+                    title = article.get('title', '')
+                    source = article.get('source', 'Unknown Source')
+                    # Clean up source name for display
+                    source_display = source
+                    if source.startswith('NewsAPI'):
+                        source_display = source.replace('NewsAPI (', '').replace(')', '')
+                    elif source.startswith('Reddit'):
+                        source_display = 'Reddit'
+                    top_stories.append(f"{title} ({source_display})")
+    
+    # If we don't have enough stories, fill from other categories
+    if len(top_stories) < 3:
+        for category, articles in flash_categorized_data.items():
+            if category not in priority_categories and articles:
+                for article in articles[:1]:
+                    if len(top_stories) < 3:
+                        title = article.get('title', '')
+                        source = article.get('source', 'Unknown Source')
+                        source_display = source
+                        if source.startswith('NewsAPI'):
+                            source_display = source.replace('NewsAPI (', '').replace(')', '')
+                        elif source.startswith('Reddit'):
+                            source_display = 'Reddit'
+                        top_stories.append(f"{title} ({source_display})")
+    
+    # Generate headline based on top stories
+    if top_stories:
+        first_story = top_stories[0]
+        if 'OpenAI' in first_story or 'GPT' in first_story:
+            headline = "OpenAI Developments Drive AI Innovation Forward"
+        elif 'Google' in first_story or 'Gemini' in first_story:
+            headline = "Google AI Advances Shape Industry Landscape"
+        elif 'funding' in first_story.lower() or 'investment' in first_story.lower():
+            headline = "AI Investment Activity Reaches New Heights"
+        elif 'regulation' in first_story.lower() or 'policy' in first_story.lower():
+            headline = "AI Regulation Framework Takes Center Stage"
+    
+    # Generate insight
+    insight = "The AI industry continues its rapid pace of innovation across multiple sectors and applications."
+    if top_stories:
+        stories_text = ' '.join(top_stories).lower()
+        if any(keyword in stories_text for keyword in ['funding', 'investment', 'raised']):
+            insight = "Continued investment activity signals strong market confidence in AI's transformative potential across industries."
+        elif any(keyword in stories_text for keyword in ['google', 'openai', 'anthropic', 'microsoft']):
+            insight = "Intensifying competition among major AI players is accelerating innovation and expanding AI capabilities."
+        elif any(keyword in stories_text for keyword in ['model', 'gpt', 'gemini', 'claude']):
+            insight = "Advanced language model developments continue to push the boundaries of AI performance and applications."
+    
+    # Format the flash summary content
+    flash_summary_content = f"""**AI FLASH - {current_date}**
+
+{headline}
+
+**Today's Top Stories:**"""
+    
+    # Add stories
+    for i, story in enumerate(top_stories[:3]):
+        flash_summary_content += f"\n- {story}"
+    
+    flash_summary_content += f"\n\n**Flash Insight:** {insight}"
+    
+    # Convert to HTML
+    flash_summary_html = flash_summary_content
+    # Convert **text** to <strong>text</strong> using regex for proper pairing
+    flash_summary_html = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', flash_summary_html)
+    # Convert bullet points to proper bullet symbols with line breaks
+    flash_summary_html = flash_summary_html.replace('\n- ', '<br>• ')
+    # Convert double line breaks to paragraph spacing
+    flash_summary_html = flash_summary_html.replace('\n\n', '<br><br>')
+    # Convert remaining single line breaks
+    flash_summary_html = flash_summary_html.replace('\n', '<br>')
+    
+    print(f"FLASH SUMMARY: Generated summary with {len(top_stories)} stories")
+
     # 5. Render template
     env = Environment(
         loader=FileSystemLoader('templates/'),
@@ -1188,13 +1355,13 @@ def main():
         'canonical_path': "/",
         'categories': categorized_data, # This is from the logic above (new or loaded)
         'prompt_of_the_day': prompt_data, # Pass the full prompt_data object
-        # 'category_descriptions': prompt_data.get('category_descriptions', {}), # This was in prompt_data, not separate
         'yesterday_date': yesterday_date_str,
         'tomorrow_date': tomorrow_date_str,
         'is_keyword_page': False,
         'is_main_page': True,
         'current_year': current_year_for_render,
-        'all_keyword_pages_config': keyword_config.get('keyword_pages', {}) 
+        'all_keyword_pages_config': keyword_config.get('keyword_pages', {}),
+        'flash_summary': flash_summary_html  # Add flash summary to template context
     }
 
     # Render template with data for index.html
@@ -1277,6 +1444,73 @@ def main():
 
     end_time = datetime.datetime.now()
     print(f"Aggregation finished in {(end_time - start_time).total_seconds():.2f} seconds.")
+
+def load_existing_topic_stories(page_key):
+    """Load existing stories for a topic page from archive file."""
+    archive_file = f"topic_archives/{page_key}_stories.json"
+    
+    # Create directory if it doesn't exist
+    os.makedirs("topic_archives", exist_ok=True)
+    
+    if os.path.exists(archive_file):
+        try:
+            with open(archive_file, 'r', encoding='utf-8') as f:
+                existing_stories = json.load(f)
+                print(f"Loaded {len(existing_stories)} existing stories for {page_key}")
+                return existing_stories
+        except (json.JSONDecodeError, FileNotFoundError):
+            print(f"Could not load existing stories for {page_key}, starting fresh")
+            return []
+    else:
+        print(f"No existing archive for {page_key}, starting fresh")
+        return []
+
+def save_topic_stories(page_key, stories):
+    """Save stories for a topic page to archive file."""
+    archive_file = f"topic_archives/{page_key}_stories.json"
+    
+    # Create directory if it doesn't exist
+    os.makedirs("topic_archives", exist_ok=True)
+    
+    try:
+        with open(archive_file, 'w', encoding='utf-8') as f:
+            json.dump(stories, f, indent=2, default=default_serializer)
+        print(f"Saved {len(stories)} stories for {page_key}")
+    except Exception as e:
+        print(f"Error saving stories for {page_key}: {e}")
+
+def merge_and_deduplicate_stories(existing_stories, new_stories):
+    """Merge new stories with existing ones, removing duplicates and maintaining chronological order."""
+    # Create a set of existing URLs for quick lookup
+    existing_urls = {story.get('url') for story in existing_stories}
+    
+    # Add only new stories that don't already exist
+    unique_new_stories = []
+    for story in new_stories:
+        if story.get('url') not in existing_urls:
+            unique_new_stories.append(story)
+    
+    print(f"Found {len(unique_new_stories)} truly new stories after deduplication")
+    
+    # Combine all stories
+    all_stories = unique_new_stories + existing_stories
+    
+    # Sort by publication date (newest first)
+    all_stories.sort(key=lambda x: x.get('published_date_obj') or datetime.datetime.min, reverse=True)
+    
+    # Limit to maximum stories per topic
+    if len(all_stories) > MAX_TOTAL_STORIES_PER_TOPIC:
+        all_stories = all_stories[:MAX_TOTAL_STORIES_PER_TOPIC]
+        print(f"Trimmed to maximum {MAX_TOTAL_STORIES_PER_TOPIC} stories")
+    
+    return all_stories
+
+def paginate_stories(stories, stories_per_page=STORIES_PER_PAGE):
+    """Split stories into pages for pagination."""
+    pages = []
+    for i in range(0, len(stories), stories_per_page):
+        pages.append(stories[i:i + stories_per_page])
+    return pages
 
 if __name__ == "__main__":
     main() 

@@ -9,4 +9,143 @@
 {% if keyword_page_config.keywords %}
 <meta name="keywords" content="{{ keyword_page_config.keywords | join(', ') }}, ai news, artificial intelligence, machine learning">
 {% endif %}
+{% endblock %}
+
+{% block content %}
+<!-- Topic Archive Summary -->
+{% if total_pages > 1 or total_stories > 20 %}
+<div class="topic-archive-summary" style="background-color: #f8f8f8; padding: 15px; margin-bottom: 25px; border-radius: 6px; border-left: 4px solid #cc0000;">
+    <h3 style="margin-top: 0; color: #cc0000; font-size: 1.1em;">📚 Topic Archive</h3>
+    <p style="margin: 8px 0; color: #555; font-size: 0.95em;">
+        <strong>{{ total_stories }} total stories</strong> about {{ keyword_page_config.title.lower() }} collected over time.
+        {% if total_pages > 1 %}
+        Showing page <strong>{{ current_page }}</strong> of <strong>{{ total_pages }}</strong> 
+        ({{ articles|length }} stories on this page).
+        {% endif %}
+    </p>
+    <p style="margin: 8px 0 0 0; color: #666; font-size: 0.9em; font-style: italic;">
+        Stories are automatically added daily when they match relevant keywords and topics.
+    </p>
+</div>
+{% endif %}
+
+<!-- Pagination Navigation (Top) -->
+{% if total_pages > 1 %}
+<nav class="pagination-nav" style="margin: 20px 0; text-align: center; background-color: #f9f9f9; padding: 15px; border-radius: 6px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+        <!-- Previous Page -->
+        <div style="flex: 1; text-align: left;">
+            {% if current_page > 1 %}
+                {% if prev_url %}
+                    <a href="{{ prev_url }}" style="color: #cc0000; text-decoration: none; font-weight: 500;">
+                        ← Newer Stories
+                    </a>
+                {% endif %}
+            {% else %}
+                <span style="color: #ccc;">← Newer Stories</span>
+            {% endif %}
+        </div>
+        
+        <!-- Page Numbers -->
+        <div style="flex: 2; text-align: center;">
+            {% for page_num in range(1, total_pages + 1) %}
+                {% if page_num == current_page %}
+                    <span style="background-color: #cc0000; color: white; padding: 6px 12px; margin: 0 2px; border-radius: 4px; font-weight: bold;">{{ page_num }}</span>
+                {% else %}
+                    {% set page_url = page_key + ("-page-" + page_num|string if page_num > 1 else "") + ".html" %}
+                    <a href="/{{ page_url }}" style="color: #cc0000; text-decoration: none; padding: 6px 12px; margin: 0 2px; border: 1px solid #cc0000; border-radius: 4px; display: inline-block;">{{ page_num }}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+        
+        <!-- Next Page -->
+        <div style="flex: 1; text-align: right;">
+            {% if current_page < total_pages %}
+                {% if next_url %}
+                    <a href="{{ next_url }}" style="color: #cc0000; text-decoration: none; font-weight: 500;">
+                        Older Stories →
+                    </a>
+                {% endif %}
+            {% else %}
+                <span style="color: #ccc;">Older Stories →</span>
+            {% endif %}
+        </div>
+    </div>
+</nav>
+{% endif %}
+
+<!-- Main Content: Topic Headlines -->
+<div class="main-content">
+    <div class="headline-block">
+        <h3>{{ keyword_page_config.title }}</h3>
+        {% if keyword_page_config.description %}
+            <p class="topic-description" style="color: #666; font-style: italic; margin-bottom: 20px;">{{ keyword_page_config.description }}</p>
+        {% endif %}
+        
+        {% if articles %}
+            {% for article in articles %}
+                <p>
+                    <a href="{{ article.url }}" target="_blank">{{ article.rewritten_title }}</a>
+                    <span style="color: #999; font-size: 0.85em; margin-left: 8px;">{{ article.published_date }}</span>
+                </p>
+            {% endfor %}
+        {% else %}
+            <p style="color: #666; font-style: italic; text-align: center; padding: 40px 20px;">
+                No stories found for this topic yet. Stories are automatically added daily when they match relevant keywords.
+            </p>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Pagination Navigation (Bottom) -->
+{% if total_pages > 1 %}
+<nav class="pagination-nav" style="margin: 30px 0 20px 0; text-align: center; background-color: #f9f9f9; padding: 15px; border-radius: 6px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+        <!-- Previous Page -->
+        <div style="flex: 1; text-align: left;">
+            {% if current_page > 1 %}
+                {% if prev_url %}
+                    <a href="{{ prev_url }}" style="color: #cc0000; text-decoration: none; font-weight: 500;">
+                        ← Newer Stories
+                    </a>
+                {% endif %}
+            {% else %}
+                <span style="color: #ccc;">← Newer Stories</span>
+            {% endif %}
+        </div>
+        
+        <!-- Page Numbers -->
+        <div style="flex: 2; text-align: center;">
+            {% for page_num in range(1, total_pages + 1) %}
+                {% if page_num == current_page %}
+                    <span style="background-color: #cc0000; color: white; padding: 6px 12px; margin: 0 2px; border-radius: 4px; font-weight: bold;">{{ page_num }}</span>
+                {% else %}
+                    {% set page_url = page_key + ("-page-" + page_num|string if page_num > 1 else "") + ".html" %}
+                    <a href="/{{ page_url }}" style="color: #cc0000; text-decoration: none; padding: 6px 12px; margin: 0 2px; border: 1px solid #cc0000; border-radius: 4px; display: inline-block;">{{ page_num }}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+        
+        <!-- Next Page -->
+        <div style="flex: 1; text-align: right;">
+            {% if current_page < total_pages %}
+                {% if next_url %}
+                    <a href="{{ next_url }}" style="color: #cc0000; text-decoration: none; font-weight: 500;">
+                        Older Stories →
+                    </a>
+                {% endif %}
+            {% else %}
+                <span style="color: #ccc;">Older Stories →</span>
+            {% endif %}
+        </div>
+    </div>
+</nav>
+{% endif %}
+
+<!-- Archive Information for SEO -->
+{% if total_stories > 0 %}
+<div style="margin-top: 30px; padding: 15px; background-color: #f8f8f8; border-radius: 6px; font-size: 0.9em; color: #666;">
+    <p style="margin: 0;"><strong>About this archive:</strong> This page automatically collects and archives stories about {{ keyword_page_config.title.lower() }} from various AI news sources. Stories are added daily when they match relevant keywords and topics. This creates a comprehensive, chronological archive of developments in this area of artificial intelligence.</p>
+</div>
+{% endif %}
 {% endblock %} 
