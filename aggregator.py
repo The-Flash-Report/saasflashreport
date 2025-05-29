@@ -1128,6 +1128,131 @@ def call_perplexity_api_with_retry(prompt):
     
     return None
 
+# --- NEW: Convert Perplexity content to rich HTML ---
+def convert_perplexity_to_rich_html(content, source_headlines=None):
+    """
+    Convert Perplexity API markdown-like content to rich HTML with proper formatting,
+    working links, and enhanced display similar to the Perplexity web interface.
+    
+    Args:
+        content: The Perplexity response content
+        source_headlines: List of headline dictionaries with 'url' field for citation mapping
+    """
+    if not content:
+        return ""
+    
+    # Work with the content
+    html_content = content
+    
+    # ISSUE FIX 1: Remove the entire "Sources:" section but keep hyperlinked citation numbers
+    # Remove from "Sources:" to the end of content, but preserve citations in the main text
+    html_content = re.sub(r'\*\*Sources:\*\*.*$', '', html_content, flags=re.DOTALL)
+    html_content = re.sub(r'Sources:.*$', '', html_content, flags=re.DOTALL)
+    
+    # ISSUE FIX 4: Fix spacing between FLASH and date BEFORE other processing
+    # Handle the specific case more precisely
+    html_content = re.sub(r'(AI NEWS FLASH)\s*([A-Z][a-z])', r'\1 - \2', html_content)
+    html_content = re.sub(r'(AI NEWS FLASH)([A-Z])', r'\1 - \2', html_content)
+    
+    # Convert the main headline to h2 (look for pattern like "**AI NEWS FLASH - date**" followed by "**headline**")
+    # First convert the date header - use site colors
+    html_content = re.sub(r'\*\*(AI NEWS FLASH - [^*]+)\*\*', r'<h2 style="color: #1a1a1a; margin: 0 0 8px 0; font-size: 1.4em; font-weight: bold;">\1</h2>', html_content)
+    
+    # Then convert the main headline that follows (next **text** pattern) - use site colors
+    html_content = re.sub(r'\*\*([^*]+)\*\*', r'<h2 style="color: #1a1a1a; margin: 8px 0; font-size: 1.2em; font-weight: bold;">\1</h2>', html_content, count=1)
+    
+    # Convert remaining markdown-style bold text (**text** or __text__)
+    html_content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html_content)
+    html_content = re.sub(r'__(.*?)__', r'<strong>\1</strong>', html_content)
+    
+    # Convert markdown-style italic text (*text* or _text_)  
+    html_content = re.sub(r'(?<!\*)\*([^*]+)\*(?!\*)', r'<em>\1</em>', html_content)
+    html_content = re.sub(r'(?<!_)_([^_]+)_(?!_)', r'<em>\1</em>', html_content)
+    
+    # Convert markdown-style links [text](url)
+    html_content = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2" target="_blank" rel="noopener">\1</a>', html_content)
+    
+    # Convert bare URLs to clickable links (http/https)
+    html_content = re.sub(
+        r'(?<!href=")(?<!src=")(https?://[^\s<>"\']+)',
+        r'<a href="\1" target="_blank" rel="noopener">\1</a>',
+        html_content
+    )
+    
+    # Enhanced citation handling - make citation numbers clickable if we have source URLs
+    if source_headlines:
+        # Extract unique URLs from source headlines
+        source_urls = [h.get('url') for h in source_headlines if h.get('url')]
+        source_urls = list(dict.fromkeys(source_urls))  # Remove duplicates while preserving order
+        
+        # Convert citation numbers to clickable links
+        def make_citation_clickable(match):
+            citation_num = int(match.group(1))
+            if citation_num <= len(source_urls):
+                url = source_urls[citation_num - 1]
+                return f'<a href="{url}" target="_blank" rel="noopener" style="color: #0066cc; text-decoration: none; font-weight: bold;">[{citation_num}]</a>'
+            return match.group(0)  # Return original if no URL available
+        
+        html_content = re.sub(r'\[(\d+)\]', make_citation_clickable, html_content)
+    else:
+        # Basic citation styling without links
+        html_content = re.sub(r'\[(\d+)\]', r'<span style="color: #0066cc; font-weight: bold;">[\1]</span>', html_content)
+    
+    # ISSUE FIX 3: Remove dashes from bullet points BEFORE newline conversion
+    html_content = re.sub(r'^\s*-\s+', '', html_content, flags=re.MULTILINE)
+    html_content = re.sub(r'\n\s*-\s+', '\n', html_content)
+    html_content = re.sub(r'<br>\s*-\s+', '<br>', html_content)
+    
+    # ISSUE FIX 2: Add proper line breaks between stories
+    # Convert newlines appropriately with better story separation
+    html_content = html_content.replace('\n\n', '<br><br>')
+    html_content = html_content.replace('\n', '<br>')
+    
+    # Ensure stories are properly separated (look for patterns like ". - " or ". Anthropic")
+    html_content = re.sub(r'(\]\.\s*)-\s*', r'\1<br>- ', html_content)
+    html_content = re.sub(r'(\]\.\s*)([A-Z])', r'\1<br>\2', html_content)
+    
+    # Handle numbered lists
+    html_content = re.sub(r'^(\s*\d+\.\s+)(.+)$', r'<br>\1\2', html_content, flags=re.MULTILINE)
+    
+    # Add some styling to make it look more like Perplexity's interface
+    styled_content = f'''
+    <div class="perplexity-content" style="
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        line-height: 1.6;
+        color: #1a1a1a;
+        background: #f8fafb;
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px solid #e1e5e9;
+        margin: 16px 0;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    ">
+        {html_content}
+    </div>
+    '''
+    
+    return styled_content
+
+# --- Helper function to detect if content has citations/sources ---
+def extract_citations_from_perplexity(content):
+    """Extract citation-style references from Perplexity content"""
+    citations = []
+    
+    # Look for citation patterns like [1], [2], etc.
+    citation_pattern = r'\[(\d+)\]'
+    citation_matches = re.findall(citation_pattern, content)
+    
+    # Look for source URLs in the content
+    url_pattern = r'(https?://[^\s<>"\']+)'
+    url_matches = re.findall(url_pattern, content)
+    
+    return {
+        'citation_numbers': citation_matches,
+        'urls': url_matches,
+        'has_citations': len(citation_matches) > 0 or len(url_matches) > 0
+    }
+
 # --- Main Pipeline ---
 
 def main():
@@ -1294,16 +1419,18 @@ def main():
         # Construct the prompt for Perplexity AI Flash Summary
         flash_summary_prompt_template = """Create a daily AI news summary for today's date {date}. Format as follows:
 
-**AI FLASH - {date}**
+**AI NEWS FLASH - {date}**
 
-[Write 1 compelling headline about the most significant AI story today based on the provided headlines below]
+**[REQUIRED: Write one compelling main headline about the most significant AI story from today's news]**
 
-**Today's Top Stories:**
-- [Story 1 - 1 sentence summary with source, based on the provided headlines]
-- [Story 2 - 1 sentence summary with source, based on the provided headlines] 
-- [Story 3 - 1 sentence summary with source, based on the provided headlines]
+
+- [Story 1 1 sentence summary with source, based on the provided headlines]
+- [Story 2 1 sentence summary with source, based on the provided headlines] 
+- [Story 3 1 sentence summary with source, based on the provided headlines]
 
 **Flash Insight:** [1-2 sentence analysis of what this means for the AI industry, based on the provided headlines]
+
+IMPORTANT: Include working links and sources with each story. Use citations [1], [2], etc. and provide the corresponding URLs at the bottom.
 
 Focus on: OpenAI, Anthropic, Google AI, Microsoft AI, AI funding, new model releases, AI regulation, and major AI breakthroughs. Exclude: basic AI tutorials, old news, and speculation.
 
@@ -1320,9 +1447,16 @@ Use the following headlines as your primary source of information for the summar
 
     if perplexity_summary_markdown:
         print("✅ Successfully generated Flash Summary with Perplexity API.")
-        # Use the raw output from Perplexity directly
-        flash_summary_html = perplexity_summary_markdown 
-        print(f"FLASH SUMMARY (raw from Perplexity):\n{flash_summary_html}")
+        # Convert the Perplexity markdown content to rich HTML with proper formatting and links
+        # Pass the source headlines for citation mapping
+        flash_summary_html = convert_perplexity_to_rich_html(perplexity_summary_markdown, unique_headlines)
+        
+        # Extract and log citation information
+        citation_info = extract_citations_from_perplexity(perplexity_summary_markdown)
+        if citation_info['has_citations']:
+            print(f"📚 Flash Summary contains {len(citation_info['citation_numbers'])} citations and {len(citation_info['urls'])} URLs")
+        
+        print(f"FLASH SUMMARY (converted to rich HTML):\n{flash_summary_html[:500]}...")
 
     else:
         if headlines_for_prompt: # Only print this if we tried to call Perplexity
@@ -1386,17 +1520,13 @@ Use the following headlines as your primary source of information for the summar
             elif any(keyword in stories_text for keyword in ['model', 'gpt', 'gemini', 'claude']):
                 fallback_insight = "Advanced language model developments continue to push the boundaries of AI."
         
-        flash_summary_content_fallback = f"**AI FLASH - {current_date}**\\n\\n{fallback_headline}\\n\\n**Today's Top Stories:**"
+        fallback_summary_content = f"**AI NEWS FLASH - {current_date}**\n\n**{fallback_headline}**\n\n**Today's Top Stories:**"
         for story in top_stories[:3]:
-            flash_summary_content_fallback += f"\\n- {story}"
-        flash_summary_content_fallback += f"\\n\\n**Flash Insight:** {fallback_insight}"
+            fallback_summary_content += f"\n{story}"
+        fallback_summary_content += f"\n\n**Flash Insight:** {fallback_insight}"
         
-        # Fallback still needs basic HTML conversion if it's constructing Markdown-like strings
-        flash_summary_html = flash_summary_content_fallback
-        flash_summary_html = re.sub(r'\\*\\*(.*?)\\*\\*', r'<strong>\\1</strong>', flash_summary_html)
-        flash_summary_html = re.sub(r'^\\s*[-*]\\s+', '<br>• ', flash_summary_html, flags=re.MULTILINE) # Convert bullets
-        flash_summary_html = flash_summary_html.replace('\\n\\n', '<br><br>')
-        flash_summary_html = flash_summary_html.replace('\\n', '<br>')
+        # Convert fallback content using the same rich HTML function for consistency
+        flash_summary_html = convert_perplexity_to_rich_html(fallback_summary_content, unique_headlines)
         print(f"FALLBACK FLASH SUMMARY: Generated with {len(top_stories)} stories.")
         # --- End of Fallback Flash Summary Generation ---
 
