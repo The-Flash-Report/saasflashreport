@@ -31,6 +31,14 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
+    # DEBUG STEP: Test Perplexity API access
+    - name: Test Perplexity API Access
+      env:
+        PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+      run: |
+        echo "🔍 Testing Perplexity API configuration..."
+        python3 test_perplexity_access.py
+        
     # Enhanced error handling and logging for aggregator script
     - name: Run aggregator script with error handling
       env:
