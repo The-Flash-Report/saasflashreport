@@ -1324,10 +1324,11 @@ Use the following headlines as your primary source of information for the summar
         flash_summary_html = perplexity_summary_markdown
         # Basic Markdown to HTML conversion
         # Convert **text** to <strong>text</strong>
-        flash_summary_html = re.sub(r'\\*\\*(.*?)\\*\\*', r'<strong>\\1</strong>', flash_summary_html)
-        # Convert *text* or _text_ to <em>text</em> (italic)
-        flash_summary_html = re.sub(r'(?<!\\*)\\*(?!\\*)(.*?)(?<!\\*)\\*(?!\\*)', r'<em>\\1</em>', flash_summary_html) # Handle *italic*
-        flash_summary_html = re.sub(r'\\_(.*?)\\_', r'<em>\\1</em>', flash_summary_html) # Handle _italic_
+        flash_summary_html = re.sub(r'\\*\\*(.*?)\\*\\*', r'<strong>\\\\1</strong>', flash_summary_html)
+        # Convert *italic* (e.g., *text*) to <em>text</em>
+        flash_summary_html = re.sub(r'\\*([^\\*]+)\\*', r'<em>\\\\1</em>', flash_summary_html)
+        # Convert _italic_ (e.g., _text_) to <em>text</em>
+        flash_summary_html = re.sub(r'\\_([^_]+)\\_', r'<em>\\\\1</em>', flash_summary_html)
         
         # Convert Markdown links [text](url) to <a href="url">text</a>
         flash_summary_html = re.sub(r'\\[([^\\]]+)\\]\\(([^)]+)\\)', r'<a href="\\2">\\1</a>', flash_summary_html)
@@ -1412,7 +1413,7 @@ Use the following headlines as your primary source of information for the summar
         flash_summary_content_fallback += f"\\n\\n**Flash Insight:** {fallback_insight}"
         
         flash_summary_html = flash_summary_content_fallback
-        flash_summary_html = re.sub(r'\\*\\*(.*?)\\*\\*', r'<strong>\\1</strong>', flash_summary_html)
+        flash_summary_html = re.sub(r'\\*\\*(.*?)\\*\\*', r'<strong>\\\\1</strong>', flash_summary_html)
         flash_summary_html = flash_summary_html.replace('\\n- ', '<br>• ')
         flash_summary_html = flash_summary_html.replace('\\n\\n', '<br><br>')
         flash_summary_html = flash_summary_html.replace('\\n', '<br>')
