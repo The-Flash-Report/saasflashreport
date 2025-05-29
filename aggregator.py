@@ -1320,30 +1320,9 @@ Use the following headlines as your primary source of information for the summar
 
     if perplexity_summary_markdown:
         print("✅ Successfully generated Flash Summary with Perplexity API.")
-        # Convert Perplexity's Markdown response to HTML
-        flash_summary_html = perplexity_summary_markdown
-        # Basic Markdown to HTML conversion
-        # Convert **text** to <strong>text</strong>
-        flash_summary_html = re.sub(r'\\*\\*(.*?)\\*\\*', r'<strong>\\\\1</strong>', flash_summary_html)
-        # Convert *italic* (e.g., *text*) to <em>text</em>
-        flash_summary_html = re.sub(r'\\*([^\\*]+)\\*', r'<em>\\\\1</em>', flash_summary_html)
-        # Convert _italic_ (e.g., _text_) to <em>text</em>
-        flash_summary_html = re.sub(r'\\_([^_]+)\\_', r'<em>\\\\1</em>', flash_summary_html)
-        
-        # Convert Markdown links [text](url) to <a href="url">text</a>
-        flash_summary_html = re.sub(r'\\[([^\\]]+)\\]\\(([^)]+)\\)', r'<a href="\\2">\\1</a>', flash_summary_html)
-        
-        # Convert bullet points (lines starting with - or *) to <li>, then wrap with <ul>
-        # This is a bit more complex; a simpler approach for now:
-        # Convert lines starting with '-' or '*' to <br>•
-        flash_summary_html = re.sub(r'^\\s*[-*]\\s+', '<br>• ', flash_summary_html, flags=re.MULTILINE)
-
-        # Convert double line breaks to paragraph spacing (<br><br>)
-        flash_summary_html = flash_summary_html.replace('\\n\\n', '<br><br>')
-        # Convert remaining single line breaks to <br>
-        flash_summary_html = flash_summary_html.replace('\\n', '<br>')
-        
-        print(f"FLASH SUMMARY (from Perplexity):\n{flash_summary_html}")
+        # Use the raw output from Perplexity directly
+        flash_summary_html = perplexity_summary_markdown 
+        print(f"FLASH SUMMARY (raw from Perplexity):\n{flash_summary_html}")
 
     else:
         if headlines_for_prompt: # Only print this if we tried to call Perplexity
@@ -1412,9 +1391,10 @@ Use the following headlines as your primary source of information for the summar
             flash_summary_content_fallback += f"\\n- {story}"
         flash_summary_content_fallback += f"\\n\\n**Flash Insight:** {fallback_insight}"
         
+        # Fallback still needs basic HTML conversion if it's constructing Markdown-like strings
         flash_summary_html = flash_summary_content_fallback
-        flash_summary_html = re.sub(r'\\*\\*(.*?)\\*\\*', r'<strong>\\\\1</strong>', flash_summary_html)
-        flash_summary_html = flash_summary_html.replace('\\n- ', '<br>• ')
+        flash_summary_html = re.sub(r'\\*\\*(.*?)\\*\\*', r'<strong>\\1</strong>', flash_summary_html)
+        flash_summary_html = re.sub(r'^\\s*[-*]\\s+', '<br>• ', flash_summary_html, flags=re.MULTILINE) # Convert bullets
         flash_summary_html = flash_summary_html.replace('\\n\\n', '<br><br>')
         flash_summary_html = flash_summary_html.replace('\\n', '<br>')
         print(f"FALLBACK FLASH SUMMARY: Generated with {len(top_stories)} stories.")
