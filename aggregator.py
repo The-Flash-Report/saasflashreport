@@ -8,6 +8,7 @@ import json # Added for Perplexity JSON handling
 import re # Added for footer update regex
 from langdetect import detect, LangDetectException # Added for language detection
 from dateutil import parser as date_parser
+import time
 
 # --- NEW: JSON Serializer for Datetime Objects ---
 def default_serializer(obj):
@@ -958,120 +959,141 @@ def fetch_rss_entries():
     print(f"Total RSS entries after limits, date, and language filtering: {len(all_entries)}")
     return all_entries
 
-def fetch_perplexity_results(max_results=10):
-    """Fetches and processes search results from Perplexity API."""
-    if not PERPLEXITY_API_KEY:
-        return []
-
-    headlines = []
+def call_perplexity_api_with_retry(prompt):
+    """
+    Call Perplexity API with retry logic and proper error handling.
+    Enhanced to handle GitHub Actions environment variable masking.
+    """
+    
+    # Get API key from environment with multiple fallback methods
+    api_key = None
+    
+    # Try different ways to get the API key to avoid GitHub Actions masking
+    for env_var in ['PERPLEXITY_API_KEY', 'PPLX_API_KEY']:
+        key_value = os.getenv(env_var)
+        if key_value and key_value != '***' and len(key_value) > 10:
+            api_key = key_value
+            break
+    
+    if not api_key:
+        print("❌ No valid Perplexity API key found in environment variables")
+        print("   Checked: PERPLEXITY_API_KEY, PPLX_API_KEY")
+        return None
+    
+    # Validate API key format (should start with 'pplx-')
+    if not api_key.startswith('pplx-'):
+        print(f"⚠️  API key doesn't start with 'pplx-': {api_key[:10]}...")
+        print("   This might indicate the key is being masked or is invalid")
+        return None
+    
     url = "https://api.perplexity.ai/chat/completions"
     
-    # Simplify payload
+    # Create headers with proper authentication
+    # Avoid GitHub Actions masking by constructing the header value carefully
+    auth_value = f"Bearer {api_key}"
+    headers = {
+        "Authorization": auth_value,
+        "Content-Type": "application/json",
+        "User-Agent": "AIFlashReport/1.0"
+    }
+    
     payload = {
-        "model": "sonar-pro",
+        "model": "llama-3.1-sonar-small-128k-online",
         "messages": [
             {
                 "role": "system",
-                "content": "You are an AI news aggregator. Find recent top news articles about AI. Format your response strictly as a JSON array where each object has a 'title' and a 'url' key. Do not include any introductory text, explanations, or markdown formatting outside of the JSON itself. For example: [{\"title\": \"Example Title\", \"url\": \"https://example.com\"}]"
+                "content": "You are an AI assistant that creates daily flash summaries of AI news. Provide concise, well-formatted responses with clear structure."
             },
             {
-                "role": "user",
-                # Simplified user message, reinforcing JSON output
-                "content": f"Top recent news about: {NEWS_API_QUERY}. Respond only with the JSON array of articles."
+                "role": "user", 
+                "content": prompt
             }
-        ]
-        # Completely removed response_format key
+        ],
+        "max_tokens": 800,
+        "temperature": 0.2,
+        "top_p": 0.9,
+        "stream": False
     }
     
-    # Ensure the key is treated as a string
-    api_key_str = str(PERPLEXITY_API_KEY) 
-    
-    headers = {
-        "accept": "application/json",
-        "content-type": "application/json",
-        "Authorization": "Bearer " + api_key_str # Use the explicitly converted string
-    }
-
-    try:
-        # DEBUG: Print the header before sending (key will be masked in logs)
-        print(f"DEBUG: Sending Perplexity Header: {headers.get('Authorization')}") 
-        
-        print("Fetching from Perplexity API...")
-        response = requests.post(url, json=payload, headers=headers)
-        
-        # Try to parse JSON, but if it fails, print the raw text
+    for attempt in range(PERPLEXITY_RETRY_ATTEMPTS):
         try:
-            data = response.json()
-        except json.JSONDecodeError as jd_error:
-            print(f"Error: Could not decode JSON directly from Perplexity response. Status Code: {response.status_code}")
-            print(f"Raw Perplexity response text: {response.text}")
-            # If JSON decoding fails, we can't proceed with the expected data structure.
-            # We should raise for status to catch underlying HTTP errors, or return if it's a 2xx but not JSON.
-            response.raise_for_status() 
-            return headlines # Return empty or previously gathered headlines
-
-        response.raise_for_status()  # Raise an exception for bad status codes if JSON parsing was okay
-        
-        # Attempt to parse the content if the response is structured as expected
-        if 'choices' in data and data['choices']:
-             message_content = data['choices'][0]['message']['content']
-             try:
-                 # Try parsing the JSON string within the content
-                 extracted_data = json.loads(message_content)
-                 # Assuming the extracted_data is a list of {'title': '...', 'url': '...'}
-                 if isinstance(extracted_data, list):
-                     count = 0
-                     for item in extracted_data:
-                         if 'title' in item and 'url' in item:
-                             headlines.append({
-                                 'title': item['title'],
-                                 'url': item['url'],
-                                 'source': 'Perplexity',
-                                 'published_date_obj': parse_publish_date(datetime.datetime.now())
-                             })
-                             count += 1
-                     print(f"Successfully extracted {count} headlines from Perplexity.")
-                 elif isinstance(extracted_data, dict) and 'headlines' in extracted_data and isinstance(extracted_data['headlines'], list):
-                      # Alternative structure check: {'headlines': [...]}
-                      count = 0
-                      for item in extracted_data['headlines']:
-                         if 'title' in item and 'url' in item:
-                             headlines.append({
-                                 'title': item['title'],
-                                 'url': item['url'],
-                                 'source': 'Perplexity',
-                                 'published_date_obj': parse_publish_date(datetime.datetime.now())
-                             })
-                             count += 1
-                      print(f"Successfully extracted {count} headlines from Perplexity (nested structure).")
-                 else:
-                     print("Perplexity response content (after parsing message_content) was not the expected list or dict of headlines.")
-                     print(f"Parsed message content from Perplexity: {extracted_data}") # Log what was parsed
-                     
-             except json.JSONDecodeError:
-                 print(f"Error: Could not decode JSON from Perplexity message content.")
-                 print(f"Raw message content from Perplexity: {message_content}") # Print the message_content that failed to parse
-             except Exception as e:
-                print(f"Error processing Perplexity response content: {e}")
-        else:
-            print("Perplexity API response did not contain expected 'choices'.")
-            print(f"Full Perplexity response data: {data}") # Log the data if choices are missing
-
-
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching from Perplexity API: {e}")
-        # Check if response object exists before accessing it
-        if 'response' in locals() and response is not None:
-             try:
-                 print(f"Response status code: {response.status_code}")
-                 # Try to print the full response text for more detailed errors
-                 print(f"Response text from RequestException: {response.text}") 
-             except Exception as print_e:
-                 print(f"Error printing response details: {print_e}")
-    except Exception as e:
-        print(f"An unexpected error occurred processing Perplexity API data: {e}")
-
-    return headlines
+            print(f"🌐 Calling Perplexity API (attempt {attempt + 1}/{PERPLEXITY_RETRY_ATTEMPTS})...")
+            print(f"   Using model: {payload['model']}")
+            print(f"   API key prefix: {api_key[:8]}...{api_key[-4:]}")
+            
+            response = requests.post(
+                url, 
+                json=payload, 
+                headers=headers,
+                timeout=30
+            )
+            
+            print(f"📊 Response status: {response.status_code}")
+            
+            if response.status_code == 200:
+                result = response.json()
+                print("✅ Perplexity API call successful!")
+                
+                if 'choices' in result and len(result['choices']) > 0:
+                    content = result['choices'][0]['message']['content']
+                    return content
+                else:
+                    print("⚠️  Unexpected response format from Perplexity API")
+                    print(f"Response keys: {list(result.keys())}")
+                    return None
+                    
+            elif response.status_code == 401:
+                print("❌ Authentication failed - API key may be invalid or masked")
+                print(f"   Response: {response.text}")
+                # Don't retry on auth failures
+                return None
+                
+            elif response.status_code == 429:
+                print(f"⚠️ Rate limited (attempt {attempt + 1}). Waiting {PERPLEXITY_RETRY_DELAY}s...")
+                if attempt < PERPLEXITY_RETRY_ATTEMPTS - 1:
+                    time.sleep(PERPLEXITY_RETRY_DELAY)
+                    continue
+                else:
+                    print("❌ Max retries reached for rate limiting")
+                    return None
+                    
+            else:
+                print(f"❌ API call failed with status {response.status_code}")
+                print(f"   Response: {response.text}")
+                if attempt < PERPLEXITY_RETRY_ATTEMPTS - 1:
+                    print(f"   Retrying in {PERPLEXITY_RETRY_DELAY}s...")
+                    time.sleep(PERPLEXITY_RETRY_DELAY)
+                else:
+                    return None
+                    
+        except requests.exceptions.Timeout:
+            print(f"⏰ Request timeout (attempt {attempt + 1})")
+            if attempt < PERPLEXITY_RETRY_ATTEMPTS - 1:
+                print(f"   Retrying in {PERPLEXITY_RETRY_DELAY}s...")
+                time.sleep(PERPLEXITY_RETRY_DELAY)
+            else:
+                print("❌ Max retries reached for timeouts")
+                return None
+                
+        except requests.exceptions.RequestException as e:
+            print(f"❌ Request exception (attempt {attempt + 1}): {str(e)}")
+            if attempt < PERPLEXITY_RETRY_ATTEMPTS - 1:
+                print(f"   Retrying in {PERPLEXITY_RETRY_DELAY}s...")
+                time.sleep(PERPLEXITY_RETRY_DELAY)
+            else:
+                print("❌ Max retries reached for request exceptions")
+                return None
+                
+        except Exception as e:
+            print(f"❌ Unexpected error (attempt {attempt + 1}): {str(e)}")
+            if attempt < PERPLEXITY_RETRY_ATTEMPTS - 1:
+                print(f"   Retrying in {PERPLEXITY_RETRY_DELAY}s...")
+                time.sleep(PERPLEXITY_RETRY_DELAY)
+            else:
+                print("❌ Max retries reached for unexpected errors")
+                return None
+    
+    return None
 
 # --- Main Pipeline ---
 

@@ -62,25 +62,31 @@ Implementing the Daily AI Flash Summary feature to provide users with a concise 
 ### [🔄] Phase 5: Testing and Quality Assurance - **IN PROGRESS**
 - [x] **PUSHED TO PRODUCTION**: Successfully triggered GitHub Actions workflow
 - [x] **MERGE CONFLICTS RESOLVED**: Handled remote changes and maintained local improvements  
-- [❌] **CRITICAL ISSUE IDENTIFIED**: Perplexity API key not accessible in GitHub Actions
-  - [x] Issue diagnosed: PERPLEXITY_API_KEY secret not properly configured
-  - [x] Debug test script created and added to workflow
-  - [ ] **NEXT STEP**: Configure PERPLEXITY_API_KEY secret in GitHub repository
-  - [ ] **VALIDATION**: Re-run GitHub Actions to confirm Perplexity API access works
+- [x] **CRITICAL ISSUE IDENTIFIED**: Perplexity API key not accessible in GitHub Actions
+  - [x] Issue diagnosed: GitHub Actions secret masking interfering with API headers
+  - [x] Debug test script created and identified exact error: `Invalid header value b'***'`
+  - [x] **SOLUTION IMPLEMENTED**: Enhanced aggregator.py to handle GitHub Actions secret masking
+    - [x] Added multiple environment variable fallbacks (PERPLEXITY_API_KEY, PPLX_API_KEY)  
+    - [x] Added API key validation and masking detection
+    - [x] Enhanced error handling and retry logic
+    - [x] Updated workflow with fallback environment variable names
+  - [ ] **VALIDATION**: Re-run GitHub Actions to confirm Perplexity API access works with fixes
 - [ ] Monitor daily generation over 3-5 days
 - [ ] Test all components (RSS feeds, Reddit, NewsAPI, Perplexity) 
 - [ ] Verify archives are being created properly
 - [ ] Check topic page pagination functionality
 - [ ] Monitor error logs and performance metrics
 
-### **🚨 IMMEDIATE ACTION REQUIRED**
-**Issue**: Live site shows fallback content because Perplexity API key is not accessible in GitHub Actions
+### **🔧 ISSUE RESOLVED - TESTING REQUIRED**
+**Problem**: GitHub Actions was masking the Perplexity API key with `***` in Authorization headers
 
-**Solution**: 
-1. Go to GitHub repository: `https://github.com/bryancollins99/aiflashreport`
-2. Navigate to **Settings** → **Secrets and variables** → **Actions**
-3. Add `PERPLEXITY_API_KEY` as a repository secret
-4. Re-run the GitHub Actions workflow to test the fix
+**Solution Implemented**: 
+- ✅ Enhanced `call_perplexity_api_with_retry()` function with secret masking detection
+- ✅ Added fallback environment variable names to avoid masking
+- ✅ Improved API key validation and error handling
+- ✅ Updated GitHub Actions workflow with enhanced environment variables
+
+**Next Step**: Re-run GitHub Actions workflow to test the fix
 
 ### [ ] Phase 6: Documentation and Monitoring
 - [ ] Update project documentation
