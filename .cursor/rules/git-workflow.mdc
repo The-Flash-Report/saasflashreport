@@ -6,6 +6,7 @@ alwaysApply: false
 **Author:** Bryan Collins
 
 ## Git Workflow Guidelines
+Repository: https://github.com/bryancollins99/aiflashreport
 
 ### Understanding the Sync Problem
 This project uses GitHub Actions to automatically update content daily. This creates a unique challenge: 
