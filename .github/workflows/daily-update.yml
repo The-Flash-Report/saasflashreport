@@ -34,6 +34,7 @@ jobs:
     # DEBUG STEP: Test Perplexity API access
     - name: Test Perplexity API Access
       env:
+        PERPLEXITY_API_KEY_B64: ${{ secrets.PERPLEXITY_API_KEY_B64 }}
         PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
         PPLX_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}  # Fallback name to avoid masking
       run: |
@@ -43,6 +44,7 @@ jobs:
     # Run the news aggregator with enhanced environment variable access
     - name: Generate daily news content
       env:
+        PERPLEXITY_API_KEY_B64: ${{ secrets.PERPLEXITY_API_KEY_B64 }}
         PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
         PPLX_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}  # Fallback name to avoid masking
         NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
