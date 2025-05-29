@@ -1271,107 +1271,153 @@ def main():
     # --- MODIFICATION END ---
 
     # 4. Get Prompt of the Day
-    prompt_data = get_prompt_of_the_day()
+    prompt_data = get_prompt_of_the_day() # This is for the separate "Prompt of the Day" feature
 
-    # 4.5. Generate Daily AI Flash Summary (restored functionality)
+    # 4.5. Generate Daily AI Flash Summary
     print("Generating Daily AI Flash Summary...")
-    
-    # Generate fallback flash summary from existing aggregated articles
     current_date = datetime.datetime.now().strftime("%B %d, %Y")
     
-    # Try to load existing aggregated data
-    main_page_content_file = 'data/main_page_content.json'
-    try:
-        with open(main_page_content_file, 'r', encoding='utf-8') as f:
-            flash_categorized_data = json.load(f)
-        print("FLASH SUMMARY: Loaded existing categorized data")
-    except (FileNotFoundError, json.JSONDecodeError):
-        print("FLASH SUMMARY: Using current run data for flash summary")
-        flash_categorized_data = categorized_data
+    # Prepare headlines for the Perplexity prompt
+    # We'll use unique_headlines which has been deduplicated
+    headlines_for_prompt = []
+    if unique_headlines:
+        for article in unique_headlines[:15]: # Limit to top 15 headlines to keep prompt size reasonable
+            title = article.get('title', 'No Title')
+            source = article.get('source', 'Unknown Source')
+            url = article.get('url', '#')
+            headlines_for_prompt.append(f"- Title: {title}\\n  Source: {source}\\n  URL: {url}")
     
-    # Generate headline from categorized data
-    headline = "AI Industry Continues Rapid Evolution"
-    top_stories = []
-    priority_categories = ['Trending Now', 'AI Companies', 'AI Products', 'AI Business News', 'AI Research & Methods']
-    
-    for category in priority_categories:
-        if category in flash_categorized_data and flash_categorized_data[category]:
-            category_articles = flash_categorized_data[category][:2]
-            for article in category_articles:
-                if len(top_stories) < 3:  # Limit to 3 stories
-                    title = article.get('title', '')
-                    source = article.get('source', 'Unknown Source')
-                    # Clean up source name for display
-                    source_display = source
-                    if source.startswith('NewsAPI'):
-                        source_display = source.replace('NewsAPI (', '').replace(')', '')
-                    elif source.startswith('Reddit'):
-                        source_display = 'Reddit'
-                    top_stories.append(f"{title} ({source_display})")
-    
-    # If we don't have enough stories, fill from other categories
-    if len(top_stories) < 3:
-        for category, articles in flash_categorized_data.items():
-            if category not in priority_categories and articles:
-                for article in articles[:1]:
+    flash_summary_html = ""
+    perplexity_summary_markdown = None
+
+    if headlines_for_prompt: # Only attempt Perplexity call if we have headlines
+        # Construct the prompt for Perplexity AI Flash Summary
+        flash_summary_prompt_template = """Create a daily AI news summary for today's date {date}. Format as follows:
+
+**AI FLASH - {date}**
+
+[Write 1 compelling headline about the most significant AI story today based on the provided headlines below]
+
+**Today's Top Stories:**
+- [Story 1 - 1 sentence summary with source, based on the provided headlines]
+- [Story 2 - 1 sentence summary with source, based on the provided headlines] 
+- [Story 3 - 1 sentence summary with source, based on the provided headlines]
+
+**Flash Insight:** [1-2 sentence analysis of what this means for the AI industry, based on the provided headlines]
+
+Focus on: OpenAI, Anthropic, Google AI, Microsoft AI, AI funding, new model releases, AI regulation, and major AI breakthroughs. Exclude: basic AI tutorials, old news, and speculation.
+
+Use the following headlines as your primary source of information for the summary:
+{headlines_list}
+"""
+        
+        formatted_headlines = "\\n".join(headlines_for_prompt)
+        final_flash_prompt = flash_summary_prompt_template.format(date=current_date, headlines_list=formatted_headlines)
+        
+        print("Attempting to generate Flash Summary with Perplexity API...")
+        print(f"Prompt for Perplexity Flash Summary (first 200 chars): {final_flash_prompt[:200]}...")
+        perplexity_summary_markdown = call_perplexity_api_with_retry(final_flash_prompt)
+
+    if perplexity_summary_markdown:
+        print("✅ Successfully generated Flash Summary with Perplexity API.")
+        # Convert Perplexity's Markdown response to HTML
+        flash_summary_html = perplexity_summary_markdown
+        # Basic Markdown to HTML conversion
+        # Convert **text** to <strong>text</strong>
+        flash_summary_html = re.sub(r'\\*\\*(.*?)\\*\\*', r'<strong>\\1</strong>', flash_summary_html)
+        # Convert *text* or _text_ to <em>text</em> (italic)
+        flash_summary_html = re.sub(r'(?<!\\*)\\*(?!\\*)(.*?)(?<!\\*)\\*(?!\\*)', r'<em>\\1</em>', flash_summary_html) # Handle *italic*
+        flash_summary_html = re.sub(r'\\_(.*?)\\_', r'<em>\\1</em>', flash_summary_html) # Handle _italic_
+        
+        # Convert Markdown links [text](url) to <a href="url">text</a>
+        flash_summary_html = re.sub(r'\\[([^\\]]+)\\]\\(([^)]+)\\)', r'<a href="\\2">\\1</a>', flash_summary_html)
+        
+        # Convert bullet points (lines starting with - or *) to <li>, then wrap with <ul>
+        # This is a bit more complex; a simpler approach for now:
+        # Convert lines starting with '-' or '*' to <br>•
+        flash_summary_html = re.sub(r'^\\s*[-*]\\s+', '<br>• ', flash_summary_html, flags=re.MULTILINE)
+
+        # Convert double line breaks to paragraph spacing (<br><br>)
+        flash_summary_html = flash_summary_html.replace('\\n\\n', '<br><br>')
+        # Convert remaining single line breaks to <br>
+        flash_summary_html = flash_summary_html.replace('\\n', '<br>')
+        
+        print(f"FLASH SUMMARY (from Perplexity):\n{flash_summary_html}")
+
+    else:
+        if headlines_for_prompt: # Only print this if we tried to call Perplexity
+            print("⚠️ Perplexity API call for Flash Summary failed or returned no content. Using fallback summary.")
+        else:
+            print("No headlines available to send to Perplexity for Flash Summary. Using fallback summary.")
+
+        # --- Fallback Flash Summary Generation (Original Logic) ---
+        # Try to load existing aggregated data (this part of logic can remain for fallback)
+        main_page_content_file = 'data/main_page_content.json'
+        try:
+            with open(main_page_content_file, 'r', encoding='utf-8') as f:
+                flash_categorized_data = json.load(f)
+            print("FALLBACK FLASH SUMMARY: Loaded existing categorized data for fallback.")
+        except (FileNotFoundError, json.JSONDecodeError):
+            print("FALLBACK FLASH SUMMARY: Using current run data for fallback flash summary.")
+            flash_categorized_data = categorized_data
+        
+        fallback_headline = "AI Industry Continues Rapid Evolution"
+        top_stories = []
+        priority_categories = ['Trending Now', 'AI Companies', 'AI Products', 'AI Business News', 'AI Research & Methods']
+        
+        for category in priority_categories:
+            if category in flash_categorized_data and flash_categorized_data[category]:
+                category_articles = flash_categorized_data[category][:2] # Take up to 2 from each priority
+                for article in category_articles:
                     if len(top_stories) < 3:
                         title = article.get('title', '')
                         source = article.get('source', 'Unknown Source')
                         source_display = source
-                        if source.startswith('NewsAPI'):
-                            source_display = source.replace('NewsAPI (', '').replace(')', '')
-                        elif source.startswith('Reddit'):
-                            source_display = 'Reddit'
+                        if source.startswith('NewsAPI'): source_display = source.replace('NewsAPI (', '').replace(')', '')
+                        elif source.startswith('Reddit'): source_display = 'Reddit'
                         top_stories.append(f"{title} ({source_display})")
-    
-    # Generate headline based on top stories
-    if top_stories:
-        first_story = top_stories[0]
-        if 'OpenAI' in first_story or 'GPT' in first_story:
-            headline = "OpenAI Developments Drive AI Innovation Forward"
-        elif 'Google' in first_story or 'Gemini' in first_story:
-            headline = "Google AI Advances Shape Industry Landscape"
-        elif 'funding' in first_story.lower() or 'investment' in first_story.lower():
-            headline = "AI Investment Activity Reaches New Heights"
-        elif 'regulation' in first_story.lower() or 'policy' in first_story.lower():
-            headline = "AI Regulation Framework Takes Center Stage"
-    
-    # Generate insight
-    insight = "The AI industry continues its rapid pace of innovation across multiple sectors and applications."
-    if top_stories:
-        stories_text = ' '.join(top_stories).lower()
-        if any(keyword in stories_text for keyword in ['funding', 'investment', 'raised']):
-            insight = "Continued investment activity signals strong market confidence in AI's transformative potential across industries."
-        elif any(keyword in stories_text for keyword in ['google', 'openai', 'anthropic', 'microsoft']):
-            insight = "Intensifying competition among major AI players is accelerating innovation and expanding AI capabilities."
-        elif any(keyword in stories_text for keyword in ['model', 'gpt', 'gemini', 'claude']):
-            insight = "Advanced language model developments continue to push the boundaries of AI performance and applications."
-    
-    # Format the flash summary content
-    flash_summary_content = f"""**AI FLASH - {current_date}**
-
-{headline}
-
-**Today's Top Stories:**"""
-    
-    # Add stories
-    for i, story in enumerate(top_stories[:3]):
-        flash_summary_content += f"\n- {story}"
-    
-    flash_summary_content += f"\n\n**Flash Insight:** {insight}"
-    
-    # Convert to HTML
-    flash_summary_html = flash_summary_content
-    # Convert **text** to <strong>text</strong> using regex for proper pairing
-    flash_summary_html = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', flash_summary_html)
-    # Convert bullet points to proper bullet symbols with line breaks
-    flash_summary_html = flash_summary_html.replace('\n- ', '<br>• ')
-    # Convert double line breaks to paragraph spacing
-    flash_summary_html = flash_summary_html.replace('\n\n', '<br><br>')
-    # Convert remaining single line breaks
-    flash_summary_html = flash_summary_html.replace('\n', '<br>')
-    
-    print(f"FLASH SUMMARY: Generated summary with {len(top_stories)} stories")
+        
+        if len(top_stories) < 3: # Fill from other categories if needed
+            for category, articles in flash_categorized_data.items():
+                if category not in priority_categories and articles:
+                    for article in articles[:1]:
+                        if len(top_stories) < 3:
+                            title = article.get('title', '')
+                            source = article.get('source', 'Unknown Source')
+                            source_display = source
+                            if source.startswith('NewsAPI'): source_display = source.replace('NewsAPI (', '').replace(')', '')
+                            elif source.startswith('Reddit'): source_display = 'Reddit'
+                            top_stories.append(f"{title} ({source_display})")
+        
+        if top_stories: # Generate headline based on top stories
+            first_story = top_stories[0].lower()
+            if 'openai' in first_story or 'gpt' in first_story: fallback_headline = "OpenAI Developments Drive AI Innovation Forward"
+            elif 'google' in first_story or 'gemini' in first_story: fallback_headline = "Google AI Advances Shape Industry Landscape"
+            elif 'funding' in first_story or 'investment' in first_story: fallback_headline = "AI Investment Activity Reaches New Heights"
+            elif 'regulation' in first_story or 'policy' in first_story: fallback_headline = "AI Regulation Framework Takes Center Stage"
+        
+        fallback_insight = "The AI industry continues its rapid pace of innovation across multiple sectors and applications."
+        if top_stories:
+            stories_text = ' '.join(top_stories).lower()
+            if any(keyword in stories_text for keyword in ['funding', 'investment', 'raised']):
+                fallback_insight = "Continued investment activity signals strong market confidence in AI's transformative potential."
+            elif any(keyword in stories_text for keyword in ['google', 'openai', 'anthropic', 'microsoft']):
+                fallback_insight = "Intensifying competition among major AI players is accelerating innovation."
+            elif any(keyword in stories_text for keyword in ['model', 'gpt', 'gemini', 'claude']):
+                fallback_insight = "Advanced language model developments continue to push the boundaries of AI."
+        
+        flash_summary_content_fallback = f"**AI FLASH - {current_date}**\\n\\n{fallback_headline}\\n\\n**Today's Top Stories:**"
+        for story in top_stories[:3]:
+            flash_summary_content_fallback += f"\\n- {story}"
+        flash_summary_content_fallback += f"\\n\\n**Flash Insight:** {fallback_insight}"
+        
+        flash_summary_html = flash_summary_content_fallback
+        flash_summary_html = re.sub(r'\\*\\*(.*?)\\*\\*', r'<strong>\\1</strong>', flash_summary_html)
+        flash_summary_html = flash_summary_html.replace('\\n- ', '<br>• ')
+        flash_summary_html = flash_summary_html.replace('\\n\\n', '<br><br>')
+        flash_summary_html = flash_summary_html.replace('\\n', '<br>')
+        print(f"FALLBACK FLASH SUMMARY: Generated with {len(top_stories)} stories.")
+        # --- End of Fallback Flash Summary Generation ---
 
     # 5. Render template
     env = Environment(
