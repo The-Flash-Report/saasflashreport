@@ -81,6 +81,7 @@ This file stores project-specific knowledge, conventions, and user preferences l
 ## User Preferences
 - **Author**: Bryan Collins is the project author and maintainer
 - **Development Style**: Prefers comprehensive documentation and well-organized rule systems
+- **API Testing**: Prefers real API testing over mock data for validation
 
 ## Technical Decisions
 - **Project Type**: AI news aggregation website with daily automated updates
@@ -89,15 +90,20 @@ This file stores project-specific knowledge, conventions, and user preferences l
 - **Template Engine**: Jinja2 for HTML template rendering
 - **News Sources**: NewsAPI, Perplexity AI, RSS feeds, Reddit subreddits
 - **SEO Tools**: Custom sitemap generation, structured data, meta tag optimization
+- **Flash Summary Component**: Standalone reusable component for Perplexity API integration
+- **API Credentials**: Perplexity API key stored as PERPLEXITY_API_KEY in environment variables
 
 ## Project Conventions
 - **File Organization**: Cursor rules stored in `.cursor/rules/` directory with `.mdc` extension
 - **Configuration**: Centralized configuration in `config.json` and `keyword_config.json`
 - **Content Structure**: Daily archives, keyword-based categorization, trending sections
 - **Git Workflow**: Careful management of auto-generated vs. manually edited files
+- **Component Testing**: Real API testing preferred using actual Perplexity API for validation
 
 ## Domain Knowledge
 - **News Aggregation**: Focus on AI/artificial intelligence news and developments
 - **Content Categories**: Trending Now, AI Products, Creator Economy, Business News, Research Breakthroughs, Industries, Deep Learning, Companies, Applications, Controversy
 - **Automation Requirements**: Daily fetch, categorization, HTML generation, deployment, archiving
 - **SEO Strategy**: Keyword-rich content, proper meta tags, structured data, sitemap maintenance
+- **Flash Summary**: Successfully tested with real Perplexity API (May 30, 2025) - citations, links, and formatting work perfectly
+- **Citation Handling**: Perplexity outputs [1], [2], [3] format (not [^1] footnotes) with Sources section

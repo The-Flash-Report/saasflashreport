@@ -11,6 +11,9 @@ from dateutil import parser as date_parser
 import time
 import base64 # Added for API key decoding
 
+# Flash Summary Component
+from flash_summary_component import FlashSummaryGenerator, FlashSummaryConfig
+
 # --- NEW: JSON Serializer for Datetime Objects ---
 def default_serializer(obj):
     if isinstance(obj, (datetime.date, datetime.datetime)):
@@ -1135,67 +1138,10 @@ def call_perplexity_api_with_retry(prompt):
 
 # --- NEW: Convert Perplexity content to rich HTML ---
 def convert_perplexity_to_rich_html(content, source_headlines=None):
-    """
-    Convert Perplexity API markdown content to HTML with footnote support.
-    """
-    if not content:
-        return ""
-
-    html_content = content
-    
-    # Step 1: Extract footnote definitions [^1]: URL
-    footnote_mapping = {}
-    footnote_pattern = r'\[(\^?\d+)\]:\s*(https?://[^\s<>"\']+)'
-    footnote_matches = re.findall(footnote_pattern, html_content)
-    
-    for footnote_num, url in footnote_matches:
-        # Clean footnote number (remove ^ if present)
-        clean_num = footnote_num.replace('^', '')
-        footnote_mapping[clean_num] = url
-        print(f"📎 Found footnote: [^{clean_num}] -> {url}")
-    
-    # Step 2: Convert footnote citations [^1] to clickable links in main text
-    for footnote_num, url in footnote_mapping.items():
-        citation_pattern = r'\[\^' + footnote_num + r'\]'
-        replacement = f'<a href="{url}" target="_blank" rel="noopener" style="color: #dc3545; font-weight: bold; text-decoration: none;">[^{footnote_num}]</a>'
-        html_content = re.sub(citation_pattern, replacement, html_content)
-    
-    # Step 3: Convert footnote definitions to clickable links
-    for footnote_num, url in footnote_mapping.items():
-        definition_pattern = r'\[\^?' + footnote_num + r'\]:\s*(https?://[^\s<>"\']+)'
-        replacement = f'[^{footnote_num}]: <a href="{url}" target="_blank" rel="noopener" style="color: #dc3545;">{url}</a>'
-        html_content = re.sub(definition_pattern, replacement, html_content)
-    
-    # Step 4: Add Sources header before footnotes section if footnotes exist
-    if footnote_mapping:
-        # Find where footnotes start and add header
-        first_footnote_pattern = r'(\[\^1\]:)'
-        if re.search(first_footnote_pattern, html_content):
-            html_content = re.sub(first_footnote_pattern, r'<h3 style="color: #333; margin-bottom: 10px; font-size: 1.1em;">Sources:</h3>\n\1', html_content)
-    
-    # Step 5: Basic markdown conversions
-    html_content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html_content)
-    html_content = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2" target="_blank" rel="noopener" style="color: #dc3545;">\1</a>', html_content)
-    
-    # Step 6: Convert newlines to HTML breaks
-    html_content = html_content.replace('\n', '<br>')
-    
-    # Step 7: Wrap in styled div
-    styled_content = f"""
-    <div class="ai-flash-summary" style="
-        background: #f8f9fa;
-        padding: 20px;
-        margin: 20px 0;
-        color: #333;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        line-height: 1.6;
-        border-radius: 8px;
-        border-left: 4px solid #dc3545;
-    ">
-        {html_content}
-    </div>
-    """
-    return styled_content
+    """Convert Perplexity content to HTML using the flash summary component."""
+    config = FlashSummaryConfig.for_ai_site()
+    generator = FlashSummaryGenerator(config)
+    return generator.convert_to_html(content)
 
 # --- Helper function to detect if content has citations/sources ---
 def extract_citations_from_perplexity(content):
@@ -1365,54 +1311,36 @@ def main():
     print("Generating Daily AI Flash Summary...")
     current_date = datetime.datetime.now().strftime("%B %d, %Y")
     
-    # Prepare headlines for the Perplexity prompt
-    # We'll use unique_headlines which has been deduplicated
-    headlines_for_prompt = []
-    if unique_headlines:
-        for article in unique_headlines[:15]: # Limit to top 15 headlines to keep prompt size reasonable
-            title = article.get('title', 'No Title')
-            source = article.get('source', 'Unknown Source')
-            url = article.get('url', '#')
-            headlines_for_prompt.append(f"- Title: {title}\\n  Source: {source}\\n  URL: {url}")
-    
     flash_summary_html = ""
     perplexity_summary_markdown = None
 
-    if headlines_for_prompt: # Only attempt Perplexity call if we have headlines
-        # Construct the prompt for Perplexity AI Flash Summary
-        flash_summary_prompt_template = """Create a daily AI news summary for today's date {date}. Format as follows:
+    # ALWAYS generate a flash summary - independent of RSS headlines
+    flash_summary_prompt = f"""Create a daily AI news summary for today's date {current_date}. Format as follows:
 
-**AI NEWS FLASH - {date}**
+**AI NEWS FLASH - {current_date}**
 
-**[REQUIRED: Write one compelling main headline about the most significant AI story from today's news]**
+**[Write one compelling main headline about the most significant AI story from today's news]**
 
+- [Story 1: 1 sentence summary with recent AI development]
+- [Story 2: 1 sentence summary with recent AI development] 
+- [Story 3: 1 sentence summary with recent AI development]
 
-- [Story 1 1 sentence summary with source, based on the provided headlines]
-- [Story 2 1 sentence summary with source, based on the provided headlines] 
-- [Story 3 1 sentence summary with source, based on the provided headlines]
-
-**Flash Insight:** [1-2 sentence analysis of what this means for the AI industry, based on the provided headlines]
+**Flash Insight:** [1-2 sentence analysis of what this means for the AI industry]
 
 IMPORTANT: Include working links and sources with each story. Use citations [1], [2], etc. and provide the corresponding URLs at the bottom.
 
-Focus on: OpenAI, Anthropic, Google AI, Microsoft AI, AI funding, new model releases, AI regulation, and major AI breakthroughs. Exclude: basic AI tutorials, old news, and speculation.
+Focus on: OpenAI, Anthropic, Google AI, Microsoft AI, AI funding, new model releases, AI regulation, and major AI breakthroughs from the last 24 hours.
 
-Use the following headlines as your primary source of information for the summary:
-{headlines_list}
-"""
-        
-        formatted_headlines = "\\n".join(headlines_for_prompt)
-        final_flash_prompt = flash_summary_prompt_template.format(date=current_date, headlines_list=formatted_headlines)
-        
-        print("Attempting to generate Flash Summary with Perplexity API...")
-        print(f"Prompt for Perplexity Flash Summary (first 200 chars): {final_flash_prompt[:200]}...")
-        perplexity_summary_markdown = call_perplexity_api_with_retry(final_flash_prompt)
+Generate fresh, current content about today's AI developments. Use your knowledge of recent events and news."""
+
+    print("Attempting to generate Flash Summary with Perplexity API...")
+    print(f"Prompt for Perplexity Flash Summary (first 200 chars): {flash_summary_prompt[:200]}...")
+    perplexity_summary_markdown = call_perplexity_api_with_retry(flash_summary_prompt)
 
     if perplexity_summary_markdown:
         print("✅ Successfully generated Flash Summary with Perplexity API.")
         # Convert the Perplexity markdown content to rich HTML with proper formatting and links
-        # Pass the source headlines for citation mapping
-        flash_summary_html = convert_perplexity_to_rich_html(perplexity_summary_markdown, unique_headlines)
+        flash_summary_html = convert_perplexity_to_rich_html(perplexity_summary_markdown)
         
         # Extract and log citation information
         citation_info = extract_citations_from_perplexity(perplexity_summary_markdown)
@@ -1422,76 +1350,7 @@ Use the following headlines as your primary source of information for the summar
         print(f"FLASH SUMMARY (converted to rich HTML):\n{flash_summary_html[:500]}...")
 
     else:
-        if headlines_for_prompt: # Only print this if we tried to call Perplexity
-            print("⚠️ Perplexity API call for Flash Summary failed or returned no content. Using fallback summary.")
-        else:
-            print("No headlines available to send to Perplexity for Flash Summary. Using fallback summary.")
-
-        # --- Fallback Flash Summary Generation (Original Logic) ---
-        # Try to load existing aggregated data (this part of logic can remain for fallback)
-        main_page_content_file = 'data/main_page_content.json'
-        try:
-            with open(main_page_content_file, 'r', encoding='utf-8') as f:
-                flash_categorized_data = json.load(f)
-            print("FALLBACK FLASH SUMMARY: Loaded existing categorized data for fallback.")
-        except (FileNotFoundError, json.JSONDecodeError):
-            print("FALLBACK FLASH SUMMARY: Using current run data for fallback flash summary.")
-            flash_categorized_data = categorized_data
-        
-        fallback_headline = "AI Industry Continues Rapid Evolution"
-        top_stories = []
-        priority_categories = ['Trending Now', 'AI Companies', 'AI Products', 'AI Business News', 'AI Research & Methods']
-        
-        for category in priority_categories:
-            if category in flash_categorized_data and flash_categorized_data[category]:
-                category_articles = flash_categorized_data[category][:2] # Take up to 2 from each priority
-                for article in category_articles:
-                    if len(top_stories) < 3:
-                        title = article.get('title', '')
-                        source = article.get('source', 'Unknown Source')
-                        source_display = source
-                        if source.startswith('NewsAPI'): source_display = source.replace('NewsAPI (', '').replace(')', '')
-                        elif source.startswith('Reddit'): source_display = 'Reddit'
-                        top_stories.append(f"{title} ({source_display})")
-        
-        if len(top_stories) < 3: # Fill from other categories if needed
-            for category, articles in flash_categorized_data.items():
-                if category not in priority_categories and articles:
-                    for article in articles[:1]:
-                        if len(top_stories) < 3:
-                            title = article.get('title', '')
-                            source = article.get('source', 'Unknown Source')
-                            source_display = source
-                            if source.startswith('NewsAPI'): source_display = source.replace('NewsAPI (', '').replace(')', '')
-                            elif source.startswith('Reddit'): source_display = 'Reddit'
-                            top_stories.append(f"{title} ({source_display})")
-        
-        if top_stories: # Generate headline based on top stories
-            first_story = top_stories[0].lower()
-            if 'openai' in first_story or 'gpt' in first_story: fallback_headline = "OpenAI Developments Drive AI Innovation Forward"
-            elif 'google' in first_story or 'gemini' in first_story: fallback_headline = "Google AI Advances Shape Industry Landscape"
-            elif 'funding' in first_story or 'investment' in first_story: fallback_headline = "AI Investment Activity Reaches New Heights"
-            elif 'regulation' in first_story or 'policy' in first_story: fallback_headline = "AI Regulation Framework Takes Center Stage"
-        
-        fallback_insight = "The AI industry continues its rapid pace of innovation across multiple sectors and applications."
-        if top_stories:
-            stories_text = ' '.join(top_stories).lower()
-            if any(keyword in stories_text for keyword in ['funding', 'investment', 'raised']):
-                fallback_insight = "Continued investment activity signals strong market confidence in AI's transformative potential."
-            elif any(keyword in stories_text for keyword in ['google', 'openai', 'anthropic', 'microsoft']):
-                fallback_insight = "Intensifying competition among major AI players is accelerating innovation."
-            elif any(keyword in stories_text for keyword in ['model', 'gpt', 'gemini', 'claude']):
-                fallback_insight = "Advanced language model developments continue to push the boundaries of AI."
-        
-        fallback_summary_content = f"**AI NEWS FLASH - {current_date}**\n\n**{fallback_headline}**\n\n**Today's Top Stories:**"
-        for story in top_stories[:3]:
-            fallback_summary_content += f"\n{story}"
-        fallback_summary_content += f"\n\n**Flash Insight:** {fallback_insight}"
-        
-        # Convert fallback content using the same rich HTML function for consistency
-        flash_summary_html = convert_perplexity_to_rich_html(fallback_summary_content, unique_headlines)
-        print(f"FALLBACK FLASH SUMMARY: Generated with {len(top_stories)} stories.")
-        # --- End of Fallback Flash Summary Generation ---
+        print("⚠️ Perplexity API call for Flash Summary failed. Using fallback summary.")
 
     # 5. Render template
     env = Environment(
