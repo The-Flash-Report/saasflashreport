@@ -1136,32 +1136,68 @@ def call_perplexity_api_with_retry(prompt):
 # --- NEW: Convert Perplexity content to rich HTML ---
 def convert_perplexity_to_rich_html(content, source_headlines=None):
     """
-    Convert Perplexity API markdown content to HTML with basic conversions only.
+    Convert Perplexity API markdown content to HTML with basic conversions and citation linking.
     """
     if not content:
         return ""
 
     html_content = content
     
-    # Basic conversions only:
+    # Step 1: Extract citation URLs from the content (usually at the bottom)
+    # Look for patterns like:
+    # [1] https://example.com
+    # Sources:
+    # [1] https://example.com
+    citation_url_mapping = {}
+    
+    # Pattern to match citation URLs: [number] followed by URL
+    citation_url_pattern = r'\[(\d+)\]\s*(https?://[^\s<>"\']+)'
+    citation_matches = re.findall(citation_url_pattern, html_content)
+    
+    for citation_num, url in citation_matches:
+        citation_url_mapping[citation_num] = url
+        print(f"📎 Found citation mapping: [{citation_num}] -> {url}")
+    
+    # Step 2: Remove the raw citation URL lines from content (clean up)
+    # Remove lines that contain citation patterns like "[1] https://..."
+    lines = html_content.split('\n')
+    cleaned_lines = []
+    for line in lines:
+        # Skip lines that are just citation URLs or "Sources:" headers
+        if not re.match(r'^\s*\[?\d+\]?\s*https?://', line.strip()) and line.strip().lower() != 'sources:':
+            cleaned_lines.append(line)
+    html_content = '\n'.join(cleaned_lines)
+    
+    # Step 3: Convert citation numbers to clickable links
+    # Convert [1], [2], etc. to clickable links using the mapping
+    for citation_num, url in citation_url_mapping.items():
+        citation_pattern = f'\\[{citation_num}\\]'
+        replacement = f'<a href="{url}" target="_blank" rel="noopener" style="color: #dc3545; font-weight: bold; text-decoration: none;">[{citation_num}]</a>'
+        html_content = re.sub(citation_pattern, replacement, html_content)
+    
+    # Step 4: Basic markdown conversions
     # 1. Convert **bold text** to <strong>bold text</strong>
     html_content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html_content)
     
-    # 2. Convert [text](url) links to <a> tags
+    # 2. Convert [text](url) links to <a> tags (for any remaining markdown links)
     html_content = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2" target="_blank" rel="noopener" style="color: #dc3545;">\1</a>', html_content)
     
-    # 3. Convert newlines to HTML breaks
+    # Step 5: Convert newlines to HTML breaks
     html_content = html_content.replace('\n', '<br>')
     
-    # 4. Wrap in styled div to match the screenshot design
-    # The outer red line and icon are handled by template.html's .flash-daily-summary class
-    # This div provides the content block styling only.
+    # Step 6: Add citations section at the bottom if we found any
+    if citation_url_mapping:
+        html_content += '<br><br><div style="margin-top: 15px; padding-top: 10px; border-top: 1px solid #ddd; font-size: 0.9em; color: #666;"><strong>Sources:</strong><br>'
+        for citation_num, url in sorted(citation_url_mapping.items(), key=lambda x: int(x[0])):
+            html_content += f'<a href="{url}" target="_blank" rel="noopener" style="color: #dc3545;">[{citation_num}]</a> {url}<br>'
+        html_content += '</div>'
+    
+    # Step 7: Wrap in styled div to match the design
     styled_content = f"""
     <div class="ai-flash-summary" style="
-        background: #f8f9fa; /* Matches screenshot background */
-        /* border-left: 4px solid #dc3545; */ /* Removed: Outer border handled by template.html */
-        padding: 0; /* Adjusted: Padding handled by outer container or specific content elements */
-        margin: 0; /* Adjusted: Margin handled by outer container */
+        background: #f8f9fa;
+        padding: 0;
+        margin: 0;
         color: #333;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         line-height: 1.6;
