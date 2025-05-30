@@ -1158,14 +1158,28 @@ def convert_perplexity_to_rich_html(content, source_headlines=None):
         citation_url_mapping[citation_num] = url
         print(f"📎 Found citation mapping: [{citation_num}] -> {url}")
     
-    # Step 2: Remove the raw citation URL lines from content (clean up)
-    # Remove lines that contain citation patterns like "[1] https://..."
+    # Step 2: Remove any existing Sources section and citation URL lines to avoid duplicates
+    # Remove everything from "Sources:" onwards and citation URL lines
     lines = html_content.split('\n')
     cleaned_lines = []
+    sources_section_started = False
+    
     for line in lines:
-        # Skip lines that are just citation URLs or "Sources:" headers
-        if not re.match(r'^\s*\[?\d+\]?\s*https?://', line.strip()) and line.strip().lower() != 'sources:':
+        line_stripped = line.strip()
+        
+        # Check if this line starts a Sources section (case-insensitive)
+        if re.match(r'^\s*sources?\s*:?\s*$', line_stripped, re.IGNORECASE):
+            sources_section_started = True
+            continue
+        
+        # Skip lines that are just citation URLs
+        if re.match(r'^\s*\[?\d+\]?\s*https?://', line_stripped):
+            continue
+            
+        # If we haven't hit a Sources section yet, keep the line
+        if not sources_section_started:
             cleaned_lines.append(line)
+    
     html_content = '\n'.join(cleaned_lines)
     
     # Step 3: Convert citation numbers to clickable links
