@@ -1,5 +1,141 @@
 [
   {
+    "title": "How much coffee is too much?",
+    "url": "https://www.economist.com/science-and-technology/2025/05/30/how-much-coffee-is-too-much",
+    "source": "The Economist",
+    "published_date_obj": "2025-05-30",
+    "rewritten_title": "HOW MUCH COFFEE IS TOO MUCH?",
+    "relevance_score": 3
+  },
+  {
+    "title": "Fueling seamless AI at scale",
+    "url": "https://www.technologyreview.com/2025/05/30/1117440/fueling-seamless-ai-at-scale/",
+    "source": "MIT Technology Review",
+    "published_date_obj": "2025-05-30",
+    "rewritten_title": "FUELING SEAMLESS AI AT SCALE",
+    "relevance_score": 3
+  },
+  {
+    "title": "This benchmark used Reddit\u2019s AITA to test how much AI models suck up to us",
+    "url": "https://www.technologyreview.com/2025/05/30/1117551/this-benchmark-used-reddits-aita-to-test-how-much-ai-models-suck-up-to-us/",
+    "source": "MIT Technology Review",
+    "published_date_obj": "2025-05-30",
+    "rewritten_title": "THIS BENCHMARK USED REDDIT\u2019S AITA TO TEST HOW...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Which LLM should you use? Token Monster automatically combines multiple models and tools for you",
+    "url": "https://venturebeat.com/ai/which-llm-should-you-use-token-monster-automatically-combines-multiple-models-and-tools-for-you/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-05-30",
+    "rewritten_title": "WHICH LLM SHOULD YOU USE? TOKEN MONSTER AUTOMATICALLY...",
+    "relevance_score": 3
+  },
+  {
+    "title": "LLM Optimization: LoRA and\u00a0QLoRA",
+    "url": "https://towardsdatascience.com/llm-optimization-lora-and-qlora/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-05-30",
+    "rewritten_title": "LLM OPTIMIZATION: LORA AND QLORA",
+    "relevance_score": 3
+  },
+  {
+    "title": "How to Build an MCQ App",
+    "url": "https://towardsdatascience.com/how-to-build-an-mcq-app/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-05-30",
+    "rewritten_title": "HOW TO BUILD AN MCQ APP",
+    "relevance_score": 3
+  },
+  {
+    "title": "May Must-Reads: Math for Machine Learning Engineers, LLMs, Agent Protocols, and More",
+    "url": "https://towardsdatascience.com/may-must-reads-math-for-machine-learning-engineers-llms-agent-protocols-and-more/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-05-30",
+    "rewritten_title": "MAY MUST-READS: MATH FOR MACHINE LEARNING ENGINEERS, LLMS,...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Emotive voice AI startup Hume launches new EVI 3 model with rapid custom voice creation",
+    "url": "https://venturebeat.com/ai/emotive-voice-ai-startup-hume-launches-new-evi-3-model-with-rapid-custom-voice-creation/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-05-29",
+    "rewritten_title": "EMOTIVE VOICE AI STARTUP HUME LAUNCHES NEW EVI...",
+    "relevance_score": 3
+  },
+  {
+    "title": "DeepSeek R1-0528 arrives in powerful open source challenge to OpenAI o3 and Google Gemini 2.5 Pro",
+    "url": "https://venturebeat.com/ai/deepseek-r1-0528-arrives-in-powerful-open-source-challenge-to-openai-o3-and-google-gemini-2-5-pro/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-05-29",
+    "rewritten_title": "DEEPSEEK R1-0528 ARRIVES IN POWERFUL OPEN SOURCE CHALLENGE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "How Snowflake\u2019s open-source text-to-SQL and Arctic inference models solve enterprise AI\u2019s two biggest deployment headaches",
+    "url": "https://venturebeat.com/ai/how-snowflakes-open-source-text-to-sql-and-arctic-inference-models-solve-enterprise-ais-two-biggest-deployment-headaches/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-05-29",
+    "rewritten_title": "HOW SNOWFLAKE\u2019S OPEN-SOURCE TEXT-TO-SQL AND ARCTIC INFERENCE MODELS...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Encharge AI unveils EN100 AI accelerator chip with analog memory",
+    "url": "https://venturebeat.com/games/encharge-ai-unveils-en100-ai-accelerator-chip-with-analog-memory/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-05-29",
+    "rewritten_title": "ENCHARGE AI UNVEILS EN100 AI ACCELERATOR CHIP WITH...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Peer launches Global Simulation as real-time digital Earth with AI agents",
+    "url": "https://venturebeat.com/games/peer-launches-global-simulation-as-real-time-digital-earth-with-ai-agents/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-05-29",
+    "rewritten_title": "PEER LAUNCHES GLOBAL SIMULATION AS REAL-TIME DIGITAL EARTH...",
+    "relevance_score": 3
+  },
+  {
+    "title": "GAIA: The LLM Agent Benchmark Everyone\u2019s Talking About",
+    "url": "https://towardsdatascience.com/gaia-the-llm-agent-benchmark-everyones-talking-about/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-05-29",
+    "rewritten_title": "GAIA: THE LLM AGENT BENCHMARK EVERYONE\u2019S TALKING ABOUT",
+    "relevance_score": 3
+  },
+  {
+    "title": "A Bird\u2019s Eye View of Linear Algebra: The Basics",
+    "url": "https://towardsdatascience.com/a-birds-eye-view-of-linear-algebra-the-basics/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-05-29",
+    "rewritten_title": "A BIRD\u2019S EYE VIEW OF LINEAR ALGEBRA: THE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "The Hidden Security Risks of\u00a0LLMs",
+    "url": "https://towardsdatascience.com/the-hidden-security-risks-of-llms/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-05-29",
+    "rewritten_title": "THE HIDDEN SECURITY RISKS OF LLMS",
+    "relevance_score": 3
+  },
+  {
+    "title": "I Transitioned from Data Science to AI Engineering: Here\u2019s Everything You Need to\u00a0Know",
+    "url": "https://towardsdatascience.com/i-transitioned-from-data-science-to-ai-engineering-heres-everything-you-need-to-know/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-05-29",
+    "rewritten_title": "I TRANSITIONED FROM DATA SCIENCE TO AI ENGINEERING:...",
+    "relevance_score": 3
+  },
+  {
+    "title": "The Simplest Possible AI Web App",
+    "url": "https://towardsdatascience.com/the-simplest-possible-ai-web-app/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-05-29",
+    "rewritten_title": "THE SIMPLEST POSSIBLE AI WEB APP",
+    "relevance_score": 3
+  },
+  {
     "title": "Creating websites in minutes with AI Website Builder",
     "url": "https://openai.com/index/wix",
     "source": "OpenAI",
