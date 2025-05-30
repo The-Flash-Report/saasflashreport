@@ -1136,77 +1136,24 @@ def call_perplexity_api_with_retry(prompt):
 # --- NEW: Convert Perplexity content to rich HTML ---
 def convert_perplexity_to_rich_html(content, source_headlines=None):
     """
-    Convert Perplexity API markdown content to HTML with basic conversions and citation linking.
+    Convert Perplexity API markdown content to HTML with basic conversions.
     """
     if not content:
         return ""
 
     html_content = content
     
-    # Step 1: Extract citation URLs from the content (usually at the bottom)
-    # Look for patterns like:
-    # [1] https://example.com
-    # Sources:
-    # [1] https://example.com
-    citation_url_mapping = {}
-    
-    # Pattern to match citation URLs: [number] followed by URL
-    citation_url_pattern = r'\[(\d+)\]\s*(https?://[^\s<>"\']+)'
-    citation_matches = re.findall(citation_url_pattern, html_content)
-    
-    for citation_num, url in citation_matches:
-        citation_url_mapping[citation_num] = url
-        print(f"📎 Found citation mapping: [{citation_num}] -> {url}")
-    
-    # Step 2: Remove any existing Sources section and citation URL lines to avoid duplicates
-    # Remove everything from "Sources:" onwards and citation URL lines
-    lines = html_content.split('\n')
-    cleaned_lines = []
-    sources_section_started = False
-    
-    for line in lines:
-        line_stripped = line.strip()
-        
-        # Check if this line starts a Sources section (case-insensitive)
-        if re.match(r'^\s*sources?\s*:?\s*$', line_stripped, re.IGNORECASE):
-            sources_section_started = True
-            continue
-        
-        # Skip lines that are just citation URLs
-        if re.match(r'^\s*\[?\d+\]?\s*https?://', line_stripped):
-            continue
-            
-        # If we haven't hit a Sources section yet, keep the line
-        if not sources_section_started:
-            cleaned_lines.append(line)
-    
-    html_content = '\n'.join(cleaned_lines)
-    
-    # Step 3: Convert citation numbers to clickable links
-    # Convert [1], [2], etc. to clickable links using the mapping
-    for citation_num, url in citation_url_mapping.items():
-        citation_pattern = f'\\[{citation_num}\\]'
-        replacement = f'<a href="{url}" target="_blank" rel="noopener" style="color: #dc3545; font-weight: bold; text-decoration: none;">[{citation_num}]</a>'
-        html_content = re.sub(citation_pattern, replacement, html_content)
-    
-    # Step 4: Basic markdown conversions
+    # Step 1: Basic markdown conversions
     # 1. Convert **bold text** to <strong>bold text</strong>
     html_content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html_content)
     
-    # 2. Convert [text](url) links to <a> tags (for any remaining markdown links)
+    # 2. Convert [text](url) links to <a> tags
     html_content = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2" target="_blank" rel="noopener" style="color: #dc3545;">\1</a>', html_content)
     
-    # Step 5: Convert newlines to HTML breaks
+    # Step 2: Convert newlines to HTML breaks
     html_content = html_content.replace('\n', '<br>')
     
-    # Step 6: Add citations section at the bottom if we found any
-    if citation_url_mapping:
-        html_content += '<br><br><div style="margin-top: 15px; padding-top: 10px; border-top: 1px solid #ddd; font-size: 0.9em; color: #666;"><strong>Sources:</strong><br>'
-        for citation_num, url in sorted(citation_url_mapping.items(), key=lambda x: int(x[0])):
-            html_content += f'<a href="{url}" target="_blank" rel="noopener" style="color: #dc3545;">[{citation_num}]</a> {url}<br>'
-        html_content += '</div>'
-    
-    # Step 7: Wrap in styled div to match the design
+    # Step 3: Wrap in styled div to match the design
     styled_content = f"""
     <div class="ai-flash-summary" style="
         background: #f8f9fa;
