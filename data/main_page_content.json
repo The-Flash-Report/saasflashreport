@@ -1,29 +1,6 @@
 {
-    "AI Companies": [
-        {
-            "title": "Even DeepSeek switched from OpenAI to Google",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kz48qx/even_deepseek_switched_from_openai_to_google/",
-            "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "EVEN DEEPSEEK SWITCHED FROM OPENAI TO GOOGLE"
-        },
-        {
-            "title": "[P] gvtop: \ud83c\udfae Material You TUI for monitoring NVIDIA GPUs",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1kz3k2t/p_gvtop_material_you_tui_for_monitoring_nvidia/",
-            "source": "Reddit r/MachineLearning",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "[P] GVTOP: \ud83c\udfae MATERIAL YOU TUI FOR MONITORING..."
-        }
-    ],
-    "AI Products": [
-        {
-            "title": "llama-server is cooking! gemma3 27b, 100K context, vision on one 24GB GPU.",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kzcalh/llamaserver_is_cooking_gemma3_27b_100k_context/",
-            "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "LLAMA-SERVER IS COOKING! GEMMA3 27B, 100K CONTEXT, VISION..."
-        }
-    ],
+    "AI Companies": [],
+    "AI Products": [],
     "Creator Economy": [],
     "Generative AI": [],
     "AI Business News": [],
@@ -34,31 +11,17 @@
     "Trending Now": [
         {
             "title": "ChatGPT: Everything you need to know about the AI chatbot",
-            "url": "https://techcrunch.com/2025/05/13/chatgpt-everything-to-know-about-the-ai-chatbot/",
+            "url": "https://techcrunch.com/2025/05/01/chatgpt-everything-to-know-about-the-ai-chatbot/",
             "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-13",
+            "published_date_obj": "2025-05-01",
             "rewritten_title": "CHATGPT: EVERYTHING YOU NEED TO KNOW ABOUT THE..."
         },
         {
-            "title": "Is AI \u201cnormal\u201d?",
-            "url": "https://www.technologyreview.com/2025/04/29/1115928/is-ai-normal/",
-            "source": "NewsAPI (MIT Technology Review)",
-            "published_date_obj": "2025-04-29",
-            "rewritten_title": "IS AI \u201cNORMAL\u201d?"
-        },
-        {
-            "title": "Eric Schmidt says for thousands of years, war has been man vs man. We're now breaking that connection forever - war will be AIs vs AIs, because humans won't be able to keep up. \"Having a fighter jet with a human in it makes absolutely no sense.\"",
-            "url": "https://www.reddit.com/r/singularity/comments/1kzahn0/eric_schmidt_says_for_thousands_of_years_war_has/",
+            "title": "Unitree teasing a sub10k$ humanoid",
+            "url": "https://www.reddit.com/r/singularity/comments/1kzcjdp/unitree_teasing_a_sub10k_humanoid/",
             "source": "Reddit r/singularity",
             "published_date_obj": "2025-05-30",
-            "rewritten_title": "ERIC SCHMIDT SAYS FOR THOUSANDS OF YEARS, WAR..."
-        },
-        {
-            "title": "Anime/Game Chars in Evangelion Style Plugsuits",
-            "url": "https://www.reddit.com/r/aiArt/comments/1kz9gp4/animegame_chars_in_evangelion_style_plugsuits/",
-            "source": "Reddit r/AIArt",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "ANIME/GAME CHARS IN EVANGELION STYLE PLUGSUITS"
+            "rewritten_title": "UNITREE TEASING A SUB10K$ HUMANOID"
         }
     ]
 }
