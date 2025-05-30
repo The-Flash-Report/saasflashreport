@@ -25,6 +25,7 @@
 - [ ] Add privacy policy and cookie policy links to footer
 - [ ] Update newsletter signup form to link to privacy policy
 - [ ] Add cookie consent banner (if required)
+- [ ] Add link to cryptoflashreport.com on about page (a sister site in the crypto niche)
 
 ### Content & Features
 - [ ] Newsletter signup form integration testing

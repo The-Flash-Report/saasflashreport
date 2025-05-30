@@ -1069,6 +1069,11 @@ def call_perplexity_api_with_retry(prompt):
                 
                 if 'choices' in result and len(result['choices']) > 0:
                     content = result['choices'][0]['message']['content']
+                    # --- ADDED PRINT STATEMENT FOR RAW PERPLEXITY OUTPUT ---
+                    print("--- RAW PERPLEXITY API RESPONSE CONTENT (START) ---")
+                    print(content)
+                    print("--- RAW PERPLEXITY API RESPONSE CONTENT (END) ---")
+                    # --- END OF ADDED PRINT STATEMENT ---
                     return content
                 else:
                     print("⚠️  Unexpected response format from Perplexity API")
@@ -1131,107 +1136,40 @@ def call_perplexity_api_with_retry(prompt):
 # --- NEW: Convert Perplexity content to rich HTML ---
 def convert_perplexity_to_rich_html(content, source_headlines=None):
     """
-    Convert Perplexity API markdown-like content to rich HTML with proper formatting,
-    working links, and enhanced display similar to the Perplexity web interface.
-    
-    Args:
-        content: The Perplexity response content
-        source_headlines: List of headline dictionaries with 'url' field for citation mapping
+    Convert Perplexity API markdown content to HTML with basic conversions only.
     """
     if not content:
         return ""
-    
-    # Work with the content
+
     html_content = content
     
-    # ISSUE FIX 1: Remove the entire "Sources:" section but keep hyperlinked citation numbers
-    # Remove from "Sources:" to the end of content, but preserve citations in the main text
-    html_content = re.sub(r'\*\*Sources:\*\*.*$', '', html_content, flags=re.DOTALL)
-    html_content = re.sub(r'Sources:.*$', '', html_content, flags=re.DOTALL)
-    
-    # ISSUE FIX 4: Fix spacing between FLASH and date BEFORE other processing
-    # Handle the specific case more precisely
-    html_content = re.sub(r'(AI NEWS FLASH)\s*([A-Z][a-z])', r'\1 - \2', html_content)
-    html_content = re.sub(r'(AI NEWS FLASH)([A-Z])', r'\1 - \2', html_content)
-    
-    # Convert the main headline to h2 (look for pattern like "**AI NEWS FLASH - date**" followed by "**headline**")
-    # First convert the date header - use site colors
-    html_content = re.sub(r'\*\*(AI NEWS FLASH - [^*]+)\*\*', r'<h2 style="color: #1a1a1a; margin: 0 0 8px 0; font-size: 1.4em; font-weight: bold;">\1</h2>', html_content)
-    
-    # Then convert the main headline that follows (next **text** pattern) - use site colors
-    html_content = re.sub(r'\*\*([^*]+)\*\*', r'<h2 style="color: #1a1a1a; margin: 8px 0; font-size: 1.2em; font-weight: bold;">\1</h2>', html_content, count=1)
-    
-    # Convert remaining markdown-style bold text (**text** or __text__)
+    # Basic conversions only:
+    # 1. Convert **bold text** to <strong>bold text</strong>
     html_content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html_content)
-    html_content = re.sub(r'__(.*?)__', r'<strong>\1</strong>', html_content)
     
-    # Convert markdown-style italic text (*text* or _text_)  
-    html_content = re.sub(r'(?<!\*)\*([^*]+)\*(?!\*)', r'<em>\1</em>', html_content)
-    html_content = re.sub(r'(?<!_)_([^_]+)_(?!_)', r'<em>\1</em>', html_content)
+    # 2. Convert [text](url) links to <a> tags
+    html_content = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2" target="_blank" rel="noopener" style="color: #dc3545;">\1</a>', html_content)
     
-    # Convert markdown-style links [text](url)
-    html_content = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2" target="_blank" rel="noopener">\1</a>', html_content)
-    
-    # Convert bare URLs to clickable links (http/https)
-    html_content = re.sub(
-        r'(?<!href=")(?<!src=")(https?://[^\s<>"\']+)',
-        r'<a href="\1" target="_blank" rel="noopener">\1</a>',
-        html_content
-    )
-    
-    # Enhanced citation handling - make citation numbers clickable if we have source URLs
-    if source_headlines:
-        # Extract unique URLs from source headlines
-        source_urls = [h.get('url') for h in source_headlines if h.get('url')]
-        source_urls = list(dict.fromkeys(source_urls))  # Remove duplicates while preserving order
-        
-        # Convert citation numbers to clickable links
-        def make_citation_clickable(match):
-            citation_num = int(match.group(1))
-            if citation_num <= len(source_urls):
-                url = source_urls[citation_num - 1]
-                return f'<a href="{url}" target="_blank" rel="noopener" style="color: #0066cc; text-decoration: none; font-weight: bold;">[{citation_num}]</a>'
-            return match.group(0)  # Return original if no URL available
-        
-        html_content = re.sub(r'\[(\d+)\]', make_citation_clickable, html_content)
-    else:
-        # Basic citation styling without links
-        html_content = re.sub(r'\[(\d+)\]', r'<span style="color: #0066cc; font-weight: bold;">[\1]</span>', html_content)
-    
-    # ISSUE FIX 3: Remove dashes from bullet points BEFORE newline conversion
-    html_content = re.sub(r'^\s*-\s+', '', html_content, flags=re.MULTILINE)
-    html_content = re.sub(r'\n\s*-\s+', '\n', html_content)
-    html_content = re.sub(r'<br>\s*-\s+', '<br>', html_content)
-    
-    # ISSUE FIX 2: Add proper line breaks between stories
-    # Convert newlines appropriately with better story separation
-    html_content = html_content.replace('\n\n', '<br><br>')
+    # 3. Convert newlines to HTML breaks
     html_content = html_content.replace('\n', '<br>')
     
-    # Ensure stories are properly separated (look for patterns like ". - " or ". Anthropic")
-    html_content = re.sub(r'(\]\.\s*)-\s*', r'\1<br>- ', html_content)
-    html_content = re.sub(r'(\]\.\s*)([A-Z])', r'\1<br>\2', html_content)
-    
-    # Handle numbered lists
-    html_content = re.sub(r'^(\s*\d+\.\s+)(.+)$', r'<br>\1\2', html_content, flags=re.MULTILINE)
-    
-    # Add some styling to make it look more like Perplexity's interface
-    styled_content = f'''
-    <div class="perplexity-content" style="
+    # 4. Wrap in styled div to match the screenshot design
+    # The outer red line and icon are handled by template.html's .flash-daily-summary class
+    # This div provides the content block styling only.
+    styled_content = f"""
+    <div class="ai-flash-summary" style="
+        background: #f8f9fa; /* Matches screenshot background */
+        /* border-left: 4px solid #dc3545; */ /* Removed: Outer border handled by template.html */
+        padding: 0; /* Adjusted: Padding handled by outer container or specific content elements */
+        margin: 0; /* Adjusted: Margin handled by outer container */
+        color: #333;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         line-height: 1.6;
-        color: #1a1a1a;
-        background: #f8fafb;
-        padding: 20px;
-        border-radius: 12px;
-        border: 1px solid #e1e5e9;
-        margin: 16px 0;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        border-radius: 0;
     ">
         {html_content}
     </div>
-    '''
-    
+    """
     return styled_content
 
 # --- Helper function to detect if content has citations/sources ---
@@ -1707,7 +1645,26 @@ def merge_and_deduplicate_stories(existing_stories, new_stories):
     all_stories = unique_new_stories + existing_stories
     
     # Sort by publication date (newest first)
-    all_stories.sort(key=lambda x: x.get('published_date_obj') or datetime.datetime.min, reverse=True)
+    # Fix: Ensure consistent date type handling
+    def get_sort_date(story):
+        date_obj = story.get('published_date_obj')
+        if date_obj is None:
+            return datetime.date.min
+        # Handle string dates
+        if isinstance(date_obj, str):
+            try:
+                return datetime.datetime.fromisoformat(date_obj.replace('Z', '+00:00')).date()
+            except:
+                return datetime.date.min
+        # Handle datetime objects
+        if isinstance(date_obj, datetime.datetime):
+            return date_obj.date()
+        # Handle date objects
+        if isinstance(date_obj, datetime.date):
+            return date_obj
+        return datetime.date.min
+    
+    all_stories.sort(key=get_sort_date, reverse=True)
     
     # Limit to maximum stories per topic
     if len(all_stories) > MAX_TOTAL_STORIES_PER_TOPIC:
