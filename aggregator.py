@@ -1136,33 +1136,61 @@ def call_perplexity_api_with_retry(prompt):
 # --- NEW: Convert Perplexity content to rich HTML ---
 def convert_perplexity_to_rich_html(content, source_headlines=None):
     """
-    Convert Perplexity API markdown content to HTML with basic conversions.
+    Convert Perplexity API markdown content to HTML with footnote support.
     """
     if not content:
         return ""
 
     html_content = content
     
-    # Step 1: Basic markdown conversions
-    # 1. Convert **bold text** to <strong>bold text</strong>
-    html_content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html_content)
+    # Step 1: Extract footnote definitions [^1]: URL
+    footnote_mapping = {}
+    footnote_pattern = r'\[(\^?\d+)\]:\s*(https?://[^\s<>"\']+)'
+    footnote_matches = re.findall(footnote_pattern, html_content)
     
-    # 2. Convert [text](url) links to <a> tags
+    for footnote_num, url in footnote_matches:
+        # Clean footnote number (remove ^ if present)
+        clean_num = footnote_num.replace('^', '')
+        footnote_mapping[clean_num] = url
+        print(f"📎 Found footnote: [^{clean_num}] -> {url}")
+    
+    # Step 2: Convert footnote citations [^1] to clickable links in main text
+    for footnote_num, url in footnote_mapping.items():
+        citation_pattern = r'\[\^' + footnote_num + r'\]'
+        replacement = f'<a href="{url}" target="_blank" rel="noopener" style="color: #dc3545; font-weight: bold; text-decoration: none;">[^{footnote_num}]</a>'
+        html_content = re.sub(citation_pattern, replacement, html_content)
+    
+    # Step 3: Convert footnote definitions to clickable links
+    for footnote_num, url in footnote_mapping.items():
+        definition_pattern = r'\[\^?' + footnote_num + r'\]:\s*(https?://[^\s<>"\']+)'
+        replacement = f'[^{footnote_num}]: <a href="{url}" target="_blank" rel="noopener" style="color: #dc3545;">{url}</a>'
+        html_content = re.sub(definition_pattern, replacement, html_content)
+    
+    # Step 4: Add Sources header before footnotes section if footnotes exist
+    if footnote_mapping:
+        # Find where footnotes start and add header
+        first_footnote_pattern = r'(\[\^1\]:)'
+        if re.search(first_footnote_pattern, html_content):
+            html_content = re.sub(first_footnote_pattern, r'<h3 style="color: #333; margin-bottom: 10px; font-size: 1.1em;">Sources:</h3>\n\1', html_content)
+    
+    # Step 5: Basic markdown conversions
+    html_content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html_content)
     html_content = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2" target="_blank" rel="noopener" style="color: #dc3545;">\1</a>', html_content)
     
-    # Step 2: Convert newlines to HTML breaks
+    # Step 6: Convert newlines to HTML breaks
     html_content = html_content.replace('\n', '<br>')
     
-    # Step 3: Wrap in styled div to match the design
+    # Step 7: Wrap in styled div
     styled_content = f"""
     <div class="ai-flash-summary" style="
         background: #f8f9fa;
-        padding: 0;
-        margin: 0;
+        padding: 20px;
+        margin: 20px 0;
         color: #333;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         line-height: 1.6;
-        border-radius: 0;
+        border-radius: 8px;
+        border-left: 4px solid #dc3545;
     ">
         {html_content}
     </div>
