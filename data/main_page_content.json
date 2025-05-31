@@ -1,346 +1,595 @@
 {
     "AI Companies": [
         {
-            "title": "Creating websites in minutes with AI Website Builder",
-            "url": "https://openai.com/index/wix",
-            "source": "OpenAI",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "CREATING WEBSITES IN MINUTES WITH AI WEBSITE BUILDER"
+            "title": "Nvidia expects to lose billions in revenue due to H20 chip licensing requirements | TechCrunch",
+            "url": "https://techcrunch.com/2025/05/28/nvidia-expects-to-lose-billions-in-revenue-due-to-h20-chip-licensing-requirements/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-28",
+            "rewritten_title": "NVIDIA EXPECTS TO LOSE BILLIONS IN REVENUE DUE..."
         },
         {
-            "title": "Highlights from the Dialogues stage at I/O 2025",
-            "url": "https://blog.google/technology/developers/google-io-2025-dialogues-ai-quantum-storytelling/",
-            "source": "Google AI",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "HIGHLIGHTS FROM THE DIALOGUES STAGE AT I/O 2025"
+            "title": "Meet Fidji Simo, the Instacart CEO Tasked With Getting OpenAI to Turn a Profit",
+            "url": "https://www.wsj.com/tech/ai/fidji-simo-openai-245dd113",
+            "source": "NewsAPI (The Wall Street Journal)",
+            "published_date_obj": "2025-05-20",
+            "rewritten_title": "MEET FIDJI SIMO, THE INSTACART CEO TASKED WITH..."
         },
         {
-            "title": "Mistral launches new code embedding model that outperforms OpenAI and Cohere in real-world retrieval tasks",
-            "url": "https://venturebeat.com/ai/mistral-launches-new-code-embedding-model-that-outperforms-openai-and-cohere-in-real-world-retrieval-tasks/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "MISTRAL LAUNCHES NEW CODE EMBEDDING MODEL THAT OUTPERFORMS..."
+            "title": "Microsoft\u2019s plan to fix the web: letting every website run AI search for cheap",
+            "url": "https://www.theverge.com/web/669437/nlweb-microsoft-ai-agents-open-web",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-05-19",
+            "rewritten_title": "MICROSOFT\u2019S PLAN TO FIX THE WEB: LETTING EVERY..."
         },
         {
-            "title": "Nvidia CEO takes a shot at U.S. policy cutting off AI chip sales to China",
-            "url": "https://venturebeat.com/games/nvidia-ceo-takes-a-shot-at-u-s-policy-cutting-off-ai-chip-sales-to-china/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "NVIDIA CEO TAKES A SHOT AT U.S. POLICY..."
+            "title": "Inside the story that enraged OpenAI",
+            "url": "https://www.technologyreview.com/2025/05/19/1116614/hao-empire-ai-openai/",
+            "source": "NewsAPI (MIT Technology Review)",
+            "published_date_obj": "2025-05-19",
+            "rewritten_title": "INSIDE THE STORY THAT ENRAGED OPENAI"
         },
         {
-            "title": "Nvidia beats estimates for Q1 results as revenues rise 69% from a year ago",
-            "url": "https://venturebeat.com/games/nvidia-beats-estimates-for-q1-results-as-revenues-rise-69-from-a-year-ago/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "NVIDIA BEATS ESTIMATES FOR Q1 RESULTS AS REVENUES..."
+            "title": "Nvidia CEO unveils new tech to keep global AI expansion going",
+            "url": "https://www.bloomberg.com/news/articles/2025-05-19/nvidia-ceo-unveils-new-tech-to-keep-global-ai-expansion-going",
+            "source": "NewsAPI (Bloomberg)",
+            "published_date_obj": "2025-05-19",
+            "rewritten_title": "NVIDIA CEO UNVEILS NEW TECH TO KEEP GLOBAL..."
+        },
+        {
+            "title": "What OpenAI's restructuring plan means for its corporate future | TechCrunch",
+            "url": "https://techcrunch.com/2025/05/06/what-openais-restructuring-plan-means-for-its-corporate-future/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-06",
+            "rewritten_title": "WHAT OPENAI'S RESTRUCTURING PLAN MEANS FOR ITS CORPORATE..."
+        },
+        {
+            "title": "Nvidia takes aim at Anthropic's support of chip export controls | TechCrunch",
+            "url": "https://techcrunch.com/2025/05/01/nvidia-takes-aim-at-anthropics-support-of-chip-export-controls/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-01",
+            "rewritten_title": "NVIDIA TAKES AIM AT ANTHROPIC'S SUPPORT OF CHIP..."
+        },
+        {
+            "title": "Anthropic suggests tweaks to proposed U.S. AI chip export controls | TechCrunch",
+            "url": "https://techcrunch.com/2025/04/30/anthropic-suggests-tweaks-to-proposed-u-s-ai-chip-export-controls/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-04-30",
+            "rewritten_title": "ANTHROPIC SUGGESTS TWEAKS TO PROPOSED U.S. AI CHIP..."
+        },
+        {
+            "title": "Anthropic CEO Dario Amodei says AI companies like his may need to be taxed to offset a coming employment crisis and \"I don't think we can stop the AI bus\"",
+            "url": "https://www.reddit.com/r/singularity/comments/1kz1mcp/anthropic_ceo_dario_amodei_says_ai_companies_like/",
+            "source": "Reddit r/singularity",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "ANTHROPIC CEO DARIO AMODEI SAYS AI COMPANIES LIKE..."
         },
         {
             "title": "Less is more: Meta study shows shorter reasoning improves AI accuracy by 34%",
-            "url": "https://venturebeat.com/ai/less-is-more-meta-study-shows-shorter-reasoning-improves-ai-accuracy-by-34/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-28",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1kzcyz8/less_is_more_meta_study_shows_shorter_reasoning/",
+            "source": "Reddit r/openai",
+            "published_date_obj": "2025-05-30",
             "rewritten_title": "LESS IS MORE: META STUDY SHOWS SHORTER REASONING..."
         },
         {
-            "title": "10 tips for 10 years of Google Photos",
-            "url": "https://blog.google/products/photos/google-photos-10-years-tips-tricks/",
-            "source": "Google AI",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "10 TIPS FOR 10 YEARS OF GOOGLE PHOTOS"
+            "title": "Introducing The Darwin Godel Machine: AI that improves itself by rewriting its own code.",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1kzbkpd/introducing_the_darwin_godel_machine_ai_that/",
+            "source": "Reddit r/openai",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "INTRODUCING THE DARWIN GODEL MACHINE: AI THAT IMPROVES..."
         },
         {
-            "title": "DeepSeek R1-0528 arrives in powerful open source challenge to OpenAI o3 and Google Gemini 2.5 Pro",
-            "url": "https://venturebeat.com/ai/deepseek-r1-0528-arrives-in-powerful-open-source-challenge-to-openai-o3-and-google-gemini-2-5-pro/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "DEEPSEEK R1-0528 ARRIVES IN POWERFUL OPEN SOURCE CHALLENGE..."
+            "title": "The Download: Google\u2019s AI mission, and America\u2019s reliance on natural gas",
+            "url": "https://www.technologyreview.com/2025/05/21/1117249/the-download-googles-ai-mission-and-americas-reliance-on-natural-gas/",
+            "source": "NewsAPI (MIT Technology Review)",
+            "published_date_obj": "2025-05-21",
+            "rewritten_title": "THE DOWNLOAD: GOOGLE\u2019S AI MISSION, AND AMERICA\u2019S RELIANCE..."
         },
         {
-            "title": "Everyone\u2019s looking to get in on vibe coding \u2014 and Google is no different with Stitch, its follow-up to Jules",
-            "url": "https://venturebeat.com/ai/everyones-looking-to-get-in-on-vibe-coding-and-google-is-no-different-with-stitch-its-follow-up-to-jules/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "EVERYONE\u2019S LOOKING TO GET IN ON VIBE CODING..."
+            "title": "Google\u2019s AI Boss Says Gemini's New Abilities Point the Way to AGI",
+            "url": "https://www.wired.com/story/googles-ai-boss-says-geminis-new-abilities-point-the-way-to-agi/",
+            "source": "NewsAPI (Wired)",
+            "published_date_obj": "2025-05-20",
+            "rewritten_title": "GOOGLE\u2019S AI BOSS SAYS GEMINI'S NEW ABILITIES POINT..."
         },
         {
-            "title": "Anthropic debuts Claude conversational voice mode on mobile that searches your Google Docs, Drive, Calendar",
-            "url": "https://venturebeat.com/ai/anthropic-debuts-conversational-voice-mode-for-claude-mobile-apps/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-27",
-            "rewritten_title": "ANTHROPIC DEBUTS CLAUDE CONVERSATIONAL VOICE MODE ON MOBILE..."
+            "title": "Google DeepMind\u2019s AI Agent Dreams Up Algorithms Beyond Human Expertise",
+            "url": "https://www.wired.com/story/google-deepminds-ai-agent-dreams-up-algorithms-beyond-human-expertise/",
+            "source": "NewsAPI (Wired)",
+            "published_date_obj": "2025-05-14",
+            "rewritten_title": "GOOGLE DEEPMIND\u2019S AI AGENT DREAMS UP ALGORITHMS BEYOND..."
         },
         {
-            "title": "A Practical Introduction to Google Analytics",
-            "url": "https://towardsdatascience.com/a-practical-introduction-to-google-analytics/",
+            "title": "JAX: Is This Google\u2019s NumPy\u00a0killer?",
+            "url": "https://towardsdatascience.com/jax-is-this-googles-numpy-killer/",
             "source": "Towards Data Science",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "A PRACTICAL INTRODUCTION TO GOOGLE ANALYTICS"
+            "published_date_obj": "2025-05-28",
+            "rewritten_title": "JAX: IS THIS GOOGLE\u2019S NUMPY KILLER?"
+        },
+        {
+            "title": "Detecting Malicious URLs Using LSTM and Google\u2019s BERT Models",
+            "url": "https://towardsdatascience.com/detecting-malicious-urls-using-lstm-and-googles-bert-models/",
+            "source": "Towards Data Science",
+            "published_date_obj": "2025-05-28",
+            "rewritten_title": "DETECTING MALICIOUS URLS USING LSTM AND GOOGLE\u2019S BERT..."
         }
     ],
     "AI Products": [
         {
-            "title": "This benchmark used Reddit\u2019s AITA to test how much AI models suck up to us",
-            "url": "https://www.technologyreview.com/2025/05/30/1117551/this-benchmark-used-reddits-aita-to-test-how-much-ai-models-suck-up-to-us/",
-            "source": "MIT Technology Review",
+            "title": "Uber Freight bets big on AI tools to grow its business",
+            "url": "https://techcrunch.com/2025/05/21/uber-freight-bets-big-on-ai-tools-to-grow-its-business/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-21",
+            "rewritten_title": "UBER FREIGHT BETS BIG ON AI TOOLS TO..."
+        },
+        {
+            "title": "How Peter Thiel\u2019s Relationship With Eliezer Yudkowsky Launched the AI Revolution",
+            "url": "https://www.wired.com/story/book-excerpt-the-optimist-open-ai-sam-altman/",
+            "source": "NewsAPI (Wired)",
+            "published_date_obj": "2025-05-20",
+            "rewritten_title": "HOW PETER THIEL\u2019S RELATIONSHIP WITH ELIEZER YUDKOWSKY LAUNCHED..."
+        },
+        {
+            "title": "A stealth AI model beat DALL-E and Midjourney on a popular benchmark. Its creator just landed $30M. | TechCrunch",
+            "url": "https://techcrunch.com/2025/05/05/a-stealth-ai-model-beat-dall-e-and-midjourney-on-a-popular-benchmark-its-creator-just-landed-30m/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-05",
+            "rewritten_title": "A STEALTH AI MODEL BEAT DALL-E AND MIDJOURNEY..."
+        },
+        {
+            "title": "These Startups Are Building Advanced AI Models Without Data Centers",
+            "url": "https://www.wired.com/story/these-startups-are-building-advanced-ai-models-over-the-internet-with-untapped-data/",
+            "source": "NewsAPI (Wired)",
+            "published_date_obj": "2025-04-30",
+            "rewritten_title": "THESE STARTUPS ARE BUILDING ADVANCED AI MODELS WITHOUT..."
+        },
+        {
+            "title": "Large Language Models - a human educated perspective",
+            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1kzjn38/large_language_models_a_human_educated_perspective/",
+            "source": "Reddit r/LargeLanguageModels",
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "LARGE LANGUAGE MODELS - A HUMAN EDUCATED PERSPECTIVE"
+        },
+        {
+            "title": "llama-server is cooking! gemma3 27b, 100K context, vision on one 24GB GPU.",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kzcalh/llamaserver_is_cooking_gemma3_27b_100k_context/",
+            "source": "Reddit r/LocalLLaMA",
             "published_date_obj": "2025-05-30",
-            "rewritten_title": "THIS BENCHMARK USED REDDIT\u2019S AITA TO TEST HOW..."
+            "rewritten_title": "LLAMA-SERVER IS COOKING! GEMMA3 27B, 100K CONTEXT, VISION..."
         },
         {
-            "title": "Which LLM should you use? Token Monster automatically combines multiple models and tools for you",
-            "url": "https://venturebeat.com/ai/which-llm-should-you-use-token-monster-automatically-combines-multiple-models-and-tools-for-you/",
-            "source": "VentureBeat AI",
+            "title": "Please update the website!!",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1kz7znl/please_update_the_website/",
+            "source": "Reddit r/characterai",
             "published_date_obj": "2025-05-30",
-            "rewritten_title": "WHICH LLM SHOULD YOU USE? TOKEN MONSTER AUTOMATICALLY..."
-        },
-        {
-            "title": "Emotive voice AI startup Hume launches new EVI 3 model with rapid custom voice creation",
-            "url": "https://venturebeat.com/ai/emotive-voice-ai-startup-hume-launches-new-evi-3-model-with-rapid-custom-voice-creation/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "EMOTIVE VOICE AI STARTUP HUME LAUNCHES NEW EVI..."
-        },
-        {
-            "title": "How Snowflake\u2019s open-source text-to-SQL and Arctic inference models solve enterprise AI\u2019s two biggest deployment headaches",
-            "url": "https://venturebeat.com/ai/how-snowflakes-open-source-text-to-sql-and-arctic-inference-models-solve-enterprise-ais-two-biggest-deployment-headaches/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "HOW SNOWFLAKE\u2019S OPEN-SOURCE TEXT-TO-SQL AND ARCTIC INFERENCE MODELS..."
-        },
-        {
-            "title": "Encharge AI unveils EN100 AI accelerator chip with analog memory",
-            "url": "https://venturebeat.com/games/encharge-ai-unveils-en100-ai-accelerator-chip-with-analog-memory/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "ENCHARGE AI UNVEILS EN100 AI ACCELERATOR CHIP WITH..."
-        },
-        {
-            "title": "Peer launches Global Simulation as real-time digital Earth with AI agents",
-            "url": "https://venturebeat.com/games/peer-launches-global-simulation-as-real-time-digital-earth-with-ai-agents/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "PEER LAUNCHES GLOBAL SIMULATION AS REAL-TIME DIGITAL EARTH..."
-        },
-        {
-            "title": "s3: The new RAG framework that trains search agents with minimal data",
-            "url": "https://venturebeat.com/ai/s3-the-new-rag-framework-that-trains-search-agents-with-minimal-data/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "S3: THE NEW RAG FRAMEWORK THAT TRAINS SEARCH..."
-        },
-        {
-            "title": "Spott\u2019s AI-native recruiting platform scores $3.2M to end hiring software chaos",
-            "url": "https://venturebeat.com/ai/spotts-ai-native-recruiting-platform-scores-3-2m-to-end-hiring-software-chaos/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "SPOTT\u2019S AI-NATIVE RECRUITING PLATFORM SCORES $3.2M TO END..."
-        },
-        {
-            "title": "Adobe Research Unlocking Long-Term Memory in Video World Models with State-Space Models",
-            "url": "https://syncedreview.com/2025/05/28/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models/",
-            "source": "Synced Review",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "ADOBE RESEARCH UNLOCKING LONG-TERM MEMORY IN VIDEO WORLD..."
+            "rewritten_title": "PLEASE UPDATE THE WEBSITE!!"
         }
     ],
     "Creator Economy": [
         {
-            "title": "Akool Live Camera can translate video calls in real time, swap faces, and get live virtual avatars to mimic human movements",
-            "url": "https://venturebeat.com/games/akool-live-camera-can-translate-video-calls-in-real-time-swap-faces-and-get-virtual-avatars-to-mimic-human-movements/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "AKOOL LIVE CAMERA CAN TRANSLATE VIDEO CALLS IN..."
+            "title": "Inside the AI revolution: Top insights and breakthroughs from our partners at TechCrunch Sessions: AI | TechCrunch",
+            "url": "https://techcrunch.com/2025/05/29/inside-the-ai-revolution-top-insights-and-breakthroughs-from-our-partners-at-techcrunch-sessions-ai/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-29",
+            "rewritten_title": "INSIDE THE AI REVOLUTION: TOP INSIGHTS AND BREAKTHROUGHS..."
+        },
+        {
+            "title": "Politico\u2019s Newsroom Is Starting a Legal Battle With Management Over AI",
+            "url": "https://www.wired.com/story/politico-workers-axel-springer-artificial-intelligence/",
+            "source": "NewsAPI (Wired)",
+            "published_date_obj": "2025-05-22",
+            "rewritten_title": "POLITICO\u2019S NEWSROOM IS STARTING A LEGAL BATTLE WITH..."
+        },
+        {
+            "title": "No, Graduates: AI Hasn't Ended Your Career Before It Starts",
+            "url": "https://www.wired.com/story/plaintext-commencement-speech-artificial-intelligence/",
+            "source": "NewsAPI (Wired)",
+            "published_date_obj": "2025-05-16",
+            "rewritten_title": "NO, GRADUATES: AI HASN'T ENDED YOUR CAREER BEFORE..."
+        },
+        {
+            "title": "Intelligence on Earth Evolved Independently at Least Twice",
+            "url": "https://www.wired.com/story/intelligence-evolved-at-least-twice-in-vertebrate-animals/",
+            "source": "NewsAPI (Wired)",
+            "published_date_obj": "2025-05-11",
+            "rewritten_title": "INTELLIGENCE ON EARTH EVOLVED INDEPENDENTLY AT LEAST TWICE"
+        },
+        {
+            "title": "Game, Sett, Funding: a startup building AI agents for game development emerges from stealth with $27M | TechCrunch",
+            "url": "https://techcrunch.com/2025/05/07/game-sett-funding-a-startup-building-ai-agents-for-game-development-emerges-from-stealth-with-27m/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-07",
+            "rewritten_title": "GAME, SETT, FUNDING: A STARTUP BUILDING AI AGENTS..."
+        },
+        {
+            "title": "[D] Chart shows that FP8 for training becoming more popular",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1kzbphg/d_chart_shows_that_fp8_for_training_becoming_more/",
+            "source": "Reddit r/MachineLearning",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "[D] CHART SHOWS THAT FP8 FOR TRAINING BECOMING..."
+        },
+        {
+            "title": "Its So Hard to Just Get Started - If Your'e Like Me My Brain Is About To Explode With Information Overload",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1kzjibl/its_so_hard_to_just_get_started_if_youre_like_me/",
+            "source": "Reddit r/ai_agents",
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "ITS SO HARD TO JUST GET STARTED -..."
+        },
+        {
+            "title": "It's official, I love AI art",
+            "url": "https://www.reddit.com/r/aiArt/comments/1kzd2cb/its_official_i_love_ai_art/",
+            "source": "Reddit r/AIArt",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "IT'S OFFICIAL, I LOVE AI ART"
         }
     ],
-    "Generative AI": [],
+    "Generative AI": [
+        {
+            "title": "Wikipedia is using (some) generative AI now",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/659222/wikipedia-generative-ai",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-05-01",
+            "rewritten_title": "WIKIPEDIA IS USING (SOME) GENERATIVE AI NOW"
+        },
+        {
+            "title": "Logan Kilpatrick: \"Home Robotics is going to work in 2026\"",
+            "url": "https://www.reddit.com/r/singularity/comments/1kzhp84/logan_kilpatrick_home_robotics_is_going_to_work/",
+            "source": "Reddit r/singularity",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "LOGAN KILPATRICK: \"HOME ROBOTICS IS GOING TO WORK..."
+        }
+    ],
     "AI Business News": [],
-    "AI Research & Methods": [],
-    "AI in Practice": [],
+    "AI Research & Methods": [
+        {
+            "title": "MIT disavows doctoral student paper on AI's productivity benefits | TechCrunch",
+            "url": "https://techcrunch.com/2025/05/17/mit-disavows-doctoral-students-paper-on-ai-productivity-benefits/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-17",
+            "rewritten_title": "MIT DISAVOWS DOCTORAL STUDENT PAPER ON AI'S PRODUCTIVITY..."
+        },
+        {
+            "title": "Wait a minute! Researchers say AI's \"chains of thought\" are not signs of human-like reasoning",
+            "url": "https://www.reddit.com/r/artificial/comments/1kz03lb/wait_a_minute_researchers_say_ais_chains_of/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "WAIT A MINUTE! RESEARCHERS SAY AI'S \"CHAINS OF..."
+        },
+        {
+            "title": "[R] Improving the Effective Receptive Field of Message-Passing Neural Networks",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1kzauh8/r_improving_the_effective_receptive_field_of/",
+            "source": "Reddit r/MachineLearning",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "[R] IMPROVING THE EFFECTIVE RECEPTIVE FIELD OF MESSAGE-PASSING..."
+        }
+    ],
+    "AI in Practice": [
+        {
+            "title": "AI\u2019s energy impact is still small\u2014but how we handle it is huge",
+            "url": "https://www.technologyreview.com/2025/05/20/1116274/opinion-ai-energy-use-data-centers-electricity/",
+            "source": "NewsAPI (MIT Technology Review)",
+            "published_date_obj": "2025-05-20",
+            "rewritten_title": "AI\u2019S ENERGY IMPACT IS STILL SMALL\u2014BUT HOW WE..."
+        }
+    ],
     "AI Ethics & Policy": [
         {
-            "title": "The Hidden Security Risks of\u00a0LLMs",
-            "url": "https://towardsdatascience.com/the-hidden-security-risks-of-llms/",
-            "source": "Towards Data Science",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "THE HIDDEN SECURITY RISKS OF LLMS"
+            "title": "Singapore\u2019s Vision for AI Safety Bridges the US-China Divide",
+            "url": "https://www.wired.com/story/singapore-ai-safety-global-consensus/",
+            "source": "NewsAPI (Wired)",
+            "published_date_obj": "2025-05-08",
+            "rewritten_title": "SINGAPORE\u2019S VISION FOR AI SAFETY BRIDGES THE US-CHINA..."
+        },
+        {
+            "title": "Holy shit, did you all see the Claude Opus 4 safety report?",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1kz4yx8/holy_shit_did_you_all_see_the_claude_opus_4/",
+            "source": "Reddit r/claudeai",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "HOLY SHIT, DID YOU ALL SEE THE CLAUDE..."
+        },
+        {
+            "title": "FLUX.1 Kontext did a pretty dang good job at colorizing this photo of my Grandparents",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1kz7rpt/flux1_kontext_did_a_pretty_dang_good_job_at/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "FLUX.1 KONTEXT DID A PRETTY DANG GOOD JOB..."
         }
     ],
-    "Weird": [],
+    "Weird": [
+        {
+            "title": "Funny meme, no offense to anyone",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1kzeso6/funny_meme_no_offense_to_anyone/",
+            "source": "Reddit r/chatgpt",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "FUNNY MEME, NO OFFENSE TO ANYONE"
+        }
+    ],
     "Trending Now": [
         {
-            "title": "How much coffee is too much?",
-            "url": "https://www.economist.com/science-and-technology/2025/05/30/how-much-coffee-is-too-much",
-            "source": "The Economist",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "HOW MUCH COFFEE IS TOO MUCH?"
-        },
-        {
-            "title": "Elon Musk\u2019s plans to go to Mars next year are toast",
-            "url": "https://www.economist.com/science-and-technology/2025/05/28/elon-musks-plans-to-go-to-mars-next-year-are-toast",
-            "source": "The Economist",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "ELON MUSK\u2019S PLANS TO GO TO MARS NEXT..."
-        },
-        {
-            "title": "The decoding of ancient Roman scrolls is speeding up",
-            "url": "https://www.economist.com/science-and-technology/2025/05/28/the-decoding-of-ancient-roman-scrolls-is-speeding-up",
-            "source": "The Economist",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "THE DECODING OF ANCIENT ROMAN SCROLLS IS SPEEDING..."
-        },
-        {
-            "title": "Old oil paintings are suffering from chemical \u201cacne\u201d",
-            "url": "https://www.economist.com/science-and-technology/2025/05/28/old-oil-paintings-are-suffering-from-chemical-acne",
-            "source": "The Economist",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "OLD OIL PAINTINGS ARE SUFFERING FROM CHEMICAL \u201cACNE\u201d"
-        },
-        {
-            "title": "Snakes may have once faced a vicious enemy: the humble ant",
-            "url": "https://www.economist.com/science-and-technology/2025/05/28/snakes-may-have-once-faced-a-vicious-enemy-the-humble-ant",
-            "source": "The Economist",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "SNAKES MAY HAVE ONCE FACED A VICIOUS ENEMY:..."
-        },
-        {
-            "title": "Fueling seamless AI at scale",
-            "url": "https://www.technologyreview.com/2025/05/30/1117440/fueling-seamless-ai-at-scale/",
-            "source": "MIT Technology Review",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "FUELING SEAMLESS AI AT SCALE"
-        },
-        {
-            "title": "The AI Hype Index: College students are hooked on ChatGPT",
-            "url": "https://www.technologyreview.com/2025/05/28/1117468/ai-hype-index-college-students-chatgpt-meta-apple-anthropic-grok/",
-            "source": "MIT Technology Review",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "THE AI HYPE INDEX: COLLEGE STUDENTS ARE HOOKED..."
-        },
-        {
-            "title": "DanaBot takedown shows how agentic AI cut months of SOC analysis to weeks",
-            "url": "https://venturebeat.com/security/agentic-ai-defeated-danabot-exposing-key-lessons-for-soc-teams/",
-            "source": "VentureBeat AI",
+            "title": "AI could consume more power than Bitcoin by the end of 2025",
+            "url": "https://www.theverge.com/climate-change/676528/ai-data-center-energy-forecast-bitcoin-mining",
+            "source": "NewsAPI (The Verge)",
             "published_date_obj": "2025-05-29",
-            "rewritten_title": "DANABOT TAKEDOWN SHOWS HOW AGENTIC AI CUT MONTHS..."
+            "rewritten_title": "AI COULD CONSUME MORE POWER THAN BITCOIN BY..."
         },
         {
-            "title": "Rumi raises $4.7M to change passive media into interactive AI experiences",
-            "url": "https://venturebeat.com/games/rumi-raises-4-7m-to-change-passive-media-into-interactive-ai-experiences/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "RUMI RAISES $4.7M TO CHANGE PASSIVE MEDIA INTO..."
+            "title": "Senators probe whether RealPage pushed state AI law ban",
+            "url": "https://www.theverge.com/news/676378/senator-realpage-budget-reconciliation-bill-involvement",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-05-29",
+            "rewritten_title": "SENATORS PROBE WHETHER REALPAGE PUSHED STATE AI LAW..."
         },
         {
-            "title": "Security leaders lose visibility as consultants deploy shadow AI copilots to stay employed",
-            "url": "https://venturebeat.com/security/shadow-ai-is-consultings-survival-strategy-in-the-genai-era/",
-            "source": "VentureBeat AI",
+            "title": "The Download: nuclear-powered AI, and a short history of creativity",
+            "url": "https://www.technologyreview.com/2025/05/27/1117453/the-download-nuclear-powered-ai-and-a-short-history-of-creativity/",
+            "source": "NewsAPI (MIT Technology Review)",
             "published_date_obj": "2025-05-27",
-            "rewritten_title": "SECURITY LEADERS LOSE VISIBILITY AS CONSULTANTS DEPLOY SHADOW..."
+            "rewritten_title": "THE DOWNLOAD: NUCLEAR-POWERED AI, AND A SHORT HISTORY..."
         },
         {
-            "title": "Hands-On Attention Mechanism for Time Series Classification, with Python",
-            "url": "https://towardsdatascience.com/hands-on-attention-mechanism-for-time-series-classification-with-python/",
-            "source": "Towards Data Science",
+            "title": "From LLMs to hallucinations, here's a simple guide to common AI terms | TechCrunch",
+            "url": "https://techcrunch.com/2025/05/25/from-llms-to-hallucinations-heres-a-simple-guide-to-common-ai-terms/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-25",
+            "rewritten_title": "FROM LLMS TO HALLUCINATIONS, HERE'S A SIMPLE GUIDE..."
+        },
+        {
+            "title": "Khosla Ventures among VCs experimenting with AI-infused roll-ups of mature companies | TechCrunch",
+            "url": "https://techcrunch.com/2025/05/23/khosla-ventures-among-vcs-experimenting-with-ai-infused-roll-ups-of-mature-companies/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-23",
+            "rewritten_title": "KHOSLA VENTURES AMONG VCS EXPERIMENTING WITH AI-INFUSED ROLL-UPS..."
+        },
+        {
+            "title": "ChatGPT: Everything you need to know about the AI chatbot",
+            "url": "https://techcrunch.com/2025/05/23/chatgpt-everything-to-know-about-the-ai-chatbot/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-23",
+            "rewritten_title": "CHATGPT: EVERYTHING YOU NEED TO KNOW ABOUT THE..."
+        },
+        {
+            "title": "A United Arab Emirates Lab Announces Frontier AI Projects\u2014and a New Outpost in Silicon Valley",
+            "url": "https://www.wired.com/story/the-united-arab-emirates-announces-frontier-ai-projects-and-a-new-lab-in-silicon-valley/",
+            "source": "NewsAPI (Wired)",
+            "published_date_obj": "2025-05-22",
+            "rewritten_title": "A UNITED ARAB EMIRATES LAB ANNOUNCES FRONTIER AI..."
+        },
+        {
+            "title": "The complete Side Events lineup at TechCrunch Sessions: AI | TechCrunch",
+            "url": "https://techcrunch.com/2025/05/22/the-complete-side-events-lineup-at-techcrunch-sessions-ai/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-22",
+            "rewritten_title": "THE COMPLETE SIDE EVENTS LINEUP AT TECHCRUNCH SESSIONS:..."
+        },
+        {
+            "title": "Build, don\u2019t bind: Accel\u2019s Sonali De Rycker on Europe\u2019s AI crossroads | TechCrunch",
+            "url": "https://techcrunch.com/2025/05/16/build-dont-bind-accels-sonali-de-rycker-on-europes-ai-crossroads/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-17",
+            "rewritten_title": "BUILD, DON\u2019T BIND: ACCEL\u2019S SONALI DE RYCKER ON..."
+        },
+        {
+            "title": "ChatGPT is getting an AI coding agent",
+            "url": "https://www.theverge.com/command-line-newsletter/668251/chatgpt-is-getting-an-ai-coding-agent",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-05-16",
+            "rewritten_title": "CHATGPT IS GETTING AN AI CODING AGENT"
+        },
+        {
+            "title": "The Middle East Has Entered the AI Group Chat",
+            "url": "https://www.wired.com/story/trump-middle-east-artificial-intelligence-investments/",
+            "source": "NewsAPI (Wired)",
+            "published_date_obj": "2025-05-15",
+            "rewritten_title": "THE MIDDLE EAST HAS ENTERED THE AI GROUP..."
+        },
+        {
+            "title": "Republicans push for a decadelong ban on states regulating AI",
+            "url": "https://www.theverge.com/news/666288/republican-ai-state-regulation-ban-10-years",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-05-13",
+            "rewritten_title": "REPUBLICANS PUSH FOR A DECADELONG BAN ON STATES..."
+        },
+        {
+            "title": "Even a16z VCs say no one really knows what an AI agent is | TechCrunch",
+            "url": "https://techcrunch.com/2025/05/12/even-a16z-vcs-say-no-one-really-knows-what-an-ai-agent-is/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-12",
+            "rewritten_title": "EVEN A16Z VCS SAY NO ONE REALLY KNOWS..."
+        },
+        {
+            "title": "How a new type of AI is helping police skirt facial recognition bans",
+            "url": "https://www.technologyreview.com/2025/05/12/1116295/how-a-new-type-of-ai-is-helping-police-skirt-facial-recognition-bans/",
+            "source": "NewsAPI (MIT Technology Review)",
+            "published_date_obj": "2025-05-12",
+            "rewritten_title": "HOW A NEW TYPE OF AI IS HELPING..."
+        },
+        {
+            "title": "Pope Leo XIV names AI one of the reasons for his papal name",
+            "url": "https://www.theverge.com/news/664719/pope-leo-xiv-artificial-intelligence-concerns",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-05-10",
+            "rewritten_title": "POPE LEO XIV NAMES AI ONE OF THE..."
+        },
+        {
+            "title": "Developing nations expect AI productivity boost soon, UN finds",
+            "url": "https://www.bloomberg.com/news/articles/2025-05-06/developing-nations-expect-ai-productivity-boost-soon-un-finds",
+            "source": "NewsAPI (Bloomberg)",
+            "published_date_obj": "2025-05-06",
+            "rewritten_title": "DEVELOPING NATIONS EXPECT AI PRODUCTIVITY BOOST SOON, UN..."
+        },
+        {
+            "title": "Wikipedia says it will use AI, but not to replace human volunteers | TechCrunch",
+            "url": "https://techcrunch.com/2025/04/30/wikipedia-says-it-will-use-ai-but-not-to-replace-human-volunteers/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-04-30",
+            "rewritten_title": "WIKIPEDIA SAYS IT WILL USE AI, BUT NOT..."
+        },
+        {
+            "title": "Is AI \u201cnormal\u201d?",
+            "url": "https://www.technologyreview.com/2025/04/29/1115928/is-ai-normal/",
+            "source": "NewsAPI (MIT Technology Review)",
+            "published_date_obj": "2025-04-29",
+            "rewritten_title": "IS AI \u201cNORMAL\u201d?"
+        },
+        {
+            "title": "QwenLong-L1 solves long-context reasoning challenge that stumps current LLMs",
+            "url": "https://venturebeat.com/ai/qwenlong-l1-solves-long-context-reasoning-challenge-that-stumps-current-llms/",
+            "source": "VentureBeat AI",
             "published_date_obj": "2025-05-30",
-            "rewritten_title": "HANDS-ON ATTENTION MECHANISM FOR TIME SERIES CLASSIFICATION, WITH..."
+            "rewritten_title": "QWENLONG-L1 SOLVES LONG-CONTEXT REASONING CHALLENGE THAT STUMPS CURRENT..."
         },
         {
-            "title": "Agentic RAG Applications: Company Knowledge Slack Agents",
-            "url": "https://towardsdatascience.com/agentic-rag-applications-company-knowledge-slack-agents/",
-            "source": "Towards Data Science",
+            "title": "ElevenLabs debuts Conversational AI 2.0 voice assistants that understand when to pause, speak, and take turns talking",
+            "url": "https://venturebeat.com/ai/elevenlabs-debuts-conversational-ai-2-0-voice-assistants-that-understand-when-to-pause-speak-and-take-turns-talking/",
+            "source": "VentureBeat AI",
             "published_date_obj": "2025-05-30",
-            "rewritten_title": "AGENTIC RAG APPLICATIONS: COMPANY KNOWLEDGE SLACK AGENTS"
+            "rewritten_title": "ELEVENLABS DEBUTS CONVERSATIONAL AI 2.0 VOICE ASSISTANTS THAT..."
         },
         {
-            "title": "The Secret Power of Data Science in Customer Support",
-            "url": "https://towardsdatascience.com/the-secret-power-of-data-science-in-customer-support/",
-            "source": "Towards Data Science",
+            "title": "CEOs know AI will shrink their teams \u2014 they're just too afraid to say it, say 2 software investors",
+            "url": "https://www.reddit.com/r/artificial/comments/1kz6yg5/ceos_know_ai_will_shrink_their_teams_theyre_just/",
+            "source": "Reddit r/artificial",
             "published_date_obj": "2025-05-30",
-            "rewritten_title": "THE SECRET POWER OF DATA SCIENCE IN CUSTOMER..."
+            "rewritten_title": "CEOS KNOW AI WILL SHRINK THEIR TEAMS \u2014..."
         },
         {
-            "title": "Gaining Strategic Clarity in AI",
-            "url": "https://towardsdatascience.com/gaining-strategic-clarity-in-ai/",
-            "source": "Towards Data Science",
+            "title": "Eric Schmidt says for thousands of years, war has been man vs man. We're now breaking that connection forever - war will be AIs vs AIs, because humans won't be able to keep up. \"Having a fighter jet with a human in it makes absolutely no sense.\"",
+            "url": "https://www.reddit.com/r/artificial/comments/1kzam0p/eric_schmidt_says_for_thousands_of_years_war_has/",
+            "source": "Reddit r/artificial",
             "published_date_obj": "2025-05-30",
-            "rewritten_title": "GAINING STRATEGIC CLARITY IN AI"
+            "rewritten_title": "ERIC SCHMIDT SAYS FOR THOUSANDS OF YEARS, WAR..."
         },
         {
-            "title": "LLM Optimization: LoRA and\u00a0QLoRA",
-            "url": "https://towardsdatascience.com/llm-optimization-lora-and-qlora/",
-            "source": "Towards Data Science",
+            "title": "\ud83e\udde0 I built Writedoc.ai \u2013 Instantly create beautiful, structured documents using AI. Would love your feedback!",
+            "url": "https://www.reddit.com/r/artificial/comments/1kz8gyx/i_built_writedocai_instantly_create_beautiful/",
+            "source": "Reddit r/artificial",
             "published_date_obj": "2025-05-30",
-            "rewritten_title": "LLM OPTIMIZATION: LORA AND QLORA"
+            "rewritten_title": "\ud83e\udde0 I BUILT WRITEDOC.AI \u2013 INSTANTLY CREATE BEAUTIFUL,..."
         },
         {
-            "title": "Simulating Flood Inundation with Python and Elevation Data: A Beginner\u2019s Guide",
-            "url": "https://towardsdatascience.com/simulating-flood-inundation-with-python-and-elevation-data-a-beginners-guide/",
-            "source": "Towards Data Science",
+            "title": "RFK Jr.\u2018s \u2018Make America Healthy Again\u2019 report seems riddled with AI slop.  Dozens of erroneous citations carry chatbot markers, and some sources simply don\u2019t exist.",
+            "url": "https://www.reddit.com/r/artificial/comments/1kz51c4/rfk_jrs_make_america_healthy_again_report_seems/",
+            "source": "Reddit r/artificial",
             "published_date_obj": "2025-05-30",
-            "rewritten_title": "SIMULATING FLOOD INUNDATION WITH PYTHON AND ELEVATION DATA:..."
+            "rewritten_title": "RFK JR.\u2018S \u2018MAKE AMERICA HEALTHY AGAIN\u2019 REPORT SEEMS..."
         },
         {
-            "title": "How to Build an MCQ App",
-            "url": "https://towardsdatascience.com/how-to-build-an-mcq-app/",
-            "source": "Towards Data Science",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "HOW TO BUILD AN MCQ APP"
-        },
-        {
-            "title": "May Must-Reads: Math for Machine Learning Engineers, LLMs, Agent Protocols, and More",
-            "url": "https://towardsdatascience.com/may-must-reads-math-for-machine-learning-engineers-llms-agent-protocols-and-more/",
-            "source": "Towards Data Science",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "MAY MUST-READS: MATH FOR MACHINE LEARNING ENGINEERS, LLMS,..."
-        },
-        {
-            "title": "GAIA: The LLM Agent Benchmark Everyone\u2019s Talking About",
-            "url": "https://towardsdatascience.com/gaia-the-llm-agent-benchmark-everyones-talking-about/",
-            "source": "Towards Data Science",
+            "title": "Simply giving an LLM \"confidence\" makes it better at coding and reasoning",
+            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1kyoa6v/simply_giving_an_llm_confidence_makes_it_better/",
+            "source": "Reddit r/LargeLanguageModels",
             "published_date_obj": "2025-05-29",
-            "rewritten_title": "GAIA: THE LLM AGENT BENCHMARK EVERYONE\u2019S TALKING ABOUT"
+            "rewritten_title": "SIMPLY GIVING AN LLM \"CONFIDENCE\" MAKES IT BETTER..."
         },
         {
-            "title": "A Bird\u2019s Eye View of Linear Algebra: The Basics",
-            "url": "https://towardsdatascience.com/a-birds-eye-view-of-linear-algebra-the-basics/",
-            "source": "Towards Data Science",
+            "title": "How AI Will Bring Computing to Everyone \u2022 Matt Welsh",
+            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1kyj0va/how_ai_will_bring_computing_to_everyone_matt_welsh/",
+            "source": "Reddit r/LargeLanguageModels",
             "published_date_obj": "2025-05-29",
-            "rewritten_title": "A BIRD\u2019S EYE VIEW OF LINEAR ALGEBRA: THE..."
+            "rewritten_title": "HOW AI WILL BRING COMPUTING TO EVERYONE \u2022..."
         },
         {
-            "title": "I Transitioned from Data Science to AI Engineering: Here\u2019s Everything You Need to\u00a0Know",
-            "url": "https://towardsdatascience.com/i-transitioned-from-data-science-to-ai-engineering-heres-everything-you-need-to-know/",
-            "source": "Towards Data Science",
+            "title": "To anyone scared to practice speaking a new language?",
+            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1ky317n/to_anyone_scared_to_practice_speaking_a_new/",
+            "source": "Reddit r/LargeLanguageModels",
             "published_date_obj": "2025-05-29",
-            "rewritten_title": "I TRANSITIONED FROM DATA SCIENCE TO AI ENGINEERING:..."
+            "rewritten_title": "TO ANYONE SCARED TO PRACTICE SPEAKING A NEW..."
         },
         {
-            "title": "The Simplest Possible AI Web App",
-            "url": "https://towardsdatascience.com/the-simplest-possible-ai-web-app/",
-            "source": "Towards Data Science",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "THE SIMPLEST POSSIBLE AI WEB APP"
+            "title": "Unlimited Speech to Speech using Moonshine and Kokoro, 100% local, 100% open source",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kzlb8g/unlimited_speech_to_speech_using_moonshine_and/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "UNLIMITED SPEECH TO SPEECH USING MOONSHINE AND KOKORO,..."
         },
         {
-            "title": "From Data to Stories: Code Agents for KPI Narratives",
-            "url": "https://towardsdatascience.com/from-data-to-stories-code-agents-for-kpi-narratives/",
-            "source": "Towards Data Science",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "FROM DATA TO STORIES: CODE AGENTS FOR KPI..."
+            "title": "Introducing Conversational AI 2.0",
+            "url": "https://www.reddit.com/r/singularity/comments/1kzd6r5/introducing_conversational_ai_20/",
+            "source": "Reddit r/singularity",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "INTRODUCING CONVERSATIONAL AI 2.0"
         },
         {
-            "title": "Multi-Agent Communication with the A2A Python\u00a0SDK",
-            "url": "https://towardsdatascience.com/multi-agent-communication-with-the-a2a-python-sdk/",
-            "source": "Towards Data Science",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "MULTI-AGENT COMMUNICATION WITH THE A2A PYTHON SDK"
+            "title": "[R] The Resurrection of the ReLU",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1kz5t16/r_the_resurrection_of_the_relu/",
+            "source": "Reddit r/MachineLearning",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "[R] THE RESURRECTION OF THE RELU"
         },
         {
-            "title": "Tree of Thought Prompting: Teaching LLMs to Think Slowly",
-            "url": "https://towardsdatascience.com/tree-of-thought-prompting-teaching-llm-to-think-slowly/",
-            "source": "Towards Data Science",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "TREE OF THOUGHT PROMPTING: TEACHING LLMS TO THINK..."
+            "title": "Does it really think this of us?",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1kzgwwi/does_it_really_think_this_of_us/",
+            "source": "Reddit r/chatgpt",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "DOES IT REALLY THINK THIS OF US?"
+        },
+        {
+            "title": "ChatGPT has ruined the \"em dash\" forever",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1kz5khl/chatgpt_has_ruined_the_em_dash_forever/",
+            "source": "Reddit r/chatgpt",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "CHATGPT HAS RUINED THE \"EM DASH\" FOREVER"
+        },
+        {
+            "title": "having just shelled out for Max and Claude Code",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1kzgymc/having_just_shelled_out_for_max_and_claude_code/",
+            "source": "Reddit r/claudeai",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "HAVING JUST SHELLED OUT FOR MAX AND CLAUDE..."
+        },
+        {
+            "title": "What are some of your go-to prompts which always work?",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1kzljt6/what_are_some_of_your_goto_prompts_which_always/",
+            "source": "Reddit r/claudeai",
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "WHAT ARE SOME OF YOUR GO-TO PROMPTS WHICH..."
+        },
+        {
+            "title": "The cringe \ud83d\ude2d",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1kzako0/the_cringe/",
+            "source": "Reddit r/characterai",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "THE CRINGE \ud83d\ude2d"
+        },
+        {
+            "title": "Thx fanfictions",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1kyxitv/thx_fanfictions/",
+            "source": "Reddit r/characterai",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "THX FANFICTIONS"
+        },
+        {
+            "title": "I really miss the SD 1.5 days",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1kza0sn/i_really_miss_the_sd_15_days/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "I REALLY MISS THE SD 1.5 DAYS"
+        },
+        {
+            "title": "I wanna use this photo as reference, but depth or canny or openpose all not working, help.",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1kzlzq0/i_wanna_use_this_photo_as_reference_but_depth_or/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "I WANNA USE THIS PHOTO AS REFERENCE, BUT..."
+        },
+        {
+            "title": "Hey guys, is there any tutorial on how to make a GOOD LoRA? I'm trying to make one for Illustrious. Should I remove the background like this, or is it better to keep it?",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1kzn560/hey_guys_is_there_any_tutorial_on_how_to_make_a/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "HEY GUYS, IS THERE ANY TUTORIAL ON HOW..."
+        },
+        {
+            "title": "New Phantom_Wan_14B-GGUFs \ud83d\ude80\ud83d\ude80\ud83d\ude80",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1kzkch4/new_phantom_wan_14bggufs/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "NEW PHANTOM_WAN_14B-GGUFS \ud83d\ude80\ud83d\ude80\ud83d\ude80"
+        },
+        {
+            "title": "Fallout: Nickelodeon",
+            "url": "https://www.reddit.com/r/aiArt/comments/1kzk90u/fallout_nickelodeon/",
+            "source": "Reddit r/AIArt",
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "FALLOUT: NICKELODEON"
         }
     ]
 }
