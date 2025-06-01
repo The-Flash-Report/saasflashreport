@@ -1,595 +1,312 @@
 {
     "AI Companies": [
         {
-            "title": "Nvidia expects to lose billions in revenue due to H20 chip licensing requirements | TechCrunch",
-            "url": "https://techcrunch.com/2025/05/28/nvidia-expects-to-lose-billions-in-revenue-due-to-h20-chip-licensing-requirements/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "NVIDIA EXPECTS TO LOSE BILLIONS IN REVENUE DUE..."
-        },
-        {
-            "title": "Meet Fidji Simo, the Instacart CEO Tasked With Getting OpenAI to Turn a Profit",
-            "url": "https://www.wsj.com/tech/ai/fidji-simo-openai-245dd113",
-            "source": "NewsAPI (The Wall Street Journal)",
-            "published_date_obj": "2025-05-20",
-            "rewritten_title": "MEET FIDJI SIMO, THE INSTACART CEO TASKED WITH..."
-        },
-        {
-            "title": "Microsoft\u2019s plan to fix the web: letting every website run AI search for cheap",
-            "url": "https://www.theverge.com/web/669437/nlweb-microsoft-ai-agents-open-web",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-05-19",
-            "rewritten_title": "MICROSOFT\u2019S PLAN TO FIX THE WEB: LETTING EVERY..."
-        },
-        {
-            "title": "Inside the story that enraged OpenAI",
-            "url": "https://www.technologyreview.com/2025/05/19/1116614/hao-empire-ai-openai/",
-            "source": "NewsAPI (MIT Technology Review)",
-            "published_date_obj": "2025-05-19",
-            "rewritten_title": "INSIDE THE STORY THAT ENRAGED OPENAI"
-        },
-        {
-            "title": "Nvidia CEO unveils new tech to keep global AI expansion going",
-            "url": "https://www.bloomberg.com/news/articles/2025-05-19/nvidia-ceo-unveils-new-tech-to-keep-global-ai-expansion-going",
-            "source": "NewsAPI (Bloomberg)",
-            "published_date_obj": "2025-05-19",
-            "rewritten_title": "NVIDIA CEO UNVEILS NEW TECH TO KEEP GLOBAL..."
-        },
-        {
-            "title": "What OpenAI's restructuring plan means for its corporate future | TechCrunch",
-            "url": "https://techcrunch.com/2025/05/06/what-openais-restructuring-plan-means-for-its-corporate-future/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-06",
-            "rewritten_title": "WHAT OPENAI'S RESTRUCTURING PLAN MEANS FOR ITS CORPORATE..."
-        },
-        {
-            "title": "Nvidia takes aim at Anthropic's support of chip export controls | TechCrunch",
-            "url": "https://techcrunch.com/2025/05/01/nvidia-takes-aim-at-anthropics-support-of-chip-export-controls/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-01",
-            "rewritten_title": "NVIDIA TAKES AIM AT ANTHROPIC'S SUPPORT OF CHIP..."
-        },
-        {
-            "title": "Anthropic suggests tweaks to proposed U.S. AI chip export controls | TechCrunch",
-            "url": "https://techcrunch.com/2025/04/30/anthropic-suggests-tweaks-to-proposed-u-s-ai-chip-export-controls/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-04-30",
-            "rewritten_title": "ANTHROPIC SUGGESTS TWEAKS TO PROPOSED U.S. AI CHIP..."
-        },
-        {
-            "title": "Anthropic CEO Dario Amodei says AI companies like his may need to be taxed to offset a coming employment crisis and \"I don't think we can stop the AI bus\"",
-            "url": "https://www.reddit.com/r/singularity/comments/1kz1mcp/anthropic_ceo_dario_amodei_says_ai_companies_like/",
-            "source": "Reddit r/singularity",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "ANTHROPIC CEO DARIO AMODEI SAYS AI COMPANIES LIKE..."
-        },
-        {
-            "title": "Less is more: Meta study shows shorter reasoning improves AI accuracy by 34%",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1kzcyz8/less_is_more_meta_study_shows_shorter_reasoning/",
+            "title": "When your friend uses AI to automate their job but their employer hasn\u2019t caught on so they live in the temporary bliss of LLM arbitrage",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1l0frd3/when_your_friend_uses_ai_to_automate_their_job/",
             "source": "Reddit r/openai",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "LESS IS MORE: META STUDY SHOWS SHORTER REASONING..."
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "WHEN YOUR FRIEND USES AI TO AUTOMATE THEIR..."
         },
         {
-            "title": "Introducing The Darwin Godel Machine: AI that improves itself by rewriting its own code.",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1kzbkpd/introducing_the_darwin_godel_machine_ai_that/",
+            "title": "Using openAI APIs requires a 3D  face scan",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1l05kho/using_openai_apis_requires_a_3d_face_scan/",
             "source": "Reddit r/openai",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "INTRODUCING THE DARWIN GODEL MACHINE: AI THAT IMPROVES..."
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "USING OPENAI APIS REQUIRES A 3D FACE SCAN"
         },
         {
-            "title": "The Download: Google\u2019s AI mission, and America\u2019s reliance on natural gas",
-            "url": "https://www.technologyreview.com/2025/05/21/1117249/the-download-googles-ai-mission-and-americas-reliance-on-natural-gas/",
-            "source": "NewsAPI (MIT Technology Review)",
-            "published_date_obj": "2025-05-21",
-            "rewritten_title": "THE DOWNLOAD: GOOGLE\u2019S AI MISSION, AND AMERICA\u2019S RELIANCE..."
-        },
-        {
-            "title": "Google\u2019s AI Boss Says Gemini's New Abilities Point the Way to AGI",
-            "url": "https://www.wired.com/story/googles-ai-boss-says-geminis-new-abilities-point-the-way-to-agi/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2025-05-20",
-            "rewritten_title": "GOOGLE\u2019S AI BOSS SAYS GEMINI'S NEW ABILITIES POINT..."
-        },
-        {
-            "title": "Google DeepMind\u2019s AI Agent Dreams Up Algorithms Beyond Human Expertise",
-            "url": "https://www.wired.com/story/google-deepminds-ai-agent-dreams-up-algorithms-beyond-human-expertise/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2025-05-14",
-            "rewritten_title": "GOOGLE DEEPMIND\u2019S AI AGENT DREAMS UP ALGORITHMS BEYOND..."
-        },
-        {
-            "title": "JAX: Is This Google\u2019s NumPy\u00a0killer?",
-            "url": "https://towardsdatascience.com/jax-is-this-googles-numpy-killer/",
-            "source": "Towards Data Science",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "JAX: IS THIS GOOGLE\u2019S NUMPY KILLER?"
-        },
-        {
-            "title": "Detecting Malicious URLs Using LSTM and Google\u2019s BERT Models",
-            "url": "https://towardsdatascience.com/detecting-malicious-urls-using-lstm-and-googles-bert-models/",
-            "source": "Towards Data Science",
-            "published_date_obj": "2025-05-28",
-            "rewritten_title": "DETECTING MALICIOUS URLS USING LSTM AND GOOGLE\u2019S BERT..."
+            "title": "AI that can train itself using data it made itself",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1l0g1gw/ai_that_can_train_itself_using_data_it_made_itself/",
+            "source": "Reddit r/openai",
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "AI THAT CAN TRAIN ITSELF USING DATA IT..."
         }
     ],
     "AI Products": [
         {
-            "title": "Uber Freight bets big on AI tools to grow its business",
-            "url": "https://techcrunch.com/2025/05/21/uber-freight-bets-big-on-ai-tools-to-grow-its-business/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-21",
-            "rewritten_title": "UBER FREIGHT BETS BIG ON AI TOOLS TO..."
-        },
-        {
-            "title": "How Peter Thiel\u2019s Relationship With Eliezer Yudkowsky Launched the AI Revolution",
-            "url": "https://www.wired.com/story/book-excerpt-the-optimist-open-ai-sam-altman/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2025-05-20",
-            "rewritten_title": "HOW PETER THIEL\u2019S RELATIONSHIP WITH ELIEZER YUDKOWSKY LAUNCHED..."
-        },
-        {
-            "title": "A stealth AI model beat DALL-E and Midjourney on a popular benchmark. Its creator just landed $30M. | TechCrunch",
-            "url": "https://techcrunch.com/2025/05/05/a-stealth-ai-model-beat-dall-e-and-midjourney-on-a-popular-benchmark-its-creator-just-landed-30m/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-05",
-            "rewritten_title": "A STEALTH AI MODEL BEAT DALL-E AND MIDJOURNEY..."
-        },
-        {
-            "title": "These Startups Are Building Advanced AI Models Without Data Centers",
-            "url": "https://www.wired.com/story/these-startups-are-building-advanced-ai-models-over-the-internet-with-untapped-data/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2025-04-30",
-            "rewritten_title": "THESE STARTUPS ARE BUILDING ADVANCED AI MODELS WITHOUT..."
-        },
-        {
-            "title": "Large Language Models - a human educated perspective",
-            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1kzjn38/large_language_models_a_human_educated_perspective/",
-            "source": "Reddit r/LargeLanguageModels",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "LARGE LANGUAGE MODELS - A HUMAN EDUCATED PERSPECTIVE"
-        },
-        {
-            "title": "llama-server is cooking! gemma3 27b, 100K context, vision on one 24GB GPU.",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kzcalh/llamaserver_is_cooking_gemma3_27b_100k_context/",
+            "title": "llama-server, gemma3, 32K context *and* speculative decoding on a 24GB GPU",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1l05hpu/llamaserver_gemma3_32k_context_and_speculative/",
             "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "LLAMA-SERVER IS COOKING! GEMMA3 27B, 100K CONTEXT, VISION..."
-        },
-        {
-            "title": "Please update the website!!",
-            "url": "https://www.reddit.com/r/CharacterAI/comments/1kz7znl/please_update_the_website/",
-            "source": "Reddit r/characterai",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "PLEASE UPDATE THE WEBSITE!!"
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "LLAMA-SERVER, GEMMA3, 32K CONTEXT *AND* SPECULATIVE DECODING ON..."
         }
     ],
     "Creator Economy": [
         {
-            "title": "Inside the AI revolution: Top insights and breakthroughs from our partners at TechCrunch Sessions: AI | TechCrunch",
-            "url": "https://techcrunch.com/2025/05/29/inside-the-ai-revolution-top-insights-and-breakthroughs-from-our-partners-at-techcrunch-sessions-ai/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "INSIDE THE AI REVOLUTION: TOP INSIGHTS AND BREAKTHROUGHS..."
-        },
-        {
-            "title": "Politico\u2019s Newsroom Is Starting a Legal Battle With Management Over AI",
-            "url": "https://www.wired.com/story/politico-workers-axel-springer-artificial-intelligence/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2025-05-22",
-            "rewritten_title": "POLITICO\u2019S NEWSROOM IS STARTING A LEGAL BATTLE WITH..."
-        },
-        {
-            "title": "No, Graduates: AI Hasn't Ended Your Career Before It Starts",
-            "url": "https://www.wired.com/story/plaintext-commencement-speech-artificial-intelligence/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2025-05-16",
-            "rewritten_title": "NO, GRADUATES: AI HASN'T ENDED YOUR CAREER BEFORE..."
-        },
-        {
-            "title": "Intelligence on Earth Evolved Independently at Least Twice",
-            "url": "https://www.wired.com/story/intelligence-evolved-at-least-twice-in-vertebrate-animals/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2025-05-11",
-            "rewritten_title": "INTELLIGENCE ON EARTH EVOLVED INDEPENDENTLY AT LEAST TWICE"
-        },
-        {
-            "title": "Game, Sett, Funding: a startup building AI agents for game development emerges from stealth with $27M | TechCrunch",
-            "url": "https://techcrunch.com/2025/05/07/game-sett-funding-a-startup-building-ai-agents-for-game-development-emerges-from-stealth-with-27m/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-07",
-            "rewritten_title": "GAME, SETT, FUNDING: A STARTUP BUILDING AI AGENTS..."
-        },
-        {
-            "title": "[D] Chart shows that FP8 for training becoming more popular",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1kzbphg/d_chart_shows_that_fp8_for_training_becoming_more/",
-            "source": "Reddit r/MachineLearning",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "[D] CHART SHOWS THAT FP8 FOR TRAINING BECOMING..."
-        },
-        {
-            "title": "Its So Hard to Just Get Started - If Your'e Like Me My Brain Is About To Explode With Information Overload",
-            "url": "https://www.reddit.com/r/AI_Agents/comments/1kzjibl/its_so_hard_to_just_get_started_if_youre_like_me/",
-            "source": "Reddit r/ai_agents",
+            "title": "Surprisingly Fast AI-Generated Kernels We Didn\u2019t Mean to Publish (Yet)",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kzv322/surprisingly_fast_aigenerated_kernels_we_didnt/",
+            "source": "Reddit r/LocalLLaMA",
             "published_date_obj": "2025-05-31",
-            "rewritten_title": "ITS SO HARD TO JUST GET STARTED -..."
+            "rewritten_title": "SURPRISINGLY FAST AI-GENERATED KERNELS WE DIDN\u2019T MEAN TO..."
         },
         {
-            "title": "It's official, I love AI art",
-            "url": "https://www.reddit.com/r/aiArt/comments/1kzd2cb/its_official_i_love_ai_art/",
-            "source": "Reddit r/AIArt",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "IT'S OFFICIAL, I LOVE AI ART"
-        }
-    ],
-    "Generative AI": [
-        {
-            "title": "Wikipedia is using (some) generative AI now",
-            "url": "https://www.theverge.com/ai-artificial-intelligence/659222/wikipedia-generative-ai",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-05-01",
-            "rewritten_title": "WIKIPEDIA IS USING (SOME) GENERATIVE AI NOW"
-        },
-        {
-            "title": "Logan Kilpatrick: \"Home Robotics is going to work in 2026\"",
-            "url": "https://www.reddit.com/r/singularity/comments/1kzhp84/logan_kilpatrick_home_robotics_is_going_to_work/",
+            "title": "Millions of videos have been generated in the past few days with Veo 3",
+            "url": "https://www.reddit.com/r/singularity/comments/1l030jy/millions_of_videos_have_been_generated_in_the/",
             "source": "Reddit r/singularity",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "LOGAN KILPATRICK: \"HOME ROBOTICS IS GOING TO WORK..."
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "MILLIONS OF VIDEOS HAVE BEEN GENERATED IN THE..."
+        },
+        {
+            "title": "I WAS AT THE BEST PART OF MY RP AND WE GO DOWN??!",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1l0e17o/i_was_at_the_best_part_of_my_rp_and_we_go_down/",
+            "source": "Reddit r/characterai",
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "I WAS AT THE BEST PART OF MY..."
+        },
+        {
+            "title": "Is it possible to generate 16x16 or 32x32 pixel images? Not scaled!",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1l0e7wl/is_it_possible_to_generate_16x16_or_32x32_pixel/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "IS IT POSSIBLE TO GENERATE 16X16 OR 32X32..."
         }
     ],
+    "Generative AI": [],
     "AI Business News": [],
     "AI Research & Methods": [
         {
-            "title": "MIT disavows doctoral student paper on AI's productivity benefits | TechCrunch",
-            "url": "https://techcrunch.com/2025/05/17/mit-disavows-doctoral-students-paper-on-ai-productivity-benefits/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-17",
-            "rewritten_title": "MIT DISAVOWS DOCTORAL STUDENT PAPER ON AI'S PRODUCTIVITY..."
-        },
-        {
-            "title": "Wait a minute! Researchers say AI's \"chains of thought\" are not signs of human-like reasoning",
-            "url": "https://www.reddit.com/r/artificial/comments/1kz03lb/wait_a_minute_researchers_say_ais_chains_of/",
-            "source": "Reddit r/artificial",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "WAIT A MINUTE! RESEARCHERS SAY AI'S \"CHAINS OF..."
-        },
-        {
-            "title": "[R] Improving the Effective Receptive Field of Message-Passing Neural Networks",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1kzauh8/r_improving_the_effective_receptive_field_of/",
+            "title": "Views on recent acceptance of LLM written paper at ACL main [D]",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1l074er/views_on_recent_acceptance_of_llm_written_paper/",
             "source": "Reddit r/MachineLearning",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "[R] IMPROVING THE EFFECTIVE RECEPTIVE FIELD OF MESSAGE-PASSING..."
-        }
-    ],
-    "AI in Practice": [
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "VIEWS ON RECENT ACCEPTANCE OF LLM WRITTEN PAPER..."
+        },
         {
-            "title": "AI\u2019s energy impact is still small\u2014but how we handle it is huge",
-            "url": "https://www.technologyreview.com/2025/05/20/1116274/opinion-ai-energy-use-data-centers-electricity/",
-            "source": "NewsAPI (MIT Technology Review)",
-            "published_date_obj": "2025-05-20",
-            "rewritten_title": "AI\u2019S ENERGY IMPACT IS STILL SMALL\u2014BUT HOW WE..."
+            "title": "[D] How chaotic is chaos? How some AI for Science / SciML papers are overstating accuracy claims",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1kzubvr/d_how_chaotic_is_chaos_how_some_ai_for_science/",
+            "source": "Reddit r/MachineLearning",
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "[D] HOW CHAOTIC IS CHAOS? HOW SOME AI..."
         }
     ],
+    "AI in Practice": [],
     "AI Ethics & Policy": [
         {
-            "title": "Singapore\u2019s Vision for AI Safety Bridges the US-China Divide",
-            "url": "https://www.wired.com/story/singapore-ai-safety-global-consensus/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2025-05-08",
-            "rewritten_title": "SINGAPORE\u2019S VISION FOR AI SAFETY BRIDGES THE US-CHINA..."
+            "title": "It\u2019s not your imagination: AI is speeding up the pace of change | TechCrunch",
+            "url": "https://techcrunch.com/2025/05/30/its-not-your-imagination-ai-is-speeding-up-the-pace-of-change/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "IT\u2019S NOT YOUR IMAGINATION: AI IS SPEEDING UP..."
         },
         {
-            "title": "Holy shit, did you all see the Claude Opus 4 safety report?",
-            "url": "https://www.reddit.com/r/ClaudeAI/comments/1kz4yx8/holy_shit_did_you_all_see_the_claude_opus_4/",
-            "source": "Reddit r/claudeai",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "HOLY SHIT, DID YOU ALL SEE THE CLAUDE..."
-        },
-        {
-            "title": "FLUX.1 Kontext did a pretty dang good job at colorizing this photo of my Grandparents",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1kz7rpt/flux1_kontext_did_a_pretty_dang_good_job_at/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "FLUX.1 KONTEXT DID A PRETTY DANG GOOD JOB..."
+            "title": "Jobs in AI",
+            "url": "https://www.reddit.com/r/artificial/comments/1l0gjl8/jobs_in_ai/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "JOBS IN AI"
         }
     ],
-    "Weird": [
-        {
-            "title": "Funny meme, no offense to anyone",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1kzeso6/funny_meme_no_offense_to_anyone/",
-            "source": "Reddit r/chatgpt",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "FUNNY MEME, NO OFFENSE TO ANYONE"
-        }
-    ],
+    "Weird": [],
     "Trending Now": [
         {
-            "title": "AI could consume more power than Bitcoin by the end of 2025",
-            "url": "https://www.theverge.com/climate-change/676528/ai-data-center-energy-forecast-bitcoin-mining",
+            "title": "Mountainhead succeeds at showing you how truly deranged the billionaire mindset can be",
+            "url": "https://www.theverge.com/movie-reviews/676817/hbo-mountainhead-review",
             "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "AI COULD CONSUME MORE POWER THAN BITCOIN BY..."
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "MOUNTAINHEAD SUCCEEDS AT SHOWING YOU HOW TRULY DERANGED..."
         },
         {
-            "title": "Senators probe whether RealPage pushed state AI law ban",
-            "url": "https://www.theverge.com/news/676378/senator-realpage-budget-reconciliation-bill-involvement",
+            "title": "RFK Jr.\u2019s \u2018Make America Healthy Again\u2019 report seems riddled with AI slop",
+            "url": "https://www.theverge.com/news/676945/rfk-jr-maha-health-report-ai-slop",
             "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "SENATORS PROBE WHETHER REALPAGE PUSHED STATE AI LAW..."
-        },
-        {
-            "title": "The Download: nuclear-powered AI, and a short history of creativity",
-            "url": "https://www.technologyreview.com/2025/05/27/1117453/the-download-nuclear-powered-ai-and-a-short-history-of-creativity/",
-            "source": "NewsAPI (MIT Technology Review)",
-            "published_date_obj": "2025-05-27",
-            "rewritten_title": "THE DOWNLOAD: NUCLEAR-POWERED AI, AND A SHORT HISTORY..."
-        },
-        {
-            "title": "From LLMs to hallucinations, here's a simple guide to common AI terms | TechCrunch",
-            "url": "https://techcrunch.com/2025/05/25/from-llms-to-hallucinations-heres-a-simple-guide-to-common-ai-terms/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-25",
-            "rewritten_title": "FROM LLMS TO HALLUCINATIONS, HERE'S A SIMPLE GUIDE..."
-        },
-        {
-            "title": "Khosla Ventures among VCs experimenting with AI-infused roll-ups of mature companies | TechCrunch",
-            "url": "https://techcrunch.com/2025/05/23/khosla-ventures-among-vcs-experimenting-with-ai-infused-roll-ups-of-mature-companies/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-23",
-            "rewritten_title": "KHOSLA VENTURES AMONG VCS EXPERIMENTING WITH AI-INFUSED ROLL-UPS..."
+            "published_date_obj": "2025-05-30",
+            "rewritten_title": "RFK JR.\u2019S \u2018MAKE AMERICA HEALTHY AGAIN\u2019 REPORT SEEMS..."
         },
         {
             "title": "ChatGPT: Everything you need to know about the AI chatbot",
-            "url": "https://techcrunch.com/2025/05/23/chatgpt-everything-to-know-about-the-ai-chatbot/",
+            "url": "https://techcrunch.com/2025/05/13/chatgpt-everything-to-know-about-the-ai-chatbot/",
             "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-23",
+            "published_date_obj": "2025-05-13",
             "rewritten_title": "CHATGPT: EVERYTHING YOU NEED TO KNOW ABOUT THE..."
         },
         {
-            "title": "A United Arab Emirates Lab Announces Frontier AI Projects\u2014and a New Outpost in Silicon Valley",
-            "url": "https://www.wired.com/story/the-united-arab-emirates-announces-frontier-ai-projects-and-a-new-lab-in-silicon-valley/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2025-05-22",
-            "rewritten_title": "A UNITED ARAB EMIRATES LAB ANNOUNCES FRONTIER AI..."
-        },
-        {
-            "title": "The complete Side Events lineup at TechCrunch Sessions: AI | TechCrunch",
-            "url": "https://techcrunch.com/2025/05/22/the-complete-side-events-lineup-at-techcrunch-sessions-ai/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-22",
-            "rewritten_title": "THE COMPLETE SIDE EVENTS LINEUP AT TECHCRUNCH SESSIONS:..."
-        },
-        {
-            "title": "Build, don\u2019t bind: Accel\u2019s Sonali De Rycker on Europe\u2019s AI crossroads | TechCrunch",
-            "url": "https://techcrunch.com/2025/05/16/build-dont-bind-accels-sonali-de-rycker-on-europes-ai-crossroads/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-17",
-            "rewritten_title": "BUILD, DON\u2019T BIND: ACCEL\u2019S SONALI DE RYCKER ON..."
-        },
-        {
-            "title": "ChatGPT is getting an AI coding agent",
-            "url": "https://www.theverge.com/command-line-newsletter/668251/chatgpt-is-getting-an-ai-coding-agent",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-05-16",
-            "rewritten_title": "CHATGPT IS GETTING AN AI CODING AGENT"
-        },
-        {
-            "title": "The Middle East Has Entered the AI Group Chat",
-            "url": "https://www.wired.com/story/trump-middle-east-artificial-intelligence-investments/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2025-05-15",
-            "rewritten_title": "THE MIDDLE EAST HAS ENTERED THE AI GROUP..."
-        },
-        {
-            "title": "Republicans push for a decadelong ban on states regulating AI",
-            "url": "https://www.theverge.com/news/666288/republican-ai-state-regulation-ban-10-years",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-05-13",
-            "rewritten_title": "REPUBLICANS PUSH FOR A DECADELONG BAN ON STATES..."
-        },
-        {
-            "title": "Even a16z VCs say no one really knows what an AI agent is | TechCrunch",
-            "url": "https://techcrunch.com/2025/05/12/even-a16z-vcs-say-no-one-really-knows-what-an-ai-agent-is/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-12",
-            "rewritten_title": "EVEN A16Z VCS SAY NO ONE REALLY KNOWS..."
-        },
-        {
-            "title": "How a new type of AI is helping police skirt facial recognition bans",
-            "url": "https://www.technologyreview.com/2025/05/12/1116295/how-a-new-type-of-ai-is-helping-police-skirt-facial-recognition-bans/",
-            "source": "NewsAPI (MIT Technology Review)",
-            "published_date_obj": "2025-05-12",
-            "rewritten_title": "HOW A NEW TYPE OF AI IS HELPING..."
-        },
-        {
-            "title": "Pope Leo XIV names AI one of the reasons for his papal name",
-            "url": "https://www.theverge.com/news/664719/pope-leo-xiv-artificial-intelligence-concerns",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-05-10",
-            "rewritten_title": "POPE LEO XIV NAMES AI ONE OF THE..."
-        },
-        {
-            "title": "Developing nations expect AI productivity boost soon, UN finds",
-            "url": "https://www.bloomberg.com/news/articles/2025-05-06/developing-nations-expect-ai-productivity-boost-soon-un-finds",
-            "source": "NewsAPI (Bloomberg)",
-            "published_date_obj": "2025-05-06",
-            "rewritten_title": "DEVELOPING NATIONS EXPECT AI PRODUCTIVITY BOOST SOON, UN..."
-        },
-        {
-            "title": "Wikipedia says it will use AI, but not to replace human volunteers | TechCrunch",
-            "url": "https://techcrunch.com/2025/04/30/wikipedia-says-it-will-use-ai-but-not-to-replace-human-volunteers/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-04-30",
-            "rewritten_title": "WIKIPEDIA SAYS IT WILL USE AI, BUT NOT..."
-        },
-        {
-            "title": "Is AI \u201cnormal\u201d?",
-            "url": "https://www.technologyreview.com/2025/04/29/1115928/is-ai-normal/",
-            "source": "NewsAPI (MIT Technology Review)",
-            "published_date_obj": "2025-04-29",
-            "rewritten_title": "IS AI \u201cNORMAL\u201d?"
-        },
-        {
-            "title": "QwenLong-L1 solves long-context reasoning challenge that stumps current LLMs",
-            "url": "https://venturebeat.com/ai/qwenlong-l1-solves-long-context-reasoning-challenge-that-stumps-current-llms/",
+            "title": "The future of engineering belongs to those who build with AI, not without it",
+            "url": "https://venturebeat.com/ai/the-future-of-engineering-belongs-to-those-who-build-with-ai-not-without-it/",
             "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "QWENLONG-L1 SOLVES LONG-CONTEXT REASONING CHALLENGE THAT STUMPS CURRENT..."
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "THE FUTURE OF ENGINEERING BELONGS TO THOSE WHO..."
         },
         {
-            "title": "ElevenLabs debuts Conversational AI 2.0 voice assistants that understand when to pause, speak, and take turns talking",
-            "url": "https://venturebeat.com/ai/elevenlabs-debuts-conversational-ai-2-0-voice-assistants-that-understand-when-to-pause-speak-and-take-turns-talking/",
+            "title": "Micro Center nerd store fills the Fry\u2019s vacuum with its return to Silicon Valley",
+            "url": "https://venturebeat.com/games/micro-center-nerd-store-fills-the-frys-vacuum-with-its-return-to-silicon-valley/",
             "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "ELEVENLABS DEBUTS CONVERSATIONAL AI 2.0 VOICE ASSISTANTS THAT..."
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "MICRO CENTER NERD STORE FILLS THE FRY\u2019S VACUUM..."
         },
         {
-            "title": "CEOs know AI will shrink their teams \u2014 they're just too afraid to say it, say 2 software investors",
-            "url": "https://www.reddit.com/r/artificial/comments/1kz6yg5/ceos_know_ai_will_shrink_their_teams_theyre_just/",
+            "title": "MIT's Max Tegmark: \"The AI industry has more lobbyists in Washington and Brussels than the fossil fuel industry and the tobacco industry combined.\"",
+            "url": "https://www.reddit.com/r/artificial/comments/1l03m46/mits_max_tegmark_the_ai_industry_has_more/",
             "source": "Reddit r/artificial",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "CEOS KNOW AI WILL SHRINK THEIR TEAMS \u2014..."
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "MIT'S MAX TEGMARK: \"THE AI INDUSTRY HAS MORE..."
         },
         {
-            "title": "Eric Schmidt says for thousands of years, war has been man vs man. We're now breaking that connection forever - war will be AIs vs AIs, because humans won't be able to keep up. \"Having a fighter jet with a human in it makes absolutely no sense.\"",
-            "url": "https://www.reddit.com/r/artificial/comments/1kzam0p/eric_schmidt_says_for_thousands_of_years_war_has/",
+            "title": "According to AI it\u2019s not 2025",
+            "url": "https://www.reddit.com/r/artificial/comments/1l07nr3/according_to_ai_its_not_2025/",
             "source": "Reddit r/artificial",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "ERIC SCHMIDT SAYS FOR THOUSANDS OF YEARS, WAR..."
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "ACCORDING TO AI IT\u2019S NOT 2025"
         },
         {
-            "title": "\ud83e\udde0 I built Writedoc.ai \u2013 Instantly create beautiful, structured documents using AI. Would love your feedback!",
-            "url": "https://www.reddit.com/r/artificial/comments/1kz8gyx/i_built_writedocai_instantly_create_beautiful/",
+            "title": "Which country's economy will be worst impacted by AI ?",
+            "url": "https://www.reddit.com/r/artificial/comments/1kzwaky/which_countrys_economy_will_be_worst_impacted_by/",
             "source": "Reddit r/artificial",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "\ud83e\udde0 I BUILT WRITEDOC.AI \u2013 INSTANTLY CREATE BEAUTIFUL,..."
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "WHICH COUNTRY'S ECONOMY WILL BE WORST IMPACTED BY..."
         },
         {
-            "title": "RFK Jr.\u2018s \u2018Make America Healthy Again\u2019 report seems riddled with AI slop.  Dozens of erroneous citations carry chatbot markers, and some sources simply don\u2019t exist.",
-            "url": "https://www.reddit.com/r/artificial/comments/1kz51c4/rfk_jrs_make_america_healthy_again_report_seems/",
-            "source": "Reddit r/artificial",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "RFK JR.\u2018S \u2018MAKE AMERICA HEALTHY AGAIN\u2019 REPORT SEEMS..."
-        },
-        {
-            "title": "Simply giving an LLM \"confidence\" makes it better at coding and reasoning",
-            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1kyoa6v/simply_giving_an_llm_confidence_makes_it_better/",
-            "source": "Reddit r/LargeLanguageModels",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "SIMPLY GIVING AN LLM \"CONFIDENCE\" MAKES IT BETTER..."
-        },
-        {
-            "title": "How AI Will Bring Computing to Everyone \u2022 Matt Welsh",
-            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1kyj0va/how_ai_will_bring_computing_to_everyone_matt_welsh/",
-            "source": "Reddit r/LargeLanguageModels",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "HOW AI WILL BRING COMPUTING TO EVERYONE \u2022..."
-        },
-        {
-            "title": "To anyone scared to practice speaking a new language?",
-            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1ky317n/to_anyone_scared_to_practice_speaking_a_new/",
-            "source": "Reddit r/LargeLanguageModels",
-            "published_date_obj": "2025-05-29",
-            "rewritten_title": "TO ANYONE SCARED TO PRACTICE SPEAKING A NEW..."
-        },
-        {
-            "title": "Unlimited Speech to Speech using Moonshine and Kokoro, 100% local, 100% open source",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kzlb8g/unlimited_speech_to_speech_using_moonshine_and/",
+            "title": "China is leading open source",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kzsa70/china_is_leading_open_source/",
             "source": "Reddit r/LocalLLaMA",
             "published_date_obj": "2025-05-31",
-            "rewritten_title": "UNLIMITED SPEECH TO SPEECH USING MOONSHINE AND KOKORO,..."
+            "rewritten_title": "CHINA IS LEADING OPEN SOURCE"
         },
         {
-            "title": "Introducing Conversational AI 2.0",
-            "url": "https://www.reddit.com/r/singularity/comments/1kzd6r5/introducing_conversational_ai_20/",
+            "title": "AMD RX 9080 XT ES engineering sample, up to 32 GB of VRAM.",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1l0cg8b/amd_rx_9080_xt_es_engineering_sample_up_to_32_gb/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "AMD RX 9080 XT ES ENGINEERING SAMPLE, UP..."
+        },
+        {
+            "title": "An LLM is insane science fiction, yet people just sit around, unimpressed, and complain that... it isn't perfect?",
+            "url": "https://www.reddit.com/r/singularity/comments/1l03q8e/an_llm_is_insane_science_fiction_yet_people_just/",
             "source": "Reddit r/singularity",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "INTRODUCING CONVERSATIONAL AI 2.0"
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "AN LLM IS INSANE SCIENCE FICTION, YET PEOPLE..."
         },
         {
-            "title": "[R] The Resurrection of the ReLU",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1kz5t16/r_the_resurrection_of_the_relu/",
+            "title": "Prompted AI ragebait is now going viral on social media",
+            "url": "https://www.reddit.com/r/singularity/comments/1l07ipz/prompted_ai_ragebait_is_now_going_viral_on_social/",
+            "source": "Reddit r/singularity",
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "PROMPTED AI RAGEBAIT IS NOW GOING VIRAL ON..."
+        },
+        {
+            "title": "[D]which way do you like to clean your text?",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1kzyhh5/dwhich_way_do_you_like_to_clean_your_text/",
             "source": "Reddit r/MachineLearning",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "[R] THE RESURRECTION OF THE RELU"
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "[D]WHICH WAY DO YOU LIKE TO CLEAN YOUR..."
         },
         {
-            "title": "Does it really think this of us?",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1kzgwwi/does_it_really_think_this_of_us/",
+            "title": "Professor at the end of 2 years of struggling with ChatGPT use among students.",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1kzzyb2/professor_at_the_end_of_2_years_of_struggling/",
             "source": "Reddit r/chatgpt",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "DOES IT REALLY THINK THIS OF US?"
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "PROFESSOR AT THE END OF 2 YEARS OF..."
         },
         {
-            "title": "ChatGPT has ruined the \"em dash\" forever",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1kz5khl/chatgpt_has_ruined_the_em_dash_forever/",
+            "title": "Girls are gross.",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1l0cy1y/girls_are_gross/",
             "source": "Reddit r/chatgpt",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "CHATGPT HAS RUINED THE \"EM DASH\" FOREVER"
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "GIRLS ARE GROSS."
         },
         {
-            "title": "having just shelled out for Max and Claude Code",
-            "url": "https://www.reddit.com/r/ClaudeAI/comments/1kzgymc/having_just_shelled_out_for_max_and_claude_code/",
+            "title": "So GPT-5 will be depressed and unemployed",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1l0a4wo/so_gpt5_will_be_depressed_and_unemployed/",
+            "source": "Reddit r/chatgpt",
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "SO GPT-5 WILL BE DEPRESSED AND UNEMPLOYED"
+        },
+        {
+            "title": "Just hit the Claude Code max limit for the first time... I'm in love.",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1l024pe/just_hit_the_claude_code_max_limit_for_the_first/",
             "source": "Reddit r/claudeai",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "HAVING JUST SHELLED OUT FOR MAX AND CLAUDE..."
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "JUST HIT THE CLAUDE CODE MAX LIMIT FOR..."
         },
         {
-            "title": "What are some of your go-to prompts which always work?",
-            "url": "https://www.reddit.com/r/ClaudeAI/comments/1kzljt6/what_are_some_of_your_goto_prompts_which_always/",
+            "title": "What's up with Claude crediting itself in commit messages?",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1kzxzkc/whats_up_with_claude_crediting_itself_in_commit/",
             "source": "Reddit r/claudeai",
             "published_date_obj": "2025-05-31",
-            "rewritten_title": "WHAT ARE SOME OF YOUR GO-TO PROMPTS WHICH..."
+            "rewritten_title": "WHAT'S UP WITH CLAUDE CREDITING ITSELF IN COMMIT..."
         },
         {
-            "title": "The cringe \ud83d\ude2d",
-            "url": "https://www.reddit.com/r/CharacterAI/comments/1kzako0/the_cringe/",
+            "title": "First to the chaos. \ud83e\udd11",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1l0e0i4/first_to_the_chaos/",
             "source": "Reddit r/characterai",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "THE CRINGE \ud83d\ude2d"
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "FIRST TO THE CHAOS. \ud83e\udd11"
         },
         {
-            "title": "Thx fanfictions",
-            "url": "https://www.reddit.com/r/CharacterAI/comments/1kyxitv/thx_fanfictions/",
+            "title": "site down, tell me your favorite food",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1l0e1xi/site_down_tell_me_your_favorite_food/",
             "source": "Reddit r/characterai",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "THX FANFICTIONS"
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "SITE DOWN, TELL ME YOUR FAVORITE FOOD"
         },
         {
-            "title": "I really miss the SD 1.5 days",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1kza0sn/i_really_miss_the_sd_15_days/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "I REALLY MISS THE SD 1.5 DAYS"
+            "title": "What the hell is up with Claude Pro\u2019s usage limits? Hit them after just 2 chats!",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1l01s21/what_the_hell_is_up_with_claude_pros_usage_limits/",
+            "source": "Reddit r/ai_agents",
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "WHAT THE HELL IS UP WITH CLAUDE PRO\u2019S..."
         },
         {
-            "title": "I wanna use this photo as reference, but depth or canny or openpose all not working, help.",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1kzlzq0/i_wanna_use_this_photo_as_reference_but_depth_or/",
+            "title": "Chat with any GitHub repo",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1l04255/chat_with_any_github_repo/",
+            "source": "Reddit r/ai_agents",
+            "published_date_obj": "2025-05-31",
+            "rewritten_title": "CHAT WITH ANY GITHUB REPO"
+        },
+        {
+            "title": "A Discussion on Praxis in Automation: Enacting Theory for Human-Centric Outcomes",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1l0ca37/a_discussion_on_praxis_in_automation_enacting/",
+            "source": "Reddit r/ai_agents",
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "A DISCUSSION ON PRAXIS IN AUTOMATION: ENACTING THEORY..."
+        },
+        {
+            "title": "Are there any open source alternatives to this?",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1l0593z/are_there_any_open_source_alternatives_to_this/",
             "source": "Reddit r/StableDiffusion",
             "published_date_obj": "2025-05-31",
-            "rewritten_title": "I WANNA USE THIS PHOTO AS REFERENCE, BUT..."
+            "rewritten_title": "ARE THERE ANY OPEN SOURCE ALTERNATIVES TO THIS?"
         },
         {
-            "title": "Hey guys, is there any tutorial on how to make a GOOD LoRA? I'm trying to make one for Illustrious. Should I remove the background like this, or is it better to keep it?",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1kzn560/hey_guys_is_there_any_tutorial_on_how_to_make_a/",
+            "title": "FLUX Kontext - I'm impressed!",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1l0e9y6/flux_kontext_im_impressed/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "FLUX KONTEXT - I'M IMPRESSED!"
+        },
+        {
+            "title": "Has anyone thought through the implications of the No Fakes Act for character LoRAs?",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1l0b1m0/has_anyone_thought_through_the_implications_of/",
             "source": "Reddit r/StableDiffusion",
             "published_date_obj": "2025-05-31",
-            "rewritten_title": "HEY GUYS, IS THERE ANY TUTORIAL ON HOW..."
+            "rewritten_title": "HAS ANYONE THOUGHT THROUGH THE IMPLICATIONS OF THE..."
         },
         {
-            "title": "New Phantom_Wan_14B-GGUFs \ud83d\ude80\ud83d\ude80\ud83d\ude80",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1kzkch4/new_phantom_wan_14bggufs/",
+            "title": "Question about realistic landscape",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1l0fsl8/question_about_realistic_landscape/",
             "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "NEW PHANTOM_WAN_14B-GGUFS \ud83d\ude80\ud83d\ude80\ud83d\ude80"
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "QUESTION ABOUT REALISTIC LANDSCAPE"
         },
         {
-            "title": "Fallout: Nickelodeon",
-            "url": "https://www.reddit.com/r/aiArt/comments/1kzk90u/fallout_nickelodeon/",
+            "title": "I came up with a character and I brought him to life with AI",
+            "url": "https://www.reddit.com/r/aiArt/comments/1l0ed8o/i_came_up_with_a_character_and_i_brought_him_to/",
+            "source": "Reddit r/AIArt",
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "I CAME UP WITH A CHARACTER AND I..."
+        },
+        {
+            "title": "ChatGPT doesn't understand cow physiology correctly",
+            "url": "https://www.reddit.com/r/aiArt/comments/1kzvyrh/chatgpt_doesnt_understand_cow_physiology_correctly/",
             "source": "Reddit r/AIArt",
             "published_date_obj": "2025-05-31",
-            "rewritten_title": "FALLOUT: NICKELODEON"
+            "rewritten_title": "CHATGPT DOESN'T UNDERSTAND COW PHYSIOLOGY CORRECTLY"
+        },
+        {
+            "title": "Just an orange",
+            "url": "https://www.reddit.com/r/aiArt/comments/1l0ffiv/just_an_orange/",
+            "source": "Reddit r/AIArt",
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "JUST AN ORANGE"
         }
     ]
 }
