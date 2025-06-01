@@ -215,11 +215,11 @@ class FlashSummaryGenerator:
         """Wrap content in styled container matching the site design."""
         return f"""
         <div class="ai-flash-summary" style="
-            background: {self.config.background_color}; padding: {self.config.padding};
+            padding: {self.config.padding};
             margin: {self.config.margin};
             color: {self.config.text_color};
             font-family: {self.config.font_family};
-            line-height: {self.config.line_height}; border-radius: {self.config.border_radius}; border-left: {self.config.border_left}; box-shadow: {self.config.box_shadow};
+            line-height: {self.config.line_height};
         ">
             {content}
         </div>
