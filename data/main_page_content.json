@@ -1,312 +1,124 @@
 {
     "AI Companies": [
         {
-            "title": "When your friend uses AI to automate their job but their employer hasn\u2019t caught on so they live in the temporary bliss of LLM arbitrage",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1l0frd3/when_your_friend_uses_ai_to_automate_their_job/",
-            "source": "Reddit r/openai",
-            "published_date_obj": "2025-06-01",
-            "rewritten_title": "WHEN YOUR FRIEND USES AI TO AUTOMATE THEIR..."
-        },
-        {
-            "title": "Using openAI APIs requires a 3D  face scan",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1l05kho/using_openai_apis_requires_a_3d_face_scan/",
-            "source": "Reddit r/openai",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "USING OPENAI APIS REQUIRES A 3D FACE SCAN"
-        },
-        {
-            "title": "AI that can train itself using data it made itself",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1l0g1gw/ai_that_can_train_itself_using_data_it_made_itself/",
-            "source": "Reddit r/openai",
-            "published_date_obj": "2025-06-01",
-            "rewritten_title": "AI THAT CAN TRAIN ITSELF USING DATA IT..."
-        }
-    ],
-    "AI Products": [
-        {
-            "title": "llama-server, gemma3, 32K context *and* speculative decoding on a 24GB GPU",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1l05hpu/llamaserver_gemma3_32k_context_and_speculative/",
-            "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "LLAMA-SERVER, GEMMA3, 32K CONTEXT *AND* SPECULATIVE DECODING ON..."
-        }
-    ],
-    "Creator Economy": [
-        {
-            "title": "Surprisingly Fast AI-Generated Kernels We Didn\u2019t Mean to Publish (Yet)",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kzv322/surprisingly_fast_aigenerated_kernels_we_didnt/",
-            "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "SURPRISINGLY FAST AI-GENERATED KERNELS WE DIDN\u2019T MEAN TO..."
-        },
-        {
             "title": "Millions of videos have been generated in the past few days with Veo 3",
-            "url": "https://www.reddit.com/r/singularity/comments/1l030jy/millions_of_videos_have_been_generated_in_the/",
-            "source": "Reddit r/singularity",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1l0318y/millions_of_videos_have_been_generated_in_the/",
+            "source": "Reddit r/openai",
             "published_date_obj": "2025-05-31",
             "rewritten_title": "MILLIONS OF VIDEOS HAVE BEEN GENERATED IN THE..."
         },
         {
-            "title": "I WAS AT THE BEST PART OF MY RP AND WE GO DOWN??!",
-            "url": "https://www.reddit.com/r/CharacterAI/comments/1l0e17o/i_was_at_the_best_part_of_my_rp_and_we_go_down/",
-            "source": "Reddit r/characterai",
+            "title": "Exploring how AI manipulates you",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1l0krle/exploring_how_ai_manipulates_you/",
+            "source": "Reddit r/openai",
             "published_date_obj": "2025-06-01",
-            "rewritten_title": "I WAS AT THE BEST PART OF MY..."
-        },
+            "rewritten_title": "EXPLORING HOW AI MANIPULATES YOU"
+        }
+    ],
+    "AI Products": [
         {
-            "title": "Is it possible to generate 16x16 or 32x32 pixel images? Not scaled!",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1l0e7wl/is_it_possible_to_generate_16x16_or_32x32_pixel/",
-            "source": "Reddit r/StableDiffusion",
+            "title": "We turned browser recordings into fully executable, customizable AI agents (no code, no APIs)",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1l0mupa/we_turned_browser_recordings_into_fully/",
+            "source": "Reddit r/ai_agents",
             "published_date_obj": "2025-06-01",
-            "rewritten_title": "IS IT POSSIBLE TO GENERATE 16X16 OR 32X32..."
+            "rewritten_title": "WE TURNED BROWSER RECORDINGS INTO FULLY EXECUTABLE, CUSTOMIZABLE..."
+        }
+    ],
+    "Creator Economy": [
+        {
+            "title": "When a Leader starts using ChatGPT",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1l0hb9t/when_a_leader_starts_using_chatgpt/",
+            "source": "Reddit r/chatgpt",
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "WHEN A LEADER STARTS USING CHATGPT"
         }
     ],
     "Generative AI": [],
-    "AI Business News": [],
+    "AI Business News": [
+        {
+            "title": "[D] How do you see funding into the field changing over the next decade?",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1l0mnbz/d_how_do_you_see_funding_into_the_field_changing/",
+            "source": "Reddit r/MachineLearning",
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "[D] HOW DO YOU SEE FUNDING INTO THE..."
+        }
+    ],
     "AI Research & Methods": [
         {
-            "title": "Views on recent acceptance of LLM written paper at ACL main [D]",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1l074er/views_on_recent_acceptance_of_llm_written_paper/",
+            "title": "[D] Researchers and engineers in academia as well as industry, which books did you find the most useful in creating your knowledge base and skill set?",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1l0iz76/d_researchers_and_engineers_in_academia_as_well/",
             "source": "Reddit r/MachineLearning",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "VIEWS ON RECENT ACCEPTANCE OF LLM WRITTEN PAPER..."
-        },
-        {
-            "title": "[D] How chaotic is chaos? How some AI for Science / SciML papers are overstating accuracy claims",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1kzubvr/d_how_chaotic_is_chaos_how_some_ai_for_science/",
-            "source": "Reddit r/MachineLearning",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "[D] HOW CHAOTIC IS CHAOS? HOW SOME AI..."
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "[D] RESEARCHERS AND ENGINEERS IN ACADEMIA AS WELL..."
         }
     ],
     "AI in Practice": [],
     "AI Ethics & Policy": [
         {
-            "title": "It\u2019s not your imagination: AI is speeding up the pace of change | TechCrunch",
-            "url": "https://techcrunch.com/2025/05/30/its-not-your-imagination-ai-is-speeding-up-the-pace-of-change/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "IT\u2019S NOT YOUR IMAGINATION: AI IS SPEEDING UP..."
-        },
-        {
-            "title": "Jobs in AI",
-            "url": "https://www.reddit.com/r/artificial/comments/1l0gjl8/jobs_in_ai/",
-            "source": "Reddit r/artificial",
+            "title": "When your LLM calls the cops: Claude 4\u2019s whistle-blow and the new agentic AI risk stack",
+            "url": "https://venturebeat.com/ai/when-your-llm-calls-the-cops-claude-4s-whistle-blow-and-the-new-agentic-ai-risk-stack/",
+            "source": "VentureBeat AI",
             "published_date_obj": "2025-06-01",
-            "rewritten_title": "JOBS IN AI"
+            "rewritten_title": "WHEN YOUR LLM CALLS THE COPS: CLAUDE 4\u2019S..."
         }
     ],
     "Weird": [],
     "Trending Now": [
         {
-            "title": "Mountainhead succeeds at showing you how truly deranged the billionaire mindset can be",
-            "url": "https://www.theverge.com/movie-reviews/676817/hbo-mountainhead-review",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "MOUNTAINHEAD SUCCEEDS AT SHOWING YOU HOW TRULY DERANGED..."
-        },
-        {
-            "title": "RFK Jr.\u2019s \u2018Make America Healthy Again\u2019 report seems riddled with AI slop",
-            "url": "https://www.theverge.com/news/676945/rfk-jr-maha-health-report-ai-slop",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-05-30",
-            "rewritten_title": "RFK JR.\u2019S \u2018MAKE AMERICA HEALTHY AGAIN\u2019 REPORT SEEMS..."
-        },
-        {
             "title": "ChatGPT: Everything you need to know about the AI chatbot",
-            "url": "https://techcrunch.com/2025/05/13/chatgpt-everything-to-know-about-the-ai-chatbot/",
+            "url": "https://techcrunch.com/2025/05/01/chatgpt-everything-to-know-about-the-ai-chatbot/",
             "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-05-13",
+            "published_date_obj": "2025-05-01",
             "rewritten_title": "CHATGPT: EVERYTHING YOU NEED TO KNOW ABOUT THE..."
         },
         {
-            "title": "The future of engineering belongs to those who build with AI, not without it",
-            "url": "https://venturebeat.com/ai/the-future-of-engineering-belongs-to-those-who-build-with-ai-not-without-it/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "THE FUTURE OF ENGINEERING BELONGS TO THOSE WHO..."
-        },
-        {
-            "title": "Micro Center nerd store fills the Fry\u2019s vacuum with its return to Silicon Valley",
-            "url": "https://venturebeat.com/games/micro-center-nerd-store-fills-the-frys-vacuum-with-its-return-to-silicon-valley/",
-            "source": "VentureBeat AI",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "MICRO CENTER NERD STORE FILLS THE FRY\u2019S VACUUM..."
-        },
-        {
-            "title": "MIT's Max Tegmark: \"The AI industry has more lobbyists in Washington and Brussels than the fossil fuel industry and the tobacco industry combined.\"",
-            "url": "https://www.reddit.com/r/artificial/comments/1l03m46/mits_max_tegmark_the_ai_industry_has_more/",
+            "title": "Exploring the ways AI manipulate us",
+            "url": "https://www.reddit.com/r/artificial/comments/1l0kn2v/exploring_the_ways_ai_manipulate_us/",
             "source": "Reddit r/artificial",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "MIT'S MAX TEGMARK: \"THE AI INDUSTRY HAS MORE..."
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "EXPLORING THE WAYS AI MANIPULATE US"
         },
         {
-            "title": "According to AI it\u2019s not 2025",
-            "url": "https://www.reddit.com/r/artificial/comments/1l07nr3/according_to_ai_its_not_2025/",
-            "source": "Reddit r/artificial",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "ACCORDING TO AI IT\u2019S NOT 2025"
-        },
-        {
-            "title": "Which country's economy will be worst impacted by AI ?",
-            "url": "https://www.reddit.com/r/artificial/comments/1kzwaky/which_countrys_economy_will_be_worst_impacted_by/",
-            "source": "Reddit r/artificial",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "WHICH COUNTRY'S ECONOMY WILL BE WORST IMPACTED BY..."
-        },
-        {
-            "title": "China is leading open source",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kzsa70/china_is_leading_open_source/",
-            "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "CHINA IS LEADING OPEN SOURCE"
-        },
-        {
-            "title": "AMD RX 9080 XT ES engineering sample, up to 32 GB of VRAM.",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1l0cg8b/amd_rx_9080_xt_es_engineering_sample_up_to_32_gb/",
+            "title": "104k-Token Prompt in a 110k-Token Context with DeepSeek-R1-0528-UD-IQ1_S \u2013 Benchmark & Impressive Results",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1l0m8r0/104ktoken_prompt_in_a_110ktoken_context_with/",
             "source": "Reddit r/LocalLLaMA",
             "published_date_obj": "2025-06-01",
-            "rewritten_title": "AMD RX 9080 XT ES ENGINEERING SAMPLE, UP..."
+            "rewritten_title": "104K-TOKEN PROMPT IN A 110K-TOKEN CONTEXT WITH DEEPSEEK-R1-0528-UD-IQ1_S..."
         },
         {
-            "title": "An LLM is insane science fiction, yet people just sit around, unimpressed, and complain that... it isn't perfect?",
-            "url": "https://www.reddit.com/r/singularity/comments/1l03q8e/an_llm_is_insane_science_fiction_yet_people_just/",
+            "title": "How many parameters does R1 0528 have?",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1l0jcoa/how_many_parameters_does_r1_0528_have/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2025-06-01",
+            "rewritten_title": "HOW MANY PARAMETERS DOES R1 0528 HAVE?"
+        },
+        {
+            "title": "A popular college major has one of the highest unemployment rates (spoiler: computer science)",
+            "url": "https://www.reddit.com/r/singularity/comments/1l0bhmv/a_popular_college_major_has_one_of_the_highest/",
             "source": "Reddit r/singularity",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "AN LLM IS INSANE SCIENCE FICTION, YET PEOPLE..."
-        },
-        {
-            "title": "Prompted AI ragebait is now going viral on social media",
-            "url": "https://www.reddit.com/r/singularity/comments/1l07ipz/prompted_ai_ragebait_is_now_going_viral_on_social/",
-            "source": "Reddit r/singularity",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "PROMPTED AI RAGEBAIT IS NOW GOING VIRAL ON..."
-        },
-        {
-            "title": "[D]which way do you like to clean your text?",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1kzyhh5/dwhich_way_do_you_like_to_clean_your_text/",
-            "source": "Reddit r/MachineLearning",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "[D]WHICH WAY DO YOU LIKE TO CLEAN YOUR..."
-        },
-        {
-            "title": "Professor at the end of 2 years of struggling with ChatGPT use among students.",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1kzzyb2/professor_at_the_end_of_2_years_of_struggling/",
-            "source": "Reddit r/chatgpt",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "PROFESSOR AT THE END OF 2 YEARS OF..."
-        },
-        {
-            "title": "Girls are gross.",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1l0cy1y/girls_are_gross/",
-            "source": "Reddit r/chatgpt",
             "published_date_obj": "2025-06-01",
-            "rewritten_title": "GIRLS ARE GROSS."
+            "rewritten_title": "A POPULAR COLLEGE MAJOR HAS ONE OF THE..."
         },
         {
-            "title": "So GPT-5 will be depressed and unemployed",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1l0a4wo/so_gpt5_will_be_depressed_and_unemployed/",
-            "source": "Reddit r/chatgpt",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "SO GPT-5 WILL BE DEPRESSED AND UNEMPLOYED"
-        },
-        {
-            "title": "Just hit the Claude Code max limit for the first time... I'm in love.",
-            "url": "https://www.reddit.com/r/ClaudeAI/comments/1l024pe/just_hit_the_claude_code_max_limit_for_the_first/",
-            "source": "Reddit r/claudeai",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "JUST HIT THE CLAUDE CODE MAX LIMIT FOR..."
-        },
-        {
-            "title": "What's up with Claude crediting itself in commit messages?",
-            "url": "https://www.reddit.com/r/ClaudeAI/comments/1kzxzkc/whats_up_with_claude_crediting_itself_in_commit/",
-            "source": "Reddit r/claudeai",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "WHAT'S UP WITH CLAUDE CREDITING ITSELF IN COMMIT..."
-        },
-        {
-            "title": "First to the chaos. \ud83e\udd11",
-            "url": "https://www.reddit.com/r/CharacterAI/comments/1l0e0i4/first_to_the_chaos/",
-            "source": "Reddit r/characterai",
-            "published_date_obj": "2025-06-01",
-            "rewritten_title": "FIRST TO THE CHAOS. \ud83e\udd11"
-        },
-        {
-            "title": "site down, tell me your favorite food",
-            "url": "https://www.reddit.com/r/CharacterAI/comments/1l0e1xi/site_down_tell_me_your_favorite_food/",
-            "source": "Reddit r/characterai",
-            "published_date_obj": "2025-06-01",
-            "rewritten_title": "SITE DOWN, TELL ME YOUR FAVORITE FOOD"
-        },
-        {
-            "title": "What the hell is up with Claude Pro\u2019s usage limits? Hit them after just 2 chats!",
-            "url": "https://www.reddit.com/r/AI_Agents/comments/1l01s21/what_the_hell_is_up_with_claude_pros_usage_limits/",
-            "source": "Reddit r/ai_agents",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "WHAT THE HELL IS UP WITH CLAUDE PRO\u2019S..."
-        },
-        {
-            "title": "Chat with any GitHub repo",
-            "url": "https://www.reddit.com/r/AI_Agents/comments/1l04255/chat_with_any_github_repo/",
-            "source": "Reddit r/ai_agents",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "CHAT WITH ANY GITHUB REPO"
-        },
-        {
-            "title": "A Discussion on Praxis in Automation: Enacting Theory for Human-Centric Outcomes",
-            "url": "https://www.reddit.com/r/AI_Agents/comments/1l0ca37/a_discussion_on_praxis_in_automation_enacting/",
+            "title": "What's the best resource to learn AI agent for a non-technical person?",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1l0ivxv/whats_the_best_resource_to_learn_ai_agent_for_a/",
             "source": "Reddit r/ai_agents",
             "published_date_obj": "2025-06-01",
-            "rewritten_title": "A DISCUSSION ON PRAXIS IN AUTOMATION: ENACTING THEORY..."
+            "rewritten_title": "WHAT'S THE BEST RESOURCE TO LEARN AI AGENT..."
         },
         {
-            "title": "Are there any open source alternatives to this?",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1l0593z/are_there_any_open_source_alternatives_to_this/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "ARE THERE ANY OPEN SOURCE ALTERNATIVES TO THIS?"
-        },
-        {
-            "title": "FLUX Kontext - I'm impressed!",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1l0e9y6/flux_kontext_im_impressed/",
-            "source": "Reddit r/StableDiffusion",
+            "title": "Developing an agent to assist in an alcohol counseling program. Looking for advice/guidance.",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1l0kkeg/developing_an_agent_to_assist_in_an_alcohol/",
+            "source": "Reddit r/ai_agents",
             "published_date_obj": "2025-06-01",
-            "rewritten_title": "FLUX KONTEXT - I'M IMPRESSED!"
+            "rewritten_title": "DEVELOPING AN AGENT TO ASSIST IN AN ALCOHOL..."
         },
         {
-            "title": "Has anyone thought through the implications of the No Fakes Act for character LoRAs?",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1l0b1m0/has_anyone_thought_through_the_implications_of/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "HAS ANYONE THOUGHT THROUGH THE IMPLICATIONS OF THE..."
-        },
-        {
-            "title": "Question about realistic landscape",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1l0fsl8/question_about_realistic_landscape/",
+            "title": "RunPod Template - Wan2.1 with T2V/I2V/ControlNet/VACE 14B - Workflows included",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1l0j399/runpod_template_wan21_with_t2vi2vcontrolnetvace/",
             "source": "Reddit r/StableDiffusion",
             "published_date_obj": "2025-06-01",
-            "rewritten_title": "QUESTION ABOUT REALISTIC LANDSCAPE"
-        },
-        {
-            "title": "I came up with a character and I brought him to life with AI",
-            "url": "https://www.reddit.com/r/aiArt/comments/1l0ed8o/i_came_up_with_a_character_and_i_brought_him_to/",
-            "source": "Reddit r/AIArt",
-            "published_date_obj": "2025-06-01",
-            "rewritten_title": "I CAME UP WITH A CHARACTER AND I..."
-        },
-        {
-            "title": "ChatGPT doesn't understand cow physiology correctly",
-            "url": "https://www.reddit.com/r/aiArt/comments/1kzvyrh/chatgpt_doesnt_understand_cow_physiology_correctly/",
-            "source": "Reddit r/AIArt",
-            "published_date_obj": "2025-05-31",
-            "rewritten_title": "CHATGPT DOESN'T UNDERSTAND COW PHYSIOLOGY CORRECTLY"
-        },
-        {
-            "title": "Just an orange",
-            "url": "https://www.reddit.com/r/aiArt/comments/1l0ffiv/just_an_orange/",
-            "source": "Reddit r/AIArt",
-            "published_date_obj": "2025-06-01",
-            "rewritten_title": "JUST AN ORANGE"
+            "rewritten_title": "RUNPOD TEMPLATE - WAN2.1 WITH T2V/I2V/CONTROLNET/VACE 14B -..."
         }
     ]
 }

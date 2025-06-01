@@ -123,149 +123,7 @@
         }
 
         /* Daily AI Flash Summary Styling */
-        .flash-daily-summary {
-            border: none;
-            border-left: 4px solid #cc0000; /* Red left border matching site theme */
-            background: linear-gradient(135deg, #f8f8f8 0%, #f0f0f0 100%); /* Subtle gradient */
-            padding: 25px;
-            margin: 30px 0;
-            font-size: 1em;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.08); /* Slightly stronger shadow */
-            position: relative;
-            border-radius: 0 8px 8px 0; /* Rounded corners on right side */
-        }
-        .flash-daily-summary:before {
-            content: "⚡"; /* Lightning bolt emoji matching site favicon */
-            position: absolute;
-            top: -15px;
-            left: 15px;
-            font-size: 28px;
-            background: white;
-            padding: 0 12px;
-            border-radius: 15px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .flash-daily-summary h3 {
-            margin-top: 0;
-            margin-bottom: 15px;
-            color: #cc0000;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-size: 1.3em;
-            border-bottom: none; /* Override default h3 styling */
-            padding-bottom: 0;
-        }
-        .flash-daily-summary h4 {
-            font-size: 1.4em;
-            margin: 15px 0 10px 0;
-            color: #000;
-            font-weight: bold;
-            line-height: 1.3;
-        }
-        .flash-daily-summary ul {
-            margin: 15px 0;
-            padding-left: 0;
-            list-style: none;
-        }
-        .flash-daily-summary li {
-            margin: 8px 0;
-            padding-left: 20px;
-            position: relative;
-            line-height: 1.4;
-            font-size: 1.05em;
-        }
-        .flash-daily-summary li:before {
-            content: "▸"; /* Right-pointing triangle */
-            position: absolute;
-            left: 0;
-            color: #cc0000;
-            font-weight: bold;
-            font-size: 1.1em;
-        }
-        .flash-insight {
-            background-color: rgba(204, 0, 0, 0.05); /* Very light red background */
-            padding: 15px;
-            margin: 20px 0 0 0;
-            border-radius: 6px;
-            border-left: 3px solid #cc0000;
-            font-style: italic;
-            color: #333;
-            line-height: 1.5;
-            font-weight: 500;
-        }
-        .flash-insight strong {
-            color: #cc0000;
-            font-weight: bold;
-            font-style: normal;
-        }
-        .flash-source-indicator {
-            position: absolute;
-            top: 10px;
-            right: 15px;
-            font-size: 0.75em;
-            color: #888;
-            background: rgba(255,255,255,0.8);
-            padding: 3px 8px;
-            border-radius: 10px;
-            font-weight: 500;
-        }
-
-        /* Responsive design for flash summary */
-        @media (max-width: 768px) {
-            .flash-daily-summary {
-                margin: 20px -5px; /* Extend slightly beyond container on mobile */
-                padding: 20px;
-                border-radius: 0 6px 6px 0;
-            }
-            .flash-daily-summary h3 {
-                font-size: 1.2em;
-            }
-            .flash-daily-summary h4 {
-                font-size: 1.3em;
-            }
-            .flash-daily-summary li {
-                font-size: 1em;
-                line-height: 1.35;
-            }
-            .site-tagline {
-                font-size: 1em;
-                margin-bottom: 25px;
-            }
-        }
-        @media (max-width: 480px) {
-            .flash-daily-summary {
-                padding: 18px;
-                margin: 15px -10px;
-            }
-            .flash-daily-summary:before {
-                font-size: 24px;
-                top: -12px;
-                left: 12px;
-                padding: 0 10px;
-            }
-            .site-tagline {
-                font-size: 0.95em;
-                letter-spacing: 0.3px;
-            }
-            .topic-nav {
-                margin: 10px -10px !important;
-                padding: 10px !important;
-            }
-            .topic-nav div {
-                flex-direction: column;
-                gap: 6px !important;
-            }
-            .topic-nav span {
-                margin-right: 0 !important;
-                margin-bottom: 5px;
-                font-size: 0.8em !important;
-            }
-            .topic-nav a {
-                font-size: 0.75em !important;
-                padding: 3px 6px !important;
-            }
-        }
+        /* REMOVED - Using Flash Summary Component styling instead */
 
         /* Vertical feed styles */
         .main-content {
@@ -285,12 +143,12 @@
             letter-spacing: 0.5px; /* Slightly increased letter spacing */
         }
         .headline-block {
-             margin-bottom: 20px; /* More space below each category block */
+             margin-bottom: 25px; /* INCREASED from 20px */
              padding: 0;
         }
         .headline-block p {
-            margin: 0 0 8px 0; /* Slightly more space between headlines */
-            line-height: 1.2;
+            margin: 0 0 12px 0; /* INCREASED from 8px */
+            line-height: 1.45; /* IMPROVED from 1.2 */
         }
         .category-description {
             font-size: 1.0em;
@@ -306,6 +164,12 @@
             color: #000000; /* Black links by default */
             font-weight: bold; /* Bold headlines */
             font-size: 1.2em; /* Larger headline links */
+            word-wrap: break-word; /* ADDED */
+            overflow-wrap: break-word; /* ADDED */
+            hyphens: auto; /* ADDED */
+            display: block; /* ENSURES PROPER WRAPPING */
+            max-width: 100%; /* PREVENTS OVERFLOW */
+            letter-spacing: 0.3px; /* IMPROVED READABILITY */
         }
         .headline-block a:hover {
             text-decoration: underline;
@@ -598,6 +462,28 @@
                 font-size: 0.85em !important;
             }
         }
+
+        /* ENHANCED RESPONSIVE FOR HEADLINES */
+        @media (max-width: 768px) {
+            .headline-block a {
+                font-size: 1.1em;
+                line-height: 1.4;
+                letter-spacing: 0.2px;
+            }
+            .headline-block p {
+                margin: 0 0 10px 0;
+            }
+        }
+        @media (max-width: 480px) {
+            .headline-block a {
+                font-size: 1em;
+                line-height: 1.35;
+                letter-spacing: 0.1px;
+            }
+            .headline-block p {
+                margin: 0 0 8px 0;
+            }
+        }
     </style>
     <script defer data-domain="aiflashreport" src="https://plausible.io/js/script.js"></script>
 
@@ -672,8 +558,7 @@
 
         <!-- Daily AI Flash Summary -->
         
-        <div class="flash-daily-summary">
-            
+        
         <div class="ai-flash-summary" style="
             padding: 20px;
             margin: 20px 0;
@@ -681,10 +566,9 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
         ">
-            <strong>AI NEWS FLASH - June 01, 2025</strong><br><br><h2 style="color: #333; font-size: 1.4em; margin: 15px 0; font-weight: bold; line-height: 1.3;">Cyber Eagle Unveils Agentic AI Cyber Defense to Protect Critical Infrastructure</h2><br><br>• <strong>Cyber Eagle introduces advanced AI-driven polymorphic defense technology</strong> to enhance security for critical infrastructure globally, leveraging agentic AI to adapt to evolving cyber threats [1].<br>  <br><strong>Generative AI Frenzy Continues with Venture-Backed Companies</strong><br><br>• <strong>Silicon Valley VCs are propelling a handful of venture-backed companies to eye-watering valuations</strong> due to the generative AI frenzy unleashed by ChatGPT in 2022, highlighting the significant investment in AI technologies [4].<br><br><strong>OpenTools AI News Highlights</strong><br><br>• <strong>RFK Jr.'s Maha Report Under Fire for Fake Studies and AI Concerns</strong>: The report has raised concerns about the use of AI in pesticide studies, sparking debates about the reliability of AI-generated data [2].<br>  <br><strong>Flash Insight:</strong> The integration of advanced AI technologies in critical infrastructure and the rapid valuation of venture-backed companies underscore the growing importance and investment in AI across various sectors. These developments highlight the need for robust security measures and ethical considerations in AI applications.<br><br><strong>Sources:</strong><br>1. <a href="https://markets.financialcontent.com/stocks/article/marketersmedia-2025-6-1-cyber-eagle-unveils-agentic-ai-cyber-defense-to-protect-critical-infrastructure" target="_blank" rel="noopener" style="color: #dc3545;">Cyber Eagle Unveils Agentic AI Cyber Defense to Protect Critical Infrastructure</a><br>2. <a href="https://opentools.ai/news/rfk-jrs-maha-report-under-fire-fake-studies-and-ai-concerns/pesticides" target="_blank" rel="noopener" style="color: #dc3545;">RFK Jr.'s Maha Report Under Fire for Fake Studies and AI Concerns</a><br>3. <a href="https://www.nampa.org/text/22647119" target="_blank" rel="noopener" style="color: #dc3545;">Generative AI Frenzy Continues with Venture-Backed Companies</a>
+            <strong>AI NEWS FLASH - June 01, 2025</strong><br><br><h2 style="color: #333; font-size: 1.4em; margin: 15px 0; font-weight: bold; line-height: 1.3;">BuilderAI Under Fire for Alleged Round-Tripping Scheme with Verse Innovation</h2><br><br>• <strong>BuilderAI Accused of Round-Tripping Scheme:</strong> BuilderAI is facing allegations of an alleged round-tripping scheme with Verse Innovation, which has sparked controversy in the AI community. The accusations suggest that the companies may be engaging in unethical practices to manipulate market valuations <a href="https://opentools.ai/news/builderai-under-fire-alleged-round-tripping-scheme-with-verse-innovation-uncovered/round-tripping" target="_blank" rel="noopener" style="color: #dc3545; font-weight: bold; text-decoration: none;">[1]</a>.<br>  <br>• <strong>Elon Musk Tops List of Super Billionaires:</strong> Elon Musk has solidified his position as the world's richest person, with a net worth of over $419 billion. This milestone underscores the significant influence and wealth generated by tech moguls in the AI sector <a href="https://opentools.ai/news/the-rise-of-the-superbillionaires-elon-musk-tops-the-list-with-a-whopping-dollar4194-billion/2025" target="_blank" rel="noopener" style="color: #dc3545; font-weight: bold; text-decoration: none;">[2]</a>.<br><br>• <strong>Innovation in Local Government:</strong> A recent report highlights how innovation and digital technology can improve municipal operations, better serve residents, and enhance local governance. This trend reflects the broader integration of AI in public services <a href="https://bloustein.rutgers.edu/tech-updates-hey-ai-write-a-report-on-innovation-in-local-government/" target="_blank" rel="noopener" style="color: #dc3545; font-weight: bold; text-decoration: none;">[3]</a>.<br><br><strong>Flash Insight:</strong> The recent allegations against BuilderAI underscore the need for stricter regulations and ethical standards in the AI industry. Meanwhile, the rise of super billionaires like Elon Musk highlights the immense financial potential and influence of AI-driven technologies.<br><br><strong>Sources:</strong><br>• <a href="https://opentools.ai/news/builderai-under-fire-alleged-round-tripping-scheme-with-verse-innovation-uncovered/round-tripping" target="_blank" rel="noopener" style="color: #dc3545; font-weight: bold; text-decoration: none;">[1]</a> https://opentools.ai/news/builderai-under-fire-alleged-round-tripping-scheme-with-verse-innovation-uncovered/round-tripping<br>• <a href="https://opentools.ai/news/the-rise-of-the-superbillionaires-elon-musk-tops-the-list-with-a-whopping-dollar4194-billion/2025" target="_blank" rel="noopener" style="color: #dc3545; font-weight: bold; text-decoration: none;">[2]</a> https://opentools.ai/news/the-rise-of-the-superbillionaires-elon-musk-tops-the-list-with-a-whopping-dollar4194-billion/2025<br>• <a href="https://bloustein.rutgers.edu/tech-updates-hey-ai-write-a-report-on-innovation-in-local-government/" target="_blank" rel="noopener" style="color: #dc3545; font-weight: bold; text-decoration: none;">[3]</a> https://bloustein.rutgers.edu/tech-updates-hey-ai-write-a-report-on-innovation-in-local-government/
         </div>
         
-        </div>
         
 
         <!-- Vertical News Feed -->
@@ -702,15 +586,11 @@
 
                         
                             <p>
-                                <a href="https://www.reddit.com/r/OpenAI/comments/1l0frd3/when_your_friend_uses_ai_to_automate_their_job/" target="_blank">WHEN YOUR FRIEND USES AI TO AUTOMATE THEIR...</a>
+                                <a href="https://www.reddit.com/r/OpenAI/comments/1l0318y/millions_of_videos_have_been_generated_in_the/" target="_blank" title="Source: Reddit r/openai">MILLIONS OF VIDEOS HAVE BEEN GENERATED IN THE...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.reddit.com/r/OpenAI/comments/1l05kho/using_openai_apis_requires_a_3d_face_scan/" target="_blank">USING OPENAI APIS REQUIRES A 3D FACE SCAN</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/OpenAI/comments/1l0g1gw/ai_that_can_train_itself_using_data_it_made_itself/" target="_blank">AI THAT CAN TRAIN ITSELF USING DATA IT...</a>
+                                <a href="https://www.reddit.com/r/OpenAI/comments/1l0krle/exploring_how_ai_manipulates_you/" target="_blank" title="Source: Reddit r/openai">EXPLORING HOW AI MANIPULATES YOU</a>
                             </p>
                         
                     </div>
@@ -728,7 +608,7 @@
 
                         
                             <p>
-                                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1l05hpu/llamaserver_gemma3_32k_context_and_speculative/" target="_blank">LLAMA-SERVER, GEMMA3, 32K CONTEXT *AND* SPECULATIVE DECODING ON...</a>
+                                <a href="https://www.reddit.com/r/AI_Agents/comments/1l0mupa/we_turned_browser_recordings_into_fully/" target="_blank" title="Source: Reddit r/ai_agents">WE TURNED BROWSER RECORDINGS INTO FULLY EXECUTABLE, CUSTOMIZABLE...</a>
                             </p>
                         
                     </div>
@@ -746,19 +626,7 @@
 
                         
                             <p>
-                                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1kzv322/surprisingly_fast_aigenerated_kernels_we_didnt/" target="_blank">SURPRISINGLY FAST AI-GENERATED KERNELS WE DIDN’T MEAN TO...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/singularity/comments/1l030jy/millions_of_videos_have_been_generated_in_the/" target="_blank">MILLIONS OF VIDEOS HAVE BEEN GENERATED IN THE...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/CharacterAI/comments/1l0e17o/i_was_at_the_best_part_of_my_rp_and_we_go_down/" target="_blank">I WAS AT THE BEST PART OF MY...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/StableDiffusion/comments/1l0e7wl/is_it_possible_to_generate_16x16_or_32x32_pixel/" target="_blank">IS IT POSSIBLE TO GENERATE 16X16 OR 32X32...</a>
+                                <a href="https://www.reddit.com/r/ChatGPT/comments/1l0hb9t/when_a_leader_starts_using_chatgpt/" target="_blank" title="Source: Reddit r/chatgpt">WHEN A LEADER STARTS USING CHATGPT</a>
                             </p>
                         
                     </div>
@@ -766,6 +634,22 @@
             
                 
             
+                
+                    <div class="headline-block">
+                        <h3>AI Business News</h3>
+
+                        
+                        
+                            <p class="category-description"><i>Stay informed on AI company funding, startup investments, AI market analysis, stock news, and industry partnerships.</i></p>
+                        
+                        
+
+                        
+                            <p>
+                                <a href="https://www.reddit.com/r/MachineLearning/comments/1l0mnbz/d_how_do_you_see_funding_into_the_field_changing/" target="_blank" title="Source: Reddit r/MachineLearning">[D] HOW DO YOU SEE FUNDING INTO THE...</a>
+                            </p>
+                        
+                    </div>
                 
             
                 
@@ -780,11 +664,7 @@
 
                         
                             <p>
-                                <a href="https://www.reddit.com/r/MachineLearning/comments/1l074er/views_on_recent_acceptance_of_llm_written_paper/" target="_blank">VIEWS ON RECENT ACCEPTANCE OF LLM WRITTEN PAPER...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/MachineLearning/comments/1kzubvr/d_how_chaotic_is_chaos_how_some_ai_for_science/" target="_blank">[D] HOW CHAOTIC IS CHAOS? HOW SOME AI...</a>
+                                <a href="https://www.reddit.com/r/MachineLearning/comments/1l0iz76/d_researchers_and_engineers_in_academia_as_well/" target="_blank" title="Source: Reddit r/MachineLearning">[D] RESEARCHERS AND ENGINEERS IN ACADEMIA AS WELL...</a>
                             </p>
                         
                     </div>
@@ -804,11 +684,7 @@
 
                         
                             <p>
-                                <a href="https://techcrunch.com/2025/05/30/its-not-your-imagination-ai-is-speeding-up-the-pace-of-change/" target="_blank">IT’S NOT YOUR IMAGINATION: AI IS SPEEDING UP...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/artificial/comments/1l0gjl8/jobs_in_ai/" target="_blank">JOBS IN AI</a>
+                                <a href="https://venturebeat.com/ai/when-your-llm-calls-the-cops-claude-4s-whistle-blow-and-the-new-agentic-ai-risk-stack/" target="_blank" title="Source: VentureBeat AI">WHEN YOUR LLM CALLS THE COPS: CLAUDE 4’S...</a>
                             </p>
                         
                     </div>
@@ -828,123 +704,35 @@
 
                         
                             <p>
-                                <a href="https://www.theverge.com/movie-reviews/676817/hbo-mountainhead-review" target="_blank">MOUNTAINHEAD SUCCEEDS AT SHOWING YOU HOW TRULY DERANGED...</a>
+                                <a href="https://techcrunch.com/2025/05/01/chatgpt-everything-to-know-about-the-ai-chatbot/" target="_blank" title="Source: NewsAPI (TechCrunch)">CHATGPT: EVERYTHING YOU NEED TO KNOW ABOUT THE...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.theverge.com/news/676945/rfk-jr-maha-health-report-ai-slop" target="_blank">RFK JR.’S ‘MAKE AMERICA HEALTHY AGAIN’ REPORT SEEMS...</a>
+                                <a href="https://www.reddit.com/r/artificial/comments/1l0kn2v/exploring_the_ways_ai_manipulate_us/" target="_blank" title="Source: Reddit r/artificial">EXPLORING THE WAYS AI MANIPULATE US</a>
                             </p>
                         
                             <p>
-                                <a href="https://techcrunch.com/2025/05/13/chatgpt-everything-to-know-about-the-ai-chatbot/" target="_blank">CHATGPT: EVERYTHING YOU NEED TO KNOW ABOUT THE...</a>
+                                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1l0m8r0/104ktoken_prompt_in_a_110ktoken_context_with/" target="_blank" title="Source: Reddit r/LocalLLaMA">104K-TOKEN PROMPT IN A 110K-TOKEN CONTEXT WITH DEEPSEEK-R1-0528-UD-IQ1_S...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/ai/the-future-of-engineering-belongs-to-those-who-build-with-ai-not-without-it/" target="_blank">THE FUTURE OF ENGINEERING BELONGS TO THOSE WHO...</a>
+                                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1l0jcoa/how_many_parameters_does_r1_0528_have/" target="_blank" title="Source: Reddit r/LocalLLaMA">HOW MANY PARAMETERS DOES R1 0528 HAVE?</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/games/micro-center-nerd-store-fills-the-frys-vacuum-with-its-return-to-silicon-valley/" target="_blank">MICRO CENTER NERD STORE FILLS THE FRY’S VACUUM...</a>
+                                <a href="https://www.reddit.com/r/singularity/comments/1l0bhmv/a_popular_college_major_has_one_of_the_highest/" target="_blank" title="Source: Reddit r/singularity">A POPULAR COLLEGE MAJOR HAS ONE OF THE...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.reddit.com/r/artificial/comments/1l03m46/mits_max_tegmark_the_ai_industry_has_more/" target="_blank">MIT&#39;S MAX TEGMARK: &#34;THE AI INDUSTRY HAS MORE...</a>
+                                <a href="https://www.reddit.com/r/AI_Agents/comments/1l0ivxv/whats_the_best_resource_to_learn_ai_agent_for_a/" target="_blank" title="Source: Reddit r/ai_agents">WHAT&#39;S THE BEST RESOURCE TO LEARN AI AGENT...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.reddit.com/r/artificial/comments/1l07nr3/according_to_ai_its_not_2025/" target="_blank">ACCORDING TO AI IT’S NOT 2025</a>
+                                <a href="https://www.reddit.com/r/AI_Agents/comments/1l0kkeg/developing_an_agent_to_assist_in_an_alcohol/" target="_blank" title="Source: Reddit r/ai_agents">DEVELOPING AN AGENT TO ASSIST IN AN ALCOHOL...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.reddit.com/r/artificial/comments/1kzwaky/which_countrys_economy_will_be_worst_impacted_by/" target="_blank">WHICH COUNTRY&#39;S ECONOMY WILL BE WORST IMPACTED BY...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1kzsa70/china_is_leading_open_source/" target="_blank">CHINA IS LEADING OPEN SOURCE</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1l0cg8b/amd_rx_9080_xt_es_engineering_sample_up_to_32_gb/" target="_blank">AMD RX 9080 XT ES ENGINEERING SAMPLE, UP...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/singularity/comments/1l03q8e/an_llm_is_insane_science_fiction_yet_people_just/" target="_blank">AN LLM IS INSANE SCIENCE FICTION, YET PEOPLE...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/singularity/comments/1l07ipz/prompted_ai_ragebait_is_now_going_viral_on_social/" target="_blank">PROMPTED AI RAGEBAIT IS NOW GOING VIRAL ON...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/MachineLearning/comments/1kzyhh5/dwhich_way_do_you_like_to_clean_your_text/" target="_blank">[D]WHICH WAY DO YOU LIKE TO CLEAN YOUR...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/ChatGPT/comments/1kzzyb2/professor_at_the_end_of_2_years_of_struggling/" target="_blank">PROFESSOR AT THE END OF 2 YEARS OF...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/ChatGPT/comments/1l0cy1y/girls_are_gross/" target="_blank">GIRLS ARE GROSS.</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/ChatGPT/comments/1l0a4wo/so_gpt5_will_be_depressed_and_unemployed/" target="_blank">SO GPT-5 WILL BE DEPRESSED AND UNEMPLOYED</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/ClaudeAI/comments/1l024pe/just_hit_the_claude_code_max_limit_for_the_first/" target="_blank">JUST HIT THE CLAUDE CODE MAX LIMIT FOR...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/ClaudeAI/comments/1kzxzkc/whats_up_with_claude_crediting_itself_in_commit/" target="_blank">WHAT&#39;S UP WITH CLAUDE CREDITING ITSELF IN COMMIT...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/CharacterAI/comments/1l0e0i4/first_to_the_chaos/" target="_blank">FIRST TO THE CHAOS. 🤑</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/CharacterAI/comments/1l0e1xi/site_down_tell_me_your_favorite_food/" target="_blank">SITE DOWN, TELL ME YOUR FAVORITE FOOD</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/AI_Agents/comments/1l01s21/what_the_hell_is_up_with_claude_pros_usage_limits/" target="_blank">WHAT THE HELL IS UP WITH CLAUDE PRO’S...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/AI_Agents/comments/1l04255/chat_with_any_github_repo/" target="_blank">CHAT WITH ANY GITHUB REPO</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/AI_Agents/comments/1l0ca37/a_discussion_on_praxis_in_automation_enacting/" target="_blank">A DISCUSSION ON PRAXIS IN AUTOMATION: ENACTING THEORY...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/StableDiffusion/comments/1l0593z/are_there_any_open_source_alternatives_to_this/" target="_blank">ARE THERE ANY OPEN SOURCE ALTERNATIVES TO THIS?</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/StableDiffusion/comments/1l0e9y6/flux_kontext_im_impressed/" target="_blank">FLUX KONTEXT - I&#39;M IMPRESSED!</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/StableDiffusion/comments/1l0b1m0/has_anyone_thought_through_the_implications_of/" target="_blank">HAS ANYONE THOUGHT THROUGH THE IMPLICATIONS OF THE...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/StableDiffusion/comments/1l0fsl8/question_about_realistic_landscape/" target="_blank">QUESTION ABOUT REALISTIC LANDSCAPE</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/aiArt/comments/1l0ed8o/i_came_up_with_a_character_and_i_brought_him_to/" target="_blank">I CAME UP WITH A CHARACTER AND I...</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/aiArt/comments/1kzvyrh/chatgpt_doesnt_understand_cow_physiology_correctly/" target="_blank">CHATGPT DOESN&#39;T UNDERSTAND COW PHYSIOLOGY CORRECTLY</a>
-                            </p>
-                        
-                            <p>
-                                <a href="https://www.reddit.com/r/aiArt/comments/1l0ffiv/just_an_orange/" target="_blank">JUST AN ORANGE</a>
+                                <a href="https://www.reddit.com/r/StableDiffusion/comments/1l0j399/runpod_template_wan21_with_t2vi2vcontrolnetvace/" target="_blank" title="Source: Reddit r/StableDiffusion">RUNPOD TEMPLATE - WAN2.1 WITH T2V/I2V/CONTROLNET/VACE 14B -...</a>
                             </p>
                         
                     </div>

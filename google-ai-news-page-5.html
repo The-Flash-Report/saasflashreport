@@ -123,149 +123,7 @@
         }
 
         /* Daily AI Flash Summary Styling */
-        .flash-daily-summary {
-            border: none;
-            border-left: 4px solid #cc0000; /* Red left border matching site theme */
-            background: linear-gradient(135deg, #f8f8f8 0%, #f0f0f0 100%); /* Subtle gradient */
-            padding: 25px;
-            margin: 30px 0;
-            font-size: 1em;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.08); /* Slightly stronger shadow */
-            position: relative;
-            border-radius: 0 8px 8px 0; /* Rounded corners on right side */
-        }
-        .flash-daily-summary:before {
-            content: "⚡"; /* Lightning bolt emoji matching site favicon */
-            position: absolute;
-            top: -15px;
-            left: 15px;
-            font-size: 28px;
-            background: white;
-            padding: 0 12px;
-            border-radius: 15px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .flash-daily-summary h3 {
-            margin-top: 0;
-            margin-bottom: 15px;
-            color: #cc0000;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-size: 1.3em;
-            border-bottom: none; /* Override default h3 styling */
-            padding-bottom: 0;
-        }
-        .flash-daily-summary h4 {
-            font-size: 1.4em;
-            margin: 15px 0 10px 0;
-            color: #000;
-            font-weight: bold;
-            line-height: 1.3;
-        }
-        .flash-daily-summary ul {
-            margin: 15px 0;
-            padding-left: 0;
-            list-style: none;
-        }
-        .flash-daily-summary li {
-            margin: 8px 0;
-            padding-left: 20px;
-            position: relative;
-            line-height: 1.4;
-            font-size: 1.05em;
-        }
-        .flash-daily-summary li:before {
-            content: "▸"; /* Right-pointing triangle */
-            position: absolute;
-            left: 0;
-            color: #cc0000;
-            font-weight: bold;
-            font-size: 1.1em;
-        }
-        .flash-insight {
-            background-color: rgba(204, 0, 0, 0.05); /* Very light red background */
-            padding: 15px;
-            margin: 20px 0 0 0;
-            border-radius: 6px;
-            border-left: 3px solid #cc0000;
-            font-style: italic;
-            color: #333;
-            line-height: 1.5;
-            font-weight: 500;
-        }
-        .flash-insight strong {
-            color: #cc0000;
-            font-weight: bold;
-            font-style: normal;
-        }
-        .flash-source-indicator {
-            position: absolute;
-            top: 10px;
-            right: 15px;
-            font-size: 0.75em;
-            color: #888;
-            background: rgba(255,255,255,0.8);
-            padding: 3px 8px;
-            border-radius: 10px;
-            font-weight: 500;
-        }
-
-        /* Responsive design for flash summary */
-        @media (max-width: 768px) {
-            .flash-daily-summary {
-                margin: 20px -5px; /* Extend slightly beyond container on mobile */
-                padding: 20px;
-                border-radius: 0 6px 6px 0;
-            }
-            .flash-daily-summary h3 {
-                font-size: 1.2em;
-            }
-            .flash-daily-summary h4 {
-                font-size: 1.3em;
-            }
-            .flash-daily-summary li {
-                font-size: 1em;
-                line-height: 1.35;
-            }
-            .site-tagline {
-                font-size: 1em;
-                margin-bottom: 25px;
-            }
-        }
-        @media (max-width: 480px) {
-            .flash-daily-summary {
-                padding: 18px;
-                margin: 15px -10px;
-            }
-            .flash-daily-summary:before {
-                font-size: 24px;
-                top: -12px;
-                left: 12px;
-                padding: 0 10px;
-            }
-            .site-tagline {
-                font-size: 0.95em;
-                letter-spacing: 0.3px;
-            }
-            .topic-nav {
-                margin: 10px -10px !important;
-                padding: 10px !important;
-            }
-            .topic-nav div {
-                flex-direction: column;
-                gap: 6px !important;
-            }
-            .topic-nav span {
-                margin-right: 0 !important;
-                margin-bottom: 5px;
-                font-size: 0.8em !important;
-            }
-            .topic-nav a {
-                font-size: 0.75em !important;
-                padding: 3px 6px !important;
-            }
-        }
+        /* REMOVED - Using Flash Summary Component styling instead */
 
         /* Vertical feed styles */
         .main-content {
@@ -285,12 +143,12 @@
             letter-spacing: 0.5px; /* Slightly increased letter spacing */
         }
         .headline-block {
-             margin-bottom: 20px; /* More space below each category block */
+             margin-bottom: 25px; /* INCREASED from 20px */
              padding: 0;
         }
         .headline-block p {
-            margin: 0 0 8px 0; /* Slightly more space between headlines */
-            line-height: 1.2;
+            margin: 0 0 12px 0; /* INCREASED from 8px */
+            line-height: 1.45; /* IMPROVED from 1.2 */
         }
         .category-description {
             font-size: 1.0em;
@@ -306,6 +164,12 @@
             color: #000000; /* Black links by default */
             font-weight: bold; /* Bold headlines */
             font-size: 1.2em; /* Larger headline links */
+            word-wrap: break-word; /* ADDED */
+            overflow-wrap: break-word; /* ADDED */
+            hyphens: auto; /* ADDED */
+            display: block; /* ENSURES PROPER WRAPPING */
+            max-width: 100%; /* PREVENTS OVERFLOW */
+            letter-spacing: 0.3px; /* IMPROVED READABILITY */
         }
         .headline-block a:hover {
             text-decoration: underline;
@@ -598,6 +462,28 @@
                 font-size: 0.85em !important;
             }
         }
+
+        /* ENHANCED RESPONSIVE FOR HEADLINES */
+        @media (max-width: 768px) {
+            .headline-block a {
+                font-size: 1.1em;
+                line-height: 1.4;
+                letter-spacing: 0.2px;
+            }
+            .headline-block p {
+                margin: 0 0 10px 0;
+            }
+        }
+        @media (max-width: 480px) {
+            .headline-block a {
+                font-size: 1em;
+                line-height: 1.35;
+                letter-spacing: 0.1px;
+            }
+            .headline-block p {
+                margin: 0 0 8px 0;
+            }
+        }
     </style>
     <script defer data-domain="aiflashreport" src="https://plausible.io/js/script.js"></script>
 
@@ -693,83 +579,83 @@
 
                         
                             <p>
-                                <a href="https://www.wired.com/story/the-united-arab-emirates-announces-frontier-ai-projects-and-a-new-lab-in-silicon-valley/" target="_blank">A UNITED ARAB EMIRATES LAB ANNOUNCES FRONTIER AI...</a>
+                                <a href="https://techcrunch.com/2025/05/23/chatgpt-everything-to-know-about-the-ai-chatbot/" target="_blank" title="Source: NewsAPI (TechCrunch)">CHATGPT: EVERYTHING YOU NEED TO KNOW ABOUT THE...</a>
                             </p>
                         
                             <p>
-                                <a href="https://techcrunch.com/2025/05/22/the-complete-side-events-lineup-at-techcrunch-sessions-ai/" target="_blank">THE COMPLETE SIDE EVENTS LINEUP AT TECHCRUNCH SESSIONS:...</a>
+                                <a href="https://www.wired.com/story/the-united-arab-emirates-announces-frontier-ai-projects-and-a-new-lab-in-silicon-valley/" target="_blank" title="Source: NewsAPI (Wired)">A UNITED ARAB EMIRATES LAB ANNOUNCES FRONTIER AI...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.wired.com/story/politico-workers-axel-springer-artificial-intelligence/" target="_blank">POLITICO’S NEWSROOM IS STARTING A LEGAL BATTLE WITH...</a>
+                                <a href="https://techcrunch.com/2025/05/22/the-complete-side-events-lineup-at-techcrunch-sessions-ai/" target="_blank" title="Source: NewsAPI (TechCrunch)">THE COMPLETE SIDE EVENTS LINEUP AT TECHCRUNCH SESSIONS:...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.technologyreview.com/2025/05/21/1117249/the-download-googles-ai-mission-and-americas-reliance-on-natural-gas/" target="_blank">THE DOWNLOAD: GOOGLE’S AI MISSION, AND AMERICA’S RELIANCE...</a>
+                                <a href="https://www.wired.com/story/politico-workers-axel-springer-artificial-intelligence/" target="_blank" title="Source: NewsAPI (Wired)">POLITICO’S NEWSROOM IS STARTING A LEGAL BATTLE WITH...</a>
                             </p>
                         
                             <p>
-                                <a href="https://techcrunch.com/2025/05/21/uber-freight-bets-big-on-ai-tools-to-grow-its-business/" target="_blank">UBER FREIGHT BETS BIG ON AI TOOLS TO...</a>
+                                <a href="https://www.technologyreview.com/2025/05/21/1117249/the-download-googles-ai-mission-and-americas-reliance-on-natural-gas/" target="_blank" title="Source: NewsAPI (MIT Technology Review)">THE DOWNLOAD: GOOGLE’S AI MISSION, AND AMERICA’S RELIANCE...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.wired.com/story/googles-ai-boss-says-geminis-new-abilities-point-the-way-to-agi/" target="_blank">GOOGLE’S AI BOSS SAYS GEMINI&#39;S NEW ABILITIES POINT...</a>
+                                <a href="https://techcrunch.com/2025/05/21/uber-freight-bets-big-on-ai-tools-to-grow-its-business/" target="_blank" title="Source: NewsAPI (TechCrunch)">UBER FREIGHT BETS BIG ON AI TOOLS TO...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.technologyreview.com/2025/05/20/1116274/opinion-ai-energy-use-data-centers-electricity/" target="_blank">AI’S ENERGY IMPACT IS STILL SMALL—BUT HOW WE...</a>
+                                <a href="https://www.wired.com/story/googles-ai-boss-says-geminis-new-abilities-point-the-way-to-agi/" target="_blank" title="Source: NewsAPI (Wired)">GOOGLE’S AI BOSS SAYS GEMINI&#39;S NEW ABILITIES POINT...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.wired.com/story/book-excerpt-the-optimist-open-ai-sam-altman/" target="_blank">HOW PETER THIEL’S RELATIONSHIP WITH ELIEZER YUDKOWSKY LAUNCHED...</a>
+                                <a href="https://www.technologyreview.com/2025/05/20/1116274/opinion-ai-energy-use-data-centers-electricity/" target="_blank" title="Source: NewsAPI (MIT Technology Review)">AI’S ENERGY IMPACT IS STILL SMALL—BUT HOW WE...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.wsj.com/tech/ai/fidji-simo-openai-245dd113" target="_blank">MEET FIDJI SIMO, THE INSTACART CEO TASKED WITH...</a>
+                                <a href="https://www.wired.com/story/book-excerpt-the-optimist-open-ai-sam-altman/" target="_blank" title="Source: NewsAPI (Wired)">HOW PETER THIEL’S RELATIONSHIP WITH ELIEZER YUDKOWSKY LAUNCHED...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.technologyreview.com/2025/05/19/1116614/hao-empire-ai-openai/" target="_blank">INSIDE THE STORY THAT ENRAGED OPENAI</a>
+                                <a href="https://www.wsj.com/tech/ai/fidji-simo-openai-245dd113" target="_blank" title="Source: NewsAPI (The Wall Street Journal)">MEET FIDJI SIMO, THE INSTACART CEO TASKED WITH...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.theverge.com/web/669437/nlweb-microsoft-ai-agents-open-web" target="_blank">MICROSOFT’S PLAN TO FIX THE WEB: LETTING EVERY...</a>
+                                <a href="https://www.technologyreview.com/2025/05/19/1116614/hao-empire-ai-openai/" target="_blank" title="Source: NewsAPI (MIT Technology Review)">INSIDE THE STORY THAT ENRAGED OPENAI</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.bloomberg.com/news/articles/2025-05-19/nvidia-ceo-unveils-new-tech-to-keep-global-ai-expansion-going" target="_blank">NVIDIA CEO UNVEILS NEW TECH TO KEEP GLOBAL...</a>
+                                <a href="https://www.theverge.com/web/669437/nlweb-microsoft-ai-agents-open-web" target="_blank" title="Source: NewsAPI (The Verge)">MICROSOFT’S PLAN TO FIX THE WEB: LETTING EVERY...</a>
                             </p>
                         
                             <p>
-                                <a href="https://techcrunch.com/2025/05/17/mit-disavows-doctoral-students-paper-on-ai-productivity-benefits/" target="_blank">MIT DISAVOWS DOCTORAL STUDENT PAPER ON AI&#39;S PRODUCTIVITY...</a>
+                                <a href="https://www.bloomberg.com/news/articles/2025-05-19/nvidia-ceo-unveils-new-tech-to-keep-global-ai-expansion-going" target="_blank" title="Source: NewsAPI (Bloomberg)">NVIDIA CEO UNVEILS NEW TECH TO KEEP GLOBAL...</a>
                             </p>
                         
                             <p>
-                                <a href="https://techcrunch.com/2025/05/16/build-dont-bind-accels-sonali-de-rycker-on-europes-ai-crossroads/" target="_blank">BUILD, DON’T BIND: ACCEL’S SONALI DE RYCKER ON...</a>
+                                <a href="https://techcrunch.com/2025/05/17/mit-disavows-doctoral-students-paper-on-ai-productivity-benefits/" target="_blank" title="Source: NewsAPI (TechCrunch)">MIT DISAVOWS DOCTORAL STUDENT PAPER ON AI&#39;S PRODUCTIVITY...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.theverge.com/command-line-newsletter/668251/chatgpt-is-getting-an-ai-coding-agent" target="_blank">CHATGPT IS GETTING AN AI CODING AGENT</a>
+                                <a href="https://techcrunch.com/2025/05/16/build-dont-bind-accels-sonali-de-rycker-on-europes-ai-crossroads/" target="_blank" title="Source: NewsAPI (TechCrunch)">BUILD, DON’T BIND: ACCEL’S SONALI DE RYCKER ON...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.wired.com/story/plaintext-commencement-speech-artificial-intelligence/" target="_blank">NO, GRADUATES: AI HASN&#39;T ENDED YOUR CAREER BEFORE...</a>
+                                <a href="https://www.theverge.com/command-line-newsletter/668251/chatgpt-is-getting-an-ai-coding-agent" target="_blank" title="Source: NewsAPI (The Verge)">CHATGPT IS GETTING AN AI CODING AGENT</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.wired.com/story/trump-middle-east-artificial-intelligence-investments/" target="_blank">THE MIDDLE EAST HAS ENTERED THE AI GROUP...</a>
+                                <a href="https://www.wired.com/story/plaintext-commencement-speech-artificial-intelligence/" target="_blank" title="Source: NewsAPI (Wired)">NO, GRADUATES: AI HASN&#39;T ENDED YOUR CAREER BEFORE...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.wired.com/story/google-deepminds-ai-agent-dreams-up-algorithms-beyond-human-expertise/" target="_blank">GOOGLE DEEPMIND’S AI AGENT DREAMS UP ALGORITHMS BEYOND...</a>
+                                <a href="https://www.wired.com/story/trump-middle-east-artificial-intelligence-investments/" target="_blank" title="Source: NewsAPI (Wired)">THE MIDDLE EAST HAS ENTERED THE AI GROUP...</a>
                             </p>
                         
                             <p>
-                                <a href="https://techcrunch.com/2025/05/13/chatgpt-everything-to-know-about-the-ai-chatbot/" target="_blank">CHATGPT: EVERYTHING YOU NEED TO KNOW ABOUT THE...</a>
+                                <a href="https://www.wired.com/story/google-deepminds-ai-agent-dreams-up-algorithms-beyond-human-expertise/" target="_blank" title="Source: NewsAPI (Wired)">GOOGLE DEEPMIND’S AI AGENT DREAMS UP ALGORITHMS BEYOND...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.theverge.com/news/666288/republican-ai-state-regulation-ban-10-years" target="_blank">REPUBLICANS PUSH FOR A DECADELONG BAN ON STATES...</a>
+                                <a href="https://techcrunch.com/2025/05/13/chatgpt-everything-to-know-about-the-ai-chatbot/" target="_blank" title="Source: NewsAPI (TechCrunch)">CHATGPT: EVERYTHING YOU NEED TO KNOW ABOUT THE...</a>
                             </p>
                         
                     </div>
