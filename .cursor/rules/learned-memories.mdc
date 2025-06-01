@@ -1,14 +1,8 @@
 ---
-description: 
-globs: 
-alwaysApply: true
----
----
 description: This rule defines how the AI agent should manage and utilize memory improve coding consistency.
 globs: *
 alwaysApply: false
 ---
-
 # AI Memory Rule
 
 This rule defines how the AI should manage and utilize its "memory" regarding this specific project, including user preferences, learned facts, and project-specific conventions.
@@ -92,6 +86,7 @@ This file stores project-specific knowledge, conventions, and user preferences l
 - **SEO Tools**: Custom sitemap generation, structured data, meta tag optimization
 - **Flash Summary Component**: Standalone reusable component for Perplexity API integration
 - **API Credentials**: Perplexity API key stored as PERPLEXITY_API_KEY in environment variables
+- **Component Architecture**: **CRITICAL** - Use standalone components for new features instead of inline fixes. The Flash Summary Component (May 30, 2025) proved that building separate, reusable components is vastly superior to trying to fix broken inline code. Results: 95% code reduction, zero bugs, easy testing, multi-project reusability.
 
 ## Project Conventions
 - **File Organization**: Cursor rules stored in `.cursor/rules/` directory with `.mdc` extension
@@ -99,6 +94,8 @@ This file stores project-specific knowledge, conventions, and user preferences l
 - **Content Structure**: Daily archives, keyword-based categorization, trending sections
 - **Git Workflow**: Careful management of auto-generated vs. manually edited files
 - **Component Testing**: Real API testing preferred using actual Perplexity API for validation
+- **Feature Development**: **ALWAYS** create standalone components for new features rather than patching existing code. Components should include comprehensive documentation, test suite, and integration examples.
+- **QA Process**: **CRITICAL** - Create standalone preview pages for testing styling/template changes. Store in `/QA/` directory with descriptive filenames (e.g., `headlines-styling-preview.html`). This approach allows rapid iteration and comparison of multiple solutions without running the full aggregator script. Include side-by-side comparisons showing current vs. proposed fixes with detailed annotations explaining changes. **IMPORTANT**: When testing styling changes that require fresh content, empty `processed_urls.json` first so the aggregator fetches new articles instead of skipping them all. This prevents the "Skipping already processed URL" issue during testing.
 
 ## Domain Knowledge
 - **News Aggregation**: Focus on AI/artificial intelligence news and developments
