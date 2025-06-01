@@ -123,149 +123,7 @@
         }
 
         /* Daily AI Flash Summary Styling */
-        .flash-daily-summary {
-            border: none;
-            border-left: 4px solid #cc0000; /* Red left border matching site theme */
-            background: linear-gradient(135deg, #f8f8f8 0%, #f0f0f0 100%); /* Subtle gradient */
-            padding: 25px;
-            margin: 30px 0;
-            font-size: 1em;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.08); /* Slightly stronger shadow */
-            position: relative;
-            border-radius: 0 8px 8px 0; /* Rounded corners on right side */
-        }
-        .flash-daily-summary:before {
-            content: "⚡"; /* Lightning bolt emoji matching site favicon */
-            position: absolute;
-            top: -15px;
-            left: 15px;
-            font-size: 28px;
-            background: white;
-            padding: 0 12px;
-            border-radius: 15px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .flash-daily-summary h3 {
-            margin-top: 0;
-            margin-bottom: 15px;
-            color: #cc0000;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-size: 1.3em;
-            border-bottom: none; /* Override default h3 styling */
-            padding-bottom: 0;
-        }
-        .flash-daily-summary h4 {
-            font-size: 1.4em;
-            margin: 15px 0 10px 0;
-            color: #000;
-            font-weight: bold;
-            line-height: 1.3;
-        }
-        .flash-daily-summary ul {
-            margin: 15px 0;
-            padding-left: 0;
-            list-style: none;
-        }
-        .flash-daily-summary li {
-            margin: 8px 0;
-            padding-left: 20px;
-            position: relative;
-            line-height: 1.4;
-            font-size: 1.05em;
-        }
-        .flash-daily-summary li:before {
-            content: "▸"; /* Right-pointing triangle */
-            position: absolute;
-            left: 0;
-            color: #cc0000;
-            font-weight: bold;
-            font-size: 1.1em;
-        }
-        .flash-insight {
-            background-color: rgba(204, 0, 0, 0.05); /* Very light red background */
-            padding: 15px;
-            margin: 20px 0 0 0;
-            border-radius: 6px;
-            border-left: 3px solid #cc0000;
-            font-style: italic;
-            color: #333;
-            line-height: 1.5;
-            font-weight: 500;
-        }
-        .flash-insight strong {
-            color: #cc0000;
-            font-weight: bold;
-            font-style: normal;
-        }
-        .flash-source-indicator {
-            position: absolute;
-            top: 10px;
-            right: 15px;
-            font-size: 0.75em;
-            color: #888;
-            background: rgba(255,255,255,0.8);
-            padding: 3px 8px;
-            border-radius: 10px;
-            font-weight: 500;
-        }
-
-        /* Responsive design for flash summary */
-        @media (max-width: 768px) {
-            .flash-daily-summary {
-                margin: 20px -5px; /* Extend slightly beyond container on mobile */
-                padding: 20px;
-                border-radius: 0 6px 6px 0;
-            }
-            .flash-daily-summary h3 {
-                font-size: 1.2em;
-            }
-            .flash-daily-summary h4 {
-                font-size: 1.3em;
-            }
-            .flash-daily-summary li {
-                font-size: 1em;
-                line-height: 1.35;
-            }
-            .site-tagline {
-                font-size: 1em;
-                margin-bottom: 25px;
-            }
-        }
-        @media (max-width: 480px) {
-            .flash-daily-summary {
-                padding: 18px;
-                margin: 15px -10px;
-            }
-            .flash-daily-summary:before {
-                font-size: 24px;
-                top: -12px;
-                left: 12px;
-                padding: 0 10px;
-            }
-            .site-tagline {
-                font-size: 0.95em;
-                letter-spacing: 0.3px;
-            }
-            .topic-nav {
-                margin: 10px -10px !important;
-                padding: 10px !important;
-            }
-            .topic-nav div {
-                flex-direction: column;
-                gap: 6px !important;
-            }
-            .topic-nav span {
-                margin-right: 0 !important;
-                margin-bottom: 5px;
-                font-size: 0.8em !important;
-            }
-            .topic-nav a {
-                font-size: 0.75em !important;
-                padding: 3px 6px !important;
-            }
-        }
+        /* REMOVED - Using Flash Summary Component styling instead */
 
         /* Vertical feed styles */
         .main-content {
@@ -285,12 +143,12 @@
             letter-spacing: 0.5px; /* Slightly increased letter spacing */
         }
         .headline-block {
-             margin-bottom: 20px; /* More space below each category block */
+             margin-bottom: 25px; /* INCREASED from 20px */
              padding: 0;
         }
         .headline-block p {
-            margin: 0 0 8px 0; /* Slightly more space between headlines */
-            line-height: 1.2;
+            margin: 0 0 12px 0; /* INCREASED from 8px */
+            line-height: 1.45; /* IMPROVED from 1.2 */
         }
         .category-description {
             font-size: 1.0em;
@@ -306,6 +164,12 @@
             color: #000000; /* Black links by default */
             font-weight: bold; /* Bold headlines */
             font-size: 1.2em; /* Larger headline links */
+            word-wrap: break-word; /* ADDED */
+            overflow-wrap: break-word; /* ADDED */
+            hyphens: auto; /* ADDED */
+            display: block; /* ENSURES PROPER WRAPPING */
+            max-width: 100%; /* PREVENTS OVERFLOW */
+            letter-spacing: 0.3px; /* IMPROVED READABILITY */
         }
         .headline-block a:hover {
             text-decoration: underline;
@@ -598,6 +462,28 @@
                 font-size: 0.85em !important;
             }
         }
+
+        /* ENHANCED RESPONSIVE FOR HEADLINES */
+        @media (max-width: 768px) {
+            .headline-block a {
+                font-size: 1.1em;
+                line-height: 1.4;
+                letter-spacing: 0.2px;
+            }
+            .headline-block p {
+                margin: 0 0 10px 0;
+            }
+        }
+        @media (max-width: 480px) {
+            .headline-block a {
+                font-size: 1em;
+                line-height: 1.35;
+                letter-spacing: 0.1px;
+            }
+            .headline-block p {
+                margin: 0 0 8px 0;
+            }
+        }
     </style>
     <script defer data-domain="aiflashreport" src="https://plausible.io/js/script.js"></script>
 
@@ -693,83 +579,83 @@
 
                         
                             <p>
-                                <a href="https://www.technologyreview.com/2025/05/28/1117468/ai-hype-index-college-students-chatgpt-meta-apple-anthropic-grok/" target="_blank">THE AI HYPE INDEX: COLLEGE STUDENTS ARE HOOKED...</a>
+                                <a href="https://www.economist.com/science-and-technology/2025/05/28/snakes-may-have-once-faced-a-vicious-enemy-the-humble-ant" target="_blank" title="Source: The Economist">SNAKES MAY HAVE ONCE FACED A VICIOUS ENEMY:...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/ai/s3-the-new-rag-framework-that-trains-search-agents-with-minimal-data/" target="_blank">S3: THE NEW RAG FRAMEWORK THAT TRAINS SEARCH...</a>
+                                <a href="https://www.technologyreview.com/2025/05/28/1117468/ai-hype-index-college-students-chatgpt-meta-apple-anthropic-grok/" target="_blank" title="Source: MIT Technology Review">THE AI HYPE INDEX: COLLEGE STUDENTS ARE HOOKED...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/ai/mistral-launches-new-code-embedding-model-that-outperforms-openai-and-cohere-in-real-world-retrieval-tasks/" target="_blank">MISTRAL LAUNCHES NEW CODE EMBEDDING MODEL THAT OUTPERFORMS...</a>
+                                <a href="https://venturebeat.com/ai/s3-the-new-rag-framework-that-trains-search-agents-with-minimal-data/" target="_blank" title="Source: VentureBeat AI">S3: THE NEW RAG FRAMEWORK THAT TRAINS SEARCH...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/games/nvidia-ceo-takes-a-shot-at-u-s-policy-cutting-off-ai-chip-sales-to-china/" target="_blank">NVIDIA CEO TAKES A SHOT AT U.S. POLICY...</a>
+                                <a href="https://venturebeat.com/ai/mistral-launches-new-code-embedding-model-that-outperforms-openai-and-cohere-in-real-world-retrieval-tasks/" target="_blank" title="Source: VentureBeat AI">MISTRAL LAUNCHES NEW CODE EMBEDDING MODEL THAT OUTPERFORMS...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/games/nvidia-beats-estimates-for-q1-results-as-revenues-rise-69-from-a-year-ago/" target="_blank">NVIDIA BEATS ESTIMATES FOR Q1 RESULTS AS REVENUES...</a>
+                                <a href="https://venturebeat.com/games/nvidia-ceo-takes-a-shot-at-u-s-policy-cutting-off-ai-chip-sales-to-china/" target="_blank" title="Source: VentureBeat AI">NVIDIA CEO TAKES A SHOT AT U.S. POLICY...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/ai/less-is-more-meta-study-shows-shorter-reasoning-improves-ai-accuracy-by-34/" target="_blank">LESS IS MORE: META STUDY SHOWS SHORTER REASONING...</a>
+                                <a href="https://venturebeat.com/games/nvidia-beats-estimates-for-q1-results-as-revenues-rise-69-from-a-year-ago/" target="_blank" title="Source: VentureBeat AI">NVIDIA BEATS ESTIMATES FOR Q1 RESULTS AS REVENUES...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/games/rumi-raises-4-7m-to-change-passive-media-into-interactive-ai-experiences/" target="_blank">RUMI RAISES $4.7M TO CHANGE PASSIVE MEDIA INTO...</a>
+                                <a href="https://venturebeat.com/ai/less-is-more-meta-study-shows-shorter-reasoning-improves-ai-accuracy-by-34/" target="_blank" title="Source: VentureBeat AI">LESS IS MORE: META STUDY SHOWS SHORTER REASONING...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/games/akool-live-camera-can-translate-video-calls-in-real-time-swap-faces-and-get-virtual-avatars-to-mimic-human-movements/" target="_blank">AKOOL LIVE CAMERA CAN TRANSLATE VIDEO CALLS IN...</a>
+                                <a href="https://venturebeat.com/games/rumi-raises-4-7m-to-change-passive-media-into-interactive-ai-experiences/" target="_blank" title="Source: VentureBeat AI">RUMI RAISES $4.7M TO CHANGE PASSIVE MEDIA INTO...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/ai/everyones-looking-to-get-in-on-vibe-coding-and-google-is-no-different-with-stitch-its-follow-up-to-jules/" target="_blank">EVERYONE’S LOOKING TO GET IN ON VIBE CODING...</a>
+                                <a href="https://venturebeat.com/games/akool-live-camera-can-translate-video-calls-in-real-time-swap-faces-and-get-virtual-avatars-to-mimic-human-movements/" target="_blank" title="Source: VentureBeat AI">AKOOL LIVE CAMERA CAN TRANSLATE VIDEO CALLS IN...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/ai/spotts-ai-native-recruiting-platform-scores-3-2m-to-end-hiring-software-chaos/" target="_blank">SPOTT’S AI-NATIVE RECRUITING PLATFORM SCORES $3.2M TO END...</a>
+                                <a href="https://venturebeat.com/ai/everyones-looking-to-get-in-on-vibe-coding-and-google-is-no-different-with-stitch-its-follow-up-to-jules/" target="_blank" title="Source: VentureBeat AI">EVERYONE’S LOOKING TO GET IN ON VIBE CODING...</a>
                             </p>
                         
                             <p>
-                                <a href="https://towardsdatascience.com/multi-agent-communication-with-the-a2a-python-sdk/" target="_blank">MULTI-AGENT COMMUNICATION WITH THE A2A PYTHON SDK</a>
+                                <a href="https://venturebeat.com/ai/spotts-ai-native-recruiting-platform-scores-3-2m-to-end-hiring-software-chaos/" target="_blank" title="Source: VentureBeat AI">SPOTT’S AI-NATIVE RECRUITING PLATFORM SCORES $3.2M TO END...</a>
                             </p>
                         
                             <p>
-                                <a href="https://towardsdatascience.com/jax-is-this-googles-numpy-killer/" target="_blank">JAX: IS THIS GOOGLE’S NUMPY KILLER?</a>
+                                <a href="https://towardsdatascience.com/multi-agent-communication-with-the-a2a-python-sdk/" target="_blank" title="Source: Towards Data Science">MULTI-AGENT COMMUNICATION WITH THE A2A PYTHON SDK</a>
                             </p>
                         
                             <p>
-                                <a href="https://towardsdatascience.com/detecting-malicious-urls-using-lstm-and-googles-bert-models/" target="_blank">DETECTING MALICIOUS URLS USING LSTM AND GOOGLE’S BERT...</a>
+                                <a href="https://towardsdatascience.com/jax-is-this-googles-numpy-killer/" target="_blank" title="Source: Towards Data Science">JAX: IS THIS GOOGLE’S NUMPY KILLER?</a>
                             </p>
                         
                             <p>
-                                <a href="https://towardsdatascience.com/tree-of-thought-prompting-teaching-llm-to-think-slowly/" target="_blank">TREE OF THOUGHT PROMPTING: TEACHING LLMS TO THINK...</a>
+                                <a href="https://towardsdatascience.com/detecting-malicious-urls-using-lstm-and-googles-bert-models/" target="_blank" title="Source: Towards Data Science">DETECTING MALICIOUS URLS USING LSTM AND GOOGLE’S BERT...</a>
                             </p>
                         
                             <p>
-                                <a href="https://syncedreview.com/2025/05/28/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models/" target="_blank">ADOBE RESEARCH UNLOCKING LONG-TERM MEMORY IN VIDEO WORLD...</a>
+                                <a href="https://towardsdatascience.com/tree-of-thought-prompting-teaching-llm-to-think-slowly/" target="_blank" title="Source: Towards Data Science">TREE OF THOUGHT PROMPTING: TEACHING LLMS TO THINK...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.technologyreview.com/2025/05/27/1117453/the-download-nuclear-powered-ai-and-a-short-history-of-creativity/" target="_blank">THE DOWNLOAD: NUCLEAR-POWERED AI, AND A SHORT HISTORY...</a>
+                                <a href="https://syncedreview.com/2025/05/28/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models/" target="_blank" title="Source: Synced Review">ADOBE RESEARCH UNLOCKING LONG-TERM MEMORY IN VIDEO WORLD...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/ai/anthropic-debuts-conversational-voice-mode-for-claude-mobile-apps/" target="_blank">ANTHROPIC DEBUTS CLAUDE CONVERSATIONAL VOICE MODE ON MOBILE...</a>
+                                <a href="https://www.technologyreview.com/2025/05/27/1117453/the-download-nuclear-powered-ai-and-a-short-history-of-creativity/" target="_blank" title="Source: NewsAPI (MIT Technology Review)">THE DOWNLOAD: NUCLEAR-POWERED AI, AND A SHORT HISTORY...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/security/shadow-ai-is-consultings-survival-strategy-in-the-genai-era/" target="_blank">SECURITY LEADERS LOSE VISIBILITY AS CONSULTANTS DEPLOY SHADOW...</a>
+                                <a href="https://venturebeat.com/ai/anthropic-debuts-conversational-voice-mode-for-claude-mobile-apps/" target="_blank" title="Source: VentureBeat AI">ANTHROPIC DEBUTS CLAUDE CONVERSATIONAL VOICE MODE ON MOBILE...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/ai/mistral-launches-api-for-building-ai-agents-that-run-python-generate-images-perform-rag-and-more/" target="_blank">MISTRAL LAUNCHES API FOR BUILDING AI AGENTS THAT...</a>
+                                <a href="https://venturebeat.com/security/shadow-ai-is-consultings-survival-strategy-in-the-genai-era/" target="_blank" title="Source: VentureBeat AI">SECURITY LEADERS LOSE VISIBILITY AS CONSULTANTS DEPLOY SHADOW...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/games/build-a-rocket-boy-drops-trailer-detailing-mindseyes-blend-of-grand-theft-auto-and-ai-robot-combat/" target="_blank">BUILD A ROCKET BOY DROPS TRAILER DETAILING MINDSEYE’S...</a>
+                                <a href="https://venturebeat.com/ai/mistral-launches-api-for-building-ai-agents-that-run-python-generate-images-perform-rag-and-more/" target="_blank" title="Source: VentureBeat AI">MISTRAL LAUNCHES API FOR BUILDING AI AGENTS THAT...</a>
                             </p>
                         
                     </div>

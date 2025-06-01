@@ -123,149 +123,7 @@
         }
 
         /* Daily AI Flash Summary Styling */
-        .flash-daily-summary {
-            border: none;
-            border-left: 4px solid #cc0000; /* Red left border matching site theme */
-            background: linear-gradient(135deg, #f8f8f8 0%, #f0f0f0 100%); /* Subtle gradient */
-            padding: 25px;
-            margin: 30px 0;
-            font-size: 1em;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.08); /* Slightly stronger shadow */
-            position: relative;
-            border-radius: 0 8px 8px 0; /* Rounded corners on right side */
-        }
-        .flash-daily-summary:before {
-            content: "⚡"; /* Lightning bolt emoji matching site favicon */
-            position: absolute;
-            top: -15px;
-            left: 15px;
-            font-size: 28px;
-            background: white;
-            padding: 0 12px;
-            border-radius: 15px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .flash-daily-summary h3 {
-            margin-top: 0;
-            margin-bottom: 15px;
-            color: #cc0000;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-size: 1.3em;
-            border-bottom: none; /* Override default h3 styling */
-            padding-bottom: 0;
-        }
-        .flash-daily-summary h4 {
-            font-size: 1.4em;
-            margin: 15px 0 10px 0;
-            color: #000;
-            font-weight: bold;
-            line-height: 1.3;
-        }
-        .flash-daily-summary ul {
-            margin: 15px 0;
-            padding-left: 0;
-            list-style: none;
-        }
-        .flash-daily-summary li {
-            margin: 8px 0;
-            padding-left: 20px;
-            position: relative;
-            line-height: 1.4;
-            font-size: 1.05em;
-        }
-        .flash-daily-summary li:before {
-            content: "▸"; /* Right-pointing triangle */
-            position: absolute;
-            left: 0;
-            color: #cc0000;
-            font-weight: bold;
-            font-size: 1.1em;
-        }
-        .flash-insight {
-            background-color: rgba(204, 0, 0, 0.05); /* Very light red background */
-            padding: 15px;
-            margin: 20px 0 0 0;
-            border-radius: 6px;
-            border-left: 3px solid #cc0000;
-            font-style: italic;
-            color: #333;
-            line-height: 1.5;
-            font-weight: 500;
-        }
-        .flash-insight strong {
-            color: #cc0000;
-            font-weight: bold;
-            font-style: normal;
-        }
-        .flash-source-indicator {
-            position: absolute;
-            top: 10px;
-            right: 15px;
-            font-size: 0.75em;
-            color: #888;
-            background: rgba(255,255,255,0.8);
-            padding: 3px 8px;
-            border-radius: 10px;
-            font-weight: 500;
-        }
-
-        /* Responsive design for flash summary */
-        @media (max-width: 768px) {
-            .flash-daily-summary {
-                margin: 20px -5px; /* Extend slightly beyond container on mobile */
-                padding: 20px;
-                border-radius: 0 6px 6px 0;
-            }
-            .flash-daily-summary h3 {
-                font-size: 1.2em;
-            }
-            .flash-daily-summary h4 {
-                font-size: 1.3em;
-            }
-            .flash-daily-summary li {
-                font-size: 1em;
-                line-height: 1.35;
-            }
-            .site-tagline {
-                font-size: 1em;
-                margin-bottom: 25px;
-            }
-        }
-        @media (max-width: 480px) {
-            .flash-daily-summary {
-                padding: 18px;
-                margin: 15px -10px;
-            }
-            .flash-daily-summary:before {
-                font-size: 24px;
-                top: -12px;
-                left: 12px;
-                padding: 0 10px;
-            }
-            .site-tagline {
-                font-size: 0.95em;
-                letter-spacing: 0.3px;
-            }
-            .topic-nav {
-                margin: 10px -10px !important;
-                padding: 10px !important;
-            }
-            .topic-nav div {
-                flex-direction: column;
-                gap: 6px !important;
-            }
-            .topic-nav span {
-                margin-right: 0 !important;
-                margin-bottom: 5px;
-                font-size: 0.8em !important;
-            }
-            .topic-nav a {
-                font-size: 0.75em !important;
-                padding: 3px 6px !important;
-            }
-        }
+        /* REMOVED - Using Flash Summary Component styling instead */
 
         /* Vertical feed styles */
         .main-content {
@@ -285,12 +143,12 @@
             letter-spacing: 0.5px; /* Slightly increased letter spacing */
         }
         .headline-block {
-             margin-bottom: 20px; /* More space below each category block */
+             margin-bottom: 25px; /* INCREASED from 20px */
              padding: 0;
         }
         .headline-block p {
-            margin: 0 0 8px 0; /* Slightly more space between headlines */
-            line-height: 1.2;
+            margin: 0 0 12px 0; /* INCREASED from 8px */
+            line-height: 1.45; /* IMPROVED from 1.2 */
         }
         .category-description {
             font-size: 1.0em;
@@ -306,6 +164,12 @@
             color: #000000; /* Black links by default */
             font-weight: bold; /* Bold headlines */
             font-size: 1.2em; /* Larger headline links */
+            word-wrap: break-word; /* ADDED */
+            overflow-wrap: break-word; /* ADDED */
+            hyphens: auto; /* ADDED */
+            display: block; /* ENSURES PROPER WRAPPING */
+            max-width: 100%; /* PREVENTS OVERFLOW */
+            letter-spacing: 0.3px; /* IMPROVED READABILITY */
         }
         .headline-block a:hover {
             text-decoration: underline;
@@ -598,6 +462,28 @@
                 font-size: 0.85em !important;
             }
         }
+
+        /* ENHANCED RESPONSIVE FOR HEADLINES */
+        @media (max-width: 768px) {
+            .headline-block a {
+                font-size: 1.1em;
+                line-height: 1.4;
+                letter-spacing: 0.2px;
+            }
+            .headline-block p {
+                margin: 0 0 10px 0;
+            }
+        }
+        @media (max-width: 480px) {
+            .headline-block a {
+                font-size: 1em;
+                line-height: 1.35;
+                letter-spacing: 0.1px;
+            }
+            .headline-block p {
+                margin: 0 0 8px 0;
+            }
+        }
     </style>
     <script defer data-domain="aiflashreport" src="https://plausible.io/js/script.js"></script>
 
@@ -693,83 +579,83 @@
 
                         
                             <p>
-                                <a href="https://venturebeat.com/ai/the-future-of-engineering-belongs-to-those-who-build-with-ai-not-without-it/" target="_blank">THE FUTURE OF ENGINEERING BELONGS TO THOSE WHO...</a>
+                                <a href="https://venturebeat.com/ai/when-your-llm-calls-the-cops-claude-4s-whistle-blow-and-the-new-agentic-ai-risk-stack/" target="_blank" title="Source: VentureBeat AI">WHEN YOUR LLM CALLS THE COPS: CLAUDE 4’S...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/games/micro-center-nerd-store-fills-the-frys-vacuum-with-its-return-to-silicon-valley/" target="_blank">MICRO CENTER NERD STORE FILLS THE FRY’S VACUUM...</a>
+                                <a href="https://venturebeat.com/ai/the-future-of-engineering-belongs-to-those-who-build-with-ai-not-without-it/" target="_blank" title="Source: VentureBeat AI">THE FUTURE OF ENGINEERING BELONGS TO THOSE WHO...</a>
                             </p>
                         
                             <p>
-                                <a href="https://techcrunch.com/2025/05/30/its-not-your-imagination-ai-is-speeding-up-the-pace-of-change/" target="_blank">IT’S NOT YOUR IMAGINATION: AI IS SPEEDING UP...</a>
+                                <a href="https://venturebeat.com/games/micro-center-nerd-store-fills-the-frys-vacuum-with-its-return-to-silicon-valley/" target="_blank" title="Source: VentureBeat AI">MICRO CENTER NERD STORE FILLS THE FRY’S VACUUM...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.theverge.com/movie-reviews/676817/hbo-mountainhead-review" target="_blank">MOUNTAINHEAD SUCCEEDS AT SHOWING YOU HOW TRULY DERANGED...</a>
+                                <a href="https://techcrunch.com/2025/05/30/its-not-your-imagination-ai-is-speeding-up-the-pace-of-change/" target="_blank" title="Source: NewsAPI (TechCrunch)">IT’S NOT YOUR IMAGINATION: AI IS SPEEDING UP...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.theverge.com/news/676945/rfk-jr-maha-health-report-ai-slop" target="_blank">RFK JR.’S ‘MAKE AMERICA HEALTHY AGAIN’ REPORT SEEMS...</a>
+                                <a href="https://www.theverge.com/movie-reviews/676817/hbo-mountainhead-review" target="_blank" title="Source: NewsAPI (The Verge)">MOUNTAINHEAD SUCCEEDS AT SHOWING YOU HOW TRULY DERANGED...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/ai/qwenlong-l1-solves-long-context-reasoning-challenge-that-stumps-current-llms/" target="_blank">QWENLONG-L1 SOLVES LONG-CONTEXT REASONING CHALLENGE THAT STUMPS CURRENT...</a>
+                                <a href="https://www.theverge.com/news/676945/rfk-jr-maha-health-report-ai-slop" target="_blank" title="Source: NewsAPI (The Verge)">RFK JR.’S ‘MAKE AMERICA HEALTHY AGAIN’ REPORT SEEMS...</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/ai/elevenlabs-debuts-conversational-ai-2-0-voice-assistants-that-understand-when-to-pause-speak-and-take-turns-talking/" target="_blank">ELEVENLABS DEBUTS CONVERSATIONAL AI 2.0 VOICE ASSISTANTS THAT...</a>
+                                <a href="https://venturebeat.com/ai/qwenlong-l1-solves-long-context-reasoning-challenge-that-stumps-current-llms/" target="_blank" title="Source: VentureBeat AI">QWENLONG-L1 SOLVES LONG-CONTEXT REASONING CHALLENGE THAT STUMPS CURRENT...</a>
                             </p>
                         
                             <p>
-                                <a href="https://towardsdatascience.com/hands-on-attention-mechanism-for-time-series-classification-with-python/" target="_blank">HANDS-ON ATTENTION MECHANISM FOR TIME SERIES CLASSIFICATION, WITH...</a>
+                                <a href="https://venturebeat.com/ai/elevenlabs-debuts-conversational-ai-2-0-voice-assistants-that-understand-when-to-pause-speak-and-take-turns-talking/" target="_blank" title="Source: VentureBeat AI">ELEVENLABS DEBUTS CONVERSATIONAL AI 2.0 VOICE ASSISTANTS THAT...</a>
                             </p>
                         
                             <p>
-                                <a href="https://towardsdatascience.com/agentic-rag-applications-company-knowledge-slack-agents/" target="_blank">AGENTIC RAG APPLICATIONS: COMPANY KNOWLEDGE SLACK AGENTS</a>
+                                <a href="https://towardsdatascience.com/hands-on-attention-mechanism-for-time-series-classification-with-python/" target="_blank" title="Source: Towards Data Science">HANDS-ON ATTENTION MECHANISM FOR TIME SERIES CLASSIFICATION, WITH...</a>
                             </p>
                         
                             <p>
-                                <a href="https://towardsdatascience.com/the-secret-power-of-data-science-in-customer-support/" target="_blank">THE SECRET POWER OF DATA SCIENCE IN CUSTOMER...</a>
+                                <a href="https://towardsdatascience.com/agentic-rag-applications-company-knowledge-slack-agents/" target="_blank" title="Source: Towards Data Science">AGENTIC RAG APPLICATIONS: COMPANY KNOWLEDGE SLACK AGENTS</a>
                             </p>
                         
                             <p>
-                                <a href="https://towardsdatascience.com/gaining-strategic-clarity-in-ai/" target="_blank">GAINING STRATEGIC CLARITY IN AI</a>
+                                <a href="https://towardsdatascience.com/the-secret-power-of-data-science-in-customer-support/" target="_blank" title="Source: Towards Data Science">THE SECRET POWER OF DATA SCIENCE IN CUSTOMER...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.technologyreview.com/2025/05/30/1117440/fueling-seamless-ai-at-scale/" target="_blank">FUELING SEAMLESS AI AT SCALE</a>
+                                <a href="https://towardsdatascience.com/gaining-strategic-clarity-in-ai/" target="_blank" title="Source: Towards Data Science">GAINING STRATEGIC CLARITY IN AI</a>
                             </p>
                         
                             <p>
-                                <a href="https://towardsdatascience.com/may-must-reads-math-for-machine-learning-engineers-llms-agent-protocols-and-more/" target="_blank">MAY MUST-READS: MATH FOR MACHINE LEARNING ENGINEERS, LLMS,...</a>
+                                <a href="https://www.technologyreview.com/2025/05/30/1117440/fueling-seamless-ai-at-scale/" target="_blank" title="Source: MIT Technology Review">FUELING SEAMLESS AI AT SCALE</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.economist.com/science-and-technology/2025/05/30/how-much-coffee-is-too-much" target="_blank">HOW MUCH COFFEE IS TOO MUCH?</a>
+                                <a href="https://towardsdatascience.com/may-must-reads-math-for-machine-learning-engineers-llms-agent-protocols-and-more/" target="_blank" title="Source: Towards Data Science">MAY MUST-READS: MATH FOR MACHINE LEARNING ENGINEERS, LLMS,...</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.technologyreview.com/2025/05/30/1117551/this-benchmark-used-reddits-aita-to-test-how-much-ai-models-suck-up-to-us/" target="_blank">THIS BENCHMARK USED REDDIT’S AITA TO TEST HOW...</a>
+                                <a href="https://www.economist.com/science-and-technology/2025/05/30/how-much-coffee-is-too-much" target="_blank" title="Source: The Economist">HOW MUCH COFFEE IS TOO MUCH?</a>
                             </p>
                         
                             <p>
-                                <a href="https://venturebeat.com/ai/which-llm-should-you-use-token-monster-automatically-combines-multiple-models-and-tools-for-you/" target="_blank">WHICH LLM SHOULD YOU USE? TOKEN MONSTER AUTOMATICALLY...</a>
+                                <a href="https://www.technologyreview.com/2025/05/30/1117551/this-benchmark-used-reddits-aita-to-test-how-much-ai-models-suck-up-to-us/" target="_blank" title="Source: MIT Technology Review">THIS BENCHMARK USED REDDIT’S AITA TO TEST HOW...</a>
                             </p>
                         
                             <p>
-                                <a href="https://towardsdatascience.com/llm-optimization-lora-and-qlora/" target="_blank">LLM OPTIMIZATION: LORA AND QLORA</a>
+                                <a href="https://venturebeat.com/ai/which-llm-should-you-use-token-monster-automatically-combines-multiple-models-and-tools-for-you/" target="_blank" title="Source: VentureBeat AI">WHICH LLM SHOULD YOU USE? TOKEN MONSTER AUTOMATICALLY...</a>
                             </p>
                         
                             <p>
-                                <a href="https://towardsdatascience.com/how-to-build-an-mcq-app/" target="_blank">HOW TO BUILD AN MCQ APP</a>
+                                <a href="https://towardsdatascience.com/llm-optimization-lora-and-qlora/" target="_blank" title="Source: Towards Data Science">LLM OPTIMIZATION: LORA AND QLORA</a>
                             </p>
                         
                             <p>
-                                <a href="https://techcrunch.com/2025/05/29/inside-the-ai-revolution-top-insights-and-breakthroughs-from-our-partners-at-techcrunch-sessions-ai/" target="_blank">INSIDE THE AI REVOLUTION: TOP INSIGHTS AND BREAKTHROUGHS...</a>
+                                <a href="https://towardsdatascience.com/how-to-build-an-mcq-app/" target="_blank" title="Source: Towards Data Science">HOW TO BUILD AN MCQ APP</a>
                             </p>
                         
                             <p>
-                                <a href="https://www.theverge.com/climate-change/676528/ai-data-center-energy-forecast-bitcoin-mining" target="_blank">AI COULD CONSUME MORE POWER THAN BITCOIN BY...</a>
+                                <a href="https://techcrunch.com/2025/05/29/inside-the-ai-revolution-top-insights-and-breakthroughs-from-our-partners-at-techcrunch-sessions-ai/" target="_blank" title="Source: NewsAPI (TechCrunch)">INSIDE THE AI REVOLUTION: TOP INSIGHTS AND BREAKTHROUGHS...</a>
                             </p>
                         
                     </div>
