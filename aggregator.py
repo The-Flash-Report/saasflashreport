@@ -230,7 +230,25 @@ def filter_articles_for_keyword_page(all_articles, page_key, page_config):
             matching_articles.append(article_copy)
     
     # Sort by relevance score (highest first), then by publication date
-    matching_articles.sort(key=lambda x: (x.get('relevance_score', 0), x.get('published_date_obj') or datetime.datetime.min), reverse=True)
+    def get_sort_date(article):
+        date_obj = article.get('published_date_obj')
+        if date_obj is None:
+            return datetime.datetime.min
+        # Handle string dates
+        if isinstance(date_obj, str):
+            try:
+                return datetime.datetime.fromisoformat(date_obj.replace('Z', '+00:00'))
+            except:
+                return datetime.datetime.min
+        # Handle datetime objects
+        if isinstance(date_obj, datetime.datetime):
+            return date_obj
+        # Handle date objects - convert to datetime
+        if isinstance(date_obj, datetime.date):
+            return datetime.datetime.combine(date_obj, datetime.time.min)
+        return datetime.datetime.min
+    
+    matching_articles.sort(key=lambda x: (x.get('relevance_score', 0), get_sort_date(x)), reverse=True)
     
     print(f"Found {len(matching_articles)} articles for {page_key}")
     return matching_articles
@@ -509,12 +527,13 @@ SUBREDDITS = [
     "chatgpt", "claudeai", "characterai", "openai", "ArtificialIntelligence",
     "ai_agents", "StableDiffusion", "AIArt" # Added by user
 ]
-MAX_REDDIT_POSTS_PER_SUB = 5 # Increased from 2 to 5
+MAX_REDDIT_POSTS_PER_SUB = 3 # Reduced from 5 to 3 (30% reduction)
 REDDIT_TIME_FILTER = 'day' # Restore this constant
 
-# Updated NewsAPI query to be more inclusive
-NEWS_API_QUERY = '(artificial intelligence OR AI OR "machine learning" OR "deep learning" OR "neural network" OR "large language model" OR LLM OR GPT OR "generative AI") AND (technology OR business OR science OR research OR innovation)'
-MAX_NEWS_API_ARTICLES = 100 # Number of articles to fetch from NewsAPI (Increased from 25)
+# Updated NewsAPI configuration to use technology category
+NEWS_API_CATEGORY = 'technology'  # Use NewsAPI's technology category
+NEWS_API_QUERY = 'AI OR "artificial intelligence" OR "machine learning"'  # Simple AI-focused query within tech category
+MAX_NEWS_API_ARTICLES = 100 # Number of articles to fetch from NewsAPI
 MAX_HEADLINE_WORDS = 8
 
 # Add these new constants
@@ -529,20 +548,28 @@ MAX_TOTAL_STORIES_PER_TOPIC = 200  # Maximum stories to keep in total per topic
 
 # Add major news sources to RSS feeds
 RSS_FEEDS = {
-    # Working company/organization feeds
-    "OpenAI": "https://openai.com/blog/rss.xml",
-    "Google AI": "https://blog.google/technology/ai/rss/",
-    
-    # Working major news sources
-    "The Economist": "https://www.economist.com/science-and-technology/rss.xml",
-    "MIT Technology Review": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
-    
-    # Working specialized AI feeds
-    "Import AI": "https://jack-clark.net/feed/",
-    "Machine Learning Mastery": "https://machinelearningmastery.com/blog/feed/",
-    "VentureBeat AI": "https://venturebeat.com/category/ai/feed/",
+    # --- TOP 15 AI RSS FEEDS (from FeedSpot & Feeder.co) ---
+    "Google Research Blog": "https://research.googleblog.com/feeds/posts/default",
+    "OpenAI Blog": "https://openai.com/blog/rss.xml",
+    "MIT News - AI": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+    "TechCrunch AI": "https://techcrunch.com/category/artificial-intelligence/feed/",  # Reliable AI news
+    "AWS Machine Learning Blog": "https://aws.amazon.com/blogs/machine-learning/feed/",
+    "Facebook Research": "https://research.fb.com/feed/",
     "Towards Data Science": "https://towardsdatascience.com/feed",
-    "Synced Review": "https://syncedreview.com/feed/",
+    "KDnuggets": "https://www.kdnuggets.com/feed",
+    "Ars Technica AI": "https://feeds.arstechnica.com/arstechnica/technology-lab",  # Tech coverage with AI
+    "Machine Learning Mastery": "https://machinelearningmastery.com/feed/",
+    "AI News": "https://artificialintelligence-news.com/feed/",
+    "Unite.AI": "https://www.unite.ai/feed/",
+    "MarkTechPost": "https://www.marktechpost.com/feed/",
+    "Hugging Face Blog": "https://huggingface.co/blog/feed.xml",  # This one works!
+    "BAIR Blog": "https://bair.berkeley.edu/blog/feed.xml",
+    
+    # --- ADDITIONAL QUALITY AI SOURCES ---
+    "The Economist AI": "https://www.economist.com/science-and-technology/rss.xml",
+    "MIT Technology Review AI": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+    "VentureBeat AI": "https://venturebeat.com/category/ai/feed/",
+    "Import AI": "https://jack-clark.net/feed/",
     "The Gradient": "https://thegradient.pub/rss/"
 }
 
@@ -753,7 +780,7 @@ def fetch_reddit_posts():
     return all_headlines
 
 def fetch_newsapi_articles():
-    """Fetches and processes articles from NewsAPI with enhanced logging."""
+    """Fetches and processes articles from NewsAPI using technology category with enhanced logging."""
     
     # Log if the API key is missing right at the start
     if not NEWS_API_KEY:
@@ -763,14 +790,24 @@ def fetch_newsapi_articles():
     print(f"LOG: NEWS_API_KEY is present (partially masked): {NEWS_API_KEY[:4]}...{NEWS_API_KEY[-4:]}")
 
     headlines = []
-    base_url = "https://newsapi.org/v2/everything"
+    base_url = "https://newsapi.org/v2/top-headlines"  # Using top-headlines for category support
     params = {
+        'category': NEWS_API_CATEGORY,  # Use technology category
+        'apiKey': NEWS_API_KEY,
+        'language': 'en',
+        'pageSize': MAX_NEWS_API_ARTICLES,
+        'country': 'us'  # Focus on US tech news for better quality
+    }
+
+    # Also fetch with AI query from everything endpoint for broader coverage
+    everything_url = "https://newsapi.org/v2/everything"
+    everything_params = {
         'q': NEWS_API_QUERY,
         'apiKey': NEWS_API_KEY,
         'language': 'en',
-        'sortBy': 'publishedAt', # Get latest articles first
-        'pageSize': MAX_NEWS_API_ARTICLES,
-        'domains': 'economist.com,nytimes.com,wsj.com,ft.com,technologyreview.com,wired.com,theverge.com,techcrunch.com,reuters.com,bloomberg.com' # Added major news domains
+        'sortBy': 'publishedAt',
+        'pageSize': 50,  # Smaller limit for everything endpoint
+        'domains': 'economist.com,nytimes.com,wsj.com,ft.com,technologyreview.com,wired.com,theverge.com,techcrunch.com,reuters.com,bloomberg.com'
     }
 
     # Construct the full URL for logging (mask API key)
@@ -779,57 +816,83 @@ def fetch_newsapi_articles():
     request_url = base_url + '?' + requests.compat.urlencode(log_params)
     print(f"LOG: Attempting to fetch from NewsAPI URL: {request_url}")
 
+    all_articles = []
+
     try:
-        response = requests.get(base_url, params=params, timeout=15) # Added timeout
-        
-        # Log status code immediately
-        print(f"LOG: NewsAPI response status code: {response.status_code}")
-        
-        response.raise_for_status() # Raise HTTPError for bad responses (4xx or 5xx)
+        # Fetch from top-headlines (technology category)
+        print("LOG: Fetching from technology category...")
+        response = requests.get(base_url, params=params, timeout=15)
+        print(f"LOG: NewsAPI top-headlines response status code: {response.status_code}")
+        response.raise_for_status()
 
         data = response.json()
         articles = data.get('articles', [])
-        total_articles_received = len(articles)
-        print(f"LOG: Successfully received {total_articles_received} articles from NewsAPI before internal filtering.")
+        all_articles.extend(articles)
+        print(f"LOG: Received {len(articles)} articles from technology category")
 
-        # Updated keywords for internal filtering - more inclusive
-        title_keywords = ['ai', 'artificial intelligence', 'machine learning', 'deep learning', 'neural', 'gpt', 'llm', 'openai', 'anthropic', 'google', 'meta', 'microsoft', 'nvidia', 'intelligence', 'technology', 'research', 'innovation']
+        # Fetch from everything endpoint with AI query
+        print("LOG: Fetching AI-specific articles from everything endpoint...")
+        response2 = requests.get(everything_url, params=everything_params, timeout=15)
+        print(f"LOG: NewsAPI everything response status code: {response2.status_code}")
+        response2.raise_for_status()
+
+        data2 = response2.json()
+        articles2 = data2.get('articles', [])
+        all_articles.extend(articles2)
+        print(f"LOG: Received {len(articles2)} additional AI articles from everything endpoint")
+
+        total_articles_received = len(all_articles)
+        print(f"LOG: Total articles received: {total_articles_received}")
+
+        # Deduplicate by URL first
+        seen_urls = set()
+        unique_articles = []
+        for article in all_articles:
+            url = article.get('url', '')
+            if url and url not in seen_urls:
+                unique_articles.append(article)
+                seen_urls.add(url)
+
+        print(f"LOG: After deduplication: {len(unique_articles)} unique articles")
+
+        # Updated keywords for internal filtering - focused on AI
+        title_keywords = ['ai', 'artificial intelligence', 'machine learning', 'deep learning', 'neural', 'gpt', 'llm', 'openai', 'anthropic', 'google', 'meta', 'microsoft', 'nvidia', 'tech', 'technology', 'innovation']
         print(f"LOG: Internal title filter keywords: {title_keywords}")
 
         articles_kept = 0
-        for i, article in enumerate(articles):
-            title = article.get('title', 'No Title') # Get title early
+        for i, article in enumerate(unique_articles):
+            title = article.get('title', 'No Title')
             title_lower = title.lower()
             url = article.get('url', '#')
-            source_name = article.get('source', {}).get('name', 'Unknown Source') # Get source name if available
+            source_name = article.get('source', {}).get('name', 'Unknown Source')
 
             # Check for excluded sites
             if any(excluded_site in url.lower() for excluded_site in EXCLUDED_SITES):
-                print(f"LOG: Skipping article {i+1}/{total_articles_received}: URL '{url}' is from excluded site.")
+                print(f"LOG: Skipping article {i+1}/{len(unique_articles)}: URL '{url}' is from excluded site.")
                 continue
 
             # Check for low-quality URL patterns
             if any(pattern in url.lower() for pattern in LOW_QUALITY_URL_PATTERNS):
-                print(f"LOG: Skipping article {i+1}/{total_articles_received}: URL '{url}' matches low-quality pattern.")
+                print(f"LOG: Skipping article {i+1}/{len(unique_articles)}: URL '{url}' matches low-quality pattern.")
                 continue
 
-            # New: Check for negative keywords first
+            # Check for negative keywords first
             if any(neg_keyword in title_lower for neg_keyword in NEGATIVE_KEYWORDS):
-                print(f"LOG: Skipping article {i+1}/{total_articles_received}: Title '{title}' contains negative keyword.")
-                continue # Skip this article
+                print(f"LOG: Skipping article {i+1}/{len(unique_articles)}: Title '{title}' contains negative keyword.")
+                continue
 
-            # Check for positive keywords (existing check)
-            if not any(kw in title_lower for kw in title_keywords):
-                 print(f"LOG: Skipping article {i+1}/{total_articles_received}: Title '{title}' missing required positive keywords.")
-                 continue # Skip this article
+            # For technology category, be less strict on AI keywords since it's broader tech news
+            # Only apply AI filter to articles from everything endpoint
+            source_is_everything = any(domain in url for domain in ['economist.com', 'nytimes.com', 'wsj.com', 'ft.com', 'technologyreview.com'])
+            if source_is_everything and not any(kw in title_lower for kw in title_keywords):
+                print(f"LOG: Skipping article {i+1}/{len(unique_articles)}: Title '{title}' missing AI keywords (everything endpoint).")
+                continue
 
-            # Check for potentially problematic non-English characters sometimes returned
+            # Language detection
             try:
                 article_title = article.get('title', 'No Title')
-                # Attempt to encode/decode to catch potential issues early
-                article_title.encode('utf-8').decode('utf-8') 
+                article_title.encode('utf-8').decode('utf-8')
                 
-                # Add language detection
                 try:
                     lang = detect(article_title)
                     if lang != 'en':
@@ -843,15 +906,14 @@ def fetch_newsapi_articles():
                 headline_data = {
                     'title': article_title,
                     'url': url,
-                    'source': f'NewsAPI ({source_name})', # Include original source name
+                    'source': f'NewsAPI ({source_name})',
                     'published_date_obj': parse_publish_date(article.get('publishedAt'))
                 }
                 headlines.append(headline_data)
                 articles_kept += 1
-                # Print the kept headline
                 print(f"LOG: Kept NewsAPI Headline: {headline_data['title']} ({headline_data['url']})") 
             except UnicodeEncodeError as ue_error:
-                print(f"LOG: Skipping article {i+1}/{total_articles_received} due to encoding error in title: {ue_error}")
+                print(f"LOG: Skipping article {i+1}/{len(unique_articles)} due to encoding error in title: {ue_error}")
                 continue
 
         print(f"LOG: Kept {articles_kept} articles from NewsAPI after internal filtering.")
@@ -860,24 +922,17 @@ def fetch_newsapi_articles():
         print("ERROR: Request to NewsAPI timed out.")
     except requests.exceptions.HTTPError as http_err:
         print(f"ERROR: HTTP error occurred with NewsAPI: {http_err}")
-        # Try to get more details from the response body if available
         try:
             error_details = response.json()
             print(f"ERROR Details: {json.dumps(error_details, indent=2)}")
-        except json.JSONDecodeError:
-            print(f"ERROR Details: Could not parse error response body. Raw text: {response.text}")
-        except Exception as e:
-             print(f"ERROR: Could not extract error details: {e}. Raw text: {response.text}")
+        except:
+            print(f"ERROR Details: {response.text}")
     except requests.exceptions.RequestException as e:
-        # Catch other request-related errors (DNS, connection, etc.)
         print(f"ERROR: Error during NewsAPI request: {e}")
     except json.JSONDecodeError as json_err:
         print(f"ERROR: Could not decode JSON response from NewsAPI: {json_err}")
-        print(f"Raw response text: {response.text}")
     except Exception as e:
-        # Catch any other unexpected errors during processing
         print(f"ERROR: An unexpected error occurred processing NewsAPI data: {e}")
-        # Include traceback for unexpected errors
         import traceback
         traceback.print_exc() 
 
@@ -1533,20 +1588,20 @@ def merge_and_deduplicate_stories(existing_stories, new_stories):
     def get_sort_date(story):
         date_obj = story.get('published_date_obj')
         if date_obj is None:
-            return datetime.date.min
+            return datetime.datetime.min
         # Handle string dates
         if isinstance(date_obj, str):
             try:
-                return datetime.datetime.fromisoformat(date_obj.replace('Z', '+00:00')).date()
+                return datetime.datetime.fromisoformat(date_obj.replace('Z', '+00:00'))
             except:
-                return datetime.date.min
+                return datetime.datetime.min
         # Handle datetime objects
         if isinstance(date_obj, datetime.datetime):
-            return date_obj.date()
-        # Handle date objects
-        if isinstance(date_obj, datetime.date):
             return date_obj
-        return datetime.date.min
+        # Handle date objects - convert to datetime
+        if isinstance(date_obj, datetime.date):
+            return datetime.datetime.combine(date_obj, datetime.time.min)
+        return datetime.datetime.min
     
     all_stories.sort(key=get_sort_date, reverse=True)
     

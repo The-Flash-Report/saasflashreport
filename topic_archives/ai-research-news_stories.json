@@ -1,10 +1,506 @@
 [
   {
+    "title": "AI stirs up the recipe for concrete in MIT study",
+    "url": "https://news.mit.edu/2025/ai-stirs-recipe-for-concrete-0602",
+    "source": "MIT News - AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "AI STIRS UP THE RECIPE FOR CONCRETE IN...",
+    "relevance_score": 13
+  },
+  {
+    "title": "How to Use Deep Research Like a Pro",
+    "url": "https://www.kdnuggets.com/how-to-use-deep-research-like-a-pro",
+    "source": "KDnuggets",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "HOW TO USE DEEP RESEARCH LIKE A PRO",
+    "relevance_score": 13
+  },
+  {
+    "title": "How Good Are AI Agents at Real Research? Inside the Deep Research Bench Report",
+    "url": "https://www.unite.ai/how-good-are-ai-agents-at-real-research-inside-the-deep-research-bench-report/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "HOW GOOD ARE AI AGENTS AT REAL RESEARCH?...",
+    "relevance_score": 13
+  },
+  {
+    "title": "The Future of Investment Research with Autonomous AI Agents",
+    "url": "https://www.unite.ai/the-future-of-investment-research-with-autonomous-ai-agents/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "THE FUTURE OF INVESTMENT RESEARCH WITH AUTONOMOUS AI...",
+    "relevance_score": 13
+  },
+  {
+    "title": "Teaching AI models the broad strokes to sketch more like humans do",
+    "url": "https://news.mit.edu/2025/teaching-ai-models-to-sketch-more-like-humans-0602",
+    "source": "MIT News - AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "TEACHING AI MODELS THE BROAD STROKES TO SKETCH...",
+    "relevance_score": 3
+  },
+  {
+    "title": "3 Questions: How to help students recognize potential bias in their AI datasets",
+    "url": "https://news.mit.edu/2025/3-questions-recognizing-potential-bias-in-ai-datasets-0602",
+    "source": "MIT News - AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "3 QUESTIONS: HOW TO HELP STUDENTS RECOGNIZE POTENTIAL...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Console raises $6.2M from Thrive to free IT teams from mundane tasks with AI",
+    "url": "https://techcrunch.com/2025/06/02/console-raises-6-2m-from-thrive-to-free-it-teams-from-mundane-tasks-with-ai/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "CONSOLE RAISES $6.2M FROM THRIVE TO FREE IT...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Former DreamWorks CEO Jeffrey Katzenberg co-leads $15.5M Series A for AI video ad platform",
+    "url": "https://techcrunch.com/2025/06/02/former-dreamworks-ceo-jeffrey-katzenberg-co-leads-15-5m-series-a-for-ai-video-ad-platform/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "FORMER DREAMWORKS CEO JEFFREY KATZENBERG CO-LEADS $15.5M SERIES...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Microsoft Bing gets a free Sora-powered AI video generator",
+    "url": "https://techcrunch.com/2025/06/02/microsoft-bing-gets-a-free-sora-powered-ai-video-generator/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "MICROSOFT BING GETS A FREE SORA-POWERED AI VIDEO...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Snowflake to acquire database startup Crunchy Data",
+    "url": "https://techcrunch.com/2025/06/02/snowflake-to-acquire-database-startup-crunchy-data/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "SNOWFLAKE TO ACQUIRE DATABASE STARTUP CRUNCHY DATA",
+    "relevance_score": 3
+  },
+  {
+    "title": "Digg\u2019s founders explain how they\u2019re building a site for humans in the AI era",
+    "url": "https://techcrunch.com/2025/06/02/diggs-founders-explain-how-theyre-building-a-site-for-humans-in-the-ai-era/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "DIGG\u2019S FOUNDERS EXPLAIN HOW THEY\u2019RE BUILDING A SITE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Chatbot platform Character.AI unveils video generation, social feeds",
+    "url": "https://techcrunch.com/2025/06/02/chatbot-platform-character-ai-unveils-video-generation-social-feeds/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "CHATBOT PLATFORM CHARACTER.AI UNVEILS VIDEO GENERATION, SOCIAL FEEDS",
+    "relevance_score": 3
+  },
+  {
+    "title": "Salesforce buys Moonhub, a startup building AI tools for hiring",
+    "url": "https://techcrunch.com/2025/06/02/salesforce-buys-moonhub-a-startup-building-ai-tools-for-hiring/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "SALESFORCE BUYS MOONHUB, A STARTUP BUILDING AI TOOLS...",
+    "relevance_score": 3
+  },
+  {
+    "title": "IBM acquires data analysis startup Seek AI, opens AI accelerator in NYC",
+    "url": "https://techcrunch.com/2025/06/02/ibm-acquires-data-analysis-startup-seek-ai-opens-ai-accelerator-in-nyc/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "IBM ACQUIRES DATA ANALYSIS STARTUP SEEK AI, OPENS...",
+    "relevance_score": 3
+  },
+  {
+    "title": "How AI chatbots keep you chatting",
+    "url": "https://techcrunch.com/2025/06/02/how-ai-chatbots-keep-you-chatting/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "HOW AI CHATBOTS KEEP YOU CHATTING",
+    "relevance_score": 3
+  },
+  {
+    "title": "5 days left to claim your exhibitor table for TechCrunch All Stage",
+    "url": "https://techcrunch.com/2025/06/02/5-days-left-to-claim-your-exhibitor-table-for-techcrunch-all-stage/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "5 DAYS LEFT TO CLAIM YOUR EXHIBITOR TABLE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Day 5 of TechCrunch Sessions: AI Trivia Countdown \u2014 test your knowledge, win big tickets",
+    "url": "https://techcrunch.com/2025/06/02/day-5-of-techcrunch-sessions-ai-trivia-countdown-test-your-knowledge-win-big-tickets/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "DAY 5 OF TECHCRUNCH SESSIONS: AI TRIVIA COUNTDOWN...",
+    "relevance_score": 3
+  },
+  {
+    "title": "3 days until the doors open at TechCrunch Sessions: AI at UC Berkeley",
+    "url": "https://techcrunch.com/2025/06/02/3-days-until-the-doors-open-at-techcrunch-sessions-ai-in-berkeley/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "3 DAYS UNTIL THE DOORS OPEN AT TECHCRUNCH...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Major record labels are reportedly in licensing talks with AI firms Udio and Suno",
+    "url": "https://techcrunch.com/2025/06/02/major-record-labels-are-reportedly-in-licensing-talks-with-ai-firms-udio-and-suno/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "MAJOR RECORD LABELS ARE REPORTEDLY IN LICENSING TALKS...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Samsung may incorporate Perplexity\u2019s AI tech in its phones",
+    "url": "https://techcrunch.com/2025/06/02/samsung-may-incorporate-perplexitys-ai-tech-in-its-phones/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "SAMSUNG MAY INCORPORATE PERPLEXITY\u2019S AI TECH IN ITS...",
+    "relevance_score": 3
+  },
+  {
+    "title": "For the love of God, stop calling your AI a co-worker",
+    "url": "https://techcrunch.com/2025/06/01/for-the-love-of-god-stop-calling-your-ai-a-co-worker/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "FOR THE LOVE OF GOD, STOP CALLING YOUR...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Build GraphRAG applications using Amazon Bedrock Knowledge Bases",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-graphrag-applications-using-amazon-bedrock-knowledge-bases/",
+    "source": "AWS Machine Learning Blog",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "BUILD GRAPHRAG APPLICATIONS USING AMAZON BEDROCK KNOWLEDGE BASES",
+    "relevance_score": 3
+  },
+  {
+    "title": "Streamline personalization development: How automated ML workflows accelerate Amazon Personalize implementation",
+    "url": "https://aws.amazon.com/blogs/machine-learning/streamline-personalization-development-how-automated-ml-workflows-accelerate-amazon-personalize-implementation/",
+    "source": "AWS Machine Learning Blog",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "STREAMLINE PERSONALIZATION DEVELOPMENT: HOW AUTOMATED ML WORKFLOWS ACCELERATE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Fast-track SOP processing using Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/fast-track-sop-processing-using-amazon-bedrock/",
+    "source": "AWS Machine Learning Blog",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "FAST-TRACK SOP PROCESSING USING AMAZON BEDROCK",
+    "relevance_score": 3
+  },
+  {
+    "title": "Learn Power BI for Free This Week",
+    "url": "https://www.kdnuggets.com/2025/06/datacamp/learn-power-bi-for-free-this-week",
+    "source": "KDnuggets",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "LEARN POWER BI FOR FREE THIS WEEK",
+    "relevance_score": 3
+  },
+  {
+    "title": "How to Land a FAANG Internship in 3 Months: Summer Prep Guide",
+    "url": "https://www.kdnuggets.com/how-to-land-a-faang-internship-in-3-months-summer-prep-guide",
+    "source": "KDnuggets",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "HOW TO LAND A FAANG INTERNSHIP IN 3...",
+    "relevance_score": 3
+  },
+  {
+    "title": "5 Powerful Ways to Use Claude 4",
+    "url": "https://www.kdnuggets.com/5-powerful-ways-to-use-claude-4",
+    "source": "KDnuggets",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "5 POWERFUL WAYS TO USE CLAUDE 4",
+    "relevance_score": 3
+  },
+  {
+    "title": "Broadcom ends business with VMware\u2019s lowest-tier channel partners",
+    "url": "https://arstechnica.com/information-technology/2025/06/broadcom-ends-business-with-vmwares-lowest-tier-channel-partners/",
+    "source": "Ars Technica AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "BROADCOM ENDS BUSINESS WITH VMWARE\u2019S LOWEST-TIER CHANNEL PARTNERS",
+    "relevance_score": 3
+  },
+  {
+    "title": "Diabetes management: IBM and Roche use AI to forecast blood sugar levels",
+    "url": "https://www.artificialintelligence-news.com/news/diabetes-management-ibm-roche-use-ai-forecast-blood-sugar-levels/",
+    "source": "AI News",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "DIABETES MANAGEMENT: IBM AND ROCHE USE AI TO...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Strengthening U.S. Chip Manufacturing \u2013 The Key to AI Leadership",
+    "url": "https://www.unite.ai/strengthening-u-s-chip-manufacturing-the-key-to-ai-leadership/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "STRENGTHENING U.S. CHIP MANUFACTURING \u2013 THE KEY TO...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Ryan Ries, Chief AI & Data Scientist at Mission \u2013 Interview Series",
+    "url": "https://www.unite.ai/ryan-ries-chief-ai-data-scientist-at-mission-interview-series/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "RYAN RIES, CHIEF AI & DATA SCIENTIST AT...",
+    "relevance_score": 3
+  },
+  {
+    "title": "How AI Made Job Search as Convenient as Ordering an Uber",
+    "url": "https://www.unite.ai/how-ai-made-job-search-as-convenient-as-ordering-an-uber/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "HOW AI MADE JOB SEARCH AS CONVENIENT AS...",
+    "relevance_score": 3
+  },
+  {
+    "title": "AI Hype Fatigue: Why Journalists Are Snoozing on Your Press Release",
+    "url": "https://www.unite.ai/ai-hype-fatigue-why-journalists-are-snoozing-on-your-press-release/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "AI HYPE FATIGUE: WHY JOURNALISTS ARE SNOOZING ON...",
+    "relevance_score": 3
+  },
+  {
+    "title": "LuminX Secures $5.5M to Make Warehousing Intelligent with Vision Language Models on the Edge",
+    "url": "https://www.unite.ai/luminx-secures-5-5m-to-make-warehousing-intelligent-with-vision-language-models-on-the-edge/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "LUMINX SECURES $5.5M TO MAKE WAREHOUSING INTELLIGENT WITH...",
+    "relevance_score": 3
+  },
+  {
+    "title": "A Coding Guide Implementing ScrapeGraph and Gemini AI for an Automated, Scalable, Insight-Driven Competitive Intelligence and Market Analysis Workflow",
+    "url": "https://www.marktechpost.com/2025/06/02/a-coding-guide-implementing-scrapegraph-and-gemini-ai-for-an-automated-scalable-insight-driven-competitive-intelligence-and-market-analysis-workflow/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "A CODING GUIDE IMPLEMENTING SCRAPEGRAPH AND GEMINI AI...",
+    "relevance_score": 3
+  },
+  {
+    "title": "MiMo-VL-7B: A Powerful Vision-Language Model to Enhance General Visual Understanding and Multimodal Reasoning",
+    "url": "https://www.marktechpost.com/2025/06/02/mimo-vl-7b-a-powerful-vision-language-model-to-enhance-general-visual-understanding-and-multimodal-reasoning/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "MIMO-VL-7B: A POWERFUL VISION-LANGUAGE MODEL TO ENHANCE GENERAL...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Meet Yambda: The World\u2019s Largest Event Dataset to Accelerate Recommender Systems",
+    "url": "https://www.marktechpost.com/2025/06/02/yandex-releases-yambda-the-worlds-largest-event-dataset-to-accelerate-recommender-systems/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "MEET YAMBDA: THE WORLD\u2019S LARGEST EVENT DATASET TO...",
+    "relevance_score": 3
+  },
+  {
+    "title": "NVIDIA AI Introduces Fast-dLLM: A Training-Free Framework That Brings KV Caching and Parallel Decoding to Diffusion LLMs",
+    "url": "https://www.marktechpost.com/2025/06/01/nvidia-ai-introduces-fast-dllm-a-training-free-framework-that-brings-kv-caching-and-parallel-decoding-to-diffusion-llms/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "NVIDIA AI INTRODUCES FAST-DLLM: A TRAINING-FREE FRAMEWORK THAT...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Off-Policy Reinforcement Learning RL with KL Divergence Yields Superior Reasoning in Large Language Models",
+    "url": "https://www.marktechpost.com/2025/06/01/off-policy-reinforcement-learning-rl-with-kl-divergence-yields-superior-reasoning-in-large-language-models/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "OFF-POLICY REINFORCEMENT LEARNING RL WITH KL DIVERGENCE YIELDS...",
+    "relevance_score": 3
+  },
+  {
+    "title": "How S&P is using deep web scraping, ensemble learning and Snowflake architecture to collect 5X more data on SMEs",
+    "url": "https://venturebeat.com/data-infrastructure/how-sp-is-using-deep-web-scraping-ensemble-learning-and-snowflake-architecture-to-collect-5x-more-data-on-smes/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "HOW S&P IS USING DEEP WEB SCRAPING, ENSEMBLE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Google quietly launches AI Edge Gallery, letting Android phones run AI without the cloud",
+    "url": "https://venturebeat.com/ai/google-quietly-launches-ai-edge-gallery-letting-android-phones-run-ai-without-the-cloud/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "GOOGLE QUIETLY LAUNCHES AI EDGE GALLERY, LETTING ANDROID...",
+    "relevance_score": 3
+  },
+  {
+    "title": "OpenAI\u2019s Sora is now available for FREE to all users through Microsoft Bing Video Creator on mobile",
+    "url": "https://venturebeat.com/ai/openais-sora-is-now-available-for-free-to-all-users-through-microsoft-bing-video-creator-on-mobile/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "OPENAI\u2019S SORA IS NOW AVAILABLE FOR FREE TO...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Aethir enables better user acquisition via Instant Play streaming for Doctor Who: Worlds Apart",
+    "url": "https://venturebeat.com/games/aethir-enables-better-user-acquisition-via-instant-play-streaming-for-doctor-who-worlds-apart/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "AETHIR ENABLES BETTER USER ACQUISITION VIA INSTANT PLAY...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Evaluating LLMs for Inference, or Lessons from Teaching for Machine Learning",
+    "url": "https://towardsdatascience.com/evaluating-llms-for-inference-or-lessons-from-teaching-for-machine-learning/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "EVALUATING LLMS FOR INFERENCE, OR LESSONS FROM TEACHING...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Vision Transformer on a Budget",
+    "url": "https://towardsdatascience.com/vision-transformer-on-a-budget/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "VISION TRANSFORMER ON A BUDGET",
+    "relevance_score": 3
+  },
+  {
+    "title": "Inside Google\u2019s Agent2Agent (A2A) Protocol: Teaching AI Agents to Talk to Each Other",
+    "url": "https://towardsdatascience.com/inside-googles-agent2agent-a2a-protocol-teaching-ai-agents-to-talk-to-each-other/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "INSIDE GOOGLE\u2019S AGENT2AGENT (A2A) PROTOCOL: TEACHING AI AGENTS...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Your DNA Is a Machine Learning Model: It\u2019s Already Out There",
+    "url": "https://towardsdatascience.com/your-dna-is-a-machine-learning-model-its-already-out-there/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "YOUR DNA IS A MACHINE LEARNING MODEL: IT\u2019S...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Grammar as an Injectable: A Trojan Horse to NLP",
+    "url": "https://towardsdatascience.com/grammar-as-a-trojan-horse-to-nlp-and-computer-science/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-02",
+    "rewritten_title": "GRAMMAR AS AN INJECTABLE: A TROJAN HORSE TO...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Early AI investor Elad Gil finds his next big bet: AI-powered roll-ups",
+    "url": "https://techcrunch.com/2025/06/01/early-ai-investor-elad-gil-finds-his-next-big-bet-ai-powered-rollups/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-01",
+    "rewritten_title": "EARLY AI INVESTOR ELAD GIL FINDS HIS NEXT...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Sam Altman biographer Keach Hagey explains why the OpenAI CEO was \u2018born for this moment\u2019",
+    "url": "https://techcrunch.com/2025/06/01/sam-altman-biographer-keach-hagey-explains-why-the-openai-ceo-was-born-for-this-moment/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-01",
+    "rewritten_title": "SAM ALTMAN BIOGRAPHER KEACH HAGEY EXPLAINS WHY THE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Day 4 of TechCrunch Sessions: AI Trivia Countdown \u2014 flex your brain, score big on tickets",
+    "url": "https://techcrunch.com/2025/06/01/day-4-of-techcrunch-sessions-ai-trivia-countdown-flex-your-brain-score-big-on-tickets/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-01",
+    "rewritten_title": "DAY 4 OF TECHCRUNCH SESSIONS: AI TRIVIA COUNTDOWN...",
+    "relevance_score": 3
+  },
+  {
+    "title": "4 days to go: TechCrunch Sessions: AI is almost in session",
+    "url": "https://techcrunch.com/2025/06/01/4-days-to-go-techcrunch-sessions-ai-is-almost-in-session/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-01",
+    "rewritten_title": "4 DAYS TO GO: TECHCRUNCH SESSIONS: AI IS...",
+    "relevance_score": 3
+  },
+  {
+    "title": "How AI Agents Are Transforming the Education Sector: A Look at Kira Learning and Beyond",
+    "url": "https://www.unite.ai/how-ai-agents-are-transforming-the-education-sector-a-look-at-kira-learning-and-beyond/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-06-01",
+    "rewritten_title": "HOW AI AGENTS ARE TRANSFORMING THE EDUCATION SECTOR:...",
+    "relevance_score": 3
+  },
+  {
+    "title": "A Coding Implementation of an Intelligent AI Assistant with Jina Search, LangChain, and Gemini for Real-Time Information Retrieval",
+    "url": "https://www.marktechpost.com/2025/06/01/a-coding-implementation-of-an-intelligent-ai-assistant-with-jina-search-langchain-and-gemini-for-real-time-information-retrieval/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-01",
+    "rewritten_title": "A CODING IMPLEMENTATION OF AN INTELLIGENT AI ASSISTANT...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Guide to Using the Desktop Commander MCP Server",
+    "url": "https://www.marktechpost.com/2025/06/01/guide-to-using-the-desktop-commander-mcp-server/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-01",
+    "rewritten_title": "GUIDE TO USING THE DESKTOP COMMANDER MCP SERVER",
+    "relevance_score": 3
+  },
+  {
+    "title": "Enigmata\u2019s Multi-Stage and Mix-Training Reinforcement Learning Recipe Drives Breakthrough Performance in LLM Puzzle Reasoning",
+    "url": "https://www.marktechpost.com/2025/06/01/enigmatas-multi-stage-and-mix-training-reinforcement-learning-recipe-drives-breakthrough-performance-in-llm-puzzle-reasoning/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-01",
+    "rewritten_title": "ENIGMATA\u2019S MULTI-STAGE AND MIX-TRAINING REINFORCEMENT LEARNING RECIPE DRIVES...",
+    "relevance_score": 3
+  },
+  {
+    "title": "BOND 2025 AI Trends Report Shows AI Ecosystem Growing Faster than Ever with Explosive User and Developer Adoption",
+    "url": "https://www.marktechpost.com/2025/05/31/bond-2025-ai-trends-report-shows-ai-ecosystem-growing-faster-than-ever-with-explosive-user-and-developer-adoption/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-01",
+    "rewritten_title": "BOND 2025 AI TRENDS REPORT SHOWS AI ECOSYSTEM...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Model Context Protocol: A promising AI integration layer, but not a standard (yet)",
+    "url": "https://venturebeat.com/ai/model-context-protocol-a-promising-ai-integration-layer-but-not-a-standard-yet/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-01",
+    "rewritten_title": "MODEL CONTEXT PROTOCOL: A PROMISING AI INTEGRATION LAYER,...",
+    "relevance_score": 3
+  },
+  {
     "title": "When your LLM calls the cops: Claude 4\u2019s whistle-blow and the new agentic AI risk stack",
     "url": "https://venturebeat.com/ai/when-your-llm-calls-the-cops-claude-4s-whistle-blow-and-the-new-agentic-ai-risk-stack/",
     "source": "VentureBeat AI",
     "published_date_obj": "2025-06-01",
     "rewritten_title": "WHEN YOUR LLM CALLS THE COPS: CLAUDE 4\u2019S...",
+    "relevance_score": 3
+  },
+  {
+    "title": "NAACP calls on Memphis officials to halt operations at xAI\u2019s \u2018dirty data center\u2019",
+    "url": "https://techcrunch.com/2025/05/31/naacp-calls-on-officials-to-halt-operations-at-xais-dirty-data-center-in-memphis/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-05-31",
+    "rewritten_title": "NAACP CALLS ON MEMPHIS OFFICIALS TO HALT OPERATIONS...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Ransomware kingpin \u201cStern\u201d apparently IDed by German law enforcement",
+    "url": "https://arstechnica.com/security/2025/05/german-police-say-theyve-identified-trickbot-ransomware-kingpin/",
+    "source": "Ars Technica AI",
+    "published_date_obj": "2025-05-31",
+    "rewritten_title": "RANSOMWARE KINGPIN \u201cSTERN\u201d APPARENTLY IDED BY GERMAN LAW...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Homestyler Review: I Designed This Dream Room in Minutes",
+    "url": "https://www.unite.ai/homestyler-review/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-05-31",
+    "rewritten_title": "HOMESTYLER REVIEW: I DESIGNED THIS DREAM ROOM IN...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Microsoft Discovery: How AI Agents Are Accelerating Scientific Discoveries",
+    "url": "https://www.unite.ai/microsoft-discovery-how-ai-agents-are-accelerating-scientific-discoveries/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-05-31",
+    "rewritten_title": "MICROSOFT DISCOVERY: HOW AI AGENTS ARE ACCELERATING SCIENTIFIC...",
     "relevance_score": 3
   },
   {
@@ -933,6 +1429,78 @@
     "source": "NewsAPI (MIT Technology Review)",
     "published_date_obj": "2025-04-29",
     "rewritten_title": "IS AI \u201cNORMAL\u201d?",
+    "relevance_score": 3
+  },
+  {
+    "title": "Announcing the 2023 Meta Research PhD Fellowship award winners",
+    "url": "https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/",
+    "source": "Facebook Research",
+    "published_date_obj": null,
+    "rewritten_title": "ANNOUNCING THE 2023 META RESEARCH PHD FELLOWSHIP AWARD...",
+    "relevance_score": 13
+  },
+  {
+    "title": "Announcing the winners of the 2022 Foundational Integrity Research request for proposals",
+    "url": "https://research.facebook.com/blog/2023/3/announcing-the-winners-of-the-2022-foundational-integrity-research-request-for-proposals-/",
+    "source": "Facebook Research",
+    "published_date_obj": null,
+    "rewritten_title": "ANNOUNCING THE WINNERS OF THE 2022 FOUNDATIONAL INTEGRITY...",
+    "relevance_score": 13
+  },
+  {
+    "title": "How generational differences affect consumer attitudes towards ads",
+    "url": "https://research.facebook.com/blog/2023/5/how-generational-differences-affect-consumer-attitudes-towards-ads/",
+    "source": "Facebook Research",
+    "published_date_obj": null,
+    "rewritten_title": "HOW GENERATIONAL DIFFERENCES AFFECT CONSUMER ATTITUDES TOWARDS ADS",
+    "relevance_score": 3
+  },
+  {
+    "title": "Every tree counts",
+    "url": "https://research.facebook.com/blog/2023/4/every-tree-counts-large-scale-mapping-of-canopy-height-at-the-resolution-of-individual-trees/",
+    "source": "Facebook Research",
+    "published_date_obj": null,
+    "rewritten_title": "EVERY TREE COUNTS",
+    "relevance_score": 3
+  },
+  {
+    "title": "How a non-traditional background led to cutting-edge XR tech",
+    "url": "https://www.metacareers.com/life/how-a-non-traditional-background-led-to-cutting-edge-xr-tech",
+    "source": "Facebook Research",
+    "published_date_obj": null,
+    "rewritten_title": "HOW A NON-TRADITIONAL BACKGROUND LED TO CUTTING-EDGE XR...",
+    "relevance_score": 3
+  },
+  {
+    "title": "How the metaverse can transform education",
+    "url": "https://about.fb.com/news/2023/04/how-the-metaverse-can-transform-education/",
+    "source": "Facebook Research",
+    "published_date_obj": null,
+    "rewritten_title": "HOW THE METAVERSE CAN TRANSFORM EDUCATION",
+    "relevance_score": 3
+  },
+  {
+    "title": "Build faster with Buck2: Our open source build system",
+    "url": "https://engineering.fb.com/2023/04/06/open-source/buck2-open-source-large-scale-build-system/",
+    "source": "Facebook Research",
+    "published_date_obj": null,
+    "rewritten_title": "BUILD FASTER WITH BUCK2: OUR OPEN SOURCE BUILD...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Introducing Segment Anything: Working toward the first foundation model for image segmentation",
+    "url": "https://ai.facebook.com/blog/segment-anything-foundation-model-image-segmentation/",
+    "source": "Facebook Research",
+    "published_date_obj": null,
+    "rewritten_title": "INTRODUCING SEGMENT ANYTHING: WORKING TOWARD THE FIRST FOUNDATION...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Two meta sustainability grant and scholarship recipients share impact",
+    "url": "https://sustainability.fb.com/blog/2023/03/24/two-meta-sustainability-grant-and-scholarship-recipients-share-impact/",
+    "source": "Facebook Research",
+    "published_date_obj": null,
+    "rewritten_title": "TWO META SUSTAINABILITY GRANT AND SCHOLARSHIP RECIPIENTS SHARE...",
     "relevance_score": 3
   }
 ]
