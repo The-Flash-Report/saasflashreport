@@ -1,17 +1,6 @@
-[build.environment]
-PYTHON_VERSION = "3.13"
-
 [build]
-publish = "."
 command = "python3 aggregator.py"
+publish = "."
 
-# Custom headers for better caching
-[[headers]]
-for = "/static/*"
-[headers.values]
-Cache-Control = "max-age=31536000"
-
-[[headers]]
-for = "/*.html"
-[headers.values]
-Cache-Control = "max-age=3600" 
+[build.environment]
+PYTHON_VERSION = "3.13" 
