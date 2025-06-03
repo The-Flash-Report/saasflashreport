@@ -1,14 +1,11 @@
 [build.environment]
-GO_VERSION = "1.24.2"
-HUGO_VERSION = "0.147.1"
-NODE_VERSION = "22"
-TZ = "America/Los_Angeles"
+PYTHON_VERSION = "3.13"
 
 [build]
-publish = "public"
-command = "hugo --gc --minify"
+publish = "."
+command = "python3 aggregator.py"
 
-# Optional: Add custom headers for better caching
+# Custom headers for better caching
 [[headers]]
 for = "/static/*"
 [headers.values]
