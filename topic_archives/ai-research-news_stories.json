@@ -1,5 +1,485 @@
 [
   {
+    "title": "AlphaSense launches its own Deep Research for the web AND your enterprise files \u2014 here\u2019s why it matters",
+    "url": "https://venturebeat.com/ai/alphasense-launches-its-own-deep-research-for-the-web-and-your-enterprise-files-heres-why-it-matters/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-11",
+    "rewritten_title": "ALPHASENSE LAUNCHES ITS OWN DEEP RESEARCH FOR THE...",
+    "relevance_score": 13
+  },
+  {
+    "title": "Inroads to personalized AI trip planning",
+    "url": "https://news.mit.edu/2025/inroads-personalized-ai-trip-planning-0610",
+    "source": "MIT News - AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "INROADS TO PERSONALIZED AI TRIP PLANNING",
+    "relevance_score": 3
+  },
+  {
+    "title": "Melding data, systems, and society",
+    "url": "https://news.mit.edu/2025/data-systems-and-society-0610",
+    "source": "MIT News - AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "MELDING DATA, SYSTEMS, AND SOCIETY",
+    "relevance_score": 3
+  },
+  {
+    "title": "How we really judge AI",
+    "url": "https://news.mit.edu/2025/how-we-really-judge-ai-0610",
+    "source": "MIT News - AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "HOW WE REALLY JUDGE AI",
+    "relevance_score": 3
+  },
+  {
+    "title": "AI storage platform Vast Data aimed for $25B valuation in new round, sources say",
+    "url": "https://techcrunch.com/2025/06/10/ai-storage-platform-vast-data-aimed-for-25b-valuation-in-new-round-sources-say/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "AI STORAGE PLATFORM VAST DATA AIMED FOR $25B...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Apple Intelligence: Everything you need to know about Apple\u2019s AI model and services",
+    "url": "https://techcrunch.com/2025/06/10/apple-intelligence-everything-you-need-to-know-about-apples-ai-model-and-services/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "APPLE INTELLIGENCE: EVERYTHING YOU NEED TO KNOW ABOUT...",
+    "relevance_score": 3
+  },
+  {
+    "title": "OpenAI releases o3-pro, a souped-up version of its o3 AI reasoning model",
+    "url": "https://techcrunch.com/2025/06/10/openai-releases-o3-pro-a-souped-up-version-of-its-o3-ai-reasoning-model/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "OPENAI RELEASES O3-PRO, A SOUPED-UP VERSION OF ITS...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Apple\u2019s upgraded AI models underwhelm on performance",
+    "url": "https://techcrunch.com/2025/06/10/apples-upgraded-ai-models-underwhelm-on-performance/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "APPLE\u2019S UPGRADED AI MODELS UNDERWHELM ON PERFORMANCE",
+    "relevance_score": 3
+  },
+  {
+    "title": "Enterprise AI startup Glean lands a $7.2B valuation",
+    "url": "https://techcrunch.com/2025/06/10/enterprise-ai-startup-glean-lands-a-7-2b-valuation/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "ENTERPRISE AI STARTUP GLEAN LANDS A $7.2B VALUATION",
+    "relevance_score": 3
+  },
+  {
+    "title": "At WWDC 2025, Apple sang developers\u2019 praises amid AI letdowns and App Store battles",
+    "url": "https://techcrunch.com/2025/06/10/at-wwdc-2025-apple-sang-developers-praises-amid-ai-letdowns-and-app-store-battles/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "AT WWDC 2025, APPLE SANG DEVELOPERS\u2019 PRAISES AMID...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Report: Meta taps Scale AI\u2019s Alexandr Wang to join new \u2018superintelligence\u2019 lab",
+    "url": "https://techcrunch.com/2025/06/10/report-meta-taps-scale-ais-alexandr-wang-to-join-new-superintelligence-lab/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "REPORT: META TAPS SCALE AI\u2019S ALEXANDR WANG TO...",
+    "relevance_score": 3
+  },
+  {
+    "title": "ChatGPT is having a partial outage",
+    "url": "https://techcrunch.com/2025/06/10/chatgpt-is-having-a-partial-outage/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "CHATGPT IS HAVING A PARTIAL OUTAGE",
+    "relevance_score": 3
+  },
+  {
+    "title": "Mistral releases a pair of AI reasoning models",
+    "url": "https://techcrunch.com/2025/06/10/mistral-releases-a-pair-of-ai-reasoning-models/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "MISTRAL RELEASES A PAIR OF AI REASONING MODELS",
+    "relevance_score": 3
+  },
+  {
+    "title": "Automate customer support with Amazon Bedrock, LangGraph, and Mistral models",
+    "url": "https://aws.amazon.com/blogs/machine-learning/automate-customer-support-with-amazon-bedrock-langgraph-and-mistral-models/",
+    "source": "AWS Machine Learning Blog",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "AUTOMATE CUSTOMER SUPPORT WITH AMAZON BEDROCK, LANGGRAPH, AND...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Build responsible AI applications with Amazon Bedrock Guardrails",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-responsible-ai-applications-with-amazon-bedrock-guardrails/",
+    "source": "AWS Machine Learning Blog",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "BUILD RESPONSIBLE AI APPLICATIONS WITH AMAZON BEDROCK GUARDRAILS",
+    "relevance_score": 3
+  },
+  {
+    "title": "Effective cost optimization strategies for Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/effective-cost-optimization-strategies-for-amazon-bedrock/",
+    "source": "AWS Machine Learning Blog",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "EFFECTIVE COST OPTIMIZATION STRATEGIES FOR AMAZON BEDROCK",
+    "relevance_score": 3
+  },
+  {
+    "title": "How E.ON saves \u00a310 million annually with AI diagnostics for smart meters powered by Amazon Textract",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-e-on-saves-10-million-annually-with-ai-diagnostics-for-smart-meters-powered-by-amazon-textract/",
+    "source": "AWS Machine Learning Blog",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "HOW E.ON SAVES \u00a310 MILLION ANNUALLY WITH AI...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Audio Spectrogram Transformers Beyond the Lab",
+    "url": "https://towardsdatascience.com/audio-spectrogram-transformers-beyond-the-lab/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "AUDIO SPECTROGRAM TRANSFORMERS BEYOND THE LAB",
+    "relevance_score": 3
+  },
+  {
+    "title": "Automate Models Training: An MLOps Pipeline with Tekton and Buildpacks",
+    "url": "https://towardsdatascience.com/automate-models-training-an-mlops-pipeline-with-tekton-and-buildpacks/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "AUTOMATE MODELS TRAINING: AN MLOPS PIPELINE WITH TEKTON...",
+    "relevance_score": 3
+  },
+  {
+    "title": "10,000x Faster Bayesian Inference: Multi-GPU SVI vs. Traditional MCMC",
+    "url": "https://towardsdatascience.com/10000x-faster-bayesian-inference-multi-gpu-svi-vs-traditional-mcmc/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "10,000X FASTER BAYESIAN INFERENCE: MULTI-GPU SVI VS. TRADITIONAL...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Applications of Density Estimation to Legal Theory",
+    "url": "https://towardsdatascience.com/applications-of-density-estimation-to-legal-theory/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "APPLICATIONS OF DENSITY ESTIMATION TO LEGAL THEORY",
+    "relevance_score": 3
+  },
+  {
+    "title": "Mastering SQL Window Functions",
+    "url": "https://towardsdatascience.com/mastering-sql-window-functions/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "MASTERING SQL WINDOW FUNCTIONS",
+    "relevance_score": 3
+  },
+  {
+    "title": "Exploratory Data Analysis: Gamma Spectroscopy in Python",
+    "url": "https://towardsdatascience.com/exploratory-data-analysis-gamma-spectroscopy-in-python/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "EXPLORATORY DATA ANALYSIS: GAMMA SPECTROSCOPY IN PYTHON",
+    "relevance_score": 3
+  },
+  {
+    "title": "Selling Your Side Project? 10 Marketplaces Data Scientists Need to Know",
+    "url": "https://www.kdnuggets.com/selling-your-side-project-10-marketplaces-data-scientists-need-to-know",
+    "source": "KDnuggets",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "SELLING YOUR SIDE PROJECT? 10 MARKETPLACES DATA SCIENTISTS...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Integrating DuckDB & Python: An Analytics Guide",
+    "url": "https://www.kdnuggets.com/integrating-duckdb-python-an-analytics-guide",
+    "source": "KDnuggets",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "INTEGRATING DUCKDB & PYTHON: AN ANALYTICS GUIDE",
+    "relevance_score": 3
+  },
+  {
+    "title": "7 Python Errors That Are Actually Features",
+    "url": "https://www.kdnuggets.com/7-python-errors-that-are-actually-features",
+    "source": "KDnuggets",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "7 PYTHON ERRORS THAT ARE ACTUALLY FEATURES",
+    "relevance_score": 3
+  },
+  {
+    "title": "Found in the wild: 2 Secure Boot exploits. Microsoft is patching only 1 of them.",
+    "url": "https://arstechnica.com/security/2025/06/unearthed-in-the-wild-2-secure-boot-exploits-microsoft-patches-only-1-of-them/",
+    "source": "Ars Technica AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "FOUND IN THE WILD: 2 SECURE BOOT EXPLOITS....",
+    "relevance_score": 3
+  },
+  {
+    "title": "After AI setbacks, Meta bets billions on undefined \u201csuperintelligence\u201d",
+    "url": "https://arstechnica.com/information-technology/2025/06/after-ai-setbacks-meta-bets-billions-on-undefined-superintelligence/",
+    "source": "Ars Technica AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "AFTER AI SETBACKS, META BETS BILLIONS ON UNDEFINED...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Implementing Vector Search from Scratch: A Step-by-Step Tutorial",
+    "url": "https://machinelearningmastery.com/implementing-vector-search-from-scratch-a-step-by-step-tutorial/",
+    "source": "Machine Learning Mastery",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "IMPLEMENTING VECTOR SEARCH FROM SCRATCH: A STEP-BY-STEP TUTORIAL",
+    "relevance_score": 3
+  },
+  {
+    "title": "Magistral: Mistral AI challenges big tech with reasoning model",
+    "url": "https://www.artificialintelligence-news.com/news/magistral-mistral-ai-challenges-big-tech-reasoning-model/",
+    "source": "AI News",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "MAGISTRAL: MISTRAL AI CHALLENGES BIG TECH WITH REASONING...",
+    "relevance_score": 3
+  },
+  {
+    "title": "The AI blockchain: What is it really?",
+    "url": "https://www.artificialintelligence-news.com/news/the-ai-blockchain-what-is-it-really/",
+    "source": "AI News",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "THE AI BLOCKCHAIN: WHAT IS IT REALLY?",
+    "relevance_score": 3
+  },
+  {
+    "title": "Apple opens core AI model to developers amid measured WWDC strategy",
+    "url": "https://www.artificialintelligence-news.com/news/apple-opens-core-ai-model-to-developers-amid-measured-wwdc-strategy/",
+    "source": "AI News",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "APPLE OPENS CORE AI MODEL TO DEVELOPERS AMID...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Reddit sues Anthropic for scraping user data to train AI",
+    "url": "https://www.artificialintelligence-news.com/news/reddit-sues-anthropic-for-scraping-user-data-to-train-ai/",
+    "source": "AI News",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "REDDIT SUES ANTHROPIC FOR SCRAPING USER DATA TO...",
+    "relevance_score": 3
+  },
+  {
+    "title": "OpenAI\u2019s second largest paying market gets its own office: The South Korean story",
+    "url": "https://www.artificialintelligence-news.com/news/openai-south-korea-expansion-strategy/",
+    "source": "AI News",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "OPENAI\u2019S SECOND LARGEST PAYING MARKET GETS ITS OWN...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Hirundo Raises $8M to Tackle AI Hallucinations with Machine Unlearning",
+    "url": "https://www.unite.ai/hirundo-raises-8m-to-tackle-ai-hallucinations-with-machine-unlearning/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "HIRUNDO RAISES $8M TO TACKLE AI HALLUCINATIONS WITH...",
+    "relevance_score": 3
+  },
+  {
+    "title": "AI and National Security: The New Battlefield",
+    "url": "https://www.unite.ai/ai-and-national-security-the-new-battlefield/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "AI AND NATIONAL SECURITY: THE NEW BATTLEFIELD",
+    "relevance_score": 3
+  },
+  {
+    "title": "Bridging Educational Gaps in the Developing World through Beneficial AGI: Lessons from Ethiopia",
+    "url": "https://www.unite.ai/bridging-educational-gaps-in-the-developing-world-through-beneficial-agi-lessons-from-ethiopia/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "BRIDGING EDUCATIONAL GAPS IN THE DEVELOPING WORLD THROUGH...",
+    "relevance_score": 3
+  },
+  {
+    "title": "The AI Revolution Is a Data Revolution: Why Storage Matters More Than Ever",
+    "url": "https://www.unite.ai/the-ai-revolution-is-a-data-revolution-why-storage-matters-more-than-ever/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "THE AI REVOLUTION IS A DATA REVOLUTION: WHY...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Guide to Understanding, Building, and Optimizing API-Calling Agents",
+    "url": "https://www.unite.ai/guide-to-understanding-building-and-optimizing-api-calling-agents/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "GUIDE TO UNDERSTANDING, BUILDING, AND OPTIMIZING API-CALLING AGENTS",
+    "relevance_score": 3
+  },
+  {
+    "title": "ether0: A 24B LLM Trained with Reinforcement Learning RL for Advanced Chemical Reasoning Tasks",
+    "url": "https://www.marktechpost.com/2025/06/10/ether0-a-24b-llm-trained-with-reinforcement-learning-rl-for-advanced-chemical-reasoning-tasks/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "ETHER0: A 24B LLM TRAINED WITH REINFORCEMENT LEARNING...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Meta Introduces LlamaRL: A Scalable PyTorch-Based Reinforcement Learning RL Framework for Efficient LLM Training at Scale",
+    "url": "https://www.marktechpost.com/2025/06/10/meta-introduces-llamarl-a-scalable-pytorch-based-reinforcement-learning-rl-framework-for-efficient-llm-training-at-scale/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "META INTRODUCES LLAMARL: A SCALABLE PYTORCH-BASED REINFORCEMENT LEARNING...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Top 15 Vibe Coding Tools Transforming AI-Driven Software Development in 2025",
+    "url": "https://www.marktechpost.com/2025/06/10/top-15-vibe-coding-tools-transforming-ai-driven-software-development-in-2025/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "TOP 15 VIBE CODING TOOLS TRANSFORMING AI-DRIVEN SOFTWARE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "The Pentagon is gutting the team that tests AI and weapons systems",
+    "url": "https://www.technologyreview.com/2025/06/10/1118229/pentagon-gutting-ai-test/",
+    "source": "MIT Technology Review AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "THE PENTAGON IS GUTTING THE TEAM THAT TESTS...",
+    "relevance_score": 3
+  },
+  {
+    "title": "OpenAI launches o3-pro AI model, offering increased reliability and tool use for enterprises \u2014 while sacrificing speed",
+    "url": "https://venturebeat.com/ai/openai-launches-o3-pro-ai-model-offering-increased-reliability-and-tool-use-for-enterprises-while-sacrificing-speed/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "OPENAI LAUNCHES O3-PRO AI MODEL, OFFERING INCREASED RELIABILITY...",
+    "relevance_score": 3
+  },
+  {
+    "title": "The five security principles driving open source security apps at scale",
+    "url": "https://venturebeat.com/security/top-five-security-principles-driving-open-source-cyber-apps-at-scale/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "THE FIVE SECURITY PRINCIPLES DRIVING OPEN SOURCE SECURITY...",
+    "relevance_score": 3
+  },
+  {
+    "title": "AlphaOne gives AI developers a new dial to control LLM \u2018thinking\u2019 and boost performance",
+    "url": "https://venturebeat.com/ai/alphaone-gives-ai-developers-a-new-dial-to-control-llm-thinking-and-boost-performance/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "ALPHAONE GIVES AI DEVELOPERS A NEW DIAL TO...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Mistral\u2019s first reasoning model, Magistral, launches with large and small Apache 2.0 version",
+    "url": "https://venturebeat.com/ai/mistrals-first-reasoning-model-magistral-launches-with-large-and-small-apache-2-0-version/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "MISTRAL\u2019S FIRST REASONING MODEL, MAGISTRAL, LAUNCHES WITH LARGE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "OpenAI announces 80% price drop for o3, it\u2019s most powerful reasoning model",
+    "url": "https://venturebeat.com/ai/openai-announces-80-price-drop-for-o3-its-most-powerful-reasoning-model/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "OPENAI ANNOUNCES 80% PRICE DROP FOR O3, IT\u2019S...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Qualcomm shares its vision for the future of smart glasses with on-glass Gen AI",
+    "url": "https://venturebeat.com/games/qualcomm-shares-its-vision-for-the-future-of-smart-glasses-with-on-glass-gen-ai/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "QUALCOMM SHARES ITS VISION FOR THE FUTURE OF...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Vanta\u2019s AI agent wants to run your compliance program \u2014 and it just might",
+    "url": "https://venturebeat.com/ai/vantas-ai-agent-wants-to-run-your-compliance-program-and-it-just-might/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "VANTA\u2019S AI AGENT WANTS TO RUN YOUR COMPLIANCE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Zip debuts 50 AI agents to kill procurement inefficiencies\u2014OpenAI is already on board",
+    "url": "https://venturebeat.com/ai/zip-debuts-50-ai-agents-to-kill-procurement-inefficiencies-openai-is-already-on-board/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "ZIP DEBUTS 50 AI AGENTS TO KILL PROCUREMENT...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Zencoder just launched an AI that can replace days of QA work in two hours",
+    "url": "https://venturebeat.com/ai/zencoder-just-launched-an-ai-that-can-replace-days-of-qa-work-in-two-hours/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "ZENCODER JUST LAUNCHED AN AI THAT CAN REPLACE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Google rolls out Android 16 to Pixel phones, unveils AI-powered edit suggestion for Google Photos",
+    "url": "https://techcrunch.com/2025/06/10/google-is-rolling-out-android-16-to-pixel-phones-announces-ai-powered-edit-suggestion-to-google-photos/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "GOOGLE ROLLS OUT ANDROID 16 TO PIXEL PHONES,...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Google\u2019s AI search features are killing traffic to publishers",
+    "url": "https://techcrunch.com/2025/06/10/googles-ai-overviews-are-killing-traffic-for-publishers/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "GOOGLE\u2019S AI SEARCH FEATURES ARE KILLING TRAFFIC TO...",
+    "relevance_score": 3
+  },
+  {
+    "title": "OpenAI signs surprise deal with Google Cloud despite fierce AI rivalry",
+    "url": "https://arstechnica.com/ai/2025/06/openai-signs-surprise-deal-with-google-cloud-despite-fierce-ai-rivalry/",
+    "source": "Ars Technica AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "OPENAI SIGNS SURPRISE DEAL WITH GOOGLE CLOUD DESPITE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Evogene and Google Cloud Unveil Foundation Model for Generative Molecule Design, Pioneering a New Era in Life-Science AI",
+    "url": "https://www.unite.ai/evogene-and-google-cloud-unveil-foundation-model-for-generative-molecule-design-pioneering-a-new-era-in-life-science-ai/",
+    "source": "Unite.AI",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "EVOGENE AND GOOGLE CLOUD UNVEIL FOUNDATION MODEL FOR...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Build a Gemini-Powered DataFrame Agent for Natural Language Data Analysis with Pandas and LangChain",
+    "url": "https://www.marktechpost.com/2025/06/10/build-a-gemini-powered-dataframe-agent-for-natural-language-data-analysis-with-pandas-and-langchain/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "BUILD A GEMINI-POWERED DATAFRAME AGENT FOR NATURAL LANGUAGE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Round Up: The Reviews Are In For The Nintendo Switch 2 - Nintendo Life",
+    "url": "https://www.nintendolife.com/news/2025/06/round-up-the-reviews-are-in-for-the-nintendo-switch-2",
+    "source": "NewsAPI (Nintendo Life)",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "ROUND UP: THE REVIEWS ARE IN FOR THE...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple debuts \u2018Liquid Glass\u2019 interface at design-focused WWDC event",
+    "url": "https://www.bloomberg.com/news/articles/2025-06-09/apple-unveils-new-liquid-glass-software-interface-at-wwdc-event",
+    "source": "NewsAPI (Bloomberg)",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "APPLE DEBUTS \u2018LIQUID GLASS\u2019 INTERFACE AT DESIGN-FOCUSED WWDC...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple Is Pushing AI Into More of Its Products\u2014but Still Lacks a State-of-the-Art Model",
+    "url": "https://www.wired.com/story/apple-wwdc-ai-announcements/",
+    "source": "NewsAPI (Wired)",
+    "published_date_obj": "2025-06-10",
+    "rewritten_title": "APPLE IS PUSHING AI INTO MORE OF ITS...",
+    "relevance_score": 2
+  },
+  {
     "title": "A Bird\u2019s-Eye View of Linear Algebra: Measure of a Map \u2014 Determinants",
     "url": "https://towardsdatascience.com/a-birds-eye-view-of-linear-algebra-measure-of-a-map-determinants/",
     "source": "Towards Data Science",
@@ -22,6 +502,310 @@
     "published_date_obj": "2025-06-10",
     "rewritten_title": "VEBRAIN: A UNIFIED MULTIMODAL AI FRAMEWORK FOR VISUAL...",
     "relevance_score": 3
+  },
+  {
+    "title": "WWDC 2025: all the news from Apple\u2019s annual developer conference",
+    "url": "https://www.theverge.com/tech/681646/apple-wwdc-2025-news-rumors-ios-26",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "WWDC 2025: ALL THE NEWS FROM APPLE\u2019S ANNUAL...",
+    "relevance_score": 12
+  },
+  {
+    "title": "WWDC 2025: What to expect from this year\u2019s conference",
+    "url": "https://techcrunch.com/2025/06/09/wwdc-2025-what-to-expect-from-this-years-conference/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "WWDC 2025: WHAT TO EXPECT FROM THIS YEAR\u2019S...",
+    "relevance_score": 12
+  },
+  {
+    "title": "Scaling security with responsible disclosure",
+    "url": "https://openai.com/index/scaling-coordinated-vulnerability-disclosure",
+    "source": "OpenAI Blog",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "SCALING SECURITY WITH RESPONSIBLE DISCLOSURE",
+    "relevance_score": 3
+  },
+  {
+    "title": "AI-enabled control system helps autonomous drones stay on target in uncertain environments",
+    "url": "https://news.mit.edu/2025/ai-enabled-control-system-helps-autonomous-drones-uncertain-environments-0609",
+    "source": "MIT News - AI",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "AI-ENABLED CONTROL SYSTEM HELPS AUTONOMOUS DRONES STAY ON...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Apple details the end of Intel Mac support and a phaseout for Rosetta 2 - Ars Technica",
+    "url": "https://arstechnica.com/gadgets/2025/06/apple-details-the-end-of-intel-mac-support-and-a-phaseout-for-rosetta-2/",
+    "source": "NewsAPI (Ars Technica)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE DETAILS THE END OF INTEL MAC SUPPORT...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Four new iPad apps are coming in iPadOS 26 later this year - 9to5Mac",
+    "url": "https://9to5mac.com/2025/06/09/four-new-ipad-apps-are-coming-in-ipados-26-later-this-year/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "FOUR NEW IPAD APPS ARE COMING IN IPADOS...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple unveils watchOS 26 with new design, wrist-flick gesture, and AI Workout Buddy feature - TechCrunch",
+    "url": "https://techcrunch.com/2025/06/09/apple-unveils-watchos-26-with-new-design-wrist-flick-gesture-and-ai-workout-buddy-feature/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE UNVEILS WATCHOS 26 WITH NEW DESIGN, WRIST-FLICK...",
+    "relevance_score": 2
+  },
+  {
+    "title": "WWDC 2025: Apple Says Personalized Siri Features Are Still Not Ready - MacRumors",
+    "url": "https://www.macrumors.com/2025/06/09/personalized-siri-still-not-ready/",
+    "source": "NewsAPI (MacRumors)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "WWDC 2025: APPLE SAYS PERSONALIZED SIRI FEATURES ARE...",
+    "relevance_score": 2
+  },
+  {
+    "title": "The Xbox Handheld Is Launching at the Worst Possible Moment - Gizmodo",
+    "url": "https://gizmodo.com/the-xbox-handheld-is-launching-at-the-worst-possible-moment-2000613111",
+    "source": "NewsAPI (Gizmodo.com)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "THE XBOX HANDHELD IS LAUNCHING AT THE WORST...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple punts on Siri updates as it struggles to keep up in the AI race",
+    "url": "https://www.theverge.com/apple/682984/apple-punts-on-siri-updates-as-it-struggles-to-keep-up-in-the-ai-race",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE PUNTS ON SIRI UPDATES AS IT STRUGGLES...",
+    "relevance_score": 2
+  },
+  {
+    "title": "iOS 26\u2019s new \u2018adaptive power\u2019 mode dials back performance to save battery",
+    "url": "https://www.theverge.com/news/683797/ios-26s-new-adaptive-power-mode-dials-back-performance-to-save-battery",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "IOS 26\u2019S NEW \u2018ADAPTIVE POWER\u2019 MODE DIALS BACK...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Here\u2019s what\u2019s coming to macOS Tahoe",
+    "url": "https://techcrunch.com/2025/06/09/heres-whats-coming-to-macos-tahoe/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "HERE\u2019S WHAT\u2019S COMING TO MACOS TAHOE",
+    "relevance_score": 2
+  },
+  {
+    "title": "WWDC 2025: Everything announced, including Liquid Glass, Apple Intelligence updates, and more",
+    "url": "https://techcrunch.com/2025/06/09/wwdc-2025-everything-announced-including-liquid-glass-apple-intelligence-updates-and-more/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "WWDC 2025: EVERYTHING ANNOUNCED, INCLUDING LIQUID GLASS, APPLE...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Here are all the iOS 26 rumors that came true at WWDC",
+    "url": "https://techcrunch.com/2025/06/09/here-are-all-the-ios26-rumors-changes-that-came-true-at-wwdc/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "HERE ARE ALL THE IOS 26 RUMORS THAT...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple WWDC 2025: the 13 biggest announcements",
+    "url": "https://www.theverge.com/news/682769/apple-wwdc-2025-biggest-announcements-ios-26",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE WWDC 2025: THE 13 BIGGEST ANNOUNCEMENTS",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple brings ChatGPT and other AI models to Xcode",
+    "url": "https://techcrunch.com/2025/06/09/apple-brings-chatgpt-and-other-ai-models-to-xcode/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE BRINGS CHATGPT AND OTHER AI MODELS TO...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple\u2019s Spotlight upgrades look like a power-user dream",
+    "url": "https://www.theverge.com/apple/682950/apple-spotlight-mac-shortcuts",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE\u2019S SPOTLIGHT UPGRADES LOOK LIKE A POWER-USER DREAM",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple\u2019s iOS 26 will redesign Lock Screen, Home Screen, and native iOS apps",
+    "url": "https://techcrunch.com/2025/06/09/apples-ios-26-will-redesign-lock-screen-home-screen-and-native-ios-apps/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE\u2019S IOS 26 WILL REDESIGN LOCK SCREEN, HOME...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple\u2019s new Maps will learn your commute in iOS 26",
+    "url": "https://techcrunch.com/2025/06/09/apples-new-maps-will-learn-your-commute-in-ios-26/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE\u2019S NEW MAPS WILL LEARN YOUR COMMUTE IN...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple\u2019s new Maps will learn your commute",
+    "url": "https://techcrunch.com/2025/06/09/apples-new-maps-will-learn-your-commute/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE\u2019S NEW MAPS WILL LEARN YOUR COMMUTE",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple Music adds lyrics translation and pronunciation features",
+    "url": "https://techcrunch.com/2025/06/09/apple-music-adds-lyrics-translation-and-pronunciation-features/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE MUSIC ADDS LYRICS TRANSLATION AND PRONUNCIATION FEATURES",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple Music adds lyrics translation and pronunciation features in iOS 26",
+    "url": "https://techcrunch.com/2025/06/09/apple-music-adds-lyrics-translation-and-pronunciation-features-in-ios-26/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE MUSIC ADDS LYRICS TRANSLATION AND PRONUNCIATION FEATURES...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple redesigns its operatings systems with \u2018Liquid Glass\u2019",
+    "url": "https://techcrunch.com/2025/06/09/apple-redesigns-its-operatings-systems-with-liquid-glass/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE REDESIGNS ITS OPERATINGS SYSTEMS WITH \u2018LIQUID GLASS\u2019",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple redesigns its operating systems with \u2018Liquid Glass\u2019 at WWDC 25",
+    "url": "https://techcrunch.com/2025/06/09/apple-redesigns-its-operating-systems-with-liquid-glass/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE REDESIGNS ITS OPERATING SYSTEMS WITH \u2018LIQUID GLASS\u2019...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple has announced tvOS 26",
+    "url": "https://www.theverge.com/news/681139/apple-tv-tvos-26-wwdc-features",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE HAS ANNOUNCED TVOS 26",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple announces iOS 26 with Liquid Glass redesign",
+    "url": "https://www.theverge.com/news/678305/apple-ios-26-wwdc-2025",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "APPLE ANNOUNCES IOS 26 WITH LIQUID GLASS REDESIGN",
+    "relevance_score": 2
+  },
+  {
+    "title": "A protester tried to interrupt Apple exec Craig Federighi at WWDC",
+    "url": "https://www.theverge.com/news/683036/apple-wwdc-2025-protester-craig-federighi",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "A PROTESTER TRIED TO INTERRUPT APPLE EXEC CRAIG...",
+    "relevance_score": 2
+  },
+  {
+    "title": "How burning Waymos became the image of the LA protests",
+    "url": "https://www.theverge.com/google-waymo/682932/la-protest-waymo-fire-destroy-ice-police",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "HOW BURNING WAYMOS BECAME THE IMAGE OF THE...",
+    "relevance_score": 2
+  },
+  {
+    "title": "WWDC 2025 live blog: a fresh new look at iOS, macOS, and more",
+    "url": "https://www.theverge.com/apple-event/677993/wwdc-2025-live-blog-apple-event-ios-ai",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "WWDC 2025 LIVE BLOG: A FRESH NEW LOOK...",
+    "relevance_score": 2
+  },
+  {
+    "title": "iOS 19: All the rumored changes Apple could be bringing to its new operating system",
+    "url": "https://techcrunch.com/2025/06/09/ios-19-all-the-rumored-changes-apple-could-be-bringing-to-its-new-operating-system/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "IOS 19: ALL THE RUMORED CHANGES APPLE COULD...",
+    "relevance_score": 2
+  },
+  {
+    "title": "How to watch Apple\u2019s WWDC 2025 keynote",
+    "url": "https://techcrunch.com/2025/06/09/how-to-watch-apples-wwdc-2025-keynote/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "HOW TO WATCH APPLE\u2019S WWDC 2025 KEYNOTE",
+    "relevance_score": 2
+  },
+  {
+    "title": "Asus and Lenovo\u2019s handhelds get price hike as Valve pauses some Steam Deck sales",
+    "url": "https://www.theverge.com/pc-gaming/682594/asus-rog-ally-x-price-hike-legion-go-s-steam-deck-oled-supply",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "ASUS AND LENOVO\u2019S HANDHELDS GET PRICE HIKE AS...",
+    "relevance_score": 2
+  },
+  {
+    "title": "WWDC 2025 live updates: A fresh look for iOS, a dedicated gaming app, and more",
+    "url": "https://techcrunch.com/storyline/wwdc-2025-live-updates-a-fresh-look-for-ios-a-dedicated-gaming-app-and-more/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "WWDC 2025 LIVE UPDATES: A FRESH LOOK FOR...",
+    "relevance_score": 2
+  },
+  {
+    "title": "One of the sleekest OLED gaming monitors around is 35 percent off",
+    "url": "https://www.theverge.com/tech/682721/sony-m10s-oled-gaming-monitor-air-purifier-meta-ray-ban-switch-2-deal-sale",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "ONE OF THE SLEEKEST OLED GAMING MONITORS AROUND...",
+    "relevance_score": 2
+  },
+  {
+    "title": "China shuts down AI tools during nationwide college exams",
+    "url": "https://www.theverge.com/news/682737/china-shuts-down-ai-chatbots-exam-season",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "CHINA SHUTS DOWN AI TOOLS DURING NATIONWIDE COLLEGE...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Taskrabbit CEO Ania Smith isn\u2019t afraid of AI robots replacing human labor",
+    "url": "https://www.theverge.com/decoder-podcast-with-nilay-patel/679470/taskrabbit-ceo-ania-smith-labor-gig-economy-work-ai-automation",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "TASKRABBIT CEO ANIA SMITH ISN\u2019T AFRAID OF AI...",
+    "relevance_score": 2
+  },
+  {
+    "title": "PayPal is adding hotel booking within its app, powered by Selfbook",
+    "url": "https://techcrunch.com/2025/06/09/paypal-is-adding-hotel-booking-with-in-its-app-powered-by-selfbook/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "PAYPAL IS ADDING HOTEL BOOKING WITHIN ITS APP,...",
+    "relevance_score": 2
+  },
+  {
+    "title": "It's Time to Kill Siri",
+    "url": "https://www.wired.com/story/its-time-to-kill-siri/",
+    "source": "NewsAPI (Wired)",
+    "published_date_obj": "2025-06-09",
+    "rewritten_title": "IT'S TIME TO KILL SIRI",
+    "relevance_score": 2
   },
   {
     "title": "Outbound coordinated vulnerability disclosure policy",
@@ -813,790 +1597,6 @@
     "source": "TechCrunch AI",
     "published_date_obj": "2025-06-07",
     "rewritten_title": "WEEK IN REVIEW: WHY ANTHROPIC CUT ACCESS TO...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Google AI Introduces Multi-Agent System Search MASS: A New AI Agent Optimization Framework for Better Prompts and Topologies",
-    "url": "https://www.marktechpost.com/2025/06/07/google-ai-introduces-multi-agent-system-search-mass-a-new-ai-agent-optimization-framework-for-better-prompts-and-topologies/",
-    "source": "MarkTechPost",
-    "published_date_obj": "2025-06-07",
-    "rewritten_title": "GOOGLE AI INTRODUCES MULTI-AGENT SYSTEM SEARCH MASS: A...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Agent-based computing is outgrowing the web as we know it",
-    "url": "https://venturebeat.com/ai/agent-based-computing-is-outgrowing-the-web-as-we-know-it/",
-    "source": "VentureBeat AI",
-    "published_date_obj": "2025-06-07",
-    "rewritten_title": "AGENT-BASED COMPUTING IS OUTGROWING THE WEB AS WE...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Popular AI apps get caught in the crosshairs of Anthropic and OpenAI",
-    "url": "https://www.theverge.com/command-line-newsletter/682102/popular-ai-apps-crosshairs-anthropic-openai",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-07",
-    "rewritten_title": "POPULAR AI APPS GET CAUGHT IN THE CROSSHAIRS...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Meet the Finalists: VivaTech's 5 Most Visionary Startups of 2025 | TechCrunch",
-    "url": "https://techcrunch.com/2025/06/06/meet-the-finalists-vivatechs-5-most-visionary-startups-of-2025/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-07",
-    "rewritten_title": "MEET THE FINALISTS: VIVATECH'S 5 MOST VISIONARY STARTUPS...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Mads Mikkelsen Plays Bond Villain Le Chiffre in Hitman Video Game - Variety",
-    "url": "https://variety.com/2025/gaming/news/mads-mikkelsen-reprises-bond-le-chiffre-hitman-video-game-1236421766/",
-    "source": "NewsAPI (Variety)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "MADS MIKKELSEN PLAYS BOND VILLAIN LE CHIFFRE IN...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Walmart Nintendo Switch 2: it was in stock and will be back next week - The Shortcut | Matt Swider",
-    "url": "https://www.theshortcut.com/p/walmart-nintendo-switch-2-restock",
-    "source": "NewsAPI (Theshortcut.com)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "WALMART NINTENDO SWITCH 2: IT WAS IN STOCK...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Mario Kart World: All Costume Unlocks & Complete Outfit List - Nintendo Life",
-    "url": "https://www.nintendolife.com/guides/mario-kart-world-all-costume-unlocks-and-complete-outfit-list",
-    "source": "NewsAPI (Nintendo Life)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "MARIO KART WORLD: ALL COSTUME UNLOCKS & COMPLETE...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Dying Light: The Beast launches August 22 - Gematsu",
-    "url": "https://www.gematsu.com/2025/06/dying-light-the-beast-launches-august-22",
-    "source": "NewsAPI (Gematsu)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "DYING LIGHT: THE BEAST LAUNCHES AUGUST 22 -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Lies of P DLC expansion \u2018Overture\u2019 now available - Gematsu",
-    "url": "https://www.gematsu.com/2025/06/lies-of-p-dlc-expansion-overture-now-available",
-    "source": "NewsAPI (Gematsu)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "LIES OF P DLC EXPANSION \u2018OVERTURE\u2019 NOW AVAILABLE...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Wear OS 6 hints that Google finally remembers newer Pixel Watches are waterproof - Android Police",
-    "url": "https://www.androidpolice.com/wear-os-6-hints-water-lock-feature/",
-    "source": "NewsAPI (Android Police)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "WEAR OS 6 HINTS THAT GOOGLE FINALLY REMEMBERS...",
-    "relevance_score": 2
-  },
-  {
-    "title": "iFixit Says Switch 2 Is Harder to Repair, Probably Still Drift Prone - WIRED",
-    "url": "https://www.wired.com/story/ifixit-says-switch-2-is-probably-still-drift-prone/",
-    "source": "NewsAPI (Wired)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "IFIXIT SAYS SWITCH 2 IS HARDER TO REPAIR,...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Meta Ray-Ban Glasses are at their Lowest Price Ever: Deal of the Day - NBC News",
-    "url": "https://www.nbcnews.com/select/shopping/meta-ray-ban-glasses-deal-of-the-day-2025-rcna211506",
-    "source": "NewsAPI (NBC News)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "META RAY-BAN GLASSES ARE AT THEIR LOWEST PRICE...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Nintendo Switch 2 demonstrates immense performance upgrade for previously near-unplayable games as well as shorter loading times - Notebookcheck",
-    "url": "https://www.notebookcheck.net/Nintendo-Switch-2-demonstrates-immense-performance-upgrade-for-previously-near-unplayable-games-as-well-as-shorter-loading-times.1031895.0.html",
-    "source": "NewsAPI (Notebookcheck.net)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "NINTENDO SWITCH 2 DEMONSTRATES IMMENSE PERFORMANCE UPGRADE FOR...",
-    "relevance_score": 2
-  },
-  {
-    "title": "GameStop promise replacements after retail staff staples Switch 2 screens - OC3D",
-    "url": "https://overclock3d.net/news/misc/gamestop-promise-replacements-after-retail-staff-staples-switch-2-screens/",
-    "source": "NewsAPI (Overclock3d.net)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "GAMESTOP PROMISE REPLACEMENTS AFTER RETAIL STAFF STAPLES SWITCH...",
-    "relevance_score": 2
-  },
-  {
-    "title": "ChatGPT wasn\u2019t built for this, but it\u2019s now the center of my daily routine - Android Authority",
-    "url": "https://www.androidauthority.com/chatgpt-daily-routine-3563344/",
-    "source": "NewsAPI (Android Authority)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "CHATGPT WASN\u2019T BUILT FOR THIS, BUT IT\u2019S NOW...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Porsche Built A One-Off Street-Legal 963 Hypercar For 88-Year-Old Roger Penske - Jalopnik",
-    "url": "https://www.jalopnik.com/1879166/porsche-built-one-off-street-legal-963-for-roger-penske/",
-    "source": "NewsAPI (Jalopnik)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "PORSCHE BUILT A ONE-OFF STREET-LEGAL 963 HYPERCAR FOR...",
-    "relevance_score": 2
-  },
-  {
-    "title": "The most fun camera app I\u2019ve used in forever",
-    "url": "https://www.theverge.com/installer-newsletter/681745/camera-app-iphone-mario-kart-switch-2-installer",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "THE MOST FUN CAMERA APP I\u2019VE USED IN...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Figure AI CEO skips live demo, sidesteps BMW deal questions on stage at tech conference | TechCrunch",
-    "url": "https://techcrunch.com/2025/06/06/figure-ai-ceo-skips-live-demo-sidesteps-bmw-deal-questions-on-stage-at-tech-conference/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "FIGURE AI CEO SKIPS LIVE DEMO, SIDESTEPS BMW...",
-    "relevance_score": 12
-  },
-  {
-    "title": "WWDC 2025: What to expect from this year\u2019s conference",
-    "url": "https://techcrunch.com/2025/06/06/wwdc-2025-what-to-expect-from-this-years-conference/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "WWDC 2025: WHAT TO EXPECT FROM THIS YEAR\u2019S...",
-    "relevance_score": 12
-  },
-  {
-    "title": "Splitgate 2 Dev Says He's Tired Of Playing Call Of Duty And Wants Titanfall 3 While Wearing A 'Make FPS Great Again' Hat - Kotaku",
-    "url": "https://kotaku.com/splitgate-2-battle-royale-trump-hat-summer-game-fest-1851783949",
-    "source": "NewsAPI (Kotaku)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "SPLITGATE 2 DEV SAYS HE'S TIRED OF PLAYING...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Every big announcement from Summer Game Fest 2025 - Polygon",
-    "url": "https://www.polygon.com/gaming/604574/summer-games-fest-2025-news-announcements-trailers",
-    "source": "NewsAPI (Polygon)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "EVERY BIG ANNOUNCEMENT FROM SUMMER GAME FEST 2025...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Capcom Announces Street Fighter 6's New Characters By Paying Kenny Omega To Cosplay Them - Kotaku",
-    "url": "https://kotaku.com/street-fighter-6-year-3-characters-sagat-ingrid-c-viper-1851783945",
-    "source": "NewsAPI (Kotaku)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "CAPCOM ANNOUNCES STREET FIGHTER 6'S NEW CHARACTERS BY...",
-    "relevance_score": 2
-  },
-  {
-    "title": "\u2018Resident Evil Requiem\u2019 Sets February 2026 Release From Capcom - Variety",
-    "url": "https://variety.com/2025/gaming/news/resident-evil-9-requiem-trailer-release-date-1236421778/",
-    "source": "NewsAPI (Variety)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "\u2018RESIDENT EVIL REQUIEM\u2019 SETS FEBRUARY 2026 RELEASE FROM...",
-    "relevance_score": 2
-  },
-  {
-    "title": "ILL Is A Survival Horror Game Made By People Who Worked On Longlegs, IT, V/H/S/Beyond, And More - Game Informer",
-    "url": "https://www.gameinformer.com/sgf-2025/2025/06/06/ill-is-a-survival-horror-game-made-by-people-who-worked-on-longlegs-it",
-    "source": "NewsAPI (Gameinformer.com)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "ILL IS A SURVIVAL HORROR GAME MADE BY...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Surprise, 'Lies of P' first DLC Overture is out right now on Xbox and PC. No, it's true! - Windows Central",
-    "url": "https://www.windowscentral.com/gaming/surprise-lies-of-p-first-dlc-overture-is-out-right-now-on-xbox-and-pc-no-its-true",
-    "source": "NewsAPI (Windows Central)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "SURPRISE, 'LIES OF P' FIRST DLC OVERTURE IS...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Killer Inn is Square Enix\u2019s new \u2018murder mystery action\u2019 game - The Verge",
-    "url": "https://www.theverge.com/news/680731/killer-inn-square-enix-murder-mystery-action-game-trailer",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "KILLER INN IS SQUARE ENIX\u2019S NEW \u2018MURDER MYSTERY...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Sega Throws Shade At Mario Kart While Showing Off Sonic Racing: Crossworlds - Kotaku",
-    "url": "https://kotaku.com/sonic-racing-crossworlds-sgf-trailer-yakuza-persona-1851783930",
-    "source": "NewsAPI (Kotaku)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "SEGA THROWS SHADE AT MARIO KART WHILE SHOWING...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Live Updates From Apple WWDC 2025 \ud83d\udd34 - Gizmodo",
-    "url": "https://gizmodo.com/live-updates-from-apple-wwdc-2025-\ud83d\udd34-2000612573",
-    "source": "NewsAPI (Gizmodo.com)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "LIVE UPDATES FROM APPLE WWDC 2025 \ud83d\udd34 -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Nintendo has replaced the longtime voice of Peach and Toad - Polygon",
-    "url": "https://www.polygon.com/nintendo-switch-2/604585/nintendo-voice-actor-princess-peach-toad-replaced-new",
-    "source": "NewsAPI (Polygon)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "NINTENDO HAS REPLACED THE LONGTIME VOICE OF PEACH...",
-    "relevance_score": 2
-  },
-  {
-    "title": "The Ray-Ban Meta smart glasses are on sale for their best price to date - The Verge",
-    "url": "https://www.theverge.com/tech/681620/ray-ban-meta-glasses-deal-sale",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "THE RAY-BAN META SMART GLASSES ARE ON SALE...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Apple Has a Huge Siri Problem That WWDC 2025 Probably Won\u2019t Fix - Gizmodo",
-    "url": "https://gizmodo.com/apple-has-a-huge-siri-problem-that-wwdc-2025-probably-wont-fix-2000612362",
-    "source": "NewsAPI (Gizmodo.com)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "APPLE HAS A HUGE SIRI PROBLEM THAT WWDC...",
-    "relevance_score": 2
-  },
-  {
-    "title": "A Japanese lander crashed on the Moon after losing track of its location - Ars Technica",
-    "url": "https://arstechnica.com/space/2025/06/a-japanese-lander-crashed-on-the-moon-after-losing-track-of-its-location/",
-    "source": "NewsAPI (Ars Technica)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "A JAPANESE LANDER CRASHED ON THE MOON AFTER...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Breath of the Wild\u2019s Switch 2 enhancements have me exploring Hyrule all over again - The Verge",
-    "url": "https://www.theverge.com/nintendo/681361/nintendo-switch-2-zelda-breath-of-the-wild-edition",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "BREATH OF THE WILD\u2019S SWITCH 2 ENHANCEMENTS HAVE...",
-    "relevance_score": 2
-  },
-  {
-    "title": "I tested Apple\u2019s 11th-gen iPad for a week, and it\u2019s still the best tablet - CNN",
-    "url": "https://www.cnn.com/cnn-underscored/reviews/ipad-11",
-    "source": "NewsAPI (CNN)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "I TESTED APPLE\u2019S 11TH-GEN IPAD FOR A WEEK,...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Mario Kart World Guide - All Courses, Cups, Missions, Collectibles, Tips & Tricks - Nintendo Life",
-    "url": "https://www.nintendolife.com/guides/mario-kart-world-guide-all-courses-cups-missions-collectibles-tips-and-tricks",
-    "source": "NewsAPI (Nintendo Life)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "MARIO KART WORLD GUIDE - ALL COURSES, CUPS,...",
-    "relevance_score": 2
-  },
-  {
-    "title": "AMD Radeon RX 9060 XT still available at MSRP one day after launch - VideoCardz.com",
-    "url": "https://videocardz.com/newz/amd-radeon-rx-9060-xt-still-available-at-msrp-one-day-after-launch",
-    "source": "NewsAPI (Videocardz.com)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "AMD RADEON RX 9060 XT STILL AVAILABLE AT...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Elden Ring Nightreign maintenance makes matchmaking less of a headache - Eurogamer",
-    "url": "https://www.eurogamer.net/elden-ring-nightreign-maintenance-makes-matchmaking-less-of-a-headache",
-    "source": "NewsAPI (Eurogamer.net)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "ELDEN RING NIGHTREIGN MAINTENANCE MAKES MATCHMAKING LESS OF...",
-    "relevance_score": 2
-  },
-  {
-    "title": "963 RSP Revealed: Meet Porsche's Street-Legal Le Mans Hypercar - Motor1.com",
-    "url": "https://www.motor1.com/news/761849/porsche-963-rsp-reveal/",
-    "source": "NewsAPI (Motor1 )",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "963 RSP REVEALED: MEET PORSCHE'S STREET-LEGAL LE MANS...",
-    "relevance_score": 2
-  },
-  {
-    "title": "PS5's Brilliant New State of Play Breaks Records for Sony - Push Square",
-    "url": "https://www.pushsquare.com/news/2025/06/ps5s-brilliant-new-state-of-play-breaks-records-for-sony",
-    "source": "NewsAPI (Push Square)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "PS5'S BRILLIANT NEW STATE OF PLAY BREAKS RECORDS...",
-    "relevance_score": 2
-  },
-  {
-    "title": "It\u2019s not just you: Mail has been broken on iOS 18.5 - 9to5Mac",
-    "url": "https://9to5mac.com/2025/06/05/mail-app-bug-ios-18-5/",
-    "source": "NewsAPI (9to5Mac)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "IT\u2019S NOT JUST YOU: MAIL HAS BEEN BROKEN...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Google starts testing \u2018Search Live\u2019 in AI Mode - 9to5Google",
-    "url": "http://9to5google.com/2025/06/05/google-search-live-testing/",
-    "source": "NewsAPI (9to5google.com)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "GOOGLE STARTS TESTING \u2018SEARCH LIVE\u2019 IN AI MODE...",
-    "relevance_score": 2
-  },
-  {
-    "title": "TechCrunch Mobility: How Jony Ive\u2019s LoveFrom helped Rivian and what Uber\u2019s next-generation playbook looks like | TechCrunch",
-    "url": "https://techcrunch.com/2025/06/06/techcrunch-mobility-how-jony-ives-lovefrom-helped-rivian-and-what-ubers-next-generation-playbook-looks-like/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "TECHCRUNCH MOBILITY: HOW JONY IVE\u2019S LOVEFROM HELPED RIVIAN...",
-    "relevance_score": 2
-  },
-  {
-    "title": "AI startups continue fueling San Francisco\u2019s office recovery | TechCrunch",
-    "url": "https://techcrunch.com/2025/06/06/ai-startups-continue-fueling-san-franciscos-office-recovery/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "AI STARTUPS CONTINUE FUELING SAN FRANCISCO\u2019S OFFICE RECOVERY...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Tesla's Optimus robot VP is reportedly leaving the company | TechCrunch",
-    "url": "https://techcrunch.com/2025/06/06/teslas-optimus-robot-vp-is-reportedly-leaving-the-company/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "TESLA'S OPTIMUS ROBOT VP IS REPORTEDLY LEAVING THE...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Google Gemini can now handle scheduled tasks like an assistant",
-    "url": "https://www.theverge.com/news/681762/google-gemini-scheduled-actions-planned-tasks",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "GOOGLE GEMINI CAN NOW HANDLE SCHEDULED TASKS LIKE...",
-    "relevance_score": 2
-  },
-  {
-    "title": "A ban on state AI laws could smash\u00a0Big Tech\u2019s legal guardrails",
-    "url": "https://www.theverge.com/politics/681727/ro-khanna-ai-state-law-moratorium-reconciliation",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "A BAN ON STATE AI LAWS COULD SMASH...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Peloton explores placing its equipment in gyms, launching marketplace for used gear | TechCrunch",
-    "url": "https://techcrunch.com/2025/06/06/peloton-explores-placing-its-equipment-in-gyms-launching-marketplace-for-used-gear/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "PELOTON EXPLORES PLACING ITS EQUIPMENT IN GYMS, LAUNCHING...",
-    "relevance_score": 2
-  },
-  {
-    "title": "X names Polymarket as its official prediction market partner",
-    "url": "https://techcrunch.com/2025/06/06/x-names-polymarket-as-its-official-prediction-market-partner/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "X NAMES POLYMARKET AS ITS OFFICIAL PREDICTION MARKET...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Startups Weekly: It\u2019s buying season | TechCrunch",
-    "url": "https://techcrunch.com/2025/06/06/startups-weekly-its-buying-season/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "STARTUPS WEEKLY: IT\u2019S BUYING SEASON | TECHCRUNCH",
-    "relevance_score": 2
-  },
-  {
-    "title": "Apple could show off revamped Phone, Safari, and Camera apps next week",
-    "url": "https://www.theverge.com/news/681416/apple-revamp-phone-safari-camera-apps-wwdc-rumor",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "APPLE COULD SHOW OFF REVAMPED PHONE, SAFARI, AND...",
-    "relevance_score": 2
-  },
-  {
-    "title": "DOGE Is on a Recruiting Spree",
-    "url": "https://www.wired.com/story/doge-recruiting-spree-elon-musk/",
-    "source": "NewsAPI (Wired)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "DOGE IS ON A RECRUITING SPREE",
-    "relevance_score": 2
-  },
-  {
-    "title": "Demis Hassabis On The Future of Work in the Age of AI",
-    "url": "https://www.wired.com/video/watch/big-interview-demis-hassabis-on-the-future-of-work-in-the-age-of-ai/",
-    "source": "NewsAPI (Wired)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "DEMIS HASSABIS ON THE FUTURE OF WORK IN...",
-    "relevance_score": 2
-  },
-  {
-    "title": "iOS 19: All the rumored changes Apple could be bringing to its new operating system",
-    "url": "https://techcrunch.com/2025/06/06/ios-19-all-the-rumored-changes-apple-could-be-bringing-to-its-new-operating-system/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "IOS 19: ALL THE RUMORED CHANGES APPLE COULD...",
-    "relevance_score": 2
-  },
-  {
-    "title": "OpenAI is storing deleted ChatGPT conversations as part of its NYT lawsuit",
-    "url": "https://www.theverge.com/news/681280/openai-storing-deleted-chats-nyt-lawsuit",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "OPENAI IS STORING DELETED CHATGPT CONVERSATIONS AS PART...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Peloton explores placing its equipment in gyms, launches marketplace for used gear | TechCrunch",
-    "url": "https://techcrunch.com/2025/06/06/peloton-explores-placing-its-equipment-in-gyms-launches-marketplace-for-used-gear/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "PELOTON EXPLORES PLACING ITS EQUIPMENT IN GYMS, LAUNCHES...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Whoop MG Review: A Screenless Tracker With Cardiac Measurements",
-    "url": "https://www.wired.com/review/whoop-mg/",
-    "source": "NewsAPI (Wired)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "WHOOP MG REVIEW: A SCREENLESS TRACKER WITH CARDIAC...",
-    "relevance_score": 2
-  },
-  {
-    "title": "The Vergecast\u2019s WWDC 2025 preview",
-    "url": "https://www.theverge.com/the-vergecast/681147/wwdc-2025-apple-preview-vergecast",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "THE VERGECAST\u2019S WWDC 2025 PREVIEW",
-    "relevance_score": 2
-  },
-  {
-    "title": "The Download: China\u2019s AI agent boom, and GPS alternatives",
-    "url": "https://www.technologyreview.com/2025/06/06/1118044/the-download-chinas-ai-agent-boom-and-gps-alternatives/",
-    "source": "NewsAPI (MIT Technology Review)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "THE DOWNLOAD: CHINA\u2019S AI AGENT BOOM, AND GPS...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Apple\u2019s WWDC 2025: How to Watch and What to Expect",
-    "url": "https://www.wired.com/story/apple-wwdc-2025-how-to-watch-what-to-expect/",
-    "source": "NewsAPI (Wired)",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "APPLE\u2019S WWDC 2025: HOW TO WATCH AND WHAT...",
-    "relevance_score": 2
-  },
-  {
-    "title": "SciSummary Review: I Summarized a Study in Seconds",
-    "url": "https://www.unite.ai/scisummary-review/",
-    "source": "Unite.AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "SCISUMMARY REVIEW: I SUMMARIZED A STUDY IN SECONDS",
-    "relevance_score": 13
-  },
-  {
-    "title": "2025 will be a \u2018pivotal year\u2019 for Meta\u2019s augmented and virtual reality, says CTO",
-    "url": "https://techcrunch.com/2025/06/06/2025-will-be-a-pivotal-year-for-metas-augmented-and-virtual-reality-says-cto/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "2025 WILL BE A \u2018PIVOTAL YEAR\u2019 FOR META\u2019S...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Why investing in growth-stage AI startups is getting riskier and more complicated",
-    "url": "https://techcrunch.com/2025/06/06/why-investing-in-growth-stage-ai-startups-is-getting-riskier-and-more-complicated/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "WHY INVESTING IN GROWTH-STAGE AI STARTUPS IS GETTING...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Anthropic appoints a national security expert to its governing trust",
-    "url": "https://techcrunch.com/2025/06/06/anthropic-appoints-a-national-security-expert-to-its-governing-trust/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "ANTHROPIC APPOINTS A NATIONAL SECURITY EXPERT TO ITS...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Inside Anthropic\u2019s AI ambitions with Jared Kaplan",
-    "url": "https://techcrunch.com/podcast/inside-anthropics-ai-ambitions-with-jared-kaplan/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "INSIDE ANTHROPIC\u2019S AI AMBITIONS WITH JARED KAPLAN",
-    "relevance_score": 3
-  },
-  {
-    "title": "Building Your AI Engine: How OpenAI Works with Startups",
-    "url": "https://techcrunch.com/video/building-your-ai-engine-how-openai-works-with-startups/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "BUILDING YOUR AI ENGINE: HOW OPENAI WORKS WITH...",
-    "relevance_score": 3
-  },
-  {
-    "title": "AI startups take to the stage to pitch their companies to a panel of judges",
-    "url": "https://techcrunch.com/video/ai-startups-take-to-the-stage-to-pitch-their-companies-to-a-panel-of-judges/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "AI STARTUPS TAKE TO THE STAGE TO PITCH...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Building More Scalable GenAI Applications for Startups and Developers",
-    "url": "https://techcrunch.com/video/building-more-scalable-genai-applications-for-startups-and-developers/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "BUILDING MORE SCALABLE GENAI APPLICATIONS FOR STARTUPS AND...",
-    "relevance_score": 3
-  },
-  {
-    "title": "EleutherAI releases massive AI training dataset of licensed and open domain text",
-    "url": "https://techcrunch.com/2025/06/06/eleutherai-releases-massive-ai-training-dataset-of-licensed-and-open-domain-text/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "ELEUTHERAI RELEASES MASSIVE AI TRAINING DATASET OF LICENSED...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Disruption playbook: How to beat AI incumbents at their own game",
-    "url": "https://techcrunch.com/video/disruption-playbook-how-to-beat-ai-incumbents-at-their-own-game/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "DISRUPTION PLAYBOOK: HOW TO BEAT AI INCUMBENTS AT...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Humans provide necessary \u2018checks and balances\u2019 for AI, says Lattice CEO",
-    "url": "https://techcrunch.com/2025/06/06/humans-provide-neccessary-checks-and-balance-for-ai-says-lattice-ceo/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "HUMANS PROVIDE NECESSARY \u2018CHECKS AND BALANCES\u2019 FOR AI,...",
-    "relevance_score": 3
-  },
-  {
-    "title": "The best ways to build on top of foundation models, with DeepMind, Twelve Labs, and Amazon",
-    "url": "https://techcrunch.com/video/the-best-ways-to-build-on-top-of-foundation-models-with-deepmind-twelve-labs-and-amazon/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "THE BEST WAYS TO BUILD ON TOP OF...",
-    "relevance_score": 3
-  },
-  {
-    "title": "OpenAI\u2019s marketing head takes leave to undergo breast cancer treatment",
-    "url": "https://techcrunch.com/2025/06/06/openais-marketing-head-takes-leave-to-undergo-breast-cancer-treatment/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "OPENAI\u2019S MARKETING HEAD TAKES LEAVE TO UNDERGO BREAST...",
-    "relevance_score": 3
-  },
-  {
-    "title": "A deep dive on AI safety and ethics with Databricks and ElevenLabs",
-    "url": "https://techcrunch.com/video/a-deep-dive-on-ai-safety-and-ethics-with-databricks-and-elevenlabs/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "A DEEP DIVE ON AI SAFETY AND ETHICS...",
-    "relevance_score": 3
-  },
-  {
-    "title": "AMD acqui-hires the employees behind Untether AI",
-    "url": "https://techcrunch.com/2025/06/06/amd-acqui-hires-the-employees-behind-untether-ai/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "AMD ACQUI-HIRES THE EMPLOYEES BEHIND UNTETHER AI",
-    "relevance_score": 3
-  },
-  {
-    "title": "The case for AI co-founders, from less equity dilution to an infinite memory",
-    "url": "https://techcrunch.com/video/the-case-for-ai-co-founders-from-less-equity-dilution-to-an-infinite-memory/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "THE CASE FOR AI CO-FOUNDERS, FROM LESS EQUITY...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Cut through the AI hype and learn what really gets funded in 2025",
-    "url": "https://techcrunch.com/video/cut-through-the-ai-hype-and-learn-what-really-gets-funded-in-2025/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "CUT THROUGH THE AI HYPE AND LEARN WHAT...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Toyota and NLX: Making AI work in the world of car repairs",
-    "url": "https://techcrunch.com/video/toyota-and-nlx-making-ai-work-in-the-world-of-car-repairs/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "TOYOTA AND NLX: MAKING AI WORK IN THE...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Build a serverless audio summarization solution with Amazon Bedrock and Whisper",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-a-serverless-audio-summarization-solution-with-amazon-bedrock-and-whisper/",
-    "source": "AWS Machine Learning Blog",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "BUILD A SERVERLESS AUDIO SUMMARIZATION SOLUTION WITH AMAZON...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Implement semantic video search using open source large vision models on Amazon SageMaker and Amazon OpenSearch Serverless",
-    "url": "https://aws.amazon.com/blogs/machine-learning/implement-semantic-video-search-using-open-source-large-vision-models-on-amazon-sagemaker-and-amazon-opensearch-serverless/",
-    "source": "AWS Machine Learning Blog",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "IMPLEMENT SEMANTIC VIDEO SEARCH USING OPEN SOURCE LARGE...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Multi-account support for Amazon SageMaker HyperPod task governance",
-    "url": "https://aws.amazon.com/blogs/machine-learning/multi-account-support-for-amazon-sagemaker-hyperpod-task-governance/",
-    "source": "AWS Machine Learning Blog",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "MULTI-ACCOUNT SUPPORT FOR AMAZON SAGEMAKER HYPERPOD TASK GOVERNANCE",
-    "relevance_score": 3
-  },
-  {
-    "title": "Build a Text-to-SQL solution for data consistency in generative AI using Amazon Nova",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-a-text-to-sql-solution-for-data-consistency-in-generative-ai-using-amazon-nova/",
-    "source": "AWS Machine Learning Blog",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "BUILD A TEXT-TO-SQL SOLUTION FOR DATA CONSISTENCY IN...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Not Everything Needs Automation: 5 Practical AI Agents That Deliver Enterprise Value",
-    "url": "https://towardsdatascience.com/not-everything-needs-automation-5-practical-ai-agents-that-deliver-enterprise-value/",
-    "source": "Towards Data Science",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "NOT EVERYTHING NEEDS AUTOMATION: 5 PRACTICAL AI AGENTS...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Prescriptive Modeling Unpacked: A Complete Guide to Intervention With Bayesian Modeling.",
-    "url": "https://towardsdatascience.com/prescriptive-modeling-unpacked-a-complete-guide-to-intervention-with-bayesian-modeling/",
-    "source": "Towards Data Science",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "PRESCRIPTIVE MODELING UNPACKED: A COMPLETE GUIDE TO INTERVENTION...",
-    "relevance_score": 3
-  },
-  {
-    "title": "How I Automated My Machine Learning Workflow with Just 10 Lines of\u00a0Python",
-    "url": "https://towardsdatascience.com/how-i-automated-my-machine-learning-workflow-with-just-10-lines-of-python/",
-    "source": "Towards Data Science",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "HOW I AUTOMATED MY MACHINE LEARNING WORKFLOW WITH...",
-    "relevance_score": 3
-  },
-  {
-    "title": "The Role of Luck in Sports: Can We Measure It?",
-    "url": "https://towardsdatascience.com/the-role-of-luck-in-sports-can-we-measure-it/",
-    "source": "Towards Data Science",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "THE ROLE OF LUCK IN SPORTS: CAN WE...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Why AI Projects Fail",
-    "url": "https://towardsdatascience.com/why-ai-projects-fail/",
-    "source": "Towards Data Science",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "WHY AI PROJECTS FAIL",
-    "relevance_score": 3
-  },
-  {
-    "title": "5 Crucial Tweaks That Will Make Your Charts Accessible to People with Visual Impairments",
-    "url": "https://towardsdatascience.com/5-crucial-tweaks-that-will-make-your-charts-accessible-to-people-with-visual-impairments/",
-    "source": "Towards Data Science",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "5 CRUCIAL TWEAKS THAT WILL MAKE YOUR CHARTS...",
-    "relevance_score": 3
-  },
-  {
-    "title": "5 Error Handling Patterns in Python (Beyond Try-Except)",
-    "url": "https://www.kdnuggets.com/5-error-handling-patterns-in-python-beyond-try-except",
-    "source": "KDnuggets",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "5 ERROR HANDLING PATTERNS IN PYTHON (BEYOND TRY-EXCEPT)",
-    "relevance_score": 3
-  },
-  {
-    "title": "Anthropic releases custom AI chatbot for classified spy work",
-    "url": "https://arstechnica.com/ai/2025/06/anthropic-releases-custom-ai-chatbot-for-classified-spy-work/",
-    "source": "Ars Technica AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "ANTHROPIC RELEASES CUSTOM AI CHATBOT FOR CLASSIFIED SPY...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Millions of low-cost Android devices turn home networks into crime platforms",
-    "url": "https://arstechnica.com/security/2025/06/millions-of-low-cost-android-devices-turn-home-networks-into-crime-platforms/",
-    "source": "Ars Technica AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "MILLIONS OF LOW-COST ANDROID DEVICES TURN HOME NETWORKS...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Dealing with Missing Data Strategically: Advanced Imputation Techniques in Pandas and Scikit-learn",
-    "url": "https://machinelearningmastery.com/dealing-with-missing-data-strategically-advanced-imputation-techniques-in-pandas-and-scikit-learn/",
-    "source": "Machine Learning Mastery",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "DEALING WITH MISSING DATA STRATEGICALLY: ADVANCED IMPUTATION TECHNIQUES...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Anthropic launches Claude AI models for US national security",
-    "url": "https://www.artificialintelligence-news.com/news/anthropic-launches-claude-ai-models-for-us-national-security/",
-    "source": "AI News",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "ANTHROPIC LAUNCHES CLAUDE AI MODELS FOR US NATIONAL...",
-    "relevance_score": 3
-  },
-  {
-    "title": "The Kingdom\u2019s digital transformation showcased at Smart Data & AI Summit",
-    "url": "https://www.artificialintelligence-news.com/news/smart-data-ai-summit/",
-    "source": "AI News",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "THE KINGDOM\u2019S DIGITAL TRANSFORMATION SHOWCASED AT SMART DATA...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Building Confidence in AI: Training Programs Help Close Knowledge Gaps",
-    "url": "https://www.unite.ai/building-confidence-in-ai-training-programs-help-close-knowledge-gaps/",
-    "source": "Unite.AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "BUILDING CONFIDENCE IN AI: TRAINING PROGRAMS HELP CLOSE...",
-    "relevance_score": 3
-  },
-  {
-    "title": "When Your AI Invents Facts: The Enterprise Risk No Leader Can Ignore",
-    "url": "https://www.unite.ai/when-your-ai-invents-facts-the-enterprise-risk-no-leader-can-ignore/",
-    "source": "Unite.AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "WHEN YOUR AI INVENTS FACTS: THE ENTERPRISE RISK...",
-    "relevance_score": 3
-  },
-  {
-    "title": "How AI Might Save the News Media",
-    "url": "https://www.unite.ai/how-ai-might-save-the-news-media/",
-    "source": "Unite.AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "HOW AI MIGHT SAVE THE NEWS MEDIA",
-    "relevance_score": 3
-  },
-  {
-    "title": "How to Get ChatGPT to Talk Normally",
-    "url": "https://www.unite.ai/how-to-get-chatgpt-to-talk-normally/",
-    "source": "Unite.AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "HOW TO GET CHATGPT TO TALK NORMALLY",
-    "relevance_score": 3
-  },
-  {
-    "title": "The AI Control Dilemma: Risks and Solutions",
-    "url": "https://www.unite.ai/the-ai-control-dilemma-risks-and-solutions/",
-    "source": "Unite.AI",
-    "published_date_obj": "2025-06-06",
-    "rewritten_title": "THE AI CONTROL DILEMMA: RISKS AND SOLUTIONS",
     "relevance_score": 3
   }
 ]
