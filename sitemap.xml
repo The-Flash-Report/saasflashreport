@@ -3,7 +3,7 @@
     <!-- Main page -->
     <url>
         <loc>https://aiflashreport.com/</loc>
-        <lastmod>2025-06-11</lastmod>
+        <lastmod>2025-06-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -11,12 +11,19 @@
     <!-- Archive index -->
     <url>
         <loc>https://aiflashreport.com/archive/</loc>
-        <lastmod>2025-06-11</lastmod>
+        <lastmod>2025-06-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     
     <!-- Archive entries -->
+    
+    <url>
+        <loc>https://aiflashreport.com/archive/2025-06-12.html</loc>
+        <lastmod>2025-06-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
     
     <url>
         <loc>https://aiflashreport.com/archive/2025-06-11.html</loc>
