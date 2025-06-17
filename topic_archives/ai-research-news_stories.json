@@ -1,11 +1,643 @@
 [
   {
+    "title": "EPFL Researchers Introduce MEMOIR: A Scalable Framework for Lifelong Model Editing in LLMs",
+    "url": "https://www.marktechpost.com/2025/06/16/epfl-researchers-introduce-memoir-a-scalable-framework-for-lifelong-model-editing-in-llms/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-17",
+    "rewritten_title": "EPFL RESEARCHERS INTRODUCE MEMOIR: A SCALABLE FRAMEWORK FOR...",
+    "relevance_score": 13
+  },
+  {
+    "title": "A Practical Starters\u2019 Guide to Causal Structure Learning with Bayesian Methods in Python",
+    "url": "https://towardsdatascience.com/a-practical-starters-guide-to-causal-structure-learning-with-bayesian-methods-in-python/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-17",
+    "rewritten_title": "A PRACTICAL STARTERS\u2019 GUIDE TO CAUSAL STRUCTURE LEARNING...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Introducing OpenAI for Government",
+    "url": "https://openai.com/global-affairs/introducing-openai-for-government",
+    "source": "OpenAI Blog",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "INTRODUCING OPENAI FOR GOVERNMENT",
+    "relevance_score": 3
+  },
+  {
+    "title": "Celebrating an academic-industry collaboration to advance vehicle technology",
+    "url": "https://news.mit.edu/2025/celebrating-academic-industry-collaboration-advance-vehicle-technology-0616",
+    "source": "MIT News - AI",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "CELEBRATING AN ACADEMIC-INDUSTRY COLLABORATION TO ADVANCE VEHICLE TECHNOLOGY",
+    "relevance_score": 3
+  },
+  {
+    "title": "The cracks in the OpenAI-Microsoft relationship are reportedly widening",
+    "url": "https://techcrunch.com/2025/06/16/the-cracks-in-the-openai-microsoft-relationship-are-reportedly-widening/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "THE CRACKS IN THE OPENAI-MICROSOFT RELATIONSHIP ARE REPORTEDLY...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Alta raises $11M to bring \u2018Clueless\u2019 fashion tech to life with all-star investors",
+    "url": "https://techcrunch.com/2025/06/16/alta-raises-11m-to-bring-clueless-fashion-tech-to-life-with-all-star-investors/",
+    "source": "TechCrunch AI",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "ALTA RAISES $11M TO BRING \u2018CLUELESS\u2019 FASHION TECH...",
+    "relevance_score": 3
+  },
+  {
+    "title": "How Apollo Tyres is unlocking machine insights using agentic AI-powered Manufacturing Reasoner",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-apollo-tyres-is-unlocking-machine-insights-using-agentic-ai-powered-manufacturing-reasoner/",
+    "source": "AWS Machine Learning Blog",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "HOW APOLLO TYRES IS UNLOCKING MACHINE INSIGHTS USING...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Extend your Amazon Q Business with PagerDuty Advance data accessor",
+    "url": "https://aws.amazon.com/blogs/machine-learning/extend-your-amazon-q-business-with-pagerduty-advance-data-accessor/",
+    "source": "AWS Machine Learning Blog",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "EXTEND YOUR AMAZON Q BUSINESS WITH PAGERDUTY ADVANCE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Innovate business logic by implementing return of control in Amazon Bedrock Agents",
+    "url": "https://aws.amazon.com/blogs/machine-learning/innovate-business-logic-by-implementing-return-of-control-in-amazon-bedrock-agents/",
+    "source": "AWS Machine Learning Blog",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "INNOVATE BUSINESS LOGIC BY IMPLEMENTING RETURN OF CONTROL...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Let\u2019s Analyze OpenAI\u2019s Claims About ChatGPT Energy\u00a0Use",
+    "url": "https://towardsdatascience.com/lets-analyze-openais-claims-about-chatgpt-energy-use/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "LET\u2019S ANALYZE OPENAI\u2019S CLAIMS ABOUT CHATGPT ENERGY USE",
+    "relevance_score": 3
+  },
+  {
+    "title": "Regularisation: A Deep Dive into Theory, Implementation, and Practical Insights",
+    "url": "https://towardsdatascience.com/regularisation-a-deep-dive-into-theory-implementation-and-practical-insights/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "REGULARISATION: A DEEP DIVE INTO THEORY, IMPLEMENTATION, AND...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Build an AI Agent to Explore Your Data Catalog with Natural Language",
+    "url": "https://towardsdatascience.com/build-and-ai-agent-to-explore-your-data-catalog-with-natural-language/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "BUILD AN AI AGENT TO EXPLORE YOUR DATA...",
+    "relevance_score": 3
+  },
+  {
+    "title": "I Won $10,000 in a Machine Learning Competition \u2014 Here\u2019s My Complete Strategy",
+    "url": "https://towardsdatascience.com/i-won-10000-in-a-machine-learning-competition-heres-my-complete-strategy/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "I WON $10,000 IN A MACHINE LEARNING COMPETITION...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Agents, APIs, and the Next Layer of the Internet",
+    "url": "https://towardsdatascience.com/agents-apis-and-the-next-layer-of-the-internet/",
+    "source": "Towards Data Science",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "AGENTS, APIS, AND THE NEXT LAYER OF THE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Polars for Pandas Users: A Blazing Fast DataFrame Alternative",
+    "url": "https://www.kdnuggets.com/polars-for-pandas-users-a-blazing-fast-dataframe-alternative",
+    "source": "KDnuggets",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "POLARS FOR PANDAS USERS: A BLAZING FAST DATAFRAME...",
+    "relevance_score": 3
+  },
+  {
+    "title": "10 Large Language Model Key Concepts Explained",
+    "url": "https://www.kdnuggets.com/10-large-language-model-key-concepts-explained",
+    "source": "KDnuggets",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "10 LARGE LANGUAGE MODEL KEY CONCEPTS EXPLAINED",
+    "relevance_score": 3
+  },
+  {
+    "title": "Automatically Build AI Workflows with Magical AI",
+    "url": "https://www.kdnuggets.com/automatically-build-ai-workflows-with-magical-ai",
+    "source": "KDnuggets",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "AUTOMATICALLY BUILD AI WORKFLOWS WITH MAGICAL AI",
+    "relevance_score": 3
+  },
+  {
+    "title": "Vandals cut fiber-optic lines, causing outage for Spectrum Internet subscribers",
+    "url": "https://arstechnica.com/security/2025/06/vandals-cut-fiber-optic-lines-causing-outage-for-spectrum-internet-subscribers/",
+    "source": "Ars Technica AI",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "VANDALS CUT FIBER-OPTIC LINES, CAUSING OUTAGE FOR SPECTRUM...",
+    "relevance_score": 3
+  },
+  {
+    "title": "How to Combine Scikit-learn, CatBoost, and SHAP for Explainable Tree Models",
+    "url": "https://machinelearningmastery.com/how-to-combine-scikit-learn-catboost-and-shap-for-explainable-tree-models/",
+    "source": "Machine Learning Mastery",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "HOW TO COMBINE SCIKIT-LEARN, CATBOOST, AND SHAP FOR...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Meta buys stake in Scale AI, raising antitrust concerns",
+    "url": "https://www.artificialintelligence-news.com/news/meta-buys-stake-in-scale-ai-raising-antitrust-concerns/",
+    "source": "AI News",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "META BUYS STAKE IN SCALE AI, RAISING ANTITRUST...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Ericsson and AWS bet on AI to create self-healing networks",
+    "url": "https://www.artificialintelligence-news.com/news/ericsson-aws-bet-ai-create-self-healing-networks/",
+    "source": "AI News",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "ERICSSON AND AWS BET ON AI TO CREATE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "The concerted effort of maintaining application resilience",
+    "url": "https://www.artificialintelligence-news.com/news/ibm-concert-resilience-jennifer-fitzgerald-application-interview/",
+    "source": "AI News",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "THE CONCERTED EFFORT OF MAINTAINING APPLICATION RESILIENCE",
+    "relevance_score": 3
+  },
+  {
+    "title": "OpenBMB Releases MiniCPM4: Ultra-Efficient Language Models for Edge Devices with Sparse Attention and Fast Inference",
+    "url": "https://www.marktechpost.com/2025/06/16/openbmb-releases-minicpm4-ultra-efficient-language-models-for-edge-devices-with-sparse-attention-and-fast-inference/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "OPENBMB RELEASES MINICPM4: ULTRA-EFFICIENT LANGUAGE MODELS FOR EDGE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "StepFun Introduces Step-Audio-AQAA: A Fully End-to-End Audio Language Model for Natural Voice Interaction",
+    "url": "https://www.marktechpost.com/2025/06/16/stepfun-introduces-step-audio-aqaa-a-fully-end-to-end-audio-language-model-for-natural-voice-interaction/",
+    "source": "MarkTechPost",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "STEPFUN INTRODUCES STEP-AUDIO-AQAA: A FULLY END-TO-END AUDIO LANGUAGE...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Groq on Hugging Face Inference Providers \ud83d\udd25",
+    "url": "https://huggingface.co/blog/inference-providers-groq",
+    "source": "Hugging Face Blog",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "GROQ ON HUGGING FACE INFERENCE PROVIDERS \ud83d\udd25",
+    "relevance_score": 3
+  },
+  {
+    "title": "Cutting cloud waste at scale: Akamai saves 70% using AI agents orchestrated by kubernetes",
+    "url": "https://venturebeat.com/data-infrastructure/cutting-cloud-waste-at-scale-akamai-saves-70-using-ai-agents-orchestrated-by-kubernetes/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "CUTTING CLOUD WASTE AT SCALE: AKAMAI SAVES 70%...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Inside LinkedIn\u2019s AI overhaul: Job search powered by LLM distillation",
+    "url": "https://venturebeat.com/ai/inside-linkedins-ai-overhaul-job-search-powered-by-llm-distillation/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "INSIDE LINKEDIN\u2019S AI OVERHAUL: JOB SEARCH POWERED BY...",
+    "relevance_score": 3
+  },
+  {
+    "title": "MiniMax-M1 is a new open source model with 1 MILLION TOKEN context and new, hyper efficient reinforcement learning",
+    "url": "https://venturebeat.com/ai/minimax-m1-is-a-new-open-source-model-with-1-million-token-context-and-new-hyper-efficient-reinforcement-learning/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "MINIMAX-M1 IS A NEW OPEN SOURCE MODEL WITH...",
+    "relevance_score": 3
+  },
+  {
+    "title": "1Password and AWS join forces to secure AI, cloud environments for the enterprise",
+    "url": "https://venturebeat.com/ai/1password-and-aws-join-forces-to-secure-ai-cloud-environments-for-the-enterprise/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "1PASSWORD AND AWS JOIN FORCES TO SECURE AI,...",
+    "relevance_score": 3
+  },
+  {
+    "title": "How can you make sure your brand shows up in LLM search? Adobe\u2019s new LLM Optimizer seeks to provide the tools",
+    "url": "https://venturebeat.com/ai/how-can-you-best-position-your-brand-for-discovery-in-llm-search-adobes-new-llm-optimizer-seeks-to-provide-the-tools/",
+    "source": "VentureBeat AI",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "HOW CAN YOU MAKE SURE YOUR BRAND SHOWS...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Import AI 416: CyberGym; AI governance and AI evaluation; Harvard releases ~250bn tokens of text",
+    "url": "https://jack-clark.net/2025/06/16/import-ai-416-cybergym-ai-governance-and-ai-evaluation-harvard-releases-250bn-tokens-of-text/",
+    "source": "Import AI",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "IMPORT AI 416: CYBERGYM; AI GOVERNANCE AND AI...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Anker\u2019s Soundcore Sleep earbuds finally feature active noise canceling - The Verge",
+    "url": "https://www.theverge.com/news/686034/anker-soundcore-sleep-a30-wireless-earbuds-anc-active-noise-canceling",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "ANKER\u2019S SOUNDCORE SLEEP EARBUDS FINALLY FEATURE ACTIVE NOISE...",
+    "relevance_score": 2
+  },
+  {
+    "title": "What Gemini app features are free versus paid? [June 2025] - 9to5Google",
+    "url": "http://9to5google.com/2025/06/15/gemini-app-free-paid-features/",
+    "source": "NewsAPI (9to5google.com)",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "WHAT GEMINI APP FEATURES ARE FREE VERSUS PAID?...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Fitbit app redesigns device settings to match Pixel Watch - 9to5Google",
+    "url": "http://9to5google.com/2025/06/15/fitbit-device-settings-redesign/",
+    "source": "NewsAPI (9to5google.com)",
+    "published_date_obj": "2025-06-16",
+    "rewritten_title": "FITBIT APP REDESIGNS DEVICE SETTINGS TO MATCH PIXEL...",
+    "relevance_score": 2
+  },
+  {
     "title": "EPFL Researchers Unveil FG2 at CVPR: A New AI Model That Slashes Localization Errors by 28% for Autonomous Vehicles in GPS-Denied Environments",
     "url": "https://www.marktechpost.com/2025/06/15/epfl-researchers-unveil-fg2-at-cvpr-a-new-ai-model-that-slashes-localization-errors-by-28-for-autonomous-vehicles-in-gps-denied-environments/",
     "source": "MarkTechPost",
     "published_date_obj": "2025-06-16",
     "rewritten_title": "EPFL RESEARCHERS UNVEIL FG2 AT CVPR: A NEW...",
     "relevance_score": 13
+  },
+  {
+    "title": "Film Trailer Research Reveals \u201cYoung Male Audience Turning To Softer Men, Stronger Women Characters\u201d - Deadline",
+    "url": "http://deadline.com/2025/06/trailer-research-young-male-audience-soft-men-strong-women-1236434332/",
+    "source": "NewsAPI (Deadline)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "FILM TRAILER RESEARCH REVEALS \u201cYOUNG MALE AUDIENCE TURNING...",
+    "relevance_score": 12
+  },
+  {
+    "title": "Positional Encodings in Transformer Models",
+    "url": "https://machinelearningmastery.com/positional-encodings-in-transformer-models/",
+    "source": "Machine Learning Mastery",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "POSITIONAL ENCODINGS IN TRANSFORMER MODELS",
+    "relevance_score": 3
+  },
+  {
+    "title": "The Best Deals Today: Indiana Jones and the Great Circle, Nintendo Switch OLED, and More - IGN",
+    "url": "https://www.ign.com/articles/best-deals-for-june-15-2025",
+    "source": "NewsAPI (IGN)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "THE BEST DEALS TODAY: INDIANA JONES AND THE...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Electromechanical Atari Is A Steampunk Meccano Masterpiece - Hackaday",
+    "url": "https://hackaday.com/2025/06/15/electromechanical-atari-is-a-steampunk-meccano-masterpiece/",
+    "source": "NewsAPI (Hackaday)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "ELECTROMECHANICAL ATARI IS A STEAMPUNK MECCANO MASTERPIECE -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Your iPad is getting a major upgrade for free. 4 top features I can't wait to try in iPadOS 26 - ZDNET",
+    "url": "https://www.zdnet.com/article/your-ipad-is-getting-a-major-upgrade-for-free-4-top-features-i-cant-wait-to-try-in-ipados-26/",
+    "source": "NewsAPI (ZDNet)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "YOUR IPAD IS GETTING A MAJOR UPGRADE FOR...",
+    "relevance_score": 2
+  },
+  {
+    "title": "June 17 Is Going to Be a Big Day for Xbox Game Pass Subscribers - ComicBook.com",
+    "url": "http://comicbook.com/gaming/news/xbox-game-pass-ultimate-pc-gamepass-new-games-day-one-june/",
+    "source": "NewsAPI (ComicBook.com)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "JUNE 17 IS GOING TO BE A BIG...",
+    "relevance_score": 2
+  },
+  {
+    "title": "I found the best free and secure way to transfer files between Android and Windows or Mac - Android Police",
+    "url": "https://www.androidpolice.com/best-free-and-secure-way-to-transfer-files-between-android-windows-or-mac/",
+    "source": "NewsAPI (Android Police)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "I FOUND THE BEST FREE AND SECURE WAY...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Unreleased GeForce RTX 3080 Ti with 20GB memory spotted on eBay - VideoCardz.com",
+    "url": "https://videocardz.com/newz/unreleased-geforce-rtx-3080-ti-with-20gb-memory-spotted-on-ebay",
+    "source": "NewsAPI (Videocardz.com)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "UNRELEASED GEFORCE RTX 3080 TI WITH 20GB MEMORY...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Nintendo and Amazon\u2019s feud now seemingly resolved - My Nintendo News",
+    "url": "https://mynintendonews.com/2025/06/15/nintendo-and-amazons-feud-now-seemingly-resolved/",
+    "source": "NewsAPI (My Nintendo News)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "NINTENDO AND AMAZON\u2019S FEUD NOW SEEMINGLY RESOLVED -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Fake RTX 4090 with laser-engraved GA102 GPU exposed by repair shop, a recurring scam - VideoCardz.com",
+    "url": "https://videocardz.com/newz/fake-rtx-4090-with-laser-engraved-ga102-gpu-exposed-by-repair-shop-a-recurring-scam",
+    "source": "NewsAPI (Videocardz.com)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "FAKE RTX 4090 WITH LASER-ENGRAVED GA102 GPU EXPOSED...",
+    "relevance_score": 2
+  },
+  {
+    "title": "The secret Spotify feature that's unlocking my new favorite songs - Android Police",
+    "url": "https://www.androidpolice.com/the-spotify-secret-thats-unlocking-my-new-favorite-songs/",
+    "source": "NewsAPI (Android Police)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "THE SECRET SPOTIFY FEATURE THAT'S UNLOCKING MY NEW...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Stolen iPhones disabled by Apple's anti-theft tech after Los Angeles looting - TechSpot",
+    "url": "https://www.techspot.com/news/108318-stolen-iphones-disabled-apple-anti-theft-tech-after.html",
+    "source": "NewsAPI (TechSpot)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "STOLEN IPHONES DISABLED BY APPLE'S ANTI-THEFT TECH AFTER...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple's Latest Movie Trailer Innovation Suggests The Future Of Premium Home Viewing - SlashFilm",
+    "url": "https://www.slashfilm.com/1885916/apple-movie-haptic-trailer-innovation-premium-home-viewing-future/",
+    "source": "NewsAPI (/FILM)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "APPLE'S LATEST MOVIE TRAILER INNOVATION SUGGESTS THE FUTURE...",
+    "relevance_score": 2
+  },
+  {
+    "title": "PlayStation Fans Call New PS1 Remake Announcement the \"Best News This Year\" - ComicBook.com",
+    "url": "http://comicbook.com/gaming/news/ps1-playstation-1-sony-remake-news/",
+    "source": "NewsAPI (ComicBook.com)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "PLAYSTATION FANS CALL NEW PS1 REMAKE ANNOUNCEMENT THE...",
+    "relevance_score": 2
+  },
+  {
+    "title": "This T-Mobile free phone offer may be its hottest deal yet - TheStreet",
+    "url": "https://www.thestreet.com/technology-1/this-t-mobile-free-phone-offer-may-be-its-hottest-deal-yet",
+    "source": "NewsAPI (TheStreet)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "THIS T-MOBILE FREE PHONE OFFER MAY BE ITS...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Over 46,000 Grafana instances exposed to account takeover bug - BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/over-46-000-grafana-instances-exposed-to-account-takeover-bug/",
+    "source": "NewsAPI (BleepingComputer)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "OVER 46,000 GRAFANA INSTANCES EXPOSED TO ACCOUNT TAKEOVER...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Xbox\u2019s Next Generation of RPGs Unlock the Absurd Character Choices of Our Dreams - IGN",
+    "url": "https://www.ign.com/articles/xboxs-next-generation-of-rpgs-unlock-the-absurd-character-choices-of-our-dreams",
+    "source": "NewsAPI (IGN)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "XBOX\u2019S NEXT GENERATION OF RPGS UNLOCK THE ABSURD...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Fallout meets BioShock in fascinating new adventure game - GAMINGbible",
+    "url": "https://www.gamingbible.com/news/platform/steam/fallout-meets-bioshock-new-adventure-game-482130-20250612",
+    "source": "NewsAPI (Gamingbible.com)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "FALLOUT MEETS BIOSHOCK IN FASCINATING NEW ADVENTURE GAME...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Cyberpunk 2077: Dark Future will completely change the way you play - GAMINGbible",
+    "url": "https://www.gamingbible.com/news/platform/pc/cyberpunk-2077-dark-future-446084-20250613",
+    "source": "NewsAPI (Gamingbible.com)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "CYBERPUNK 2077: DARK FUTURE WILL COMPLETELY CHANGE THE...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple now expected to unveil HomeOS, related hardware ahead of 2026 WWDC - AppleInsider",
+    "url": "https://appleinsider.com/articles/25/06/15/apple-now-expected-to-unveil-homeos-related-hardware-ahead-of-2026-wwdc",
+    "source": "NewsAPI (AppleInsider)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "APPLE NOW EXPECTED TO UNVEIL HOMEOS, RELATED HARDWARE...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Red Dead Redemption star teases he \"cannot wait\" for us to know about a big announcement that's coming \"before Friday\" - Eurogamer",
+    "url": "https://www.eurogamer.net/red-dead-redemption-star-teases-he-cannot-wait-for-us-to-know-about-a-big-announcement-thats-coming-before-friday",
+    "source": "NewsAPI (Eurogamer.net)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "RED DEAD REDEMPTION STAR TEASES HE \"CANNOT WAIT\"...",
+    "relevance_score": 2
+  },
+  {
+    "title": "This decades-old Gmail trick is still my favorite email management hack - Android Police",
+    "url": "https://www.androidpolice.com/gmail-plus-trick/",
+    "source": "NewsAPI (Android Police)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "THIS DECADES-OLD GMAIL TRICK IS STILL MY FAVORITE...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple introduces ASIF disk image format in macOS 26 Tahoe for faster virtual storage - TechSpot",
+    "url": "https://www.techspot.com/news/108316-apple-introduces-asif-disk-image-format-macos-26.html",
+    "source": "NewsAPI (TechSpot)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "APPLE INTRODUCES ASIF DISK IMAGE FORMAT IN MACOS...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Mario Kart World wouldn\u2019t be in the running for Game of the Year even if it was perfect - polygon.com",
+    "url": "https://www.polygon.com/awards/606770/mario-kart-world-goty-game-of-the-year",
+    "source": "NewsAPI (Polygon)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "MARIO KART WORLD WOULDN\u2019T BE IN THE RUNNING...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Nintendo Switch 2 sets all-time launch record for hardware in the US, beating PS4 - Video Games Chronicle",
+    "url": "https://www.videogameschronicle.com/news/nintendo-switch-2-sets-all-time-launch-record-for-hardware-in-the-us-beating-ps4/",
+    "source": "NewsAPI (Video Games Chronicle)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "NINTENDO SWITCH 2 SETS ALL-TIME LAUNCH RECORD FOR...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple\u2019s Upgrades to CarPlay, iPad and Vision Pro Outshine Liquid Glass - Bloomberg.com",
+    "url": "https://www.bloomberg.com/news/newsletters/2025-06-15/wwdc-2025-biggest-releases-ipados-26-multitasking-visionos-26-and-new-carplay-mbxm63s2",
+    "source": "NewsAPI (Bloomberg)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "APPLE\u2019S UPGRADES TO CARPLAY, IPAD AND VISION PRO...",
+    "relevance_score": 2
+  },
+  {
+    "title": "With 50 Hours of Battery Life, These Beats Headphones Are at a New Record Low on Amazon - Gizmodo",
+    "url": "https://gizmodo.com/with-50-hours-of-battery-life-these-beats-headphones-are-at-a-new-record-low-on-amazon-2000615397",
+    "source": "NewsAPI (Gizmodo.com)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "WITH 50 HOURS OF BATTERY LIFE, THESE BEATS...",
+    "relevance_score": 2
+  },
+  {
+    "title": "The Architect Behind Drake\u2019s C$100 Million Toronto Mansion Designed This Muskoka \u2018Castle\u2019 - Mansion Global",
+    "url": "https://www.mansionglobal.com/articles/the-architect-behind-drakes-c-100-million-toronto-mansion-designed-this-muskoka-castle-d9c36113",
+    "source": "NewsAPI (Mansion Global)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "THE ARCHITECT BEHIND DRAKE\u2019S C$100 MILLION TORONTO MANSION...",
+    "relevance_score": 2
+  },
+  {
+    "title": "I used the Samsung Galaxy S25 Ultra and Galaxy A16; here\u2019s what $1,100 more buys you - Android Police",
+    "url": "https://www.androidpolice.com/samsung-galaxy-s25-galaxy-a16-comparison/",
+    "source": "NewsAPI (Android Police)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "I USED THE SAMSUNG GALAXY S25 ULTRA AND...",
+    "relevance_score": 2
+  },
+  {
+    "title": "She Spotted a Detail in a Photo and Knew Immediately\u2014Her Marriage Was Over - Jason Deegan",
+    "url": "https://jasondeegan.com/she-spotted-a-detail-in-a-photo-and-knew-immediately-her-marriage-was-over/",
+    "source": "NewsAPI (Jasondeegan.com)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "SHE SPOTTED A DETAIL IN A PHOTO AND...",
+    "relevance_score": 2
+  },
+  {
+    "title": "GTA Online Money Fronts Update Download Goes Live Early - RockstarINTEL",
+    "url": "https://rockstarintel.com/gta-online-money-fronts-update-download-goes-live-early/",
+    "source": "NewsAPI (Rockstarintel.com)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "GTA ONLINE MONEY FRONTS UPDATE DOWNLOAD GOES LIVE...",
+    "relevance_score": 2
+  },
+  {
+    "title": "This hidden Android feature was a lifesaver when my home internet died \u2014 here's how it works - Tom's Guide",
+    "url": "https://www.tomsguide.com/phones/android-phones/this-hidden-android-feature-was-a-lifesaver-when-my-home-internet-died-heres-how-it-works",
+    "source": "NewsAPI (Tom's Guide)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "THIS HIDDEN ANDROID FEATURE WAS A LIFESAVER WHEN...",
+    "relevance_score": 2
+  },
+  {
+    "title": "This email app is Gmail on steroids, and I can't recommend it enough - Android Police",
+    "url": "https://www.androidpolice.com/this-email-app-is-gmail-on-steroids/",
+    "source": "NewsAPI (Android Police)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "THIS EMAIL APP IS GMAIL ON STEROIDS, AND...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Exactly When Apple Will Launch iPhone 17 And iPhone 17 Pro - Forbes",
+    "url": "https://www.forbes.com/sites/davidphelan/2025/06/15/exactly-when-apple-will-launch-iphone-17-and-iphone-17-pro/",
+    "source": "NewsAPI (Forbes)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "EXACTLY WHEN APPLE WILL LAUNCH IPHONE 17 AND...",
+    "relevance_score": 2
+  },
+  {
+    "title": "New sci-fi survival game hits Steam with \"Very Positive\" reviews, intense gameplay, and a launch discount - Notebookcheck",
+    "url": "https://www.notebookcheck.net/New-sci-fi-survival-game-hits-Steam-with-Very-Positive-reviews-intense-gameplay-and-a-launch-discount.1036640.0.html",
+    "source": "NewsAPI (Notebookcheck.net)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "NEW SCI-FI SURVIVAL GAME HITS STEAM WITH \"VERY...",
+    "relevance_score": 2
+  },
+  {
+    "title": "AMD reportedly preparing Ryzen 7 9700F 8-core processor - VideoCardz.com",
+    "url": "https://videocardz.com/newz/amd-reportedly-preparing-ryzen-7-9700f-8-core-processor",
+    "source": "NewsAPI (Videocardz.com)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "AMD REPORTEDLY PREPARING RYZEN 7 9700F 8-CORE PROCESSOR...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Skyrim meets Assassin\u2019s Creed: Black Flag in gorgeous new RPG - GAMINGbible",
+    "url": "https://www.gamingbible.com/news/platform/steam/skyrim-assassins-creed-black-flag-new-rpg-973165-20250611",
+    "source": "NewsAPI (Gamingbible.com)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "SKYRIM MEETS ASSASSIN\u2019S CREED: BLACK FLAG IN GORGEOUS...",
+    "relevance_score": 2
+  },
+  {
+    "title": "I discovered the 5 plants that moles hate, to stop them from causing havoc in my backyard - Homes and Gardens",
+    "url": "https://www.homesandgardens.com/gardens/plants-that-moles-hate",
+    "source": "NewsAPI (Homesandgardens.com)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "I DISCOVERED THE 5 PLANTS THAT MOLES HATE,...",
+    "relevance_score": 2
+  },
+  {
+    "title": "LEGO Fortnite's Switch 2 Release Will Be Followed By A New Game Mode Next Week - Nintendo Life",
+    "url": "https://www.nintendolife.com/news/2025/06/lego-fortnites-switch-2-release-will-be-followed-by-a-new-game-mode-next-week",
+    "source": "NewsAPI (Nintendo Life)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "LEGO FORTNITE'S SWITCH 2 RELEASE WILL BE FOLLOWED...",
+    "relevance_score": 2
+  },
+  {
+    "title": "watchOS 26 preview: 5 new Apple Watch features I can\u2019t wait to try - Tom's Guide",
+    "url": "https://www.tomsguide.com/wellness/smartwatches/watchos-26-preview-5-new-apple-watch-features-i-cant-wait-to-try",
+    "source": "NewsAPI (Tom's Guide)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "WATCHOS 26 PREVIEW: 5 NEW APPLE WATCH FEATURES...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Experts say you should deadhead bee balm for blooms all summer long \u2013 here\u2019s when and how to do it - Homes and Gardens",
+    "url": "https://www.homesandgardens.com/gardens/how-to-deadhead-bee-balm",
+    "source": "NewsAPI (Homesandgardens.com)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "EXPERTS SAY YOU SHOULD DEADHEAD BEE BALM FOR...",
+    "relevance_score": 2
+  },
+  {
+    "title": "The U.S. Navy is more aggressively telling startups, 'We want you' | TechCrunch",
+    "url": "https://techcrunch.com/2025/06/15/the-u-s-navy-is-more-aggressively-telling-startups-we-want-you/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "THE U.S. NAVY IS MORE AGGRESSIVELY TELLING STARTUPS,...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Alexa von Tobel has high hopes for \u2018fintech 3.0\u2019",
+    "url": "https://techcrunch.com/2025/06/15/alexa-von-tobel-has-high-hopes-for-fintech-3-0/",
+    "source": "NewsAPI (TechCrunch)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "ALEXA VON TOBEL HAS HIGH HOPES FOR \u2018FINTECH...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Separating Material 3 Expressive from Android 16 was Google's smartest move all year - Android Police",
+    "url": "https://www.androidpolice.com/google-android-16-material-3-expressive/",
+    "source": "NewsAPI (Android Police)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "SEPARATING MATERIAL 3 EXPRESSIVE FROM ANDROID 16 WAS...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Change Your Gmail Password Now, Google Tells 2 Billion Users - Forbes",
+    "url": "https://www.forbes.com/sites/daveywinder/2025/06/15/change-your-gmail-password-now-google-tells-2-billion-users/",
+    "source": "NewsAPI (Forbes)",
+    "published_date_obj": "2025-06-15",
+    "rewritten_title": "CHANGE YOUR GMAIL PASSWORD NOW, GOOGLE TELLS 2...",
+    "relevance_score": 2
   },
   {
     "title": "Spiraling with ChatGPT",
@@ -62,6 +694,86 @@
     "published_date_obj": "2025-06-15",
     "rewritten_title": "MICROSOFT AI INTRODUCES CODE RESEARCHER: A DEEP RESEARCH...",
     "relevance_score": 13
+  },
+  {
+    "title": "Researchers claim spoof-proof random number generator breakthrough - theregister.com",
+    "url": "https://www.theregister.com/2025/06/14/researchers_claim_spoofproof_random_number/",
+    "source": "NewsAPI (Theregister.com)",
+    "published_date_obj": "2025-06-14",
+    "rewritten_title": "RESEARCHERS CLAIM SPOOF-PROOF RANDOM NUMBER GENERATOR BREAKTHROUGH -...",
+    "relevance_score": 12
+  },
+  {
+    "title": "Galaxy Z Fold 7, Flip 7 to get stunning visual upgrade with S25-like wallpaper glow - Sammy Fans",
+    "url": "https://www.sammyfans.com/2025/06/14/samsung-z-fold-7-and-flip-7-wallpapers-glow-like-the-galaxy-s25-leak/",
+    "source": "NewsAPI (Sammyfans.com)",
+    "published_date_obj": "2025-06-14",
+    "rewritten_title": "GALAXY Z FOLD 7, FLIP 7 TO GET...",
+    "relevance_score": 12
+  },
+  {
+    "title": "The Elder Scrolls 6 announcement has fans in disbelief - GAMINGbible",
+    "url": "https://www.gamingbible.com/news/the-elder-scrolls-6-announcement-fans-disbelief-525690-20250611",
+    "source": "NewsAPI (Gamingbible.com)",
+    "published_date_obj": "2025-06-14",
+    "rewritten_title": "THE ELDER SCROLLS 6 ANNOUNCEMENT HAS FANS IN...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Samsung Galaxy S25+ Powers Van Gogh Museum\u2019s New Audio Tour - Samsung Newsroom",
+    "url": "https://news.samsung.com/global/samsung-galaxy-s25-powers-van-gogh-museums-new-audio-tour",
+    "source": "NewsAPI (Samsung.com)",
+    "published_date_obj": "2025-06-14",
+    "rewritten_title": "SAMSUNG GALAXY S25+ POWERS VAN GOGH MUSEUM\u2019S NEW...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Zelda: Breath of the Wild and Zelda: Tears of the Kingdom both receive small updates - My Nintendo News",
+    "url": "https://mynintendonews.com/2025/06/14/zelda-breath-of-the-wild-and-zelda-tears-of-the-kingdom-both-receive-small-updates/",
+    "source": "NewsAPI (My Nintendo News)",
+    "published_date_obj": "2025-06-14",
+    "rewritten_title": "ZELDA: BREATH OF THE WILD AND ZELDA: TEARS...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Forget Commander, Clive is the core of my new MTG Final Fantasy standard deck - wargamer.com",
+    "url": "https://www.wargamer.com/magic-the-gathering/final-fantasy-sixteen-clive-standard-deck",
+    "source": "NewsAPI (Wargamer.com)",
+    "published_date_obj": "2025-06-14",
+    "rewritten_title": "FORGET COMMANDER, CLIVE IS THE CORE OF MY...",
+    "relevance_score": 2
+  },
+  {
+    "title": "MindsEye Is Officially The Worst Reviewed Game Of The Year So Far - TheGamer",
+    "url": "https://www.thegamer.com/mindseye-worst-game-of-the-year-reviews-metacritic-2025/",
+    "source": "NewsAPI (TheGamer)",
+    "published_date_obj": "2025-06-14",
+    "rewritten_title": "MINDSEYE IS OFFICIALLY THE WORST REVIEWED GAME OF...",
+    "relevance_score": 2
+  },
+  {
+    "title": "The Switch 2 Pro Controller: Prepare For Glue And Fragile Parts - Hackaday",
+    "url": "https://hackaday.com/2025/06/14/the-switch-2-pro-controller-prepare-for-glue-and-fragile-parts/",
+    "source": "NewsAPI (Hackaday)",
+    "published_date_obj": "2025-06-14",
+    "rewritten_title": "THE SWITCH 2 PRO CONTROLLER: PREPARE FOR GLUE...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Here comes the AI sponcon",
+    "url": "https://www.theverge.com/news/684572/tiktok-ai-advertising-videos-try-on-product-placement",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-06-14",
+    "rewritten_title": "HERE COMES THE AI SPONCON",
+    "relevance_score": 2
+  },
+  {
+    "title": "Android 16 QPR1 Beta 2 tests new Gemini launch animation with vibration - 9to5Google",
+    "url": "http://9to5google.com/2025/06/14/android-16-qpr1-beta-gemini-launch/",
+    "source": "NewsAPI (9to5google.com)",
+    "published_date_obj": "2025-06-14",
+    "rewritten_title": "ANDROID 16 QPR1 BETA 2 TESTS NEW GEMINI...",
+    "relevance_score": 2
   },
   {
     "title": "Street Fighter 6 input lag tests on Nintendo Switch 2 reveal higher latency results than most other systems - EventHubs",
@@ -318,6 +1030,14 @@
     "published_date_obj": "2025-06-14",
     "rewritten_title": "OPENTHOUGHTS: A SCALABLE SUPERVISED FINE-TUNING SFT DATA CURATION...",
     "relevance_score": 3
+  },
+  {
+    "title": "Devil May Cry 5 Can't Stop Selling, Now Tops 10 Million Units - Push Square",
+    "url": "https://www.pushsquare.com/news/2025/06/devil-may-cry-5-cant-stop-selling-now-tops-10-million-units",
+    "source": "NewsAPI (Push Square)",
+    "published_date_obj": "2025-06-13",
+    "rewritten_title": "DEVIL MAY CRY 5 CAN'T STOP SELLING, NOW...",
+    "relevance_score": 2
   },
   {
     "title": "New paper pushes back on Apple\u2019s LLM \u2018reasoning collapse\u2019 study - 9to5Mac",
@@ -878,725 +1598,5 @@
     "published_date_obj": "2025-06-13",
     "rewritten_title": "CLAY SECURES A NEW ROUND AT A $3B...",
     "relevance_score": 3
-  },
-  {
-    "title": "Meta\u2019s big AI bet and our not-so-hot-take on fintech IPOs",
-    "url": "https://techcrunch.com/podcast/metas-big-ai-bet-and-our-not-so-hot-take-on-fintech-ipos/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "META\u2019S BIG AI BET AND OUR NOT-SO-HOT-TAKE ON...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Nvidia to exclude China from its revenue and profit forecasts",
-    "url": "https://techcrunch.com/2025/06/13/nvidia-to-exclude-china-from-its-revenue-and-profit-forecasts/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "NVIDIA TO EXCLUDE CHINA FROM ITS REVENUE AND...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Scale AI confirms \u2018significant\u2019 investment from Meta, says CEO Alexandr Wang is leaving",
-    "url": "https://techcrunch.com/2025/06/13/scale-ai-confirms-significant-investment-from-meta-says-ceo-alexandr-wang-is-leaving/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "SCALE AI CONFIRMS \u2018SIGNIFICANT\u2019 INVESTMENT FROM META, SAYS...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Deploy Qwen models with Amazon Bedrock Custom Model Import",
-    "url": "https://aws.amazon.com/blogs/machine-learning/deploy-qwen-models-with-amazon-bedrock-custom-model-import/",
-    "source": "AWS Machine Learning Blog",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "DEPLOY QWEN MODELS WITH AMAZON BEDROCK CUSTOM MODEL...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Build generative AI solutions with Amazon Bedrock",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-generative-ai-solutions-with-amazon-bedrock/",
-    "source": "AWS Machine Learning Blog",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "BUILD GENERATIVE AI SOLUTIONS WITH AMAZON BEDROCK",
-    "relevance_score": 3
-  },
-  {
-    "title": "How Netsertive built a scalable AI assistant to extract meaningful insights from real-time data using Amazon Bedrock and Amazon Nova",
-    "url": "https://aws.amazon.com/blogs/machine-learning/how-netsertive-built-a-scalable-ai-assistant-to-extract-meaningful-insights-from-real-time-data-using-amazon-bedrock-and-amazon-nova/",
-    "source": "AWS Machine Learning Blog",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "HOW NETSERTIVE BUILT A SCALABLE AI ASSISTANT TO...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Make videos accessible with automated audio descriptions using Amazon Nova",
-    "url": "https://aws.amazon.com/blogs/machine-learning/make-videos-accessible-with-automated-audio-descriptions-using-amazon-nova/",
-    "source": "AWS Machine Learning Blog",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "MAKE VIDEOS ACCESSIBLE WITH AUTOMATED AUDIO DESCRIPTIONS USING...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Training Llama 3.3 Swallow: A Japanese sovereign LLM on Amazon SageMaker HyperPod",
-    "url": "https://aws.amazon.com/blogs/machine-learning/training-llama-3-3-swallow-a-japanese-sovereign-llm-on-amazon-sagemaker-hyperpod/",
-    "source": "AWS Machine Learning Blog",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "TRAINING LLAMA 3.3 SWALLOW: A JAPANESE SOVEREIGN LLM...",
-    "relevance_score": 3
-  },
-  {
-    "title": "What If I had AI in 2018: Rent the Runway Fulfillment Center Optimization",
-    "url": "https://towardsdatascience.com/what-if-i-had-ai-in-2018-rent-the-runway-fulfillment-center-optimization/",
-    "source": "Towards Data Science",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "WHAT IF I HAD AI IN 2018: RENT...",
-    "relevance_score": 3
-  },
-  {
-    "title": "AI Is Not a Black Box (Relatively Speaking)",
-    "url": "https://towardsdatascience.com/ai-is-not-a-black-box/",
-    "source": "Towards Data Science",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "AI IS NOT A BLACK BOX (RELATIVELY SPEAKING)",
-    "relevance_score": 3
-  },
-  {
-    "title": "How AI Agents \u201cTalk\u201d to Each Other",
-    "url": "https://towardsdatascience.com/how-ai-agents-talk-to-each-other/",
-    "source": "Towards Data Science",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "HOW AI AGENTS \u201cTALK\u201d TO EACH OTHER",
-    "relevance_score": 3
-  },
-  {
-    "title": "Automating GitHub Workflows with Claude 4",
-    "url": "https://www.kdnuggets.com/automate-github-workflows-with-claude-4",
-    "source": "KDnuggets",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "AUTOMATING GITHUB WORKFLOWS WITH CLAUDE 4",
-    "relevance_score": 3
-  },
-  {
-    "title": "AI Agents in Analytics Workflows: Too Early or Already Behind?",
-    "url": "https://www.kdnuggets.com/ai-agents-in-analytics-workflows-too-early-or-already-behind",
-    "source": "KDnuggets",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "AI AGENTS IN ANALYTICS WORKFLOWS: TOO EARLY OR...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Advanced Feature Engineering Using Scikit-Learn Pipelines with Pandas\u2019 ColumnTransformer and NumPy Arrays",
-    "url": "https://machinelearningmastery.com/advanced-feature-engineering-using-scikit-learn-pipelines-with-pandas-columntransformer-and-numpy-arrays/",
-    "source": "Machine Learning Mastery",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "ADVANCED FEATURE ENGINEERING USING SCIKIT-LEARN PIPELINES WITH PANDAS\u2019...",
-    "relevance_score": 3
-  },
-  {
-    "title": "NVIDIA helps Germany lead Europe\u2019s AI manufacturing race",
-    "url": "https://www.artificialintelligence-news.com/news/nvidia-helps-germany-lead-europe-ai-manufacturing-race/",
-    "source": "AI News",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "NVIDIA HELPS GERMANY LEAD EUROPE\u2019S AI MANUFACTURING RACE",
-    "relevance_score": 3
-  },
-  {
-    "title": "6 New ChatGPT Projects Features You Need to Know",
-    "url": "https://www.unite.ai/6-new-chatgpt-projects-features-you-need-to-know/",
-    "source": "Unite.AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "6 NEW CHATGPT PROJECTS FEATURES YOU NEED TO...",
-    "relevance_score": 3
-  },
-  {
-    "title": "The Influencer AI Review: This AI Replaces Influencers",
-    "url": "https://www.unite.ai/the-influencer-ai-review/",
-    "source": "Unite.AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "THE INFLUENCER AI REVIEW: THIS AI REPLACES INFLUENCERS",
-    "relevance_score": 3
-  },
-  {
-    "title": "Beyond Drones and AI: Rethinking the Future of Humanitarian Demining",
-    "url": "https://www.unite.ai/beyond-drones-and-ai-rethinking-the-future-of-humanitarian-demining/",
-    "source": "Unite.AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "BEYOND DRONES AND AI: RETHINKING THE FUTURE OF...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Hakob Astabatsyan, Co-Founder & CEO of Synthflow \u2013 Interview Series",
-    "url": "https://www.unite.ai/hakob-astabatsyan-co-founder-ceo-of-synthflow-interview-series/",
-    "source": "Unite.AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "HAKOB ASTABATSYAN, CO-FOUNDER & CEO OF SYNTHFLOW \u2013...",
-    "relevance_score": 3
-  },
-  {
-    "title": "AI-Generated Code Is Here to Stay. Are We Less Safe as a Result?",
-    "url": "https://www.unite.ai/ai-generated-code-is-here-to-stay-are-we-less-safe-as-a-result/",
-    "source": "Unite.AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "AI-GENERATED CODE IS HERE TO STAY. ARE WE...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Breaking the Sales Plateau with Agentic AI",
-    "url": "https://www.unite.ai/breaking-the-sales-plateau-with-agentic-ai/",
-    "source": "Unite.AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "BREAKING THE SALES PLATEAU WITH AGENTIC AI",
-    "relevance_score": 3
-  },
-  {
-    "title": "The Future of Advertising After an AI Traffic Coup",
-    "url": "https://www.unite.ai/the-future-of-advertising-after-an-ai-traffic-coup/",
-    "source": "Unite.AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "THE FUTURE OF ADVERTISING AFTER AN AI TRAFFIC...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Build a Secure AI Code Execution Workflow Using Daytona SDK",
-    "url": "https://www.marktechpost.com/2025/06/12/build-a-secure-ai-code-execution-workflow-using-daytona-sdk/",
-    "source": "MarkTechPost",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "BUILD A SECURE AI CODE EXECUTION WORKFLOW USING...",
-    "relevance_score": 3
-  },
-  {
-    "title": "The world needs to understand the deep oceans better",
-    "url": "https://www.economist.com/science-and-technology/2025/06/13/the-world-needs-to-understand-the-deep-oceans-better",
-    "source": "The Economist AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "THE WORLD NEEDS TO UNDERSTAND THE DEEP OCEANS...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Is the \u201cmanopause\u201d real?",
-    "url": "https://www.economist.com/science-and-technology/2025/06/13/is-the-manopause-real",
-    "source": "The Economist AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "IS THE \u201cMANOPAUSE\u201d REAL?",
-    "relevance_score": 3
-  },
-  {
-    "title": "Powering next-gen services with AI in regulated industries",
-    "url": "https://www.technologyreview.com/2025/06/13/1118600/powering-next-gen-services-with-ai-in-regulated-industries/",
-    "source": "MIT Technology Review AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "POWERING NEXT-GEN SERVICES WITH AI IN REGULATED INDUSTRIES",
-    "relevance_score": 3
-  },
-  {
-    "title": "The case for embedding audit trails in AI systems before scaling",
-    "url": "https://venturebeat.com/ai/the-case-for-embedding-audit-trails-in-ai-systems-before-scaling/",
-    "source": "VentureBeat AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "THE CASE FOR EMBEDDING AUDIT TRAILS IN AI...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Senator\u2019s RISE Act would require AI developers to list training data, evaluation methods in exchange for \u2018safe harbor\u2019 from lawsuits",
-    "url": "https://venturebeat.com/ai/senators-rise-act-would-require-ai-developers-to-list-training-data-evaluation-methods-in-exchange-for-safe-harbor-from-lawsuits/",
-    "source": "VentureBeat AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "SENATOR\u2019S RISE ACT WOULD REQUIRE AI DEVELOPERS TO...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Red team AI now to build safer, smarter models tomorrow",
-    "url": "https://venturebeat.com/security/red-team-ai-now-to-build-safer-smarter-models-tomorrow/",
-    "source": "VentureBeat AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "RED TEAM AI NOW TO BUILD SAFER, SMARTER...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Google tests Audio Overviews for Search queries",
-    "url": "https://techcrunch.com/2025/06/13/google-tests-audio-overviews-for-search-queries/",
-    "source": "TechCrunch AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "GOOGLE TESTS AUDIO OVERVIEWS FOR SEARCH QUERIES",
-    "relevance_score": 3
-  },
-  {
-    "title": "Beyond GPT architecture: Why Google\u2019s Diffusion approach could reshape LLM deployment",
-    "url": "https://venturebeat.com/ai/beyond-gpt-architecture-why-googles-diffusion-approach-could-reshape-llm-deployment/",
-    "source": "VentureBeat AI",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "BEYOND GPT ARCHITECTURE: WHY GOOGLE\u2019S DIFFUSION APPROACH COULD...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Meta is paying $14 billion to catch up in the AI race",
-    "url": "https://www.theverge.com/meta/685711/meta-scale-ai-ceo-alexandr-wang",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "META IS PAYING $14 BILLION TO CATCH UP...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Apple Researchers Reveal Structural Failures in Large Reasoning Models Using Puzzle-Based Evaluation",
-    "url": "https://www.marktechpost.com/2025/06/12/apple-researchers-reveal-structural-failures-in-large-reasoning-models-using-puzzle-based-evaluation/",
-    "source": "MarkTechPost",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "APPLE RESEARCHERS REVEAL STRUCTURAL FAILURES IN LARGE REASONING...",
-    "relevance_score": 13
-  },
-  {
-    "title": "This AI Paper Introduces VLM-R\u00b3: A Multimodal Framework for Region Recognition, Reasoning, and Refinement in Visual-Linguistic Tasks",
-    "url": "https://www.marktechpost.com/2025/06/12/this-ai-paper-introduces-vlm-r%c2%b3-a-multimodal-framework-for-region-recognition-reasoning-and-refinement-in-visual-linguistic-tasks/",
-    "source": "MarkTechPost",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "THIS AI PAPER INTRODUCES VLM-R\u00b3: A MULTIMODAL FRAMEWORK...",
-    "relevance_score": 13
-  },
-  {
-    "title": "Connecting the Dots for Better Movie Recommendations",
-    "url": "https://towardsdatascience.com/connecting-the-dots-for-better-movie-recommendations/",
-    "source": "Towards Data Science",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "CONNECTING THE DOTS FOR BETTER MOVIE RECOMMENDATIONS",
-    "relevance_score": 3
-  },
-  {
-    "title": "Google AI Unveils a Hybrid AI-Physics Model for Accurate Regional Climate Risk Forecasts with Better Uncertainty Assessment",
-    "url": "https://www.marktechpost.com/2025/06/12/google-ai-unveils-a-hybrid-ai-physics-model-for-accurate-regional-climate-risk-forecasts-with-better-uncertainty-assessment/",
-    "source": "MarkTechPost",
-    "published_date_obj": "2025-06-13",
-    "rewritten_title": "GOOGLE AI UNVEILS A HYBRID AI-PHYSICS MODEL FOR...",
-    "relevance_score": 3
-  },
-  {
-    "title": "AI flunks logic test: Multiple studies reveal illusion of reasoning - TechSpot",
-    "url": "https://www.techspot.com/news/108294-ai-flunks-logic-test-multiple-studies-reveal-illusion.html",
-    "source": "NewsAPI (TechSpot)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "AI FLUNKS LOGIC TEST: MULTIPLE STUDIES REVEAL ILLUSION...",
-    "relevance_score": 2
-  },
-  {
-    "title": "iPadOS 26 is perfect for the larger iPad model that\u2019s coming - 9to5Mac",
-    "url": "https://9to5mac.com/2025/06/12/ipados-26-is-perfect-for-apples-larger-ipad-thats-coming/",
-    "source": "NewsAPI (9to5Mac)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "IPADOS 26 IS PERFECT FOR THE LARGER IPAD...",
-    "relevance_score": 2
-  },
-  {
-    "title": "The Switch 2 Games To Play When You\u2019re Done With Mario Kart World - Game Informer",
-    "url": "https://www.gameinformer.com/impressions/2025/06/12/the-switch-2-games-to-play-when-youre-done-with-mario-kart-world",
-    "source": "NewsAPI (Gameinformer.com)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "THE SWITCH 2 GAMES TO PLAY WHEN YOU\u2019RE...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Resident Evil Requiem: Release Date, Gameplay, And Everything We Know So Far - GameSpot",
-    "url": "https://www.gamespot.com/articles/resident-evil-requiem-release-date-gameplay-and-everything-we-know-so-far/1100-6532378/",
-    "source": "NewsAPI (GameSpot)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "RESIDENT EVIL REQUIEM: RELEASE DATE, GAMEPLAY, AND EVERYTHING...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Konami Reveals \u2018Silent Hill\u2019 Remake Currently in Development From Bloober Team! [Watch] - Bloody Disgusting",
-    "url": "https://bloody-disgusting.com/video-games/3872673/konami-reveals-silent-hill-remake-currently-in-development-from-bloober-team-watch/",
-    "source": "NewsAPI (Bloody Disgusting)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "KONAMI REVEALS \u2018SILENT HILL\u2019 REMAKE CURRENTLY IN DEVELOPMENT...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Apple Watch Ultra 2 in black titanium now available refurbished from Apple - 9to5Mac",
-    "url": "https://9to5mac.com/2025/06/12/apple-watch-ultra-2-in-black-titanium-now-available-refurbished-from-apple/",
-    "source": "NewsAPI (9to5Mac)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "APPLE WATCH ULTRA 2 IN BLACK TITANIUM NOW...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Pixar exec says former boss Steve Jobs called workers anytime, even at 3 a.m. and on vacation\u2014but it's a red flag he won\u2019t repeat - Fortune",
-    "url": "https://fortune.com/2025/06/12/pixar-executive-steve-jobs-leadership-lesson-red-flag/",
-    "source": "NewsAPI (Fortune)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "PIXAR EXEC SAYS FORMER BOSS STEVE JOBS CALLED...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Video: Digital Foundry Delivers Its Cyberpunk 2077 Tech Review On Switch 2 - Nintendo Life",
-    "url": "https://www.nintendolife.com/news/2025/06/video-digital-foundry-delivers-its-cyberpunk-2077-tech-review-on-switch-2",
-    "source": "NewsAPI (Nintendo Life)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "VIDEO: DIGITAL FOUNDRY DELIVERS ITS CYBERPUNK 2077 TECH...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Outer Worlds 2 Director Reacts To $80 Price, Says Take It Up With Microsoft - GameSpot",
-    "url": "https://www.gamespot.com/articles/outer-worlds-2-director-reacts-to-80-price-says-take-it-up-with-microsoft/1100-6532390/",
-    "source": "NewsAPI (GameSpot)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "OUTER WORLDS 2 DIRECTOR REACTS TO $80 PRICE,...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Here's The Top 10 Most Expensive Pok\u00e9mon Cards in Destined Rivals - IGN",
-    "url": "https://www.ign.com/articles/pokemon-tcg-most-expensive-destined-rivals-cards",
-    "source": "NewsAPI (IGN)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "HERE'S THE TOP 10 MOST EXPENSIVE POK\u00c9MON CARDS...",
-    "relevance_score": 2
-  },
-  {
-    "title": "GTA newest update lets players run car wash fronts to launder money - Boing Boing",
-    "url": "https://boingboing.net/2025/06/12/gta-newest-update-lets-players-run-car-wash-fronts-to-launder-money.html",
-    "source": "NewsAPI (Boing Boing)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "GTA NEWEST UPDATE LETS PLAYERS RUN CAR WASH...",
-    "relevance_score": 2
-  },
-  {
-    "title": "That \u2018unsubscribe\u2019 link is actually a hidden security risk \u2014 do this instead - Tom's Guide",
-    "url": "https://www.tomsguide.com/computing/online-security/that-unsubscribe-link-is-actually-a-hidden-security-risk-do-this-instead",
-    "source": "NewsAPI (Tom's Guide)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "THAT \u2018UNSUBSCRIBE\u2019 LINK IS ACTUALLY A HIDDEN SECURITY...",
-    "relevance_score": 2
-  },
-  {
-    "title": "ChatGPT Just Got 'Absolutely Wrecked' at Chess, Losing to a 1970s-Era Atari 2600 - CNET",
-    "url": "https://www.cnet.com/tech/services-and-software/chatgpt-just-got-absolutely-wrecked-at-chess-losing-to-a-1970s-era-atari-2600/",
-    "source": "NewsAPI (CNET)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "CHATGPT JUST GOT 'ABSOLUTELY WRECKED' AT CHESS, LOSING...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Zero-Click AI Vulnerability Exposes Microsoft 365 Copilot Data Without User Interaction - The Hacker News",
-    "url": "https://thehackernews.com/2025/06/zero-click-ai-vulnerability-exposes.html",
-    "source": "NewsAPI (Internet)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "ZERO-CLICK AI VULNERABILITY EXPOSES MICROSOFT 365 COPILOT DATA...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Here\u2019s the $2,000 fully AI-generated ad that aired during the NBA Finals - The Verge",
-    "url": "https://www.theverge.com/news/686474/kalshi-ai-generated-ad-nba-finals-google-veo-3",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "HERE\u2019S THE $2,000 FULLY AI-GENERATED AD THAT AIRED...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Bloomberg: Apple now targeting iOS 26.4 for long-delayed Siri AI upgrade - 9to5Mac",
-    "url": "https://9to5mac.com/2025/06/12/apple-now-targeting-ios-26-4-for-siri-ai-upgrade/",
-    "source": "NewsAPI (9to5Mac)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "BLOOMBERG: APPLE NOW TARGETING IOS 26.4 FOR LONG-DELAYED...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Samsung Galaxy Z Fold7, Flip7 and Watch8 series bag more certifications - GSMArena.com",
-    "url": "https://www.gsmarena.com/samsung_galaxy_z_fold7_flip7_and_watch8_series_bag_more_certifications-news-68232.php",
-    "source": "NewsAPI (GSMArena.com)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "SAMSUNG GALAXY Z FOLD7, FLIP7 AND WATCH8 SERIES...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Engineer creates first custom motherboard for 1990s PlayStation console - Ars Technica",
-    "url": "https://arstechnica.com/gaming/2025/06/engineer-creates-first-custom-motherboard-for-1990s-playstation-console/",
-    "source": "NewsAPI (Ars Technica)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "ENGINEER CREATES FIRST CUSTOM MOTHERBOARD FOR 1990S PLAYSTATION...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Switch 2 size comparison: Nintendo\u2019s latest up next to a whole lot of consoles - The Verge",
-    "url": "https://www.theverge.com/nintendo/685920/nintendo-switch-2-size-comparison-steam-deck-playstation-xbox-consoles",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "SWITCH 2 SIZE COMPARISON: NINTENDO\u2019S LATEST UP NEXT...",
-    "relevance_score": 2
-  },
-  {
-    "title": "2025 Ford Mustang GTD Starts At An Eye-Watering $327,960 - Jalopnik",
-    "url": "https://www.jalopnik.com/1884696/2025-ford-mustang-gtd-window-sticker-base-price/",
-    "source": "NewsAPI (Jalopnik)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "2025 FORD MUSTANG GTD STARTS AT AN EYE-WATERING...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Xbox gamers surprised with free game as 'thank you' from Microsoft - GAMINGbible",
-    "url": "https://www.gamingbible.com/news/platform/xbox/xbox-free-game-thank-you-microsoft-301549-20250612",
-    "source": "NewsAPI (Gamingbible.com)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "XBOX GAMERS SURPRISED WITH FREE GAME AS 'THANK...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Microsoft\u2019s new Copilot Vision can \u2018see\u2019 your apps on Windows - The Verge",
-    "url": "https://www.theverge.com/news/685963/microsoft-copilot-vision-windows-launch",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "MICROSOFT\u2019S NEW COPILOT VISION CAN \u2018SEE\u2019 YOUR APPS...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Microsoft just teased its next-gen Xbox console, and nobody noticed - The Verge",
-    "url": "https://www.theverge.com/notepad-microsoft-newsletter/686101/microsoft-xbox-next-gen-console-handheld-hints-notepad",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "MICROSOFT JUST TEASED ITS NEXT-GEN XBOX CONSOLE, AND...",
-    "relevance_score": 2
-  },
-  {
-    "title": "All Xbox reveals from the Konami Press Start 2025 showcase - TrueAchievements",
-    "url": "https://www.trueachievements.com/news/xbox-games-konami-press-start-showcase-2025",
-    "source": "NewsAPI (TrueAchievements)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "ALL XBOX REVEALS FROM THE KONAMI PRESS START...",
-    "relevance_score": 2
-  },
-  {
-    "title": "iOS 26 and macOS Tahoe Expand AutoFill Feature for One-Time Codes - MacRumors",
-    "url": "https://www.macrumors.com/2025/06/12/ios-26-macos-tahoe-expand-one-time-code-autofill/",
-    "source": "NewsAPI (MacRumors)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "IOS 26 AND MACOS TAHOE EXPAND AUTOFILL FEATURE...",
-    "relevance_score": 2
-  },
-  {
-    "title": "MindsEye Dev 'Heartbroken' Amid Troubled Launch as Players Report Success With Refunds and Sponsored Streams Are Canceled Last Minute - IGN",
-    "url": "https://www.ign.com/articles/mindseye-dev-heartbroken-amid-troubled-launch-as-players-report-success-with-refunds-and-sponsored-streams-are-canceled-last-minute",
-    "source": "NewsAPI (IGN)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "MINDSEYE DEV 'HEARTBROKEN' AMID TROUBLED LAUNCH AS PLAYERS...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Aurora alert! Moderate geomagnetic storm could spark northern lights as far south as New York and Idaho on June 14 - Space",
-    "url": "https://www.space.com/stargazing/auroras/aurora-alert-moderate-geomagnetic-storm-could-spark-northern-lights-as-far-south-as-new-york-and-idaho-on-june-14",
-    "source": "NewsAPI (Space.com)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "AURORA ALERT! MODERATE GEOMAGNETIC STORM COULD SPARK NORTHERN...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Silent Hill remake from Bloober Team and Konami announced - Polygon",
-    "url": "https://www.polygon.com/news/606592/silent-hill-remake-bloober-team-konami",
-    "source": "NewsAPI (Polygon)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "SILENT HILL REMAKE FROM BLOOBER TEAM AND KONAMI...",
-    "relevance_score": 2
-  },
-  {
-    "title": "One UI 8 brings Call Captions: Live Caption for calls - SamMobile",
-    "url": "https://www.sammobile.com/news/galaxy-s25-one-ui-8-beta-2-update-live/",
-    "source": "NewsAPI (SamMobile)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "ONE UI 8 BRINGS CALL CAPTIONS: LIVE CAPTION...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Amazon Slashes AirPods 4 Prices Just Before Prime Day, Now Closer to $0 Than $200 - Gizmodo",
-    "url": "https://gizmodo.com/amazon-slashes-airpods-4-prices-just-before-prime-day-now-closer-to-0-than-200-2000614817",
-    "source": "NewsAPI (Gizmodo.com)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "AMAZON SLASHES AIRPODS 4 PRICES JUST BEFORE PRIME...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Apple to Let iPhone Users Watch Videos on CarPlay Screen While Parked - MacRumors",
-    "url": "https://www.macrumors.com/2025/06/12/carplay-airplay-video-in-the-car/",
-    "source": "NewsAPI (MacRumors)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "APPLE TO LET IPHONE USERS WATCH VIDEOS ON...",
-    "relevance_score": 2
-  },
-  {
-    "title": "11 bit studios' The Alters changed my mind about sci-fi games - Windows Central",
-    "url": "https://www.windowscentral.com/gaming/the-alters-pc-review",
-    "source": "NewsAPI (Windows Central)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "11 BIT STUDIOS' THE ALTERS CHANGED MY MIND...",
-    "relevance_score": 2
-  },
-  {
-    "title": "To Be Happier and More Successful, Steve Jobs (and Science) Says Stop Trying to Specialize - Inc.com",
-    "url": "https://www.inc.com/jeff-haden/to-be-happier-and-more-successful-steve-jobs-and-science-says-stop-trying-to-specialize/91173185",
-    "source": "NewsAPI (Inc.)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "TO BE HAPPIER AND MORE SUCCESSFUL, STEVE JOBS...",
-    "relevance_score": 2
-  },
-  {
-    "title": "New Fantasy Life i Update Lands On Switch 1 & 2, Here Are The Full Patch Notes - Nintendo Life",
-    "url": "https://www.nintendolife.com/news/2025/06/new-fantasy-life-i-update-lands-on-switch-1-and-2-here-are-the-full-patch-notes",
-    "source": "NewsAPI (Nintendo Life)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "NEW FANTASY LIFE I UPDATE LANDS ON SWITCH...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Fujifilm\u2019s new X-E5 is one of its sleekest mirrorless cameras yet - The Verge",
-    "url": "https://www.theverge.com/news/685782/fujifilm-xe5-mirrorless-camera-x100-price-specs",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "FUJIFILM\u2019S NEW X-E5 IS ONE OF ITS SLEEKEST...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Halo fans losing their minds over surprise return of Halo 3 - GAMINGbible",
-    "url": "https://www.gamingbible.com/news/platform/xbox/halo-fans-surprise-return-halo-3-833563-20250612",
-    "source": "NewsAPI (Gamingbible.com)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "HALO FANS LOSING THEIR MINDS OVER SURPRISE RETURN...",
-    "relevance_score": 2
-  },
-  {
-    "title": "The Meta AI App Lets You 'Discover' People's Bizarrely Personal Chats",
-    "url": "https://www.wired.com/story/meta-artificial-intelligence-chatbot-conversations/",
-    "source": "NewsAPI (Wired)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "THE META AI APP LETS YOU 'DISCOVER' PEOPLE'S...",
-    "relevance_score": 2
-  },
-  {
-    "title": "After a string of successes, early-stage fund Felicis raises fresh $900M | TechCrunch",
-    "url": "https://techcrunch.com/2025/06/12/after-a-string-of-successes-early-stage-fund-felicis-raises-fresh-900m/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "AFTER A STRING OF SUCCESSES, EARLY-STAGE FUND FELICIS...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Bose upgraded the adaptive ANC on its new QuietComfort Ultra earbuds",
-    "url": "https://www.theverge.com/news/686448/bose-quietcomfort-ultra-gen2-wireless-earbuds-anc-soundlink-plus-micro-speakers",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "BOSE UPGRADED THE ADAPTIVE ANC ON ITS NEW...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Bluesky backlash misses the point",
-    "url": "https://techcrunch.com/2025/06/12/bluesky-backlash-misses-the-point/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "BLUESKY BACKLASH MISSES THE POINT",
-    "relevance_score": 2
-  },
-  {
-    "title": "Meta inks a new geothermal energy deal to support AI",
-    "url": "https://www.theverge.com/news/686387/meta-ai-data-center-geothermal-energy-xgs",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "META INKS A NEW GEOTHERMAL ENERGY DEAL TO...",
-    "relevance_score": 2
-  },
-  {
-    "title": "All the Android features Apple announced at WWDC",
-    "url": "https://www.theverge.com/apple-wwdc/686247/apple-wwdc-ios-26-android-features",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "ALL THE ANDROID FEATURES APPLE ANNOUNCED AT WWDC",
-    "relevance_score": 2
-  },
-  {
-    "title": "Hotel management platform Canary nabs $80M Series D from YC, Insight Partners | TechCrunch",
-    "url": "https://techcrunch.com/2025/06/12/hotel-management-platform-canary-nabs-80m-series-d-from-yc-insight-partners/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "HOTEL MANAGEMENT PLATFORM CANARY NABS $80M SERIES D...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Shoring up global supply chains with generative AI",
-    "url": "https://www.technologyreview.com/2025/06/12/1118533/shoring-up-global-supply-chains-with-generative-ai/",
-    "source": "NewsAPI (MIT Technology Review)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "SHORING UP GLOBAL SUPPLY CHAINS WITH GENERATIVE AI",
-    "relevance_score": 2
-  },
-  {
-    "title": "Pinterest is adding third-party influencer content to its feeds",
-    "url": "https://www.theverge.com/news/685830/pinterest-ltk-affiliate-shopping-content-creators",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "PINTEREST IS ADDING THIRD-PARTY INFLUENCER CONTENT TO ITS...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Congress Demands Answers on Data Privacy Ahead of 23andMe Sale",
-    "url": "https://www.wired.com/story/congress-demands-answers-on-data-privacy-ahead-of-23andme-sale/",
-    "source": "NewsAPI (Wired)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "CONGRESS DEMANDS ANSWERS ON DATA PRIVACY AHEAD OF...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Roundtables: Inside OpenAI\u2019s Empire with Karen Hao",
-    "url": "https://www.technologyreview.com/2025/06/12/1118540/roundtables-inside-openais-empire-with-karen-hao/",
-    "source": "NewsAPI (MIT Technology Review)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "ROUNDTABLES: INSIDE OPENAI\u2019S EMPIRE WITH KAREN HAO",
-    "relevance_score": 2
-  },
-  {
-    "title": "Snapchat\u2019s latest subscription tier will get you \u2018hundreds\u2019 of lenses",
-    "url": "https://www.theverge.com/news/686016/snapchat-lens-plus-subscription-pricing",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "SNAPCHAT\u2019S LATEST SUBSCRIPTION TIER WILL GET YOU \u2018HUNDREDS\u2019...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Legal tech platform Definely raises $30M Series B to make contract reviewing more efficient | TechCrunch",
-    "url": "https://techcrunch.com/2025/06/12/legal-tech-platform-definely-raises-30m-series-b-to-make-contract-reviewing-more-efficient/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "LEGAL TECH PLATFORM DEFINELY RAISES $30M SERIES B...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Automattic acquires relationship manager Clay to add an identity layer to online tools",
-    "url": "https://techcrunch.com/2025/06/12/automattic-acquires-relationship-manager-clay-to-add-an-identity-layer-to-online-tools/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "AUTOMATTIC ACQUIRES RELATIONSHIP MANAGER CLAY TO ADD AN...",
-    "relevance_score": 2
-  },
-  {
-    "title": "How AI sales startup Landbase nabbed Ashton Kutcher\u2019s Sound Ventures to lead its $30M Series A | TechCrunch",
-    "url": "https://techcrunch.com/2025/06/12/how-ai-sales-startup-landbase-nabbed-ashton-kutchers-sound-ventures-to-lead-its-30m-series-a/",
-    "source": "NewsAPI (TechCrunch)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "HOW AI SALES STARTUP LANDBASE NABBED ASHTON KUTCHER\u2019S...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Meta cracks down on nudify apps after being exposed",
-    "url": "https://www.theverge.com/news/685985/meta-lawsuit-crushai-nudify-app-ads",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "META CRACKS DOWN ON NUDIFY APPS AFTER BEING...",
-    "relevance_score": 2
-  },
-  {
-    "title": "The Download: AI agents\u2019 autonomy, and sodium-based batteries",
-    "url": "https://www.technologyreview.com/2025/06/12/1118609/the-download-ai-agents-autonomy-and-sodium-based-batteries/",
-    "source": "NewsAPI (MIT Technology Review)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "THE DOWNLOAD: AI AGENTS\u2019 AUTONOMY, AND SODIUM-BASED BATTERIES",
-    "relevance_score": 2
-  },
-  {
-    "title": "AI Agents Are Too Cheap for Our Own Good",
-    "url": "https://www.wired.com/story/pricing-ai-agents-increasing-costs/",
-    "source": "NewsAPI (Wired)",
-    "published_date_obj": "2025-06-12",
-    "rewritten_title": "AI AGENTS ARE TOO CHEAP FOR OUR OWN...",
-    "relevance_score": 2
   }
 ]
