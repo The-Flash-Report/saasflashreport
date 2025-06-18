@@ -12,6 +12,11 @@
 {% endblock %}
 
 {% block content %}
+<!-- Hide breadcrumbs for topic pages -->
+<style>
+  nav.breadcrumbs { display: none !important; }
+</style>
+
 <!-- Topic Archive Summary -->
 {% if total_pages > 1 or total_stories > 20 %}
 <div class="topic-archive-summary" style="background-color: #f8f8f8; padding: 15px; margin-bottom: 25px; border-radius: 6px; border-left: 4px solid #cc0000;">
@@ -52,7 +57,7 @@
                 {% if page_num == current_page %}
                     <span style="background-color: #cc0000; color: white; padding: 6px 12px; margin: 0 2px; border-radius: 4px; font-weight: bold;">{{ page_num }}</span>
                 {% else %}
-                    {% set page_url = page_key + ("-page-" + page_num|string if page_num > 1 else "") + ".html" %}
+                    {% set page_url = 'topics/' + page_key + ("-page-" + page_num|string if page_num > 1 else "") + ".html" %}
                     <a href="/{{ page_url }}" style="color: #cc0000; text-decoration: none; padding: 6px 12px; margin: 0 2px; border: 1px solid #cc0000; border-radius: 4px; display: inline-block;">{{ page_num }}</a>
                 {% endif %}
             {% endfor %}
@@ -120,7 +125,7 @@
                 {% if page_num == current_page %}
                     <span style="background-color: #cc0000; color: white; padding: 6px 12px; margin: 0 2px; border-radius: 4px; font-weight: bold;">{{ page_num }}</span>
                 {% else %}
-                    {% set page_url = page_key + ("-page-" + page_num|string if page_num > 1 else "") + ".html" %}
+                    {% set page_url = 'topics/' + page_key + ("-page-" + page_num|string if page_num > 1 else "") + ".html" %}
                     <a href="/{{ page_url }}" style="color: #cc0000; text-decoration: none; padding: 6px 12px; margin: 0 2px; border: 1px solid #cc0000; border-radius: 4px; display: inline-block;">{{ page_num }}</a>
                 {% endif %}
             {% endfor %}

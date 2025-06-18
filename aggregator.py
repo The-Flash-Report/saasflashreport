@@ -347,7 +347,7 @@ def generate_keyword_page_files(keyword_pages_data, env, prompt_of_the_day):
     print(f"Generating keyword page files for {len(keyword_pages_data)} topics...")
     
     # Ensure the output directory exists
-    output_dir = "."
+    output_dir = "topics"
     os.makedirs(output_dir, exist_ok=True)
 
     # Set template globals
@@ -413,10 +413,10 @@ def generate_keyword_page_files(keyword_pages_data, env, prompt_of_the_day):
                 # For other pages, use page-N format (e.g., openai-news-page-2.html)
                 if page_num == 1:
                     filename = f"{page_key}.html"
-                    canonical_path = f"/{page_key}.html"
+                    canonical_path = f"/topics/{page_key}.html"
                 else:
                     filename = f"{page_key}-page-{page_num}.html"
-                    canonical_path = f"/{page_key}-page-{page_num}.html"
+                    canonical_path = f"/topics/{page_key}-page-{page_num}.html"
                 
                 # Structure stories for template (single category)
                 page_specific_categories = {data['config']['title']: page_stories}
@@ -431,18 +431,18 @@ def generate_keyword_page_files(keyword_pages_data, env, prompt_of_the_day):
                     'prev_url': None,
                     'next_url': None
                 }
-                
                 # Set previous page URL
                 if page_num > 1:
                     if page_num == 2:
-                        pagination_info['prev_url'] = f"/{page_key}.html"
+                        pagination_info['prev_url'] = f"/topics/{page_key}.html"
                     else:
-                        pagination_info['prev_url'] = f"/{page_key}-page-{page_num-1}.html"
-                
+                        pagination_info['prev_url'] = f"/topics/{page_key}-page-{page_num-1}.html"
                 # Set next page URL
                 if page_num < total_pages:
-                    pagination_info['next_url'] = f"/{page_key}-page-{page_num+1}.html"
-
+                    if page_num == 1:
+                        pagination_info['next_url'] = f"/topics/{page_key}-page-2.html"
+                    else:
+                        pagination_info['next_url'] = f"/topics/{page_key}-page-{page_num+1}.html"
                 try:
                     html_content = template.render(
                         categories=page_specific_categories,
@@ -458,15 +458,29 @@ def generate_keyword_page_files(keyword_pages_data, env, prompt_of_the_day):
                         # Pagination data
                         **pagination_info
                     )
-                    
+                    # --- Insert recent archive links in the footer ---
+                    try:
+                        archive_dir = 'archive'
+                        all_files_in_archive = [f for f in os.listdir(archive_dir) if os.path.isfile(os.path.join(archive_dir, f)) and f.endswith('.html')]
+                        all_files_in_archive.sort(reverse=True)
+                        archive_files = all_files_in_archive
+                    except Exception as e:
+                        print(f"Error listing files in archive directory '{archive_dir}': {e}")
+                        archive_files = []
+                    if archive_files:
+                        recent_archives = archive_files[:5]
+                        archive_links_html = '\n                '.join([
+                            f'<a href="/archive/{archive_file}">{archive_file.replace(".html", "")}</a>'
+                            for archive_file in recent_archives
+                        ])
+                        html_content = html_content.replace('<!-- ARCHIVE_LINKS_PLACEHOLDER -->', archive_links_html)
+                    # --- End insert recent archive links ---
                     with open(os.path.join(output_dir, filename), "w") as f:
                         f.write(html_content)
-                    
                     if page_num == 1:
                         print(f"  - Successfully generated {filename} ({len(page_stories)} stories, {total_pages} total pages)")
                     else:
                         print(f"    - Generated {filename} ({len(page_stories)} stories)")
-                        
                 except Exception as e:
                     print(f"Error generating page {page_num} for {page_key}: {e}")
                     import traceback
@@ -1425,7 +1439,7 @@ Generate fresh, current content about today's AI developments. Use your knowledg
 
     # Generate keyword page files FIRST
     # Ensure output_dir is defined if not already (it was at the top of generate_keyword_page_files previously)
-    output_dir = "."
+    output_dir = "topics"
     generate_keyword_page_files(keyword_pages_data, env, prompt_data) # Pass prompt_data directly
 
     # --- RESTORED CODE FOR INDEX.HTML AND ARCHIVE --- 

@@ -15,13 +15,13 @@
     <meta name="robots" content="index, follow">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://aiflashreport.com{{ canonical_path|default('/') }}">
+    <link rel="canonical" href="https://aiflashreport.com/topics/chatgpt-news-page-4.html">
     
     <!-- Open Graph Tags -->
     <meta property="og:title" content="AI Flash Report - Daily AI News Roundup">
     <meta property="og:description" content="Your daily AI news digest: The latest from OpenAI, Anthropic, Google AI, and more. Get updated on AI tools, research breakthroughs, and industry trends.">
     <meta property="og:image" content="https://aiflashreport.com/images/og-image.png">
-    <meta property="og:url" content="https://aiflashreport.com{{ canonical_path|default('/') }}">
+    <meta property="og:url" content="https://aiflashreport.com/topics/chatgpt-news-page-4.html">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="AI Flash Report">
     
@@ -38,11 +38,11 @@
       "@type": "NewsArticle",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://aiflashreport.com{{ canonical_path|default('/') }}"
+        "@id": "https://aiflashreport.com/topics/chatgpt-news-page-4.html"
       },
-      "headline": "AI Flash Report - Daily AI News Roundup - {{ update_time }}",
-      "datePublished": "{{ update_time }}T00:00:00+00:00",
-      "dateModified": "{{ update_time }}T00:00:00+00:00",
+      "headline": "AI Flash Report - Daily AI News Roundup - 2025-06-18",
+      "datePublished": "2025-06-18T00:00:00+00:00",
+      "dateModified": "2025-06-18T00:00:00+00:00",
       "publisher": {
         "@type": "Organization",
         "name": "AI Flash Report",
@@ -495,7 +495,7 @@
     <div class="container">
         <!-- Site Title -->
         <h1><a href="/index.html" style="text-decoration: none; color: inherit;">AI <span class="wire-part">Flash</span> Report</a></h1>
-        <p class="subtitle">Daily AI News Roundup - Updated: {{ update_time }}</p>
+        <p class="subtitle">Daily AI News Roundup - Updated: 2025-06-18</p>
         
         <!-- Main Navigation Header -->
         <nav class="main-header-nav" style="background-color: #f8f9fa; border-bottom: 1px solid #e5e5e5; margin-bottom: 10px;">
@@ -503,9 +503,29 @@
                 <div class="topics-dropdown" style="position: relative; display: inline-block;">
                     <a href="#" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;" onclick="toggleTopicsDropdown(event)">Topics ▼</a>
                     <div class="topics-dropdown-content" style="display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); background-color: white; min-width: 200px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; border-radius: 6px; padding: 10px 0; margin-top: 5px;">
-                        {% for page_key, page_config in all_keyword_pages_config.items() %}
-                        <a href="/topics/{{ page_key }}.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">{{ page_config.title }}</a>
-                        {% endfor %}
+                        
+                        <a href="/topics/openai-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">OpenAI News</a>
+                        
+                        <a href="/topics/google-ai-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Google AI News</a>
+                        
+                        <a href="/topics/chatgpt-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">ChatGPT News</a>
+                        
+                        <a href="/topics/chatgpt-updates.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">ChatGPT Updates</a>
+                        
+                        <a href="/topics/machine-learning-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Machine Learning News</a>
+                        
+                        <a href="/topics/deep-learning-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Deep Learning News</a>
+                        
+                        <a href="/topics/ai-research-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI Research News</a>
+                        
+                        <a href="/topics/ai-startup-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI Startup News</a>
+                        
+                        <a href="/topics/ai-industry-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI Industry News</a>
+                        
+                        <a href="/topics/ai-news-today.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI News Today</a>
+                        
+                        <a href="/topics/ai-breakthrough-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI Breakthrough News</a>
+                        
                     </div>
                 </div>
                 <a href="/about.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">About</a>
@@ -515,78 +535,109 @@
         </nav>
 
         <!-- Breadcrumbs navigation for SEO -->
-        {% if not is_keyword_page %}
-        <nav class="breadcrumbs" style="font-size: 0.85em; margin-bottom: 15px; color: #666; display: flex; justify-content: space-between; align-items: center;">
-            <!-- Archive page version -->
-            <div class="nav-arrow" style="flex: 1; text-align: left;">
-                <a href="{{ prev_url }}" style="color: #666; text-decoration: none; font-size: 1em;">← Previous</a>
-            </div>
-            <ol itemscope itemtype="https://schema.org/BreadcrumbList" style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; flex: 2; justify-content: center;">
-                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" style="margin-right: 5px;">
-                    <a itemprop="item" href="/" style="color: #666; text-decoration: none;">
-                        <span itemprop="name">Home</span>
-                    </a>
-                    <meta itemprop="position" content="1" />
-                </li>
-                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <span style="margin: 0 5px;">/</span>
-                    <span itemprop="name">Archive</span>
-                    <meta itemprop="position" content="2" />
-                </li>
-            </ol>
-            <div class="nav-arrow" style="flex: 1; text-align: right;">
-                <a href="{{ next_url }}" style="color: #666; text-decoration: none; font-size: 1em;">Next →</a>
-            </div>
-        </nav>
-        {% endif %}
+        
 
         <!-- Site Tagline -->
         <div class="site-tagline">Artificial Intelligence News at Machine Speed</div>
 
         <!-- Daily AI Flash Summary -->
-        {% if flash_summary %}
-        {{ flash_summary|safe }}
-        {% endif %}
+        
 
         <!-- Vertical News Feed -->
         <div class="main-content">
-            {% for category, headlines in categories.items() %}
-                {% if headlines %}
+            
+                
                     <div class="headline-block">
-                        <h3>{{ category }}</h3>
+                        <h3>ChatGPT News</h3>
 
-                        {# **** INSERTED BLOCK: Category descriptions with keywords **** #}
-                        {% if category == 'Trending Now' %}
-                            <p class="category-description"><i>Catch up on the latest AI news, top headlines, and breaking artificial intelligence updates.</i></p>
-                        {% elif category == 'AI Products' %}
-                            <p class="category-description"><i>Discover new AI tools, recent AI software releases, platform updates, and hardware news.</i></p>
-                        {% elif category == 'Creator Economy' %}
-                            <p class="category-description"><i>Explore AI tools for artists, music generation, video editing software, and writing assistants for creators.</i></p>
-                        {% elif category == 'Generative AI' %}
-                            <p class="category-description"><i>Learn about generative AI models like LLMs and diffusion models, plus text-to-image AI and content generation tech.</i></p>
-                        {% elif category == 'AI Business News' %}
-                            <p class="category-description"><i>Stay informed on AI company funding, startup investments, AI market analysis, stock news, and industry partnerships.</i></p>
-                        {% elif category == 'AI Research & Methods' %}
-                            <p class="category-description"><i>Read the latest AI research papers, machine learning publications, deep learning breakthroughs, and algorithm developments.</i></p>
-                        {% elif category == 'AI in Practice' %}
-                            <p class="category-description"><i>See real-world AI deployment: AI applications in healthcare, finance, retail, and other enterprise AI solutions.</i></p>
-                        {% elif category == 'AI Companies' %}
-                            <p class="category-description"><i>Follow updates from major AI companies and industry leaders like OpenAI, Google AI, Anthropic, and Nvidia.</i></p>
-                        {% elif category == 'AI Ethics & Policy' %}
-                            <p class="category-description"><i>Understand responsible AI development, AI safety guidelines, AI regulation news, bias detection, and alignment research.</i></p>
-                        {% elif category == 'Weird' %}
-                            <p class="category-description"><i>The lighter side of AI: funny AI stories, unexpected results, and unusual AI projects.</i></p>
-                        {% endif %}
-                        {# **** END INSERTED BLOCK **** #}
+                        
+                        
+                        
 
-                        {% for headline in headlines %}
+                        
                             <p>
-                                <a href="{{ headline.url }}" target="_blank" title="Source: {{ headline.source }}">{{ headline.rewritten_title }}</a>
+                                <a href="https://www.theshortcut.com/p/asus-rog-xbox-ally-x-pre-order-date-and-price-may-have-been-revealed" target="_blank" title="Source: NewsAPI (Theshortcut.com)">ASUS ROG XBOX ALLY X PRE-ORDER DATE AND...</a>
                             </p>
-                        {% endfor %}
+                        
+                            <p>
+                                <a href="https://www.tomsguide.com/wellness/smartwatches/amazon-knocks-up-to-50-percent-off-garmin-watches-here-are-15-deals-worth-shopping-now" target="_blank" title="Source: NewsAPI (Tom&#39;s Guide)">AMAZON KNOCKS UP TO 50% OFF GARMIN WATCHES...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://kotaku.com/pokemon-tcg-destined-rivals-highest-price-cards-mewtwo-1851784564" target="_blank" title="Source: NewsAPI (Kotaku)">THE HIGHEST PRICES YOU CAN GET FOR POKÉMON...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://www.windowscentral.com/gaming/xbox/the-outer-worlds-2-hands-on-summer-game-fest-2025" target="_blank" title="Source: NewsAPI (Windows Central)">I&#39;VE PLAYED THE OUTER WORLDS 2, AND THIS...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://arstechnica.com/gaming/2025/06/nintendo-switch-2-the-ars-technica-review/" target="_blank" title="Source: NewsAPI (Ars Technica)">NINTENDO SWITCH 2: THE ARS TECHNICA REVIEW -...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://www.notebookcheck.net/Leak-unveils-first-details-on-Google-Pixel-12-Pixel-12-Pro-XL-and-Pixel-12-Pro-Fold.1037676.0.html" target="_blank" title="Source: NewsAPI (Notebookcheck.net)">LEAK UNVEILS FIRST DETAILS ON GOOGLE PIXEL 12,...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="http://9to5google.com/2025/06/16/google-play-slide-buy/" target="_blank" title="Source: NewsAPI (9to5google.com)">GOOGLE PLAY STORE REPLACES ‘1-TAP BUY’ WITH ‘SLIDE...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="http://9to5google.com/2025/06/16/oneplus-watch-3-43mm-size-teaser/" target="_blank" title="Source: NewsAPI (9to5google.com)">ONEPLUS WATCH 3 GETS A SMALLER 43MM SIZE...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://venturebeat.com/ai/groq-just-made-hugging-face-way-faster-and-its-coming-for-aws-and-google/" target="_blank" title="Source: VentureBeat AI">GROQ JUST MADE HUGGING FACE WAY FASTER —...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://www.forbes.com/sites/rachelwells/2025/06/16/turn-this-chatgpt-prompt-into-a-six-figure-passive-income-stream/" target="_blank" title="Source: NewsAPI (Forbes)">TURN THIS CHATGPT PROMPT INTO A SIX-FIGURE PASSIVE...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://www.gamespot.com/gallery/the-alters-best-alter-characters-clones/2900-6665/" target="_blank" title="Source: NewsAPI (GameSpot)">THE BEST CLONE CHARACTERS TO CREATE IN THE...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://www.polygon.com/news/607288/nintendo-switch-2-hacker-ban-console-account" target="_blank" title="Source: NewsAPI (Polygon)">NINTENDO SWITCH 2 HACKERS SAY THEY’RE ALREADY GETTING...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://www.wired.com/story/apple-created-a-custom-iphone-camera-for-f1/" target="_blank" title="Source: NewsAPI (Wired)">HOW APPLE CREATED A CUSTOM IPHONE CAMERA FOR...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://gizmodo.com/with-ai-siri-delayed-apples-airpods-pro-3-may-be-next-2000616296" target="_blank" title="Source: NewsAPI (Gizmodo.com)">WITH AI SIRI DELAYED, APPLE’S AIRPODS PRO 3...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://www.gamespot.com/articles/mario-kart-world-coins-dont-function-as-youd-expect-new-evidence-suggests/1100-6532471/" target="_blank" title="Source: NewsAPI (GameSpot)">MARIO KART WORLD COINS DON&#39;T FUNCTION AS YOU&#39;D...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://nintendoeverything.com/pokemon-nintendo-switch-2-transfer-issues/" target="_blank" title="Source: NewsAPI (Nintendoeverything.com)">POKEMON VETERAN LOSES 1,000 HOUR SAVE, 20 YEARS...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://www.theverge.com/news/687759/nexus-mods-pc-new-owner" target="_blank" title="Source: NewsAPI (The Verge)">PC MODDING REPOSITORY NEXUS MODS HAS A NEW...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://arstechnica.com/gadgets/2025/06/reddit-user-surprised-when-1960s-computer-panel-emerged-from-collapsed-family-garage/" target="_blank" title="Source: NewsAPI (Ars Technica)">REDDIT USER SURPRISED WHEN 1960S COMPUTER PANEL EMERGED...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://www.theverge.com/news/687749/spigen-apple-watch-classic-c1-charger-stand" target="_blank" title="Source: NewsAPI (The Verge)">CHARGE YOUR APPLE WATCH ON THIS TINY IMAC...</a>
+                            </p>
+                        
+                            <p>
+                                <a href="https://www.gamespot.com/articles/sonic-racing-crossworlds-drops-the-best-aspects-of-its-predecessors/1100-6532469/" target="_blank" title="Source: NewsAPI (GameSpot)">SONIC RACING: CROSSWORLDS DROPS THE BEST ASPECTS OF...</a>
+                            </p>
+                        
                     </div>
-                {% endif %}
-            {% endfor %}
+                
+            
         </div>
 
         <!-- Prompt of the Day moved below news -->
@@ -596,9 +647,9 @@
                  <h2>Prompt of the Day</h2>
                  <a href="https://promptwritingstudio.com" target="_blank" class="prompt-link-button">Get More AI Prompts</a>
             </div>
-            <h4>{{ prompt_of_the_day.title }}</h4>
-            <p>{{ prompt_of_the_day.text }}</p>
-            <p class="platforms"><strong>Use with:</strong> {{ prompt_of_the_day.platforms | join(", ") }}</p>
+            <h4>AI Lo-Fi Track Composition Task</h4>
+            <p>Compose a prompt for an AI music generator to create a 1-minute lo-fi hip-hop track suitable for focused work. Specify desired instrumentation (e.g., mellow piano chords, soft synth pads, subtle vinyl crackle), tempo (e.g., 70-80 BPM), and overall mood (e.g., calm, nostalgic, slightly melancholic).</p>
+            <p class="platforms"><strong>Use with:</strong> Suno, Udio, AIVA</p>
         </div>
 
         <!-- Newsletter Signup Form -->
@@ -628,7 +679,11 @@
             AI Flash Report - Automated AI News Aggregation | <a href="/archive/">See Archive Index</a> | <a href="/about.html">About</a> | <a href="/contact.html">Contact</a>
             <div class="archive-links">
                 Recent Archives:
-                <!-- ARCHIVE_LINKS_PLACEHOLDER -->
+                <a href="/archive/index.html">index</a>
+                <a href="/archive/2025-06-18.html">2025-06-18</a>
+                <a href="/archive/2025-06-17.html">2025-06-17</a>
+                <a href="/archive/2025-06-16.html">2025-06-16</a>
+                <a href="/archive/2025-06-15.html">2025-06-15</a>
             </div>
         </footer>
 

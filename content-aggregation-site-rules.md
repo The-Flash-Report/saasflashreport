@@ -64,6 +64,18 @@ git push origin main
 git reset --hard HEAD  # If conflicts with generated content
 git push origin main --force  # When local content is authoritative
 
+## 🛠️ Project Git Workflow Rule
+
+- **Always pull the latest version from GitHub before making any changes.**
+  - The site updates automatically once per day when the script runs, so your local copy may be out of date.
+  - Run: `git pull origin main` before starting any new work.
+- Make your changes locally.
+- Test your changes locally (run the script and preview the site).
+- Before pushing, make sure your branch is up to date with `main`.
+- Commit with a clear message describing your change.
+- Push to GitHub: `git push origin main` (or your branch if using feature branches).
+- The deployment will be triggered automatically after pushing to GitHub.
+
 ## ⚠️ Common Pitfalls to Avoid
 
 ### Content Issues

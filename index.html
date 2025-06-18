@@ -504,27 +504,27 @@
                     <a href="#" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;" onclick="toggleTopicsDropdown(event)">Topics ▼</a>
                     <div class="topics-dropdown-content" style="display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); background-color: white; min-width: 200px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; border-radius: 6px; padding: 10px 0; margin-top: 5px;">
                         
-                        <a href="/openai-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">OpenAI News</a>
+                        <a href="/topics/openai-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">OpenAI News</a>
                         
-                        <a href="/google-ai-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Google AI News</a>
+                        <a href="/topics/google-ai-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Google AI News</a>
                         
-                        <a href="/chatgpt-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">ChatGPT News</a>
+                        <a href="/topics/chatgpt-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">ChatGPT News</a>
                         
-                        <a href="/chatgpt-updates.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">ChatGPT Updates</a>
+                        <a href="/topics/chatgpt-updates.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">ChatGPT Updates</a>
                         
-                        <a href="/machine-learning-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Machine Learning News</a>
+                        <a href="/topics/machine-learning-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Machine Learning News</a>
                         
-                        <a href="/deep-learning-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Deep Learning News</a>
+                        <a href="/topics/deep-learning-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Deep Learning News</a>
                         
-                        <a href="/ai-research-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI Research News</a>
+                        <a href="/topics/ai-research-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI Research News</a>
                         
-                        <a href="/ai-startup-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI Startup News</a>
+                        <a href="/topics/ai-startup-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI Startup News</a>
                         
-                        <a href="/ai-industry-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI Industry News</a>
+                        <a href="/topics/ai-industry-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI Industry News</a>
                         
-                        <a href="/ai-news-today.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI News Today</a>
+                        <a href="/topics/ai-news-today.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI News Today</a>
                         
-                        <a href="/ai-breakthrough-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI Breakthrough News</a>
+                        <a href="/topics/ai-breakthrough-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">AI Breakthrough News</a>
                         
                     </div>
                 </div>
@@ -535,23 +535,30 @@
         </nav>
 
         <!-- Breadcrumbs navigation for SEO -->
+        
         <nav class="breadcrumbs" style="font-size: 0.85em; margin-bottom: 15px; color: #666; display: flex; justify-content: space-between; align-items: center;">
-            
-            <!-- Home page version with date navigation arrows -->
+            <!-- Archive page version -->
             <div class="nav-arrow" style="flex: 1; text-align: left;">
-                <a href="/archive/2025-06-17.html" style="color: #666; text-decoration: none; font-size: 1em;">← Previous</a>
+                <a href="" style="color: #666; text-decoration: none; font-size: 1em;">← Previous</a>
             </div>
             <ol itemscope itemtype="https://schema.org/BreadcrumbList" style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; flex: 2; justify-content: center;">
-                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <span itemprop="name">Home</span>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" style="margin-right: 5px;">
+                    <a itemprop="item" href="/" style="color: #666; text-decoration: none;">
+                        <span itemprop="name">Home</span>
+                    </a>
                     <meta itemprop="position" content="1" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span style="margin: 0 5px;">/</span>
+                    <span itemprop="name">Archive</span>
+                    <meta itemprop="position" content="2" />
                 </li>
             </ol>
             <div class="nav-arrow" style="flex: 1; text-align: right;">
-                <span style="color: #ccc; font-size: 1em;">Next →</span>
+                <a href="" style="color: #666; text-decoration: none; font-size: 1em;">Next →</a>
             </div>
-            
         </nav>
+        
 
         <!-- Site Tagline -->
         <div class="site-tagline">Artificial Intelligence News at Machine Speed</div>
