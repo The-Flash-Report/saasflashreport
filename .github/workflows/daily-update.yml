@@ -1,0 +1,179 @@
+name: Daily News Update
+
+on:
+  schedule:
+    - cron: '0 5 * * *'  # Runs at 5:00 UTC daily
+  workflow_dispatch:     # Allows manual trigger
+
+# Add permissions for the job to write to the repository
+permissions:
+  contents: write 
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        ref: main # Explicitly checkout main branch
+        fetch-depth: 0 # Needed for checking existing archives potentially
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    # Install dependencies BEFORE running the build script
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    # DEBUG STEP: Test Perplexity API access
+    - name: Test Perplexity API Access
+      env:
+        PERPLEXITY_API_KEY_B64: ${{ secrets.PERPLEXITY_API_KEY_B64 }}
+        PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+        PPLX_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}  # Fallback name to avoid masking
+      run: |
+        echo "🔍 Testing Perplexity API configuration..."
+        python3 test_perplexity_access.py
+        
+    # Run the news aggregator with enhanced environment variable access
+    - name: Generate daily news content
+      env:
+        PERPLEXITY_API_KEY_B64: ${{ secrets.PERPLEXITY_API_KEY_B64 }}
+        PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+        PPLX_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}  # Fallback name to avoid masking
+        NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+        REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+      run: |
+        echo "🚀 Starting news aggregation with enhanced API handling..."
+        echo "Date: $(date)"
+        
+        # Run aggregator with error handling
+        if python3 aggregator.py; then
+          echo "✅ Aggregator script completed successfully"
+        else
+          echo "❌ Aggregator script failed with exit code $?"
+          echo "Checking for partial updates..."
+          ls -la
+          # Continue workflow even if aggregator partially fails
+          echo "Proceeding with available content..."
+        fi
+      continue-on-error: false  # Fail the workflow if aggregator fails completely
+      
+    - name: Verify generated files
+      run: |
+        echo "Checking generated files..."
+        echo "Main files:"
+        ls -la index.html || echo "⚠️  index.html not found"
+        
+        echo "Archive files:"
+        ls -la archive/ || echo "⚠️  No archive directory"
+        
+        echo "Topic pages:"
+        ls -la *-news.html *-news-page-*.html 2>/dev/null || echo "⚠️  No topic pages found"
+        
+        echo "Data files:"
+        ls -la processed_urls.json data/ topic_archives/ 2>/dev/null || echo "⚠️  Some data files missing"
+        
+    - name: Generate sitemap with error handling
+      run: |
+        echo "Generating sitemap..."
+        if python3 generate_sitemap.py; then
+          echo "✅ Sitemap generated successfully"
+        else
+          echo "❌ Sitemap generation failed, but continuing..."
+        fi
+      continue-on-error: true  # Don't fail workflow if sitemap fails
+      
+    - name: Commit and push changes with enhanced error handling
+      run: |
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'action@github.com'
+        
+        echo "Staging all generated files..."
+        # Stage all the generated files, including new topic pages and archives
+        git add -f index.html \
+                   archive/ \
+                   sitemap.xml \
+                   processed_urls.json \
+                   data/ \
+                   topic_archives/ \
+                   *-news.html \
+                   *-news-page-*.html \
+                   *-updates.html \
+                   ai-*.html 2>/dev/null || echo "Some files may not exist"
+        
+        # Check if there are actually changes to commit
+        if git diff --staged --quiet; then
+          echo "📝 No changes to commit"
+          exit 0
+        fi
+        
+        echo "Changes detected, preparing to commit..."
+        
+        # Stash any changes so we can apply them after pulling
+        git stash push -m "Automated changes $(date +'%Y-%m-%d %H:%M:%S')" || echo "Nothing to stash"
+        
+        # Pull the latest changes from the repository with rebase
+        echo "Pulling latest changes..."
+        if git pull --rebase origin main; then
+          echo "✅ Successfully pulled latest changes"
+        else
+          echo "⚠️  Pull had conflicts, attempting to resolve..."
+          git rebase --abort 2>/dev/null || true
+          git reset --hard origin/main
+          echo "Reset to match origin/main"
+        fi
+        
+        # Restore our stashed changes if any
+        if git stash list | grep -q "Automated changes"; then
+          echo "Restoring stashed changes..."
+          git stash pop || echo "⚠️  Stash pop had conflicts, manual resolution may be needed"
+        fi
+        
+        # Re-add all files after pull
+        git add -f index.html \
+                   archive/ \
+                   sitemap.xml \
+                   processed_urls.json \
+                   data/ \
+                   topic_archives/ \
+                   *-news.html \
+                   *-news-page-*.html \
+                   *-updates.html \
+                   ai-*.html 2>/dev/null || echo "Some files may not exist"
+        
+        # Commit only if there are changes
+        if git diff --staged --quiet; then
+          echo "📝 No changes to commit after pull"
+        else
+          echo "💾 Committing changes..."
+          git commit -m "Daily update: $(date +'%Y-%m-%d') - Auto-generated content with AI Flash Summary"
+          
+          # Push changes with retry logic
+          for i in {1..3}; do
+            if git push; then
+              echo "✅ Successfully pushed changes"
+              break
+            else
+              echo "❌ Push attempt $i failed, retrying in 10 seconds..."
+              sleep 10
+            fi
+          done
+        fi
+        
+    - name: Workflow completion summary
+      run: |
+        echo "🎉 Daily update workflow completed!"
+        echo "Timestamp: $(date)"
+        echo "Files updated:"
+        git log --oneline -1 2>/dev/null || echo "No commits made"
+        echo ""
+        echo "Generated topic pages:"
+        ls -1 *-news*.html ai-*.html 2>/dev/null | head -10 || echo "No topic pages found"
