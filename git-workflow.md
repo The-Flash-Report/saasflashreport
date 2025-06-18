@@ -45,6 +45,22 @@ This document describes the standard operating procedure (SOP) for working with 
 ## 6. Special Note on Daily Updates
 - If you are working near the time of the daily script run, **pull again** before your final push to avoid overwriting new content.
 
+## 7. Troubleshooting Push Rejections
+- If you try to push and see an error like:
+  > Updates were rejected because the remote contains work that you do not have locally.
+- This means someone else has pushed changes since your last pull.
+- To fix:
+  1. Run:
+     ```sh
+     git pull --rebase origin main
+     ```
+  2. Resolve any conflicts if prompted.
+  3. Then push again:
+     ```sh
+     git push origin main
+     ```
+- This will safely integrate your changes with the latest remote updates.
+
 ---
 
 **Summary:**
