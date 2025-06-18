@@ -637,7 +637,7 @@
                 </li>
             </ol>
             <div class="nav-arrow" style="flex: 1; text-align: right;">
-                <span style="color: #ccc; font-size: 1em;">Next →</span>
+                <a href="{{ next_url }}" style="color: #666; text-decoration: none; font-size: 1em;">Next →</a>
             </div>
             {% else %}
             <!-- Archive page version -->
@@ -658,7 +658,7 @@
                 </li>
             </ol>
             <div class="nav-arrow" style="flex: 1; text-align: right;">
-                <a href="/archive/{{ tomorrow_date }}.html" style="color: #666; text-decoration: none; font-size: 1em;">Next →</a>
+                <a href="{{ next_url }}" style="color: #666; text-decoration: none; font-size: 1em;">Next →</a>
             </div>
             {% endif %}
         </nav>

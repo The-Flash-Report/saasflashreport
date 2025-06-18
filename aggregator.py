@@ -1461,6 +1461,17 @@ Generate fresh, current content about today's AI developments. Use your knowledg
         archive_page_context = main_page_context.copy()
         archive_page_context['canonical_path'] = f"/archive/{current_date_for_render}.html"
         archive_page_context['is_main_page'] = False
+        # --- BEGIN NEXT_URL LOGIC ---
+        today_date_str = datetime.datetime.now().strftime("%Y-%m-%d")
+        archive_date_str = current_date_for_render
+        next_date = datetime.datetime.strptime(archive_date_str, "%Y-%m-%d") + datetime.timedelta(days=1)
+        next_date_str = next_date.strftime("%Y-%m-%d")
+        if next_date_str == today_date_str:
+            next_url = "/"
+        else:
+            next_url = f"/archive/{next_date_str}.html"
+        archive_page_context['next_url'] = next_url
+        # --- END NEXT_URL LOGIC ---
         
         archive_html = template.render(archive_page_context)
         
