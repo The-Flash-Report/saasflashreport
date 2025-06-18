@@ -1,34 +1,255 @@
 {
-    "AI Companies": [],
-    "AI Products": [],
-    "Creator Economy": [],
+    "AI Companies": [
+        {
+            "title": "Microsoft should change its Copilot advertising, says watchdog - The Verge",
+            "url": "https://www.theverge.com/news/688056/microsoft-copilot-advertising-watchdog-response",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-06-17",
+            "rewritten_title": "MICROSOFT SHOULD CHANGE ITS COPILOT ADVERTISING, SAYS WATCHDOG..."
+        },
+        {
+            "title": "Apple CarPlay iOS 26 update: New widgets, live actions and 'Liquid Glass' design - USA Today",
+            "url": "https://www.usatoday.com/story/money/cars/2025/06/16/apple-carplay-upgrade-ios-26/84131265007/",
+            "source": "NewsAPI (USA Today)",
+            "published_date_obj": "2025-06-16",
+            "rewritten_title": "APPLE CARPLAY IOS 26 UPDATE: NEW WIDGETS, LIVE..."
+        },
+        {
+            "title": "Siri vaporware dispute continues, as high-profile commenters hit back at Apple - 9to5Mac",
+            "url": "https://9to5mac.com/2025/06/16/siri-vaporware-dispute-continues-as-high-profile-commenters-hit-back-at-apple/",
+            "source": "NewsAPI (9to5Mac)",
+            "published_date_obj": "2025-06-16",
+            "rewritten_title": "SIRI VAPORWARE DISPUTE CONTINUES, AS HIGH-PROFILE COMMENTERS HIT..."
+        },
+        {
+            "title": "Sam says Zuck\ud83e\udd8e is luring OpenAI researchers with $100M signing bonuses and $100M+ yearly salaries",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1leciub/sam_says_zuck_is_luring_openai_researchers_with/",
+            "source": "Reddit r/chatgpt",
+            "published_date_obj": "2025-06-18",
+            "rewritten_title": "SAM SAYS ZUCK\ud83e\udd8e IS LURING OPENAI RESEARCHERS WITH..."
+        },
+        {
+            "title": "Anthropic Status Update: Wed, 18 Jun 2025 01:35:45 -0700",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1lec0wv/anthropic_status_update_wed_18_jun_2025_013545/",
+            "source": "Reddit r/claudeai",
+            "published_date_obj": "2025-06-18",
+            "rewritten_title": "ANTHROPIC STATUS UPDATE: WED, 18 JUN 2025 01:35:45..."
+        },
+        {
+            "title": "100 Million--consider the source",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1leeinr/100_millionconsider_the_source/",
+            "source": "Reddit r/openai",
+            "published_date_obj": "2025-06-18",
+            "rewritten_title": "100 MILLION--CONSIDER THE SOURCE"
+        },
+        {
+            "title": "Android Auto is now available on all Lucid Air vehicles with latest update - 9to5Google",
+            "url": "http://9to5google.com/2025/06/16/android-auto-lucid-air-update/",
+            "source": "NewsAPI (9to5google.com)",
+            "published_date_obj": "2025-06-16",
+            "rewritten_title": "ANDROID AUTO IS NOW AVAILABLE ON ALL LUCID..."
+        },
+        {
+            "title": "What Gemini app features are free versus paid? [June 2025] - 9to5Google",
+            "url": "http://9to5google.com/2025/06/15/gemini-app-free-paid-features/",
+            "source": "NewsAPI (9to5google.com)",
+            "published_date_obj": "2025-06-16",
+            "rewritten_title": "WHAT GEMINI APP FEATURES ARE FREE VERSUS PAID?..."
+        },
+        {
+            "title": "Google to scale up AI-powered fraud detection and security operations in India",
+            "url": "https://techcrunch.com/2025/06/17/google-to-scale-up-ai-powered-fraud-detection-and-security-operations-in-india/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-06-17",
+            "rewritten_title": "GOOGLE TO SCALE UP AI-POWERED FRAUD DETECTION AND..."
+        },
+        {
+            "title": "Google reportedly plans to cut ties with Scale AI | TechCrunch",
+            "url": "https://techcrunch.com/2025/06/14/google-reportedly-plans-to-cut-ties-with-scale-ai/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-06-14",
+            "rewritten_title": "GOOGLE REPORTEDLY PLANS TO CUT TIES WITH SCALE..."
+        }
+    ],
+    "AI Products": [
+        {
+            "title": "Adobe made a mobile app for its Firefly generative AI tools",
+            "url": "https://www.theverge.com/news/688080/adobe-firefly-ai-app-iphone-ios-android-availability",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-06-17",
+            "rewritten_title": "ADOBE MADE A MOBILE APP FOR ITS FIREFLY..."
+        },
+        {
+            "title": "Can your favourite local model solve this?",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1leh14g/can_your_favourite_local_model_solve_this/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2025-06-18",
+            "rewritten_title": "CAN YOUR FAVOURITE LOCAL MODEL SOLVE THIS?"
+        },
+        {
+            "title": "Krea co-founder is considering open-sourcing their new model trained in collaboration with Black Forest Labs - Maybe go there and leave an encouraging comment?",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1leexi9/krea_cofounder_is_considering_opensourcing_their/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-06-18",
+            "rewritten_title": "KREA CO-FOUNDER IS CONSIDERING OPEN-SOURCING THEIR NEW MODEL..."
+        },
+        {
+            "title": "Android Automotive update will make it easier to talk to Gemini in your car - Android Authority",
+            "url": "https://www.androidauthority.com/android-automotive-16-3567889/",
+            "source": "NewsAPI (Android Authority)",
+            "published_date_obj": "2025-06-16",
+            "rewritten_title": "ANDROID AUTOMOTIVE UPDATE WILL MAKE IT EASIER TO..."
+        }
+    ],
+    "Creator Economy": [
+        {
+            "title": "Mario Kart World player gets to the bottom of how coins work - Nintendo Everything",
+            "url": "https://nintendoeverything.com/mario-kart-world-how-coins-work/",
+            "source": "NewsAPI (Nintendoeverything.com)",
+            "published_date_obj": "2025-06-16",
+            "rewritten_title": "MARIO KART WORLD PLAYER GETS TO THE BOTTOM..."
+        },
+        {
+            "title": "Qwen2VL-Flux ControlNet is available since Nov 2024 but most people missed it. Fully compatible with Flux Dev and ComfyUI. Works with Depth and Canny (kinda works with Tile and Realistic Lineart)",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1lefv07/qwen2vlflux_controlnet_is_available_since_nov/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-06-18",
+            "rewritten_title": "QWEN2VL-FLUX CONTROLNET IS AVAILABLE SINCE NOV 2024 BUT..."
+        }
+    ],
     "Generative AI": [],
     "AI Business News": [],
-    "AI Research & Methods": [],
+    "AI Research & Methods": [
+        {
+            "title": "Stellar Blade director kicks the horny nest, says steamy stuff's fine, but modders adding fresh twists would be cooler - Rock Paper Shotgun",
+            "url": "https://www.rockpapershotgun.com/stellar-blade-director-kicks-the-horny-nest-says-steamy-stuffs-fine-but-modders-adding-fresh-twists-would-be-cooler",
+            "source": "NewsAPI (Rock Paper Shotgun)",
+            "published_date_obj": "2025-06-16",
+            "rewritten_title": "STELLAR BLADE DIRECTOR KICKS THE HORNY NEST, SAYS..."
+        },
+        {
+            "title": "The Witcher 4's development is \"more console-first\", but don't worry, CD Projekt will still try and turn your PC into the sun - Rock Paper Shotgun",
+            "url": "https://www.rockpapershotgun.com/the-witcher-4-console-first-development-still-push-pcs",
+            "source": "NewsAPI (Rock Paper Shotgun)",
+            "published_date_obj": "2025-06-16",
+            "rewritten_title": "THE WITCHER 4'S DEVELOPMENT IS \"MORE CONSOLE-FIRST\", BUT..."
+        }
+    ],
     "AI in Practice": [],
     "AI Ethics & Policy": [],
     "Weird": [],
     "Trending Now": [
         {
-            "title": "The 7 Most Useful Jupyter Notebook Extensions for Data Scientists",
-            "url": "https://www.kdnuggets.com/the-7-most-useful-jupyter-notebook-extensions-for-data-scientists",
-            "source": "KDnuggets",
-            "published_date_obj": "2025-06-18",
-            "rewritten_title": "THE 7 MOST USEFUL JUPYTER NOTEBOOK EXTENSIONS FOR..."
+            "title": "These retro SEGA games are now free on Android until they disappear forever - Android Authority",
+            "url": "https://www.androidauthority.com/sega-retro-games-android-free-3568153/",
+            "source": "NewsAPI (Android Authority)",
+            "published_date_obj": "2025-06-17",
+            "rewritten_title": "THESE RETRO SEGA GAMES ARE NOW FREE ON..."
         },
         {
-            "title": "Scientists once hoarded pre-nuclear steel; now we\u2019re hoarding pre-AI content",
-            "url": "https://arstechnica.com/ai/2025/06/why-one-man-is-archiving-human-made-content-from-before-the-ai-explosion/",
-            "source": "Ars Technica AI",
-            "published_date_obj": "2025-06-18",
-            "rewritten_title": "SCIENTISTS ONCE HOARDED PRE-NUCLEAR STEEL; NOW WE\u2019RE HOARDING..."
+            "title": "Nothing Phone 3 leak reveals it's not a full-blown flagship after all - Android Authority",
+            "url": "https://www.androidauthority.com/nothing-phone-3-processor-3568136/",
+            "source": "NewsAPI (Android Authority)",
+            "published_date_obj": "2025-06-17",
+            "rewritten_title": "NOTHING PHONE 3 LEAK REVEALS IT'S NOT A..."
         },
         {
-            "title": "SportsVisio raises $3.2M for AI for sports athletes and fans",
-            "url": "https://venturebeat.com/games/sportsvisio-raises-3-2m-for-ai-for-sports-athletes-and-fans/",
-            "source": "VentureBeat AI",
+            "title": "You can now set up double dates with friends on Tinder - TechCrunch",
+            "url": "https://techcrunch.com/2025/06/16/you-can-now-arrange-a-double-date-with-friends-on-tinder/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-06-17",
+            "rewritten_title": "YOU CAN NOW SET UP DOUBLE DATES WITH..."
+        },
+        {
+            "title": "This is the best Android phone of 2025, and Best Buy will literally pay you to buy it - Android Central",
+            "url": "https://www.androidcentral.com/phones/oneplus/this-is-the-best-android-phone-of-2025-and-best-buy-will-literally-pay-you-to-buy-it",
+            "source": "NewsAPI (Android Central)",
+            "published_date_obj": "2025-06-16",
+            "rewritten_title": "THIS IS THE BEST ANDROID PHONE OF 2025,..."
+        },
+        {
+            "title": "Red Dead Redemption fans losing their minds over new teaser - GAMINGbible",
+            "url": "https://www.gamingbible.com/news/red-dead-redemption-fans-losing-minds-new-teaser-212253-20250616",
+            "source": "NewsAPI (Gamingbible.com)",
+            "published_date_obj": "2025-06-16",
+            "rewritten_title": "RED DEAD REDEMPTION FANS LOSING THEIR MINDS OVER..."
+        },
+        {
+            "title": "Stellar Blade Sold 1 Million Copies In Just 3 Days On Steam - GameSpot",
+            "url": "https://www.gamespot.com/articles/stellar-blade-sold-1-million-copies-in-just-3-days-on-steam/1100-6532447/",
+            "source": "NewsAPI (GameSpot)",
+            "published_date_obj": "2025-06-16",
+            "rewritten_title": "STELLAR BLADE SOLD 1 MILLION COPIES IN JUST..."
+        },
+        {
+            "title": "'Rumble Has Been Turned Off Due To Prolonged Use'? Don't Worry, Your Switch 2 Joy-Con Probably Aren't Broken - Nintendo Life",
+            "url": "https://www.nintendolife.com/news/2025/06/rumble-has-been-turned-off-due-to-prolonged-use-dont-worry-your-switch-2-joy-con-probably-arent-broken",
+            "source": "NewsAPI (Nintendo Life)",
+            "published_date_obj": "2025-06-16",
+            "rewritten_title": "'RUMBLE HAS BEEN TURNED OFF DUE TO PROLONGED..."
+        },
+        {
+            "title": "Two-year-old defense tech Mach Industries confirms $100M raise led by Khosla, Bedrock\u00a0 | TechCrunch",
+            "url": "https://techcrunch.com/2025/06/17/two-year-old-defense-tech-mach-industries-confirms-100m-raise-led-by-khosla-bedrock/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-06-17",
+            "rewritten_title": "TWO-YEAR-OLD DEFENSE TECH MACH INDUSTRIES CONFIRMS $100M RAISE..."
+        },
+        {
+            "title": "Adobe\u2019s Firefly comes to iOS and Android",
+            "url": "https://techcrunch.com/2025/06/17/adobe-releases-a-dedicated-firefly-app-for-image-and-video-creation/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-06-17",
+            "rewritten_title": "ADOBE\u2019S FIREFLY COMES TO IOS AND ANDROID"
+        },
+        {
+            "title": "The Download: power in Puerto Rico, and the pitfalls of AI agents",
+            "url": "https://www.technologyreview.com/2025/06/17/1118923/the-download-power-in-puerto-rico-and-the-pitfalls-of-ai-agents/",
+            "source": "NewsAPI (MIT Technology Review)",
+            "published_date_obj": "2025-06-17",
+            "rewritten_title": "THE DOWNLOAD: POWER IN PUERTO RICO, AND THE..."
+        },
+        {
+            "title": "Spotify's Daniel Ek just bet bigger on Helsing, Europe's defense tech darling | TechCrunch",
+            "url": "https://techcrunch.com/2025/06/16/spotifys-daniel-ek-just-bet-bigger-on-helsing-europes-defense-tech-darling/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-06-17",
+            "rewritten_title": "SPOTIFY'S DANIEL EK JUST BET BIGGER ON HELSING,..."
+        },
+        {
+            "title": "Week in Review: WWDC 2025 recap",
+            "url": "https://techcrunch.com/2025/06/14/week-in-review-wwdc-2025-recap/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-06-14",
+            "rewritten_title": "WEEK IN REVIEW: WWDC 2025 RECAP"
+        },
+        {
+            "title": "Authors Are Posting TikToks to Protest AI Use in Writing\u2014and to Prove They Aren\u2019t Doing It",
+            "url": "https://www.reddit.com/r/artificial/comments/1lef9c4/authors_are_posting_tiktoks_to_protest_ai_use_in/",
+            "source": "Reddit r/artificial",
             "published_date_obj": "2025-06-18",
-            "rewritten_title": "SPORTSVISIO RAISES $3.2M FOR AI FOR SPORTS ATHLETES..."
+            "rewritten_title": "AUTHORS ARE POSTING TIKTOKS TO PROTEST AI USE..."
+        },
+        {
+            "title": "Local AI for a small/median accounting firm - \u20ac Buget of 10k-25k",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1led23c/local_ai_for_a_smallmedian_accounting_firm_buget/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2025-06-18",
+            "rewritten_title": "LOCAL AI FOR A SMALL/MEDIAN ACCOUNTING FIRM -..."
+        },
+        {
+            "title": "[P] Lambda\u00b3 Bayesian Jump Event Detector: Minimal, Interpretable, Open-Source (Zenodo + GitHub)",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1lef24m/p_lambda\u00b3_bayesian_jump_event_detector_minimal/",
+            "source": "Reddit r/MachineLearning",
+            "published_date_obj": "2025-06-18",
+            "rewritten_title": "[P] LAMBDA\u00b3 BAYESIAN JUMP EVENT DETECTOR: MINIMAL, INTERPRETABLE,..."
+        },
+        {
+            "title": "\u201cYou\u2019re gonna be the death of me, you know that?\u201d",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1lec6va/youre_gonna_be_the_death_of_me_you_know_that/",
+            "source": "Reddit r/characterai",
+            "published_date_obj": "2025-06-18",
+            "rewritten_title": "\u201cYOU\u2019RE GONNA BE THE DEATH OF ME, YOU..."
         }
     ]
 }
