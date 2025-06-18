@@ -1,0 +1,745 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# News Aggregation Website Replication Guide
+
+## Overview
+This comprehensive guide details how to replicate the automated news aggregation website for any niche (health tech, fitness, finance, etc.). The project creates a professional static HTML website that automatically fetches, categorizes, displays, and paginates news from various sources with daily flash summaries and automated deployment.
+
+## Current Project Features
+- **Automated News Aggregation**: RSS feeds, NewsAPI, Reddit, Perplexity AI integration
+- **Topic Pages with Pagination**: Accumulating content across multiple pages
+- **Daily Flash Summaries**: AI-generated daily highlights with fallback
+- **GitHub Actions Automation**: Daily builds and deployment
+- **SEO Optimization**: Sitemaps, meta tags, structured data
+- **Professional Template System**: Responsive design with contact forms
+- **Content Management**: Categorization, deduplication, archiving
+
+## Project Architecture
+
+### Core Components
+- **Backend Logic**: `aggregator.py` (1,728 lines - comprehensive aggregation system)
+- **Configuration**: `config.json`, `keyword_config.json` (138 lines - topic page definitions)
+- **Templates**: `template.html`, `keyword_template.html`, `archive_index_template.html`
+- **Automation**: `.github/workflows/daily-update.yml` (180 lines - robust workflow)
+- **SEO & Utilities**: `generate_sitemap.py`, `validate_sitemap.py`, various helper scripts
+- **Content Storage**: `archive/`, `topic_archives/`, `curated_content/`, `data/`
+
+### File Structure
+```
+your-niche-site/
+├── aggregator.py                     # Main aggregation engine
+├── config.json                      # Site configuration
+├── keyword_config.json               # Topic pages configuration
+├── template.html                     # Main page template
+├── keyword_template.html             # Topic page template
+├── archive_index_template.html       # Archive listing template
+├── sitemap_template.xml              # Sitemap template
+├── generate_sitemap.py               # Sitemap generator
+├── validate_sitemap.py               # Sitemap validator
+├── requirements.txt                  # Python dependencies
+├── build.sh                          # Build script
+├── robots.txt                        # SEO robots file
+├── site.webmanifest                  # PWA manifest
+├── README.md                         # Project documentation
+├── .github/workflows/daily-update.yml # Automation workflow
+├── .cursor/rules/                    # Development rules
+├── archive/                          # Daily archives
+├── topic_archives/                   # Paginated topic content
+├── curated_content/                  # Manual curation files
+├── data/                            # Processed data
+├── images/                          # Site graphics
+├── templates/                       # Template directory
+└── [Generated Files]
+    ├── index.html                   # Main page
+    ├── about.html                   # About page
+    ├── contact.html                 # Contact form
+    ├── privacy.html                 # Privacy policy
+    ├── thank-you.html               # Form success page
+    ├── contact-success.html         # Contact success page
+    ├── sitemap.xml                  # Generated sitemap
+    ├── [topic]-news.html            # Topic page 1
+    ├── [topic]-news-page-2.html     # Topic page 2
+    ├── [topic]-news-page-3.html     # Topic page 3
+    └── archive/[date].html          # Daily archives
+```
+
+## Phase 1: Niche Definition & Content Strategy
+
+### 1.1 Niche Research & Planning
+**Required Information:**
+1. **Primary Niche/Topic**: Central theme (e.g., "Health Technology", "Fitness & Wellness")
+2. **Site Name/Brand**: Professional name (e.g., "HealthTechReport", "FitnessFlash")
+3. **Target Audience**: Primary users and their needs
+4. **Content Categories**: 8-12 main sub-topics within the niche
+5. **Competitive Analysis**: Existing sites in the space
+6. **Monetization Strategy**: Newsletter, partnerships, advertising
+
+### 1.2 Keyword Strategy
+**Primary Keywords** (3-5):
+- Core niche terms (e.g., "health technology", "medical devices", "digital health")
+
+**Secondary Keywords** (8-12):
+- Specific sub-topics (e.g., "telemedicine", "wearable devices", "healthcare AI")
+
+**Long-tail Keywords** (15-20):
+- Specific phrases users search for
+
+**Negative Keywords**:
+- Terms to exclude (e.g., "jobs", "hiring", "recruitment" for news-focused sites)
+
+### 1.3 Content Sources Identification
+**RSS Feeds** (15-25 sources):
+- Industry publications and blogs
+- Company announcement feeds
+- Government/regulatory feeds
+- Academic institution feeds
+
+**Reddit Subreddits** (5-10):
+- Active communities discussing the niche
+
+**NewsAPI Categories**:
+- Relevant categories for general news coverage
+
+## Phase 2: Configuration Adaptation
+
+### 2.1 Core Configuration (`config.json`)
+```json
+{
+  "excluded_sites": [
+    "jobsite1.com",
+    "recruitment2.com", 
+    "lowqualitysite3.com"
+  ],
+  "low_quality_url_patterns": [
+    "/tag/",
+    "/category/", 
+    "/author/",
+    "/page/",
+    "/feed/",
+    "/rss/",
+    "/amp/"
+  ],
+  "negative_keywords": [
+    "jobs",
+    "hiring", 
+    "recruitment",
+    "career",
+    "salary",
+    "interview"
+  ]
+}
+```
+
+### 2.2 Topic Pages Configuration (`keyword_config.json`)
+**Complete adaptation required** - Example for Health Tech:
+```json
+{
+  "keyword_pages": {
+    "digital-health-news": {
+      "title": "Digital Health News",
+      "description": "Latest developments in digital health technology and innovation",
+      "filename": "digital-health-news.html",
+      "keywords": ["digital health", "health tech", "medical technology", "healthcare innovation"],
+      "negative_keywords": [],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Digital Health News - Latest Health Technology Updates",
+      "meta_description": "Stay updated with digital health news, medical technology innovations, and healthcare industry developments."
+    },
+    "telemedicine-news": {
+      "title": "Telemedicine News",
+      "description": "Telemedicine updates, virtual care developments, and remote health solutions",
+      "filename": "telemedicine-news.html", 
+      "keywords": ["telemedicine", "virtual care", "remote health", "telehealth"],
+      "negative_keywords": [],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Telemedicine News - Virtual Care and Remote Health Updates",
+      "meta_description": "Latest telemedicine news covering virtual care innovations and remote health solutions."
+    },
+    "medical-devices-news": {
+      "title": "Medical Devices News",
+      "description": "Medical device innovations, FDA approvals, and device technology updates",
+      "filename": "medical-devices-news.html",
+      "keywords": ["medical devices", "FDA approval", "medical equipment", "device innovation"],
+      "negative_keywords": [],
+      "max_articles": 50,
+      "page_type": "automated", 
+      "meta_title": "Medical Devices News - Latest Device Innovations and FDA Approvals",
+      "meta_description": "Medical device news including FDA approvals, device innovations, and medical equipment updates."
+    },
+    "health-funding-news": {
+      "title": "Health Tech Funding",
+      "description": "Health technology startup funding, investments, and acquisition news",
+      "filename": "health-funding-news.html",
+      "keywords": ["funding", "investment", "venture capital", "acquisition", "Series A", "Series B"],
+      "required_keywords": ["health", "medical", "healthcare", "digital health"],
+      "negative_keywords": [],
+      "max_articles": 40,
+      "page_type": "automated",
+      "meta_title": "Health Tech Funding - Startup Investments and Healthcare VC News",
+      "meta_description": "Track health tech funding rounds, healthcare investments, and digital health startup acquisitions."
+    },
+    "health-regulation-news": {
+      "title": "Health Regulation News", 
+      "description": "Healthcare regulations, FDA updates, and policy developments",
+      "filename": "health-regulation-news.html",
+      "keywords": ["FDA", "regulation", "policy", "compliance", "healthcare law"],
+      "required_keywords": ["health", "medical", "healthcare"],
+      "negative_keywords": [],
+      "max_articles": 40,
+      "page_type": "automated",
+      "meta_title": "Health Regulation News - FDA Updates and Healthcare Policy",
+      "meta_description": "Healthcare regulation news including FDA updates, policy changes, and compliance requirements."
+    },
+    "wearable-health-news": {
+      "title": "Wearable Health Tech",
+      "description": "Wearable health devices, fitness trackers, and health monitoring technology",
+      "filename": "wearable-health-news.html",
+      "keywords": ["wearable", "fitness tracker", "health monitor", "smartwatch health"],
+      "required_keywords": ["health", "medical", "fitness"],
+      "negative_keywords": [],
+      "max_articles": 40,
+      "page_type": "automated",
+      "meta_title": "Wearable Health Tech - Fitness Trackers and Health Monitoring Devices",
+      "meta_description": "Latest wearable health technology including fitness trackers and health monitoring devices."
+    },
+    "health-news-today": {
+      "title": "Health Tech Today",
+      "description": "Today's top health technology stories - curated daily highlights",
+      "filename": "health-news-today.html",
+      "keywords": [],
+      "negative_keywords": [],
+      "max_articles": 5,
+      "page_type": "curated",
+      "meta_title": "Health Tech Today - Daily Curated Health Technology Headlines",
+      "meta_description": "Today's most important health tech news stories, carefully curated and summarized."
+    },
+    "health-breakthrough-news": {
+      "title": "Health Tech Breakthroughs",
+      "description": "Major health technology breakthroughs and groundbreaking medical innovations",
+      "filename": "health-breakthrough-news.html",
+      "keywords": ["breakthrough", "groundbreaking", "revolutionary", "major", "significant"],
+      "required_keywords": ["health", "medical", "healthcare"],
+      "negative_keywords": [],
+      "max_articles": 20,
+      "page_type": "curated",
+      "meta_title": "Health Tech Breakthroughs - Major Medical Technology Developments",
+      "meta_description": "Major health technology breakthroughs and revolutionary medical innovations."
+    }
+  },
+  "settings": {
+    "content_freshness_days": 7,
+    "enable_keyword_scoring": true,
+    "duplicate_handling": "show_on_all_matching",
+    "case_sensitive": false,
+    "stories_per_page": 25,
+    "max_pages_per_topic": 10
+  }
+}
+```
+
+### 2.3 Aggregator Configuration (`aggregator.py`)
+**Key sections to update:**
+
+```python
+# Update NewsAPI query for your niche
+NEWS_API_QUERY = '(health technology OR digital health OR medical devices OR telemedicine OR healthcare innovation) AND (news OR update OR announcement OR breakthrough)'
+
+# Update subreddits for your niche  
+SUBREDDITS = [
+    "healthtech", "digitalhealth", "medtech", "telemedicine", 
+    "healthit", "medicaldevices", "healthinnovation", "healthcareit"
+]
+
+# Update RSS feeds for your niche
+RSS_FEEDS = {
+    "Healthcare IT News": "https://www.healthcareitnews.com/rss.xml",
+    "MobiHealthNews": "https://www.mobihealthnews.com/rss.xml", 
+    "Digital Health News": "https://digitalhealthnews.eu/feed/",
+    "HealthTech Magazine": "https://healthtechmagazine.net/rss.xml",
+    "Medical Device Network": "https://www.medicaldevice-network.com/rss/",
+    "FDA News": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/fda-news-releases/rss.xml",
+    "Rock Health": "https://rockhealth.com/feed/",
+    "Fierce Healthcare": "https://www.fiercehealthcare.com/rss/xml",
+    "Healthcare Finance News": "https://www.healthcarefinancenews.com/rss.xml",
+    "Modern Healthcare": "https://www.modernhealthcare.com/rss",
+    "Becker's Health IT": "https://www.beckershospitalreview.com/rss-feeds/healthcare-information-technology.xml",
+    "HIMSS": "https://www.himss.org/news/rss.xml",
+    "HealthcareITNews": "https://www.healthcareitnews.com/rss/news",
+    "TechCrunch Health": "https://techcrunch.com/category/health/feed/",
+    "Forbes Healthcare": "https://www.forbes.com/healthcare/feed/"
+}
+
+# Update categories for your niche
+CATEGORIES = [
+    'Breaking News',
+    'Digital Health',
+    'Medical Devices', 
+    'Telemedicine',
+    'Health IT',
+    'Regulation & Policy',
+    'Funding & Investments',
+    'Innovation Spotlight'
+]
+
+# Update category keywords for your niche
+CATEGORY_KEYWORDS = {
+    'Breaking News': ['breaking', 'urgent', 'alert', 'developing', 'just in'],
+    'Digital Health': ['digital health', 'health app', 'mobile health', 'mHealth', 'health platform'],
+    'Medical Devices': ['medical device', 'FDA approval', 'device clearance', 'medical equipment', 'diagnostic device'],
+    'Telemedicine': ['telemedicine', 'telehealth', 'virtual care', 'remote monitoring', 'virtual consultation'],
+    'Health IT': ['EHR', 'electronic health record', 'health information', 'HIPAA', 'interoperability'],
+    'Regulation & Policy': ['FDA', 'regulation', 'policy', 'compliance', 'healthcare law', 'CMS'],
+    'Funding & Investments': ['funding', 'investment', 'venture capital', 'Series A', 'IPO', 'acquisition'],
+    'Innovation Spotlight': ['innovation', 'breakthrough', 'revolutionary', 'cutting-edge', 'pioneering']
+}
+
+# Update trending keywords for your niche (optional)
+TRENDING_KEYWORDS = [
+    'artificial intelligence in healthcare',
+    'machine learning medical',
+    'blockchain healthcare', 
+    'IoT medical devices',
+    'remote patient monitoring',
+    'precision medicine',
+    'genomics',
+    'robotic surgery'
+]
+```
+
+## Phase 3: Template Customization
+
+### 3.1 Main Template (`template.html`)
+**Critical sections to update:**
+
+```html
+<!-- Site Title & Branding -->
+<title>{% if page_title %}{{ page_title }} - {% endif %}YourNicheSite - Daily Industry News</title>
+
+<!-- Meta Tags -->
+<meta name="description" content="Daily news aggregation for [your niche] industry. Latest updates, trends, and developments from trusted sources.">
+<meta name="keywords" content="your, niche, keywords, here">
+
+<!-- Open Graph Tags -->
+<meta property="og:title" content="YourNicheSite - Daily [Niche] News">
+<meta property="og:description" content="Stay updated with the latest [niche] news, trends, and industry developments.">
+<meta property="og:image" content="https://yoursite.com/images/og-image.png">
+<meta property="og:url" content="https://yoursite.com/">
+
+<!-- Site Header -->
+<h1 class="site-title">YourNicheSite</h1>
+<p class="site-description">Daily [Niche] Industry News & Updates</p>
+
+<!-- Flash Summary Section -->
+{% if flash_summary %}
+<div class="flash-daily-summary">
+  {{ flash_summary|safe }}
+</div>
+{% endif %}
+
+<!-- Navigation -->
+<nav class="main-nav">
+  <a href="/">Home</a>
+  <a href="/about.html">About</a>
+  <a href="/contact.html">Contact</a>
+  <div class="dropdown">
+    <a href="#" class="dropdown-toggle">Topics ▼</a>
+    <div class="dropdown-content">
+      {% for page_key, page_config in all_keyword_pages_config.items() %}
+        <a href="/{{ page_key }}.html">{{ page_config.title }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</nav>
+```
+
+### 3.2 Flash Summary Styling
+**Update CSS for niche-appropriate colors:**
+```css
+/* Flash Summary - Customize colors for your niche */
+.flash-daily-summary {
+    background: linear-gradient(135deg, #your-primary-color 0%, #your-secondary-color 100%);
+    border-radius: 12px;
+    padding: 24px;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(your-primary-color-rgb, 0.2);
+    color: white;
+}
+
+/* Examples by niche:
+   Health Tech: #00a651 to #4CAF50 (medical green)
+   Fitness: #ff6b35 to #ff8c42 (energetic orange)
+   Finance: #1976d2 to #2196f3 (trust blue)
+   Food: #8bc34a to #4caf50 (fresh green)
+*/
+```
+
+### 3.3 About Page (`about.html`)
+**Customize content for your niche:**
+```html
+<h1>About YourNicheSite</h1>
+<p>YourNicheSite is your daily source for [niche] industry news and updates. We aggregate content from trusted sources to keep you informed about the latest developments, trends, and innovations in [your niche].</p>
+
+<h2>Our Mission</h2>
+<p>To provide comprehensive, timely, and relevant news coverage for [niche] professionals, enthusiasts, and stakeholders.</p>
+
+<h2>Content Sources</h2>
+<p>We curate content from leading [niche] publications, industry blogs, regulatory announcements, and community discussions to ensure comprehensive coverage.</p>
+
+<h2>Contact</h2>
+<p>Have feedback or want to suggest a news source? <a href="/contact.html">Contact us</a>.</p>
+```
+
+## Phase 4: Flash Summary Customization
+
+### 4.1 Niche-Specific Prompts
+**Update the flash summary prompt in `aggregator.py`:**
+
+```python
+# Health Tech example
+flash_summary_prompt_template = """Create a daily health technology news summary for today's date {date}. Format as follows:
+
+**HEALTH TECH FLASH - {date}**
+
+Write one compelling headline about the most significant health technology story from today's news.
+
+**Today's Top Stories:**
+- [First story in one sentence with key details and impact on healthcare]
+- [Second story in one sentence with key details and impact on healthcare]  
+- [Third story in one sentence with key details and impact on healthcare]
+
+**Flash Insight:** 
+Write 1-2 sentences analyzing what these developments mean for the future of healthcare technology and digital health.
+
+Use only these headlines from today:
+{headlines_list}
+
+Make it engaging and focus on developments that matter most to healthcare professionals and health tech enthusiasts."""
+
+# Fitness example
+flash_summary_prompt_template = """Create a daily fitness and wellness news summary for today's date {date}. Format as follows:
+
+**FITNESS FLASH - {date}**
+
+Write one compelling headline about the most significant fitness or wellness story from today's news.
+
+**Today's Top Stories:**
+- [First story in one sentence with key details and impact on fitness/wellness]
+- [Second story in one sentence with key details and impact on fitness/wellness]
+- [Third story in one sentence with key details and impact on fitness/wellness]
+
+**Flash Insight:**
+Write 1-2 sentences analyzing what these developments mean for fitness enthusiasts and wellness trends.
+
+Use only these headlines from today:
+{headlines_list}
+
+Make it engaging and focus on developments that matter most to fitness professionals and wellness enthusiasts."""
+```
+
+## Phase 5: Required Images & Assets
+
+### 5.1 Image Requirements
+Create these images with niche-appropriate design:
+
+1. **Open Graph Image** (`/images/og-image.png`):
+   - Size: 1200x630px
+   - Include site name and niche focus
+   - Professional design matching your brand
+
+2. **Twitter Card Image** (`/images/twitter-card.png`):
+   - Size: 1200x600px  
+   - Similar to OG image but optimized for Twitter
+
+3. **Site Logo** (`/images/logo.png`):
+   - Various sizes (192x192, 512x512)
+   - Used in schema markup and headers
+
+4. **Favicons**:
+   - `favicon.ico` (32x32)
+   - `favicon.svg` (scalable)
+   - Apple touch icons
+
+### 5.2 Color Scheme Examples by Niche
+
+**Health Technology:**
+- Primary: #00a651 (medical green)
+- Secondary: #4CAF50 (lighter green)
+- Accent: #0277bd (trust blue)
+
+**Fitness & Wellness:**
+- Primary: #ff6b35 (energetic orange)
+- Secondary: #ff8c42 (lighter orange) 
+- Accent: #4caf50 (healthy green)
+
+**Finance:**
+- Primary: #1976d2 (trust blue)
+- Secondary: #2196f3 (lighter blue)
+- Accent: #388e3c (money green)
+
+## Phase 6: API Setup & Environment
+
+### 6.1 Required API Keys
+1. **NewsAPI** (newsapi.org):
+   - Free tier: 1,000 requests/day
+   - Paid tiers available for higher volume
+
+2. **Reddit API** (reddit.com/prefs/apps):
+   - Free with rate limits
+   - Required for subreddit content
+
+3. **Perplexity AI** (perplexity.ai):
+   - For flash summary generation
+   - Paid service with API access
+
+### 6.2 Environment Variables
+```bash
+# Required for all deployments
+export NEWS_API_KEY="your_newsapi_key"
+export REDDIT_CLIENT_ID="your_reddit_client_id" 
+export REDDIT_CLIENT_SECRET="your_reddit_client_secret"
+export REDDIT_USER_AGENT="web:yournichesiteaggregator:v1.0 (by /u/yourusername)"
+
+# Optional but recommended for flash summaries
+export PERPLEXITY_API_KEY="your_perplexity_key"
+export PERPLEXITY_API_KEY_B64="base64_encoded_perplexity_key"  # For GitHub Actions
+```
+
+### 6.3 GitHub Secrets Setup
+In your GitHub repository settings > Secrets and variables > Actions:
+```
+NEWS_API_KEY
+REDDIT_CLIENT_ID
+REDDIT_CLIENT_SECRET
+PERPLEXITY_API_KEY
+PERPLEXITY_API_KEY_B64
+```
+
+## Phase 7: GitHub Actions Workflow
+
+### 7.1 Workflow Configuration (`.github/workflows/daily-update.yml`)
+**Update schedule for your niche:**
+```yaml
+name: Daily News Update
+
+on:
+  schedule:
+    # Health Tech: 5:00 UTC (early morning US Eastern)
+    - cron: '0 5 * * *'
+    
+    # Fitness: 6:00 UTC (morning motivation time)
+    # - cron: '0 6 * * *'
+    
+    # Finance: 4:00 UTC (before markets open)
+    # - cron: '0 4 * * *'
+    
+  workflow_dispatch:  # Manual trigger
+```
+
+**Customize commit messages:**
+```yaml
+git commit -m "Daily update: $(date +'%Y-%m-%d') - [Niche] News with Flash Summary"
+```
+
+## Phase 8: SEO & Content Optimization
+
+### 8.1 Sitemap Configuration
+**Update `generate_sitemap.py`:**
+```python
+BASE_URL = "https://your-niche-site.com"
+
+# Update priority values for your niche
+url_priorities = {
+    '/': 1.0,                    # Homepage
+    '/about.html': 0.8,          # About page
+    '/contact.html': 0.7,        # Contact page
+    'topic-pages': 0.9,          # Topic pages
+    'paginated-pages': 0.7,      # Paginated topic pages
+    'archive-pages': 0.5         # Archive pages
+}
+```
+
+### 8.2 Robots.txt
+```
+User-agent: *
+Allow: /
+
+# Block irrelevant pages
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+
+# Sitemap location
+Sitemap: https://your-niche-site.com/sitemap.xml
+```
+
+### 8.3 Schema.org Markup
+**Update in `template.html`:**
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsMediaOrganization", 
+  "name": "YourNicheSite",
+  "url": "https://your-niche-site.com",
+  "logo": "https://your-niche-site.com/images/logo.png",
+  "description": "Daily [niche] industry news and updates",
+  "publisher": {
+    "@type": "Organization",
+    "name": "YourNicheSite",
+    "logo": "https://your-niche-site.com/images/logo.png"
+  }
+}
+</script>
+```
+
+## Phase 9: Testing & Quality Assurance
+
+### 9.1 Pre-Launch Checklist
+- [ ] **Content Quality**: Test aggregation with sample data
+- [ ] **API Integration**: Verify all APIs returning valid content
+- [ ] **Pagination**: Test topic page pagination with multiple pages
+- [ ] **Flash Summary**: Test both API and fallback summary generation
+- [ ] **Responsive Design**: Test on mobile, tablet, desktop
+- [ ] **SEO Elements**: Verify meta tags, schema markup, sitemap
+- [ ] **Performance**: Test page load times (<3 seconds)
+- [ ] **GitHub Actions**: Test automated workflow end-to-end
+- [ ] **Contact Form**: Test form submission and success pages
+- [ ] **Cross-browser**: Test on Chrome, Firefox, Safari, Edge
+
+### 9.2 Content Validation
+```bash
+# Test aggregator locally
+python3 aggregator.py
+
+# Validate generated content
+ls -la *.html
+ls -la archive/
+ls -la topic_archives/
+
+# Test sitemap generation
+python3 generate_sitemap.py
+python3 validate_sitemap.py
+
+# Check for errors
+grep -r "ERROR\|error\|Error" *.html
+```
+
+### 9.3 Performance Testing
+```bash
+# Test build time
+time python3 aggregator.py
+
+# Check file sizes
+du -h *.html
+du -h archive/
+du -h topic_archives/
+
+# Validate HTML
+# Use online validators or tools like htmlhint
+```
+
+## Phase 10: Deployment & Launch
+
+### 10.1 Netlify Deployment
+1. **Connect Repository**: Link GitHub repo to Netlify
+2. **Build Settings**: 
+   - Build command: `python3 aggregator.py && python3 generate_sitemap.py`
+   - Publish directory: `/` (root)
+3. **Environment Variables**: Add all API keys to Netlify environment
+4. **Domain Setup**: Configure custom domain if desired
+5. **Form Handling**: Enable Netlify forms for contact page
+
+### 10.2 Launch Strategy
+1. **Soft Launch**: Test with limited audience
+2. **Content Review**: Monitor first week of automated content
+3. **SEO Submission**: Submit sitemap to Google Search Console
+4. **Analytics**: Set up Google Analytics or Plausible
+5. **Social Media**: Create social accounts and sharing strategy
+6. **Newsletter**: Consider adding email signup for engaged users
+
+## Phase 11: Monitoring & Maintenance
+
+### 11.1 Daily Monitoring
+- **GitHub Actions**: Check workflow success/failure
+- **Content Quality**: Review flash summaries and categorization
+- **Error Logs**: Monitor for API failures or processing errors
+- **Performance**: Track page load times and user engagement
+
+### 11.2 Weekly Maintenance
+- **Content Review**: Audit topic page content for relevance
+- **Source Evaluation**: Review RSS feeds and API performance
+- **SEO Analysis**: Check search rankings and traffic patterns
+- **User Feedback**: Review contact form submissions
+
+### 11.3 Monthly Optimization
+- **Keyword Updates**: Refresh keyword lists based on trends
+- **Source Updates**: Add new RSS feeds, remove inactive ones
+- **Performance Tuning**: Optimize for speed and user experience
+- **Feature Planning**: Consider new features based on user needs
+
+## Niche-Specific Customization Examples
+
+### Health Technology Site
+- **Focus**: Medical devices, digital health, telemedicine, health IT
+- **Key Sources**: Healthcare IT News, MobiHealthNews, FDA announcements
+- **Categories**: Digital Health, Medical Devices, Telemedicine, Health IT, Regulation
+- **Flash Summary**: Focus on healthcare impact and patient outcomes
+- **Color Scheme**: Medical green (#00a651) with trust blue accents
+
+### Fitness & Wellness Site  
+- **Focus**: Fitness trends, nutrition, workout technology, wellness
+- **Key Sources**: Men's Health, Women's Health, fitness blogs, equipment reviews
+- **Categories**: Training, Nutrition, Equipment, Wellness, Research
+- **Flash Summary**: Focus on practical fitness tips and wellness trends
+- **Color Scheme**: Energetic orange (#ff6b35) with healthy green accents
+
+### Financial Technology Site
+- **Focus**: Fintech, banking tech, payments, cryptocurrency, investing
+- **Key Sources**: American Banker, Fintech News, payments blogs, regulatory feeds
+- **Categories**: Payments, Banking Tech, Investing, Regulation, Cryptocurrency
+- **Flash Summary**: Focus on market impact and financial implications
+- **Color Scheme**: Trust blue (#1976d2) with money green accents
+
+## Advanced Features & Scaling
+
+### Content Enhancement
+- **User-Generated Content**: Allow submission of news tips
+- **Expert Commentary**: Add expert analysis sections
+- **Trending Topics**: Dynamic trending keywords based on volume
+- **Social Media Integration**: Auto-posting to social platforms
+
+### Technical Scaling
+- **CDN Integration**: Use Cloudflare for global performance
+- **Advanced Analytics**: Detailed user behavior tracking
+- **A/B Testing**: Test different layouts and content approaches
+- **API Rate Management**: Implement sophisticated rate limiting
+
+### Monetization Options
+- **Newsletter Subscriptions**: Premium content via email
+- **Sponsored Content**: Clearly marked industry partnerships
+- **Job Board**: Industry-specific job listings
+- **Event Listings**: Relevant conferences and webinars
+
+## Support & Resources
+
+### Documentation Links
+- **GitHub Actions**: https://docs.github.com/en/actions
+- **Netlify Forms**: https://docs.netlify.com/forms/setup/
+- **NewsAPI**: https://newsapi.org/docs
+- **Reddit API**: https://www.reddit.com/dev/api/
+- **Perplexity API**: https://docs.perplexity.ai/
+
+### Community Resources
+- **GitHub Issues**: Use issues for bug tracking and feature requests
+- **Development Log**: Keep detailed logs of changes and optimizations
+- **Performance Metrics**: Track and document performance improvements
+- **User Feedback**: Collect and act on user suggestions
+
+---
+
+This comprehensive guide provides everything needed to replicate the news aggregation website for any niche. The modular design allows for easy customization while maintaining the robust functionality and professional appearance of the original system.

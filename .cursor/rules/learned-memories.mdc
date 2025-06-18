@@ -1,0 +1,144 @@
+---
+description: This rule defines how the AI agent should manage and utilize memory improve coding consistency.
+globs: *
+alwaysApply: false
+---
+# AI Memory Rule
+
+This rule defines how the AI should manage and utilize its "memory" regarding this specific project, including user preferences, learned facts, and project-specific conventions.
+
+## Purpose
+
+The AI's memory helps maintain consistency and adapt to specific project needs or user preferences discovered during interactions. It prevents the AI from repeatedly asking for the same information or making suggestions contrary to established patterns.
+
+## Storage
+
+All learned project-specific knowledge and preferences should be stored and referenced in the `learned-memories.mdc` file located in `.cursor/rules`.
+
+## Updating Memory
+
+When new information relevant to the project's conventions, user preferences, or specific technical details is learned (either explicitly told by the user or inferred through conversation), the AI should:
+
+1.  **Identify Key Information:** Determine the core piece of knowledge to be stored.
+2.  **Check Existing Memory:** Review `learned-memories.mdc` to see if this information contradicts or updates existing entries.
+3.  **Propose Update:** Suggest an edit to `learned-memories.mdc` to add or modify the relevant information. Keep entries concise and clear.
+
+## Using Memory
+
+Before proposing solutions, code changes, or answering questions, the AI should consult `learned-memories.mdc` to ensure its response aligns with the recorded knowledge and preferences.
+
+## Example Scenario
+
+**User:** "We've decided to use Tailwind v4 for this project, not v3."
+
+**AI Action:**
+
+1.  Recognize this as a project-specific technical decision.
+2.  Check `learned-memories.mdc` for existing Tailwind version information.
+3.  Propose adding or updating an entry in `learned-memories.mdc`:
+    ```markdown
+    ## Technical Decisions
+
+    *   **CSS Framework:** Tailwind v4 is used. Ensure usage aligns with v4 documentation and practices, noting differences from v3.
+    ```
+4.  In subsequent interactions involving Tailwind, the AI will refer to this entry and consult v4 documentation if necessary.
+
+## Memory File (`.cursor/rules/learned-memories.mdc`)
+
+The basic structure:
+
+```markdown
+# Project Memory
+
+This file stores project-specific knowledge, conventions, and user preferences learned by the AI assistant.
+
+## User Preferences
+
+-   [Preference 1]
+-   [Preference 2]
+
+## Technical Decisions
+
+-   [Decision 1]
+-   [Decision 2]
+
+## Project Conventions
+
+-   [Convention 1]
+-   [Convention 2]
+```
+
+# Project Memory
+
+This file stores project-specific knowledge, conventions, and user preferences learned by the AI assistant.
+
+## User Preferences
+- **Author**: Bryan Collins is the project author and maintainer
+- **Development Style**: Prefers comprehensive documentation and well-organized rule systems
+- **API Testing**: Prefers real API testing over mock data for validation
+- **Analytics Strategy**: Individual Plausible analytics domains per site (not consolidated) for clean separation and potential individual site sales
+- **Portfolio Cross-Linking**: All sites should link to each other on the about page to build portfolio discovery
+- **Design Consistency**: Universal template system must maintain the exact aiflashreport.com design (header, hero, flash summary, layout) with only color schemes and content changing per niche
+- **Communication Style**: Talk like a junior developer, be concise, avoid major code changes without approval
+
+## Technical Decisions
+- **Project Type**: AI news aggregation website with daily automated updates → **EVOLVED** → Universal template system for 8 niche sites
+- **Universal Template**: Created templates/universal_template.html that maintains exact aiflashreport.com design with dynamic configuration variables
+- **Configuration System**: Individual JSON configs for each of 8 niches (ai, crypto, tech, fitness, saas, healthtech, startup, climate)
+- **Portfolio Architecture**: Master portfolio_sites.json for cross-linking, individual analytics domains, same design with niche-specific branding
+- **Hosting**: Netlify for static site hosting
+- **Automation**: GitHub Actions for daily content updates
+- **Template Engine**: Jinja2 for HTML template rendering
+- **News Sources**: NewsAPI, Perplexity AI, RSS feeds, Reddit subreddits
+- **SEO Tools**: Custom sitemap generation, structured data, meta tag optimization
+- **Flash Summary Component**: Standalone reusable component for Perplexity API integration
+- **API Credentials**: Perplexity API key stored as PERPLEXITY_API_KEY in environment variables
+- **Component Architecture**: **CRITICAL** - Use standalone components for new features instead of inline fixes. The Flash Summary Component (May 30, 2025) proved that building separate, reusable components is vastly superior to trying to fix broken inline code. Results: 95% code reduction, zero bugs, easy testing, multi-project reusability.
+
+## Project Conventions
+- **File Organization**: Cursor rules stored in `.cursor/rules/` directory with `.mdc` extension
+- **Configuration**: Centralized configuration in `config.json` and `keyword_config.json`
+- **Content Structure**: Daily archives, keyword-based categorization, trending sections
+- **Git Workflow**: Careful management of auto-generated vs. manually edited files
+- **Component Testing**: Real API testing preferred using actual Perplexity API for validation
+- **Feature Development**: **ALWAYS** create standalone components for new features rather than patching existing code. Components should include comprehensive documentation, test suite, and integration examples.
+- **QA Process**: **CRITICAL** - Create standalone preview pages for testing styling/template changes. Store in `/QA/` directory with descriptive filenames (e.g., `headlines-styling-preview.html`). This approach allows rapid iteration and comparison of multiple solutions without running the full aggregator script. Include side-by-side comparisons showing current vs. proposed fixes with detailed annotations explaining changes. **IMPORTANT**: When testing styling changes that require fresh content, empty `processed_urls.json` first so the aggregator fetches new articles instead of skipping them all. This prevents the "Skipping already processed URL" issue during testing.
+
+## QA & Local Preview Management
+- **Local Server Location**: `local-server.py` is in the `QA/` directory, NOT the root directory
+- **Server Restart Protocol**: After major template/navigation changes, ALWAYS:
+  1. Kill any existing servers: `pkill -f "local-server.py" || true`
+  2. Rebuild all sites: `cd QA && python build-all-test-sites.py`
+  3. Start fresh server: `python local-server.py [PORT]` (from QA directory)
+  4. Test key navigation: About, Contact, Privacy Policy, Cookie Policy links
+  5. Verify all 8 niche sites load properly
+- **Common Issue**: User tries to run `python local-server.py` from root directory → "No such file" error
+- **Port Management**: Use different ports (8010, 8011, 8020, etc.) if ports are in use
+- **Navigation Testing**: Always test relative links work within each site directory structure
+
+## Domain Knowledge
+- **News Aggregation**: Focus on AI/artificial intelligence news and developments
+- **Content Categories**: Trending Now, AI Products, Creator Economy, Business News, Research Breakthroughs, Industries, Deep Learning, Companies, Applications, Controversy
+- **Automation Requirements**: Daily fetch, categorization, HTML generation, deployment, archiving
+- **SEO Strategy**: Keyword-rich content, proper meta tags, structured data, sitemap maintenance
+- **Flash Summary**: Successfully tested with real Perplexity API (May 30, 2025) - citations, links, and formatting work perfectly
+- **Citation Handling**: Perplexity outputs [1], [2], [3] format (not [^1] footnotes) with Sources section
+
+## Universal Build & QA Workflow (2025-06-02)
+
+- **Universal Build Script:** Use `QA/build-all-test-sites.py` for both production and QA builds.
+- **Build all sites:**
+  - `python build-all-test-sites.py`
+  - Rebuilds all 8 sites using real content if available (from `../data/{niche}_content.json`).
+- **Build a single site (QA):**
+  - `python build-all-test-sites.py --niche <site_key>`
+  - Only rebuilds the specified site (e.g., `ai`, `crypto`, etc.), leaving others untouched.
+- **Content Source Logic:**
+  - If `../data/{niche}_content.json` exists, it is used for real news content.
+  - If not, the script falls back to mock content and logs a warning.
+- **Help:**
+  - `python build-all-test-sites.py --help` prints usage instructions.
+- **Best Practice:**
+  - Always run the aggregator for a site before building, to ensure up-to-date RSS/API content is available for the build.
+- **QA Note:**
+  - This workflow allows rapid QA of individual sites without affecting the rest of the portfolio, and supports full portfolio rebuilds for production.
