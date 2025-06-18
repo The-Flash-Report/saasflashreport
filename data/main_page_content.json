@@ -1,179 +1,34 @@
 {
-    "AI Companies": [
-        {
-            "title": "Microsoft should change its Copilot advertising, says watchdog - The Verge",
-            "url": "https://www.theverge.com/news/688056/microsoft-copilot-advertising-watchdog-response",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-06-17",
-            "rewritten_title": "MICROSOFT SHOULD CHANGE ITS COPILOT ADVERTISING, SAYS WATCHDOG..."
-        },
-        {
-            "title": "Apple CarPlay iOS 26 update: New widgets, live actions and 'Liquid Glass' design - USA Today",
-            "url": "https://www.usatoday.com/story/money/cars/2025/06/16/apple-carplay-upgrade-ios-26/84131265007/",
-            "source": "NewsAPI (USA Today)",
-            "published_date_obj": "2025-06-16",
-            "rewritten_title": "APPLE CARPLAY IOS 26 UPDATE: NEW WIDGETS, LIVE..."
-        },
-        {
-            "title": "Siri vaporware dispute continues, as high-profile commenters hit back at Apple - 9to5Mac",
-            "url": "https://9to5mac.com/2025/06/16/siri-vaporware-dispute-continues-as-high-profile-commenters-hit-back-at-apple/",
-            "source": "NewsAPI (9to5Mac)",
-            "published_date_obj": "2025-06-16",
-            "rewritten_title": "SIRI VAPORWARE DISPUTE CONTINUES, AS HIGH-PROFILE COMMENTERS HIT..."
-        },
-        {
-            "title": "OpenAI weighs \u201cnuclear option\u201d of antitrust complaint against Microsoft",
-            "url": "https://www.reddit.com/r/artificial/comments/1lee3mz/openai_weighs_nuclear_option_of_antitrust/",
-            "source": "Reddit r/artificial",
-            "published_date_obj": "2025-06-18",
-            "rewritten_title": "OPENAI WEIGHS \u201cNUCLEAR OPTION\u201d OF ANTITRUST COMPLAINT AGAINST..."
-        },
-        {
-            "title": "Android Auto is now available on all Lucid Air vehicles with latest update - 9to5Google",
-            "url": "http://9to5google.com/2025/06/16/android-auto-lucid-air-update/",
-            "source": "NewsAPI (9to5google.com)",
-            "published_date_obj": "2025-06-16",
-            "rewritten_title": "ANDROID AUTO IS NOW AVAILABLE ON ALL LUCID..."
-        },
-        {
-            "title": "What Gemini app features are free versus paid? [June 2025] - 9to5Google",
-            "url": "http://9to5google.com/2025/06/15/gemini-app-free-paid-features/",
-            "source": "NewsAPI (9to5google.com)",
-            "published_date_obj": "2025-06-16",
-            "rewritten_title": "WHAT GEMINI APP FEATURES ARE FREE VERSUS PAID?..."
-        },
-        {
-            "title": "Google to scale up AI-powered fraud detection and security operations in India",
-            "url": "https://techcrunch.com/2025/06/17/google-to-scale-up-ai-powered-fraud-detection-and-security-operations-in-india/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-06-17",
-            "rewritten_title": "GOOGLE TO SCALE UP AI-POWERED FRAUD DETECTION AND..."
-        },
-        {
-            "title": "Google reportedly plans to cut ties with Scale AI | TechCrunch",
-            "url": "https://techcrunch.com/2025/06/14/google-reportedly-plans-to-cut-ties-with-scale-ai/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-06-14",
-            "rewritten_title": "GOOGLE REPORTEDLY PLANS TO CUT TIES WITH SCALE..."
-        }
-    ],
-    "AI Products": [
-        {
-            "title": "Android Automotive update will make it easier to talk to Gemini in your car - Android Authority",
-            "url": "https://www.androidauthority.com/android-automotive-16-3567889/",
-            "source": "NewsAPI (Android Authority)",
-            "published_date_obj": "2025-06-16",
-            "rewritten_title": "ANDROID AUTOMOTIVE UPDATE WILL MAKE IT EASIER TO..."
-        }
-    ],
-    "Creator Economy": [
-        {
-            "title": "Mario Kart World player gets to the bottom of how coins work - Nintendo Everything",
-            "url": "https://nintendoeverything.com/mario-kart-world-how-coins-work/",
-            "source": "NewsAPI (Nintendoeverything.com)",
-            "published_date_obj": "2025-06-16",
-            "rewritten_title": "MARIO KART WORLD PLAYER GETS TO THE BOTTOM..."
-        }
-    ],
+    "AI Companies": [],
+    "AI Products": [],
+    "Creator Economy": [],
     "Generative AI": [],
-    "AI Business News": [
-        {
-            "title": "Scale AI confirms 'significant' investment from Meta, says CEO Alexanr Wang is leaving | TechCrunch",
-            "url": "https://techcrunch.com/2025/06/13/scale-ai-confirms-significant-investment-from-meta-says-ceo-alexanr-wang-is-leaving/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-06-13",
-            "rewritten_title": "SCALE AI CONFIRMS 'SIGNIFICANT' INVESTMENT FROM META, SAYS..."
-        }
-    ],
-    "AI Research & Methods": [
-        {
-            "title": "Stellar Blade director kicks the horny nest, says steamy stuff's fine, but modders adding fresh twists would be cooler - Rock Paper Shotgun",
-            "url": "https://www.rockpapershotgun.com/stellar-blade-director-kicks-the-horny-nest-says-steamy-stuffs-fine-but-modders-adding-fresh-twists-would-be-cooler",
-            "source": "NewsAPI (Rock Paper Shotgun)",
-            "published_date_obj": "2025-06-16",
-            "rewritten_title": "STELLAR BLADE DIRECTOR KICKS THE HORNY NEST, SAYS..."
-        },
-        {
-            "title": "The Witcher 4's development is \"more console-first\", but don't worry, CD Projekt will still try and turn your PC into the sun - Rock Paper Shotgun",
-            "url": "https://www.rockpapershotgun.com/the-witcher-4-console-first-development-still-push-pcs",
-            "source": "NewsAPI (Rock Paper Shotgun)",
-            "published_date_obj": "2025-06-16",
-            "rewritten_title": "THE WITCHER 4'S DEVELOPMENT IS \"MORE CONSOLE-FIRST\", BUT..."
-        }
-    ],
+    "AI Business News": [],
+    "AI Research & Methods": [],
     "AI in Practice": [],
     "AI Ethics & Policy": [],
     "Weird": [],
     "Trending Now": [
         {
-            "title": "These retro SEGA games are now free on Android until they disappear forever - Android Authority",
-            "url": "https://www.androidauthority.com/sega-retro-games-android-free-3568153/",
-            "source": "NewsAPI (Android Authority)",
-            "published_date_obj": "2025-06-17",
-            "rewritten_title": "THESE RETRO SEGA GAMES ARE NOW FREE ON..."
+            "title": "The 7 Most Useful Jupyter Notebook Extensions for Data Scientists",
+            "url": "https://www.kdnuggets.com/the-7-most-useful-jupyter-notebook-extensions-for-data-scientists",
+            "source": "KDnuggets",
+            "published_date_obj": "2025-06-18",
+            "rewritten_title": "THE 7 MOST USEFUL JUPYTER NOTEBOOK EXTENSIONS FOR..."
         },
         {
-            "title": "Nothing Phone 3 leak reveals it's not a full-blown flagship after all - Android Authority",
-            "url": "https://www.androidauthority.com/nothing-phone-3-processor-3568136/",
-            "source": "NewsAPI (Android Authority)",
-            "published_date_obj": "2025-06-17",
-            "rewritten_title": "NOTHING PHONE 3 LEAK REVEALS IT'S NOT A..."
+            "title": "Scientists once hoarded pre-nuclear steel; now we\u2019re hoarding pre-AI content",
+            "url": "https://arstechnica.com/ai/2025/06/why-one-man-is-archiving-human-made-content-from-before-the-ai-explosion/",
+            "source": "Ars Technica AI",
+            "published_date_obj": "2025-06-18",
+            "rewritten_title": "SCIENTISTS ONCE HOARDED PRE-NUCLEAR STEEL; NOW WE\u2019RE HOARDING..."
         },
         {
-            "title": "You can now set up double dates with friends on Tinder - TechCrunch",
-            "url": "https://techcrunch.com/2025/06/16/you-can-now-arrange-a-double-date-with-friends-on-tinder/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-06-17",
-            "rewritten_title": "YOU CAN NOW SET UP DOUBLE DATES WITH..."
-        },
-        {
-            "title": "This is the best Android phone of 2025, and Best Buy will literally pay you to buy it - Android Central",
-            "url": "https://www.androidcentral.com/phones/oneplus/this-is-the-best-android-phone-of-2025-and-best-buy-will-literally-pay-you-to-buy-it",
-            "source": "NewsAPI (Android Central)",
-            "published_date_obj": "2025-06-16",
-            "rewritten_title": "THIS IS THE BEST ANDROID PHONE OF 2025,..."
-        },
-        {
-            "title": "Red Dead Redemption fans losing their minds over new teaser - GAMINGbible",
-            "url": "https://www.gamingbible.com/news/red-dead-redemption-fans-losing-minds-new-teaser-212253-20250616",
-            "source": "NewsAPI (Gamingbible.com)",
-            "published_date_obj": "2025-06-16",
-            "rewritten_title": "RED DEAD REDEMPTION FANS LOSING THEIR MINDS OVER..."
-        },
-        {
-            "title": "Stellar Blade Sold 1 Million Copies In Just 3 Days On Steam - GameSpot",
-            "url": "https://www.gamespot.com/articles/stellar-blade-sold-1-million-copies-in-just-3-days-on-steam/1100-6532447/",
-            "source": "NewsAPI (GameSpot)",
-            "published_date_obj": "2025-06-16",
-            "rewritten_title": "STELLAR BLADE SOLD 1 MILLION COPIES IN JUST..."
-        },
-        {
-            "title": "'Rumble Has Been Turned Off Due To Prolonged Use'? Don't Worry, Your Switch 2 Joy-Con Probably Aren't Broken - Nintendo Life",
-            "url": "https://www.nintendolife.com/news/2025/06/rumble-has-been-turned-off-due-to-prolonged-use-dont-worry-your-switch-2-joy-con-probably-arent-broken",
-            "source": "NewsAPI (Nintendo Life)",
-            "published_date_obj": "2025-06-16",
-            "rewritten_title": "'RUMBLE HAS BEEN TURNED OFF DUE TO PROLONGED..."
-        },
-        {
-            "title": "Spotify's Daniel Ek just bet bigger on Helsing, Europe's defense tech darling | TechCrunch",
-            "url": "https://techcrunch.com/2025/06/16/spotifys-daniel-ek-just-bet-bigger-on-helsing-europes-defense-tech-darling/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-06-17",
-            "rewritten_title": "SPOTIFY'S DANIEL EK JUST BET BIGGER ON HELSING,..."
-        },
-        {
-            "title": "Week in Review: WWDC 2025 recap",
-            "url": "https://techcrunch.com/2025/06/14/week-in-review-wwdc-2025-recap/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-06-14",
-            "rewritten_title": "WEEK IN REVIEW: WWDC 2025 RECAP"
-        },
-        {
-            "title": "A new, unique AI dataset for animating amateur drawings",
-            "url": "https://ai.facebook.com/blog/ai-dataset-animation-drawings/",
-            "source": "Facebook Research",
-            "published_date_obj": null,
-            "rewritten_title": "A NEW, UNIQUE AI DATASET FOR ANIMATING AMATEUR..."
+            "title": "SportsVisio raises $3.2M for AI for sports athletes and fans",
+            "url": "https://venturebeat.com/games/sportsvisio-raises-3-2m-for-ai-for-sports-athletes-and-fans/",
+            "source": "VentureBeat AI",
+            "published_date_obj": "2025-06-18",
+            "rewritten_title": "SPORTSVISIO RAISES $3.2M FOR AI FOR SPORTS ATHLETES..."
         }
     ]
 }
