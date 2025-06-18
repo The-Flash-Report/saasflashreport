@@ -1457,6 +1457,8 @@ Generate fresh, current content about today's AI developments. Use your knowledg
         'canonical_path': "/",
         'categories': categorized_data, # This is from the logic above (new or loaded)
         'prompt_of_the_day': prompt_data, # Pass the full prompt_data object
+        'prev_url': f"/archive/{yesterday_date_str}.html",
+        'next_url': None, # Homepage doesn't have a next page
         'yesterday_date': yesterday_date_str,
         'tomorrow_date': tomorrow_date_str,
         'is_keyword_page': False,
