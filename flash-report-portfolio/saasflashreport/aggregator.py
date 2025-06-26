@@ -598,13 +598,13 @@ PERPLEXITY_RETRY_DELAY = 2  # seconds
 # --- Helper Functions ---
 
 def rewrite_headline(title, max_words=MAX_HEADLINE_WORDS):
-    """Rewrites headline to be punchy: uppercase, limited words."""
+    """Rewrites headline to be punchy: title case, limited words."""
     words = title.split()
     # Simple truncation
     rewritten = " ".join(words[:max_words])
     if len(words) > max_words:
         rewritten += "..."
-    return rewritten.upper()
+    return rewritten.title()
 
 def categorize_headline(title, url, source=None):
     """Categorizes headlines based on SaaS industry keywords and source."""
