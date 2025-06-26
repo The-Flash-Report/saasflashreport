@@ -550,7 +550,7 @@ REDDIT_TIME_FILTER = 'day' # Restore this constant
 NEWS_API_CATEGORY = 'health'  # Use NewsAPI's health category
 NEWS_API_QUERY = 'longevity OR biohacking OR "health tech" OR "medical breakthrough" OR "precision medicine" OR "digital health" OR "wearable health"'  # Health-focused query
 MAX_NEWS_API_ARTICLES = 100 # Number of articles to fetch from NewsAPI
-MAX_HEADLINE_WORDS = 8
+MAX_HEADLINE_WORDS = 15
 
 # Add these new constants
 MAX_RSS_ENTRIES_PER_SOURCE = 10  # Increased from 3 to 10

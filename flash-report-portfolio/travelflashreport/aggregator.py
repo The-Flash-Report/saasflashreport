@@ -535,18 +535,17 @@ LOW_QUALITY_URL_PATTERNS = [
     '/m/'
 ]
 
-# Updated Subreddits list but keep the ones the user wants
+# Updated Subreddits list for travel and aviation
 SUBREDDITS = [
-    "artificial", "LargeLanguageModels", "LocalLLaMA", "singularity", "MachineLearning", # Original
-    "chatgpt", "claudeai", "characterai", "openai", "ArtificialIntelligence",
-    "ai_agents", "StableDiffusion", "AIArt" # Added by user
+    "travel", "solotravel", "digitalnomad", "churning", "awardtravel", 
+    "flights", "hotels", "roadtrip", "backpacking", "aviation"
 ]
 MAX_REDDIT_POSTS_PER_SUB = 3 # Reduced from 5 to 3 (30% reduction)
 REDDIT_TIME_FILTER = 'day' # Restore this constant
 
-# Updated NewsAPI configuration to use technology category
-NEWS_API_CATEGORY = 'technology'  # Use NewsAPI's technology category
-NEWS_API_QUERY = 'AI OR "artificial intelligence" OR "machine learning"'  # Simple AI-focused query within tech category
+# Updated NewsAPI configuration for travel and aviation
+NEWS_API_CATEGORY = 'general'  # Use general category for broader travel coverage
+NEWS_API_QUERY = '"airline industry" OR "travel restrictions" OR tourism OR "hotel industry" OR "flight updates" OR aviation OR "vacation rentals" OR "cruise industry" OR "travel apps"'
 MAX_NEWS_API_ARTICLES = 100 # Number of articles to fetch from NewsAPI
 MAX_HEADLINE_WORDS = 8
 
@@ -560,65 +559,91 @@ PERPLEXITY_RETRY_DELAY = 2  # seconds
 STORIES_PER_PAGE = 20  # Number of stories to display per page
 MAX_TOTAL_STORIES_PER_TOPIC = 200  # Maximum stories to keep in total per topic
 
-# Add major news sources to RSS feeds
+# Top 40 Travel RSS Feeds (from FeedSpot Travel RSS Feeds)
 RSS_FEEDS = {
-    # --- TOP 15 AI RSS FEEDS (from FeedSpot & Feeder.co) ---
-    "Google Research Blog": "https://research.googleblog.com/feeds/posts/default",
-    "OpenAI Blog": "https://openai.com/blog/rss.xml",
-    "MIT News - AI": "https://news.mit.edu/rss/topic/artificial-intelligence2",
-    "TechCrunch AI": "https://techcrunch.com/category/artificial-intelligence/feed/",  # Reliable AI news
-    "AWS Machine Learning Blog": "https://aws.amazon.com/blogs/machine-learning/feed/",
-    "Facebook Research": "https://research.fb.com/feed/",
-    "Towards Data Science": "https://towardsdatascience.com/feed",
-    "KDnuggets": "https://www.kdnuggets.com/feed",
-    "Ars Technica AI": "https://feeds.arstechnica.com/arstechnica/technology-lab",  # Tech coverage with AI
-    "Machine Learning Mastery": "https://machinelearningmastery.com/feed/",
-    "AI News": "https://artificialintelligence-news.com/feed/",
-    "Unite.AI": "https://www.unite.ai/feed/",
-    "MarkTechPost": "https://www.marktechpost.com/feed/",
-    "Hugging Face Blog": "https://huggingface.co/blog/feed.xml",  # This one works!
-    "BAIR Blog": "https://bair.berkeley.edu/blog/feed.xml",
+    # --- TOP TRAVEL BLOGS AND NEWS SOURCES ---
+    "Nomadic Matt": "https://www.nomadicmatt.com/feed/",
+    "Goats On The Road": "https://www.goatsontheroad.com/feed/",
+    "The Points Guy": "https://thepointsguy.com/feed/",
+    "Travel Freak": "https://www.travelfreak.com/feed/",
+    "HoneyTrek": "https://honeytrek.com/feed/",
+    "The Planet D": "https://theplanetd.com/feed/",
+    "A Luxury Travel Blog": "https://www.aluxurytravelblog.com/feed/",
+    "Two Monkeys Travel": "https://www.twomonkeystravelgroup.com/feed/",
+    "The Barefoot Nomad": "https://www.thebarefootnomad.com/feed/",
+    "Adventures With NieNie": "https://www.adventures-with-niecie.com/feed/",
     
-    # --- ADDITIONAL QUALITY AI SOURCES ---
-    "The Economist AI": "https://www.economist.com/science-and-technology/rss.xml",
-    "MIT Technology Review AI": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
-    "VentureBeat AI": "https://venturebeat.com/category/ai/feed/",
-    "Import AI": "https://jack-clark.net/feed/",
-    "The Gradient": "https://thegradient.pub/rss/"
+    # --- TRAVEL INDUSTRY NEWS ---
+    "Skift": "https://skift.com/feed/",
+    "Travel Weekly": "https://www.travelweekly.com/rss/latest",
+    "PhocusWire": "https://www.phocuswire.com/rss",
+    "Travel + Leisure": "https://www.travelandleisure.com/rss",
+    "Conde Nast Traveler": "https://www.cntraveler.com/rss/feed",
+    "Business Travel News": "https://www.businesstravelnews.com/rss",
+    
+    # --- AIRLINES & AVIATION ---
+    "Simple Flying": "https://feeds.feedburner.com/simpleflying",
+    "Flight Global": "https://www.flightglobal.com/rss/",
+    "Air Transport World": "https://atwonline.com/rss.xml",
+    "Aviation Week": "https://aviationweek.com/rss.xml",
+    
+    # --- DESTINATION & LIFESTYLE TRAVEL ---
+    "The Poor Traveler": "https://www.thepoortraveler.net/feed/",
+    "Hand Luggage Only": "https://handluggageonly.co.uk/feed/",
+    "NOMADasaurus": "https://www.nomadasaurus.com/feed/",
+    "Be My Travel Muse": "https://bemytravelmuse.com/feed/",
+    "Local Adventurer": "https://localadventurer.com/feed/",
+    "Adventurous Kate": "https://www.adventurouskate.com/feed/",
+    "Y Travel Blog": "https://www.ytravelblog.com/feed/",
+    "Atlas & Boots": "https://www.atlasandboots.com/feed/",
+    "Amateur Traveler": "https://feeds.feedburner.com/AmateurTraveler",
+    "Travel Dudes": "https://traveldudes.org/feed/",
+    
+    # --- MAJOR NEWS OUTLETS TRAVEL SECTIONS ---
+    "BBC Travel": "http://feeds.bbci.co.uk/news/world/rss.xml",
+    "CNN Travel": "http://rss.cnn.com/rss/edition.rss",
+    "Guardian Travel": "https://www.theguardian.com/travel/rss",
+    "National Geographic Travel": "https://www.nationalgeographic.com/travel/rss/",
+    
+    # --- TRAVEL TECHNOLOGY & HOSPITALITY ---
+    "Hotel Management": "https://www.hotelmanagement.net/rss.xml",
+    "Hospitality Net": "https://www.hospitalitynet.org/rss/news.aspx",
+    "WiT - Web in Travel": "https://webintravel.com/feed/",
+    "TravelPulse": "https://www.travelpulse.com/rss",
+    
+    # --- POINTS, MILES & DEALS ---
+    "Prince of Travel": "https://princeoftravel.com/feed/",
+    "ViaTravelers": "https://viatravelers.com/feed/",
+    "Finding The Universe": "https://www.findingtheuniverse.com/feed/"
 }
 
-# Define categories based on the project brief
+# Define travel categories based on the project brief
 CATEGORIES = [
-    'Trending Now',
-    'AI Products',
-    'Creator Economy',
-    'Generative AI',
-    'AI Business News',
-    'AI Research & Methods',
-    'AI in Practice',
-    'AI Companies',
-    'AI Ethics & Policy',
-    'Weird'
+    'Airline Updates',
+    'Destination Trends', 
+    'Travel Technology',
+    'Hospitality Innovations',
+    'Aviation Industry',
+    'Tourism Insights',
+    'Travel News Today',
+    'Travel Breakthrough'
 ]
 
-# Define keywords for categorization (more aligned with the brief)
-# NOTE: This is a simple keyword approach and may need refinement.
+# Define travel keywords for categorization
 # Order matters: More specific categories should come first.
 CATEGORY_KEYWORDS = {
-    'AI Companies': ['openai', 'google', 'meta', 'anthropic', 'microsoft', 'nvidia', 'tesla', 'apple', 'amazon', 'ibm', 'baidu', 'deepmind', 'hugging face', 'stability ai'],
-    'AI Products': ['launch', 'release', 'beta', 'model', 'api', 'platform', 'framework', 'library', 'tool', 'service', 'update', 'feature', 'gpu', 'chip', 'hardware'],
-    'Creator Economy': ['art', 'music', 'video', 'image', 'generate', 'creative', 'creator', 'artist', 'design', 'diffusion', 'stable diffusion', 'midjourney', 'dall-e', 'sora', 'suno', 'udio'],
-    'Generative AI': ['generator', 'generative', 'text-to-image', 'text-to-video', 'diffusion', 'gan', 'synthesis', 'synthetic', 'deepfake', 'style transfer'],
-    'AI Business News': ['funding', 'business', 'investment', 'market', 'strategy', 'competition', 'partnership', 'acquisition', 'stock', 'earnings', 'startup', 'venture capital', 'ipo'],
-    'AI Research & Methods': ['research', 'paper', 'study', 'breakthrough', 'arxiv', 'neurips', 'icml', 'cvpr', 'scientific', 'discovery', 'publish', 'journal', 'neural network', 'transformer', 'cnn', 'rnn', 'reinforcement learning', 'pytorch', 'tensorflow', 'jax', 'algorithm', 'architecture', 'training', 'inference'],
-    'AI in Practice': ['healthcare', 'finance', 'automotive', 'retail', 'manufacturing', 'logistics', 'energy', 'legal', 'education', 'pharma', 'drug discovery', 'use case', 'implementation', 'deployment', 'solution'],
-    'AI Ethics & Policy': ['ethics', 'bias', 'risk', 'safety', 'regulation', 'job', 'privacy', 'agi', 'alignment', 'doom', 'existential', 'responsible ai', 'fairness', 'policy', 'governance', 'transparency'],
-    'Weird': ['strange', 'unusual', 'weird', 'odd', 'curious', 'bizarre', 'unexpected', 'surprising', 'funny', 'humor', 'meme'],
-    'Trending Now': ['ai', 'artificial intelligence', 'gpt', 'llm'] # Catch-all / high-level terms
+    'Airline Updates': ['airline', 'airlines', 'american airlines', 'delta', 'united', 'southwest', 'jetblue', 'emirates', 'lufthansa', 'british airways', 'air france', 'flight', 'flights', 'route', 'routes', 'fleet', 'aircraft', 'boeing', 'airbus', 'cancellation', 'delay', 'baggage', 'frequent flyer', 'loyalty program'],
+    'Aviation Industry': ['aviation', 'airport', 'airports', 'air traffic', 'faa', 'icao', 'iata', 'aircraft manufacturing', 'pilot', 'crew', 'maintenance', 'safety', 'regulation', 'air cargo', 'freight', 'atc', 'runway', 'terminal', 'gate'],
+    'Destination Trends': ['destination', 'destinations', 'travel trends', 'popular destinations', 'seasonal travel', 'tourism statistics', 'visitor numbers', 'travel demand', 'bucket list', 'hidden gems', 'emerging destinations', 'travel restrictions', 'visa', 'border', 'entry requirements'],
+    'Travel Technology': ['travel app', 'booking platform', 'travel tech', 'mobile app', 'digital nomad', 'online booking', 'travel planning', 'artificial intelligence', 'virtual reality', 'augmented reality', 'contactless', 'digital passport', 'biometric', 'automation', 'saas', 'amadeus', 'sabre', 'expedia', 'booking.com'],
+    'Hospitality Innovations': ['hotel', 'hotels', 'accommodation', 'hospitality', 'lodging', 'resort', 'airbnb', 'vacation rental', 'property management', 'guest experience', 'hotel tech', 'smart room', 'check-in', 'concierge', 'housekeeping', 'revenue management'],
+    'Tourism Insights': ['tourism', 'tourist', 'travel industry', 'economic impact', 'gdp', 'employment', 'recovery', 'market analysis', 'travel spending', 'visitor data', 'tourism board', 'destination marketing', 'sustainable tourism', 'overtourism', 'cultural tourism'],
+    'Travel News Today': ['breaking', 'news', 'update', 'alert', 'announcement', 'policy', 'government', 'regulation', 'covid', 'pandemic', 'health', 'safety', 'security', 'weather', 'natural disaster', 'strike', 'protest'],
+    'Travel Breakthrough': ['innovation', 'breakthrough', 'revolutionary', 'first', 'launch', 'debut', 'new', 'technology', 'advancement', 'partnership', 'merger', 'acquisition', 'investment', 'funding', 'startup', 'disruptive', 'game-changer']
 }
 
-# Define keywords that strongly suggest a 'Trending Now' priority
-TRENDING_KEYWORDS = ['exclusive', 'breaking', 'leak', 'major', 'significant']
+# Define keywords that strongly suggest a 'Travel News Today' priority (breaking news)
+TRENDING_KEYWORDS = ['exclusive', 'breaking', 'urgent', 'alert', 'major', 'significant', 'emergency']
 
 # --- Helper Functions ---
 
@@ -632,71 +657,73 @@ def rewrite_headline(title, max_words=MAX_HEADLINE_WORDS):
     return rewritten.upper()
 
 def categorize_headline(title, url, source=None):
-    """Attempts to categorize headline based on keywords or source, aligning with project brief categories."""
+    """Attempts to categorize headline based on keywords or source, aligning with travel categories."""
     title_lower = title.lower()
 
-    # 1. Prioritize Company Blogs/Sources for 'AI Companies' Category
-    # Expanded list based on common AI players
-    company_sources_or_keywords = ['openai', 'google ai', 'meta ai', 'anthropic', 'microsoft research', 'nvidia blog', 'deepmind']
-    if source and any(cs.lower() in source.lower() for cs in company_sources_or_keywords):
-        # Check if title also mentions business terms, otherwise default to AI Companies
-        business_kws = CATEGORY_KEYWORDS['AI Business News']
-        if any(kw in title_lower for kw in business_kws):
-            return 'AI Business News'
-        return 'AI Companies'
-
-    # 2. Check for specific company names in the title itself
-    if any(company in title_lower for company in CATEGORY_KEYWORDS['AI Companies']):
-         # Check if title also mentions business terms, otherwise default to AI Companies
-        business_kws = CATEGORY_KEYWORDS['AI Business News']
-        if any(kw in title_lower for kw in business_kws):
-            return 'AI Business News'
-        return 'AI Companies'
-
-    # 3. Check for specific trending keywords first
+    # 1. Check for breaking news keywords first (highest priority)
     if any(kw in title_lower for kw in TRENDING_KEYWORDS):
-        return 'Trending Now'
+        return 'Travel News Today'
 
-    # 4. Iterate through other categories based on keywords (order matters)
+    # 2. Prioritize airline/aviation sources
+    airline_sources = ['simple flying', 'flight global', 'aviation week', 'air transport world']
+    if source and any(airline_source in source.lower() for airline_source in airline_sources):
+        # Check if it's more general aviation industry vs specific airline updates
+        if any(kw in title_lower for kw in CATEGORY_KEYWORDS['Aviation Industry']):
+            return 'Aviation Industry'
+        return 'Airline Updates'
+
+    # 3. Check for travel industry/business sources
+    industry_sources = ['skift', 'phocuswire', 'travel weekly', 'business travel news']
+    if source and any(industry_source in source.lower() for industry_source in industry_sources):
+        # Prioritize based on content keywords
+        if any(kw in title_lower for kw in CATEGORY_KEYWORDS['Travel Technology']):
+            return 'Travel Technology'
+        elif any(kw in title_lower for kw in CATEGORY_KEYWORDS['Hospitality Innovations']):
+            return 'Hospitality Innovations'
+        elif any(kw in title_lower for kw in CATEGORY_KEYWORDS['Tourism Insights']):
+            return 'Tourism Insights'
+        return 'Travel News Today'
+
+    # 4. Iterate through categories based on keywords (order matters)
     for category, keywords in CATEGORY_KEYWORDS.items():
-        # Skip AI Companies as it was handled above, skip Trending Now default
-        if category in ['AI Companies', 'Trending Now']:
+        # Skip Travel News Today as it was handled above
+        if category in ['Travel News Today']:
             continue
         if any(keyword in title_lower for keyword in keywords):
             return category
 
     # 5. Default category if no keywords match
-    # Using 'Trending Now' as the catch-all for general AI news if nothing else fits
-    return 'Trending Now'
+    # Using 'Travel News Today' as the catch-all for general travel news
+    return 'Travel News Today'
 
 def get_prompt_of_the_day():
-    """Generates a structured placeholder prompt of the day."""
+    """Generates a structured travel-focused prompt of the day."""
     # In a real scenario, this could be fetched from a database, generated by an AI, or curated
     prompts = [
         {
-            "title": "Generate Viral Video Hooks",
-            "text": "Create 5 short, punchy video hooks (under 10 seconds each) designed to go viral on TikTok/Reels, promoting a fictional new AI-powered tool that instantly summarizes complex research papers.",
-            "platforms": ["ChatGPT", "Claude", "Gemini", "Perplexity"] # Added Perplexity
+            "title": "Create Travel Itinerary",
+            "text": "Plan a 7-day sustainable travel itinerary for Japan focusing on off-the-beaten-path destinations, local cultural experiences, and eco-friendly accommodations. Include transportation options, budget estimates, and seasonal considerations.",
+            "platforms": ["ChatGPT", "Claude", "Gemini", "Perplexity"]
         },
         {
-            "title": "Futuristic Cityscape Image Concept",
-            "text": "Describe the visual elements for an image depicting a futuristic cityscape where organic architecture blends seamlessly with advanced technology. Focus on contrasting textures (bioluminescent flora vs. sleek metal) and the overall mood (utopian tranquility vs. underlying tension).",
+            "title": "Travel Photography Composition",
+            "text": "Design a travel photo series concept showcasing the contrast between traditional architecture and modern urban development in Southeast Asian cities. Focus on lighting, perspective, and cultural storytelling elements.",
             "platforms": ["Midjourney", "Stable Diffusion", "DALL-E"]
         },
         {
-            "title": "AI Develops Humor Story Idea",
-            "text": "Outline a short story (3-5 key plot points) about a domestic service robot that unexpectedly develops a sarcastic sense of humor after a software update glitch. Explore the owner's reaction and the potential complications.",
-            "platforms": ["ChatGPT", "Claude", "Character.ai", "Perplexity"] # Added Perplexity
+            "title": "Digital Nomad Guide Creation",
+            "text": "Write a comprehensive guide for digital nomads covering visa requirements, internet connectivity, cost of living, and coworking spaces for 5 emerging remote work destinations in Eastern Europe.",
+            "platforms": ["ChatGPT", "Claude", "Notion AI", "Perplexity"]
         },
         {
-            "title": "Sustainable AI Startup Logo Concept",
-            "text": "Generate 3 distinct logo concepts for a startup called 'EcoMind AI' that focuses on energy-efficient artificial intelligence. Each concept should visually represent both 'ecology' and 'intelligence' in a minimalist style.",
+            "title": "Travel Brand Identity Design",
+            "text": "Create a brand identity for a sustainable travel company called 'Verde Wanderer' that specializes in carbon-neutral adventure tours. Design logo concepts that blend nature elements with exploration themes.",
             "platforms": ["Ideogram", "Midjourney", "LogoAI"]
         },
         {
-            "title": "AI Lo-Fi Track Composition Task",
-            "text": "Compose a prompt for an AI music generator to create a 1-minute lo-fi hip-hop track suitable for focused work. Specify desired instrumentation (e.g., mellow piano chords, soft synth pads, subtle vinyl crackle), tempo (e.g., 70-80 BPM), and overall mood (e.g., calm, nostalgic, slightly melancholic).",
-            "platforms": ["Suno", "Udio", "AIVA"]
+            "title": "Travel Podcast Episode Planning",
+            "text": "Outline a 30-minute travel podcast episode about the revival of train travel in Europe post-pandemic. Include interview questions for a railway executive, traveler testimonials, and background music suggestions.",
+            "platforms": ["ChatGPT", "Claude", "Suno", "Perplexity"]
         }
     ]
     # Simple rotation based on day of the year
@@ -869,8 +896,8 @@ def fetch_newsapi_articles():
 
         print(f"LOG: After deduplication: {len(unique_articles)} unique articles")
 
-        # Updated keywords for internal filtering - focused on AI
-        title_keywords = ['ai', 'artificial intelligence', 'machine learning', 'deep learning', 'neural', 'gpt', 'llm', 'openai', 'anthropic', 'google', 'meta', 'microsoft', 'nvidia', 'tech', 'technology', 'innovation']
+        # Updated keywords for internal filtering - focused on travel
+        title_keywords = ['travel', 'airline', 'flight', 'aviation', 'tourism', 'hotel', 'destination', 'vacation', 'cruise', 'airport', 'visa', 'border', 'resort', 'hospitality', 'trip', 'journey', 'booking', 'passenger']
         print(f"LOG: Internal title filter keywords: {title_keywords}")
 
         articles_kept = 0
@@ -895,11 +922,11 @@ def fetch_newsapi_articles():
                 print(f"LOG: Skipping article {i+1}/{len(unique_articles)}: Title '{title}' contains negative keyword.")
                 continue
 
-            # For technology category, be less strict on AI keywords since it's broader tech news
-            # Only apply AI filter to articles from everything endpoint
+            # For general category, apply travel filter to articles from everything endpoint
+            # Be more lenient for general news sources that might have travel content
             source_is_everything = any(domain in url for domain in ['economist.com', 'nytimes.com', 'wsj.com', 'ft.com', 'technologyreview.com'])
             if source_is_everything and not any(kw in title_lower for kw in title_keywords):
-                print(f"LOG: Skipping article {i+1}/{len(unique_articles)}: Title '{title}' missing AI keywords (everything endpoint).")
+                print(f"LOG: Skipping article {i+1}/{len(unique_articles)}: Title '{title}' missing travel keywords (everything endpoint).")
                 continue
 
             # Language detection
