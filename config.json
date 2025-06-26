@@ -1,85 +1,36 @@
 {
-    "site_name": "Travel Flash Report",
-    "site_emoji": "✈️",
-    "site_tagline": "Global Routes, Daily Updates",
-    "site_description": "Global Routes, Daily Updates - Your travel intelligence, simplified",
-    "primary_color": "#0EA5E9",
-    "hover_color": "#0284C7",
-    "active_color": "#0369A1",
-    "theme_color": "#EF4444",
-    "theme_name": "red",
-    "domain": "travelflashreport.com",
-    "analytics_domain": "travelflashreport.com",
-    "excluded_sites": [
-        "pypi.org",
-        "prtimes.jp",
-        "thestar.com",
-        "biztoc.com"
-    ],
-    "low_quality_url_patterns": [
-        "/tag/",
-        "/category/",
-        "/author/",
-        "/page/",
-        "/feed/",
-        "/rss/",
-        "/amp/",
-        "/mobile/",
-        "/m/"
-    ],
-    "negative_keywords": [
-        "ufo",
-        "alien",
-        "paranormal",
-        "airport",
-        "airline",
-        "travel disruption",
-        "trump",
-        "biden",
-        "election",
-        "politics",
-        "gossip",
-        "scandal",
-        "crypto",
-        "bitcoin",
-        "blockchain",
-        "casino",
-        "gambling"
-    ],
-    "categories": [
-        "airline-updates",
-        "destination-trends",
-        "travel-technology",
-        "hospitality-innovations",
-        "aviation-industry",
-        "tourism-insights",
-        "travel-news-today",
-        "travel-breakthrough-news"
-    ],
-    "flash_summary": {
-        "enabled": true,
-        "component_path": "flash_summary_component/",
-        "prompt_type": "tech_industry"
-    },
-    "analytics": {
-        "plausible_domain": "techflashreport.com",
-        "plausible_id": "20dd3987-21e1-4006-ad55-ab772c2a418f"
-    },
-    "social": {
-        "twitter_handle": "@bryanjcollins",
-        "linkedin_url": "https://www.linkedin.com/in/bryancollins99/"
-    },
-    "contact": {
-        "form_subjects": [
-            "Newsletter Feedback",
-            "Tech Source Suggestion", 
-            "Startup Coverage Request",
-            "Technical Issue",
-            "Partnership Inquiry",
-            "Press Inquiry",
-            "Product Launch Tip",
-            "Funding Round Tip",
-            "Other"
-        ]
-    }
+  "site_name": "SaaS Flash Report",
+  "domain": "saasflashreport.com",
+  "tagline": "Software Intelligence, Business Speed",
+  "emoji": "☁️",
+  "primary_color": "#3B82F6",
+  "primary_dark": "#2563EB",
+  "primary_light": "#60A5FA",
+  "focus_area": "SaaS and B2B software industry",
+  "target_audience": "software executives, product managers, and SaaS professionals",
+  "content_categories": [
+    "SaaS Funding",
+    "Enterprise Software", 
+    "Product Launches",
+    "SaaS Analytics",
+    "B2B Technology",
+    "Software Industry",
+    "SaaS News Today",
+    "SaaS Breakthrough"
+  ],
+  "newsletter_name": "SaaS Intelligence Network",
+  "subscriber_count": "45,000+ SaaS professionals",
+  "analytics_domain": "saasflashreport.com",
+  "meta_description": "Real-time SaaS intelligence for software executives, product managers, and B2B professionals. Breaking software industry news, funding rounds, and product launches at business speed.",
+  "about_description": "SaaS Flash Report delivers real-time software industry intelligence to SaaS executives, product managers, and B2B professionals. We monitor funding rounds, product launches, and industry trends to deliver actionable insights that drive software business success.",
+  "flash_summary_topic": "SaaS industry developments and B2B software innovations",
+  "industry_focus": "SaaS, B2B software, and enterprise technology",
+  "key_topics": [
+    "SaaS funding rounds and valuations",
+    "Enterprise software acquisitions and mergers", 
+    "B2B product launches and feature releases",
+    "SaaS metrics and business intelligence",
+    "Software industry trends and analysis",
+    "Business technology and productivity tools"
+  ]
 } 

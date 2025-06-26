@@ -1,4 +1,4 @@
-name: Daily News Update
+name: Daily SaaS News Update
 
 on:
   schedule:
@@ -42,7 +42,7 @@ jobs:
         python3 test_perplexity_access.py
         
     # Run the news aggregator with enhanced environment variable access
-    - name: Generate daily news content
+    - name: Generate daily SaaS news content
       env:
         PERPLEXITY_API_KEY_B64: ${{ secrets.PERPLEXITY_API_KEY_B64 }}
         PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
@@ -51,14 +51,14 @@ jobs:
         REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
         REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
       run: |
-        echo "🚀 Starting news aggregation with enhanced API handling..."
+        echo "🚀 Starting SaaS news aggregation with enhanced API handling..."
         echo "Date: $(date)"
         
         # Run aggregator with error handling
         if python3 aggregator.py; then
-          echo "✅ Aggregator script completed successfully"
+          echo "✅ SaaS aggregator script completed successfully"
         else
-          echo "❌ Aggregator script failed with exit code $?"
+          echo "❌ SaaS aggregator script failed with exit code $?"
           echo "Checking for partial updates..."
           ls -la
           # Continue workflow even if aggregator partially fails
@@ -68,14 +68,14 @@ jobs:
       
     - name: Verify generated files
       run: |
-        echo "Checking generated files..."
+        echo "Checking generated SaaS files..."
         echo "Main files:"
         ls -la index.html || echo "⚠️  index.html not found"
         
         echo "Archive files:"
         ls -la archive/ || echo "⚠️  No archive directory"
         
-        echo "Topic pages:"
+        echo "SaaS topic pages:"
         ls -la *-news.html *-news-page-*.html 2>/dev/null || echo "⚠️  No topic pages found"
         
         echo "Data files:"
@@ -96,7 +96,7 @@ jobs:
         git config --global user.name 'GitHub Action'
         git config --global user.email 'action@github.com'
         
-        echo "Staging all generated files..."
+        echo "Staging all generated SaaS files..."
         # Stage all the generated files, including new topic pages and archives
         git add -f index.html \
                    archive/ \
@@ -107,7 +107,7 @@ jobs:
                    *-news.html \
                    *-news-page-*.html \
                    *-updates.html \
-                   ai-*.html 2>/dev/null || echo "Some files may not exist"
+                   saas-*.html 2>/dev/null || echo "Some files may not exist"
         
         # Check if there are actually changes to commit
         if git diff --staged --quiet; then
@@ -118,7 +118,7 @@ jobs:
         echo "Changes detected, preparing to commit..."
         
         # Stash any changes so we can apply them after pulling
-        git stash push -m "Automated changes $(date +'%Y-%m-%d %H:%M:%S')" || echo "Nothing to stash"
+        git stash push -m "Automated SaaS changes $(date +'%Y-%m-%d %H:%M:%S')" || echo "Nothing to stash"
         
         # Pull the latest changes from the repository with rebase
         echo "Pulling latest changes..."
@@ -132,7 +132,7 @@ jobs:
         fi
         
         # Restore our stashed changes if any
-        if git stash list | grep -q "Automated changes"; then
+        if git stash list | grep -q "Automated SaaS changes"; then
           echo "Restoring stashed changes..."
           git stash pop || echo "⚠️  Stash pop had conflicts, manual resolution may be needed"
         fi
@@ -147,14 +147,14 @@ jobs:
                    *-news.html \
                    *-news-page-*.html \
                    *-updates.html \
-                   ai-*.html 2>/dev/null || echo "Some files may not exist"
+                   saas-*.html 2>/dev/null || echo "Some files may not exist"
         
         # Commit only if there are changes
         if git diff --staged --quiet; then
           echo "📝 No changes to commit after pull"
         else
-          echo "💾 Committing changes..."
-          git commit -m "Daily update: $(date +'%Y-%m-%d') - Auto-generated content with AI Flash Summary"
+          echo "💾 Committing SaaS changes..."
+          git commit -m "Daily update: $(date +'%Y-%m-%d') - Auto-generated SaaS content with SaaS Flash Summary"
           
           # Push changes with retry logic
           for i in {1..3}; do
@@ -170,10 +170,10 @@ jobs:
         
     - name: Workflow completion summary
       run: |
-        echo "🎉 Daily update workflow completed!"
+        echo "🎉 Daily SaaS update workflow completed!"
         echo "Timestamp: $(date)"
         echo "Files updated:"
         git log --oneline -1 2>/dev/null || echo "No commits made"
         echo ""
-        echo "Generated topic pages:"
-        ls -1 *-news*.html ai-*.html 2>/dev/null | head -10 || echo "No topic pages found"
+        echo "Generated SaaS topic pages:"
+        ls -1 *-news*.html saas-*.html 2>/dev/null | head -10 || echo "No topic pages found"
