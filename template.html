@@ -3,33 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Flash Report - Daily AI News</title>
+    <title>Health Flash Report - Daily Health News</title>
     <!-- Cache busting for template changes -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Get the latest AI news daily: OpenAI updates, generative AI models, AI tools, and machine learning breakthroughs in one quick read.">
-    <meta name="keywords" content="latest ai news, openai news, anthropic news, generative ai models, diffusion models, ai use cases, ai video editing software, new ai tools, large language models, llms, ai research papers, nvidia ai news, ai applications in healthcare">
-    <meta name="author" content="AI Flash Report">
+    <meta name="description" content="Get the latest health news daily: longevity research, medical breakthroughs, health tech, and biohacking developments in one quick read.">
+    <meta name="keywords" content="latest health news, longevity research, biohacking studies, health tech, medical breakthroughs, nutrition science, performance optimization, anti-aging research, digital health, wearable health">
+    <meta name="author" content="Health Flash Report">
     <meta name="robots" content="index, follow">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://aiflashreport.com{{ canonical_path|default('/') }}">
+    <link rel="canonical" href="https://healthflashreport.com{{ canonical_path|default('/') }}">
     
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="AI Flash Report - Daily AI News Roundup">
-    <meta property="og:description" content="Your daily AI news digest: The latest from OpenAI, Anthropic, Google AI, and more. Get updated on AI tools, research breakthroughs, and industry trends.">
-    <meta property="og:image" content="https://aiflashreport.com/images/og-image.png">
-    <meta property="og:url" content="https://aiflashreport.com{{ canonical_path|default('/') }}">
+    <meta property="og:title" content="Health Flash Report - Daily Health News Roundup">
+    <meta property="og:description" content="Your daily health news digest: The latest in longevity research, health tech, medical breakthroughs, and biohacking developments. Stay current with health optimization trends.">
+    <meta property="og:image" content="https://healthflashreport.com/images/og-image.png">
+    <meta property="og:url" content="https://healthflashreport.com{{ canonical_path|default('/') }}">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="AI Flash Report">
+    <meta property="og:site_name" content="Health Flash Report">
     
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AI Flash Report - Daily AI News">
-    <meta name="twitter:description" content="Daily roundup of the latest AI news, tools, and research breakthroughs.">
-    <meta name="twitter:image" content="https://aiflashreport.com/images/twitter-card.png">
+    <meta name="twitter:title" content="Health Flash Report - Daily Health News">
+    <meta name="twitter:description" content="Daily roundup of the latest health news, medical breakthroughs, and health optimization insights.">
+    <meta name="twitter:image" content="https://healthflashreport.com/images/twitter-card.png">
     
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
@@ -38,25 +38,25 @@
       "@type": "NewsArticle",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://aiflashreport.com{{ canonical_path|default('/') }}"
+        "@id": "https://healthflashreport.com{{ canonical_path|default('/') }}"
       },
-      "headline": "AI Flash Report - Daily AI News Roundup - {{ update_time }}",
+      "headline": "Health Flash Report - Daily Health News Roundup - {{ update_time }}",
       "datePublished": "{{ update_time }}T00:00:00+00:00",
       "dateModified": "{{ update_time }}T00:00:00+00:00",
       "publisher": {
         "@type": "Organization",
-        "name": "AI Flash Report",
+        "name": "Health Flash Report",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://aiflashreport.com/images/logo.png"
+          "url": "https://healthflashreport.com/images/logo.png"
         }
       },
-      "description": "Daily roundup of the latest artificial intelligence news, including updates from major AI companies, new tools, research breakthroughs, and practical applications."
+      "description": "Daily roundup of the latest health and medical news, including longevity research, health technology developments, medical breakthroughs, and biohacking insights."
     }
     </script>
     
     <!-- Simple SVG Favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
@@ -93,7 +93,7 @@
             margin-bottom: 0.15em; /* Adjust vertical alignment slightly */
         }
         h1 .wire-part {
-            color: #cc0000; /* Red color */
+            color: #10B981; /* Emerald color */
             font-weight: 600; /* Use semi-bold */
         }
         .subtitle {
@@ -111,16 +111,16 @@
             font-size: 1.1em;
             margin-top: 10px;
             margin-bottom: 30px;
-            color: #cc0000; /* Red color to match theme */
+            color: #10B981; /* Emerald color to match theme */
             font-weight: 600;
             letter-spacing: 0.5px;
             text-transform: uppercase;
         }
 
-        /* Daily AI Flash Summary Styling */
+        /* Daily Health Flash Summary Styling */
         .flash-daily-summary {
             border: none;
-            border-left: 4px solid #cc0000; /* Red left border matching site theme */
+            border-left: 4px solid #10B981; /* Emerald left border matching site theme */
             background: linear-gradient(135deg, #f8f8f8 0%, #f0f0f0 100%); /* Subtle gradient */
             padding: 25px;
             margin: 30px 0;
@@ -130,7 +130,7 @@
             border-radius: 0 8px 8px 0; /* Rounded corners on right side */
         }
         .flash-daily-summary:before {
-            content: "⚡"; /* Lightning bolt emoji matching site favicon */
+            content: "🧬"; /* DNA emoji matching site favicon */
             position: absolute;
             top: -15px;
             left: 15px;
@@ -143,7 +143,7 @@
         .flash-daily-summary h3 {
             margin-top: 0;
             margin-bottom: 15px;
-            color: #cc0000;
+            color: #10B981;
             font-weight: bold;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -174,23 +174,23 @@
             content: "▸"; /* Right-pointing triangle */
             position: absolute;
             left: 0;
-            color: #cc0000;
+            color: #10B981;
             font-weight: bold;
             font-size: 1.1em;
         }
         .flash-insight {
-            background-color: rgba(204, 0, 0, 0.05); /* Very light red background */
+            background-color: rgba(16, 185, 129, 0.05); /* Very light emerald background */
             padding: 15px;
             margin: 20px 0 0 0;
             border-radius: 6px;
-            border-left: 3px solid #cc0000;
+            border-left: 3px solid #10B981;
             font-style: italic;
             color: #333;
             line-height: 1.5;
             font-weight: 500;
         }
         .flash-insight strong {
-            color: #cc0000;
+            color: #10B981;
             font-weight: bold;
             font-style: normal;
         }
@@ -275,7 +275,7 @@
             color: #000;
             font-weight: 800; /* Extra bold */
             text-transform: uppercase; /* Uppercase headers */
-            border-bottom: 2px solid #cc0000; /* Thicker bottom border - RED */
+            border-bottom: 2px solid #10B981; /* Thicker bottom border - EMERALD */
             padding-bottom: 5px;
             letter-spacing: 0.5px; /* Slightly increased letter spacing */
         }
@@ -304,7 +304,7 @@
         }
         .headline-block a:hover {
             text-decoration: underline;
-            color: #cc0000; /* Red on hover */
+            color: #10B981; /* Emerald on hover */
         }
         .headline-source {
             display: none; /* Hide source references */
@@ -324,7 +324,7 @@
             padding-bottom: 20px; /* Add padding below footer */
         }
         footer a {
-            color: #cc0000; /* Red links in footer - restored */
+            color: #10B981; /* Emerald links in footer - restored */
             text-decoration: underline;
         }
         footer a:hover {
@@ -338,13 +338,13 @@
         }
         .archive-links a {
             margin: 0 5px;
-            color: #cc0000; /* Red archive links */
+            color: #10B981; /* Emerald archive links */
         }
 
         /* Prompt of the Day Box - Enhanced Styling */
         .prompt-box {
             border: none;
-            border-left: 4px solid #cc0000; /* Red left border to tie into color scheme */
+            border-left: 4px solid #10B981; /* Emerald left border to tie into color scheme */
             background-color: #f8f8f8;
             padding: 20px;
             margin-top: 40px; /* More space above prompt box */
@@ -371,7 +371,7 @@
         .prompt-box h2 {
             /* Removed margin-bottom, handled by container */
             margin-top: 0;
-            color: #cc0000; /* Match red color scheme */
+            color: #10B981; /* Match emerald color scheme */
             font-weight: bold;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -391,8 +391,8 @@
             margin-top: 5px; /* Added to move button down slightly */
         }
         .prompt-link-button:hover {
-            background-color: #ffebee; /* Subtle red background on hover */
-            color: #cc0000; /* Red text on hover */
+            background-color: #ecfdf5; /* Subtle emerald background on hover */
+            color: #10B981; /* Emerald text on hover */
         }
         .prompt-box h4 {
             font-size: 1.2em;
@@ -417,14 +417,14 @@
             border: 1px solid #eee;
         }
         .prompt-box .platforms strong {
-            color: #cc0000;
+            color: #10B981;
             font-weight: bold;
         }
         
         /* Newsletter Signup Form Styling */
         .newsletter-signup {
             border: none;
-            border-left: 4px solid #cc0000;
+            border-left: 4px solid #10B981;
             background-color: #f8f8f8;
             padding: 25px;
             margin: 40px 0 30px 0;
@@ -444,7 +444,7 @@
         .newsletter-signup h3 {
             margin-top: 0;
             margin-bottom: 10px;
-            color: #cc0000;
+            color: #10B981;
             font-weight: bold;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -477,12 +477,12 @@
         }
         .newsletter-form input[type="email"]:focus {
             outline: none;
-            border-color: #cc0000;
-            box-shadow: 0 0 0 2px rgba(204, 0, 0, 0.1);
+            border-color: #10B981;
+            box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.1);
         }
         .newsletter-form button {
             padding: 14px 24px;
-            background-color: #cc0000;
+            background-color: #10B981;
             color: white;
             border: none;
             border-radius: 4px;
@@ -494,10 +494,10 @@
             white-space: nowrap;
         }
         .newsletter-form button:hover {
-            background-color: #aa0000;
+            background-color: #059669;
         }
         .newsletter-form button:active {
-            background-color: #990000;
+            background-color: #047857;
         }
         .frequency-options {
             display: flex;
@@ -515,11 +515,11 @@
             transition: color 0.2s ease;
         }
         .frequency-options label:hover {
-            color: #cc0000;
+            color: #10B981;
         }
         .frequency-options input[type="radio"] {
             margin: 0;
-            accent-color: #cc0000;
+            accent-color: #10B981;
         }
         .privacy-note {
             font-size: 11px;
@@ -564,14 +564,14 @@
 
         /* Main header navigation styling */
         .main-header-nav a:hover {
-            color: #cc0000 !important;
+            color: #10B981 !important;
             text-decoration: underline;
         }
         
         /* Topics dropdown styling */
         .topics-dropdown-content a:hover {
             background-color: #f5f5f5;
-            color: #cc0000 !important;
+            color: #10B981 !important;
         }
         
         @media (max-width: 768px) {
@@ -594,7 +594,7 @@
             }
         }
     </style>
-    <script defer data-domain="aiflashreport" src="https://plausible.io/js/script.js"></script>
+    <script defer data-domain="healthflashreport.com" src="https://plausible.io/js/script.outbound-links.js"></script>
 
     <!-- ConvertBox Script -->
     <script type="text/javascript">!function(e,t){(e=t.createElement("script")).src="https://cdn.convertbox.com/convertbox/js/embed.js",e.id="app-convertbox-script",e.async=true,e.dataset.uuid="9b03f284-1c74-4054-ba19-6604e0ecdd7a",document.getElementsByTagName("head")[0].appendChild(e)}(window,document);</script>
@@ -603,8 +603,8 @@
 <body>
     <div class="container">
         <!-- Site Title -->
-        <h1><a href="/index.html" style="text-decoration: none; color: inherit;">AI <span class="wire-part">Flash</span> Report</a></h1>
-        <p class="subtitle">Daily AI News Roundup - Updated: {{ update_time }}</p>
+        <h1><a href="/index.html" style="text-decoration: none; color: inherit;">Health <span class="wire-part">Flash</span> Report</a></h1>
+        <p class="subtitle">Daily Health News Roundup - Updated: {{ update_time }}</p>
         
         <!-- Main Navigation Header -->
         <nav class="main-header-nav" style="background-color: #f8f9fa; border-bottom: 1px solid #e5e5e5; margin-bottom: 10px;">
@@ -664,9 +664,9 @@
         </nav>
 
         <!-- Site Tagline -->
-        <div class="site-tagline">Artificial Intelligence News at Machine Speed</div>
+        <div class="site-tagline">Breakthrough Health at Breakthrough Speed</div>
 
-        <!-- Daily AI Flash Summary -->
+        <!-- Daily Health Flash Summary -->
         {% if flash_summary %}
         <div class="flash-daily-summary">
             {{ flash_summary|safe }}
@@ -728,8 +728,8 @@
 
         <!-- Newsletter Signup Form -->
         <div class="newsletter-signup">
-            <h3>Get AI News Delivered To Your Inbox</h3>
-            <p><strong>Join 1,000+ AI enthusiasts</strong> getting the most important AI news, breakthroughs, and tools delivered to their inbox every morning. No spam, unsubscribe anytime.</p>
+            <h3>Get Health News Delivered To Your Inbox</h3>
+            <p><strong>Join 1,000+ health enthusiasts</strong> getting the most important health news, breakthroughs, and insights delivered to their inbox every morning. No spam, unsubscribe anytime.</p>
             
             <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="newsletter-form" action="/thank-you">
                 <!-- Hidden honeypot field for spam protection -->
@@ -739,18 +739,18 @@
                 
                 <div class="form-row">
                     <input type="email" name="email" placeholder="Enter your email address" required>
-                    <button type="submit">Get AI News</button>
+                    <button type="submit">Get Health News</button>
                 </div>
                 
                 <p class="privacy-note">
                     🔒 We respect your privacy. Unsubscribe at any time. 
-                    Read our <a href="/privacy.html" style="color: #cc0000;">Privacy Policy</a>.
+                    Read our <a href="/privacy.html" style="color: #10B981;">Privacy Policy</a>.
                 </p>
             </form>
         </div>
 
         <footer>
-            AI Flash Report - Automated AI News Aggregation | <a href="/archive/">See Archive Index</a> | <a href="/about.html">About</a> | <a href="/contact.html">Contact</a>
+            Health Flash Report - Automated Health News Aggregation | <a href="/archive/">See Archive Index</a> | <a href="/about.html">About</a> | <a href="/contact.html">Contact</a>
             <div class="archive-links">
                 Recent Archives:
                 <!-- ARCHIVE_LINKS_PLACEHOLDER -->

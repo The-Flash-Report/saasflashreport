@@ -3,88 +3,253 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="AI Flash Report - AI news, analysis, research, and trends in one place">
-    <meta name="keywords" content="ai news, ai analysis, ai research, ai trends">
-    <title>About AI Flash Report - Daily AI News</title>
+    <title>About AI Flash Report - Daily AI News Intelligence</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="AI Flash Report delivers daily AI intelligence covering OpenAI updates, machine learning breakthroughs, AI tools, and industry developments for AI professionals.">
+    <meta name="keywords" content="ai news, artificial intelligence, machine learning, openai, anthropic, about ai flash report">
+    <meta name="author" content="AI Flash Report">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://aiflashreport.com/about.html">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="About AI Flash Report - Daily AI News Intelligence">
+    <meta property="og:description" content="AI Flash Report delivers daily AI intelligence covering OpenAI updates, machine learning breakthroughs, AI tools, and industry developments for AI professionals.">
+    <meta property="og:image" content="https://aiflashreport.com/images/about-og.png">
+    <meta property="og:url" content="https://aiflashreport.com/about.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AI Flash Report">
+    
     <!-- Simple SVG Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    
     <style>
         body {
+            /* System fonts, common sans-serif stack */
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
             margin: 10px auto;
-            max-width: 900px;
-            line-height: 1.3;
-            background-color: #ffffff;
-            color: #000000;
-            font-size: 14px;
+            max-width: 900px; /* Adjusted max-width for single column */
+            line-height: 1.3; /* Denser line spacing */
+            background-color: #ffffff; /* White background */
+            color: #000000; /* Black text */
+            font-size: 14px; /* Base font size */
         }
         .container {
-            padding: 0 15px;
+            padding: 0 15px; /* Slightly more padding */
         }
         h1 {
             text-align: center;
-            font-size: 3.5em;
+            font-size: 3.5em; /* Increased from 3em */
             margin-top: 5px;
             margin-bottom: 5px;
             color: #000;
             font-weight: bold;
             letter-spacing: -1px;
         }
-        h1 .logo {
-            height: 1.3em;
-            width: auto;
-            display: inline-block;
-            vertical-align: middle;
-            margin-right: 5px;
-            margin-bottom: 0.15em;
-        }
         h1 .wire-part {
-            color: #cc0000;
-            font-weight: 600;
+            color: #cc0000; /* Red color */
+            font-weight: 600; /* Use semi-bold */
         }
         .subtitle {
             text-align: center;
-            font-size: 1.2em;
+            font-size: 1.2em; /* Increased from 0.9em */
             margin-top: 0px;
             margin-bottom: 20px;
             color: #555;
-            font-weight: 800;
-            text-transform: uppercase;
-            border-bottom: 2px solid #cc0000;
-            padding-bottom: 5px;
-            letter-spacing: 0.5px;
+            font-weight: 500; /* Added for better visibility */
         }
-        .main-content {
-            margin-bottom: 30px;
-        }
-        h2 {
-            font-size: 1.8em;
-            margin-top: 25px;
-            margin-bottom: 15px;
-            color: #000;
-        }
-        h3 {
-            font-size: 1.5em;
-            margin-top: 25px;
-            margin-bottom: 10px;
-            color: #000;
-            font-weight: 800;
-            border-bottom: 2px solid #cc0000;
-            padding-bottom: 5px;
-            letter-spacing: 0.5px;
-        }
-        p {
-            margin: 0 0 15px 0;
-            line-height: 1.5;
-            font-size: 1.05em;
-        }
-        a {
-            text-decoration: none;
+
+        .page-title {
+            font-size: 2.2em;
             color: #cc0000;
+            font-weight: bold;
+            margin: 30px 0 10px 0;
         }
-        a:hover {
+        
+        .mission-section {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border-left: 5px solid #cc0000;
+        }
+        
+        .mission-section h2 {
+            color: #cc0000;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        .mission-section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .coverage-areas {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border-left: 5px solid #cc0000;
+        }
+        
+        .coverage-areas h2 {
+            color: #cc0000;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.6em;
+        }
+        
+        .coverage-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .coverage-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 3px solid #cc0000;
+        }
+        
+        .coverage-item h3 {
+            color: #cc0000;
+            margin: 0 0 10px 0;
+            font-size: 1.2em;
+        }
+        
+        .coverage-item p {
+            margin: 0;
+            color: #666;
+            line-height: 1.5;
+        }
+        
+        .methodology {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border-left: 5px solid #cc0000;
+        }
+        
+        .methodology h2 {
+            color: #cc0000;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.6em;
+        }
+        
+        .methodology ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        .methodology li {
+            margin: 8px 0;
+            line-height: 1.5;
+        }
+        
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .stat-box {
+            background-color: rgba(204, 0, 0, 0.1);
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #cc0000;
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #cc0000;
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        .stat-label {
+            color: #555;
+            font-size: 1em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        
+        .flash-report-network {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 40px 0;
+            border-left: 5px solid #cc0000;
+        }
+        
+        .flash-report-network h2 {
+            color: #cc0000;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            text-align: center;
+        }
+        
+        .network-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .network-site {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid #e9ecef;
+        }
+        
+        .network-site:hover {
+            border-color: #cc0000;
+            transform: translateY(-2px);
+        }
+        
+        .network-site a {
+            color: #cc0000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .network-site a:hover {
             text-decoration: underline;
         }
+        
+        .network-site .site-emoji {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+            display: block;
+        }
+        
+        .network-site .site-name {
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+        
+        .network-site .site-description {
+            font-size: 0.9em;
+            color: #666;
+        }
+
         footer {
             text-align: center;
             margin-top: 30px;
@@ -92,58 +257,164 @@
             border-top: 1px solid #ccc;
             font-size: 0.9em;
             color: #555;
-            padding-bottom: 20px;
+            padding-bottom: 20px; /* Add padding below footer */
         }
         footer a {
-            color: #cc0000;
+            color: #cc0000; /* Red links in footer - restored */
             text-decoration: underline;
         }
         footer a:hover {
             color: #555;
         }
+
+        /* Main header navigation styling */
+        .main-header-nav a:hover {
+            color: #cc0000 !important;
+            text-decoration: underline;
+        }
+        
+        /* Topics dropdown styling */
+        .topics-dropdown-content a:hover {
+            background-color: #f5f5f5;
+            color: #cc0000 !important;
+        }
     </style>
+    
+    <script defer data-domain="aiflashreport" src="https://plausible.io/js/script.js"></script>
 </head>
 <body>
     <div class="container">
         <!-- Site Title -->
         <h1><a href="index.html" style="text-decoration: none; color: inherit;">AI <span class="wire-part">Flash</span> Report</a></h1>
-        <p class="subtitle">Your Source for AI News, Analysis, Research, and Trends</p>
+        <p class="subtitle">Daily AI News Roundup - Updated: 2025-06-25</p>
+        
+        <!-- Main Navigation Header -->
+        <nav class="main-header-nav" style="background-color: #f8f9fa; border-bottom: 1px solid #e5e5e5; margin-bottom: 10px;">
+            <div style="max-width: 900px; margin: 0 auto; padding: 15px; display: flex; justify-content: center; align-items: center; gap: 30px; position: relative;">
+                <a href="index.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Home</a>
+                <a href="about.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">About</a>
+                <a href="contact.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Contact</a>
+                <a href="/archive/" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Archive</a>
+            </div>
+        </nav>
 
-        <!-- About Content -->
-        <div class="main-content">
-            <h2>About AI Flash Report</h2>
+        <div class="page-title">⚡ About AI Flash Report</div>
+
+        <div class="mission-section">
+            <h2>🤖 Your Daily AI Intelligence Hub</h2>
+            <p>AI Flash Report is the premier source for daily artificial intelligence intelligence, delivering the most important AI company updates, breakthrough research, and practical applications in one consolidated morning briefing.</p>
             
-            <p>AI Flash Report is a dedicated AI news aggregation service focused on delivering the most relevant and timely information about artificial intelligence developments around the world. Our automated system collects and organizes news from various reliable sources, categorizing them for easy consumption.</p>
+            <p>We monitor hundreds of AI publications, company announcements, research papers, and industry sources to bring you the signal through the noise. Every morning, our automated system identifies the most impactful developments in artificial intelligence, machine learning, and AI tools.</p>
             
-            <h3>Our Mission</h3>
-            <p>To provide a comprehensive, up-to-date resource for anyone interested in following <strong>AI news</strong>, <strong>AI analysis</strong>, <strong>AI research</strong>, and <strong>AI trends</strong>. We aim to be your one-stop destination for staying informed about the rapidly evolving world of artificial intelligence.</p>
-            
-            <h3>What We Cover</h3>
-            <p>Our content spans across multiple AI-related categories:</p>
+            <p>Whether you're an AI researcher, tech executive, developer, or AI enthusiast, AI Flash Report keeps you at the forefront of the rapidly evolving artificial intelligence landscape.</p>
+        </div>
+
+        <div class="coverage-areas">
+            <h2>🎯 What We Cover</h2>
+            <div class="coverage-grid">
+                <div class="coverage-item">
+                    <h3>🏢 AI Companies</h3>
+                    <p>Updates from major AI companies like OpenAI, Anthropic, Google AI, and emerging startups developing breakthrough AI technologies and applications.</p>
+                </div>
+                
+                <div class="coverage-item">
+                    <h3>🛠️ AI Tools & Products</h3>
+                    <p>New AI software releases, platform updates, developer tools, and practical AI applications across industries and use cases.</p>
+                </div>
+                
+                <div class="coverage-item">
+                    <h3>🎨 Creator Economy</h3>
+                    <p>AI tools for content creators, including image generation, video editing, music production, and writing assistance technologies.</p>
+                </div>
+                
+                <div class="coverage-item">
+                    <h3>📚 Research & Methods</h3>
+                    <p>Latest AI research papers, machine learning breakthroughs, algorithm developments, and academic advances in artificial intelligence.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="methodology">
+            <h2>⚙️ Our Methodology</h2>
+            <p>AI Flash Report uses advanced automated intelligence to monitor the AI ecosystem 24/7:</p>
             <ul>
-                <li><strong>AI News</strong>: Latest developments, product releases, and industry updates</li>
-                <li><strong>AI Analysis</strong>: Expert perspectives and in-depth examinations of AI technologies</li>
-                <li><strong>AI Research</strong>: Breakthroughs from academia and industry research labs</li>
-                <li><strong>AI Trends</strong>: Emerging patterns and future directions in artificial intelligence</li>
-                <li><strong>Business & Industry</strong>: How AI is transforming various sectors</li>
-                <li><strong>Ethics & Society</strong>: Discussions on responsible AI and societal impacts</li>
+                <li><strong>500+ Source Monitoring:</strong> Continuous tracking of AI company announcements, research publications, industry news, and developer communities</li>
+                <li><strong>AI-Powered Analysis:</strong> Machine learning algorithms identify breakthrough developments and trending topics in artificial intelligence</li>
+                <li><strong>Expert Curation:</strong> AI specialists ensure relevance and accuracy for researchers and practitioners</li>
+                <li><strong>Daily Synthesis:</strong> Key developments compiled into actionable intelligence delivered every morning</li>
+                <li><strong>Technical Focus:</strong> Priority given to developments that impact AI research, applications, and industry adoption</li>
             </ul>
-            
-            <h3>Daily Updates</h3>
-            <p>AI Flash Report refreshes daily, bringing you the most recent developments in AI. Each day's content is archived, allowing you to browse past news and track how AI has evolved over time.</p>
-            
-            <h3>Prompt of the Day</h3>
-            <p>In addition to news, we feature a daily AI prompt that you can use with various AI platforms to explore creative applications and stay engaged with the technology firsthand.</p>
-            <p>Check out our sister site, <a href="https://cryptoflashreport.com">Crypto Flash Report</a>, for the latest news in the crypto space.</p>
+        </div>
 
-            <h3>Contact</h3>
-            <p>For questions, suggestions, or feedback about AI Flash Report, please <a href="/contact.html">contact us here</a>.</a></p>
+        <div class="stats-container">
+            <div class="stat-box">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">AI Sources Monitored</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">AI Intelligence</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">Daily</span>
+                <span class="stat-label">AI Briefings</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">AI Focused</span>
+            </div>
+        </div>
+
+        <div class="flash-report-network">
+            <h2>🚀 The Flash Report Network</h2>
+            <p style="text-align: center; margin-bottom: 30px;">AI Flash Report is part of a specialized intelligence network covering the most important industries and sectors. Each site delivers focused, daily intelligence for busy professionals.</p>
+            
+            <div class="network-grid">
+                <div class="network-site">
+                    <span class="site-emoji">🧬</span>
+                    <div class="site-name"><a href="https://healthflashreport.com">Health Flash Report</a></div>
+                    <div class="site-description">Longevity research & medical breakthroughs</div>
+                </div>
+                
+                <div class="network-site">
+                    <span class="site-emoji">💻</span>
+                    <div class="site-name"><a href="https://techflashreport.com">Tech Flash Report</a></div>
+                    <div class="site-description">Startup funding & technology developments</div>
+                </div>
+                
+                <div class="network-site">
+                    <span class="site-emoji">💪</span>
+                    <div class="site-name"><a href="https://fitnessflashreport.com">Fitness Flash Report</a></div>
+                    <div class="site-description">Athletic performance & training science</div>
+                </div>
+                
+                <div class="network-site">
+                    <span class="site-emoji">✈️</span>
+                    <div class="site-name"><a href="https://travelflashreport.com">Travel Flash Report</a></div>
+                    <div class="site-description">Aviation industry & travel technology</div>
+                </div>
+                
+                <div class="network-site">
+                    <span class="site-emoji">🚀</span>
+                    <div class="site-name"><a href="https://startupflashreport.com">Startup Flash Report</a></div>
+                    <div class="site-description">Venture capital & entrepreneurship</div>
+                </div>
+                
+                <div class="network-site">
+                    <span class="site-emoji">☁️</span>
+                    <div class="site-name"><a href="https://saasflashreport.com">SaaS Flash Report</a></div>
+                    <div class="site-description">Software industry & B2B technology</div>
+                </div>
+            </div>
         </div>
 
         <footer>
-            AI Flash Report - Automated AI News Aggregation | <a href="index.html">Home</a> | <a href="archive/index.html">Archive Index</a> | <a href="/contact.html">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy-policy.html">Privacy</a>
+            <p>&copy; 2024 AI Flash Report. Artificial Intelligence News at Machine Speed.</p>
         </footer>
-
-    </div> <!-- end .container -->
+    </div>
 </body>
 </html> 

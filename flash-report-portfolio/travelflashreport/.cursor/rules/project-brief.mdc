@@ -1,0 +1,51 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Travel Flash Report - Project Brief
+
+## Site Overview
+Travel Flash Report delivers real-time travel intelligence to aviation professionals, tourism experts, and hospitality leaders. Daily aggregation of airline updates, destination trends, travel technology, and aviation industry developments.
+
+**Domain**: travelflashreport.com  
+**Theme**: Sky Blue (#0EA5E9)  
+**Tagline**: "Adventures at Jet Speed"  
+**Emoji**: ✈️  
+
+## Target Audience
+- **Primary**: Travel professionals, aviation industry, and frequent travelers
+- **Secondary**: Tourism experts, hospitality leaders, travel agents
+- **Tertiary**: Travel bloggers, destination marketers, aviation enthusiasts
+
+## Content Focus Areas
+- **Airline Updates**: Policy changes, new routes, fleet updates, partnerships
+- **Destination Trends**: Popular locations, tourism statistics, seasonal trends
+- **Travel Technology**: Apps, booking platforms, mobility solutions
+- **Hospitality Innovations**: Hotel tech, service innovations, property openings
+- **Aviation Industry**: Airport news, air traffic, regulations, safety
+- **Tourism Insights**: Market analysis, visitor statistics, economic impact
+
+## RSS Content Sources (25+ Active)
+### Travel Industry News
+- Skift, Travel Weekly, PhocusWire, Travel + Leisure
+
+### Airlines & Aviation  
+- Airlines for America, IATA, Aviation Week, The Points Guy
+
+### Hospitality & Accommodations
+- Hotel Management, Hospitality Net, Airbnb Newsroom
+
+### Travel Technology
+- Travel Tech News, Amadeus Blog, Expedia Tech
+
+## NewsAPI Keywords
+**Primary**: airline industry, travel restrictions, tourism, hotel industry, flight updates  
+**Secondary**: vacation rentals, cruise industry, travel apps, destination marketing  
+**Airlines**: American Airlines, Delta, United, Southwest, Emirates
+
+## Flash Summary Prompt
+**Format**: TRAVEL FLASH - [Date]  
+**Focus**: Airline updates, destination trends, travel technology, hospitality innovations  
+**Analysis**: Practical implications for travelers and travel professionals  
+**Insight**: Commentary on travel trends and industry changes

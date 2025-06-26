@@ -3,10 +3,18 @@ description:
 globs: 
 alwaysApply: false
 ---
-# News Aggregation Website Replication Guide
+# Flash Report Portfolio Replication Guide
 
 ## Overview
-This comprehensive guide details how to replicate the automated news aggregation website for any niche (health tech, fitness, finance, etc.). The project creates a professional static HTML website that automatically fetches, categorizes, displays, and paginates news from various sources with daily flash summaries and automated deployment.
+This comprehensive guide details how to replicate the Flash Report portfolio approach - building multiple independent niche news aggregation sites that share the same design and architecture but target different verticals. Based on the successful AI Flash Report, this system creates professional static HTML websites that automatically fetch, categorize, and display niche-specific news with daily flash summaries and automated deployment.
+
+## Portfolio Approach
+Instead of building one site for multiple niches, this approach creates **independent sites** for each vertical:
+- Each site has its own domain (healthflashreport.com, techflashreport.com, etc.)
+- Individual GitHub repositories and deployment pipelines
+- Separate analytics and content management
+- Cross-linking for portfolio discovery
+- Same design with niche-specific branding
 
 ## Current Project Features
 - **Automated News Aggregation**: RSS feeds, NewsAPI, Reddit, Perplexity AI integration
@@ -17,19 +25,20 @@ This comprehensive guide details how to replicate the automated news aggregation
 - **Professional Template System**: Responsive design with contact forms
 - **Content Management**: Categorization, deduplication, archiving
 
-## Project Architecture
+## Portfolio Architecture
 
-### Core Components
-- **Backend Logic**: `aggregator.py` (1,728 lines - comprehensive aggregation system)
-- **Configuration**: `config.json`, `keyword_config.json` (138 lines - topic page definitions)
-- **Templates**: `template.html`, `keyword_template.html`, `archive_index_template.html`
-- **Automation**: `.github/workflows/daily-update.yml` (180 lines - robust workflow)
-- **SEO & Utilities**: `generate_sitemap.py`, `validate_sitemap.py`, various helper scripts
-- **Content Storage**: `archive/`, `topic_archives/`, `curated_content/`, `data/`
+### Core Components (Per Site)
+- **Backend Logic**: `aggregator.py` (customized per niche - aggregation system)
+- **Configuration**: `config.json`, `keyword_config.json` (niche-specific settings)
+- **Templates**: `template.html` (universal design with niche branding)
+- **Flash Summary Component**: Reusable component across all sites
+- **Automation**: `.github/workflows/daily-update.yml` (per repository)
+- **SEO & Utilities**: `generate_sitemap.py`, `validate_sitemap.py` (universal)
+- **Content Storage**: `archive/`, `topic_archives/`, `data/` (site-specific)
 
-### File Structure
+### Individual Site Structure
 ```
-your-niche-site/
+healthflashreport/   # or techflashreport/, fitnessflashreport/, etc.
 ├── aggregator.py                     # Main aggregation engine
 ├── config.json                      # Site configuration
 ├── keyword_config.json               # Topic pages configuration
@@ -65,6 +74,27 @@ your-niche-site/
     ├── [topic]-news-page-3.html     # Topic page 3
     └── archive/[date].html          # Daily archives
 ```
+
+## Flash Report Portfolio Examples
+
+### Successful Implementation
+The Flash Report portfolio demonstrates this approach with 7 independent sites:
+
+- **aiflashreport.com** 🤖 - AI news (existing flagship)
+- **healthflashreport.com** 🧬 - Health technology and longevity
+- **techflashreport.com** 🚀 - Startup and enterprise technology  
+- **fitnessflashreport.com** 💪 - Fitness science and equipment
+- **travelflashreport.com** ✈️ - Travel industry and aviation
+- **startupflashreport.com** 🦄 - Startup ecosystem and funding
+- **saasflashreport.com** ⚙️ - B2B software and SaaS industry
+
+### Key Benefits
+- **Independent Operation**: Each site can be sold, scaled, or modified separately
+- **Risk Distribution**: Failure of one site doesn't affect others
+- **Audience Targeting**: Precise content for distinct professional audiences
+- **SEO Advantage**: Domain authority per niche vs. competing for mixed keywords
+- **Monetization**: Different revenue streams per vertical
+- **Cross-Promotion**: Portfolio sites drive traffic to each other
 
 ## Phase 1: Niche Definition & Content Strategy
 

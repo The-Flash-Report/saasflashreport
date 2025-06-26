@@ -1,48 +1,96 @@
-# PromptWire Project Brief
-
-**Project:** PromptWire
-**Version:** 1.0.0
-**Description:** An automated daily AI news aggregator inspired by Drudge Report's simplicity but focused on artificial intelligence news and developments.
+---
+description: 
+globs: 
+alwaysApply: false
+---
 **Author:** Bryan Collins
+
+## Project: Flash Report Portfolio Expansion
+
+**Current Status:** All 7 sites built with complete portfolio integration. Phase 9 COMPLETED: Cross-linking, consistent about pages, and analytics tracking implemented. Phase 10 READY: Template & Page Finalization - addressing 39 template compliance issues before RSS/aggregator implementation.
+
+**Existing Site:** aiflashreport.com (AI news aggregation)  
+**New Sites:** Health, Tech, Fitness, Travel, Startup, SaaS Flash Reports
 
 ## Core Principles
 - **Update Frequency:** Daily (automated)
 - **Format:** Static HTML generation
-- **Hosting:** Netlify
+- **Hosting:** Netlify with individual domains
 - **Automation:** GitHub Actions
+- **Architecture:** Each site is independent and portable
+- **Branding:** Same design/layout, niche-specific colors and content
 
-## News Sources
-- NewsAPI (Mainstream AI coverage)
-- Perplexity AI (AI-curated stories)
-- RSS Feeds (OpenAI, Google AI, Meta, Anthropic blogs)
-- Reddit (Subreddits: artificial, MachineLearning, LargeLanguageModels, LocalLLaMA, singularity)
+## Portfolio Architecture
+- **7 Independent Sites:** Each with separate domain, GitHub repo, analytics
+- **Cross-Linking:** All sites link to each other for portfolio discovery
+- **Template Consistency:** Universal template with niche-specific configurations
+- **Flash Summary Component:** Reusable component across all sites (perplexity prompt must be changed for each site)
 
-## Content Structure & Categories
-- Trending Now
-- AI Products
-- Creator Economy
-- Business News
-- Research Breakthroughs
-- Industries
-- Deep Learning
-- Companies
-- Applications
-- Controversy
+## Domain Structure
+- aiflashreport.com (existing)
+- healthflashreport.com 🧬 
+- techflashreport.com 🚀
+- fitnessflashreport.com 💪
+- travelflashreport.com ✈️
+- startupflashreport.com 🦄
+- saasflashreport.com ⚙️
+
+## News Sources (Per Niche)
+- **NewsAPI:** Mainstream media coverage relevant to each vertical
+- **RSS Feeds:** ~25 feeds per niche via Feedly research and validation
+- **Reddit:** Relevant subreddits for each vertical
+- **Perplexity AI:** Niche-specific flash summaries
+
+## Content Structure (Universal)
+- Daily Flash Summary (niche-specific)
+- Categorized news articles (niche-appropriate categories)
+- Archive system (daily static files)
+- Topic/keyword pages with pagination
+- Cross-portfolio navigation
 
 ## Technical Stack
 - **Language:** Python
 - **Dependencies:** requests, feedparser, Jinja2, praw
 - **Automation:** GitHub Actions (daily cron), Netlify deploy
+- **Template Engine:** Jinja2 with niche-specific variables
+- **Flash Summary:** Reusable component with Perplexity API integration
+- **Environment Variables:** GitHub org-level (API keys, Netlify site IDs)
 
-## Features
-- **Archiving:** Daily static HTML files (YYYY-MM-DD.html)
-- **Design:** Drudge-inspired, modern typography, clean categories, source attribution, dark/light mode, responsive.
+## Site-Specific Branding
+- **Health Flash Report:** Emerald theme (#10B981) - "Breakthrough Health at Breakthrough Speed"
+- **Tech Flash Report:** Violet theme (#8B5CF6) - "Silicon Valley Speed, Global Reach"  
+- **Fitness Flash Report:** Red theme (#EF4444) - "Peak Performance, Peak Speed"
+- **Travel Flash Report:** Sky blue theme (#0EA5E9) - "Adventures at Jet Speed"
+- **Startup Flash Report:** Pink theme (#EC4899) - "Unicorns at Rocket Speed"
+- **SaaS Flash Report:** Indigo theme (#6366F1) - "Software Success at Software Speed"
 
-## Maintenance
-- **Automated:** Daily news fetch, categorization, HTML generation, deploy, archiving.
-- **Manual:** API key renewals (yearly), source/category/layout changes (as needed).
+## Development Process
+- **Sequential Building:** One site at a time per task list, built off AI Flash Report
+- **AI Content Replacement:** Systematic conversion of AI references to niche content
+- **Content Source Validation:** Test all RSS feeds, find alternatives for broken sources
+- **Local QA:** Test each site locally before declaring complete
+- **GitHub Deployment:** Push to individual repos only when approved
 
-## Priorities
-- **High:** Automation, reliable aggregation, categorization, error handling.
-- **Medium:** Archiving, dark/light mode, responsiveness.
-- **Low:** Search, advanced filtering. 
+## Success Criteria (Per Site)
+- **Content:** 25+ working news sources
+- **Functionality:** Working templates, scripts, static pages
+- **Flash Summary:** Niche-specific Perplexity integration working
+- **Design:** Proper branding and responsive layout
+- **SEO:** Meta tags, sitemap, analytics configured
+
+## Maintenance (Per Site)
+- **Automated:** Daily news fetch, categorization, HTML generation, deploy, archiving
+- **Manual:** Content source validation, API key management, cross-linking updates
+
+## Current Priority
+**Phase 10:** Template & Page Finalization
+- Fix 39 template compliance issues across all 7 sites
+- Standardize topic pages to AI Flash Report template structure  
+- Add Topics dropdown navigation to all topic pages
+- Replace "Coming Soon" elements with sample content
+- Fix Startup site's Tailwind CSS violations (must use AI template)
+- Move Startup site to proper directory structure
+
+**Phase 11:** RSS/Aggregator Implementation (after templates finalized)
+
+ 

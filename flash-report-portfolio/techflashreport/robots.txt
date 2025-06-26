@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Sitemap: https://aiflashreport.com/sitemap.xml
+
+# Allow all crawlers full access
+Disallow:
+
+# Crawl delay to prevent server overload
+Crawl-delay: 1 

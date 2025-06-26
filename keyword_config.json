@@ -1,132 +1,93 @@
 {
   "keyword_pages": {
-    "openai-news": {
-      "title": "OpenAI News",
-      "description": "Latest news and updates about OpenAI, GPT models, and ChatGPT",
-      "filename": "openai-news.html",
-      "keywords": ["OpenAI", "GPT", "ChatGPT", "GPT-4", "GPT-3"],
+    "startup-funding": {
+      "title": "Startup Funding",
+      "description": "Venture capital funding rounds, seed investments, Series A-C raises, and startup investment news from the tech ecosystem",
+      "filename": "startup-funding.html",
+      "keywords": ["seed funding", "Series A", "Series B", "Series C", "venture capital", "startup funding", "investment round", "valuation", "unicorn funding", "pre-seed", "angel investment", "VC funding", "startup investment"],
+      "negative_keywords": ["gambling", "casino", "loan"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Startup Funding News - Latest VC Rounds & Investment Deals",
+      "meta_description": "Latest startup funding rounds, venture capital investments, and tech company valuations from the startup ecosystem."
+    },
+    "product-launches": {
+      "title": "Product Launches",
+      "description": "New product releases, feature announcements, and software launches from tech companies and startups",
+      "filename": "product-launches.html",
+      "keywords": ["product launch", "new product", "feature release", "software launch", "app launch", "platform launch", "beta release", "product announcement", "new feature", "product update", "software release", "tech product"],
+      "negative_keywords": ["advertisement", "spam"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Product Launches - New Tech Products & Software Releases",
+      "meta_description": "Latest product launches, feature releases, and software announcements from tech companies and startups."
+    },
+    "enterprise-software": {
+      "title": "Enterprise Software",
+      "description": "Enterprise software news, B2B platforms, business applications, and corporate technology solutions",
+      "filename": "enterprise-software.html",
+      "keywords": ["enterprise software", "B2B software", "business software", "SaaS platform", "enterprise solution", "business application", "corporate software", "enterprise technology", "B2B platform", "business tools", "ERP", "CRM"],
+      "negative_keywords": ["consumer", "gaming"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Enterprise Software News - B2B Platforms & Business Applications",
+      "meta_description": "Enterprise software developments, B2B platform updates, and corporate technology solution announcements."
+    },
+    "developer-tools": {
+      "title": "Developer Tools",
+      "description": "Developer tools, programming frameworks, coding platforms, and software development infrastructure news",
+      "filename": "developer-tools.html",
+      "keywords": ["developer tools", "programming tools", "code editor", "development platform", "API tools", "DevOps", "developer platform", "coding tools", "IDE", "framework", "library", "developer infrastructure", "programming framework"],
+      "negative_keywords": ["tutorial", "course"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Developer Tools News - Programming Frameworks & Dev Platforms",
+      "meta_description": "Latest developer tools, programming frameworks, and software development infrastructure updates."
+    },
+    "big-tech-moves": {
+      "title": "Big Tech Moves",
+      "description": "Strategic moves, partnerships, and major announcements from big tech companies like Google, Apple, Microsoft, Amazon, and Meta",
+      "filename": "big-tech-moves.html",
+      "keywords": ["Google", "Apple", "Microsoft", "Amazon", "Meta", "Facebook", "big tech", "tech giant", "FAANG", "MAMAA", "tech company", "strategic partnership", "tech acquisition", "big tech news", "tech strategy", "platform update"],
+      "negative_keywords": ["rumor", "speculation"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Big Tech News - Google, Apple, Microsoft, Amazon & Meta Updates",
+      "meta_description": "Strategic moves, partnerships, and major announcements from big tech companies and industry giants."
+    },
+    "ipos-acquisitions": {
+      "title": "IPOs & Acquisitions",
+      "description": "Tech IPOs, mergers and acquisitions, company valuations, and major exit events in the tech industry",
+      "filename": "ipos-acquisitions.html",
+      "keywords": ["IPO", "acquisition", "merger", "exit", "tech IPO", "startup acquisition", "M&A", "buyout", "tech merger", "company acquisition", "startup exit", "public offering", "SPAC", "tech valuation", "acquisition deal"],
+      "negative_keywords": ["rumor", "speculation"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Tech IPOs & Acquisitions - M&A Deals & Public Offerings",
+      "meta_description": "Latest tech IPOs, startup acquisitions, merger deals, and major exit events in the technology industry."
+    },
+    "tech-news-today": {
+      "title": "Tech News Today",
+      "description": "Today's most important tech industry news, breaking developments, and trending technology stories",
+      "filename": "tech-news-today.html",
+      "keywords": ["tech news", "technology news", "breaking tech", "tech industry", "tech trends", "technology updates", "tech breaking news", "silicon valley", "tech today", "technology today", "tech headlines", "innovation news"],
       "negative_keywords": [],
-      "max_articles": 50,
-      "page_type": "automated",
-      "meta_title": "OpenAI News - Latest Updates on GPT and ChatGPT",
-      "meta_description": "Stay updated with the latest OpenAI news, GPT model releases, and ChatGPT developments. Daily aggregated AI news from trusted sources."
+      "max_articles": 25,
+      "page_type": "curated",
+      "meta_title": "Tech News Today - Breaking Technology Industry Updates",
+      "meta_description": "Today's most important tech industry news, breaking developments, and trending technology stories."
     },
-    "google-ai-news": {
-      "title": "Google AI News",
-      "description": "Latest developments from Google AI, Gemini, and DeepMind",
-      "filename": "google-ai-news.html",
-      "keywords": ["Google", "Gemini", "DeepMind", "Google AI"],
-      "negative_keywords": ["Google Search", "Google Maps", "Google Drive", "Android"],
-      "max_articles": 50,
-      "page_type": "automated",
-      "meta_title": "Google AI News - Gemini, DeepMind & Google AI Updates",
-      "meta_description": "Latest Google AI news including Gemini model updates, DeepMind research, and Google's artificial intelligence developments."
-    },
-    "chatgpt-news": {
-      "title": "ChatGPT News",
-      "description": "All ChatGPT-related news, updates, and developments",
-      "filename": "chatgpt-news.html",
-      "keywords": ["ChatGPT", "GPT-4", "GPT-3", "Chat GPT"],
-      "negative_keywords": [],
-      "max_articles": 50,
-      "page_type": "automated",
-      "meta_title": "ChatGPT News - Latest GPT Updates and Developments",
-      "meta_description": "Comprehensive ChatGPT news coverage including new features, updates, and developments in GPT technology.",
-      "content_max_age_days": 7
-    },
-    "chatgpt-updates": {
-      "title": "ChatGPT Updates",
-      "description": "Official ChatGPT updates, releases, and new features",
-      "filename": "chatgpt-updates.html",
-      "keywords": ["ChatGPT", "GPT-4", "GPT-3", "Chat GPT"],
-      "required_keywords": ["update", "release", "feature", "new", "launch"],
+    "tech-breakthrough-news": {
+      "title": "Tech Breakthrough News",
+      "description": "Revolutionary tech breakthroughs, cutting-edge innovations, and game-changing technology developments",
+      "filename": "tech-breakthrough-news.html",
+      "keywords": ["tech breakthrough", "innovation", "revolutionary technology", "cutting-edge tech", "breakthrough innovation", "disruptive technology", "tech revolution", "groundbreaking tech", "next-gen technology", "emerging tech", "future tech"],
+      "required_keywords": ["technology", "tech", "innovation"],
       "negative_keywords": [],
       "max_articles": 30,
-      "page_type": "automated",
-      "meta_title": "ChatGPT Updates - New Features and Releases",
-      "meta_description": "Track the latest ChatGPT updates, new features, and official releases from OpenAI."
-    },
-    "machine-learning-news": {
-      "title": "Machine Learning News",
-      "description": "Latest machine learning developments, research, and applications",
-      "filename": "machine-learning-news.html",
-      "keywords": ["machine learning", "ML", "model training", "supervised learning", "unsupervised learning"],
-      "negative_keywords": ["beginner", "tutorial", "introduction", "basics"],
-      "max_articles": 50,
-      "page_type": "automated",
-      "meta_title": "Machine Learning News - Latest ML Research and Developments",
-      "meta_description": "Stay current with machine learning news, research breakthroughs, and industry applications from leading sources.",
-      "content_max_age_days": 14
-    },
-    "deep-learning-news": {
-      "title": "Deep Learning News",
-      "description": "Deep learning research, neural networks, and technical breakthroughs",
-      "filename": "deep-learning-news.html",
-      "keywords": ["deep learning", "neural network", "CNN", "RNN", "transformer", "attention mechanism"],
-      "negative_keywords": ["beginner", "tutorial", "introduction"],
-      "max_articles": 50,
-      "page_type": "automated",
-      "meta_title": "Deep Learning News - Neural Networks and AI Research",
-      "meta_description": "Latest deep learning research, neural network innovations, and technical breakthroughs in artificial intelligence.",
-      "content_max_age_days": 14
-    },
-    "ai-research-news": {
-      "title": "AI Research News",
-      "description": "Academic AI research, papers, and scientific breakthroughs",
-      "filename": "ai-research-news.html",
-      "keywords": ["research", "paper", "study", "arxiv", "conference", "NIPS", "ICML", "ICLR"],
-      "negative_keywords": [],
-      "max_articles": 50,
-      "page_type": "automated",
-      "meta_title": "AI Research News - Latest Papers and Scientific Breakthroughs",
-      "meta_description": "Academic AI research news, latest papers from arXiv, and breakthroughs from top AI conferences and institutions."
-    },
-    "ai-startup-news": {
-      "title": "AI Startup News",
-      "description": "AI startup funding, acquisitions, and business developments",
-      "filename": "ai-startup-news.html",
-      "keywords": ["funding", "startup", "venture capital", "acquisition", "IPO", "Series A", "Series B"],
-      "required_keywords": ["AI", "artificial intelligence", "machine learning", "ML"],
-      "negative_keywords": [],
-      "max_articles": 40,
-      "page_type": "automated",
-      "meta_title": "AI Startup News - Funding, Acquisitions & Business Updates",
-      "meta_description": "Track AI startup funding rounds, acquisitions, and business developments in the artificial intelligence industry."
-    },
-    "ai-industry-news": {
-      "title": "AI Industry News",
-      "description": "Business developments, partnerships, and market trends in AI",
-      "filename": "ai-industry-news.html",
-      "keywords": ["partnership", "collaboration", "market", "industry", "business", "enterprise"],
-      "required_keywords": ["AI", "artificial intelligence", "machine learning"],
-      "negative_keywords": [],
-      "max_articles": 40,
-      "page_type": "automated",
-      "meta_title": "AI Industry News - Business Developments and Market Trends",
-      "meta_description": "AI industry news covering business partnerships, market trends, and enterprise artificial intelligence developments."
-    },
-    "ai-news-today": {
-      "title": "AI News Today",
-      "description": "Today's top AI stories - curated daily highlights",
-      "filename": "ai-news-today.html",
-      "keywords": [],
-      "negative_keywords": [],
-      "max_articles": 5,
       "page_type": "curated",
-      "meta_title": "AI News Today - Daily Curated AI Headlines",
-      "meta_description": "Today's most important AI news stories, carefully curated and summarized for quick reading."
-    },
-    "ai-breakthrough-news": {
-      "title": "AI Breakthrough News",
-      "description": "Major AI breakthroughs and groundbreaking announcements",
-      "filename": "ai-breakthrough-news.html",
-      "keywords": ["breakthrough", "groundbreaking", "revolutionary", "major", "significant"],
-      "required_keywords": ["AI", "artificial intelligence"],
-      "negative_keywords": [],
-      "max_articles": 20,
-      "page_type": "curated",
-      "meta_title": "AI Breakthrough News - Major AI Developments",
-      "meta_description": "Major AI breakthroughs, revolutionary developments, and groundbreaking announcements in artificial intelligence."
+      "meta_title": "Tech Breakthrough News - Revolutionary Technology Innovations",
+      "meta_description": "Revolutionary tech breakthroughs, cutting-edge innovations, and game-changing technology developments."
     }
   },
   "settings": {
@@ -134,5 +95,183 @@
     "enable_keyword_scoring": true,
     "duplicate_handling": "show_on_all_matching",
     "case_sensitive": false
+  },
+  "categories": {
+    "training-science": {
+      "title": "Training Science News - Exercise Physiology & Performance Research",
+      "description": "Latest exercise physiology research, training methodologies, and performance optimization studies from sports science.",
+      "keywords": "training science, exercise physiology, sports science, performance optimization, training methodology, athletic research, biomechanics, strength training",
+      "page_title": "🔬 Training Science",
+      "sample_headlines": [
+        "New Study Reveals Optimal Rep Ranges for Muscle Hypertrophy",
+        "Exercise Physiology Research Shows Benefits of Periodization",
+        "Sports Science Breakthrough in VO2 Max Training Protocols"
+      ]
+    },
+    "gear-releases": {
+      "title": "Fitness Gear Releases - New Equipment & Wearable Technology",
+      "description": "Latest fitness equipment launches, wearable technology updates, and athletic gear announcements.",
+      "keywords": "fitness equipment, wearable technology, athletic gear, fitness tech, sports equipment, workout gear, fitness gadgets, training tools",
+      "page_title": "⚙️ Gear Releases",
+      "sample_headlines": [
+        "Apple Watch Ultra 3 Features Advanced Heart Rate Variability",
+        "Peloton Launches AI-Powered Strength Training Mirror",
+        "Nike Unveils Next-Gen Running Shoes with Carbon Fiber Plates"
+      ]
+    },
+    "athletic-performance": {
+      "title": "Athletic Performance News - Sports Records & Achievement Updates",
+      "description": "Professional athlete achievements, sports records, and performance breakthroughs across all athletic disciplines.",
+      "keywords": "athletic performance, sports records, professional athletes, performance breakthroughs, athletic achievements, sports news, competition results",
+      "page_title": "🏃‍♂️ Athletic Performance", 
+      "sample_headlines": [
+        "Marathon World Record Broken Using New Training Protocol",
+        "Olympic Swimmer Achieves Personal Best with Recovery Innovation",
+        "Professional Athlete Credits Altitude Training for Performance Gains"
+      ]
+    },
+    "nutrition-studies": {
+      "title": "Sports Nutrition Studies - Dietary Research & Supplement Science",
+      "description": "Sports nutrition research, dietary strategies for athletes, and evidence-based supplement science.",
+      "keywords": "sports nutrition, dietary research, supplement science, athletic nutrition, performance nutrition, sports supplements, nutrition studies",
+      "page_title": "🥗 Nutrition Studies",
+      "sample_headlines": [
+        "Protein Timing Study Reveals Optimal Post-Workout Window",
+        "New Research on Ketogenic Diet for Endurance Athletes",
+        "Creatine Supplementation Shows Cognitive Performance Benefits"
+      ]
+    },
+    "recovery-technology": {
+      "title": "Recovery Technology - Sleep Optimization & Rehabilitation Tools",
+      "description": "Recovery tools, sleep optimization technology, and rehabilitation equipment advances for athletic performance.",
+      "keywords": "recovery technology, sleep optimization, rehabilitation tools, athletic recovery, sports recovery, recovery equipment, sleep tracking",
+      "page_title": "🛌 Recovery Technology",
+      "sample_headlines": [
+        "Infrared Sauna Technology Accelerates Muscle Recovery Times",
+        "Sleep Tracking Device Reveals Recovery Pattern Insights", 
+        "Compression Therapy Innovation Reduces Exercise-Induced Fatigue"
+      ]
+    },
+    "sports-medicine": {
+      "title": "Sports Medicine News - Injury Prevention & Treatment Advances",
+      "description": "Injury prevention strategies, treatment advances, and sports medicine research for athletic health.",
+      "keywords": "sports medicine, injury prevention, treatment advances, athletic health, sports injuries, rehabilitation, sports therapy, athletic medicine",
+      "page_title": "🏥 Sports Medicine",
+      "sample_headlines": [
+        "Revolutionary ACL Injury Prevention Protocol Reduces Risk by 70%",
+        "Platelet-Rich Plasma Therapy Shows Promise for Tendon Injuries",
+        "Sports Medicine Study Reveals Concussion Recovery Breakthrough"
+      ]
+    },
+    "fitness-news-today": {
+      "title": "Fitness News Today - Breaking Athletic & Training Updates",
+      "description": "Today's most important fitness industry news, breaking athletic developments, and trending training updates.",
+      "keywords": "fitness news today, athletic news, training updates, fitness industry, sports news, fitness trends, workout news, athletic developments",
+      "page_title": "📱 Fitness News Today",
+      "sample_headlines": [
+        "CrossFit Games Announces Major Format Changes for 2024",
+        "Fitness Industry Reports 25% Growth in Home Gym Equipment",
+        "Professional Sports League Implements New Recovery Protocols"
+      ]
+    },
+    "fitness-breakthrough-news": {
+      "title": "Fitness Breakthrough News - Revolutionary Athletic Discoveries",
+      "description": "Revolutionary fitness discoveries, game-changing performance innovations, and breakthrough athletic research.",
+      "keywords": "fitness breakthroughs, athletic discoveries, performance innovations, revolutionary fitness, breakthrough research, fitness science, athletic innovation",
+      "page_title": "⚡ Fitness Breakthrough News",
+      "sample_headlines": [
+        "Gene Therapy Trial Doubles Muscle Strength in Athletes",
+        "Neuroscience Breakthrough Enhances Motor Learning Speed",
+        "Revolutionary Training Method Increases VO2 Max by 40%"
+      ]
+    },
+    "airline-updates": {
+      "title": "Airline Updates - Aviation Industry News & Flight Operations",
+      "description": "Latest airline industry news, flight operations updates, and aviation development announcements.",
+      "keywords": "airline news, aviation industry, flight operations, airline updates, aircraft news, airline routes, aviation developments, flight schedules",
+      "page_title": "✈️ Airline Updates",
+      "sample_headlines": [
+        "Major Airline Launches New Transatlantic Route Service",
+        "Aviation Industry Reports Record Summer Travel Demand",
+        "Next-Generation Aircraft Features Enhanced Passenger Experience"
+      ]
+    },
+    "destination-trends": {
+      "title": "Destination Trends - Popular Travel Locations & Tourism Patterns",
+      "description": "Trending travel destinations, tourism patterns, and emerging vacation hotspots worldwide.",
+      "keywords": "destination trends, travel destinations, tourism patterns, vacation hotspots, travel trends, popular destinations, tourism insights, destination news",
+      "page_title": "🌍 Destination Trends", 
+      "sample_headlines": [
+        "Remote Work Drives Interest in Long-Term Travel Destinations",
+        "European Cities See Surge in Post-Pandemic Tourism Recovery",
+        "Adventure Tourism Grows 40% in Mountain Destinations"
+      ]
+    },
+    "travel-technology": {
+      "title": "Travel Technology - Innovation in Transportation & Booking",
+      "description": "Travel technology innovations, booking platform updates, and transportation technology advances.",
+      "keywords": "travel technology, travel apps, booking platforms, transportation innovation, travel tech, digital travel, travel software, mobility solutions",
+      "page_title": "💻 Travel Technology",
+      "sample_headlines": [
+        "AI-Powered Travel Assistant Revolutionizes Trip Planning",
+        "Contactless Check-in Technology Streamlines Airport Experience",
+        "Sustainable Aviation Fuel Initiative Accelerates Industry Adoption"
+      ]
+    },
+    "hospitality-innovations": {
+      "title": "Hospitality Innovations - Hotels, Resorts & Guest Experience",
+      "description": "Hotel industry innovations, resort developments, and guest experience enhancement technologies.",
+      "keywords": "hospitality innovations, hotel technology, resort developments, guest experience, hotel industry, accommodation trends, hospitality tech, lodging innovations",
+      "page_title": "🏨 Hospitality Innovations",
+      "sample_headlines": [
+        "Smart Hotel Rooms Feature Voice-Controlled Everything",
+        "Luxury Resort Chain Implements Carbon-Neutral Operations",
+        "Boutique Hotels Embrace Hyper-Personalized Guest Experiences"
+      ]
+    },
+    "aviation-industry": {
+      "title": "Aviation Industry - Aircraft Development & Air Travel",
+      "description": "Aviation industry developments, aircraft technology advances, and air travel sector updates.",
+      "keywords": "aviation industry, aircraft development, air travel, airline industry, aviation technology, aircraft manufacturing, aviation news, flight industry",
+      "page_title": "🛫 Aviation Industry",
+      "sample_headlines": [
+        "Electric Aircraft Prototype Completes Successful Test Flight",
+        "Airport Infrastructure Investment Targets Capacity Expansion",
+        "Supersonic Travel Returns with New Commercial Aircraft Design"
+      ]
+    },
+    "tourism-insights": {
+      "title": "Tourism Insights - Industry Analysis & Travel Market Data",
+      "description": "Tourism industry insights, travel market analysis, and hospitality sector business developments.",
+      "keywords": "tourism insights, travel market, tourism industry, travel business, hospitality sector, tourism analysis, travel economics, tourism statistics",
+      "page_title": "📊 Tourism Insights",
+      "sample_headlines": [
+        "Global Tourism Revenue Exceeds Pre-Pandemic Levels",
+        "Sustainable Travel Preferences Drive Booking Decisions",
+        "Digital Nomad Trend Reshapes Long-Term Accommodation Markets"
+      ]
+    },
+    "travel-news-today": {
+      "title": "Travel News Today - Breaking Travel & Tourism Updates",
+      "description": "Today's most important travel industry news, breaking tourism developments, and trending travel updates.",
+      "keywords": "travel news today, tourism news, travel updates, travel industry, aviation news, hospitality news, travel trends, tourism developments",
+      "page_title": "📱 Travel News Today",
+      "sample_headlines": [
+        "International Border Restrictions Lifted for Major Destinations",
+        "Travel Insurance Companies Expand Coverage for Remote Work",
+        "Cruise Industry Announces New Health and Safety Protocols"
+      ]
+    },
+    "travel-breakthrough-news": {
+      "title": "Travel Breakthrough News - Revolutionary Transportation & Tourism",
+      "description": "Revolutionary travel innovations, breakthrough transportation technologies, and game-changing tourism developments.",
+      "keywords": "travel breakthroughs, transportation innovation, tourism revolution, travel technology breakthrough, aviation breakthrough, hospitality innovation",
+      "page_title": "⚡ Travel Breakthrough News",
+      "sample_headlines": [
+        "Hyperloop Transportation System Begins Commercial Operations",
+        "Space Tourism Company Offers Orbital Vacation Packages",
+        "Autonomous Flight Technology Enables Pilotless Commercial Aircraft"
+      ]
+    }
   }
 } 

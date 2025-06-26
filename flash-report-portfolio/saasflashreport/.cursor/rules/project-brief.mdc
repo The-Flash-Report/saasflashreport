@@ -1,0 +1,51 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# SaaS Flash Report - Project Brief
+
+## Site Overview
+SaaS Flash Report delivers real-time software-as-a-service intelligence to SaaS founders, enterprise buyers, and B2B technology professionals. Daily aggregation of product launches, pricing changes, enterprise deals, and cloud infrastructure developments.
+
+**Domain**: saasflashreport.com  
+**Theme**: Indigo (#6366F1)  
+**Tagline**: "Software Success at Software Speed"  
+**Emoji**: ⚙️  
+
+## Target Audience
+- **Primary**: SaaS founders, operators, and B2B software professionals
+- **Secondary**: Enterprise software buyers, CTOs, and technology decision-makers
+- **Tertiary**: Software developers, cloud infrastructure professionals, API developers
+
+## Content Focus Areas
+- **Product Launches**: New SaaS products, major feature releases, platform launches
+- **Pricing Changes**: New pricing models, feature tiers, subscription updates
+- **Enterprise Deals**: Large contracts, partnerships, integrations
+- **Acquisitions**: SaaS company buyouts, strategic acquisitions
+- **Platform Updates**: API changes, infrastructure improvements, security updates
+- **API Integrations**: New partnerships, third-party integrations, marketplace additions
+
+## RSS Content Sources (25+ Active)
+### SaaS Industry News
+- SaaS Magazine, SaaStr, ChartMogul Blog, ProfitWell
+
+### Enterprise Software
+- Salesforce News, Microsoft 365, Google Workspace, Slack
+
+### Cloud Infrastructure
+- AWS News, Azure Updates, Google Cloud Blog, CloudFlare
+
+### Product & Platform Updates
+- GitHub Blog, Stripe Blog, Twilio Blog, Zapier Blog
+
+## NewsAPI Keywords
+**Primary**: SaaS, enterprise software, cloud platform, API, subscription software  
+**Secondary**: B2B software, productivity tools, collaboration platform, workflow automation  
+**Companies**: Salesforce, Microsoft, Google, Slack, Zoom, HubSpot, Atlassian
+
+## Flash Summary Prompt
+**Format**: SAAS FLASH - [Date]  
+**Focus**: Product launches, pricing changes, acquisitions, enterprise deals, platform updates  
+**Analysis**: Practical implications for SaaS operators and enterprise buyers  
+**Insight**: Commentary on SaaS trends and enterprise adoption

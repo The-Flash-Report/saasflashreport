@@ -1,0 +1,204 @@
+{
+  "categories": {
+    "cloud-infrastructure": {
+      "title": "Cloud Infrastructure",
+      "description": "Infrastructure as a Service developments, cloud platform updates, server management solutions, and cloud computing innovations transforming business technology infrastructure.",
+      "keywords": [
+        "cloud infrastructure",
+        "infrastructure as a service",
+        "IaaS",
+        "cloud platforms",
+        "server management",
+        "cloud computing",
+        "AWS updates",
+        "Azure news",
+        "Google Cloud",
+        "cloud migration",
+        "serverless computing",
+        "container orchestration"
+      ],
+      "sample_headlines": [
+        "Amazon Web Services Launches Revolutionary Serverless Computing Platform",
+        "Microsoft Azure Announces Multi-Cloud Integration for Enterprise Clients",
+        "Google Cloud Platform Reduces Infrastructure Costs by 40% with New Pricing Model",
+        "Kubernetes Alternative Gains Traction with Simplified Container Management",
+        "Edge Computing Infrastructure Startup Raises $200M for Global Expansion"
+      ]
+    },
+    "enterprise-software": {
+      "title": "Enterprise Software",
+      "description": "Business software solutions, enterprise platforms, ERP systems, CRM innovations, and B2B SaaS applications driving organizational efficiency and productivity.",
+      "keywords": [
+        "enterprise software",
+        "business software",
+        "ERP systems",
+        "CRM platforms",
+        "B2B SaaS",
+        "enterprise applications",
+        "workflow automation",
+        "business intelligence",
+        "enterprise mobility",
+        "collaboration tools",
+        "project management",
+        "human resources software"
+      ],
+      "sample_headlines": [
+        "Salesforce Unveils AI-Powered Enterprise CRM with Predictive Analytics",
+        "SAP Releases Next-Generation ERP Platform for Digital Transformation",
+        "Microsoft Teams Integration Revolutionizes Enterprise Collaboration Workflows",
+        "Workday Expands HR Platform with Advanced Employee Experience Features",
+        "Oracle Enterprise Software Update Streamlines Business Process Automation"
+      ]
+    },
+    "api-integrations": {
+      "title": "API & Integrations",
+      "description": "API developments, software integrations, platform connectivity solutions, and developer tools enabling seamless application communication and data exchange.",
+      "keywords": [
+        "API development",
+        "software integrations",
+        "platform connectivity",
+        "API management",
+        "microservices",
+        "integration platforms",
+        "webhook automation",
+        "API security",
+        "developer APIs",
+        "integration-as-a-service",
+        "data synchronization",
+        "third-party integrations"
+      ],
+      "sample_headlines": [
+        "Stripe API Platform Processes Over $1 Trillion in Annual Payment Volume",
+        "Zapier Automation Platform Reaches 6 Million Users with Advanced Integrations",
+        "REST API Alternative GraphQL Adoption Surges in Enterprise Development",
+        "MuleSoft Integration Platform Announces Real-Time Data Synchronization",
+        "Twilio Communications API Expands with Video Conferencing Capabilities"
+      ]
+    },
+    "security-compliance": {
+      "title": "Security & Compliance",
+      "description": "SaaS security updates, compliance standards, data protection regulations, cybersecurity solutions, and privacy frameworks for cloud-based software applications.",
+      "keywords": [
+        "SaaS security",
+        "data protection",
+        "compliance standards",
+        "cybersecurity",
+        "privacy regulations",
+        "GDPR compliance",
+        "SOC 2 certification",
+        "cloud security",
+        "identity management",
+        "access control",
+        "security audits",
+        "vulnerability management"
+      ],
+      "sample_headlines": [
+        "Zero Trust Security Model Becomes Standard for Enterprise SaaS Applications",
+        "GDPR Compliance Automation Platform Reduces Legal Risk for SaaS Companies",
+        "Multi-Factor Authentication Adoption Reaches 95% Among SaaS Providers",
+        "Cloud Security Startup Secures $150M to Combat Rising Cyber Threats",
+        "SOC 2 Type II Compliance Platform Streamlines Security Certification Process"
+      ]
+    },
+    "saas-analytics": {
+      "title": "SaaS Analytics",
+      "description": "Business intelligence platforms, data analytics tools, SaaS metrics tracking, customer analytics, and performance measurement solutions for software businesses.",
+      "keywords": [
+        "SaaS analytics",
+        "business intelligence",
+        "data analytics",
+        "SaaS metrics",
+        "customer analytics",
+        "performance tracking",
+        "user behavior analysis",
+        "churn prediction",
+        "revenue analytics",
+        "product analytics",
+        "dashboard software",
+        "data visualization"
+      ],
+      "sample_headlines": [
+        "Tableau Alternative Emerges with Real-Time SaaS Performance Dashboards",
+        "Google Analytics 4 Introduces Advanced SaaS Conversion Tracking Features",
+        "Customer Success Platform Uses AI to Predict and Prevent Churn",
+        "SaaS Metrics Automation Tool Helps Startups Optimize Recurring Revenue",
+        "Data Visualization Platform Raises $100M for Advanced Analytics Capabilities"
+      ]
+    },
+    "developer-tools": {
+      "title": "Developer Tools",
+      "description": "Development platforms, coding tools, software development services, DevOps solutions, and programming environments enhancing developer productivity and software quality.",
+      "keywords": [
+        "developer tools",
+        "development platforms",
+        "coding software",
+        "DevOps solutions",
+        "version control",
+        "code repositories",
+        "continuous integration",
+        "deployment automation",
+        "testing frameworks",
+        "debugging tools",
+        "IDE software",
+        "development environments"
+      ],
+      "sample_headlines": [
+        "GitHub Copilot AI Programming Assistant Reaches 1 Million Active Developers",
+        "Docker Container Platform Announces Enhanced Security and Performance Features",
+        "VS Code Alternative Gains Popularity with Built-in Collaboration Tools",
+        "Jenkins Automation Platform Updates CI/CD Pipeline for Modern Development",
+        "JetBrains IDE Suite Introduces Advanced Code Analysis and Refactoring Tools"
+      ]
+    },
+    "saas-news-today": {
+      "title": "SaaS News Today",
+      "description": "Breaking SaaS industry news, daily software developments, cloud computing updates, and real-time software-as-a-service market developments.",
+      "keywords": [
+        "SaaS news",
+        "software industry news",
+        "cloud computing news",
+        "SaaS market updates",
+        "software developments",
+        "tech industry news",
+        "SaaS companies",
+        "software announcements",
+        "cloud software news",
+        "enterprise software news",
+        "SaaS funding",
+        "software acquisitions"
+      ],
+      "sample_headlines": [
+        "Slack Introduces AI-Powered Workflow Automation for Enterprise Teams",
+        "Zoom Video Platform Expands with Virtual Event Management Capabilities",
+        "Atlassian Confluence Update Enhances Team Collaboration and Knowledge Sharing",
+        "Shopify Plus Platform Adds Advanced Analytics for Enterprise E-commerce",
+        "HubSpot CRM Integration Connects Marketing and Sales Data in Real-Time"
+      ]
+    },
+    "saas-breakthrough-news": {
+      "title": "SaaS Breakthrough News",
+      "description": "Revolutionary SaaS innovations, game-changing software developments, breakthrough cloud technologies, and transformative software-as-a-service announcements.",
+      "keywords": [
+        "SaaS breakthroughs",
+        "software innovations",
+        "cloud technology",
+        "revolutionary software",
+        "SaaS disruption",
+        "software transformation",
+        "next-generation SaaS",
+        "breakthrough platforms",
+        "innovative software",
+        "disruptive technology",
+        "software revolution",
+        "advanced SaaS features"
+      ],
+      "sample_headlines": [
+        "OpenAI ChatGPT Integration Transforms Enterprise Software Productivity",
+        "No-Code Platform Enables Non-Technical Users to Build Complex Applications",
+        "Quantum Computing Cloud Service Makes Advanced Computing Accessible to SMBs",
+        "Blockchain-Based Software Licensing Revolutionizes SaaS Distribution Model",
+        "AI-Powered Code Generation Platform Reduces Development Time by 80%"
+      ]
+    }
+  }
+} 

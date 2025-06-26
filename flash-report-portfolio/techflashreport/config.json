@@ -1,0 +1,79 @@
+{
+    "site_name": "Tech Flash Report",
+    "site_emoji": "🚀",
+    "site_tagline": "Silicon Valley Speed, Global Reach",
+    "site_description": "Daily tech news roundup covering startup funding, product launches, enterprise software, developer tools, and big tech industry developments.",
+    "theme_color": "#8B5CF6",
+    "theme_name": "violet",
+    "domain": "techflashreport.com",
+    "excluded_sites": [
+        "pypi.org",
+        "prtimes.jp",
+        "thestar.com",
+        "biztoc.com"
+    ],
+    "low_quality_url_patterns": [
+        "/tag/",
+        "/category/",
+        "/author/",
+        "/page/",
+        "/feed/",
+        "/rss/",
+        "/amp/",
+        "/mobile/",
+        "/m/"
+    ],
+    "negative_keywords": [
+        "ufo",
+        "alien",
+        "paranormal",
+        "airport",
+        "airline",
+        "travel disruption",
+        "trump",
+        "biden",
+        "election",
+        "politics",
+        "gossip",
+        "scandal",
+        "crypto",
+        "bitcoin",
+        "blockchain",
+        "casino",
+        "gambling"
+    ],
+    "categories": [
+        "startup-funding",
+        "product-launches", 
+        "enterprise-software",
+        "developer-tools",
+        "big-tech-moves",
+        "ipos-acquisitions"
+    ],
+    "flash_summary": {
+        "enabled": true,
+        "component_path": "flash_summary_component/",
+        "prompt_type": "tech_industry"
+    },
+    "analytics": {
+        "plausible_domain": "techflashreport.com",
+        "plausible_id": "20dd3987-21e1-4006-ad55-ab772c2a418f"
+    },
+    "social": {
+        "twitter_handle": "@bryanjcollins",
+        "linkedin_url": "https://www.linkedin.com/in/bryancollins99/"
+    },
+    "contact": {
+        "form_subjects": [
+            "Newsletter Feedback",
+            "Tech Source Suggestion", 
+            "Startup Coverage Request",
+            "Technical Issue",
+            "Partnership Inquiry",
+            "Press Inquiry",
+            "Product Launch Tip",
+            "Funding Round Tip",
+            "Other"
+        ]
+    }
+} 

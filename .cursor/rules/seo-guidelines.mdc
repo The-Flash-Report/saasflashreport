@@ -5,17 +5,17 @@ alwaysApply: false
 ---
 **Author:** Bryan Collins
 
-## SEO Guidelines
+## SEO Guidelines - Flash Report Portfolio
 
-### Current Implementation
-The site has been optimized for search with:
-- Meta description, keywords, and title tags
+### Current Implementation (Universal across all sites)
+Each Flash Report site is optimized for search with:
+- Niche-specific meta descriptions, keywords, and title tags
 - Open Graph and Twitter Card metadata for social sharing
 - Schema.org structured data (NewsArticle format)
-- Dynamic sitemap.xml that updates daily
+- Dynamic sitemap.xml that updates daily per site
 - Semantic HTML with proper heading hierarchy
 - Breadcrumb navigation with structured data
-- Category descriptions with target keywords
+- Niche-specific category descriptions with target keywords
 
 ### Required Images
 The following images need to be created and placed in the /images directory:
@@ -23,51 +23,65 @@ The following images need to be created and placed in the /images directory:
 - `twitter-card.png` - 1200×600px image for Twitter sharing
 - `logo.png` - Organization logo for Schema.org structured data
 
-### Keyword Strategy
-Maintain these keywords in template meta tags and category descriptions:
+### Keyword Strategy (Per Niche)
+Each site maintains niche-specific keywords in template meta tags and category descriptions:
 
-**Primary Keywords:**
-- latest ai news
-- openai news
-- anthropic news
+**Health Flash Report:**
+- Primary: health technology, digital health, medical breakthroughs
+- Secondary: telemedicine, wearable health, health innovation
+- Long-tail: medical device innovations, healthcare AI applications
 
-**Secondary Keywords:**
-- generative ai models
-- diffusion models
-- ai use cases 
-- ai video editing software
-- new ai tools
+**Tech Flash Report:**
+- Primary: tech news, startup funding, enterprise software
+- Secondary: developer tools, tech acquisitions, IPO news
+- Long-tail: Silicon Valley developments, enterprise technology trends
 
-**Long-tail Keywords:**
-- large language models (llms)
-- ai research papers
-- nvidia ai news
-- ai applications in healthcare
+**Fitness Flash Report:**
+- Primary: fitness technology, sports science, athletic performance
+- Secondary: workout equipment, nutrition research, recovery technology
+- Long-tail: training methodology advances, fitness device reviews
 
-### SEO Maintenance Tasks
+**Travel Flash Report:**
+- Primary: travel news, airline industry, destination updates
+- Secondary: travel technology, hotel industry, visa changes
+- Long-tail: aviation policy changes, travel safety advisories
+
+**Startup Flash Report:**
+- Primary: startup funding, venture capital, entrepreneur news
+- Secondary: Series A funding, startup launches, founder stories
+- Long-tail: unicorn companies, startup ecosystem trends
+
+**SaaS Flash Report:**
+- Primary: SaaS news, B2B software, enterprise deals
+- Secondary: software acquisitions, SaaS metrics, pricing changes
+- Long-tail: SaaS industry trends, enterprise software launches
+
+### SEO Maintenance Tasks (Per Site)
 
 #### Daily (Automated):
-- Dynamic sitemap generation with current dates
-- Schema.org structured data with current date
-- Archive file generation with canonical URLs
+- Dynamic sitemap generation with current dates per site
+- Schema.org structured data with current date per site
+- Archive file generation with canonical URLs per site
 
 #### Monthly (Manual):
-- Check Google Search Console for any issues
-- Review indexing status of archive pages
-- Check for broken links or 404 errors
+- Check Google Search Console for each domain
+- Review indexing status of archive pages across all sites
+- Check for broken links or 404 errors on each site
 
 #### Quarterly (Manual):
-- Update meta descriptions to reflect current focus
-- Review and update category descriptions with relevant keywords
-- Check performance of SEO implementation in Search Console
+- Update meta descriptions per niche to reflect current focus
+- Review and update category descriptions with relevant niche keywords
+- Check performance of SEO implementation across all sites
 
-### Content Guidelines for SEO
+### Content Guidelines for SEO (Universal)
 1. **Headlines:** Keep headlines under 8 words, uppercase for emphasis
-2. **Category Descriptions:** Include primary and secondary keywords
+2. **Category Descriptions:** Include niche-specific primary and secondary keywords
 3. **Archive Pages:** Maintain consistent structure with canonical URLs
-4. **Images:** Ensure all required SEO images are present and optimized
+4. **Images:** Ensure all required SEO images are present and optimized per site
+5. **Cross-Linking:** Include portfolio discovery links in About pages
 
-### Google Search Console
-- Submit sitemap.xml after any structure changes
-- Monitor for crawl errors or indexing issues
-- Track performance of target keywords
+### Google Search Console (Multi-Domain Strategy)
+- Submit sitemap.xml for each domain after structure changes
+- Monitor for crawl errors or indexing issues across all 7 sites
+- Track performance of niche-specific target keywords per site
+- Set up separate Search Console properties for each domain

@@ -82,10 +82,11 @@ This file stores project-specific knowledge, conventions, and user preferences l
 - **Communication Style**: Talk like a junior developer, be concise, avoid major code changes without approval
 
 ## Technical Decisions
-- **Project Type**: AI news aggregation website with daily automated updates → **EVOLVED** → Universal template system for 8 niche sites
-- **Universal Template**: Created templates/universal_template.html that maintains exact aiflashreport.com design with dynamic configuration variables
-- **Configuration System**: Individual JSON configs for each of 8 niches (ai, crypto, tech, fitness, saas, healthtech, startup, climate)
-- **Portfolio Architecture**: Master portfolio_sites.json for cross-linking, individual analytics domains, same design with niche-specific branding
+- **Project Type**: AI news aggregation website with daily automated updates → **EVOLVED** → Flash Report Portfolio (7 independent niche sites)
+- **Portfolio Architecture**: 7 independent sites - aiflashreport.com (existing) + 6 new (Health, Tech, Fitness, Travel, Startup, SaaS)
+- **Individual Domains**: healthflashreport.com, techflashreport.com, fitnessflashreport.com, travelflashreport.com, startupflashreport.com, saasflashreport.com
+- **Universal Template**: Same design/layout across all sites with niche-specific branding (colors, taglines, content)
+- **GitHub Organization**: "The-Flash-Report" with individual repositories per site
 - **Hosting**: Netlify for static site hosting
 - **Automation**: GitHub Actions for daily content updates
 - **Template Engine**: Jinja2 for HTML template rendering
@@ -94,6 +95,9 @@ This file stores project-specific knowledge, conventions, and user preferences l
 - **Flash Summary Component**: Standalone reusable component for Perplexity API integration
 - **API Credentials**: Perplexity API key stored as PERPLEXITY_API_KEY in environment variables
 - **Component Architecture**: **CRITICAL** - Use standalone components for new features instead of inline fixes. The Flash Summary Component (May 30, 2025) proved that building separate, reusable components is vastly superior to trying to fix broken inline code. Results: 95% code reduction, zero bugs, easy testing, multi-project reusability.
+- **GitHub Environment Variables**: Set at organization level, not individual repos (API keys managed centrally)
+- **Site Independence**: Each site must be completely portable and deployable without dependencies on other sites
+- **Content Replacement Process**: Systematic AI→Niche conversion required for all templates, scripts, static pages, and SEO metadata
 
 ## Project Conventions
 - **File Organization**: Cursor rules stored in `.cursor/rules/` directory with `.mdc` extension
@@ -117,12 +121,14 @@ This file stores project-specific knowledge, conventions, and user preferences l
 - **Navigation Testing**: Always test relative links work within each site directory structure
 
 ## Domain Knowledge
-- **News Aggregation**: Focus on AI/artificial intelligence news and developments
-- **Content Categories**: Trending Now, AI Products, Creator Economy, Business News, Research Breakthroughs, Industries, Deep Learning, Companies, Applications, Controversy
-- **Automation Requirements**: Daily fetch, categorization, HTML generation, deployment, archiving
-- **SEO Strategy**: Keyword-rich content, proper meta tags, structured data, sitemap maintenance
+- **News Aggregation**: Multi-niche approach - AI (existing), Health, Tech, Fitness, Travel, Startup, SaaS
+- **Content Categories**: Niche-specific categories per site (health categories for Health Flash Report, etc.)
+- **Automation Requirements**: Daily fetch, categorization, HTML generation, deployment, archiving per site
+- **SEO Strategy**: Keyword-rich content, proper meta tags, structured data, sitemap maintenance per niche
 - **Flash Summary**: Successfully tested with real Perplexity API (May 30, 2025) - citations, links, and formatting work perfectly
 - **Citation Handling**: Perplexity outputs [1], [2], [3] format (not [^1] footnotes) with Sources section
+- **Content Source Validation**: Test all RSS feeds, find alternatives for broken sources, minimum 25+ working sources per site
+- **Niche-Specific Branding**: Each site has unique color scheme, tagline, emoji, and target audience while maintaining design consistency
 
 ## Universal Build & QA Workflow (2025-06-02)
 

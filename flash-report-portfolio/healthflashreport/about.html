@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Health Flash Report</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 10px auto;
+            max-width: 900px;
+            line-height: 1.3;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 14px;
+        }
+        .container { padding: 0 15px; }
+        h1 {
+            text-align: center;
+            font-size: 3.5em;
+            color: #000;
+            font-weight: bold;
+            letter-spacing: -1px;
+        }
+        h1 .wire-part { color: #10B981; font-weight: 600; }
+        h2 {
+            color: #10B981;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+            font-size: 1em;
+        }
+        nav {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #e5e5e5;
+            margin-bottom: 30px;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 0 20px;
+        }
+        nav a:hover { color: #10B981; text-decoration: underline; }
+        
+        .page-title {
+            font-size: 2.2em;
+            color: #10B981;
+            font-weight: bold;
+            margin: 30px 0 10px 0;
+        }
+        
+        .mission-section {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border-left: 5px solid #10B981;
+        }
+        
+        .mission-section h2 {
+            color: #10B981;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        .mission-section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .coverage-areas {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border-left: 5px solid #10B981;
+        }
+        
+        .coverage-areas h2 {
+            color: #10B981;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.6em;
+        }
+        
+        .coverage-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .coverage-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 3px solid #10B981;
+        }
+        
+        .coverage-item h3 {
+            color: #10B981;
+            margin: 0 0 10px 0;
+            font-size: 1.2em;
+        }
+        
+        .coverage-item p {
+            margin: 0;
+            color: #666;
+            line-height: 1.5;
+        }
+        
+        .methodology {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border-left: 5px solid #10B981;
+        }
+        
+        .methodology h2 {
+            color: #10B981;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.6em;
+        }
+        
+        .methodology ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        .methodology li {
+            margin: 8px 0;
+            line-height: 1.5;
+        }
+        
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .stat-box {
+            background-color: rgba(16, 185, 129, 0.1);
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #10B981;
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #10B981;
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        .stat-label {
+            color: #555;
+            font-size: 1em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        
+        .flash-report-network {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 40px 0;
+            border-left: 5px solid #10B981;
+        }
+        
+        .flash-report-network h2 {
+            color: #10B981;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            text-align: center;
+        }
+        
+        .network-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .network-site {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid #e9ecef;
+        }
+        
+        .network-site:hover {
+            border-color: #10B981;
+            transform: translateY(-2px);
+        }
+        
+        .network-site a {
+            color: #10B981;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .network-site a:hover {
+            text-decoration: underline;
+        }
+        
+        .network-site .site-emoji {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+            display: block;
+        }
+        
+        .network-site .site-name {
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+        
+        .network-site .site-description {
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #ccc;
+            font-size: 0.9em;
+            color: #555;
+        }
+        footer a { color: #10B981; text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="index.html" style="text-decoration: none; color: inherit;">Health <span class="wire-part">Flash</span> Report</a></h1>
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="page-title">🧬 About Health Flash Report</div>
+
+        <div class="mission-section">
+            <h2>🎯 Your Daily Health Intelligence Hub</h2>
+            <p>Health Flash Report is the premier source for daily health and wellness intelligence, delivering the most important medical breakthroughs, longevity research, and health technology developments in one consolidated morning briefing.</p>
+            
+            <p>We monitor hundreds of health publications, clinical studies, medical journals, and industry sources to bring you the signal through the noise. Every morning, our automated system identifies the most impactful developments in health optimization, medical technology, and wellness science.</p>
+            
+            <p>Whether you're a healthcare professional, longevity researcher, biohacker, or health-conscious individual, Health Flash Report keeps you at the forefront of the rapidly evolving health and wellness landscape.</p>
+        </div>
+
+        <div class="coverage-areas">
+            <h2>🎯 What We Cover</h2>
+            <div class="coverage-grid">
+                <div class="coverage-item">
+                    <h3>🏥 Health Tech</h3>
+                    <p>Digital health innovations, wearable devices, medical AI, telemedicine platforms, and cutting-edge health monitoring technology.</p>
+                </div>
+                
+                <div class="coverage-item">
+                    <h3>🧬 Medical Breakthroughs</h3>
+                    <p>Clinical trials, treatment advances, therapeutic discoveries, gene therapy developments, and breakthrough medical research.</p>
+                </div>
+                
+                <div class="coverage-item">
+                    <h3>⏳ Longevity Research</h3>
+                    <p>Anti-aging studies, lifespan extension research, healthspan optimization, and longevity science developments.</p>
+                </div>
+                
+                <div class="coverage-item">
+                    <h3>⚡ Biohacking Studies</h3>
+                    <p>Performance optimization research, quantified self technologies, human enhancement studies, and biohacking methodologies.</p>
+                </div>
+                
+                <div class="coverage-item">
+                    <h3>🥗 Nutrition Science</h3>
+                    <p>Dietary research, supplement studies, metabolic health discoveries, and evidence-based nutrition developments.</p>
+                </div>
+                
+                <div class="coverage-item">
+                    <h3>🎯 Performance Optimization</h3>
+                    <p>Recovery protocols, cognitive enhancement, athletic performance research, and human performance optimization studies.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="methodology">
+            <h2>⚙️ Our Methodology</h2>
+            <p>Health Flash Report uses advanced automated intelligence to monitor the health ecosystem 24/7:</p>
+            <ul>
+                <li><strong>300+ Source Monitoring:</strong> Continuous tracking of medical journals, health tech announcements, clinical trials, and wellness research publications</li>
+                <li><strong>AI-Powered Analysis:</strong> Machine learning algorithms identify breakthrough developments and trending topics in health and wellness</li>
+                <li><strong>Expert Curation:</strong> Health professionals ensure relevance and accuracy for practitioners and enthusiasts</li>
+                <li><strong>Daily Synthesis:</strong> Key developments compiled into actionable intelligence delivered every morning</li>
+                <li><strong>Health Focus:</strong> Priority given to developments that impact health optimization, medical practice, and wellness outcomes</li>
+            </ul>
+        </div>
+
+        <div class="stats-container">
+            <div class="stat-box">
+                <span class="stat-number">300+</span>
+                <span class="stat-label">Health Sources Monitored</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">Health Intelligence</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">Daily</span>
+                <span class="stat-label">Health Briefings</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Health Focused</span>
+            </div>
+        </div>
+
+        <div class="flash-report-network">
+            <h2>🚀 The Flash Report Network</h2>
+            <p style="text-align: center; margin-bottom: 30px;">Health Flash Report is part of a specialized intelligence network covering the most important industries and sectors. Each site delivers focused, daily intelligence for busy professionals.</p>
+            
+            <div class="network-grid">
+                <div class="network-site">
+                    <span class="site-emoji">🤖</span>
+                    <div class="site-name"><a href="../../index.html">AI Flash Report</a></div>
+                    <div class="site-description">Artificial intelligence & machine learning</div>
+                </div>
+                
+                <div class="network-site">
+                    <span class="site-emoji">💻</span>
+                    <div class="site-name"><a href="../techflashreport/index.html">Tech Flash Report</a></div>
+                    <div class="site-description">Startup funding & technology developments</div>
+                </div>
+                
+                <div class="network-site">
+                    <span class="site-emoji">💪</span>
+                    <div class="site-name"><a href="../fitnessflashreport/index.html">Fitness Flash Report</a></div>
+                    <div class="site-description">Athletic performance & training science</div>
+                </div>
+                
+                <div class="network-site">
+                    <span class="site-emoji">✈️</span>
+                    <div class="site-name"><a href="../travelflashreport/index.html">Travel Flash Report</a></div>
+                    <div class="site-description">Aviation industry & travel technology</div>
+                </div>
+                
+                <div class="network-site">
+                    <span class="site-emoji">🚀</span>
+                    <div class="site-name"><a href="../../startup-flash-report/index.html">Startup Flash Report</a></div>
+                    <div class="site-description">Venture capital & entrepreneurship</div>
+                </div>
+                
+                <div class="network-site">
+                    <span class="site-emoji">☁️</span>
+                    <div class="site-name"><a href="../saasflashreport/index.html">SaaS Flash Report</a></div>
+                    <div class="site-description">Software industry & B2B technology</div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            Health Flash Report - <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a>
+        </footer>
+    </div>
+</body>
+</html> 

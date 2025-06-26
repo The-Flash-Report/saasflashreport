@@ -1,0 +1,99 @@
+{
+  "keyword_pages": {
+    "startup-funding": {
+      "title": "Startup Funding",
+      "description": "Venture capital funding rounds, seed investments, Series A-C raises, and startup investment news from the tech ecosystem",
+      "filename": "startup-funding.html",
+      "keywords": ["seed funding", "Series A", "Series B", "Series C", "venture capital", "startup funding", "investment round", "valuation", "unicorn funding", "pre-seed", "angel investment", "VC funding", "startup investment"],
+      "negative_keywords": ["gambling", "casino", "loan"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Startup Funding News - Latest VC Rounds & Investment Deals",
+      "meta_description": "Latest startup funding rounds, venture capital investments, and tech company valuations from the startup ecosystem."
+    },
+    "product-launches": {
+      "title": "Product Launches",
+      "description": "New product releases, feature announcements, and software launches from tech companies and startups",
+      "filename": "product-launches.html",
+      "keywords": ["product launch", "new product", "feature release", "software launch", "app launch", "platform launch", "beta release", "product announcement", "new feature", "product update", "software release", "tech product"],
+      "negative_keywords": ["advertisement", "spam"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Product Launches - New Tech Products & Software Releases",
+      "meta_description": "Latest product launches, feature releases, and software announcements from tech companies and startups."
+    },
+    "enterprise-software": {
+      "title": "Enterprise Software",
+      "description": "Enterprise software news, B2B platforms, business applications, and corporate technology solutions",
+      "filename": "enterprise-software.html",
+      "keywords": ["enterprise software", "B2B software", "business software", "SaaS platform", "enterprise solution", "business application", "corporate software", "enterprise technology", "B2B platform", "business tools", "ERP", "CRM"],
+      "negative_keywords": ["consumer", "gaming"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Enterprise Software News - B2B Platforms & Business Applications",
+      "meta_description": "Enterprise software developments, B2B platform updates, and corporate technology solution announcements."
+    },
+    "developer-tools": {
+      "title": "Developer Tools",
+      "description": "Developer tools, programming frameworks, coding platforms, and software development infrastructure news",
+      "filename": "developer-tools.html",
+      "keywords": ["developer tools", "programming tools", "code editor", "development platform", "API tools", "DevOps", "developer platform", "coding tools", "IDE", "framework", "library", "developer infrastructure", "programming framework"],
+      "negative_keywords": ["tutorial", "course"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Developer Tools News - Programming Frameworks & Dev Platforms",
+      "meta_description": "Latest developer tools, programming frameworks, and software development infrastructure updates."
+    },
+    "big-tech-moves": {
+      "title": "Big Tech Moves",
+      "description": "Strategic moves, partnerships, and major announcements from big tech companies like Google, Apple, Microsoft, Amazon, and Meta",
+      "filename": "big-tech-moves.html",
+      "keywords": ["Google", "Apple", "Microsoft", "Amazon", "Meta", "Facebook", "big tech", "tech giant", "FAANG", "MAMAA", "tech company", "strategic partnership", "tech acquisition", "big tech news", "tech strategy", "platform update"],
+      "negative_keywords": ["rumor", "speculation"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Big Tech News - Google, Apple, Microsoft, Amazon & Meta Updates",
+      "meta_description": "Strategic moves, partnerships, and major announcements from big tech companies and industry giants."
+    },
+    "ipos-acquisitions": {
+      "title": "IPOs & Acquisitions",
+      "description": "Tech IPOs, mergers and acquisitions, company valuations, and major exit events in the tech industry",
+      "filename": "ipos-acquisitions.html",
+      "keywords": ["IPO", "acquisition", "merger", "exit", "tech IPO", "startup acquisition", "M&A", "buyout", "tech merger", "company acquisition", "startup exit", "public offering", "SPAC", "tech valuation", "acquisition deal"],
+      "negative_keywords": ["rumor", "speculation"],
+      "max_articles": 50,
+      "page_type": "automated",
+      "meta_title": "Tech IPOs & Acquisitions - M&A Deals & Public Offerings",
+      "meta_description": "Latest tech IPOs, startup acquisitions, merger deals, and major exit events in the technology industry."
+    },
+    "tech-news-today": {
+      "title": "Tech News Today",
+      "description": "Today's most important tech industry news, breaking developments, and trending technology stories",
+      "filename": "tech-news-today.html",
+      "keywords": ["tech news", "technology news", "breaking tech", "tech industry", "tech trends", "technology updates", "tech breaking news", "silicon valley", "tech today", "technology today", "tech headlines", "innovation news"],
+      "negative_keywords": [],
+      "max_articles": 25,
+      "page_type": "curated",
+      "meta_title": "Tech News Today - Breaking Technology Industry Updates",
+      "meta_description": "Today's most important tech industry news, breaking developments, and trending technology stories."
+    },
+    "tech-breakthrough-news": {
+      "title": "Tech Breakthrough News",
+      "description": "Revolutionary tech breakthroughs, cutting-edge innovations, and game-changing technology developments",
+      "filename": "tech-breakthrough-news.html",
+      "keywords": ["tech breakthrough", "innovation", "revolutionary technology", "cutting-edge tech", "breakthrough innovation", "disruptive technology", "tech revolution", "groundbreaking tech", "next-gen technology", "emerging tech", "future tech"],
+      "required_keywords": ["technology", "tech", "innovation"],
+      "negative_keywords": [],
+      "max_articles": 30,
+      "page_type": "curated",
+      "meta_title": "Tech Breakthrough News - Revolutionary Technology Innovations",
+      "meta_description": "Revolutionary tech breakthroughs, cutting-edge innovations, and game-changing technology developments."
+    }
+  },
+  "settings": {
+    "content_freshness_days": 7,
+    "enable_keyword_scoring": true,
+    "duplicate_handling": "show_on_all_matching",
+    "case_sensitive": false
+  }
+} 
