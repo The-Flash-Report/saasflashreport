@@ -1,13 +1,13 @@
 {% extends "template.html" %}
 
-{% block title %}{{ keyword_page_config.meta_title | default(keyword_page_config.title + " - AI Flash Report") }}{% endblock %}
+{% block title %}{{ keyword_page_config.meta_title | default(keyword_page_config.title + " - SaaS Flash Report") }}{% endblock %}
 
 {% block page_title %}{{ keyword_page_config.title }}{% endblock %}
 
 {% block meta_tags %}
 <meta name="description" content="{{ keyword_page_config.meta_description | default(keyword_page_config.description) }}">
 {% if keyword_page_config.keywords %}
-<meta name="keywords" content="{{ keyword_page_config.keywords | join(', ') }}, ai news, artificial intelligence, machine learning">
+<meta name="keywords" content="{{ keyword_page_config.keywords | join(', ') }}, saas news, enterprise software, b2b software, saas funding">
 {% endif %}
 {% endblock %}
 
@@ -19,8 +19,8 @@
 
 <!-- Topic Archive Summary -->
 {% if total_pages > 1 or total_stories > 20 %}
-<div class="topic-archive-summary" style="background-color: #f8f8f8; padding: 15px; margin-bottom: 25px; border-radius: 6px; border-left: 4px solid #cc0000;">
-    <h3 style="margin-top: 0; color: #cc0000; font-size: 1.1em;">📚 Topic Archive</h3>
+<div class="topic-archive-summary" style="background-color: #f8f8f8; padding: 15px; margin-bottom: 25px; border-radius: 6px; border-left: 4px solid #3B82F6;">
+    <h3 style="margin-top: 0; color: #3B82F6; font-size: 1.1em;">📚 Topic Archive</h3>
     <p style="margin: 8px 0; color: #555; font-size: 0.95em;">
         <strong>{{ total_stories }} total stories</strong> about {{ keyword_page_config.title.lower() }} collected over time.
         {% if total_pages > 1 %}
@@ -42,7 +42,7 @@
         <div style="flex: 1; text-align: left;">
             {% if current_page > 1 %}
                 {% if prev_url %}
-                    <a href="{{ prev_url }}" style="color: #cc0000; text-decoration: none; font-weight: 500;">
+                    <a href="{{ prev_url }}" style="color: #3B82F6; text-decoration: none; font-weight: 500;">
                         ← Newer Stories
                     </a>
                 {% endif %}
@@ -55,10 +55,10 @@
         <div style="flex: 2; text-align: center;">
             {% for page_num in range(1, total_pages + 1) %}
                 {% if page_num == current_page %}
-                    <span style="background-color: #cc0000; color: white; padding: 6px 12px; margin: 0 2px; border-radius: 4px; font-weight: bold;">{{ page_num }}</span>
+                    <span style="background-color: #3B82F6; color: white; padding: 6px 12px; margin: 0 2px; border-radius: 4px; font-weight: bold;">{{ page_num }}</span>
                 {% else %}
                     {% set page_url = 'topics/' + page_key + ("-page-" + page_num|string if page_num > 1 else "") + ".html" %}
-                    <a href="/{{ page_url }}" style="color: #cc0000; text-decoration: none; padding: 6px 12px; margin: 0 2px; border: 1px solid #cc0000; border-radius: 4px; display: inline-block;">{{ page_num }}</a>
+                    <a href="/{{ page_url }}" style="color: #3B82F6; text-decoration: none; padding: 6px 12px; margin: 0 2px; border: 1px solid #3B82F6; border-radius: 4px; display: inline-block;">{{ page_num }}</a>
                 {% endif %}
             {% endfor %}
         </div>
@@ -67,7 +67,7 @@
         <div style="flex: 1; text-align: right;">
             {% if current_page < total_pages %}
                 {% if next_url %}
-                    <a href="{{ next_url }}" style="color: #cc0000; text-decoration: none; font-weight: 500;">
+                    <a href="{{ next_url }}" style="color: #3B82F6; text-decoration: none; font-weight: 500;">
                         Older Stories →
                     </a>
                 {% endif %}
@@ -110,7 +110,7 @@
         <div style="flex: 1; text-align: left;">
             {% if current_page > 1 %}
                 {% if prev_url %}
-                    <a href="{{ prev_url }}" style="color: #cc0000; text-decoration: none; font-weight: 500;">
+                    <a href="{{ prev_url }}" style="color: #3B82F6; text-decoration: none; font-weight: 500;">
                         ← Newer Stories
                     </a>
                 {% endif %}
@@ -123,10 +123,10 @@
         <div style="flex: 2; text-align: center;">
             {% for page_num in range(1, total_pages + 1) %}
                 {% if page_num == current_page %}
-                    <span style="background-color: #cc0000; color: white; padding: 6px 12px; margin: 0 2px; border-radius: 4px; font-weight: bold;">{{ page_num }}</span>
+                    <span style="background-color: #3B82F6; color: white; padding: 6px 12px; margin: 0 2px; border-radius: 4px; font-weight: bold;">{{ page_num }}</span>
                 {% else %}
                     {% set page_url = 'topics/' + page_key + ("-page-" + page_num|string if page_num > 1 else "") + ".html" %}
-                    <a href="/{{ page_url }}" style="color: #cc0000; text-decoration: none; padding: 6px 12px; margin: 0 2px; border: 1px solid #cc0000; border-radius: 4px; display: inline-block;">{{ page_num }}</a>
+                    <a href="/{{ page_url }}" style="color: #3B82F6; text-decoration: none; padding: 6px 12px; margin: 0 2px; border: 1px solid #3B82F6; border-radius: 4px; display: inline-block;">{{ page_num }}</a>
                 {% endif %}
             {% endfor %}
         </div>
@@ -135,7 +135,7 @@
         <div style="flex: 1; text-align: right;">
             {% if current_page < total_pages %}
                 {% if next_url %}
-                    <a href="{{ next_url }}" style="color: #cc0000; text-decoration: none; font-weight: 500;">
+                    <a href="{{ next_url }}" style="color: #3B82F6; text-decoration: none; font-weight: 500;">
                         Older Stories →
                     </a>
                 {% endif %}
@@ -150,7 +150,7 @@
 <!-- Archive Information for SEO -->
 {% if total_stories > 0 %}
 <div style="margin-top: 30px; padding: 15px; background-color: #f8f8f8; border-radius: 6px; font-size: 0.9em; color: #666;">
-    <p style="margin: 0;"><strong>About this archive:</strong> This page automatically collects and archives stories about {{ keyword_page_config.title.lower() }} from various AI news sources. Stories are added daily when they match relevant keywords and topics. This creates a comprehensive, chronological archive of developments in this area of artificial intelligence.</p>
+    <p style="margin: 0;"><strong>About this archive:</strong> This page automatically collects and archives stories about {{ keyword_page_config.title.lower() }} from various SaaS and enterprise software news sources. Stories are added daily when they match relevant keywords and topics. This creates a comprehensive, chronological archive of developments in this area of SaaS and B2B technology.</p>
 </div>
 {% endif %}
 {% endblock %} 

@@ -1,23 +1,74 @@
 {
     "SaaS Funding": [],
-    "Enterprise Software": [],
+    "Enterprise Software": [
+        {
+            "title": "reMarkable: Salesforce Partnership Fuels Growth and \u2018Agent-First Enterprise Vision\u2019",
+            "url": "https://www.salesforce.com/news/stories/remarkable-agentforce-slack-scale-customer-service-it/",
+            "source": "Salesforce Blog",
+            "published_date_obj": "2025-07-01",
+            "rewritten_title": "Remarkable: Salesforce Partnership Fuels Growth and \u2018agent-first Enterprise Vision\u2019"
+        }
+    ],
     "Product Launches": [],
     "SaaS Analytics": [],
-    "B2B Technology": [],
+    "B2B Technology": [
+        {
+            "title": "Control content use for AI training with Cloudflare\u2019s managed robots.txt and blocking for monetized content",
+            "url": "https://blog.cloudflare.com/control-content-use-for-ai-training/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2025-07-01",
+            "rewritten_title": "Control Content Use for Ai Training with Cloudflare\u2019s Managed Robots.txt and Blocking for Monetized Content"
+        }
+    ],
     "Software Industry": [
         {
-            "title": "Why AI Has Taken Longer to Come to Sales Than Coding with Artisan\u2019s CEO",
-            "url": "https://www.saastr.com/5-learnings-why-ai-has-taken-longer-to-come-to-sales-than-coding-with-artisans-ceo/",
+            "title": "Everything Now is Just So Much Faster in The AI Age. Have You Adjusted?",
+            "url": "https://www.saastr.com/everything-now-is-just-faf-have-you-adjusted/",
             "source": "SaaStr",
             "published_date_obj": "2025-07-01",
-            "rewritten_title": "Why Ai Has Taken Longer to Come to Sales Than Coding with Artisan\u2019s Ceo"
+            "rewritten_title": "Everything Now Is Just So Much Faster in the Ai Age. Have You Adjusted?"
         },
         {
-            "title": "17 Trending Sounds on Instagram in 2025 (+ How to Use Them)",
-            "url": "https://buffer.com/resources/trending-audio-instagram/",
-            "source": "Buffer Blog",
+            "title": "Content Independence Day: no AI crawl without compensation!",
+            "url": "https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/",
+            "source": "CloudFlare Blog",
             "published_date_obj": "2025-07-01",
-            "rewritten_title": "17 Trending Sounds on Instagram in 2025 (+ How to Use Them)"
+            "rewritten_title": "Content Independence Day: No Ai Crawl Without Compensation!"
+        },
+        {
+            "title": "The crawl before the fall\u2026 of referrals: understanding AI\u2019s impact on content providers",
+            "url": "https://blog.cloudflare.com/ai-search-crawl-refer-ratio-on-radar/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2025-07-01",
+            "rewritten_title": "The Crawl Before the Fall\u2026 of Referrals: Understanding Ai\u2019s Impact on Content Providers"
+        },
+        {
+            "title": "Introducing pay per crawl: enabling content owners to charge AI crawlers for access",
+            "url": "https://blog.cloudflare.com/introducing-pay-per-crawl/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2025-07-01",
+            "rewritten_title": "Introducing Pay Per Crawl: Enabling Content Owners to Charge Ai Crawlers for Access"
+        },
+        {
+            "title": "From Googlebot to GPTBot: who\u2019s crawling your site in 2025",
+            "url": "https://blog.cloudflare.com/from-googlebot-to-gptbot-whos-crawling-your-site-in-2025/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2025-07-01",
+            "rewritten_title": "From Googlebot to Gptbot: Who\u2019s Crawling Your Site in 2025"
+        },
+        {
+            "title": "Message Signatures are now part of our Verified Bots Program, simplifying bot authentication",
+            "url": "https://blog.cloudflare.com/verified-bots-with-cryptography/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2025-07-01",
+            "rewritten_title": "Message Signatures Are Now Part of Our Verified Bots Program, Simplifying Bot Authentication"
+        },
+        {
+            "title": "The Docker MCP Catalog: the Secure Way to Discover and Run MCP Servers",
+            "url": "https://www.docker.com/blog/docker-mcp-catalog-secure-way-to-discover-and-run-mcp-servers/",
+            "source": "Docker Blog",
+            "published_date_obj": "2025-07-01",
+            "rewritten_title": "The Docker Mcp Catalog: the Secure Way to Discover and Run Mcp Servers"
         }
     ],
     "SaaS Acquisitions": [],

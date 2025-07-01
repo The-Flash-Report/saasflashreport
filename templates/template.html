@@ -3,33 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Flash Report - Daily AI News</title>
+    <title>{% block title %}SaaS Flash Report - Daily SaaS News{% endblock %}</title>
     <!-- Cache busting for template changes -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Get the latest AI news daily: OpenAI updates, generative AI models, AI tools, and machine learning breakthroughs in one quick read.">
-    <meta name="keywords" content="latest ai news, openai news, anthropic news, generative ai models, diffusion models, ai use cases, ai video editing software, new ai tools, large language models, llms, ai research papers, nvidia ai news, ai applications in healthcare">
-    <meta name="author" content="AI Flash Report">
+    {% block meta_tags %}
+    <meta name="description" content="Get the latest SaaS news daily: funding rounds, product launches, enterprise software developments, and B2B technology breakthroughs in one quick read.">
+    <meta name="keywords" content="saas news, enterprise software, b2b software, saas funding, software startup news, product launches, saas analytics, enterprise deals, saas industry news, b2b technology">
+    <meta name="author" content="SaaS Flash Report">
+    {% endblock %}
     <meta name="robots" content="index, follow">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://aiflashreport.com{{ canonical_path|default('/') }}">
+    <link rel="canonical" href="https://saasflashreport.com{{ canonical_path|default('/') }}">
     
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="AI Flash Report - Daily AI News Roundup">
-    <meta property="og:description" content="Your daily AI news digest: The latest from OpenAI, Anthropic, Google AI, and more. Get updated on AI tools, research breakthroughs, and industry trends.">
-    <meta property="og:image" content="https://aiflashreport.com/images/og-image.png">
-    <meta property="og:url" content="https://aiflashreport.com{{ canonical_path|default('/') }}">
+    <meta property="og:title" content="SaaS Flash Report - Daily SaaS News Roundup">
+    <meta property="og:description" content="Your daily SaaS news digest: The latest funding rounds, product launches, enterprise software developments, and B2B technology trends.">
+    <meta property="og:image" content="https://saasflashreport.com/images/og-image.png">
+    <meta property="og:url" content="https://saasflashreport.com{{ canonical_path|default('/') }}">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="AI Flash Report">
+    <meta property="og:site_name" content="SaaS Flash Report">
     
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AI Flash Report - Daily AI News">
-    <meta name="twitter:description" content="Daily roundup of the latest AI news, tools, and research breakthroughs.">
-    <meta name="twitter:image" content="https://aiflashreport.com/images/twitter-card.png">
+    <meta name="twitter:title" content="SaaS Flash Report - Daily SaaS News">
+    <meta name="twitter:description" content="Daily roundup of the latest SaaS news, funding rounds, and enterprise software developments.">
+    <meta name="twitter:image" content="https://saasflashreport.com/images/twitter-card.png">
     
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
@@ -38,25 +40,25 @@
       "@type": "NewsArticle",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://aiflashreport.com{{ canonical_path|default('/') }}"
+        "@id": "https://saasflashreport.com{{ canonical_path|default('/') }}"
       },
-      "headline": "AI Flash Report - Daily AI News Roundup - {{ update_time }}",
+      "headline": "SaaS Flash Report - Daily SaaS News Roundup - {{ update_time }}",
       "datePublished": "{{ update_time }}T00:00:00+00:00",
       "dateModified": "{{ update_time }}T00:00:00+00:00",
       "publisher": {
         "@type": "Organization",
-        "name": "AI Flash Report",
+        "name": "SaaS Flash Report",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://aiflashreport.com/images/logo.png"
+          "url": "https://saasflashreport.com/images/logo.png"
         }
       },
-      "description": "Daily roundup of the latest artificial intelligence news, including updates from major AI companies, new tools, research breakthroughs, and practical applications."
+      "description": "Daily roundup of the latest SaaS news, including funding rounds, product launches, enterprise software developments, and B2B technology trends."
     }
     </script>
     
     <!-- Simple SVG Favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☁️</text></svg>">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
@@ -207,14 +209,14 @@
         }
         .archive-links a {
             margin: 0 5px;
-            color: #cc0000; /* Red archive links */
+            color: #3B82F6; /* Blue archive links for SaaS theme */
         }
 
 
         /* Newsletter Signup Form Styling */
         .newsletter-signup {
             border: none;
-            border-left: 4px solid #cc0000;
+            border-left: 4px solid #3B82F6;
             background-color: #f8f8f8;
             padding: 25px;
             margin: 40px 0 30px 0;
@@ -234,7 +236,7 @@
         .newsletter-signup h3 {
             margin-top: 0;
             margin-bottom: 10px;
-            color: #cc0000;
+            color: #3B82F6;
             font-weight: bold;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -267,12 +269,12 @@
         }
         .newsletter-form input[type="email"]:focus {
             outline: none;
-            border-color: #cc0000;
-            box-shadow: 0 0 0 2px rgba(204, 0, 0, 0.1);
+            border-color: #3B82F6;
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
         }
         .newsletter-form button {
             padding: 14px 24px;
-            background-color: #cc0000;
+            background-color: #3B82F6;
             color: white;
             border: none;
             border-radius: 4px;
@@ -284,10 +286,10 @@
             white-space: nowrap;
         }
         .newsletter-form button:hover {
-            background-color: #aa0000;
+            background-color: #2563EB;
         }
         .newsletter-form button:active {
-            background-color: #990000;
+            background-color: #1D4ED8;
         }
         .frequency-options {
             display: flex;
@@ -305,11 +307,11 @@
             transition: color 0.2s ease;
         }
         .frequency-options label:hover {
-            color: #cc0000;
+            color: #3B82F6;
         }
         .frequency-options input[type="radio"] {
             margin: 0;
-            accent-color: #cc0000;
+            accent-color: #3B82F6;
         }
         .privacy-note {
             font-size: 11px;
@@ -406,7 +408,7 @@
             }
         }
     </style>
-    <script defer data-domain="aiflashreport" src="https://plausible.io/js/script.js"></script>
+    <script defer data-domain="saasflashreport.com" src="https://plausible.io/js/script.outbound-links.js"></script>
 
     <!-- ConvertBox Script -->
     <script type="text/javascript">!function(e,t){(e=t.createElement("script")).src="https://cdn.convertbox.com/convertbox/js/embed.js",e.id="app-convertbox-script",e.async=true,e.dataset.uuid="9b03f284-1c74-4054-ba19-6604e0ecdd7a",document.getElementsByTagName("head")[0].appendChild(e)}(window,document);</script>
@@ -415,8 +417,8 @@
 <body>
     <div class="container">
         <!-- Site Title -->
-        <h1><a href="/index.html" style="text-decoration: none; color: inherit;">AI <span class="wire-part">Flash</span> Report</a></h1>
-        <p class="subtitle">Daily AI News Roundup - Updated: {{ update_time }}</p>
+        <h1><a href="/index.html" style="text-decoration: none; color: inherit;">SaaS <span class="wire-part">Flash</span> Report</a></h1>
+        <p class="subtitle">Daily SaaS News Roundup - Updated: {{ update_time }}</p>
         
         <!-- Main Navigation Header -->
         <nav class="main-header-nav" style="background-color: #f8f9fa; border-bottom: 1px solid #e5e5e5; margin-bottom: 10px;">
@@ -464,7 +466,7 @@
         {% endif %}
 
         <!-- Site Tagline -->
-        <div class="site-tagline">Artificial Intelligence News at Machine Speed</div>
+        <div class="site-tagline">Software Intelligence, Business Speed</div>
 
         <!-- Daily AI Flash Summary -->
         {% if flash_summary %}
@@ -479,26 +481,26 @@
                         <h3>{{ category }}</h3>
 
                         {# **** INSERTED BLOCK: Category descriptions with keywords **** #}
-                        {% if category == 'Trending Now' %}
-                            <p class="category-description"><i>Catch up on the latest AI news, top headlines, and breaking artificial intelligence updates.</i></p>
-                        {% elif category == 'AI Products' %}
-                            <p class="category-description"><i>Discover new AI tools, recent AI software releases, platform updates, and hardware news.</i></p>
-                        {% elif category == 'Creator Economy' %}
-                            <p class="category-description"><i>Explore AI tools for artists, music generation, video editing software, and writing assistants for creators.</i></p>
-                        {% elif category == 'Generative AI' %}
-                            <p class="category-description"><i>Learn about generative AI models like LLMs and diffusion models, plus text-to-image AI and content generation tech.</i></p>
-                        {% elif category == 'AI Business News' %}
-                            <p class="category-description"><i>Stay informed on AI company funding, startup investments, AI market analysis, stock news, and industry partnerships.</i></p>
-                        {% elif category == 'AI Research & Methods' %}
-                            <p class="category-description"><i>Read the latest AI research papers, machine learning publications, deep learning breakthroughs, and algorithm developments.</i></p>
-                        {% elif category == 'AI in Practice' %}
-                            <p class="category-description"><i>See real-world AI deployment: AI applications in healthcare, finance, retail, and other enterprise AI solutions.</i></p>
-                        {% elif category == 'AI Companies' %}
-                            <p class="category-description"><i>Follow updates from major AI companies and industry leaders like OpenAI, Google AI, Anthropic, and Nvidia.</i></p>
-                        {% elif category == 'AI Ethics & Policy' %}
-                            <p class="category-description"><i>Understand responsible AI development, AI safety guidelines, AI regulation news, bias detection, and alignment research.</i></p>
-                        {% elif category == 'Weird' %}
-                            <p class="category-description"><i>The lighter side of AI: funny AI stories, unexpected results, and unusual AI projects.</i></p>
+                        {% if category == 'SaaS Funding' %}
+                            <p class="category-description"><i>Track the latest SaaS funding rounds, investment news, and startup valuations in the enterprise software space.</i></p>
+                        {% elif category == 'Enterprise Software' %}
+                            <p class="category-description"><i>Discover new enterprise software releases, B2B platform updates, and business technology solutions for organizations.</i></p>
+                        {% elif category == 'Product Launches' %}
+                            <p class="category-description"><i>Stay updated on SaaS product launches, new features, software integrations, and platform announcements.</i></p>
+                        {% elif category == 'Developer Tools' %}
+                            <p class="category-description"><i>Explore new development tools, programming platforms, API releases, and software development solutions.</i></p>
+                        {% elif category == 'Big Tech Moves' %}
+                            <p class="category-description"><i>Follow major technology companies' enterprise software initiatives, acquisitions, and strategic partnerships.</i></p>
+                        {% elif category == 'IPOs & Acquisitions' %}
+                            <p class="category-description"><i>Get updates on SaaS company IPOs, acquisitions, mergers, and major enterprise software deals.</i></p>
+                        {% elif category == 'SaaS Analytics' %}
+                            <p class="category-description"><i>Learn about SaaS metrics research, business intelligence tools, customer success insights, and industry benchmarks.</i></p>
+                        {% elif category == 'Platform Updates' %}
+                            <p class="category-description"><i>Track major software platform updates, API changes, integration announcements, and developer tool releases.</i></p>
+                        {% elif category == 'Tech News Today' %}
+                            <p class="category-description"><i>Breaking technology news and developments that impact the SaaS and enterprise software industry.</i></p>
+                        {% elif category == 'Tech Breakthrough News' %}
+                            <p class="category-description"><i>Innovative technology breakthroughs and cutting-edge developments in software and enterprise solutions.</i></p>
                         {% endif %}
                         {# **** END INSERTED BLOCK **** #}
 
@@ -514,10 +516,11 @@
 
 
 
+        {% block content %}
         <!-- Newsletter Signup Form -->
         <div class="newsletter-signup">
-            <h3>Get AI News Delivered To Your Inbox</h3>
-            <p><strong>Join 1,000+ AI enthusiasts</strong> getting the most important AI news, breakthroughs, and tools delivered to their inbox every morning. No spam, unsubscribe anytime.</p>
+            <h3>Get SaaS News Delivered To Your Inbox</h3>
+            <p><strong>Join 1,000+ SaaS professionals</strong> getting the most important SaaS news, funding rounds, and product launches delivered to their inbox every morning. No spam, unsubscribe anytime.</p>
             
             <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="newsletter-form" action="/thank-you">
                 <!-- Hidden honeypot field for spam protection -->
@@ -527,18 +530,19 @@
                 
                 <div class="form-row">
                     <input type="email" name="email" placeholder="Enter your email address" required>
-                    <button type="submit">Get AI News</button>
+                    <button type="submit">Get SaaS News</button>
                 </div>
                 
                 <p class="privacy-note">
                     🔒 We respect your privacy. Unsubscribe at any time. 
-                    Read our <a href="/privacy.html" style="color: #cc0000;">Privacy Policy</a>.
+                    Read our <a href="/privacy.html" style="color: #3B82F6;">Privacy Policy</a>.
                 </p>
             </form>
         </div>
+        {% endblock %}
 
         <footer>
-            AI Flash Report - Automated AI News Aggregation | <a href="/archive/">See Archive Index</a> | <a href="/about.html">About</a> | <a href="/contact.html">Contact</a>
+            SaaS Flash Report - Automated SaaS News Aggregation | <a href="/archive/">See Archive Index</a> | <a href="/about.html">About</a> | <a href="/contact.html">Contact</a>
             <div class="archive-links">
                 Recent Archives:
                 <!-- ARCHIVE_LINKS_PLACEHOLDER -->
