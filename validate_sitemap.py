@@ -135,7 +135,7 @@ def analyze_local_files():
     return total_local, local_types
 
 def main():
-    sitemap_url = "https://aiflashreport.com/sitemap.xml"
+    sitemap_url = "https://saasflashreport.com/sitemap.xml"
     
     if len(sys.argv) > 1:
         sitemap_url = sys.argv[1]

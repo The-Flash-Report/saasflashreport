@@ -12,7 +12,7 @@ def generate_sitemap():
     current_date = datetime.datetime.now().strftime("%Y-%m-%d")
     
     # Base URL - update this to match your domain
-    base_url = "https://aiflashreport.com"
+    base_url = "https://saasflashreport.com"
     
     urls = []
     
