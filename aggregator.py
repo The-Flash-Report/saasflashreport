@@ -546,7 +546,7 @@ REDDIT_TIME_FILTER = 'day' # Restore this constant
 
 # Updated NewsAPI configuration to use technology category
 NEWS_API_CATEGORY = 'technology'  # Use NewsAPI's technology category
-NEWS_API_QUERY = 'AI OR "artificial intelligence" OR "machine learning"'  # Simple AI-focused query within tech category
+NEWS_API_QUERY = 'SaaS OR "software as a service" OR "enterprise software" OR "cloud platform" OR "B2B software"'  # Updated for SaaS
 MAX_NEWS_API_ARTICLES = 100 # Number of articles to fetch from NewsAPI
 MAX_HEADLINE_WORDS = 8
 
@@ -560,61 +560,76 @@ PERPLEXITY_RETRY_DELAY = 2  # seconds
 STORIES_PER_PAGE = 20  # Number of stories to display per page
 MAX_TOTAL_STORIES_PER_TOPIC = 200  # Maximum stories to keep in total per topic
 
-# Add major news sources to RSS feeds
+# Add major news sources to RSS feeds - UPDATED FOR SAAS
 RSS_FEEDS = {
-    # --- TOP 15 AI RSS FEEDS (from FeedSpot & Feeder.co) ---
-    "Google Research Blog": "https://research.googleblog.com/feeds/posts/default",
-    "OpenAI Blog": "https://openai.com/blog/rss.xml",
-    "MIT News - AI": "https://news.mit.edu/rss/topic/artificial-intelligence2",
-    "TechCrunch AI": "https://techcrunch.com/category/artificial-intelligence/feed/",  # Reliable AI news
-    "AWS Machine Learning Blog": "https://aws.amazon.com/blogs/machine-learning/feed/",
-    "Facebook Research": "https://research.fb.com/feed/",
-    "Towards Data Science": "https://towardsdatascience.com/feed",
-    "KDnuggets": "https://www.kdnuggets.com/feed",
-    "Ars Technica AI": "https://feeds.arstechnica.com/arstechnica/technology-lab",  # Tech coverage with AI
-    "Machine Learning Mastery": "https://machinelearningmastery.com/feed/",
-    "AI News": "https://artificialintelligence-news.com/feed/",
-    "Unite.AI": "https://www.unite.ai/feed/",
-    "MarkTechPost": "https://www.marktechpost.com/feed/",
-    "Hugging Face Blog": "https://huggingface.co/blog/feed.xml",  # This one works!
-    "BAIR Blog": "https://bair.berkeley.edu/blog/feed.xml",
+    # --- TOP SAAS INDUSTRY SOURCES ---
+    "SaaStr": "https://www.saastr.com/feed/",
+    "Tomasz Tunguz": "https://tomtunguz.com/index.xml",
+    "ChartMogul Blog": "https://blog.chartmogul.com/rss/",
+    "ProfitWell": "https://www.profitwell.com/blog/rss.xml",
+    "OpenView Blog": "https://openviewpartners.com/blog/rss/",
+    "Point Nine Capital": "https://medium.com/feed/point-nine-news",
+    "Process Street": "https://www.process.st/blog/feed/",
     
-    # --- ADDITIONAL QUALITY AI SOURCES ---
-    "The Economist AI": "https://www.economist.com/science-and-technology/rss.xml",
-    "MIT Technology Review AI": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
-    "VentureBeat AI": "https://venturebeat.com/category/ai/feed/",
-    "Import AI": "https://jack-clark.net/feed/",
-    "The Gradient": "https://thegradient.pub/rss/"
+    # --- ENTERPRISE SOFTWARE LEADERS ---
+    "Salesforce Blog": "https://www.salesforce.com/news/rss/",
+    "Microsoft 365 Blog": "https://www.microsoft.com/en-us/microsoft-365/blog/rss/",
+    "Google Workspace": "https://workspace.google.com/blog/feed/",
+    "Slack Blog": "https://slack.com/blog/rss",
+    "Atlassian Blog": "https://blog.atlassian.com/feed/",
+    "Intercom Blog": "https://www.intercom.com/blog/feed",
+    "GitHub Blog": "https://github.blog/feed/",
+    
+    # --- DEVELOPER & PLATFORM TOOLS ---
+    "GitLab Blog": "https://about.gitlab.com/atom.xml",
+    "Heroku Blog": "https://blog.heroku.com/rss",
+    "CloudFlare Blog": "https://blog.cloudflare.com/rss/",
+    "Stack Overflow Blog": "https://stackoverflow.blog/feed/",
+    
+    # --- ANALYTICS & GROWTH ---
+    "Mixpanel Blog": "https://mixpanel.com/blog/rss/",
+    "Amplitude Blog": "https://amplitude.com/blog/rss",
+    "Baremetrics Blog": "https://baremetrics.com/blog/feed",
+    
+    # --- BUSINESS & ENTERPRISE NEWS ---
+    "TechCrunch Enterprise": "https://techcrunch.com/category/enterprise/feed/",
+    "Buffer Blog": "https://buffer.com/resources/rss/",
+    "Ahrefs Blog": "https://ahrefs.com/blog/feed/",
+    
+    # --- ADDITIONAL SAAS SOURCES ---
+    "SaaS Capital": "https://www.saascapital.com/blog/feed/",
+    "Bessemer Cloud": "https://www.bvp.com/atlas/rss",
+    
+    # --- INFRASTRUCTURE & DEVOPS ---
+    "AWS Enterprise": "https://aws.amazon.com/blogs/enterprise-strategy/feed/",
+    "Azure Updates": "https://azure.microsoft.com/en-us/updates/feed/",
+    "Docker Blog": "https://www.docker.com/blog/feed/",
+    "Kubernetes Blog": "https://kubernetes.io/feed.xml"
 }
 
-# Define categories based on the project brief
+# Define categories based on SaaS industry focus
 CATEGORIES = [
-    'Trending Now',
-    'AI Products',
-    'Creator Economy',
-    'Generative AI',
-    'AI Business News',
-    'AI Research & Methods',
-    'AI in Practice',
-    'AI Companies',
-    'AI Ethics & Policy',
-    'Weird'
+    'SaaS Funding',
+    'Enterprise Software',
+    'Product Launches',
+    'SaaS Analytics',
+    'B2B Technology',
+    'Software Industry',
+    'SaaS Acquisitions',
+    'SaaS Metrics'
 ]
 
-# Define keywords for categorization (more aligned with the brief)
-# NOTE: This is a simple keyword approach and may need refinement.
+# Define keywords for SaaS categorization
 # Order matters: More specific categories should come first.
 CATEGORY_KEYWORDS = {
-    'AI Companies': ['openai', 'google', 'meta', 'anthropic', 'microsoft', 'nvidia', 'tesla', 'apple', 'amazon', 'ibm', 'baidu', 'deepmind', 'hugging face', 'stability ai'],
-    'AI Products': ['launch', 'release', 'beta', 'model', 'api', 'platform', 'framework', 'library', 'tool', 'service', 'update', 'feature', 'gpu', 'chip', 'hardware'],
-    'Creator Economy': ['art', 'music', 'video', 'image', 'generate', 'creative', 'creator', 'artist', 'design', 'diffusion', 'stable diffusion', 'midjourney', 'dall-e', 'sora', 'suno', 'udio'],
-    'Generative AI': ['generator', 'generative', 'text-to-image', 'text-to-video', 'diffusion', 'gan', 'synthesis', 'synthetic', 'deepfake', 'style transfer'],
-    'AI Business News': ['funding', 'business', 'investment', 'market', 'strategy', 'competition', 'partnership', 'acquisition', 'stock', 'earnings', 'startup', 'venture capital', 'ipo'],
-    'AI Research & Methods': ['research', 'paper', 'study', 'breakthrough', 'arxiv', 'neurips', 'icml', 'cvpr', 'scientific', 'discovery', 'publish', 'journal', 'neural network', 'transformer', 'cnn', 'rnn', 'reinforcement learning', 'pytorch', 'tensorflow', 'jax', 'algorithm', 'architecture', 'training', 'inference'],
-    'AI in Practice': ['healthcare', 'finance', 'automotive', 'retail', 'manufacturing', 'logistics', 'energy', 'legal', 'education', 'pharma', 'drug discovery', 'use case', 'implementation', 'deployment', 'solution'],
-    'AI Ethics & Policy': ['ethics', 'bias', 'risk', 'safety', 'regulation', 'job', 'privacy', 'agi', 'alignment', 'doom', 'existential', 'responsible ai', 'fairness', 'policy', 'governance', 'transparency'],
-    'Weird': ['strange', 'unusual', 'weird', 'odd', 'curious', 'bizarre', 'unexpected', 'surprising', 'funny', 'humor', 'meme'],
-    'Trending Now': ['ai', 'artificial intelligence', 'gpt', 'llm'] # Catch-all / high-level terms
+    'SaaS Funding': ['funding', 'investment', 'round', 'series a', 'series b', 'series c', 'venture capital', 'vc', 'raised', 'valuation', 'unicorn', 'ipo', 'acquisition', 'exit', 'startup'],
+    'Enterprise Software': ['enterprise', 'b2b', 'business software', 'corporate', 'workflow', 'productivity', 'collaboration', 'crm', 'erp', 'hr software', 'sales software', 'marketing automation'],
+    'Product Launches': ['launch', 'release', 'beta', 'new product', 'announce', 'unveil', 'debut', 'introduce', 'feature', 'update', 'version', 'rollout', 'availability'],
+    'SaaS Analytics': ['analytics', 'metrics', 'data', 'reporting', 'dashboard', 'insights', 'business intelligence', 'bi', 'kpi', 'measurement', 'tracking', 'performance'],
+    'B2B Technology': ['b2b', 'api', 'integration', 'platform', 'saas', 'software as a service', 'cloud', 'automation', 'digital transformation', 'tech stack', 'infrastructure'],
+    'Software Industry': ['software', 'tech industry', 'digital', 'technology', 'innovation', 'development', 'programming', 'coding', 'developer', 'engineering'],
+    'SaaS Acquisitions': ['acquisition', 'acquire', 'bought', 'purchase', 'merger', 'deal', 'exit', 'sold to', 'bought by', 'takeover', 'consolidation'],
+    'SaaS Metrics': ['mrr', 'arr', 'churn', 'ltv', 'cac', 'customer acquisition', 'retention', 'recurring revenue', 'subscription', 'pricing', 'plan', 'tier', 'billing']
 }
 
 # Define keywords that strongly suggest a 'Trending Now' priority
@@ -632,42 +647,46 @@ def rewrite_headline(title, max_words=MAX_HEADLINE_WORDS):
     return rewritten.upper()
 
 def categorize_headline(title, url, source=None):
-    """Attempts to categorize headline based on keywords or source, aligning with project brief categories."""
+    """Categorizes headlines based on SaaS industry keywords and source."""
     title_lower = title.lower()
 
-    # 1. Prioritize Company Blogs/Sources for 'AI Companies' Category
-    # Expanded list based on common AI players
-    company_sources_or_keywords = ['openai', 'google ai', 'meta ai', 'anthropic', 'microsoft research', 'nvidia blog', 'deepmind']
-    if source and any(cs.lower() in source.lower() for cs in company_sources_or_keywords):
-        # Check if title also mentions business terms, otherwise default to AI Companies
-        business_kws = CATEGORY_KEYWORDS['AI Business News']
-        if any(kw in title_lower for kw in business_kws):
-            return 'AI Business News'
-        return 'AI Companies'
+    # 1. Check for funding/investment patterns first (high priority)
+    funding_keywords = CATEGORY_KEYWORDS['SaaS Funding']
+    if any(kw in title_lower for kw in funding_keywords):
+        return 'SaaS Funding'
 
-    # 2. Check for specific company names in the title itself
-    if any(company in title_lower for company in CATEGORY_KEYWORDS['AI Companies']):
-         # Check if title also mentions business terms, otherwise default to AI Companies
-        business_kws = CATEGORY_KEYWORDS['AI Business News']
-        if any(kw in title_lower for kw in business_kws):
-            return 'AI Business News'
-        return 'AI Companies'
+    # 2. Check for acquisition patterns
+    acquisition_keywords = CATEGORY_KEYWORDS['SaaS Acquisitions']
+    if any(kw in title_lower for kw in acquisition_keywords):
+        return 'SaaS Acquisitions'
 
-    # 3. Check for specific trending keywords first
-    if any(kw in title_lower for kw in TRENDING_KEYWORDS):
-        return 'Trending Now'
+    # 3. Check for metrics-related content
+    metrics_keywords = CATEGORY_KEYWORDS['SaaS Metrics']
+    if any(kw in title_lower for kw in metrics_keywords):
+        return 'SaaS Metrics'
 
-    # 4. Iterate through other categories based on keywords (order matters)
-    for category, keywords in CATEGORY_KEYWORDS.items():
-        # Skip AI Companies as it was handled above, skip Trending Now default
-        if category in ['AI Companies', 'Trending Now']:
-            continue
-        if any(keyword in title_lower for keyword in keywords):
-            return category
+    # 4. Check for product launches and releases
+    launch_keywords = CATEGORY_KEYWORDS['Product Launches']
+    if any(kw in title_lower for kw in launch_keywords):
+        return 'Product Launches'
 
-    # 5. Default category if no keywords match
-    # Using 'Trending Now' as the catch-all for general AI news if nothing else fits
-    return 'Trending Now'
+    # 5. Check for enterprise software content
+    enterprise_keywords = CATEGORY_KEYWORDS['Enterprise Software']
+    if any(kw in title_lower for kw in enterprise_keywords):
+        return 'Enterprise Software'
+
+    # 6. Check for analytics content
+    analytics_keywords = CATEGORY_KEYWORDS['SaaS Analytics']
+    if any(kw in title_lower for kw in analytics_keywords):
+        return 'SaaS Analytics'
+
+    # 7. Check for B2B technology content
+    b2b_keywords = CATEGORY_KEYWORDS['B2B Technology']
+    if any(kw in title_lower for kw in b2b_keywords):
+        return 'B2B Technology'
+
+    # 8. Default to Software Industry for general SaaS content
+    return 'Software Industry'
 
 def get_prompt_of_the_day():
     """Generates a structured placeholder prompt of the day."""
@@ -813,7 +832,7 @@ def fetch_newsapi_articles():
         'country': 'us'  # Focus on US tech news for better quality
     }
 
-    # Also fetch with AI query from everything endpoint for broader coverage
+    # Also fetch with SaaS query from everything endpoint for broader coverage
     everything_url = "https://newsapi.org/v2/everything"
     everything_params = {
         'q': NEWS_API_QUERY,
@@ -821,7 +840,7 @@ def fetch_newsapi_articles():
         'language': 'en',
         'sortBy': 'publishedAt',
         'pageSize': 50,  # Smaller limit for everything endpoint
-        'domains': 'economist.com,nytimes.com,wsj.com,ft.com,technologyreview.com,wired.com,theverge.com,techcrunch.com,reuters.com,bloomberg.com'
+        'domains': 'economist.com,nytimes.com,wsj.com,ft.com,techcrunch.com,reuters.com,bloomberg.com,venturebeat.com,businesswire.com'
     }
 
     # Construct the full URL for logging (mask API key)
@@ -844,8 +863,8 @@ def fetch_newsapi_articles():
         all_articles.extend(articles)
         print(f"LOG: Received {len(articles)} articles from technology category")
 
-        # Fetch from everything endpoint with AI query
-        print("LOG: Fetching AI-specific articles from everything endpoint...")
+        # Fetch from everything endpoint with SaaS query
+        print("LOG: Fetching SaaS-specific articles from everything endpoint...")
         response2 = requests.get(everything_url, params=everything_params, timeout=15)
         print(f"LOG: NewsAPI everything response status code: {response2.status_code}")
         response2.raise_for_status()
@@ -853,7 +872,7 @@ def fetch_newsapi_articles():
         data2 = response2.json()
         articles2 = data2.get('articles', [])
         all_articles.extend(articles2)
-        print(f"LOG: Received {len(articles2)} additional AI articles from everything endpoint")
+        print(f"LOG: Received {len(articles2)} additional SaaS articles from everything endpoint")
 
         total_articles_received = len(all_articles)
         print(f"LOG: Total articles received: {total_articles_received}")
@@ -869,8 +888,8 @@ def fetch_newsapi_articles():
 
         print(f"LOG: After deduplication: {len(unique_articles)} unique articles")
 
-        # Updated keywords for internal filtering - focused on AI
-        title_keywords = ['ai', 'artificial intelligence', 'machine learning', 'deep learning', 'neural', 'gpt', 'llm', 'openai', 'anthropic', 'google', 'meta', 'microsoft', 'nvidia', 'tech', 'technology', 'innovation']
+        # Updated keywords for internal filtering - focused on SaaS
+        title_keywords = ['saas', 'software as a service', 'enterprise software', 'cloud platform', 'b2b software', 'subscription software', 'platform', 'api', 'integration', 'enterprise', 'business software', 'productivity', 'workflow', 'automation']
         print(f"LOG: Internal title filter keywords: {title_keywords}")
 
         articles_kept = 0
@@ -895,11 +914,11 @@ def fetch_newsapi_articles():
                 print(f"LOG: Skipping article {i+1}/{len(unique_articles)}: Title '{title}' contains negative keyword.")
                 continue
 
-            # For technology category, be less strict on AI keywords since it's broader tech news
-            # Only apply AI filter to articles from everything endpoint
-            source_is_everything = any(domain in url for domain in ['economist.com', 'nytimes.com', 'wsj.com', 'ft.com', 'technologyreview.com'])
+            # For technology category, be less strict on SaaS keywords since it's broader tech news
+            # Only apply SaaS filter to articles from everything endpoint
+            source_is_everything = any(domain in url for domain in ['economist.com', 'nytimes.com', 'wsj.com', 'ft.com', 'techcrunch.com'])
             if source_is_everything and not any(kw in title_lower for kw in title_keywords):
-                print(f"LOG: Skipping article {i+1}/{len(unique_articles)}: Title '{title}' missing AI keywords (everything endpoint).")
+                print(f"LOG: Skipping article {i+1}/{len(unique_articles)}: Title '{title}' missing SaaS keywords (everything endpoint).")
                 continue
 
             # Language detection
@@ -1208,7 +1227,7 @@ def call_perplexity_api_with_retry(prompt):
 # --- NEW: Convert Perplexity content to rich HTML ---
 def convert_perplexity_to_rich_html(content, source_headlines=None):
     """Convert Perplexity content to HTML using the flash summary component."""
-    config = FlashSummaryConfig.for_ai_site()
+    config = FlashSummaryConfig.for_saas_site()
     generator = FlashSummaryGenerator(config)
     return generator.convert_to_html(content)
 
@@ -1376,31 +1395,31 @@ def main():
     # 4. Get Prompt of the Day
     prompt_data = get_prompt_of_the_day() # This is for the separate "Prompt of the Day" feature
 
-    # 4.5. Generate Daily AI Flash Summary
-    print("Generating Daily AI Flash Summary...")
+    # 4.5. Generate Daily SaaS Flash Summary
+    print("Generating Daily SaaS Flash Summary...")
     current_date = datetime.datetime.now().strftime("%B %d, %Y")
     
     flash_summary_html = ""
     perplexity_summary_markdown = None
 
     # ALWAYS generate a flash summary - independent of RSS headlines
-    flash_summary_prompt = f"""Create a daily AI news summary for today's date {current_date}. Format as follows:
+    flash_summary_prompt = f"""Create a daily SaaS news summary for today's date {current_date}. Format as follows:
 
-**AI NEWS FLASH - {current_date}**
+**SAAS NEWS FLASH - {current_date}**
 
-**[Write one compelling main headline about the most significant AI story from today's news]**
+**[Write one compelling main headline about the most significant SaaS story from today's news]**
 
-- [Story 1: 1 sentence summary with recent AI development]
-- [Story 2: 1 sentence summary with recent AI development] 
-- [Story 3: 1 sentence summary with recent AI development]
+- [Story 1: 1 sentence summary with recent SaaS development]
+- [Story 2: 1 sentence summary with recent SaaS development] 
+- [Story 3: 1 sentence summary with recent SaaS development]
 
-**Flash Insight:** [1-2 sentence analysis of what this means for the AI industry]
+**Flash Insight:** [1-2 sentence analysis of what this means for the SaaS industry]
 
 IMPORTANT: Include working links and sources with each story. Use citations [1], [2], etc. and provide the corresponding URLs at the bottom.
 
-Focus on: OpenAI, Anthropic, Google AI, Microsoft AI, AI funding, new model releases, AI regulation, and major AI breakthroughs from the last 24 hours.
+Focus on: SaaS funding rounds, product launches, acquisitions, enterprise software deals, pricing changes, and major SaaS industry developments from the last 24 hours.
 
-Generate fresh, current content about today's AI developments. Use your knowledge of recent events and news."""
+Generate fresh, current content about today's SaaS developments. Use your knowledge of recent events and news."""
 
     print("Attempting to generate Flash Summary with Perplexity API...")
     print(f"Prompt for Perplexity Flash Summary (first 200 chars): {flash_summary_prompt[:200]}...")
