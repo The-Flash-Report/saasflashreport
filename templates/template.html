@@ -98,7 +98,7 @@
             margin-bottom: 0.15em; /* Adjust vertical alignment slightly */
         }
         h1 .wire-part {
-            color: #cc0000; /* Red color */
+            color: #3B82F6; /* Blue color for SaaS theme */
             font-weight: 600; /* Use semi-bold */
         }
         .subtitle {
@@ -116,7 +116,7 @@
             font-size: 1.1em;
             margin-top: 10px;
             margin-bottom: 30px;
-            color: #cc0000; /* Red color to match theme */
+            color: #3B82F6; /* Blue color for SaaS theme */
             font-weight: 600;
             letter-spacing: 0.5px;
             text-transform: uppercase;
@@ -138,7 +138,7 @@
             color: #000;
             font-weight: 800; /* Extra bold */
             text-transform: uppercase; /* Uppercase headers */
-            border-bottom: 2px solid #cc0000; /* Thicker bottom border - RED */
+            border-bottom: 2px solid #3B82F6; /* Thicker bottom border - BLUE */
             padding-bottom: 5px;
             letter-spacing: 0.5px; /* Slightly increased letter spacing */
         }
@@ -173,7 +173,7 @@
         }
         .headline-block a:hover {
             text-decoration: underline;
-            color: #cc0000; /* Red on hover */
+            color: #3B82F6; /* Blue on hover */
         }
         .headline-source {
             display: none; /* Hide source references */
@@ -193,7 +193,7 @@
             padding-bottom: 20px; /* Add padding below footer */
         }
         footer a {
-            color: #cc0000; /* Red links in footer - restored */
+            color: #3B82F6; /* Blue links in footer for SaaS theme */
             text-decoration: underline;
         }
         footer a:hover {
@@ -210,86 +210,7 @@
             color: #cc0000; /* Red archive links */
         }
 
-        /* Prompt of the Day Box - Enhanced Styling */
-        .prompt-box {
-            border: none;
-            border-left: 4px solid #cc0000; /* Red left border to tie into color scheme */
-            background-color: #f8f8f8;
-            padding: 20px;
-            margin-top: 40px; /* More space above prompt box */
-            margin-bottom: 30px;
-            font-size: 1em;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Subtle shadow */
-            position: relative;
-        }
-        .prompt-box:before {
-            content: "✏️"; /* Pencil emoji as decoration */
-            position: absolute;
-            top: -15px;
-            left: 15px;
-            font-size: 24px;
-            background: white;
-            padding: 0 10px;
-        }
-        .prompt-title-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px; /* Replaces margin-bottom from h2 */
-        }
-        .prompt-box h2 {
-            /* Removed margin-bottom, handled by container */
-            margin-top: 0;
-            color: #cc0000; /* Match red color scheme */
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-size: 0.9em; /* Keep original font size */
-        }
-        .prompt-link-button {
-            display: inline-block;
-            padding: 5px 10px; /* Slightly smaller padding */
-            background-color: #e9e9e9; /* Lighter subtle grey */
-            color: #444; /* Darker grey text */
-            text-decoration: none;
-            border-radius: 4px;
-            font-size: 0.8em; /* Smaller font size */
-            font-weight: 500;
-            white-space: nowrap; /* Prevent wrapping */
-            transition: background-color 0.2s ease, color 0.2s ease;
-            margin-top: 5px; /* Added to move button down slightly */
-        }
-        .prompt-link-button:hover {
-            background-color: #ffebee; /* Subtle red background on hover */
-            color: #cc0000; /* Red text on hover */
-        }
-        .prompt-box h4 {
-            font-size: 1.2em;
-            margin-top: 0;
-            margin-bottom: 10px;
-            color: #000;
-            font-weight: bold;
-        }
-        .prompt-box p {
-            margin: 0 0 15px 0;
-            line-height: 1.5;
-            font-size: 1.05em;
-        }
-        .prompt-box .platforms {
-            display: inline-block;
-            font-size: 0.85em;
-            color: #666;
-            background-color: #fff;
-            padding: 5px 12px;
-            border-radius: 15px;
-            margin-top: 5px;
-            border: 1px solid #eee;
-        }
-        .prompt-box .platforms strong {
-            color: #cc0000;
-            font-weight: bold;
-        }
-        
+
         /* Newsletter Signup Form Styling */
         .newsletter-signup {
             border: none;
@@ -433,14 +354,14 @@
 
         /* Main header navigation styling */
         .main-header-nav a:hover {
-            color: #cc0000 !important;
+            color: #3B82F6 !important;
             text-decoration: underline;
         }
         
         /* Topics dropdown styling */
         .topics-dropdown-content a:hover {
             background-color: #f5f5f5;
-            color: #cc0000 !important;
+            color: #3B82F6 !important;
         }
         
         @media (max-width: 768px) {
@@ -591,17 +512,7 @@
             {% endfor %}
         </div>
 
-        <!-- Prompt of the Day moved below news -->
-        <div class="prompt-box">
-            <!-- Modified structure for title and button -->
-            <div class="prompt-title-container">
-                 <h2>Prompt of the Day</h2>
-                 <a href="https://promptwritingstudio.com" target="_blank" class="prompt-link-button">Get More AI Prompts</a>
-            </div>
-            <h4>{{ prompt_of_the_day.title }}</h4>
-            <p>{{ prompt_of_the_day.text }}</p>
-            <p class="platforms"><strong>Use with:</strong> {{ prompt_of_the_day.platforms | join(", ") }}</p>
-        </div>
+
 
         <!-- Newsletter Signup Form -->
         <div class="newsletter-signup">
