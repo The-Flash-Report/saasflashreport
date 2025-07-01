@@ -548,7 +548,7 @@ REDDIT_TIME_FILTER = 'day' # Restore this constant
 NEWS_API_CATEGORY = 'technology'  # Use NewsAPI's technology category
 NEWS_API_QUERY = 'SaaS OR "software as a service" OR "enterprise software" OR "cloud platform" OR "B2B software"'  # Updated for SaaS
 MAX_NEWS_API_ARTICLES = 100 # Number of articles to fetch from NewsAPI
-MAX_HEADLINE_WORDS = 8
+MAX_HEADLINE_WORDS = 15
 
 # Add these new constants
 MAX_RSS_ENTRIES_PER_SOURCE = 10  # Increased from 3 to 10
@@ -638,13 +638,28 @@ TRENDING_KEYWORDS = ['exclusive', 'breaking', 'leak', 'major', 'significant']
 # --- Helper Functions ---
 
 def rewrite_headline(title, max_words=MAX_HEADLINE_WORDS):
-    """Rewrites headline to be punchy: uppercase, limited words."""
+    """Rewrites headline to be professional: proper title case, limited words."""
     words = title.split()
     # Simple truncation
     rewritten = " ".join(words[:max_words])
     if len(words) > max_words:
         rewritten += "..."
-    return rewritten.upper()
+    
+    # Convert to proper title case
+    # Define words that should stay lowercase in title case (except at the start)
+    lowercase_words = {'a', 'an', 'and', 'as', 'at', 'but', 'by', 'for', 'in', 'of', 'on', 'or', 'the', 'to', 'with'}
+    
+    title_words = rewritten.split()
+    title_cased = []
+    
+    for i, word in enumerate(title_words):
+        # Always capitalize first word, last word, and words not in lowercase_words
+        if i == 0 or i == len(title_words) - 1 or word.lower() not in lowercase_words:
+            title_cased.append(word.capitalize())
+        else:
+            title_cased.append(word.lower())
+    
+    return " ".join(title_cased)
 
 def categorize_headline(title, url, source=None):
     """Categorizes headlines based on SaaS industry keywords and source."""
