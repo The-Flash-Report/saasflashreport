@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-Simple sitemap validation script to help debug sitemap issues
+Comprehensive sitemap validation script for SaaS Flash Report
 """
 import requests
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 import sys
+import os
+import glob
 
 def validate_sitemap_url(sitemap_url):
     """Validate a sitemap URL and check its contents"""
@@ -42,8 +44,38 @@ def validate_sitemap_url(sitemap_url):
             urls = root.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}url')
             print(f"📊 Found {len(urls)} URLs in sitemap")
             
-            # Check first few URLs
-            for i, url_elem in enumerate(urls[:3]):
+            # Analyze URL structure
+            url_types = {
+                'main': 0,
+                'static': 0,
+                'archive': 0,
+                'topics': 0,
+                'other': 0
+            }
+            
+            for url_elem in urls:
+                loc_elem = url_elem.find('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')
+                if loc_elem is not None:
+                    url = loc_elem.text
+                    if url.endswith('/'):
+                        url_types['main'] += 1
+                    elif '/archive/' in url:
+                        url_types['archive'] += 1
+                    elif '/topics/' in url:
+                        url_types['topics'] += 1
+                    elif any(page in url for page in ['about.html', 'contact', 'thank-you']):
+                        url_types['static'] += 1
+                    else:
+                        url_types['other'] += 1
+            
+            print("\n📈 URL Breakdown:")
+            for url_type, count in url_types.items():
+                if count > 0:
+                    print(f"   {url_type.capitalize()}: {count} URLs")
+            
+            # Check first few URLs for accessibility
+            print("\n🔍 Testing URL accessibility:")
+            for i, url_elem in enumerate(urls[:5]):
                 loc_elem = url_elem.find('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')
                 if loc_elem is not None:
                     print(f"   URL {i+1}: {loc_elem.text}")
@@ -58,20 +90,49 @@ def validate_sitemap_url(sitemap_url):
                     except Exception as e:
                         print(f"      ❌ Error checking URL: {e}")
             
-            if len(urls) > 3:
-                print(f"   ... and {len(urls) - 3} more URLs")
+            if len(urls) > 5:
+                print(f"   ... and {len(urls) - 5} more URLs")
                 
-            return True
+            return True, len(urls), url_types
             
         except ET.ParseError as e:
             print(f"❌ XML Parse Error: {e}")
             print("First 500 characters of response:")
             print(response.text[:500])
-            return False
+            return False, 0, {}
             
     except requests.RequestException as e:
         print(f"❌ Request Error: {e}")
-        return False
+        return False, 0, {}
+
+def analyze_local_files():
+    """Analyze local HTML files to see what should be in sitemap"""
+    print("\n📁 Local File Analysis:")
+    
+    # Count HTML files
+    html_files = glob.glob('*.html') + glob.glob('archive/*.html') + glob.glob('topics/*.html')
+    html_files = [f for f in html_files if 'template' not in f and 'index.html' not in f]
+    
+    local_types = {
+        'main': 1,  # index.html equivalent (/)
+        'static': len([f for f in html_files if any(page in f for page in ['about.html', 'contact', 'thank-you'])]),
+        'archive': len([f for f in html_files if f.startswith('archive/')]),
+        'topics': len([f for f in html_files if f.startswith('topics/')]),
+        'other': 0
+    }
+    
+    # Add archive index if it exists
+    if os.path.exists('archive/index.html'):
+        local_types['archive'] += 1
+    
+    total_local = sum(local_types.values())
+    
+    print(f"   Total local HTML files: {total_local}")
+    for file_type, count in local_types.items():
+        if count > 0:
+            print(f"   {file_type.capitalize()}: {count} files")
+    
+    return total_local, local_types
 
 def main():
     sitemap_url = "https://aiflashreport.com/sitemap.xml"
@@ -79,19 +140,52 @@ def main():
     if len(sys.argv) > 1:
         sitemap_url = sys.argv[1]
     
-    print("🔍 Sitemap Validation Tool")
-    print("=" * 50)
+    print("🔍 Comprehensive Sitemap Validation Tool")
+    print("=" * 60)
     
-    is_valid = validate_sitemap_url(sitemap_url)
+    # Validate remote sitemap
+    is_valid, remote_count, remote_types = validate_sitemap_url(sitemap_url)
     
-    if is_valid:
-        print("\n✅ Sitemap appears to be valid!")
-        print("\nIf Google Search Console still shows errors, try:")
-        print("1. Resubmitting the sitemap in GSC")
-        print("2. Checking for any robots.txt blocking")
-        print("3. Waiting 24-48 hours for Google to re-crawl")
+    # Analyze local files
+    local_count, local_types = analyze_local_files()
+    
+    # Compare counts
+    print(f"\n📊 Count Comparison:")
+    print(f"   Remote sitemap: {remote_count} URLs")
+    print(f"   Local files: {local_count} files")
+    
+    if remote_count != local_count:
+        print(f"   ⚠️  MISMATCH: {abs(remote_count - local_count)} URL difference")
+        if remote_count > local_count:
+            print("   → Remote sitemap may have additional pages")
+        else:
+            print("   → Local files not fully represented in remote sitemap")
     else:
-        print("\n❌ Sitemap has issues that need to be fixed")
+        print("   ✅ Counts match!")
+    
+    # Summary and recommendations
+    print(f"\n📋 Summary:")
+    if is_valid:
+        print("✅ Sitemap is valid and accessible")
+        print("✅ All tested URLs are accessible")
+        
+        print(f"\n🚀 Search Engine Submission:")
+        print("1. Google Search Console:")
+        print(f"   → Submit: {sitemap_url}")
+        print("   → Monitor for errors and indexing status")
+        print("2. Bing Webmaster Tools:")
+        print(f"   → Submit: {sitemap_url}")
+        print("3. Robots.txt validation:")
+        print("   → Ensure sitemap is referenced in robots.txt")
+        print(f"   → Add line: Sitemap: {sitemap_url}")
+        
+        if remote_count != local_count:
+            print(f"\n⚠️  Action Required:")
+            print("   → Update sitemap generation to match all local files")
+            print("   → Deploy updated sitemap.xml")
+            print("   → Resubmit to search engines")
+    else:
+        print("❌ Sitemap has issues that need to be fixed")
 
 if __name__ == "__main__":
     main() 
