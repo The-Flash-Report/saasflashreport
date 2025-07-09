@@ -1103,7 +1103,7 @@ def call_perplexity_api_with_retry(prompt):
     headers[auth_header_key] = auth_value
     
     payload = {
-        "model": "llama-3.1-sonar-large-128k-online",
+        "model": "sonar",
         "messages": [
             {
                 "role": "system",
