@@ -1103,11 +1103,11 @@ def call_perplexity_api_with_retry(prompt):
     headers[auth_header_key] = auth_value
     
     payload = {
-        "model": "llama-3.1-sonar-small-128k-online",
+        "model": "llama-3.1-sonar-large-128k-online",
         "messages": [
             {
                 "role": "system",
-                "content": "You are an AI assistant that creates daily flash summaries of AI news. Provide concise, well-formatted responses with clear structure."
+                "content": "You are an AI assistant that creates daily flash summaries of SaaS news. Provide concise, well-formatted responses with clear structure and accurate citations."
             },
             {
                 "role": "user", 
@@ -1115,7 +1115,7 @@ def call_perplexity_api_with_retry(prompt):
             }
         ],
         "max_tokens": 800,
-        "temperature": 0.2,
+        "temperature": 0,
         "top_p": 0.9,
         "stream": False
     }

@@ -47,6 +47,15 @@ class FlashSummaryConfig:
         return cls()  # Uses default values
     
     @classmethod
+    def for_saas_site(cls) -> "FlashSummaryConfig":
+        """Configuration preset for SaaS news sites."""
+        return cls(
+            link_color="#0066cc",  # Professional blue
+            border_left="4px solid #0066cc",
+            background_color="#f9f9f9"
+        )
+    
+    @classmethod
     def minimal(cls) -> "FlashSummaryConfig":
         """Minimal styling configuration."""
         return cls(

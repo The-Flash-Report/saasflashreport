@@ -56,8 +56,18 @@ def generate_sitemap():
     # Archive entries (medium priority)
     archive_files = glob.glob('archive/*.html')
     for archive_file in sorted(archive_files, reverse=True):
-        if not archive_file.endswith('index.html'):
-            filename = os.path.basename(archive_file)
+        filename = os.path.basename(archive_file)
+        
+        if filename == 'index.html':
+            # Archive index gets special handling
+            urls.append({
+                'url': f"{base_url}/archive/index.html",
+                'lastmod': current_date,
+                'changefreq': 'daily',
+                'priority': '0.8'
+            })
+        else:
+            # Individual archive files
             # Extract date from filename for lastmod
             date_str = filename.replace('.html', '')
             try:
