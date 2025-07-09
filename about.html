@@ -291,10 +291,23 @@
         <!-- Main Navigation Header -->
         <nav class="main-header-nav" style="background-color: #f8f9fa; border-bottom: 1px solid #e5e5e5; margin-bottom: 10px;">
             <div style="max-width: 900px; margin: 0 auto; padding: 15px; display: flex; justify-content: center; align-items: center; gap: 30px; position: relative;">
-                <a href="index.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Home</a>
-                <a href="about.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">About</a>
-                <a href="contact.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Contact</a>
+                <div class="topics-dropdown" style="position: relative; display: inline-block;">
+                    <a href="#" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;" onclick="toggleTopicsDropdown(event)">Topics ▼</a>
+                    <div class="topics-dropdown-content" style="display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); background-color: white; min-width: 200px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; border-radius: 6px; padding: 10px 0; margin-top: 5px;">
+                        <a href="/topics/startup-funding.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Startup Funding</a>
+                        <a href="/topics/product-launches.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Product Launches</a>
+                        <a href="/topics/enterprise-software.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Enterprise Software</a>
+                        <a href="/topics/developer-tools.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Developer Tools</a>
+                        <a href="/topics/big-tech-moves.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Big Tech Moves</a>
+                        <a href="/topics/ipos-acquisitions.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">IPOs &amp; Acquisitions</a>
+                        <a href="/topics/tech-news-today.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Tech News Today</a>
+                        <a href="/topics/tech-breakthrough-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Tech Breakthrough News</a>
+                    </div>
+                </div>
+                <a href="/about.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">About</a>
+                <a href="/contact.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Contact</a>
                 <a href="/archive/" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Archive</a>
+                <a href="/rss.xml" style="color: #ff6600; text-decoration: none; font-weight: 500; font-size: 1em; display: inline-flex; align-items: center;" title="Subscribe to our RSS feed">📡 RSS</a>
             </div>
         </nav>
 
@@ -417,5 +430,23 @@
             </div>
         </footer>
     </div>
+    
+    <!-- Topics dropdown functionality -->
+    <script>
+    function toggleTopicsDropdown(event) {
+        event.preventDefault();
+        const dropdown = document.querySelector('.topics-dropdown-content');
+        dropdown.style.display = dropdown.style.display === 'none' || dropdown.style.display === '' ? 'block' : 'none';
+    }
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.topics-dropdown');
+        const dropdownContent = document.querySelector('.topics-dropdown-content');
+        if (!dropdown.contains(event.target)) {
+            dropdownContent.style.display = 'none';
+        }
+    });
+    </script>
 </body>
 </html> 
