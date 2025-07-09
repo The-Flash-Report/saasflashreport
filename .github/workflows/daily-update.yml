@@ -81,6 +81,16 @@ jobs:
         echo "Data files:"
         ls -la processed_urls.json data/ topic_archives/ 2>/dev/null || echo "⚠️  Some data files missing"
         
+    - name: Generate RSS feed
+      run: |
+        echo "Generating RSS feed..."
+        if python3 generate_rss.py; then
+          echo "✅ RSS feed generated successfully"
+        else
+          echo "❌ RSS feed generation failed, but continuing..."
+        fi
+      continue-on-error: true  # Don't fail workflow if RSS fails
+      
     - name: Generate sitemap with error handling
       run: |
         echo "Generating sitemap..."
@@ -101,6 +111,7 @@ jobs:
         git add -f index.html \
                    archive/ \
                    sitemap.xml \
+                   rss.xml \
                    processed_urls.json \
                    data/ \
                    topic_archives/ \
@@ -141,6 +152,7 @@ jobs:
         git add -f index.html \
                    archive/ \
                    sitemap.xml \
+                   rss.xml \
                    processed_urls.json \
                    data/ \
                    topic_archives/ \

@@ -68,6 +68,10 @@
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSIjY2MwMDAwIi8+Cjx0ZXh0IHg9IjUiIHk9IjIyIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE4IiBmaWxsPSJ3aGl0ZSI+4pqhPC90ZXh0Pgo8L3N2Zz4K">
     <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiBmaWxsPSIjY2MwMDAwIi8+Cjx0ZXh0IHg9IjMwIiB5PSIxMzAiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTA4IiBmaWxsPSJ3aGl0ZSI+4pqhPC90ZXh0Pgo8L3N2Zz4K">
     
+    <!-- RSS Feed Discovery -->
+    <link rel="alternate" type="application/rss+xml" title="SaaS Flash Report RSS Feed" href="https://saasflashreport.com/rss.xml">
+    <link rel="alternate" type="application/atom+xml" title="SaaS Flash Report Atom Feed" href="https://saasflashreport.com/rss.xml">
+    
     <style>
         body {
             /* System fonts, common sans-serif stack */
@@ -434,6 +438,7 @@
                 <a href="/about.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">About</a>
                 <a href="/contact.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Contact</a>
                 <a href="/archive/" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Archive</a>
+                <a href="/rss.xml" style="color: #ff6600; text-decoration: none; font-weight: 500; font-size: 1em; display: inline-flex; align-items: center;" title="Subscribe to our RSS feed">📡 RSS</a>
             </div>
         </nav>
 
@@ -542,7 +547,7 @@
         {% endblock %}
 
         <footer>
-            SaaS Flash Report - Automated SaaS News Aggregation | <a href="/archive/">See Archive Index</a> | <a href="/about.html">About</a> | <a href="/contact.html">Contact</a>
+            SaaS Flash Report - Automated SaaS News Aggregation | <a href="/archive/">See Archive Index</a> | <a href="/about.html">About</a> | <a href="/contact.html">Contact</a> | <a href="/rss.xml" style="color: #ff6600;">📡 RSS Feed</a>
             <div class="archive-links">
                 Recent Archives:
                 <!-- ARCHIVE_LINKS_PLACEHOLDER -->

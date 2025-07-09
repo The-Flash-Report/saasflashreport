@@ -35,6 +35,15 @@ def generate_sitemap():
                 'priority': '0.8'
             })
     
+    # RSS Feed (high priority)
+    if os.path.exists('rss.xml'):
+        urls.append({
+            'url': f"{base_url}/rss.xml",
+            'lastmod': current_date,
+            'changefreq': 'daily',
+            'priority': '0.9'
+        })
+    
     # Archive index (high priority)
     if os.path.exists('archive/index.html'):
         urls.append({
