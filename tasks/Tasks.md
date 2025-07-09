@@ -55,12 +55,13 @@ All content aggregation systems are now properly configured and tested for SaaS-
 ## Testing Checklist (Before Content Aggregation)
 
 ### Page Validation
-- [ ] Index page: Flash summary component present and working
-- [ ] Archive page: H1 sizing matches index page
-- [ ] Topic pages: All have SaaS taglines (not AI)
-- [ ] Topic pages: All have title case headlines
-- [ ] Topic pages: All have correct newsletter forms
-- [ ] All pages: Consistent H1 styling and SaaS branding
+- [x] Index page: Flash summary component present and working
+- [x] Archive page: H1 sizing matches index page
+- [x] Create relevant topic pages and add to site menu
+- [x] Topic pages: All have SaaS taglines (not AI)
+- [x] Topic pages: All have title case headlines
+- [x] Topic pages: All have correct newsletter forms
+- [x] All pages: Consistent H1 styling and SaaS branding
 
 ### Navigation Testing
 - [ ] Topics dropdown works on all pages
@@ -68,10 +69,16 @@ All content aggregation systems are now properly configured and tested for SaaS-
 - [ ] Cross-site portfolio links work (to other Flash Report sites)
 - [ ] Footer links work correctly
 
+### Other
+- [x] Add link to aiflashreport.com to panel on /about and remove the link to saasflashreport as that is THIS site
+- [x] change site tag line to the latest Saas news at breaking speed
+- [x] remove duplicate archive page link in the footer
+
 ### Content Validation
 - [ ] Newsletter forms mention "SaaS professionals" 
 - [ ] Meta descriptions are SaaS-focused
-
+- [ ] Remove Subjects dropdnw from Contact form and chagne to a standard subject line
+- [ ] Change 
 ## Notes
 - **Current Focus**: Complete Phase 3 QA fixes before moving to content aggregation
 - **Next Major Phase**: RSS and API integration for live content
