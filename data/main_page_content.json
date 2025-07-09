@@ -2,17 +2,25 @@
     "SaaS Funding": [],
     "Enterprise Software": [],
     "Product Launches": [],
-    "SaaS Analytics": [
+    "SaaS Analytics": [],
+    "B2B Technology": [
         {
-            "title": "Get your exhibit table at TechCrunch Disrupt 2025",
-            "url": "https://techcrunch.com/2025/07/09/get-your-exhibit-table-at-techcrunch-disrupt-2025/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-07-09",
-            "rewritten_title": "Get Your Exhibit Table at Techcrunch Disrupt 2025"
+            "title": "2023 SaaS Benchmarks Report",
+            "url": "https://openviewpartners.com/blog/2023-saas-benchmarks/",
+            "source": "OpenView Blog",
+            "published_date_obj": null,
+            "rewritten_title": "2023 Saas Benchmarks Report"
         }
     ],
-    "B2B Technology": [],
-    "Software Industry": [],
+    "Software Industry": [
+        {
+            "title": "OpenTelemetry, Kubernetes, and Fir: Putting it All Together",
+            "url": "https://www.heroku.com/blog/opentelemetry-kubernetes-fir-putting-it-all-together/",
+            "source": "Heroku Blog",
+            "published_date_obj": "2025-07-09",
+            "rewritten_title": "Opentelemetry, Kubernetes, and Fir: Putting It All Together"
+        }
+    ],
     "SaaS Acquisitions": [],
     "SaaS Metrics": []
 }
