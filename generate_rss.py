@@ -18,7 +18,7 @@ def load_config():
         return {
             "site_name": "SaaS Flash Report",
             "domain": "saasflashreport.com",
-            "tagline": "Software Intelligence, Business Speed",
+            "tagline": "the latest SaaS news at breaking speed",
             "meta_description": "Real-time SaaS intelligence for software executives, product managers, and B2B professionals."
         }
 
