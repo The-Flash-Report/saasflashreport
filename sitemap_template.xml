@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Main page -->
     <url>
-        <loc>https://aiflashreport.com/</loc>
+        <loc>https://saasflashreport.com/</loc>
         <lastmod>{{ current_date }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -10,7 +10,7 @@
     
     <!-- Archive index -->
     <url>
-        <loc>https://aiflashreport.com/archive/</loc>
+        <loc>https://saasflashreport.com/archive/</loc>
         <lastmod>{{ current_date }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
@@ -19,7 +19,7 @@
     <!-- Archive entries -->
     {% for i in range(archive_files|length) %}
     <url>
-        <loc>https://aiflashreport.com/archive/{{ archive_files[i] }}</loc>
+        <loc>https://saasflashreport.com/archive/{{ archive_files[i] }}</loc>
         <lastmod>{{ archive_dates[i] }}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
