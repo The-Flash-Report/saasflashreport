@@ -126,9 +126,8 @@ jobs:
                    processed_urls.json \
                    data/ \
                    topic_archives/ \
-                   *-news.html \
-                   *-news-page-*.html \
-                   *-updates.html \
+                   topics/ \
+                   *.html \
                    saas-*.html 2>/dev/null || echo "Some files may not exist"
         
         # Debug: Show what files are staged
@@ -188,9 +187,8 @@ jobs:
                    processed_urls.json \
                    data/ \
                    topic_archives/ \
-                   *-news.html \
-                   *-news-page-*.html \
-                   *-updates.html \
+                   topics/ \
+                   *.html \
                    saas-*.html 2>/dev/null || echo "Some files may not exist"
         
         # Commit only if there are changes

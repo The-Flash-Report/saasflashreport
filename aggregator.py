@@ -1604,6 +1604,26 @@ Generate fresh, current content about today's SaaS developments. Use your knowle
 
     else:
         print("⚠️ Perplexity API call for Flash Summary failed. Using fallback summary.")
+        # Set fallback content when API fails
+        flash_summary_html = f"""
+        <div class="ai-flash-summary" style="
+            background: #f8f9fa; padding: 20px;
+            margin: 20px 0;
+            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6; border-radius: 8px; border-left: 4px solid #3B82F6; box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        ">
+            <h2 style="color: #3B82F6; font-size: 1.4em; margin: 0 0 15px 0; font-weight: bold; line-height: 1.3;">🚀 SaaS Flash Summary - {current_date}</h2>
+            <p style="color: #666; font-style: italic; margin-bottom: 15px;">Today's SaaS industry summary will appear here when the Perplexity API is configured.</p>
+            
+            <h3 style="margin: 15px 0 10px 0; color: #333;">Coming Soon:</h3>
+            <ul style="margin: 0; padding-left: 20px;">
+                <li><strong>Latest Funding Rounds</strong> - SaaS startup investments and valuations</li>
+                <li><strong>Product Launches</strong> - New SaaS features and platform updates</li>
+                <li><strong>Industry Analysis</strong> - Market trends and strategic insights</li>
+            </ul>
+        </div>
+        """
 
     # 4.6. Generate Daily SaaS Metrics Report
     print("Generating Daily SaaS Metrics Report...")
