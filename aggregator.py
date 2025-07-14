@@ -604,7 +604,39 @@ RSS_FEEDS = {
     "AWS Enterprise": "https://aws.amazon.com/blogs/enterprise-strategy/feed/",
     "Azure Updates": "https://azure.microsoft.com/en-us/updates/feed/",
     "Docker Blog": "https://www.docker.com/blog/feed/",
-    "Kubernetes Blog": "https://kubernetes.io/feed.xml"
+    "Kubernetes Blog": "https://kubernetes.io/feed.xml",
+    
+    # --- HIGH-VALUE SAAS INDUSTRY ADDITIONS ---
+    "First Round Review": "https://review.firstround.com/rss",
+    "Version One Ventures": "https://versionone.vc/feed/",
+    "Insight Partners": "https://www.insightpartners.com/blog/feed/",
+    "Battery Ventures": "https://www.battery.com/rss/",
+    "Redpoint Ventures": "https://www.redpoint.com/feed/",
+    "NFX": "https://www.nfx.com/rss/",
+    "Reforge": "https://www.reforge.com/rss/",
+    "Lenny's Newsletter": "https://www.lennysnewsletter.com/feed",
+    "Product Hunt": "https://blog.producthunt.com/rss",
+    "CustomerIO Blog": "https://customer.io/blog/rss.xml",
+    "ConvertKit": "https://convertkit.com/blog/rss",
+    "HelpScout": "https://www.helpscout.com/blog/feed/",
+    "Hotjar Blog": "https://blog.hotjar.com/rss/",
+    "Segment Blog": "https://segment.com/blog/rss/",
+    "Stripe Blog": "https://stripe.com/blog/rss.xml",
+    "Twilio": "https://www.twilio.com/blog/rss.xml",
+    "SendGrid": "https://sendgrid.com/blog/rss/",
+    "Mailchimp": "https://mailchimp.com/resources/rss/",
+    "Close.com": "https://blog.close.com/rss/",
+    "Pipedrive": "https://www.pipedrive.com/en/blog/rss",
+    "SaaS Brief": "https://www.saasbrief.com/rss/",
+    "The SaaS CFO": "https://www.thesaascfo.com/feed/",
+    "SaaS Metrics": "https://www.klipfolio.com/resources/articles/rss",
+    "ChurnZero": "https://churnzero.net/blog/feed/",
+    "Gainsight": "https://www.gainsight.com/blog/feed/",
+    "UserVoice": "https://blog.uservoice.com/rss/",
+    "Pendo": "https://www.pendo.io/blog/rss/",
+    "FullStory": "https://blog.fullstory.com/feed/",
+    "LogRocket": "https://blog.logrocket.com/rss/",
+    "Price Intelligently": "https://www.priceintelligently.com/blog/rss.xml"
 }
 
 # Define categories based on SaaS industry focus
