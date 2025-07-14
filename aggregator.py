@@ -375,6 +375,7 @@ def generate_keyword_page_files(keyword_pages_data, env):
             try:
                 html_content = template.render(
                     categories=page_specific_categories,
+                    articles=data['articles'],  # FIX: Add missing articles variable that template expects
                     page_title=data['config']['title'],
                     page_description=data['config'].get('description', ''),
                     update_time=datetime.datetime.now().strftime("%Y-%m-%d"),
@@ -445,6 +446,7 @@ def generate_keyword_page_files(keyword_pages_data, env):
                 try:
                     html_content = template.render(
                         categories=page_specific_categories,
+                        articles=page_stories,  # FIX: Add missing articles variable that template expects
                         page_title=f"{data['config']['title']} - Page {page_num}" if page_num > 1 else data['config']['title'],
                         page_description=data['config'].get('description', ''),
                         update_time=datetime.datetime.now().strftime("%Y-%m-%d"),
@@ -1233,6 +1235,155 @@ def extract_citations_from_perplexity(content):
 
 # --- Main Pipeline ---
 
+def generate_saas_tools_page(env, current_date):
+    """Generate SaaS Tool Recommendations page using Perplexity API."""
+    tools_prompt = f"""Create a comprehensive SaaS tool recommendations guide for {datetime.datetime.now().strftime("%B %d, %Y")}. Format as follows:
+
+**🛠️ SaaS TOOL RECOMMENDATIONS - {datetime.datetime.now().strftime("%B %d, %Y")}**
+
+**Essential SaaS Tools for Startups**
+- CRM & Sales: [Top 3 tools with pricing and key features]
+- Marketing Automation: [Top 3 tools with pricing and key features]
+- Customer Support: [Top 3 tools with pricing and key features]
+
+**Enterprise SaaS Solutions**
+- Business Intelligence: [Top 3 tools with pricing and key features]
+- HR & Payroll: [Top 3 tools with pricing and key features]
+- Project Management: [Top 3 tools with pricing and key features]
+
+**Trending Tools This Week**
+- [3-4 newly launched or trending SaaS tools with descriptions]
+
+**Budget-Friendly Alternatives**
+- Free/low-cost alternatives to expensive enterprise tools
+
+Include pricing, key features, and target company size for each recommendation. Focus on tools that launched or updated recently."""
+
+    # Default placeholder content
+    placeholder_content = f"""<div style="padding: 20px; background-color: #f8f9fa; border-left: 4px solid #3B82F6; margin: 20px 0;">
+    <h2 style="color: #3B82F6; margin-top: 0;">🛠️ SaaS Tool Recommendations - {datetime.datetime.now().strftime("%B %d, %Y")}</h2>
+    <p style="color: #666; font-style: italic;">This page will be automatically updated with the latest SaaS tool recommendations when the Perplexity API is configured.</p>
+    
+    <h3>Coming Soon:</h3>
+    <ul>
+        <li><strong>Essential SaaS Tools for Startups</strong> - CRM, Marketing, Support tools</li>
+        <li><strong>Enterprise SaaS Solutions</strong> - BI, HR, Project Management tools</li>
+        <li><strong>Trending Tools This Week</strong> - Latest launches and updates</li>
+        <li><strong>Budget-Friendly Alternatives</strong> - Cost-effective options</li>
+    </ul>
+    </div>"""
+
+    try:
+        tools_markdown = call_perplexity_api_with_retry(tools_prompt)
+        if tools_markdown:
+            tools_html = convert_perplexity_to_rich_html(tools_markdown)
+            print("✅ SaaS Tools page generated with API content.")
+        else:
+            tools_html = placeholder_content
+            print("⚠️ SaaS Tools page generated with placeholder content.")
+    except Exception as e:
+        print(f"⚠️ SaaS Tools page using placeholder due to error: {e}")
+        tools_html = placeholder_content
+
+    # Always create page context and render
+    tools_context = {
+        'update_time': current_date,
+        'canonical_path': "/saas-tools.html",
+        'page_title': "SaaS Tool Recommendations",
+        'page_description': "Comprehensive guide to the best SaaS tools for startups and enterprises, updated weekly with pricing and features.",
+        'content': tools_html,
+        'is_main_page': False,
+        'current_year': datetime.datetime.now().year,
+        'all_keyword_pages_config': keyword_config.get('keyword_pages', {})
+    }
+    
+    # Render and save
+    tools_template = env.get_template('saas_page_template.html')
+    tools_page_html = tools_template.render(tools_context)
+    
+    with open('saas-tools.html', 'w', encoding='utf-8') as f:
+        f.write(tools_page_html)
+    print("✅ SaaS Tools page file created successfully.")
+
+def generate_market_analysis_page(env, current_date):
+    """Generate SaaS Market Analysis page using Perplexity API."""
+    analysis_prompt = f"""Create a comprehensive SaaS market analysis for {datetime.datetime.now().strftime("%B %d, %Y")}. Format as follows:
+
+**📈 SaaS MARKET ANALYSIS - {datetime.datetime.now().strftime("%B %d, %Y")}**
+
+**Market Overview**
+- Current SaaS market size and growth projections
+- Key trends driving the industry
+- Geographic market distribution
+
+**Investment & Funding Trends**
+- Recent funding rounds and investment patterns
+- Hot SaaS categories attracting capital
+- Average valuation multiples by company stage
+
+**Industry Performance**
+- Public SaaS company stock performance
+- Notable IPO pipeline and recent public offerings
+- Acquisition activity and strategic buyers
+
+**Emerging Opportunities**
+- Underserved markets and niches
+- Technology trends creating new SaaS opportunities
+- Geographic expansion opportunities
+
+**Competitive Landscape**
+- Market leaders vs emerging challengers
+- Consolidation trends and market concentration
+
+Include specific data points, recent examples, and cite reputable sources. Focus on actionable insights for investors and founders."""
+
+    # Default placeholder content
+    placeholder_content = f"""<div style="padding: 20px; background-color: #f8f9fa; border-left: 4px solid #3B82F6; margin: 20px 0;">
+    <h2 style="color: #3B82F6; margin-top: 0;">📈 SaaS Market Analysis - {datetime.datetime.now().strftime("%B %d, %Y")}</h2>
+    <p style="color: #666; font-style: italic;">This page will be automatically updated with the latest SaaS market analysis when the Perplexity API is configured.</p>
+    
+    <h3>Coming Soon:</h3>
+    <ul>
+        <li><strong>Market Overview</strong> - Industry size, growth, and geographic trends</li>
+        <li><strong>Investment & Funding Trends</strong> - Funding patterns and valuations</li>
+        <li><strong>Industry Performance</strong> - Public SaaS stocks and IPO pipeline</li>
+        <li><strong>Emerging Opportunities</strong> - New markets and technology trends</li>
+        <li><strong>Competitive Landscape</strong> - Market leaders and consolidation</li>
+    </ul>
+    </div>"""
+
+    try:
+        analysis_markdown = call_perplexity_api_with_retry(analysis_prompt)
+        if analysis_markdown:
+            analysis_html = convert_perplexity_to_rich_html(analysis_markdown)
+            print("✅ Market Analysis page generated with API content.")
+        else:
+            analysis_html = placeholder_content
+            print("⚠️ Market Analysis page generated with placeholder content.")
+    except Exception as e:
+        print(f"⚠️ Market Analysis page using placeholder due to error: {e}")
+        analysis_html = placeholder_content
+
+    # Always create page context and render
+    analysis_context = {
+        'update_time': current_date,
+        'canonical_path': "/market-analysis.html",
+        'page_title': "SaaS Market Analysis",
+        'page_description': "Weekly SaaS market analysis covering funding trends, industry performance, and emerging opportunities.",
+        'content': analysis_html,
+        'is_main_page': False,
+        'current_year': datetime.datetime.now().year,
+        'all_keyword_pages_config': keyword_config.get('keyword_pages', {})
+    }
+    
+    # Render and save
+    analysis_template = env.get_template('saas_page_template.html')
+    analysis_page_html = analysis_template.render(analysis_context)
+    
+    with open('market-analysis.html', 'w', encoding='utf-8') as f:
+        f.write(analysis_page_html)
+    print("✅ Market Analysis page file created successfully.")
+
 def main():
     print("Starting PROMPTWIRE aggregator...")
     start_time = datetime.datetime.now()
@@ -1355,6 +1506,7 @@ def main():
             categorized_data = {cat: [] for cat in CATEGORIES} # Initialize to prevent errors
     else:
         print("New unique headlines found. Processing for categorization.")
+        print(f"📅 Template will use current date: {datetime.datetime.now().strftime('%Y-%m-%d')}")
         categorized_data = {
             category: [] for category in CATEGORY_KEYWORDS.keys()
         }
@@ -1421,6 +1573,57 @@ Generate fresh, current content about today's SaaS developments. Use your knowle
     else:
         print("⚠️ Perplexity API call for Flash Summary failed. Using fallback summary.")
 
+    # 4.6. Generate Daily SaaS Metrics Report
+    print("Generating Daily SaaS Metrics Report...")
+    
+    metrics_prompt = f"""Analyze the current SaaS industry metrics and provide a daily snapshot for {current_date}. Format as follows:
+
+**📊 SaaS METRICS SNAPSHOT - {current_date}**
+
+**Market Performance**
+- Latest SaaS stock performance and valuation multiples
+- Recent funding round sizes and trends
+- ARR growth rates trending in the market
+
+**Key Industry Numbers**
+- Average SaaS pricing model trends (per seat vs usage-based)  
+- Customer acquisition cost (CAC) benchmarks by segment
+- Churn rate industry averages
+
+**Today's Notable Metrics**
+- Any specific company metrics announced today
+- New SaaS unicorn valuations or milestones
+- Industry benchmark updates or research findings
+
+Keep metrics specific, include actual numbers when possible, and cite sources. Focus on actionable insights for SaaS professionals."""
+
+    # Default placeholder content for metrics
+    metrics_placeholder = f"""<div style="padding: 20px; background-color: #f8f9fa; border-left: 4px solid #3B82F6; margin: 20px 0;">
+    <h2 style="color: #3B82F6; margin-top: 0;">📊 SaaS Metrics Snapshot - {current_date}</h2>
+    <p style="color: #666; font-style: italic;">Daily SaaS industry metrics will appear here when the Perplexity API is configured.</p>
+    
+    <h3>Metrics Coming Soon:</h3>
+    <ul>
+        <li><strong>Market Performance</strong> - Stock performance, funding trends, ARR growth</li>
+        <li><strong>Industry Benchmarks</strong> - CAC, churn rates, pricing models</li>
+        <li><strong>Notable Milestones</strong> - Company announcements and valuations</li>
+    </ul>
+    </div>"""
+
+    try:
+        print("Attempting to generate SaaS Metrics Report with Perplexity API...")
+        metrics_markdown = call_perplexity_api_with_retry(metrics_prompt)
+        
+        if metrics_markdown:
+            saas_metrics_html = convert_perplexity_to_rich_html(metrics_markdown)
+            print("✅ SaaS Metrics Report generated with API content.")
+        else:
+            saas_metrics_html = metrics_placeholder
+            print("⚠️ SaaS Metrics using placeholder content.")
+    except Exception as e:
+        print(f"⚠️ SaaS Metrics using placeholder due to error: {e}")
+        saas_metrics_html = metrics_placeholder
+
     # 5. Render template
     env = Environment(
         loader=FileSystemLoader('templates/'),
@@ -1465,7 +1668,8 @@ Generate fresh, current content about today's SaaS developments. Use your knowle
         'is_main_page': True,
         'current_year': current_year_for_render,
         'all_keyword_pages_config': keyword_config.get('keyword_pages', {}),
-        'flash_summary': flash_summary_html  # Add flash summary to template context
+        'flash_summary': flash_summary_html,  # Add flash summary to template context
+        'saas_metrics': saas_metrics_html  # Add SaaS metrics to template context
     }
 
     # Render template with data for index.html
@@ -1491,6 +1695,10 @@ Generate fresh, current content about today's SaaS developments. Use your knowle
     # 7. Save the same output as index.html for the latest view
     latest_filename = "index.html"
     newly_published_urls_for_this_run = set() 
+    
+    # Force save index.html to ensure date update even with minimal content changes
+    print(f"🔄 Generating index.html with date: {current_date_for_render}")
+    
     try:
         for category_list in categorized_data.values():
             for item in category_list:
@@ -1547,6 +1755,11 @@ Generate fresh, current content about today's SaaS developments. Use your knowle
             print(f"No new URLs were published in this run, but saved cleaned processed URLs file ({len(processed_urls_dict)} URLs).")
         except IOError as e:
             print(f"Error writing cleaned {processed_urls_file}: {e}")
+
+    # 8. Generate Additional SaaS Pages
+    print("Generating SaaS Tool Recommendations and Market Analysis pages...")
+    generate_saas_tools_page(env, current_date_for_render)
+    generate_market_analysis_page(env, current_date_for_render)
 
     end_time = datetime.datetime.now()
     print(f"Aggregation finished in {(end_time - start_time).total_seconds():.2f} seconds.")

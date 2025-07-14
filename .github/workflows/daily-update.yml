@@ -66,7 +66,7 @@ jobs:
         fi
       continue-on-error: false  # Fail the workflow if aggregator fails completely
       
-    - name: Verify generated files
+    - name: Verify generated files and check for changes
       run: |
         echo "Checking generated SaaS files..."
         echo "Main files:"
@@ -80,6 +80,17 @@ jobs:
         
         echo "Data files:"
         ls -la processed_urls.json data/ topic_archives/ 2>/dev/null || echo "⚠️  Some data files missing"
+        
+        echo ""
+        echo "🔍 Checking for content changes..."
+        echo "Current date in index.html:"
+        grep -o "Updated: [0-9-]*" index.html || echo "Date pattern not found"
+        
+        echo "Last modified times of key files:"
+        stat -c "%y %n" index.html processed_urls.json data/main_page_content.json 2>/dev/null || echo "Some files missing"
+        
+        echo "Archive file for today:"
+        ls -la archive/$(date +%Y-%m-%d).html 2>/dev/null || echo "No archive file for today"
         
     - name: Generate RSS feed
       run: |
@@ -120,11 +131,32 @@ jobs:
                    *-updates.html \
                    saas-*.html 2>/dev/null || echo "Some files may not exist"
         
+        # Debug: Show what files are staged
+        echo "📊 Files currently staged:"
+        git diff --staged --name-only || echo "No files staged"
+        
         # Check if there are actually changes to commit
         if git diff --staged --quiet; then
-          echo "📝 No changes to commit"
-          exit 0
-        fi
+          echo "📝 No git changes detected, but aggregator ran successfully"
+          echo "⚠️  This might indicate identical content generation"
+          echo "🔍 Checking if key files were touched..."
+          
+          # Force stage the critical files if they exist and were recently modified
+          if [ -f "index.html" ] && [ $(find index.html -mmin -5 | wc -l) -gt 0 ]; then
+            echo "🔄 index.html was recently modified, force staging..."
+            git add -f index.html
+          fi
+          
+                     # Re-check after force staging
+           if git diff --staged --quiet; then
+             echo "📝 Still no changes to commit - content truly identical"
+             echo "⚠️  This suggests all sources provided the same content as last run"
+             echo "💡 Consider checking if RSS feeds, NewsAPI, or Perplexity API are stale"
+             exit 0
+           else
+             echo "✅ Found changes after force staging"
+           fi
+         fi
         
         echo "Changes detected, preparing to commit..."
         

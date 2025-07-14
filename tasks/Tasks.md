@@ -5,9 +5,9 @@ Tasks.md
 ## Phase 3: Immediate QA Fixes (IN PROGRESS)
 
 ### Critical Issues - Next Up
-- [ ] **PRIORITY 1**: Add Flash Summary Component to index.html (missing daily summary section)
-- [ ] **PRIORITY 2**: Fix archive page H1 sizing to match index.html consistency
-- [ ] **PRIORITY 3**: Update topic page taglines - remove "Artificial Intelligence News at Machine Speed" → "Software Intelligence, Business Speed"
+- [x] **PRIORITY 1**: Add Flash Summary Component to index.html (missing daily summary section)
+- [x] **PRIORITY 2**: Fix archive page H1 sizing to match index.html consistency
+- [x] **PRIORITY 3**: Update topic page taglines - remove "Artificial Intelligence News at Machine Speed" → "Software Intelligence, Business Speed"
 
 ### Template Consistency Issues
 - [x] Verify H1 consistency across all pages (some pages may have different H1 styling e.g archive). Index.html has the correct h1.
@@ -73,6 +73,23 @@ All content aggregation systems are now properly configured and tested for SaaS-
 - [x] Add link to aiflashreport.com to panel on /about and remove the link to saasflashreport as that is THIS site
 - [x] change site tag line to the latest Saas news at breaking speed
 - [x] remove duplicate archive page link in the footer
+
+
+## Local QA Task List
+
+- [x] **Opengraph Lettermark**: Confirm that an on-brand lettermark/logo is created and set for OpenGraph/social media previews (check `meta` tags and preview on Twitter/X, LinkedIn, Facebook).
+- [x] **SEO Keywords**: Add and verify the following keywords in the `<meta name="keywords">` tag on all pages: `saas news, saas updates, saas industry, saas funding news, saas news today`.
+- [x] **Menu Cleanup**: Remove the RSS link from the navigation menu on `/about` (it should only appear in the footer). Double-check that the menu is consistent across all pages.
+- [x] **Contact Form Simplification**: Update the contact form to remove the subject line dropdown and organization field. Use a standard subject line for all submissions. Test the form to ensure it works as expected.
+- [x] **Sitemap & Robots.txt Validation**: Validate that `sitemap.xml` and `robots.txt` exist, are up-to-date, and follow SEO best practices (e.g., correct URLs, no disallowed important pages, sitemap is referenced in robots.txt).
+- [x] **Footer Links Consistency**: Remove any duplicate `/index` links from the footer. Ensure there is only one link to the homepage and that the footer is identical on all pages.
+- [x] **Topic Page Story Message Bug**: Investigate and fix the issue where topic pages display both stories and the message: "No stories found for this topic yet. Stories are automatically added daily when they match relevant keywords." (e.g., https://saasflashreport.com/topics/ipos-acquisitions-page-10). The message should only appear if there are truly no stories for the topic.
+
+### Additional QA Steps (for completeness)
+- [x] **Cross-Page Consistency**: Review all pages for consistent branding, navigation, and footer.
+- [x] **Meta Tag Review**: Ensure all pages have correct and up-to-date meta tags (title, description, OpenGraph, Twitter Card).
+- [x] **Mobile Responsiveness**: Check that all changes render correctly on mobile devices.
+- [x] **Accessibility**: Confirm that navigation and forms are accessible (labels, alt text, keyboard navigation).
 
 ### Content Validation
 - [x] Newsletter forms mention "SaaS professionals" 
