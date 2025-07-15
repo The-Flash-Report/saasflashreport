@@ -98,7 +98,7 @@ class FlashSummaryGenerator:
             # Remove any bold markdown formatting
             headline = re.sub(r'^\*\*(.+)\*\*$', r'\1', headline)
             # Replace with h2 wrapped version
-            h2_headline = f'<h2 style="color: {self.config.text_color}; font-size: 1.4em; margin: 15px 0; font-weight: bold; line-height: 1.3;">{headline}</h2>'
+            h2_headline = f'<h2 style="color: {self.config.link_color}; font-size: 1.4em; margin: 15px 0; font-weight: bold; line-height: 1.3;">{headline}</h2>'
             lines[headline_index] = h2_headline
             return '\n'.join(lines)
             
@@ -198,13 +198,13 @@ class FlashSummaryGenerator:
         html_content = content
         
         # Convert markdown links [text](url) to HTML links
-        html_content = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2" target="_blank" rel="noopener" style="color: #dc3545;">\1</a>', html_content)
+        html_content = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', f'<a href="\\2" target="_blank" rel="noopener" style="color: {self.config.link_color};">\\1</a>', html_content)
         
         # Convert **bold** to <strong>
         html_content = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', html_content)
         
-        # Convert bullet points to simple list items (no extra styling)
-        html_content = re.sub(r'^- (.+)$', r'• \1', html_content, flags=re.MULTILINE)
+        # Convert bullet points to styled list items with brand color
+        html_content = re.sub(r'^- (.+)$', f'<span style="color: {self.config.link_color}; font-weight: bold;">•</span> \\1', html_content, flags=re.MULTILINE)
         
         # Convert newlines to <br> tags
         html_content = re.sub(r'\n', '<br>', html_content)

@@ -145,6 +145,56 @@
         footer a:hover {
             color: #555;
         }
+        
+        /* Quote of the Day Section Styling */
+        .quote-of-the-day {
+            border: none;
+            border-left: 4px solid #3B82F6;
+            background-color: #f8fafe;
+            padding: 25px;
+            margin: 40px 0 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            position: relative;
+        }
+        .quote-of-the-day:before {
+            content: "💭"; /* Thought bubble emoji as decoration */
+            position: absolute;
+            top: -15px;
+            left: 15px;
+            font-size: 24px;
+            background: white;
+            padding: 0 10px;
+        }
+        .quote-of-the-day h3 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #3B82F6;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1.1em;
+        }
+        .quote-text {
+            font-style: italic;
+            font-size: 1.1em;
+            line-height: 1.5;
+            color: #333;
+            margin-bottom: 15px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .quote-author {
+            font-weight: bold;
+            color: #3B82F6;
+            font-size: 0.95em;
+        }
+        .quote-company {
+            color: #666;
+            font-size: 0.85em;
+            margin-top: 5px;
+        }
     </style>
     <script defer data-domain="saasflashreport.com" src="https://plausible.io/js/script.outbound-links.js"></script>
 </head>
@@ -176,9 +226,17 @@
             {{ content|safe }}
         </div>
 
+        <!-- Quote of the Day Section -->
+        <div class="quote-of-the-day">
+            <h3>Quote of the Day</h3>
+            <div class="quote-text">"{{ quote_of_the_day.quote }}"</div>
+            <div class="quote-author">- {{ quote_of_the_day.author }}</div>
+            <div class="quote-company">{{ quote_of_the_day.company }}</div>
+        </div>
+
         <footer>
             <p>&copy; {{ current_year }} SaaS Flash Report. Updated daily with the latest SaaS industry news.</p>
-            <p><a href="/about.html">About</a> | <a href="/contact.html">Contact</a> | <a href="/archive/">Archive</a> | <a href="/sitemap.xml">🗺️ Sitemap</a></p>
+            <p><a href="/about.html">About</a> | <a href="/contact.html">Contact</a> | <a href="/market-analysis.html">Market Analysis</a> | <a href="/saas-tools.html">SaaS Tools</a> | <a href="/archive/">Archive</a> | <a href="/sitemap.xml">🗺️ Sitemap</a></p>
         </footer>
     </div>
 </body>

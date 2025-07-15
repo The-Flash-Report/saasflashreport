@@ -50,8 +50,8 @@ class FlashSummaryConfig:
     def for_saas_site(cls) -> "FlashSummaryConfig":
         """Configuration preset for SaaS news sites."""
         return cls(
-            link_color="#0066cc",  # Professional blue
-            border_left="4px solid #0066cc",
+            link_color="#3B82F6",  # SaaS Flash Report brand blue
+            border_left="4px solid #3B82F6",
             background_color="#f9f9f9"
         )
     

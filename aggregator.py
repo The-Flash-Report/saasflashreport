@@ -10,6 +10,7 @@ from langdetect import detect, LangDetectException # Added for language detectio
 from dateutil import parser as date_parser
 import time
 import base64 # Added for API key decoding
+import random
 
 # Flash Summary Component
 from flash_summary_component import FlashSummaryGenerator, FlashSummaryConfig
@@ -388,7 +389,8 @@ def generate_keyword_page_files(keyword_pages_data, env):
                     current_page=1,
                     total_pages=1,
                     total_stories=len(data['articles']),
-                    page_key=page_key
+                    page_key=page_key,
+                    quote_of_the_day=get_quote_of_the_day()  # Add quote to keyword pages
                 )
                 with open(os.path.join(output_dir, f"{page_key}.html"), "w") as f:
                     f.write(html_content)
@@ -456,7 +458,8 @@ def generate_keyword_page_files(keyword_pages_data, env):
                         canonical_path=canonical_path,
                         all_keyword_pages_config=keyword_config.get('keyword_pages', {}),
                         # Pagination data
-                        **pagination_info
+                        **pagination_info,
+                        quote_of_the_day=get_quote_of_the_day()  # Add quote to paginated keyword pages
                     )
                     # --- Insert recent archive links in the footer ---
                     try:
@@ -1326,7 +1329,8 @@ Include pricing, key features, and target company size for each recommendation. 
         'content': tools_html,
         'is_main_page': False,
         'current_year': datetime.datetime.now().year,
-        'all_keyword_pages_config': keyword_config.get('keyword_pages', {})
+        'all_keyword_pages_config': keyword_config.get('keyword_pages', {}),
+        'quote_of_the_day': get_quote_of_the_day()  # Add quote to SaaS Tools page
     }
     
     # Render and save
@@ -1405,7 +1409,8 @@ Include specific data points, recent examples, and cite reputable sources. Focus
         'content': analysis_html,
         'is_main_page': False,
         'current_year': datetime.datetime.now().year,
-        'all_keyword_pages_config': keyword_config.get('keyword_pages', {})
+        'all_keyword_pages_config': keyword_config.get('keyword_pages', {}),
+        'quote_of_the_day': get_quote_of_the_day()  # Add quote to Market Analysis page
     }
     
     # Render and save
@@ -1721,7 +1726,8 @@ Keep metrics specific, include actual numbers when possible, and cite sources. F
         'current_year': current_year_for_render,
         'all_keyword_pages_config': keyword_config.get('keyword_pages', {}),
         'flash_summary': flash_summary_html,  # Add flash summary to template context
-        'saas_metrics': saas_metrics_html  # Add SaaS metrics to template context
+        'saas_metrics': saas_metrics_html,  # Add SaaS metrics to template context
+        'quote_of_the_day': get_quote_of_the_day()  # Add quote of the day to template context
     }
 
     # Render template with data for index.html
@@ -1735,6 +1741,7 @@ Keep metrics specific, include actual numbers when possible, and cite sources. F
         archive_page_context['is_main_page'] = False
         # The 'next_url' logic is no longer needed as the button has been removed from the template.
         archive_page_context['next_url'] = None
+        archive_page_context['quote_of_the_day'] = get_quote_of_the_day()  # Ensure quote is available in archive
         
         archive_html = template.render(archive_page_context)
         
@@ -1901,6 +1908,117 @@ def paginate_stories(stories, stories_per_page=STORIES_PER_PAGE):
     for i in range(0, len(stories), stories_per_page):
         pages.append(stories[i:i + stories_per_page])
     return pages
+
+def get_quote_of_the_day():
+    """Return a SaaS/software quote of the day based on current date."""
+    quotes = [
+        {
+            "quote": "You must always be able to predict what's next and then have the flexibility to evolve.",
+            "author": "Marc Benioff",
+            "company": "Salesforce"
+        },
+        {
+            "quote": "The secret to successful hiring is this: look for the people who want to change the world.",
+            "author": "Marc Benioff", 
+            "company": "Salesforce"
+        },
+        {
+            "quote": "You need to have a beginner's mind to create bold innovation.",
+            "author": "Marc Benioff",
+            "company": "Salesforce"
+        },
+        {
+            "quote": "Multi-Tenancy is a requirement for a SaaS vendor to be successful.",
+            "author": "Marc Benioff",
+            "company": "Salesforce"
+        },
+        {
+            "quote": "Software is eating the world.",
+            "author": "Marc Andreessen",
+            "company": "Andreessen Horowitz"
+        },
+        {
+            "quote": "The best way to predict the future is to invent it.",
+            "author": "Alan Kay",
+            "company": "Computer Scientist"
+        },
+        {
+            "quote": "In order to remain relevant, you must establish yourself as a thought leader in your industry.",
+            "author": "Marc Benioff",
+            "company": "Salesforce"
+        },
+        {
+            "quote": "Most of all, I discovered that in order to succeed with a product you must truly get to know your customers and build something for them.",
+            "author": "Marc Benioff",
+            "company": "Salesforce"
+        },
+        {
+            "quote": "Don't be afraid to give up the good to go for the great.",
+            "author": "John D. Rockefeller",
+            "company": "Business Pioneer"
+        },
+        {
+            "quote": "The way to get started is to quit talking and begin doing.",
+            "author": "Walt Disney",
+            "company": "Disney"
+        },
+        {
+            "quote": "Innovation distinguishes between a leader and a follower.",
+            "author": "Steve Jobs",
+            "company": "Apple"
+        },
+        {
+            "quote": "Your most unhappy customers are your greatest source of learning.",
+            "author": "Bill Gates",
+            "company": "Microsoft"
+        },
+        {
+            "quote": "The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency.",
+            "author": "Bill Gates",
+            "company": "Microsoft"
+        },
+        {
+            "quote": "If you are not embarrassed by the first version of your product, you've launched too late.",
+            "author": "Reid Hoffman",
+            "company": "LinkedIn"
+        },
+        {
+            "quote": "The only way to win is to learn faster than anyone else.",
+            "author": "Eric Ries",
+            "company": "The Lean Startup"
+        },
+        {
+            "quote": "Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.",
+            "author": "Mark Zuckerberg",
+            "company": "Meta"
+        },
+        {
+            "quote": "Code is poetry.",
+            "author": "WordPress",
+            "company": "WordPress Foundation"
+        },
+        {
+            "quote": "Focus on the customer and all else will follow.",
+            "author": "Jeff Bezos",
+            "company": "Amazon"
+        },
+        {
+            "quote": "Building a great software company is hard. Building a great SaaS company is harder.",
+            "author": "Jason Lemkin",
+            "company": "SaaStr"
+        },
+        {
+            "quote": "In SaaS, you're only as good as your last month's numbers.",
+            "author": "David Skok",
+            "company": "Matrix Partners"
+        }
+    ]
+    
+    # Use date as seed for consistent daily quote
+    current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+    random.seed(current_date)
+    
+    return random.choice(quotes)
 
 if __name__ == "__main__":
     main() 
