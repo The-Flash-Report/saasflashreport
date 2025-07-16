@@ -1,18 +1,522 @@
 {
-    "SaaS Funding": [],
-    "Enterprise Software": [],
-    "Product Launches": [],
-    "SaaS Analytics": [],
-    "B2B Technology": [],
-    "Software Industry": [
+    "SaaS Funding": [
         {
-            "title": "Not The Onion",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1m0glih/not_the_onion/",
-            "source": "Reddit r/openai",
+            "title": "What the Latest NVCA Data Actually Means for Your Startup: Round Sizes, Pacing, Exits and More",
+            "url": "https://www.saastr.com/vcatfirsthalf2025/",
+            "source": "SaaStr",
             "published_date_obj": "2025-07-15",
-            "rewritten_title": "Not the Onion"
+            "rewritten_title": "What the Latest Nvca Data Actually Means for Your Startup: Round Sizes, Pacing, Exits And..."
         }
     ],
-    "SaaS Acquisitions": [],
-    "SaaS Metrics": []
+    "Enterprise Software": [
+        {
+            "title": "What Humans and Roles You Can Replace with AI in B2B Today.  And What You Can\u2019t.",
+            "url": "https://www.saastr.com/the-ai-automation-roadmap-what-roles-you-can-replace-in-b2b-today-and-what-you-cant/",
+            "source": "SaaStr",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "What Humans and Roles You Can Replace with Ai in B2b Today. and What You..."
+        },
+        {
+            "title": "From chaos to clarity: Using GitHub Copilot agents to improve developer workflows",
+            "url": "https://github.blog/ai-and-ml/github-copilot/from-chaos-to-clarity-using-github-copilot-agents-to-improve-developer-workflows/",
+            "source": "GitHub Blog",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "From Chaos to Clarity: Using Github Copilot Agents to Improve Developer Workflows"
+        },
+        {
+            "title": "Outbound is Broken \u2014 and Why We\u2019re Excited About Unifying the Sales Workflow",
+            "url": "https://www.battery.com/blog/outbound-is-broken-and-why-were-excited-about-unifying-the-sales-workflow/",
+            "source": "Battery Ventures",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Outbound Is Broken \u2014 and Why We\u2019re Excited About Unifying the Sales Workflow"
+        }
+    ],
+    "Product Launches": [
+        {
+            "title": "Nintendo Switch 2 System Update 20.2.0 Is Now Live, Here Are The Full Patch Notes - Nintendo Life",
+            "url": "https://www.nintendolife.com/news/2025/07/nintendo-switch-2-system-update-20-2-0-is-now-live-here-are-the-full-patch-notes",
+            "source": "NewsAPI (Nintendo Life)",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Nintendo Switch 2 System Update 20.2.0 Is Now Live, Here Are the Full Patch Notes..."
+        },
+        {
+            "title": "Sagat gameplay trailer set to release tomorrow for Street Fighter 6 - EventHubs",
+            "url": "https://www.eventhubs.com/news/2025/jul/14/sagat-trailer-release-sf6/",
+            "source": "NewsAPI (EventHubs)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Sagat Gameplay Trailer Set to Release Tomorrow for Street Fighter 6 - Eventhubs"
+        },
+        {
+            "title": "Switch 2 restock coming to Best Buy for Donkey Kong Bananza launch - Polygon",
+            "url": "https://www.polygon.com/nintendo-switch-2/612990/restocks-best-buy-donkey-kong-bananza-launch-day",
+            "source": "NewsAPI (Polygon)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Switch 2 Restock Coming to Best Buy for Donkey Kong Bananza Launch - Polygon"
+        },
+        {
+            "title": "Destiny 2 Edge of Fate Soundtrack: Full Tracklist Revealed Ahead of Official Launch - The Game Post",
+            "url": "https://thegamepost.com/destiny-2-edge-of-fate-soundtrack-revealed/",
+            "source": "NewsAPI (Thegamepost.com)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Destiny 2 Edge of Fate Soundtrack: Full Tracklist Revealed Ahead of Official Launch - The..."
+        },
+        {
+            "title": "Google preparing big update for Pixel \u2018At a Glance\u2019 with sports score cards, more [Gallery] - 9to5Google",
+            "url": "http://9to5google.com/2025/07/14/google-pixel-at-a-glance-card-update-prep/",
+            "source": "NewsAPI (9to5google.com)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Google Preparing Big Update for Pixel \u2018at a Glance\u2019 with Sports Score Cards, More [gallery]..."
+        },
+        {
+            "title": "Microsoft\u2019s extra year of free Windows 10 security updates feels like a last-minute snooze button \u2014 while groups like \"The Restart Project\" still want to help users - Windows Central",
+            "url": "https://www.windowscentral.com/microsoft/windows-10/extra-year-free-windows-10-security-updates-feels-like-snooze-button",
+            "source": "NewsAPI (Windows Central)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Microsoft\u2019s Extra Year of Free Windows 10 Security Updates Feels Like a Last-minute Snooze Button..."
+        },
+        {
+            "title": "Warhammer 40K: Dawn of War \u2013 Definitive Edition gets an August release date, with a chunky discount for Anniversary owners - Rock Paper Shotgun",
+            "url": "https://www.rockpapershotgun.com/warhammer-40k-dawn-of-war-definitive-edition-gets-an-august-release-date-with-a-chunky-discount-for-anniversary-owners",
+            "source": "NewsAPI (Rock Paper Shotgun)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Warhammer 40k: Dawn of War \u2013 Definitive Edition Gets an August Release Date, with A..."
+        },
+        {
+            "title": "Microsoft announced 9,000 layoffs. What does that mean for WA state? - The Olympian",
+            "url": "https://www.theolympian.com/news/state/washington/article310407150.html",
+            "source": "NewsAPI (The Olympian)",
+            "published_date_obj": "2025-07-13",
+            "rewritten_title": "Microsoft Announced 9,000 Layoffs. What Does That Mean for Wa State? - the Olympian"
+        },
+        {
+            "title": "What to do when users just want the old version back",
+            "url": "https://blog.logrocket.com/ux-design/handling-user-resistance-ux/",
+            "source": "LogRocket",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "What to Do When Users Just Want the Old Version Back"
+        },
+        {
+            "title": "Best news ever Claude just added support for windows \ud83e\udd2ffound out from Claude code update \ud83e\udd2f\ud83e\udd2f\ud83e\udd2f",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1m0qsfx/best_news_ever_claude_just_added_support_for/",
+            "source": "Reddit r/claudeai",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Best News Ever Claude Just Added Support for Windows \ud83e\udd2ffound Out From Claude Code Update..."
+        },
+        {
+            "title": "Lightx2v just released a I2V version of their distill lora.",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1m125ih/lightx2v_just_released_a_i2v_version_of_their/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-07-16",
+            "rewritten_title": "Lightx2v Just Released a I2v Version of Their Distill Lora."
+        }
+    ],
+    "SaaS Analytics": [
+        {
+            "title": "Bose is offering an extra 25% off refurbished headphones, earbuds, and portable speakers - The Verge",
+            "url": "https://www.theverge.com/tech/706887/bose-refurbished-quietcomfort-headphones-earbuds-deal-sale",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Bose Is Offering an Extra 25% Off Refurbished Headphones, Earbuds, and Portable Speakers - The..."
+        },
+        {
+            "title": "Disable These Two Settings to Stop T-Mobile From Harvesting Even More of Your Data - Lifehacker",
+            "url": "https://lifehacker.com/tech/turn-off-these-two-t-mobile-privacy-features",
+            "source": "NewsAPI (Lifehacker.com)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Disable These Two Settings to Stop T-mobile From Harvesting Even More of Your Data -..."
+        },
+        {
+            "title": "BioShock Creator Says New Game Judas Bucks All These Major Gaming Trends - GameSpot",
+            "url": "https://www.gamespot.com/articles/bioshock-creator-says-new-game-judas-bucks-all-these-major-gaming-trends/1100-6533130/",
+            "source": "NewsAPI (GameSpot)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Bioshock Creator Says New Game Judas Bucks All These Major Gaming Trends - Gamespot"
+        },
+        {
+            "title": "Cory Barlog Busy on Sony Santa Monica's 'Next Big Thing' - Push Square",
+            "url": "https://www.pushsquare.com/news/2025/07/cory-barlog-busy-on-sony-santa-monicas-next-big-thing",
+            "source": "NewsAPI (Push Square)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Cory Barlog Busy on Sony Santa Monica's 'next Big Thing' - Push Square"
+        },
+        {
+            "title": "FBI says it's now seized \"multiple\" ROM piracy sites, claims downloads resulted in $170m losses in just three months - Eurogamer",
+            "url": "https://www.eurogamer.net/fbi-says-its-now-seized-multiple-rom-piracy-sites-claims-downloads-resulted-in-170m-losses-in-just-three-months",
+            "source": "NewsAPI (Eurogamer.net)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Fbi Says It's Now Seized \"multiple\" Rom Piracy Sites, Claims Downloads Resulted in $170m Losses..."
+        },
+        {
+            "title": "I got my hands on the foldable phone that fixes the Galaxy Z Fold 7's biggest issues - Android Authority",
+            "url": "https://www.androidauthority.com/vivo-x-fold-5-hands-on-3576741/",
+            "source": "NewsAPI (Android Authority)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "I Got My Hands on the Foldable Phone That Fixes the Galaxy Z Fold 7's..."
+        },
+        {
+            "title": "PlayStation Plus users praise 'best' free game drop in service's history - GAMINGbible",
+            "url": "https://www.gamingbible.com/news/platform/playstation/playstation-plus-free-game-drop-best-930518-20250714",
+            "source": "NewsAPI (Gamingbible.com)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Playstation Plus Users Praise 'best' Free Game Drop in Service's History - Gamingbible"
+        },
+        {
+            "title": "Google Gemini for Workspace Vulnerability Lets Attackers Hide Malicious Scripts in Emails - CyberSecurityNews",
+            "url": "https://cybersecuritynews.com/google-gemini-for-workspace-vulnerability/",
+            "source": "NewsAPI (Cybersecuritynews.com)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Google Gemini for Workspace Vulnerability Lets Attackers Hide Malicious Scripts in Emails - Cybersecuritynews"
+        },
+        {
+            "title": "[R] Interactive Probabilistic Neural Network Decision Matrix Model",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1m11bog/r_interactive_probabilistic_neural_network/",
+            "source": "Reddit r/MachineLearning",
+            "published_date_obj": "2025-07-16",
+            "rewritten_title": "[r] Interactive Probabilistic Neural Network Decision Matrix Model"
+        }
+    ],
+    "B2B Technology": [
+        {
+            "title": "Cloudflare 1.1.1.1 Incident on July 14, 2025",
+            "url": "https://blog.cloudflare.com/cloudflare-1-1-1-1-incident-on-july-14-2025/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Cloudflare 1.1.1.1 Incident on July 14, 2025"
+        },
+        {
+            "title": "Cloudflare recognized as a Visionary in 2025 Gartner\u00ae Magic Quadrant\u2122 for SASE Platforms",
+            "url": "https://blog.cloudflare.com/cloudflare-sase-gartner-magic-quadrant-2025/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Cloudflare Recognized as a Visionary in 2025 Gartner\u00ae Magic Quadrant\u2122 for Sase Platforms"
+        }
+    ],
+    "Software Industry": [
+        {
+            "title": "Child of Home Run Derby Thread - Lookout Landing",
+            "url": "https://www.lookoutlanding.com/2025/7/14/24467992/child-of-home-run-derby-thread",
+            "source": "NewsAPI (Lookout Landing)",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Child of Home Run Derby Thread - Lookout Landing"
+        },
+        {
+            "title": "Arc System Works has apparently canceled a new Guilty Gear game - My Nintendo News",
+            "url": "https://mynintendonews.com/2025/07/14/arc-system-works-has-apparently-canceled-a-new-guilty-gear-game/",
+            "source": "NewsAPI (My Nintendo News)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Arc System Works Has Apparently Canceled a New Guilty Gear Game - My Nintendo News"
+        },
+        {
+            "title": "The Best And Only Available John Wick Game Is Being Removed In 72 Hours - Kotaku",
+            "url": "https://kotaku.com/john-wick-hex-delisting-steam-removed-three-days-ps4-pc-1851786259",
+            "source": "NewsAPI (Kotaku)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "The Best and Only Available John Wick Game Is Being Removed in 72 Hours -..."
+        },
+        {
+            "title": "10 Most Exciting Games Still To Come in 2025 - DualShockers",
+            "url": "https://www.dualshockers.com/most-exciting-games-still-to-come-2025/",
+            "source": "NewsAPI (DualShockers)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "10 Most Exciting Games Still to Come in 2025 - Dualshockers"
+        },
+        {
+            "title": "M5 iPad Pro could finally deliver something we\u2019ve all been asking for - 9to5Mac",
+            "url": "https://9to5mac.com/2025/07/14/m5-ipad-pro-could-finally-deliver-something-weve-all-been-asking-for/",
+            "source": "NewsAPI (9to5Mac)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "M5 Ipad Pro Could Finally Deliver Something We\u2019ve All Been Asking for - 9to5mac"
+        },
+        {
+            "title": "Comprehensive Pixel 10 Pro Fold spec leak leaves little to the imagination - Android Police",
+            "url": "https://www.androidpolice.com/pixel-10-pro-fold-spec-sheet-leak/",
+            "source": "NewsAPI (Android Police)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Comprehensive Pixel 10 Pro Fold Spec Leak Leaves Little to the Imagination - Android Police"
+        },
+        {
+            "title": "Rex Splode revealed for Invincible Vs with new gameplay trailer - EventHubs",
+            "url": "https://www.eventhubs.com/news/2025/jul/14/rex-splode-invincible-vs-gameplay/",
+            "source": "NewsAPI (EventHubs)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Rex Splode Revealed for Invincible Vs with New Gameplay Trailer - Eventhubs"
+        },
+        {
+            "title": "Google\u2019s curated AI \u2018notebooks\u2019 talk you through topics from parenting to Shakespeare - The Verge",
+            "url": "https://www.theverge.com/news/706854/google-notebooklm-featured-notebook-ai-topics",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Google\u2019s Curated Ai \u2018notebooks\u2019 Talk You Through Topics From Parenting to Shakespeare - the Verge"
+        },
+        {
+            "title": "The Sonic x Magic: The Gathering Secret Lair Drop Saw Eager Fans Running Headfirst Into Long Waits and Queues - IGN",
+            "url": "https://www.ign.com/articles/the-sonic-x-magic-the-gathering-secret-lair-drop-saw-eager-fans-running-headfirst-into-long-waits-and-queues",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "The Sonic X Magic: the Gathering Secret Lair Drop Saw Eager Fans Running Headfirst Into..."
+        },
+        {
+            "title": "Tony Hawk 3+4's Unexpected Guitar Hero Reference Is Being Removed After Being Deemed Disrespectful - GameSpot",
+            "url": "https://www.gamespot.com/articles/tony-hawk-34s-unexpected-guitar-hero-reference-is-being-removed-after-being-deemed-disrespectful/1100-6533143/",
+            "source": "NewsAPI (GameSpot)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Tony Hawk 3+4's Unexpected Guitar Hero Reference Is Being Removed After Being Deemed Disrespectful -..."
+        },
+        {
+            "title": "Fortnite fans forced to apologize to the public after getting banned for life - Polygon",
+            "url": "https://www.polygon.com/news/612950/fortnite-cheater-ddos-apology-youtube-legal-action-epic-games",
+            "source": "NewsAPI (Polygon)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Fortnite Fans Forced to Apologize to the Public After Getting Banned for Life - Polygon"
+        },
+        {
+            "title": "Anthropic\u2019s Claude chatbot can now make and edit your Canva designs - The Verge",
+            "url": "https://www.theverge.com/news/706637/canva-anthropic-claude-ai-mcp-support",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Anthropic\u2019s Claude Chatbot Can Now Make and Edit Your Canva Designs - the Verge"
+        },
+        {
+            "title": "S Pen support may not be over for Galaxy Z Fold phones just yet - Android Police",
+            "url": "https://www.androidpolice.com/s-pen-support-may-return-on-future-galaxy-z-fold-phone/",
+            "source": "NewsAPI (Android Police)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "S Pen Support May Not Be Over for Galaxy Z Fold Phones Just Yet -..."
+        },
+        {
+            "title": "Switch 2 Players Are Begging For A Nintendo Direct And One Is Reportedly Coming Before The End Of July - Kotaku",
+            "url": "https://kotaku.com/switch-2-nintendo-direct-july-mario-red-dead-2-1851786219",
+            "source": "NewsAPI (Kotaku)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Switch 2 Players Are Begging for a Nintendo Direct and One Is Reportedly Coming Before..."
+        },
+        {
+            "title": "\u2018I want to report a crime\u2019: BBC mocked for its wonky Nintendo setup - Video Games Chronicle",
+            "url": "https://www.videogameschronicle.com/news/i-want-to-report-a-crime-bbc-mocked-for-its-wonky-nintendo-setup/",
+            "source": "NewsAPI (Video Games Chronicle)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "\u2018i Want to Report a Crime\u2019: Bbc Mocked for Its Wonky Nintendo Setup - Video..."
+        },
+        {
+            "title": "Sky Blue Color Now Rumored for iPhone 17 Air Instead of iPhone 17 Pro - MacRumors",
+            "url": "https://www.macrumors.com/2025/07/14/no-sky-blue-iphone-17-pro-anymore/",
+            "source": "NewsAPI (MacRumors)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Sky Blue Color Now Rumored for Iphone 17 Air Instead of Iphone 17 Pro -..."
+        },
+        {
+            "title": "Xbox graphics department lead puts out cringe-worthy hiring post... with AI graphics - Eurogamer",
+            "url": "https://www.eurogamer.net/head-of-xbox-graphics-department-puts-out-cringe-worthy-hiring-post-with-ai-graphics",
+            "source": "NewsAPI (Eurogamer.net)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Xbox Graphics Department Lead Puts Out Cringe-worthy Hiring Post... with Ai Graphics - Eurogamer"
+        },
+        {
+            "title": "Sony\u2019s Best-in-Class ANC Headphones May Have a Major Design Flaw - Gizmodo",
+            "url": "https://gizmodo.com/sonys-best-in-class-anc-headphones-may-have-a-major-design-flaw-2000628804",
+            "source": "NewsAPI (Gizmodo.com)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Sony\u2019s Best-in-class Anc Headphones May Have a Major Design Flaw - Gizmodo"
+        },
+        {
+            "title": "Physical Copies of Clair Obscur: Expedition 33 Keep Vanishing at Amazon - IGN",
+            "url": "https://www.ign.com/articles/clair-obscur-expedition-33-ps5-where-to-buy-in-stock",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Physical Copies of Clair Obscur: Expedition 33 Keep Vanishing at Amazon - Ign"
+        },
+        {
+            "title": "Donkey Kong Bananza started development after Super Mario Odyssey, and wouldn't have been possible on the original Switch - Eurogamer",
+            "url": "https://www.eurogamer.net/donkey-kong-bananza-started-development-after-super-mario-odyssey-and-wouldnt-have-been-possible-on-the-original-switch",
+            "source": "NewsAPI (Eurogamer.net)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Donkey Kong Bananza Started Development After Super Mario Odyssey, and Wouldn't Have Been Possible On..."
+        },
+        {
+            "title": "Tony Hawk responds to \u2018Pro Skater\u2019 soundtrack backlash - NME",
+            "url": "https://www.nme.com/news/gaming-news/tony-hawk-responds-to-pro-skater-soundtrack-backlash-alien-ant-farm-3878177",
+            "source": "NewsAPI (NME)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Tony Hawk Responds to \u2018pro Skater\u2019 Soundtrack Backlash - Nme"
+        },
+        {
+            "title": "Should you upgrade to the Galaxy Watch 8 or Watch 8 Classic? - Android Central",
+            "url": "https://www.androidcentral.com/wearables/should-you-upgrade-to-samsung-galaxy-watch-8-or-watch-8-classic",
+            "source": "NewsAPI (Android Central)",
+            "published_date_obj": "2025-07-13",
+            "rewritten_title": "Should You Upgrade to the Galaxy Watch 8 or Watch 8 Classic? - Android Central"
+        },
+        {
+            "title": "The Rise of the Agent Manager",
+            "url": "https://www.tomtunguz.com/how-many-agents-can-you-manage/",
+            "source": "Tomasz Tunguz",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "The Rise of the Agent Manager"
+        },
+        {
+            "title": "How to Create Project Timelines That Keep Teams on Track",
+            "url": "https://slack.com/blog/productivity/how-to-create-project-timelines-that-keep-teams-on-track",
+            "source": "Slack Blog",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "How to Create Project Timelines That Keep Teams on Track"
+        },
+        {
+            "title": "How to Create a Product Strategy That Drives Results",
+            "url": "https://slack.com/blog/productivity/how-to-create-a-product-strategy-that-drives-results",
+            "source": "Slack Blog",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "How to Create a Product Strategy That Drives Results"
+        },
+        {
+            "title": "How we use GitLab to grow open source communities",
+            "url": "https://about.gitlab.com/blog/how-we-use-gitlab-to-grow-open-source-communities/",
+            "source": "GitLab Blog",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "How We Use Gitlab to Grow Open Source Communities"
+        },
+        {
+            "title": "Next.js real-time video streaming: HLS.js and alternatives",
+            "url": "https://blog.logrocket.com/next-js-real-time-video-streaming-hls-js-alternatives/",
+            "source": "LogRocket",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Next.js Real-time Video Streaming: Hls.js and Alternatives"
+        },
+        {
+            "title": "AI compliance: A core product competency you shouldn\u2019t skip",
+            "url": "https://blog.logrocket.com/product-management/ai-compliance-core-product-competency-you-shouldnt-skip/",
+            "source": "LogRocket",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Ai Compliance: a Core Product Competency You Shouldn\u2019t Skip"
+        },
+        {
+            "title": "Grok will no longer call itself Hitler or base its opinions on Elon Musk\u2019s, promises xAI",
+            "url": "https://www.reddit.com/r/artificial/comments/1m0o0kn/grok_will_no_longer_call_itself_hitler_or_base/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Grok Will No Longer Call Itself Hitler or Base Its Opinions on Elon Musk\u2019s, Promises..."
+        },
+        {
+            "title": "Laid off King staff set to be replaced by the AI tools they helped build, say sources",
+            "url": "https://www.reddit.com/r/artificial/comments/1m11o95/laid_off_king_staff_set_to_be_replaced_by_the_ai/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-07-16",
+            "rewritten_title": "Laid Off King Staff Set to Be Replaced by the Ai Tools They Helped Build,..."
+        },
+        {
+            "title": "Amazon Nova Sonic alternatives (Speech to Speech)?",
+            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1m0ob4l/amazon_nova_sonic_alternatives_speech_to_speech/",
+            "source": "Reddit r/LargeLanguageModels",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Amazon Nova Sonic Alternatives (speech to Speech)?"
+        },
+        {
+            "title": "Your unpopular takes on LLMs",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1m0z1zx/your_unpopular_takes_on_llms/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2025-07-16",
+            "rewritten_title": "Your Unpopular Takes on Llms"
+        },
+        {
+            "title": "Incoming late summer: 8B and 70B models trained on 15T tokens, fluent in 1000+ languages, open weights and code, Apache 2.0. Thanks Switzerland!",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1m0v9m1/incoming_late_summer_8b_and_70b_models_trained_on/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Incoming Late Summer: 8b and 70b Models Trained on 15t Tokens, Fluent in 1000+ Languages,..."
+        },
+        {
+            "title": "Totally lightweight local inference...",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1m0nutb/totally_lightweight_local_inference/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Totally Lightweight Local Inference..."
+        },
+        {
+            "title": "Meta poaches 2 more high profile OAI researchers",
+            "url": "https://www.reddit.com/r/singularity/comments/1m10bhk/meta_poaches_2_more_high_profile_oai_researchers/",
+            "source": "Reddit r/singularity",
+            "published_date_obj": "2025-07-16",
+            "rewritten_title": "Meta Poaches 2 More High Profile Oai Researchers"
+        },
+        {
+            "title": "Is ChatGPT down?",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1m0zbd9/is_chatgpt_down/",
+            "source": "Reddit r/chatgpt",
+            "published_date_obj": "2025-07-16",
+            "rewritten_title": "Is Chatgpt Down?"
+        },
+        {
+            "title": "wtf does this mean?",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1m0zty9/wtf_does_this_mean/",
+            "source": "Reddit r/openai",
+            "published_date_obj": "2025-07-16",
+            "rewritten_title": "Wtf Does This Mean?"
+        },
+        {
+            "title": "what are we even doing at this point?",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1m0l6tv/what_are_we_even_doing_at_this_point/",
+            "source": "Reddit r/openai",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "What Are We Even Doing at This Point?"
+        },
+        {
+            "title": "Built an AI Agent That Replaced My Financial Advisor and Now My Realtor Too",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1m0p29d/built_an_ai_agent_that_replaced_my_financial/",
+            "source": "Reddit r/ai_agents",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Built an Ai Agent That Replaced My Financial Advisor and Now My Realtor Too"
+        },
+        {
+            "title": "I\u2019ve made some sampler comparisons. (Wan 2.1 image generation)",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1m0u7p2/ive_made_some_sampler_comparisons_wan_21_image/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "I\u2019ve Made Some Sampler Comparisons. (wan 2.1 Image Generation)"
+        },
+        {
+            "title": "Classic Painting Flux LoRA",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1m0odh3/classic_painting_flux_lora/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Classic Painting Flux Lora"
+        },
+        {
+            "title": "Americana",
+            "url": "https://www.reddit.com/r/aiArt/comments/1m0wapb/americana/",
+            "source": "Reddit r/AIArt",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Americana"
+        }
+    ],
+    "SaaS Acquisitions": [
+        {
+            "title": "The Best 4K-Ready Prebuilt Gaming PC Deal for Prime Day Is Still Available for a Little Longer - IGN",
+            "url": "https://www.ign.com/articles/ibuypower-amd-radeon-rx-9070-xt-prebuilt-gaming-pc-deal-2025",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "The Best 4k-ready Prebuilt Gaming Pc Deal for Prime Day Is Still Available for A..."
+        }
+    ],
+    "SaaS Metrics": [
+        {
+            "title": "Pricing May Doom Asus\u2019 Xbox Ally Handheld Before It Even Gets a Fair Shot - Gizmodo",
+            "url": "https://gizmodo.com/pricing-may-doom-asus-xbox-ally-handheld-before-it-even-gets-a-fair-shot-2000628812",
+            "source": "NewsAPI (Gizmodo.com)",
+            "published_date_obj": "2025-07-14",
+            "rewritten_title": "Pricing May Doom Asus\u2019 Xbox Ally Handheld Before It Even Gets a Fair Shot -..."
+        },
+        {
+            "title": "Project Management Process Guide: From Planning to Completion",
+            "url": "https://slack.com/blog/productivity/project-management-process-guide-from-planning-to-completion",
+            "source": "Slack Blog",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "Project Management Process Guide: From Planning to Completion"
+        },
+        {
+            "title": "How to Build an Effective Productivity Plan",
+            "url": "https://slack.com/blog/productivity/how-to-build-an-effective-productivity-plan",
+            "source": "Slack Blog",
+            "published_date_obj": "2025-07-15",
+            "rewritten_title": "How to Build an Effective Productivity Plan"
+        }
+    ]
 }
