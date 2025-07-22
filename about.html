@@ -290,25 +290,37 @@
         
         <!-- Main Navigation Header -->
         <nav class="main-header-nav" style="background-color: #f8f9fa; border-bottom: 1px solid #e5e5e5; margin-bottom: 10px;">
-            <div style="max-width: 900px; margin: 0 auto; padding: 15px; display: flex; justify-content: center; align-items: center; gap: 30px; position: relative;">
-                <div class="topics-dropdown" style="position: relative; display: inline-block;">
-                    <a href="#" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;" onclick="toggleTopicsDropdown(event)">Topics ▼</a>
-                    <div class="topics-dropdown-content" style="display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); background-color: white; min-width: 200px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; border-radius: 6px; padding: 10px 0; margin-top: 5px;">
-                        <a href="/topics/startup-funding.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Startup Funding</a>
-                        <a href="/topics/product-launches.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Product Launches</a>
-                        <a href="/topics/enterprise-software.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Enterprise Software</a>
-                        <a href="/topics/developer-tools.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Developer Tools</a>
-                        <a href="/topics/big-tech-moves.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Big Tech Moves</a>
-                        <a href="/topics/ipos-acquisitions.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">IPOs &amp; Acquisitions</a>
-                        <a href="/topics/tech-news-today.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Tech News Today</a>
-                        <a href="/topics/tech-breakthrough-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Tech Breakthrough News</a>
-                    </div>
-                </div>
-                <a href="/about.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">About</a>
-                <a href="/contact.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Contact</a>
-                <a href="/archive/" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Archive</a>
+    <div style="max-width: 900px; margin: 0 auto; padding: 15px; display: flex; justify-content: center; align-items: center; gap: 30px; position: relative;">
+        <a href="/index.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Home</a>
+        <div class="topics-dropdown" style="position: relative; display: inline-block;">
+            <a href="#" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;" onclick="toggleTopicsDropdown(event)" onkeydown="if(event.key==='Enter'||event.key===' ') toggleTopicsDropdown(event)" role="button" aria-expanded="false" aria-haspopup="true">Topics ▼</a>
+            <div class="topics-dropdown-content" style="display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); background-color: white; min-width: 200px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; border-radius: 6px; padding: 10px 0; margin-top: 5px;">
+                
+                <a href="/topics/startup-funding.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Startup Funding</a>
+                
+                <a href="/topics/product-launches.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Product Launches</a>
+                
+                <a href="/topics/enterprise-software.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Enterprise Software</a>
+                
+                <a href="/topics/developer-tools.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Developer Tools</a>
+                
+                <a href="/topics/big-tech-moves.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Big Tech Moves</a>
+                
+                <a href="/topics/ipos-acquisitions.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">IPOs &amp; Acquisitions</a>
+                
+                <a href="/topics/tech-news-today.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Tech News Today</a>
+                
+                <a href="/topics/tech-breakthrough-news.html" style="color: #333; padding: 8px 16px; text-decoration: none; display: block; font-size: 0.9em;">Tech Breakthrough News</a>
+                
             </div>
-        </nav>
+        </div>
+        <a href="/saas-tools.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">SaaS Tools</a>
+        <a href="/market-analysis.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Market Analysis</a>
+        <a href="/about.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">About</a>
+        <a href="/contact.html" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Contact</a>
+        <a href="/archive/" style="color: #333; text-decoration: none; font-weight: 500; font-size: 1em;">Archive</a>
+    </div>
+</nav> 
 
         <div class="page-title">☁️ About SaaS Flash Report</div>
 
@@ -433,17 +445,26 @@
     
     <!-- Topics dropdown functionality -->
     <script>
+    // Topics dropdown functionality with keyboard accessibility
     function toggleTopicsDropdown(event) {
         event.preventDefault();
         const dropdown = document.querySelector('.topics-dropdown-content');
         dropdown.style.display = dropdown.style.display === 'none' || dropdown.style.display === '' ? 'block' : 'none';
     }
     
-    // Close dropdown when clicking outside
+    // Close dropdown when clicking outside or pressing Escape
     document.addEventListener('click', function(event) {
         const dropdown = document.querySelector('.topics-dropdown');
         const dropdownContent = document.querySelector('.topics-dropdown-content');
         if (!dropdown.contains(event.target)) {
+            dropdownContent.style.display = 'none';
+        }
+    });
+    
+    // Add keyboard accessibility for dropdown
+    document.addEventListener('keydown', function(event) {
+        const dropdownContent = document.querySelector('.topics-dropdown-content');
+        if (event.key === 'Escape' && dropdownContent.style.display === 'block') {
             dropdownContent.style.display = 'none';
         }
     });

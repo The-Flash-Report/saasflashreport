@@ -1,9 +1,10 @@
 import http.server
 import socketserver
 import os
+import sys
 
-# Set the port number
-PORT = 9000
+# Set the port number from command line argument, default to 9000
+PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 9000
 
 # Get the absolute path to the directory where the script is located
 # This is the QA directory
@@ -16,9 +17,11 @@ web_root = os.path.abspath(os.path.join(script_dir, '..'))
 # --- Custom Handler to Set Headers ---
 class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
-        self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate')
+        self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0')
         self.send_header('Pragma', 'no-cache')
         self.send_header('Expires', '0')
+        self.send_header('Last-Modified', 'Thu, 01 Jan 1970 00:00:00 GMT')
+        self.send_header('ETag', '"force-refresh"')
         super().end_headers()
 
     def __init__(self, *args, **kwargs):

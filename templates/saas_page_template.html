@@ -205,16 +205,7 @@
         <p class="subtitle">{{ page_title }} - Updated: {{ update_time }}</p>
         
         <!-- Main Navigation Header -->
-        <nav class="main-header-nav">
-            <div>
-                <a href="/index.html">Home</a>
-                <a href="/saas-tools.html">SaaS Tools</a>
-                <a href="/market-analysis.html">Market Analysis</a>
-                <a href="/about.html">About</a>
-                <a href="/contact.html">Contact</a>
-                <a href="/archive/">Archive</a>
-            </div>
-        </nav>
+        {{ nav_html|safe }}
 
         <!-- Back to Home Link -->
         <div class="back-link">

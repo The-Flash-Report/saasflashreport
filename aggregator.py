@@ -343,7 +343,7 @@ def generate_keyword_pages_data(all_articles):
     
     return keyword_pages_data
 
-def generate_keyword_page_files(keyword_pages_data, env):
+def generate_keyword_page_files(keyword_pages_data, env, nav_templates):
     """Generate HTML files for keyword pages with pagination support."""
     print(f"Generating keyword page files for {len(keyword_pages_data)} topics...")
     
@@ -1270,7 +1270,7 @@ def extract_citations_from_perplexity(content):
 
 # --- Main Pipeline ---
 
-def generate_saas_tools_page(env, current_date):
+def generate_saas_tools_page(env, current_date, nav_templates):
     """Generate SaaS Tool Recommendations page using Perplexity API."""
     tools_prompt = f"""Create a comprehensive SaaS tool recommendations guide for {datetime.datetime.now().strftime("%B %d, %Y")}. Format as follows:
 
@@ -1330,7 +1330,8 @@ Include pricing, key features, and target company size for each recommendation. 
         'is_main_page': False,
         'current_year': datetime.datetime.now().year,
         'all_keyword_pages_config': keyword_config.get('keyword_pages', {}),
-        'quote_of_the_day': get_quote_of_the_day()  # Add quote to SaaS Tools page
+        'quote_of_the_day': get_quote_of_the_day(),  # Add quote to SaaS Tools page
+        'nav_html': nav_templates['subpage']
     }
     
     # Render and save
@@ -1341,7 +1342,7 @@ Include pricing, key features, and target company size for each recommendation. 
         f.write(tools_page_html)
     print("✅ SaaS Tools page file created successfully.")
 
-def generate_market_analysis_page(env, current_date):
+def generate_market_analysis_page(env, current_date, nav_templates):
     """Generate SaaS Market Analysis page using Perplexity API."""
     analysis_prompt = f"""Create a comprehensive SaaS market analysis for {datetime.datetime.now().strftime("%B %d, %Y")}. Format as follows:
 
@@ -1410,7 +1411,8 @@ Include specific data points, recent examples, and cite reputable sources. Focus
         'is_main_page': False,
         'current_year': datetime.datetime.now().year,
         'all_keyword_pages_config': keyword_config.get('keyword_pages', {}),
-        'quote_of_the_day': get_quote_of_the_day()  # Add quote to Market Analysis page
+        'quote_of_the_day': get_quote_of_the_day(),  # Add quote to Market Analysis page
+        'nav_html': nav_templates['subpage']
     }
     
     # Render and save
@@ -1421,6 +1423,33 @@ Include specific data points, recent examples, and cite reputable sources. Focus
         f.write(analysis_page_html)
     print("✅ Market Analysis page file created successfully.")
 
+def inject_navigation_into_html_files(nav_templates):
+    """Injects navigation HTML into root-level HTML files."""
+    root_files_to_update = [f for f in os.listdir('.') if f.endswith('.html')]
+    
+    print("\nInjecting navigation into root HTML files...")
+    for filename in root_files_to_update:
+        try:
+            with open(filename, 'r', encoding='utf-8') as f:
+                content = f.read()
+
+            # Determine which nav to use
+            if '<!-- NAV_PLACEHOLDER -->' in content:
+                if filename == 'index.html':
+                    nav_html = nav_templates.get('home', '<!-- nav_home.html not found -->')
+                else:
+                    nav_html = nav_templates.get('subpage', '<!-- nav_subpage.html not found -->')
+                
+                # Replace placeholder
+                content = content.replace('<!-- NAV_PLACEHOLDER -->', nav_html)
+
+                with open(filename, 'w', encoding='utf-8') as f:
+                    f.write(content)
+                print(f"  - Injected nav into {filename}")
+
+        except Exception as e:
+            print(f"  - Error processing {filename}: {e}")
+
 def main():
     print("Starting PROMPTWIRE aggregator...")
     start_time = datetime.datetime.now()
@@ -1428,6 +1457,8 @@ def main():
     # Ensure 'archive' directory exists
     archive_dir = 'archive'
     os.makedirs(archive_dir, exist_ok=True)
+    # Load navigation templates
+    nav_templates = load_nav_templates()
 
     # --- New: Ensure 'data' directory exists ---
     data_dir = 'data'
@@ -1700,7 +1731,7 @@ Keep metrics specific, include actual numbers when possible, and cite sources. F
     # Generate keyword page files FIRST
     # Ensure output_dir is defined if not already (it was at the top of generate_keyword_page_files previously)
     output_dir = "topics"
-    generate_keyword_page_files(keyword_pages_data, env) # Remove prompt_data
+    generate_keyword_page_files(keyword_pages_data, env, nav_templates) # Remove prompt_data
 
     # --- RESTORED CODE FOR INDEX.HTML AND ARCHIVE --- 
     # Use the main template again for index.html
@@ -1727,7 +1758,8 @@ Keep metrics specific, include actual numbers when possible, and cite sources. F
         'all_keyword_pages_config': keyword_config.get('keyword_pages', {}),
         'flash_summary': flash_summary_html,  # Add flash summary to template context
         'saas_metrics': saas_metrics_html,  # Add SaaS metrics to template context
-        'quote_of_the_day': get_quote_of_the_day()  # Add quote of the day to template context
+        'quote_of_the_day': get_quote_of_the_day(),  # Add quote of the day to template context
+        'nav_html': nav_templates['home']
     }
 
     # Render template with data for index.html
@@ -1742,6 +1774,7 @@ Keep metrics specific, include actual numbers when possible, and cite sources. F
         # The 'next_url' logic is no longer needed as the button has been removed from the template.
         archive_page_context['next_url'] = None
         archive_page_context['quote_of_the_day'] = get_quote_of_the_day()  # Ensure quote is available in archive
+        archive_page_context['nav_html'] = nav_templates['subpage']
         
         archive_html = template.render(archive_page_context)
         
@@ -1817,8 +1850,10 @@ Keep metrics specific, include actual numbers when possible, and cite sources. F
 
     # 8. Generate Additional SaaS Pages
     print("Generating SaaS Tool Recommendations and Market Analysis pages...")
-    generate_saas_tools_page(env, current_date_for_render)
-    generate_market_analysis_page(env, current_date_for_render)
+    generate_saas_tools_page(env, current_date_for_render, nav_templates)
+    generate_market_analysis_page(env, current_date_for_render, nav_templates)
+    
+    inject_navigation_into_html_files(nav_templates)
 
     end_time = datetime.datetime.now()
     print(f"Aggregation finished in {(end_time - start_time).total_seconds():.2f} seconds.")
@@ -1911,114 +1946,41 @@ def paginate_stories(stories, stories_per_page=STORIES_PER_PAGE):
 
 def get_quote_of_the_day():
     """Return a SaaS/software quote of the day based on current date."""
-    quotes = [
-        {
-            "quote": "You must always be able to predict what's next and then have the flexibility to evolve.",
-            "author": "Marc Benioff",
-            "company": "Salesforce"
-        },
-        {
-            "quote": "The secret to successful hiring is this: look for the people who want to change the world.",
-            "author": "Marc Benioff", 
-            "company": "Salesforce"
-        },
-        {
-            "quote": "You need to have a beginner's mind to create bold innovation.",
-            "author": "Marc Benioff",
-            "company": "Salesforce"
-        },
-        {
-            "quote": "Multi-Tenancy is a requirement for a SaaS vendor to be successful.",
-            "author": "Marc Benioff",
-            "company": "Salesforce"
-        },
-        {
-            "quote": "Software is eating the world.",
-            "author": "Marc Andreessen",
-            "company": "Andreessen Horowitz"
-        },
-        {
-            "quote": "The best way to predict the future is to invent it.",
-            "author": "Alan Kay",
-            "company": "Computer Scientist"
-        },
-        {
-            "quote": "In order to remain relevant, you must establish yourself as a thought leader in your industry.",
-            "author": "Marc Benioff",
-            "company": "Salesforce"
-        },
-        {
-            "quote": "Most of all, I discovered that in order to succeed with a product you must truly get to know your customers and build something for them.",
-            "author": "Marc Benioff",
-            "company": "Salesforce"
-        },
-        {
-            "quote": "Don't be afraid to give up the good to go for the great.",
-            "author": "John D. Rockefeller",
-            "company": "Business Pioneer"
-        },
-        {
-            "quote": "The way to get started is to quit talking and begin doing.",
-            "author": "Walt Disney",
-            "company": "Disney"
-        },
-        {
-            "quote": "Innovation distinguishes between a leader and a follower.",
-            "author": "Steve Jobs",
-            "company": "Apple"
-        },
-        {
-            "quote": "Your most unhappy customers are your greatest source of learning.",
-            "author": "Bill Gates",
-            "company": "Microsoft"
-        },
-        {
-            "quote": "The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency.",
-            "author": "Bill Gates",
-            "company": "Microsoft"
-        },
-        {
-            "quote": "If you are not embarrassed by the first version of your product, you've launched too late.",
-            "author": "Reid Hoffman",
-            "company": "LinkedIn"
-        },
-        {
-            "quote": "The only way to win is to learn faster than anyone else.",
-            "author": "Eric Ries",
-            "company": "The Lean Startup"
-        },
-        {
-            "quote": "Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.",
-            "author": "Mark Zuckerberg",
-            "company": "Meta"
-        },
-        {
-            "quote": "Code is poetry.",
-            "author": "WordPress",
-            "company": "WordPress Foundation"
-        },
-        {
-            "quote": "Focus on the customer and all else will follow.",
-            "author": "Jeff Bezos",
-            "company": "Amazon"
-        },
-        {
-            "quote": "Building a great software company is hard. Building a great SaaS company is harder.",
-            "author": "Jason Lemkin",
-            "company": "SaaStr"
-        },
-        {
-            "quote": "In SaaS, you're only as good as your last month's numbers.",
-            "author": "David Skok",
-            "company": "Matrix Partners"
-        }
-    ]
+    quotes_file = 'data/quotes.json'
+    default_quote = {
+        "quote": "Most of all, I discovered that in order to succeed with a product you must truly get to know your customers and build something for them.",
+        "author": "Marc Benioff",
+        "company": "Salesforce"
+    }
+
+    try:
+        with open(quotes_file, 'r', encoding='utf-8') as f:
+            quotes = json.load(f)
+        if not quotes:
+            return default_quote
+    except (FileNotFoundError, json.JSONDecodeError):
+        return default_quote
     
     # Use date as seed for consistent daily quote
     current_date = datetime.datetime.now().strftime("%Y-%m-%d")
     random.seed(current_date)
     
     return random.choice(quotes)
+
+def load_nav_templates():
+    """Load the HTML content for the navigation components."""
+    nav_templates = {}
+    try:
+        with open('templates/nav_home.html', 'r', encoding='utf-8') as f:
+            nav_templates['home'] = f.read()
+        with open('templates/nav_subpage.html', 'r', encoding='utf-8') as f:
+            nav_templates['subpage'] = f.read()
+        print("Successfully loaded navigation templates.")
+    except FileNotFoundError as e:
+        print(f"Error: Navigation template not found - {e}. Site generation might fail or have missing menus.")
+        nav_templates['home'] = "<!-- nav_home.html not found -->"
+        nav_templates['subpage'] = "<!-- nav_subpage.html not found -->"
+    return nav_templates
 
 if __name__ == "__main__":
     main() 
