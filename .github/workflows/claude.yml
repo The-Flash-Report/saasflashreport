@@ -46,4 +46,6 @@ jobs:
         run: python claude_analyze.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           COMMENT_BODY: ${{ github.event.comment.body || github.event.issue.body }}
+          ISSUE_URL: ${{ github.event.issue.comments_url || github.event.issue.url }}/comments

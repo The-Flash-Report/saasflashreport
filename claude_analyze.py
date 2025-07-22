@@ -1,5 +1,6 @@
 import os
 import anthropic
+import requests
 
 def main():
     client = anthropic.Anthropic(api_key=os.environ['ANTHROPIC_API_KEY'])
@@ -28,8 +29,32 @@ Please analyze this repository structure and provide specific insights about pot
         }]
     )
     
+    claude_response = response.content[0].text
     print('Claude Response:')
-    print(response.content[0].text)
+    print(claude_response)
+    
+    # Post response back to GitHub issue/PR
+    github_token = os.environ.get('GITHUB_TOKEN')
+    issue_url = os.environ.get('ISSUE_URL')
+    
+    if github_token and issue_url:
+        headers = {
+            'Authorization': f'token {github_token}',
+            'Accept': 'application/vnd.github.v3+json'
+        }
+        
+        comment_data = {
+            'body': f'🤖 **Claude Analysis:**\n\n{claude_response}'
+        }
+        
+        try:
+            response = requests.post(issue_url, json=comment_data, headers=headers)
+            if response.status_code == 201:
+                print('Successfully posted comment to GitHub issue!')
+            else:
+                print(f'Failed to post comment: {response.status_code} - {response.text}')
+        except Exception as e:
+            print(f'Error posting comment: {e}')
 
 if __name__ == "__main__":
     main()
