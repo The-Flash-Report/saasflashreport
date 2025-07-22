@@ -34,25 +34,43 @@ jobs:
         run: |
           pip install anthropic requests
           
+      - name: Get Repository Contents
+        run: |
+          find . -name "*.js" -o -name "*.ts" -o -name "*.json" -o -name "*.md" -o -name "*.py" | head -20 > repo_files.txt
+          echo "Repository structure:" > repo_analysis.txt
+          ls -la >> repo_analysis.txt
+          echo -e "\n\nKey files found:" >> repo_analysis.txt
+          cat repo_files.txt >> repo_analysis.txt
+
       - name: Run Claude Analysis
         run: |
           python -c "
           import os
           import anthropic
-          import requests
           
           client = anthropic.Anthropic(api_key=os.environ['ANTHROPIC_API_KEY'])
           
           # Get the comment/issue body
           comment_body = '''${{ github.event.comment.body || github.event.issue.body }}'''
           
+          # Read repository analysis
+          with open('repo_analysis.txt', 'r') as f:
+              repo_info = f.read()
+          
           # Analyze the repository
           response = client.messages.create(
               model='claude-3-5-haiku-20241022',
-              max_tokens=1000,
+              max_tokens=1500,
               messages=[{
                   'role': 'user', 
-                  'content': f'You are a helpful GitHub assistant. The user said: {comment_body}. Please analyze this repository for bugs and provide a helpful response.'
+                  'content': f'''You are a helpful GitHub assistant analyzing a repository.
+
+User request: {comment_body}
+
+Repository information:
+{repo_info}
+
+Please analyze this repository structure and provide specific insights about potential bugs, improvements, or recommendations based on the files and structure shown.'''
               }]
           )
           
