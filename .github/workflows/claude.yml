@@ -25,10 +25,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Claude Code Action
-        uses: anthropics/claude-code-github-action@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          trigger_phrase: "@claude"
-          timeout_minutes: "60"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          node-version: '18'
+
+      - name: Install Claude CLI
+        run: |
+          npm install -g @anthropic/claude
+          
+      - name: Run Claude
+        run: |
+          echo "${{ github.event.comment.body || github.event.issue.body }}" | claude --api-key "${{ secrets.ANTHROPIC_API_KEY }}" --prompt "You are a helpful GitHub assistant. Analyze this repository for bugs and create a detailed response."
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
