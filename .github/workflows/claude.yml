@@ -25,17 +25,39 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
-          node-version: '18'
+          python-version: '3.9'
 
-      - name: Install Claude CLI
+      - name: Install Anthropic SDK
         run: |
-          npm install -g @anthropic/claude
+          pip install anthropic requests
           
-      - name: Run Claude
+      - name: Run Claude Analysis
         run: |
-          echo "${{ github.event.comment.body || github.event.issue.body }}" | claude --api-key "${{ secrets.ANTHROPIC_API_KEY }}" --prompt "You are a helpful GitHub assistant. Analyze this repository for bugs and create a detailed response."
+          python -c "
+          import os
+          import anthropic
+          import requests
+          
+          client = anthropic.Anthropic(api_key=os.environ['ANTHROPIC_API_KEY'])
+          
+          # Get the comment/issue body
+          comment_body = '''${{ github.event.comment.body || github.event.issue.body }}'''
+          
+          # Analyze the repository
+          response = client.messages.create(
+              model='claude-3-sonnet-20240229',
+              max_tokens=1000,
+              messages=[{
+                  'role': 'user', 
+                  'content': f'You are a helpful GitHub assistant. The user said: {comment_body}. Please analyze this repository for bugs and provide a helpful response.'
+              }]
+          )
+          
+          print('Claude Response:')
+          print(response.content[0].text)
+          "
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
