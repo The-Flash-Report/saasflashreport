@@ -1,338 +1,451 @@
 {
     "SaaS Funding": [
         {
-            "title": "[R] NeurIPS 2025 D&B: \"The evaluation is limited to 15 open-weights models ... Score: 3\"",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1m95ej0/r_neurips_2025_db_the_evaluation_is_limited_to_15/",
-            "source": "Reddit r/MachineLearning",
+            "title": "Threadripper 9000 Series Available On 31 July, 9980X For $4999 USD - Phoronix",
+            "url": "https://www.phoronix.com/news/AMD-Threadripper-9000-31-July",
+            "source": "NewsAPI (Phoronix)",
             "published_date_obj": "2025-07-25",
-            "rewritten_title": "[r] Neurips 2025 D&b: \"the Evaluation Is Limited to 15 Open-weights Models ... Score: 3\""
+            "rewritten_title": "Threadripper 9000 Series Available on 31 July, 9980x for $4999 Usd - Phoronix"
+        },
+        {
+            "title": "How Aravind Srinivas turned Perplexity AI into an $18 billion would-be Google killer - Fortune",
+            "url": "https://fortune.com/article/perplexity-ceo-aravind-srinivas-ai/",
+            "source": "NewsAPI (Fortune)",
+            "published_date_obj": "2025-07-24",
+            "rewritten_title": "How Aravind Srinivas Turned Perplexity Ai Into an $18 Billion Would-be Google Killer - Fortune"
+        },
+        {
+            "title": "The Complete History of HubSpot\u2019s Net Revenue Retention: From 88.6% at IPO to 115% Peak \u2014 And Why 102% Today Is Still Strong",
+            "url": "https://www.saastr.com/the-complete-history-of-hubspots-net-revenue-retention-from-88-6-at-ipo-to-115-peak-and-why-102-today-is-still-strong/",
+            "source": "SaaStr",
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "The Complete History of Hubspot\u2019s Net Revenue Retention: From 88.6% at Ipo to 115% Peak..."
         }
     ],
     "Enterprise Software": [],
     "Product Launches": [
         {
-            "title": "\u2018NASCAR 25\u2019 console game set for October 2025 release date - NASCAR.com",
-            "url": "https://www.nascar.com/news-media/2025/07/24/nascar-25-console-game-set-for-october-2025-release-date/",
-            "source": "NewsAPI (NASCAR)",
-            "published_date_obj": "2025-07-24",
-            "rewritten_title": "\u2018nascar 25\u2019 Console Game Set for October 2025 Release Date - Nascar.com"
-        },
-        {
-            "title": "Six lesser-known features to like in the macOS 26 Tahoe public beta - Ars Technica",
-            "url": "https://arstechnica.com/gadgets/2025/07/six-lesser-known-features-to-like-in-the-macos-26-tahoe-public-beta/",
-            "source": "NewsAPI (Ars Technica)",
-            "published_date_obj": "2025-07-24",
-            "rewritten_title": "Six Lesser-known Features to Like in the Macos 26 Tahoe Public Beta - Ars Technica"
+            "title": "Halo Infinite Esports Update | Halo - Official Site (en) - Halo Waypoint",
+            "url": "https://www.halowaypoint.com/news/halo-infinite-hcs-update",
+            "source": "NewsAPI (Halowaypoint.com)",
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "Halo Infinite Esports Update | Halo - Official Site (en) - Halo Waypoint"
         },
         {
             "title": "\u2018Starting Today\u2019\u2014Microsoft Confirms Free Windows Update - Forbes",
-            "url": "https://www.forbes.com/sites/zakdoffman/2025/07/24/starting-today-microsoft-confirms-free-windows-update/",
+            "url": "https://www.forbes.com/sites/zakdoffman/2025/07/25/starting-today-microsoft-confirms-free-windows-update/",
             "source": "NewsAPI (Forbes)",
-            "published_date_obj": "2025-07-24",
+            "published_date_obj": "2025-07-25",
             "rewritten_title": "\u2018starting Today\u2019\u2014microsoft Confirms Free Windows Update - Forbes"
         },
         {
-            "title": "Google's new feature in Veo 3: you can now draw your instructions on the first frame, and Veo follows them. Instead of iterating endlessly on the perfect prompt, you can just draw it out like you would for a human artist.",
-            "url": "https://www.reddit.com/r/singularity/comments/1m9b0bq/googles_new_feature_in_veo_3_you_can_now_draw/",
-            "source": "Reddit r/singularity",
+            "title": "Microsoft\u2019s controversial Recall feature is now blocked by Brave and AdGuard - The Verge",
+            "url": "https://www.theverge.com/news/713676/brave-adguard-windows-recall-block-microsoft",
+            "source": "NewsAPI (The Verge)",
             "published_date_obj": "2025-07-25",
-            "rewritten_title": "Google's New Feature in Veo 3: You Can Now Draw Your Instructions on the First..."
-        }
-    ],
-    "SaaS Analytics": [],
-    "B2B Technology": [
-        {
-            "title": "\u2018WUCHANG: Fallen Feathers\u2019 Lands in the Cloud - NVIDIA Blog",
-            "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-wuchang-fallen-feathers/",
-            "source": "NewsAPI (Nvidia.com)",
-            "published_date_obj": "2025-07-24",
-            "rewritten_title": "\u2018wuchang: Fallen Feathers\u2019 Lands in the Cloud - Nvidia Blog"
+            "rewritten_title": "Microsoft\u2019s Controversial Recall Feature Is Now Blocked by Brave and Adguard - the Verge"
         },
         {
-            "title": "Dear SaaStr: How Do You Let Customers Know You Are Raising Prices?",
-            "url": "https://www.saastr.com/dear-saastr-how-do-you-let-customers-know-you-are-raising-prices/",
-            "source": "SaaStr",
+            "title": "RUMOR: Switch 2 Update Blocks Offline Play for Super Mario Bros. Wonder - GoNintendo",
+            "url": "https://www.gonintendo.com/contents/51098-rumor-switch-2-update-blocks-offline-play-for-super-mario-bros-wonder",
+            "source": "NewsAPI (GoNintendo)",
             "published_date_obj": "2025-07-25",
-            "rewritten_title": "Dear Saastr: How Do You Let Customers Know You Are Raising Prices?"
+            "rewritten_title": "Rumor: Switch 2 Update Blocks Offline Play for Super Mario Bros. Wonder - Gonintendo"
+        },
+        {
+            "title": "NASCAR 25 video game launching on Oct. 14 for PlayStation, Xbox - Jayski's NASCAR Silly Season Site",
+            "url": "https://www.jayski.com/2025/07/25/nascar-25-video-game-launching-on-oct-14-for-playstation-xbox/",
+            "source": "NewsAPI (Jayski.com)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Nascar 25 Video Game Launching on Oct. 14 for Playstation, Xbox - Jayski's Nascar Silly..."
+        },
+        {
+            "title": "Underrated macOS 26 Tahoe features worth trying - 9to5Mac",
+            "url": "https://9to5mac.com/2025/07/24/macos-26-tahoe-underrated-features/",
+            "source": "NewsAPI (9to5Mac)",
+            "published_date_obj": "2025-07-24",
+            "rewritten_title": "Underrated Macos 26 Tahoe Features Worth Trying - 9to5mac"
+        },
+        {
+            "title": "Tencent releases Hunyuan3D World Model 1.0 - first open-source 3D world generation model",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1mab2i2/tencent_releases_hunyuan3d_world_model_10_first/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2025-07-27",
+            "rewritten_title": "Tencent Releases Hunyuan3d World Model 1.0 - First Open-source 3d World Generation Model"
+        },
+        {
+            "title": "Tencent releases open-source 3D world generation model that enables you to generate immersive, explorable, and interactive 3D worlds from just a sentence or an image",
+            "url": "https://www.reddit.com/r/singularity/comments/1mabpg6/tencent_releases_opensource_3d_world_generation/",
+            "source": "Reddit r/singularity",
+            "published_date_obj": "2025-07-27",
+            "rewritten_title": "Tencent Releases Open-source 3d World Generation Model That Enables You to Generate Immersive, Explorable, And..."
+        },
+        {
+            "title": "Hunyuan releases and open-sources the world's first \"3D world generation model\"",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1mabd5z/hunyuan_releases_and_opensources_the_worlds_first/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-07-27",
+            "rewritten_title": "Hunyuan Releases and Open-sources the World's First \"3d World Generation Model\""
+        }
+    ],
+    "SaaS Analytics": [
+        {
+            "title": "Wuchang: Fallen Feathers Rushes Out Emergency Patch Amid Review-Bombing On Steam - Kotaku",
+            "url": "https://kotaku.com/wuchang-fallen-feather-soulslike-pc-performance-patch-1851786948",
+            "source": "NewsAPI (Kotaku)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Wuchang: Fallen Feathers Rushes Out Emergency Patch Amid Review-bombing on Steam - Kotaku"
+        },
+        {
+            "title": "Nintendo officially confirms Mario and Peach's relationship status for first time in 40 years - GAMINGbible",
+            "url": "https://www.gamingbible.com/news/platform/nintendo/nintendo-confirms-mario-and-peach-relationship-status-803543-20250725",
+            "source": "NewsAPI (Gamingbible.com)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Nintendo Officially Confirms Mario and Peach's Relationship Status for First Time in 40 Years -..."
+        },
+        {
+            "title": "\ud83e\udde0 Community Wisdom: Breaking into big tech as a junior PM, building onboarding flows with no-code tools, managing a cultural transition, internal vs. external hiring, and more",
+            "url": "https://www.lennysnewsletter.com/p/community-wisdom-breaking-into-big",
+            "source": "Lenny's Newsletter",
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "\ud83e\udde0 Community Wisdom: Breaking Into Big Tech as a Junior Pm, Building Onboarding Flows With..."
+        },
+        {
+            "title": "Offering researchers $1 billion is not normal",
+            "url": "https://www.reddit.com/r/artificial/comments/1m9pgqd/offering_researchers_1_billion_is_not_normal/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "Offering Researchers $1 Billion Is Not Normal"
+        }
+    ],
+    "B2B Technology": [
+        {
+            "title": "Dear SaaStr: How Do I Monetize a Product Without a Clear Budget Line Associated With It?",
+            "url": "https://www.saastr.com/dear-saastr-how-do-i-monetize-a-product-without-a-clear-budget-line-associated-with-it/",
+            "source": "SaaStr",
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "Dear Saastr: How Do I Monetize a Product Without a Clear Budget Line Associated With..."
         }
     ],
     "Software Industry": [
         {
-            "title": "Pok\u00e9mon Legends: Z-A Reveals New Pre-Order Distribution, Available In Two Countries - Nintendo Life",
-            "url": "https://www.nintendolife.com/news/2025/07/pokemon-legends-z-a-reveals-new-pre-order-distribution-available-in-two-countries",
+            "title": "Sony is hiring to expand \"PlayStation Studios games beyond PlayStation hardware\" \u2014 partners including Xbox, Steam, Nintendo Switch, and more - Windows Central",
+            "url": "https://www.windowscentral.com/gaming/sony-is-hiring-to-expand-playstation-studios-games-beyond-playstation-hardware-including-xbox-steam-nintendo-switch-and-more",
+            "source": "NewsAPI (Windows Central)",
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "Sony Is Hiring to Expand \"playstation Studios Games Beyond Playstation Hardware\" \u2014 Partners Including Xbox,..."
+        },
+        {
+            "title": "Fresh Pixel 10 leak shows off the series in more than just Moonstone - Android Authority",
+            "url": "https://www.androidauthority.com/pixel-10-series-fresh-renders-3581248/",
+            "source": "NewsAPI (Android Authority)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Fresh Pixel 10 Leak Shows Off the Series in More Than Just Moonstone - Android..."
+        },
+        {
+            "title": "iPhone Fold leaker just spilled the beans on screen sizes \u2014 and it's worse than we thought - Tom's Guide",
+            "url": "https://www.tomsguide.com/phones/iphones/iphone-fold-leaker-just-spilled-the-beans-on-screen-sizes-and-its-worse-than-we-thought",
+            "source": "NewsAPI (Tom's Guide)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Iphone Fold Leaker Just Spilled the Beans on Screen Sizes \u2014 and It's Worse Than..."
+        },
+        {
+            "title": "Remembering Descent , the once-popular, fully 3D 6DOF shooter - Ars Technica",
+            "url": "https://arstechnica.com/gaming/2025/07/remembering-descent-the-once-popular-fully-3d-6dof-shooter/",
+            "source": "NewsAPI (Ars Technica)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Remembering Descent , the Once-popular, Fully 3d 6dof Shooter - Ars Technica"
+        },
+        {
+            "title": "You can now easily buy a Switch 2 without jumping through hoops - The Verge",
+            "url": "https://www.theverge.com/tech/713828/nintendo-switch-in-stock-best-buy-amazon-target-walmart",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "You Can Now Easily Buy a Switch 2 Without Jumping Through Hoops - the Verge"
+        },
+        {
+            "title": "Invincible Vs reveals fan-favourite character ahead of public demo - Eurogamer",
+            "url": "https://www.eurogamer.net/invincible-vs-reveals-fan-favourite-character-ahead-of-public-demo",
+            "source": "NewsAPI (Eurogamer.net)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Invincible Vs Reveals Fan-favourite Character Ahead of Public Demo - Eurogamer"
+        },
+        {
+            "title": "Pixel Buds Pro 2 and Pixel Watch 4 Leaks Just Spoiled Google\u2019s Whole Party - Gizmodo",
+            "url": "https://gizmodo.com/pixel-buds-pro-2-and-pixel-watch-4-leaks-just-spoiled-googles-whole-party-2000634394",
+            "source": "NewsAPI (Gizmodo.com)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Pixel Buds Pro 2 and Pixel Watch 4 Leaks Just Spoiled Google\u2019s Whole Party -..."
+        },
+        {
+            "title": "Galaxy Z Fold 7 is the world's thinnest foldable at 8.82mm, study finds Honor Magic V5 is 9.35mm - 9to5Google",
+            "url": "http://9to5google.com/2025/07/25/galaxy-z-fold-7-honor-magic-v5-thinnest-foldable-study/",
+            "source": "NewsAPI (9to5google.com)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Galaxy Z Fold 7 Is the World's Thinnest Foldable at 8.82mm, Study Finds Honor Magic..."
+        },
+        {
+            "title": "Amazon's newest Kindle has people reading \"hundreds more pages\" of their books - clear the shelves - Woman & Home",
+            "url": "https://www.womanandhome.com/life/books/amazon-colorsoft-kindle-launch/",
+            "source": "NewsAPI (woman&home)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Amazon's Newest Kindle Has People Reading \"hundreds More Pages\" of Their Books - Clear The..."
+        },
+        {
+            "title": "How to make your iPhone homescreen icons clear using iOS 26 - The Verge",
+            "url": "https://www.theverge.com/tech/713748/ios-26-iphone-liquid-glass-home-screen-how-to",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "How to Make Your Iphone Homescreen Icons Clear Using Ios 26 - the Verge"
+        },
+        {
+            "title": "Elden Ring Nightreign is adding two-player co-op - The Verge",
+            "url": "https://www.theverge.com/news/713829/elden-ring-nightreign-two-player-support-patch",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Elden Ring Nightreign Is Adding Two-player Co-op - the Verge"
+        },
+        {
+            "title": "GPD WIN 5 \"Strix Halo\" handheld specs confirmed: Ryzen MAX 385 & 395, 7 inch screen and EXTERNAL 80Wh battery - VideoCardz.com",
+            "url": "https://videocardz.com/newz/gpd-win-5-strix-halo-handheld-specs-confirmed-ryzen-max-385-395-7-inch-screen-and-external-80wh-battery",
+            "source": "NewsAPI (Videocardz.com)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Gpd Win 5 \"strix Halo\" Handheld Specs Confirmed: Ryzen Max 385 & 395, 7 Inch..."
+        },
+        {
+            "title": "Nintendo's LEGO Game Boy Officially Revealed, Releasing October 2025 - Nintendo Life",
+            "url": "https://www.nintendolife.com/news/2025/07/nintendos-lego-game-boy-officially-revealed-releasing-october-2025",
             "source": "NewsAPI (Nintendo Life)",
             "published_date_obj": "2025-07-25",
-            "rewritten_title": "Pok\u00e9mon Legends: Z-a Reveals New Pre-order Distribution, Available in Two Countries - Nintendo Life"
+            "rewritten_title": "Nintendo's Lego Game Boy Officially Revealed, Releasing October 2025 - Nintendo Life"
         },
         {
-            "title": "Steam and Itch.io Are Pulling \u2018Porn\u2019 Games. Critics Say It\u2019s a Slippery Slope to More Censorship - WIRED",
-            "url": "https://www.wired.com/story/steam-itchio-are-pulling-porn-games-censorship/",
-            "source": "NewsAPI (Wired)",
+            "title": "Quantum Scientists Have Built a New Math of Cryptography - Quanta Magazine",
+            "url": "https://www.quantamagazine.org/quantum-scientists-have-built-a-new-math-of-cryptography-20250725/",
+            "source": "NewsAPI (Quanta Magazine)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Quantum Scientists Have Built a New Math of Cryptography - Quanta Magazine"
+        },
+        {
+            "title": "Here\u2019s why teens don\u2019t belong on dating apps - CNN",
+            "url": "https://www.cnn.com/2025/07/25/health/teens-dating-apps-wellness",
+            "source": "NewsAPI (CNN)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Here\u2019s Why Teens Don\u2019t Belong on Dating Apps - Cnn"
+        },
+        {
+            "title": "OpenAI\u2019s GPT-5 Shines in Coding Tasks - The Information",
+            "url": "https://www.theinformation.com/articles/openais-gpt-5-shines-coding-tasks",
+            "source": "NewsAPI (The Information)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Openai\u2019s Gpt-5 Shines in Coding Tasks - the Information"
+        },
+        {
+            "title": "70% Of Destiny 2\u2019s Top Contest Mode Clearing Raid Teams Cheated - Forbes",
+            "url": "https://www.forbes.com/sites/paultassi/2025/07/25/70-of-destiny-2s-top-contest-mode-clearing-raid-teams-cheated/",
+            "source": "NewsAPI (Forbes)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "70% of Destiny 2\u2019s Top Contest Mode Clearing Raid Teams Cheated - Forbes"
+        },
+        {
+            "title": "Everything you need to know about AppleCare One - 9to5Mac",
+            "url": "https://9to5mac.com/2025/07/25/everything-you-need-to-know-about-applecare-one/",
+            "source": "NewsAPI (9to5Mac)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Everything You Need to Know About Applecare One - 9to5mac"
+        },
+        {
+            "title": "I tried Gemini on the Pixel Watch \u2014 here\u2019s what it\u2019s like - The Verge",
+            "url": "https://www.theverge.com/gadgets/713532/gemini-wear-os-pixel-watch-hands-on",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "I Tried Gemini on the Pixel Watch \u2014 Here\u2019s What It\u2019s Like - the Verge"
+        },
+        {
+            "title": "Metroid Prime 4: Beyond Rating Spotted, Fuelling Nintendo Direct Hopes Again - Nintendo Life",
+            "url": "https://www.nintendolife.com/news/2025/07/metroid-prime-4-beyond-rating-spotted-fuelling-nintendo-direct-hopes-again",
+            "source": "NewsAPI (Nintendo Life)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Metroid Prime 4: Beyond Rating Spotted, Fuelling Nintendo Direct Hopes Again - Nintendo Life"
+        },
+        {
+            "title": "Star Wars Outlaws Sequel Reportedly Cancelled, Will Stay in a Galaxy Far, Far Away - Push Square",
+            "url": "https://www.pushsquare.com/news/2025/07/star-wars-outlaws-sequel-reportedly-cancelled-will-stay-in-a-galaxy-far-far-away",
+            "source": "NewsAPI (Push Square)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Star Wars Outlaws Sequel Reportedly Cancelled, Will Stay in a Galaxy Far, Far Away -..."
+        },
+        {
+            "title": "As PS4 Support Comes to an End, PS5 Owners Express Relief - PlayStation LifeStyle",
+            "url": "https://www.playstationlifestyle.net/2025/07/25/battlefield-6-ps4-support-news-met-with-delight/",
+            "source": "NewsAPI (PlayStation LifeStyle)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "As Ps4 Support Comes to an End, Ps5 Owners Express Relief - Playstation Lifestyle"
+        },
+        {
+            "title": "Switch 2 Sets Record With 5M Sold in 1st Month - Worldwide Hardware Estimates for June 2025 - VGChartz",
+            "url": "https://www.vgchartz.com/article/465283/switch-2-sets-record-with-5m-sold-in-1st-month-worldwide-hardware-estimates-for-june-2025/",
+            "source": "NewsAPI (Vgchartz.com)",
             "published_date_obj": "2025-07-24",
-            "rewritten_title": "Steam and Itch.io Are Pulling \u2018porn\u2019 Games. Critics Say It\u2019s a Slippery Slope to More..."
+            "rewritten_title": "Switch 2 Sets Record with 5m Sold in 1st Month - Worldwide Hardware Estimates For..."
         },
         {
-            "title": "Google rethinks search results with its new AI-curated \u2018Web Guide\u2019 - The Verge",
-            "url": "https://www.theverge.com/news/713351/google-ai-search-results-web-guide-labs-beta-test",
+            "title": "Google\u2019s shortened goo.gl links will stop working next month - The Verge",
+            "url": "https://www.theverge.com/news/713125/google-url-shortener-links-shutdown-deadline",
             "source": "NewsAPI (The Verge)",
             "published_date_obj": "2025-07-24",
-            "rewritten_title": "Google Rethinks Search Results with Its New Ai-curated \u2018web Guide\u2019 - the Verge"
+            "rewritten_title": "Google\u2019s Shortened Goo.gl Links Will Stop Working Next Month - the Verge"
         },
         {
-            "title": "This \u201890s parenting trend is back \u2014 and NY moms and dads are divided - New York Post",
-            "url": "https://nypost.com/2025/07/24/lifestyle/the-90s-parenting-trend-of-feral-child-summer-is-back/",
-            "source": "NewsAPI (New York Post)",
+            "title": "My Friend Just Got Fired. Her Reaction Has Totally Thrown Me. - Slate Magazine",
+            "url": "https://slate.com/advice/2025/07/work-advice-how-to-support-fired-friend.html",
+            "source": "NewsAPI (Slate Magazine)",
             "published_date_obj": "2025-07-24",
-            "rewritten_title": "This \u201890s Parenting Trend Is Back \u2014 and Ny Moms and Dads Are Divided -..."
+            "rewritten_title": "My Friend Just Got Fired. Her Reaction Has Totally Thrown Me. - Slate Magazine"
         },
         {
-            "title": "AppleCare One users get gift cards when switching from AppleCare+ - AppleInsider",
-            "url": "https://appleinsider.com/articles/25/07/24/applecare-one-users-get-gift-cards-when-switching-from-applecare",
-            "source": "NewsAPI (AppleInsider)",
+            "title": "Cayo Perico Motor Wars: New Mode with 4X Rewards for GTA+ Members - Rockstar Games",
+            "url": "https://www.rockstargames.com/newswire/article/k47o54377k79ka/cayo-perico-motor-wars-new-mode-with-4x-rewards-for-gta-members",
+            "source": "NewsAPI (Rockstargames.com)",
             "published_date_obj": "2025-07-24",
-            "rewritten_title": "Applecare One Users Get Gift Cards When Switching From Applecare+ - Appleinsider"
+            "rewritten_title": "Cayo Perico Motor Wars: New Mode with 4x Rewards for Gta+ Members - Rockstar Games"
         },
         {
-            "title": "Google Skips Right to Leaking the Whole Pixel 10 Lineup - Gizmodo",
-            "url": "https://gizmodo.com/google-skips-right-to-leaking-the-whole-pixel-10-lineup-2000633712",
+            "title": "The People Behind the Most Accurate Game Boy Recreation Are Making an N64 - Gizmodo",
+            "url": "https://gizmodo.com/the-people-behind-the-most-accurate-game-boy-recreation-are-making-an-n64-2000633714",
             "source": "NewsAPI (Gizmodo.com)",
             "published_date_obj": "2025-07-24",
-            "rewritten_title": "Google Skips Right to Leaking the Whole Pixel 10 Lineup - Gizmodo"
+            "rewritten_title": "The People Behind the Most Accurate Game Boy Recreation Are Making an N64 - Gizmodo"
         },
         {
-            "title": "Forget wireless charging, the Pixel Watch 4 is trying something different - Android Police",
-            "url": "https://www.androidpolice.com/forget-wireless-charging-pixel-watch-4-is-trying-something-different/",
-            "source": "NewsAPI (Android Police)",
-            "published_date_obj": "2025-07-24",
-            "rewritten_title": "Forget Wireless Charging, the Pixel Watch 4 Is Trying Something Different - Android Police"
-        },
-        {
-            "title": "No, of Course You Can\u2019t Actually Play the New Lego Game Boy - WIRED",
-            "url": "https://www.wired.com/story/no-of-course-you-cant-actually-play-the-new-lego-game-boy/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2025-07-24",
-            "rewritten_title": "No, of Course You Can\u2019t Actually Play the New Lego Game Boy - Wired"
-        },
-        {
-            "title": "Elden Ring Nightreign shipments and digital sales top five million; Elden Ring expansion \u2018Shadow of the Erdtree\u2019 tops 10 million - Gematsu",
-            "url": "https://www.gematsu.com/2025/07/elden-ring-nightreign-shipments-and-digital-sales-top-five-million-elden-ring-expansion-shadow-of-the-erdtree-tops-10-million",
-            "source": "NewsAPI (Gematsu)",
-            "published_date_obj": "2025-07-24",
-            "rewritten_title": "Elden Ring Nightreign Shipments and Digital Sales Top Five Million; Elden Ring Expansion \u2018shadow Of..."
-        },
-        {
-            "title": "Amazon expands Kindle Colorsoft family with 16 GB model and first-ever color Kindle for kids - About Amazon",
-            "url": "https://www.aboutamazon.com/news/devices/kindle-colorsoft-expansion-first-color-kindle-for-kids",
-            "source": "NewsAPI (Aboutamazon.com)",
-            "published_date_obj": "2025-07-24",
-            "rewritten_title": "Amazon Expands Kindle Colorsoft Family with 16 Gb Model and First-ever Color Kindle for Kids..."
-        },
-        {
-            "title": "The 12 Best Games On The Nintendo Switch 2 - Kotaku",
-            "url": "https://kotaku.com/nintendo-switch-2-best-games-mario-kart-donkey-kong-1851786840",
-            "source": "NewsAPI (Kotaku)",
-            "published_date_obj": "2025-07-24",
-            "rewritten_title": "The 12 Best Games on the Nintendo Switch 2 - Kotaku"
-        },
-        {
-            "title": "Sony Pays $464M For Stake In \u2018Pac-Man\u2019 Owner Bandai Namco - Deadline",
-            "url": "http://deadline.com/2025/07/sony-buys-stake-in-pac-man-owner-bandai-namco-1236467072/",
-            "source": "NewsAPI (Deadline)",
-            "published_date_obj": "2025-07-24",
-            "rewritten_title": "Sony Pays $464m for Stake in \u2018pac-man\u2019 Owner Bandai Namco - Deadline"
-        },
-        {
-            "title": "Google Photos rolls out tools to turn your photos into anime, comics, and more - Android Authority",
-            "url": "https://www.androidauthority.com/google-photos-image-to-video-remix-3580338/",
-            "source": "NewsAPI (Android Authority)",
-            "published_date_obj": "2025-07-23",
-            "rewritten_title": "Google Photos Rolls Out Tools to Turn Your Photos Into Anime, Comics, and More -..."
-        },
-        {
-            "title": "Super Mario Party Jamboree - Nintendo Switch 2 Edition + Jamboree TV Review - IGN",
-            "url": "https://www.ign.com/articles/super-mario-party-jamboree-nintendo-switch-2-edition-jamboree-tv-review",
-            "source": "NewsAPI (IGN)",
-            "published_date_obj": "2025-07-23",
-            "rewritten_title": "Super Mario Party Jamboree - Nintendo Switch 2 Edition + Jamboree Tv Review - Ign"
-        },
-        {
-            "title": "10 Things I Wish I Knew Before Vibe Coding",
-            "url": "https://www.saastr.com/10-things-i-wish-i-knew-before-vibe-coding-the-real-talk/",
+            "title": "10 Things That Are Different in Vertical SMB Sales with Toast\u2019s CRO",
+            "url": "https://www.saastr.com/10-things-that-are-different-in-vertical-smb-sales-with-toasts-cro/",
             "source": "SaaStr",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "10 Things I Wish I Knew Before Vibe Coding"
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "10 Things That Are Different in Vertical Smb Sales with Toast\u2019s Cro"
         },
         {
-            "title": "AI in Sales: Incredible When It Works. And Often a Net Negative When You Use It On Autopilot",
-            "url": "https://www.saastr.com/ai-in-sales-incredible-when-it-works-catastrophic-when-you-dont-review-it/",
-            "source": "SaaStr",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "Ai in Sales: Incredible When It Works. and Often a Net Negative When You Use..."
-        },
-        {
-            "title": "How to build secure and scalable remote MCP servers",
-            "url": "https://github.blog/ai-and-ml/generative-ai/how-to-build-secure-and-scalable-remote-mcp-servers/",
-            "source": "GitHub Blog",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "How to Build Secure and Scalable Remote Mcp Servers"
-        },
-        {
-            "title": "Intel is spinning off its Network and Edge group",
-            "url": "https://techcrunch.com/2025/07/25/intel-is-spinning-off-its-network-and-edge-group/",
+            "title": "Astronomer winks at viral notoriety with \u2018temporary spokesperson\u2019 Gwyneth Paltrow",
+            "url": "https://techcrunch.com/2025/07/26/astronomer-winks-at-viral-notoriety-with-temporary-spokesperson-gwyneth-paltrow/",
             "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "Intel Is Spinning Off Its Network and Edge Group"
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "Astronomer Winks at Viral Notoriety with \u2018temporary Spokesperson\u2019 Gwyneth Paltrow"
         },
         {
-            "title": "A timeline of the US semiconductor market in 2025",
-            "url": "https://techcrunch.com/2025/07/25/a-timeline-of-the-u-s-semiconductor-market-in-2025/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "A Timeline of the Us Semiconductor Market in 2025"
-        },
-        {
-            "title": "Kingdoms and Courts: The \u201cWindsurf Effect\u201d and How We Get Back to Normal in Tech M&A",
-            "url": "https://www.battery.com/blog/kingdoms-and-courts-the-windsurf-effect-and-how-we-get-back-to-normal-in-tech-ma/",
-            "source": "Battery Ventures",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "Kingdoms and Courts: the \u201cwindsurf Effect\u201d and How We Get Back to Normal in Tech..."
-        },
-        {
-            "title": "Catch frontend issues before users using chaos engineering",
-            "url": "https://blog.logrocket.com/catch-frontend-issues-before-users-using-chaos-engineering/",
-            "source": "LogRocket",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "Catch Frontend Issues Before Users Using Chaos Engineering"
-        },
-        {
-            "title": "Nature just documented a 4th scientific paradigm: AI-driven discovery is fundamentally changing how we generate new knowledge",
-            "url": "https://www.reddit.com/r/artificial/comments/1m957se/nature_just_documented_a_4th_scientific_paradigm/",
-            "source": "Reddit r/artificial",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "Nature Just Documented a 4th Scientific Paradigm: Ai-driven Discovery Is Fundamentally Changing How We Generate..."
-        },
-        {
-            "title": "Why are we chasing AGI",
-            "url": "https://www.reddit.com/r/artificial/comments/1m9jchs/why_are_we_chasing_agi/",
+            "title": "New AI architecture delivers 100x faster reasoning than LLMs with just 1,000 training examples",
+            "url": "https://www.reddit.com/r/artificial/comments/1ma2tau/new_ai_architecture_delivers_100x_faster/",
             "source": "Reddit r/artificial",
             "published_date_obj": "2025-07-26",
-            "rewritten_title": "Why Are We Chasing Agi"
+            "rewritten_title": "New Ai Architecture Delivers 100x Faster Reasoning Than Llms with Just 1,000 Training Examples"
         },
         {
-            "title": "Eisenhower's New Warning: The AI-Industrial Complex is Here: And It's Not Going away.",
-            "url": "https://www.reddit.com/r/artificial/comments/1m9fgny/eisenhowers_new_warning_the_aiindustrial_complex/",
+            "title": "We made sand think",
+            "url": "https://www.reddit.com/r/artificial/comments/1m9p0d5/we_made_sand_think/",
             "source": "Reddit r/artificial",
             "published_date_obj": "2025-07-26",
-            "rewritten_title": "Eisenhower's New Warning: the Ai-industrial Complex Is Here: and It's Not Going Away."
+            "rewritten_title": "We Made Sand Think"
         },
         {
-            "title": "Searching for help and suggestions for a project in the domain of Spiking Neural Network and Language models.",
-            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1m8xm9m/searching_for_help_and_suggestions_for_a_project/",
+            "title": "What benchmark has been made on largest variety/numbers of models?",
+            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1m9zrx8/what_benchmark_has_been_made_on_largest/",
             "source": "Reddit r/LargeLanguageModels",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "Searching for Help and Suggestions for a Project in the Domain of Spiking Neural Network..."
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "What Benchmark Has Been Made on Largest Variety/numbers of Models?"
         },
         {
-            "title": "Meta AI on WhatsApp hides a system prompt",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1m98jl8/meta_ai_on_whatsapp_hides_a_system_prompt/",
+            "title": "Appreciation Post - Thank you unsloth team, and thank you bartowski",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ma08e0/appreciation_post_thank_you_unsloth_team_and/",
             "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "Meta Ai on Whatsapp Hides a System Prompt"
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "Appreciation Post - Thank You Unsloth Team, and Thank You Bartowski"
         },
         {
-            "title": "Compact 2x RTX Pro 6000 Rig",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1m9bwoy/compact_2x_rtx_pro_6000_rig/",
-            "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "Compact 2x Rtx Pro 6000 Rig"
+            "title": "[P] Sub-millisecond GPU Task Queue: Optimized CUDA Kernels for Small-Batch ML Inference on GTX 1650.",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1m9vauo/p_submillisecond_gpu_task_queue_optimized_cuda/",
+            "source": "Reddit r/MachineLearning",
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "[p] Sub-millisecond Gpu Task Queue: Optimized Cuda Kernels for Small-batch Ml Inference on Gtx 1650."
         },
         {
-            "title": "Asked ChatGPT to create an image of my partner and me with our future child",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1m9cp0c/asked_chatgpt_to_create_an_image_of_my_partner/",
+            "title": "I asked ChatGPT to do a meme about Flat Earthers",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1ma64ow/i_asked_chatgpt_to_do_a_meme_about_flat_earthers/",
             "source": "Reddit r/chatgpt",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "Asked Chatgpt to Create an Image of My Partner and Me with Our Future Child"
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "I Asked Chatgpt to Do a Meme About Flat Earthers"
         },
         {
-            "title": "I Tested OpenAI's $20/month \u201cAgent\u201d So You Don\u2019t Have To.  It Can\u2019t Shop, Book, or Reserve Anything",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1m9bv7d/i_tested_openais_20month_agent_so_you_dont_have/",
+            "title": "Asked chatgpt to age me",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1ma9s6h/asked_chatgpt_to_age_me/",
             "source": "Reddit r/chatgpt",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "I Tested Openai's $20/month \u201cagent\u201d So You Don\u2019t Have To. It Can\u2019t Shop, Book, Or..."
+            "published_date_obj": "2025-07-27",
+            "rewritten_title": "Asked Chatgpt to Age Me"
         },
         {
-            "title": "As much as I love Claude's code, I have to remind you\u2026",
-            "url": "https://www.reddit.com/r/ClaudeAI/comments/1m99gnq/as_much_as_i_love_claudes_code_i_have_to_remind/",
+            "title": "Weekly limits are coming...",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1ma3s58/weekly_limits_are_coming/",
             "source": "Reddit r/claudeai",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "As Much as I Love Claude's Code, I Have to Remind You\u2026"
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "Weekly Limits Are Coming..."
         },
         {
-            "title": "A friendly reminder in the lights of the new model",
-            "url": "https://www.reddit.com/r/CharacterAI/comments/1m94v80/a_friendly_reminder_in_the_lights_of_the_new_model/",
+            "title": "We're about to witness the greatest falloff in C.AI history..",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1ma3qmp/were_about_to_witness_the_greatest_falloff_in_cai/",
             "source": "Reddit r/characterai",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "A Friendly Reminder in the Lights of the New Model"
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "We're About to Witness the Greatest Falloff in C.ai History.."
         },
         {
-            "title": "Agent casually clicking the \"I am not a robot\" button",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1m9c15h/agent_casually_clicking_the_i_am_not_a_robot/",
+            "title": "Agent Mode Ordered this Grocery Haul",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1m9u7e6/agent_mode_ordered_this_grocery_haul/",
             "source": "Reddit r/openai",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "Agent Casually Clicking the \"i Am Not a Robot\" Button"
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "Agent Mode Ordered This Grocery Haul"
         },
         {
-            "title": "If ChatGPT can now use a browser, can it open chatgpt.com and chat with ChatGPT?",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1m9eqxw/if_chatgpt_can_now_use_a_browser_can_it_open/",
+            "title": "One of Sam Altman\u2019s theories of the future is that our universal basic income would be in the form of AI tokens.. GTFOH",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1m9sg5v/one_of_sam_altmans_theories_of_the_future_is_that/",
             "source": "Reddit r/openai",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "If Chatgpt Can Now Use a Browser, Can It Open Chatgpt.com and Chat with Chatgpt?"
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "One of Sam Altman\u2019s Theories of the Future Is That Our Universal Basic Income Would..."
         },
         {
-            "title": "New OpenAI model wipes floor with Sonnet 4",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1m9ahxd/new_openai_model_wipes_floor_with_sonnet_4/",
-            "source": "Reddit r/openai",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "New Openai Model Wipes Floor with Sonnet 4"
-        },
-        {
-            "title": "I wrote an AI Agent that works better than I expected. Here are 10 learnings.",
-            "url": "https://www.reddit.com/r/AI_Agents/comments/1m8vlzt/i_wrote_an_ai_agent_that_works_better_than_i/",
+            "title": "How did you guys actually learn how to use AI tools and how to build agents?",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1m9zeig/how_did_you_guys_actually_learn_how_to_use_ai/",
             "source": "Reddit r/ai_agents",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "I Wrote an Ai Agent That Works Better Than I Expected. Here Are 10 Learnings."
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "How Did You Guys Actually Learn How to Use Ai Tools and How to Build..."
         },
         {
-            "title": "Day off work, went to see what models are on civitai (tensor art is now defunct, no adult content at all allowed)",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1m95vuh/day_off_work_went_to_see_what_models_are_on/",
+            "title": "Upcoming Wan 2.2 video model Teaser",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1ma8e9z/upcoming_wan_22_video_model_teaser/",
             "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "Day Off Work, Went to See What Models Are on Civitai (tensor Art Is Now..."
+            "published_date_obj": "2025-07-27",
+            "rewritten_title": "Upcoming Wan 2.2 Video Model Teaser"
         },
         {
-            "title": "CivitAI Bans UK Users",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1m993bj/civitai_bans_uk_users/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-07-25",
-            "rewritten_title": "Civitai Bans Uk Users"
+            "title": "Early Cosplay",
+            "url": "https://www.reddit.com/r/aiArt/comments/1m9vlnw/early_cosplay/",
+            "source": "Reddit r/AIArt",
+            "published_date_obj": "2025-07-26",
+            "rewritten_title": "Early Cosplay"
         }
     ],
     "SaaS Acquisitions": [
         {
-            "title": "Amazon Has the Best Deal on the New Samsung Galaxy Z Fold 7 Ahead of Its Release - IGN",
-            "url": "https://www.ign.com/articles/where-to-buy-the-samsung-galaxy-z-fold-7",
-            "source": "NewsAPI (IGN)",
-            "published_date_obj": "2025-07-24",
-            "rewritten_title": "Amazon Has the Best Deal on the New Samsung Galaxy Z Fold 7 Ahead Of..."
+            "title": "Galaxy Z Flip 7, Fold 7, and Watch 8 hit the shelves with deals too good to pass up - PhoneArena",
+            "url": "https://www.phonearena.com/news/galaxy-z-flip-7-fold-7-watch-8-launch-deals-save-big_id172501",
+            "source": "NewsAPI (PhoneArena)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Galaxy Z Flip 7, Fold 7, and Watch 8 Hit the Shelves with Deals Too..."
         }
     ],
     "SaaS Metrics": [
         {
-            "title": "As Nintendo Switch 2 breaks records, game subscription spending hits another all-time high in the US \u2014 boding well for Xbox Game Pass? - Windows Central",
-            "url": "https://www.windowscentral.com/gaming/june-2025-circana",
-            "source": "NewsAPI (Windows Central)",
-            "published_date_obj": "2025-07-23",
-            "rewritten_title": "As Nintendo Switch 2 Breaks Records, Game Subscription Spending Hits Another All-time High in The..."
+            "title": "Ubisoft date Assassin's Creed Shadows New Game+ mode alongside plans to make its open world more convenient - Rock Paper Shotgun",
+            "url": "https://www.rockpapershotgun.com/ubisoft-date-assassins-creed-shadows-new-game-mode-alongside-plans-to-make-its-open-world-more-convenient",
+            "source": "NewsAPI (Rock Paper Shotgun)",
+            "published_date_obj": "2025-07-25",
+            "rewritten_title": "Ubisoft Date Assassin's Creed Shadows New Game+ Mode Alongside Plans to Make Its Open World..."
         }
     ]
 }
