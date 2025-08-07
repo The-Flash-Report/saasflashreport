@@ -1,563 +1,1208 @@
 {
-    "SaaS Funding": [],
-    "Enterprise Software": [
+    "SaaS Funding": [
         {
-            "title": "78% Revenue Dependency = 0.7 Stock Correlation: How Klaviyo Became a Leveraged Bet on Shopify (And What It Means for Your B2B Partnership Strategy)",
-            "url": "https://www.saastr.com/78-revenue-dependency-0-7-stock-correlation-how-klaviyo-became-a-leveraged-bet-on-shopify-and-what-it-means-for-your-saas-partnership-strategy/",
-            "source": "SaaStr",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "78% Revenue Dependency = 0.7 Stock Correlation: How Klaviyo Became a Leveraged Bet on Shopify..."
+            "title": "Sales and marketing 101 for startups: driving growth together",
+            "url": "https://alleged-peace.flywheelsites.com/sales-and-marketing-101-for-startups/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Sales and Marketing 101 for Startups: Driving Growth Together"
         },
         {
-            "title": "Salesforce Named a Leader in the 2025 Gartner\u00ae Magic Quadrant\u2122 for Enterprise Low-Code Application Platforms",
-            "url": "https://www.salesforce.com/news/stories/gartner-magic-quadrant-low-code-application-2025/",
-            "source": "Salesforce Blog",
+            "title": "Pricing & Jobs to be Done with Matt Lerner of Startup Core Strengths",
+            "url": "https://alleged-peace.flywheelsites.com/pricing-and-jobs-to-be-done/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Pricing & Jobs to Be Done with Matt Lerner of Startup Core Strengths"
+        },
+        {
+            "title": "Yes, SaaS Startup Growth Is Slowing Down. Here\u2019s the Data",
+            "url": "https://alleged-peace.flywheelsites.com/slowing-startup-growth/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Yes, Saas Startup Growth Is Slowing Down. Here\u2019s the Data"
+        },
+        {
+            "title": "9 Startup Lessons From Phil Knight, Creator of NIKE",
+            "url": "https://alleged-peace.flywheelsites.com/startup-lessons-from-nike/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "9 Startup Lessons From Phil Knight, Creator of Nike"
+        },
+        {
+            "title": "SaaS Metrics Every Startup Founder Should Know",
+            "url": "https://alleged-peace.flywheelsites.com/saas-metrics-for-founders/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Saas Metrics Every Startup Founder Should Know"
+        },
+        {
+            "title": "Figma\u2019s IPO success is \u2018a little bit of a meme stock,\u2019 says Sapphire Ventures\u2019 Jai Das",
+            "url": "https://techcrunch.com/podcast/figmas-ipo-success-is-a-little-bit-of-a-meme-stock-says-sapphire-ventures-jai-das/",
+            "source": "TechCrunch Enterprise",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Figma\u2019s Ipo Success Is \u2018a Little Bit of a Meme Stock,\u2019 Says Sapphire Ventures\u2019 Jai..."
+        }
+    ],
+    "Enterprise Software": [
+        {
+            "title": "We\u2019re LIVE! The 2.0 SaaStr.AI Is Here, and It\u2019s Still FREE: The AI Co-Pilot Every B2B Founder Has Been Waiting For",
+            "url": "https://www.saastr.com/were-live-the-2-0-saastr-ai-is-here-and-its-still-free-the-ai-co-pilot-every-b2b-founder-has-been-waiting-for/",
+            "source": "SaaStr",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "We\u2019re Live! the 2.0 Saastr.ai Is Here, and It\u2019s Still Free: the Ai Co-pilot Every..."
+        },
+        {
+            "title": "Mastering account management in B2B SaaS",
+            "url": "https://alleged-peace.flywheelsites.com/mastering-account-management-in-b2b-saas/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Mastering Account Management in B2b Saas"
+        },
+        {
+            "title": "Convert More Leads with ChartMogul CRM",
+            "url": "https://alleged-peace.flywheelsites.com/convert-more-leads-with-chartmogul-crm/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Convert More Leads with Chartmogul Crm"
+        },
+        {
+            "title": "Introducing ChartMogul CRM",
+            "url": "https://alleged-peace.flywheelsites.com/introducing-chartmogul-crm/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Introducing Chartmogul Crm"
+        },
+        {
+            "title": "B2B SaaS Revenue Attribution with Lars Gr\u00f8nnegaard of Dreamdata",
+            "url": "https://alleged-peace.flywheelsites.com/b2b-saas-revenue-attribution/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "B2b Saas Revenue Attribution with Lars Gr\u00f8nnegaard of Dreamdata"
+        },
+        {
+            "title": "How to Build Customer-Focused Workflows That Scale Your Business",
+            "url": "https://slack.com/blog/productivity/how-to-build-customer-focused-workflows-that-scale-your-business",
+            "source": "Slack Blog",
             "published_date_obj": "2025-08-05",
-            "rewritten_title": "Salesforce Named a Leader in the 2025 Gartner\u00ae Magic Quadrant\u2122 for Enterprise Low-code Application Platforms"
+            "rewritten_title": "How to Build Customer-focused Workflows That Scale Your Business"
+        },
+        {
+            "title": "Upwork is buying its way into corporate staffing beyond freelancers",
+            "url": "https://techcrunch.com/2025/08/06/upwork-acquires-bubty-and-ascen-with-plans-to-launch-a-standalone-enterprise-business/",
+            "source": "TechCrunch Enterprise",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Upwork Is Buying Its Way Into Corporate Staffing Beyond Freelancers"
+        },
+        {
+            "title": "Cohere\u2019s new AI agent platform, North, promises to keep enterprise data secure",
+            "url": "https://techcrunch.com/2025/08/06/coheres-new-ai-agent-platform-north-promises-to-keep-enterprise-data-secure/",
+            "source": "TechCrunch Enterprise",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Cohere\u2019s New Ai Agent Platform, North, Promises to Keep Enterprise Data Secure"
         }
     ],
     "Product Launches": [
         {
-            "title": "Sagat update and server maintenance times, new content, features and more for Street Fighter 6 - eventhubs.com",
-            "url": "https://www.eventhubs.com/news/2025/aug/04/sagat-update-details-sf6/",
-            "source": "NewsAPI (EventHubs)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Sagat Update and Server Maintenance Times, New Content, Features and More for Street Fighter 6..."
-        },
-        {
-            "title": "The Battlefield 6 Open Beta is live to preload now \u2014 here's how to download - Windows Central",
-            "url": "https://www.windowscentral.com/gaming/the-battlefield-6-open-beta-is-live-to-preload-now-heres-how-to-download",
-            "source": "NewsAPI (Windows Central)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "The Battlefield 6 Open Beta Is Live to Preload Now \u2014 Here's How to Download..."
-        },
-        {
-            "title": "EA won\u2019t release The Sims 5 because players would lose 10 years of DLC - Dexerto",
-            "url": "https://www.dexerto.com/sims/ea-wont-release-the-sims-5-because-players-would-lose-10-years-of-dlc-3233901/",
-            "source": "NewsAPI (Dexerto)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Ea Won\u2019t Release the Sims 5 Because Players Would Lose 10 Years of Dlc -..."
-        },
-        {
-            "title": "iPhone 17 Pro: Seven new features are coming next month - 9to5Mac",
-            "url": "https://9to5mac.com/2025/08/04/iphone-17-pro-seven-new-features-are-coming-next-year/",
+            "title": "iOS 26 beta adds a cute new low battery animation - 9to5Mac",
+            "url": "https://9to5mac.com/2025/08/05/ios-26-beta-adds-a-cute-new-low-battery-animation/",
             "source": "NewsAPI (9to5Mac)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Iphone 17 Pro: Seven New Features Are Coming Next Month - 9to5mac"
-        },
-        {
-            "title": "Evo 2025: Everything Announced At The Annual Three-Day Fighting Game Fest - GameSpot",
-            "url": "https://www.gamespot.com/gallery/evo-2025-everything-announced-at-the-annual-three-day-fighting-game-fest/2900-6841/",
-            "source": "NewsAPI (GameSpot)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Evo 2025: Everything Announced at the Annual Three-day Fighting Game Fest - Gamespot"
-        },
-        {
-            "title": "[Master Duel] August 4th Update - YGOrganization",
-            "url": "https://ygorganization.com/master-duel-august-4th-update/",
-            "source": "NewsAPI (Ygorganization.com)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "[master Duel] August 4th Update - Ygorganization"
-        },
-        {
-            "title": "Metroid Prime 4 still launching this year says Nintendo as delay speculation intensifies - Eurogamer",
-            "url": "https://www.eurogamer.net/metroid-prime-4-still-launching-this-year-says-nintendo-as-delay-speculation-intensifies",
-            "source": "NewsAPI (Eurogamer.net)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Metroid Prime 4 Still Launching This Year Says Nintendo as Delay Speculation Intensifies - Eurogamer"
-        },
-        {
-            "title": "PlayStation 6 Release Date Leak Leaves Gamers Slamming PS5 - GAMINGbible",
-            "url": "https://www.gamingbible.com/news/platform/playstation/playstation-6-release-date-leak-180635-20250804",
-            "source": "NewsAPI (Gamingbible.com)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Playstation 6 Release Date Leak Leaves Gamers Slamming Ps5 - Gamingbible"
-        },
-        {
-            "title": "Microsoft is finally fixing this irritating Windows 11 feature - Neowin",
-            "url": "https://www.neowin.net/news/microsoft-is-finally-fixing-this-irritating-windows-11-feature/",
-            "source": "NewsAPI (Neowin)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Microsoft Is Finally Fixing This Irritating Windows 11 Feature - Neowin"
-        },
-        {
-            "title": "Guilty Gear Strive finally shows off Lucy gameplay and August release date - Dexerto",
-            "url": "https://www.dexerto.com/gaming/guilty-gear-strive-finally-shows-off-lucy-gameplay-and-august-release-date-3233434/",
-            "source": "NewsAPI (Dexerto)",
-            "published_date_obj": "2025-08-03",
-            "rewritten_title": "Guilty Gear Strive Finally Shows Off Lucy Gameplay and August Release Date - Dexerto"
-        },
-        {
-            "title": "Feature: What We Expect From Nintendo For Super Mario Bros.' 40th Anniversary - Nintendo Life",
-            "url": "https://www.nintendolife.com/features/what-we-expect-from-nintendo-for-super-mario-bros-40th-anniversary",
-            "source": "NewsAPI (Nintendo Life)",
-            "published_date_obj": "2025-08-03",
-            "rewritten_title": "Feature: What We Expect From Nintendo for Super Mario Bros.' 40th Anniversary - Nintendo Life"
-        },
-        {
-            "title": "Trump says he\u2019ll announce semiconductor and chip tariffs",
-            "url": "https://techcrunch.com/2025/08/05/trump-says-hell-announce-semiconductor-and-chip-tariffs/",
-            "source": "TechCrunch Enterprise",
             "published_date_obj": "2025-08-05",
-            "rewritten_title": "Trump Says He\u2019ll Announce Semiconductor and Chip Tariffs"
+            "rewritten_title": "Ios 26 Beta Adds a Cute New Low Battery Animation - 9to5mac"
         },
         {
-            "title": "OpenAI releases a free GPT model that can run right on your laptop",
-            "url": "https://www.reddit.com/r/artificial/comments/1mieuql/openai_releases_a_free_gpt_model_that_can_run/",
-            "source": "Reddit r/artificial",
+            "title": "Apple's iPhone 17 launch event now has an exact rumored date - GSMArena.com news - GSMArena.com",
+            "url": "https://www.gsmarena.com/apples_iphone_17_launch_event_now_has_an_exact_rumored_date-news-68909.php",
+            "source": "NewsAPI (GSMArena.com)",
             "published_date_obj": "2025-08-05",
-            "rewritten_title": "Openai Releases a Free Gpt Model That Can Run Right on Your Laptop"
+            "rewritten_title": "Apple's Iphone 17 Launch Event Now Has an Exact Rumored Date - Gsmarena.com News -..."
         },
         {
-            "title": "\ud83d\ude80 OpenAI released their open-weight models!!!",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1miezct/openai_released_their_openweight_models/",
+            "title": "Apple Watch Ultra 3\u2019s larger screen size leaks in new iOS 26 beta - 9to5Mac",
+            "url": "https://9to5mac.com/2025/08/05/apple-watch-ultra-3s-larger-screen-size-leaks-in-new-ios-26-beta/",
+            "source": "NewsAPI (9to5Mac)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Apple Watch Ultra 3\u2019s Larger Screen Size Leaks in New Ios 26 Beta - 9to5mac"
+        },
+        {
+            "title": "Kirby and the Forgotten Land's Star-Crossed World Nintendo Switch 2 Update Looks Massive, Smooth, and Sparkly in New Trailer - IGN",
+            "url": "https://www.ign.com/articles/kirby-and-the-forgotten-lands-star-crossed-world-nintendo-switch-2-update-looks-massive-smooth-and-sparkly-in-new-trailer",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Kirby and the Forgotten Land's Star-crossed World Nintendo Switch 2 Update Looks Massive, Smooth, And..."
+        },
+        {
+            "title": "Starfield Update 1.15.222 - August 5, 2025 - Bethesda.net",
+            "url": "https://bethesda.net/en/article/1FLEONINYlSMZPPhd7U5IT/starfield-update-1-15-222-august-5-2025",
+            "source": "NewsAPI (Bethesda.net)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Starfield Update 1.15.222 - August 5, 2025 - Bethesda.net"
+        },
+        {
+            "title": "MSI formally introduces GeForce RTX 5080 and RTX 5070 TI EXPERT graphics cards - VideoCardz.com",
+            "url": "https://videocardz.com/newz/msi-formally-introduces-geforce-rtx-5080-and-rtx-5070-ti-expert-graphics-cards",
+            "source": "NewsAPI (Videocardz.com)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Msi Formally Introduces Geforce Rtx 5080 and Rtx 5070 Ti Expert Graphics Cards - Videocardz.com"
+        },
+        {
+            "title": "Samsung One UI 8 Beta Will Be Open for More Galaxy Devices - Samsung Newsroom",
+            "url": "https://news.samsung.com/global/samsung-one-ui-8-beta-will-be-open-for-more-galaxy-devices",
+            "source": "NewsAPI (Samsung.com)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Samsung One Ui 8 Beta Will Be Open for More Galaxy Devices - Samsung Newsroom"
+        },
+        {
+            "title": "Battlefield 6 open beta maps and modes shared, as EA write an essay about tweaks based on Labs feedback - Rock Paper Shotgun",
+            "url": "https://www.rockpapershotgun.com/battlefield-6-open-beta-maps-and-modes-shared-as-ea-write-an-essay-about-tweaks-based-on-labs-feedback",
+            "source": "NewsAPI (Rock Paper Shotgun)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Battlefield 6 Open Beta Maps and Modes Shared, as Ea Write an Essay About Tweaks..."
+        },
+        {
+            "title": "Fitbit update makes sleep tracking more accurate, might raise awake time - 9to5Google",
+            "url": "http://9to5google.com/2025/08/04/fitbit-sleep-tracking-update/",
+            "source": "NewsAPI (9to5google.com)",
+            "published_date_obj": "2025-08-04",
+            "rewritten_title": "Fitbit Update Makes Sleep Tracking More Accurate, Might Raise Awake Time - 9to5google"
+        },
+        {
+            "title": "Launching the ChartMogul SaaS Benchmarks Report 2023",
+            "url": "https://alleged-peace.flywheelsites.com/saas-benchmarks-report-2023/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Launching the Chartmogul Saas Benchmarks Report 2023"
+        },
+        {
+            "title": "\ud83d\ude80 Qwen3-4B-Thinking-2507 released!",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1mj7t51/qwen34bthinking2507_released/",
             "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "\ud83d\ude80 Openai Released Their Open-weight Models!!!"
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "\ud83d\ude80 Qwen3-4b-thinking-2507 Released!"
         },
         {
-            "title": "Finally os models launched by openai !! At level of o4 mini !! Now we can say it's openai",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1mif1ia/finally_os_models_launched_by_openai_at_level_of/",
-            "source": "Reddit r/openai",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "Finally Os Models Launched by Openai !! at Level of O4 Mini !! Now We..."
+            "title": "Huihui released GPT-OSS 20b abliterated",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1mjoo7w/huihui_released_gptoss_20b_abliterated/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2025-08-07",
+            "rewritten_title": "Huihui Released Gpt-oss 20b Abliterated"
         }
     ],
     "SaaS Analytics": [
         {
-            "title": "Apex Legends Switch 2 Performance And Resolution Upgrade Detailed - Nintendo Life",
-            "url": "https://www.nintendolife.com/news/2025/08/apex-legends-switch-2-performance-and-resolution-upgrade-detailed",
-            "source": "NewsAPI (Nintendo Life)",
+            "title": "Report: ZeniMax\u2019s Cancelled \u201cProject Blackbird\u201d First Look at Creatures & Animations - MP1st",
+            "url": "https://mp1st.com/news/report-zenimaxs-cancelled-project-blackbird-first-look-at-creatures-animations",
+            "source": "NewsAPI (http://mp1st.com/category/news)",
             "published_date_obj": "2025-08-05",
-            "rewritten_title": "Apex Legends Switch 2 Performance and Resolution Upgrade Detailed - Nintendo Life"
+            "rewritten_title": "Report: Zenimax\u2019s Cancelled \u201cproject Blackbird\u201d First Look at Creatures & Animations - Mp1st"
         },
         {
-            "title": "One million people claim GOG's FreedomToBuy games in protest of ongoing NSFW game censorship row - GamesIndustry.biz",
-            "url": "https://www.gamesindustry.biz/one-million-people-claim-gogs-freedomtobuy-games-in-protest-of-ongoing-nsfw-game-censorship-row",
+            "title": "Cursor AI Code Editor Vulnerability Enables RCE via Malicious MCP File Swaps Post Approval - The Hacker News",
+            "url": "https://thehackernews.com/2025/08/cursor-ai-code-editor-vulnerability.html",
+            "source": "NewsAPI (Internet)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Cursor Ai Code Editor Vulnerability Enables Rce Via Malicious Mcp File Swaps Post Approval -..."
+        },
+        {
+            "title": "\"We've had to evolve.\" The long-awaited first games from ProbablyMonsters indicate a surprise change of tack - GamesIndustry.biz",
+            "url": "https://www.gamesindustry.biz/weve-had-to-evolve-the-long-awaited-first-games-from-probablymonsters-indicate-a-surprise-change-of-tack",
             "source": "NewsAPI (GamesIndustry.biz)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "One Million People Claim Gog's Freedomtobuy Games in Protest of Ongoing Nsfw Game Censorship Row..."
-        },
-        {
-            "title": "Steam Drops 21 Free Games You Can Download And Keep Forever - GAMINGbible",
-            "url": "https://www.gamingbible.com/news/platform/steam/steam-drops-21-free-games-keep-forever-090075-20250804",
-            "source": "NewsAPI (Gamingbible.com)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Steam Drops 21 Free Games You Can Download and Keep Forever - Gamingbible"
-        },
-        {
-            "title": "A Quarter of a Million People Have Experienced 'Baldur's Gate 3' by Giving Withers Big Naturals - Gizmodo",
-            "url": "https://gizmodo.com/a-quarter-of-a-million-people-have-experienced-baldurs-gate-3-by-giving-withers-big-naturals-2000638548",
-            "source": "NewsAPI (Gizmodo.com)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "A Quarter of a Million People Have Experienced 'baldur's Gate 3' by Giving Withers Big..."
-        },
-        {
-            "title": "Here's everything else Microsoft is doing to celebrate Rare's 40th birthday - Eurogamer",
-            "url": "https://www.eurogamer.net/heres-everything-else-microsoft-is-doing-to-celebrate-rares-40th-birthday",
-            "source": "NewsAPI (Eurogamer.net)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Here's Everything Else Microsoft Is Doing to Celebrate Rare's 40th Birthday - Eurogamer"
-        },
-        {
-            "title": "Half of Sales & Marketing Hires Will Leave Within 2\u00bd Years. The Data Behind It.",
-            "url": "https://www.saastr.com/half-of-sales-marketing-hires-will-leave-within-2%c2%bd-years-the-data-behind-it/",
-            "source": "SaaStr",
             "published_date_obj": "2025-08-05",
-            "rewritten_title": "Half of Sales & Marketing Hires Will Leave Within 2\u00bd Years. the Data Behind It."
+            "rewritten_title": "\"we've Had to Evolve.\" the Long-awaited First Games From Probablymonsters Indicate a Surprise Change Of..."
         },
         {
-            "title": "UX analytics changed my career \u2014 here\u2019s how it can change yours",
-            "url": "https://blog.logrocket.com/ux-design/ux-analytics-for-designers/",
-            "source": "LogRocket",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "Ux Analytics Changed My Career \u2014 Here\u2019s How It Can Change Yours"
+            "title": "Sync SaaS metrics to HubSpot Companies",
+            "url": "https://alleged-peace.flywheelsites.com/sync-saas-metrics-to-hubspot-companies/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Sync Saas Metrics to Hubspot Companies"
         },
         {
-            "title": "How to build autonomous teams that still see the bigger picture",
-            "url": "https://blog.logrocket.com/product-management/how-to-build-autonomous-teams-that-still-see-the-bigger-picture/",
-            "source": "LogRocket",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "How to Build Autonomous Teams That Still See the Bigger Picture"
+            "title": "Chat with your revenue data: ChartMogul\u2019s experimental MCP server",
+            "url": "https://alleged-peace.flywheelsites.com/chat-with-your-revenue-data/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Chat with Your Revenue Data: Chartmogul\u2019s Experimental Mcp Server"
+        },
+        {
+            "title": "Transform customer data with AI-powered enrichment",
+            "url": "https://alleged-peace.flywheelsites.com/transform-customer-data-with-ai-powered-enrichment/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Transform Customer Data with Ai-powered Enrichment"
+        },
+        {
+            "title": "Our revamped approach to data cleaning",
+            "url": "https://alleged-peace.flywheelsites.com/our-revamped-approach-to-data-cleaning/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Our Revamped Approach to Data Cleaning"
+        },
+        {
+            "title": "Build custom dashboards for each team",
+            "url": "https://alleged-peace.flywheelsites.com/build-team-workspaces-with-dashboards-and-folders/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Build Custom Dashboards for Each Team"
+        },
+        {
+            "title": "Upgraded Braintree integration: greater visibility and control",
+            "url": "https://alleged-peace.flywheelsites.com/upgraded-braintree-integration-greater-visibility-and-control/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Upgraded Braintree Integration: Greater Visibility and Control"
+        },
+        {
+            "title": "Upgraded Recurly integration: do more with your data",
+            "url": "https://alleged-peace.flywheelsites.com/upgraded-recurly-integration-do-more-with-your-data/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Upgraded Recurly Integration: Do More with Your Data"
+        },
+        {
+            "title": "Compare your performance to the market with ChartMogul benchmarks",
+            "url": "https://alleged-peace.flywheelsites.com/compare-your-performance-to-the-market-with-chartmogul-benchmarks/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Compare Your Performance to the Market with Chartmogul Benchmarks"
+        },
+        {
+            "title": "Using a columnar database to increase speed",
+            "url": "https://alleged-peace.flywheelsites.com/using-a-columnar-database-to-increase-speed/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Using a Columnar Database to Increase Speed"
+        },
+        {
+            "title": "Building a data engineering stack that boosts scalability",
+            "url": "https://alleged-peace.flywheelsites.com/building-a-data-engineering-stack-that-boosts-scalability/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Building a Data Engineering Stack That Boosts Scalability"
+        },
+        {
+            "title": "Databox now integrates with ChartMogul for deeper analysis",
+            "url": "https://alleged-peace.flywheelsites.com/databox-now-integrates-with-chartmogul-for-deeper-analysis/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Databox Now Integrates with Chartmogul for Deeper Analysis"
+        },
+        {
+            "title": "How Migrating Our Database Eliminated Data Processing Incidents",
+            "url": "https://alleged-peace.flywheelsites.com/how-migrating-our-database-eliminated-data-processing-incidents/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "How Migrating Our Database Eliminated Data Processing Incidents"
+        },
+        {
+            "title": "The New Chargebee Integration: Open Invoices, Support for Add-ons, and More Accurate Cash Flow Reporting",
+            "url": "https://alleged-peace.flywheelsites.com/chartmogul-chargebee-integration/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "The New Chargebee Integration: Open Invoices, Support for Add-ons, and More Accurate Cash Flow Reporting"
+        },
+        {
+            "title": "5 SaaS metrics that matter to investors with Jess Bartos of Salesforce Ventures",
+            "url": "https://alleged-peace.flywheelsites.com/5-saas-metrics-that-matter-to-investors/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "5 Saas Metrics That Matter to Investors with Jess Bartos of Salesforce Ventures"
+        },
+        {
+            "title": "New User Roles Provide Greater Flexibility and Control",
+            "url": "https://alleged-peace.flywheelsites.com/new-user-roles/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "New User Roles Provide Greater Flexibility and Control"
+        },
+        {
+            "title": "SaaS investor reporting: lessons from 370 board meeting",
+            "url": "https://alleged-peace.flywheelsites.com/investor-reporting-best-practices/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Saas Investor Reporting: Lessons From 370 Board Meeting"
+        },
+        {
+            "title": "Schedule ChartMogul Data Downloads Directly to Your Inbox",
+            "url": "https://alleged-peace.flywheelsites.com/schedule-email-downloads/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Schedule Chartmogul Data Downloads Directly to Your Inbox"
+        },
+        {
+            "title": "Segmenting Revenue Data To Set Regional Sales Goals With Callbell",
+            "url": "https://alleged-peace.flywheelsites.com/setting-goals-callbell/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Segmenting Revenue Data to Set Regional Sales Goals with Callbell"
+        },
+        {
+            "title": "Enrich Intercom Customer Profiles With Metrics, Analytics, and Data From ChartMogul",
+            "url": "https://alleged-peace.flywheelsites.com/intercom-destination/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Enrich Intercom Customer Profiles with Metrics, Analytics, and Data From Chartmogul"
+        },
+        {
+            "title": "ChartMogul vs. Baremetrics. Everything You Need to Know",
+            "url": "https://alleged-peace.flywheelsites.com/chartmogul-baremetrics-everything-you-need-to-know/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Chartmogul Vs. Baremetrics. Everything You Need to Know"
+        },
+        {
+            "title": "The Zero Copy Imperative: IBM, Salesforce, and Snowflake Experts on Data\u2019s Role Enabling Agentic AI",
+            "url": "https://www.salesforce.com/news/stories/zero-copy-for-agentic-ai-tips/",
+            "source": "Salesforce Blog",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "The Zero Copy Imperative: Ibm, Salesforce, and Snowflake Experts on Data\u2019s Role Enabling Agentic Ai"
+        },
+        {
+            "title": "GitLab uncovers Bittensor theft campaign via PyPI",
+            "url": "https://about.gitlab.com/blog/gitlab-uncovers-bittensor-theft-campaign-via-pypi/",
+            "source": "GitLab Blog",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Gitlab Uncovers Bittensor Theft Campaign Via Pypi"
+        },
+        {
+            "title": "Measuring AI ROI at scale: A practical guide to GitLab Duo Analytics",
+            "url": "https://about.gitlab.com/blog/measuring-ai-roi-at-scale-a-practical-guide-to-gitlab-duo-analytics/",
+            "source": "GitLab Blog",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Measuring Ai Roi at Scale: a Practical Guide to Gitlab Duo Analytics"
+        },
+        {
+            "title": "[D] Have any Bayesian deep learning methods achieved SOTA performance in...anything?",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1mjnrmg/d_have_any_bayesian_deep_learning_methods/",
+            "source": "Reddit r/MachineLearning",
+            "published_date_obj": "2025-08-07",
+            "rewritten_title": "[d] Have Any Bayesian Deep Learning Methods Achieved Sota Performance In...anything?"
         }
     ],
     "B2B Technology": [
         {
-            "title": "Valve pushes back after Mastercard denies quashing adult content on game platforms - Game Developer",
-            "url": "https://www.gamedeveloper.com/business/valve-pushes-back-after-mastercard-denies-quashing-adult-content-on-game-platforms",
-            "source": "NewsAPI (Gamedeveloper.com)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Valve Pushes Back After Mastercard Denies Quashing Adult Content on Game Platforms - Game Developer"
-        },
-        {
-            "title": "Dear SaaStr: When a Customer Says \u201cThat\u2019s Too Expensive\u201d, What Do You Do Next?",
-            "url": "https://www.saastr.com/dear-saastr-when-a-customer-says-thats-too-expensive-what-do-you-do-next/",
+            "title": "Dear SaaStr: What Are Some Top Tips for Hiring and Retaining Top Leaders?",
+            "url": "https://www.saastr.com/dear-saastr-what-are-some-top-tips-for-hiring-and-retaining-top-leaders/",
             "source": "SaaStr",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "Dear Saastr: When a Customer Says \u201cthat\u2019s Too Expensive\u201d, What Do You Do Next?"
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Dear Saastr: What Are Some Top Tips for Hiring and Retaining Top Leaders?"
         },
         {
-            "title": "Partnering with OpenAI to bring their new open models onto Cloudflare Workers AI",
-            "url": "https://blog.cloudflare.com/openai-gpt-oss-on-workers-ai/",
-            "source": "CloudFlare Blog",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "Partnering with Openai to Bring Their New Open Models Onto Cloudflare Workers Ai"
+            "title": "How we run customer onboarding at ChartMogul + a SaaS customer onboarding template",
+            "url": "https://alleged-peace.flywheelsites.com/how-we-run-customer-onboarding/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "How We Run Customer Onboarding at Chartmogul + a Saas Customer Onboarding Template"
         },
         {
-            "title": "Made $15K selling AI automations in 5 months (but learned some expensive lessons)",
-            "url": "https://www.reddit.com/r/AI_Agents/comments/1mih3fr/made_15k_selling_ai_automations_in_5_months_but/",
-            "source": "Reddit r/ai_agents",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "Made $15k Selling Ai Automations in 5 Months (but Learned Some Expensive Lessons)"
+            "title": "5 stops, 5 lessons: what we learned from a season of SaaS events",
+            "url": "https://alleged-peace.flywheelsites.com/5-stops-5-lessons-what-we-learned-from-a-season-of-saas-events/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "5 Stops, 5 Lessons: What We Learned From a Season of Saas Events"
+        },
+        {
+            "title": "How we use automations at ChartMogul",
+            "url": "https://alleged-peace.flywheelsites.com/how-we-use-automations-at-chartmogul/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "How We Use Automations at Chartmogul"
+        },
+        {
+            "title": "25 predictions for SaaS in 2025",
+            "url": "https://alleged-peace.flywheelsites.com/25-predictions-for-saas-in-2025/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "25 Predictions for Saas in 2025"
+        },
+        {
+            "title": "A guide to customer-led growth (CLG) for SaaS leaders",
+            "url": "https://alleged-peace.flywheelsites.com/a-guide-to-customer-led-growth/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "A Guide to Customer-led Growth (clg) for Saas Leaders"
+        },
+        {
+            "title": "Revenue Operations 101 for SaaS Companies",
+            "url": "https://alleged-peace.flywheelsites.com/saas-revenue-operations-101/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Revenue Operations 101 for Saas Companies"
+        },
+        {
+            "title": "Why we decided to rebuild our Sidekiq infrastructure to support greater scale",
+            "url": "https://alleged-peace.flywheelsites.com/autoscaling-sidekiq/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Why We Decided to Rebuild Our Sidekiq Infrastructure to Support Greater Scale"
+        },
+        {
+            "title": "SaaS growth remains slow throughout H1 2024",
+            "url": "https://alleged-peace.flywheelsites.com/saas-growth-remains-slow-throughout-h1-2024/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Saas Growth Remains Slow Throughout H1 2024"
+        },
+        {
+            "title": "New integrations with HubSpot, Segment and Intercom",
+            "url": "https://alleged-peace.flywheelsites.com/new-integrations-with-hubspot-segment-and-intercom/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "New Integrations with Hubspot, Segment and Intercom"
+        },
+        {
+            "title": "24 predictions for SaaS in 2024",
+            "url": "https://alleged-peace.flywheelsites.com/24-predictions-for-saas-in-2024/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "24 Predictions for Saas in 2024"
+        },
+        {
+            "title": "Lessons Learned Scaling a SaaS Business to $10M",
+            "url": "https://alleged-peace.flywheelsites.com/lessons-learned-scaling-a-saas-business-to-10m/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Lessons Learned Scaling a Saas Business to $10m"
+        },
+        {
+            "title": "The best SaaS blog posts and resources library",
+            "url": "https://alleged-peace.flywheelsites.com/best-saas-blogs/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "The Best Saas Blog Posts and Resources Library"
+        },
+        {
+            "title": "Scaling the Sales Tech Stack",
+            "url": "https://alleged-peace.flywheelsites.com/scaling-the-sales-tech-stack/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Scaling the Sales Tech Stack"
+        },
+        {
+            "title": "The SaaS Event Strategy For In-Person Events",
+            "url": "https://alleged-peace.flywheelsites.com/the-saas-event-strategy-for-in-person-events/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "The Saas Event Strategy for In-person Events"
+        },
+        {
+            "title": "The Best SaaS Reads of 2022",
+            "url": "https://alleged-peace.flywheelsites.com/best-saas-reads-2022/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "The Best Saas Reads of 2022"
+        },
+        {
+            "title": "Navigating Choppy SaaS Waters",
+            "url": "https://alleged-peace.flywheelsites.com/choppy-saas-waters/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Navigating Choppy Saas Waters"
+        },
+        {
+            "title": "Rapidly Scaling a Team With Gilles Bertaux of Livestorm",
+            "url": "https://alleged-peace.flywheelsites.com/rapidly-scaling-a-team/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Rapidly Scaling a Team with Gilles Bertaux of Livestorm"
+        },
+        {
+            "title": "What Is a Good SaaS Growth Rate?",
+            "url": "https://alleged-peace.flywheelsites.com/good-monthly-growth-rate/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "What Is a Good Saas Growth Rate?"
+        },
+        {
+            "title": "The Next Evolution of Docker Hardened Images: Customizable, FedRAMP Ready, AI Migration Agent, and Deeper Integrations",
+            "url": "https://www.docker.com/blog/the-next-evolution-of-docker-hardened-images/",
+            "source": "Docker Blog",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "The Next Evolution of Docker Hardened Images: Customizable, Fedramp Ready, Ai Migration Agent, and Deeper..."
+        },
+        {
+            "title": "How using AI as a therapist has helped me",
+            "url": "https://www.reddit.com/r/artificial/comments/1mjqsjc/how_using_ai_as_a_therapist_has_helped_me/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-08-07",
+            "rewritten_title": "How Using Ai as a Therapist Has Helped Me"
         }
     ],
     "Software Industry": [
         {
-            "title": "Google's Pixel 10 teaser basically throws shade straight at Apple - Android Central",
-            "url": "https://www.androidcentral.com/phones/google-pixel/google-pixel-10-teaser-roasts-apple-for-dragging-its-feet-on-siri",
-            "source": "NewsAPI (Android Central)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Google's Pixel 10 Teaser Basically Throws Shade Straight at Apple - Android Central"
+            "title": "Google is rolling out a fix for Pixel back button issues - The Verge",
+            "url": "https://www.theverge.com/news/719556/google-pixel-back-button-navigation-gesture-issues-android-16",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Google Is Rolling Out a Fix for Pixel Back Button Issues - the Verge"
         },
         {
-            "title": "Microsoft Is Trying to Trick You Into Using Copilot - Lifehacker",
-            "url": "https://lifehacker.com/tech/microsoft-is-trying-to-trick-you-into-using-copilot-again",
-            "source": "NewsAPI (Lifehacker.com)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Microsoft Is Trying to Trick You Into Using Copilot - Lifehacker"
+            "title": "How Virtua Fighter Looks to Bring Innovation and Realism to the 3D Fighting Genre | Evo 2025 - IGN",
+            "url": "https://www.ign.com/articles/how-virtua-fighter-looks-to-bring-innovation-and-realism-to-the-3d-fighting-genre-evo-2025",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "How Virtua Fighter Looks to Bring Innovation and Realism to the 3d Fighting Genre |..."
         },
         {
-            "title": "One Of 2025\u2019s Most Special, Emotional Games Is $5 And Will Take You An Hour To Finish - Kotaku",
-            "url": "https://kotaku.com/and-roger-review-tearyhand-studio-pc-steam-switch-2000614568",
+            "title": "RIP to the Macintosh HD hard drive icon, 2000\u20132025 - Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2025/08/rip-to-the-macintosh-hd-hard-drive-icon-2000-2025/",
+            "source": "NewsAPI (Ars Technica)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Rip to the Macintosh Hd Hard Drive Icon, 2000\u20132025 - Ars Technica"
+        },
+        {
+            "title": "Apple is suing Apple Cinemas - The Verge",
+            "url": "https://www.theverge.com/news/719382/apple-cinemas-sand-media-lawsuit-theater-chain",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Apple Is Suing Apple Cinemas - the Verge"
+        },
+        {
+            "title": "TP-Link\u2019s new travel router delivers Wi-Fi 7 speeds - The Verge",
+            "url": "https://www.theverge.com/news/719334/tp-link-be3600-wifi-7-travel-router-vpn",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Tp-link\u2019s New Travel Router Delivers Wi-fi 7 Speeds - the Verge"
+        },
+        {
+            "title": "CoD Season 5 Battle Pass Adds Sims And Two New Guns In BO6 And Warzone - GameSpot",
+            "url": "https://www.gamespot.com/gallery/cod-season-5-battle-pass-adds-sims-and-two-new-guns-in-bo6-and-warzone/2900-6852/",
+            "source": "NewsAPI (GameSpot)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Cod Season 5 Battle Pass Adds Sims and Two New Guns in Bo6 and Warzone..."
+        },
+        {
+            "title": "Persona 5 Royal Leads August's Humble Choice Bundle Alongside Tons of Cozy Games - IGN",
+            "url": "https://www.ign.com/articles/august-humble-choice-game-lineup-2025",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Persona 5 Royal Leads August's Humble Choice Bundle Alongside Tons of Cozy Games - Ign"
+        },
+        {
+            "title": "Aw Shit, My Favorite Genre Just Got Changed Forever - defector.com",
+            "url": "https://defector.com/aw-shit-my-favorite-genre-just-got-changed-forever",
+            "source": "NewsAPI (Defector.com)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Aw Shit, My Favorite Genre Just Got Changed Forever - Defector.com"
+        },
+        {
+            "title": "Sagat can delete nearly half a health bar with an anti-air and full resources in Street Fighter 6 - EventHubs",
+            "url": "https://www.eventhubs.com/news/2025/aug/05/sagat-anti-air-damage-sf6/",
+            "source": "NewsAPI (EventHubs)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Sagat Can Delete Nearly Half a Health Bar with an Anti-air and Full Resources In..."
+        },
+        {
+            "title": "FC 26: 74 Changes That Actually Make a Difference - IGN",
+            "url": "https://www.ign.com/articles/fc-26-74-changes-that-actually-make-a-difference",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Fc 26: 74 Changes That Actually Make a Difference - Ign"
+        },
+        {
+            "title": "The First New Live-Action \u2018Power Rangers\u2019 Material In Years Is\u2026 a Fortnite Ad - Gizmodo",
+            "url": "https://gizmodo.com/fortnite-chapter-6-season-4-trailer-power-rangers-release-date-skins-2000638994",
+            "source": "NewsAPI (Gizmodo.com)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "The First New Live-action \u2018power Rangers\u2019 Material in Years Is\u2026 a Fortnite Ad - Gizmodo"
+        },
+        {
+            "title": "\u2018Marvel Cosmic Invasion\u2019 Is an Arcade-Style Beat \u2018Em Up Filled With Deep-Cut Characters - Rolling Stone",
+            "url": "http://www.rollingstone.com/culture/rs-gaming/marvel-cosmic-invasion-preview-1235399618/",
+            "source": "NewsAPI (Rolling Stone)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "\u2018marvel Cosmic Invasion\u2019 Is an Arcade-style Beat \u2018em Up Filled with Deep-cut Characters - Rolling..."
+        },
+        {
+            "title": "Xbox Game Pass titles for August include Assassin\u2019s Creed Mirage - Video Games Chronicle",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-august-include-assassins-creed-mirage/",
+            "source": "NewsAPI (Video Games Chronicle)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Xbox Game Pass Titles for August Include Assassin\u2019s Creed Mirage - Video Games Chronicle"
+        },
+        {
+            "title": "DeepMind reveals Genie 3 \u201cworld model\u201d that creates real-time interactive simulations - Ars Technica",
+            "url": "https://arstechnica.com/ai/2025/08/deepmind-reveals-genie-3-world-model-that-creates-real-time-interactive-simulations/",
+            "source": "NewsAPI (Ars Technica)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Deepmind Reveals Genie 3 \u201cworld Model\u201d That Creates Real-time Interactive Simulations - Ars Technica"
+        },
+        {
+            "title": "YouTube details new NFL Sunday Ticket perks: Pixel discounts, Premium trial, more - 9to5Google",
+            "url": "http://9to5google.com/2025/08/05/youtube-details-new-nfl-sunday-ticket-perks-pixel-discounts-premium-trial-more/",
+            "source": "NewsAPI (9to5google.com)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Youtube Details New Nfl Sunday Ticket Perks: Pixel Discounts, Premium Trial, More - 9to5google"
+        },
+        {
+            "title": "Nintendo Taunts Silksong Fans With Surprise Indie World Showcase - Kotaku",
+            "url": "https://kotaku.com/nintendo-indie-showcase-silksong-hades-gungeon-2000614688",
             "source": "NewsAPI (Kotaku)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "One of 2025\u2019s Most Special, Emotional Games Is $5 and Will Take You an Hour..."
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Nintendo Taunts Silksong Fans with Surprise Indie World Showcase - Kotaku"
         },
         {
-            "title": "Nintendo kicks off Play Together sale on the Switch eShop - Nintendo Everything",
-            "url": "https://nintendoeverything.com/nintendo-switch-eshop-sale-play-together/",
-            "source": "NewsAPI (Nintendoeverything.com)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Nintendo Kicks Off Play Together Sale on the Switch Eshop - Nintendo Everything"
+            "title": "Amazon has 1TB iPhone 16 Pro units at $450 off the new list price right now (Renewed Premium) - 9to5Toys",
+            "url": "http://9to5toys.com/2025/08/05/amazon-1tb-iphone-16-pro-deals/",
+            "source": "NewsAPI (9to5Toys)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Amazon Has 1tb Iphone 16 Pro Units at $450 Off the New List Price Right..."
         },
         {
-            "title": "Overwatch 2 Devs Reveal Why the Nerf Collab Is Their Most Unique (And Which Skin Is Free This Time) - ComicBook.com",
-            "url": "http://comicbook.com/gaming/news/overwatch-2-dev-interview-nerf-collab-free-skin-2025/",
-            "source": "NewsAPI (ComicBook.com)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Overwatch 2 Devs Reveal Why the Nerf Collab Is Their Most Unique (and Which Skin..."
+            "title": "'It's a reminder of childhood': How Pac-Man changed gaming - and the world - BBC",
+            "url": "https://www.bbc.com/culture/article/20250730-how-pac-man-changed-gaming-and-the-world",
+            "source": "NewsAPI (BBC News)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "'it's a Reminder of Childhood': How Pac-man Changed Gaming - and the World - Bbc"
         },
         {
-            "title": "Xbox Game Pass Is Losing Three Games This Month Including One Of The Best Games Of 2024 - GameSpot",
-            "url": "https://www.gamespot.com/gallery/xbox-game-pass-is-losing-three-games-this-month-including-one-of-the-best-games-of-2024/2900-6840/",
+            "title": "Would you rather stop playing a game than lower the difficulty? The First Berserker: Khazan devs reckon you would - Eurogamer",
+            "url": "https://www.eurogamer.net/would-you-rather-stop-playing-a-game-than-lower-the-difficulty-the-first-berserker-khazan-devs-reckon-you-would",
+            "source": "NewsAPI (Eurogamer.net)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Would You Rather Stop Playing a Game Than Lower the Difficulty? the First Berserker: Khazan..."
+        },
+        {
+            "title": "A PvP Analysis on Snom and Frosmoth - Pok\u00e9mon GO Hub",
+            "url": "https://pokemongohub.net/post/pvp/a-pvp-analysis-on-snom-and-frosmoth/",
+            "source": "NewsAPI (Pokemon GO Hub)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "A Pvp Analysis on Snom and Frosmoth - Pok\u00e9mon Go Hub"
+        },
+        {
+            "title": "August 2025 PS Plus Essential Games Available to Download Now - Push Square",
+            "url": "https://www.pushsquare.com/news/2025/08/august-2025-ps-plus-essential-games-available-to-download-now",
+            "source": "NewsAPI (Push Square)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "August 2025 Ps Plus Essential Games Available to Download Now - Push Square"
+        },
+        {
+            "title": "Column | Carolyn Hax: Cheating college ex has changed a lot in six years. Or has he? - The Washington Post",
+            "url": "https://www.washingtonpost.com/advice/2025/08/05/carolyn-hax-cheating-ex-years/",
+            "source": "NewsAPI (The Washington Post)",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Column | Carolyn Hax: Cheating College Ex Has Changed a Lot in Six Years. Or..."
+        },
+        {
+            "title": "Tons Of Switch And Switch 2 Co-Op Games Are On Sale Right Now - GameSpot",
+            "url": "https://www.gamespot.com/gallery/tons-of-switch-and-switch-2-co-op-games-are-on-sale-right-now/2900-6844/",
             "source": "NewsAPI (GameSpot)",
             "published_date_obj": "2025-08-04",
-            "rewritten_title": "Xbox Game Pass Is Losing Three Games This Month Including One of the Best Games..."
+            "rewritten_title": "Tons of Switch and Switch 2 Co-op Games Are on Sale Right Now - Gamespot"
         },
         {
-            "title": "What's on Your Wrist? Our Readers' Top Wearable Picks for 2025 Revealed - PCMag",
-            "url": "https://www.pcmag.com/articles/readers-choice-2025-wearables",
-            "source": "NewsAPI (PCMag.com)",
+            "title": "Mastercard insists it has not \"required restrictions of any\" game on Steam or itch.io, but Valve claims otherwise - Eurogamer",
+            "url": "https://www.eurogamer.net/mastercard-insists-it-has-not-required-restrictions-of-any-game-on-steam-or-itchio-but-valve-claims-otherwise",
+            "source": "NewsAPI (Eurogamer.net)",
             "published_date_obj": "2025-08-04",
-            "rewritten_title": "What's on Your Wrist? Our Readers' Top Wearable Picks for 2025 Revealed - Pcmag"
+            "rewritten_title": "Mastercard Insists It Has Not \"required Restrictions of Any\" Game on Steam or Itch.io, But..."
         },
         {
-            "title": "Apple\u2019s new brain-controlled iPhone, iPad tech revealed in video - 9to5Mac",
-            "url": "https://9to5mac.com/2025/08/04/apples-new-brain-controlled-iphone-ipad-tech-revealed-in-video/",
-            "source": "NewsAPI (9to5Mac)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Apple\u2019s New Brain-controlled Iphone, Ipad Tech Revealed in Video - 9to5mac"
-        },
-        {
-            "title": "\"This Is The Coffee Maker PC You Won\u2019t Believe Exists\" Doug MacDowell\u2019s Coffeematic PC Uses Hot Brew To Cool Its CPU In Stunning Tech Mashup - Rude Baguette",
-            "url": "https://www.rudebaguette.com/en/2025/08/this-is-the-coffee-maker-pc-you-wont-believe-exists-doug-macdowells-coffeematic-pc-uses-hot-brew-to-cool-its-cpu-in-stunning-tech-mashup/",
-            "source": "NewsAPI (Rudebaguette.com)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "\"this Is the Coffee Maker Pc You Won\u2019t Believe Exists\" Doug Macdowell\u2019s Coffeematic Pc Uses..."
-        },
-        {
-            "title": "Trusty leaker claims Samsung's huge Galaxy S26 Ultra camera upgrade is now 'confirmed' - PhoneArena",
-            "url": "https://www.phonearena.com/news/samsung-galaxy-s26-ultra-huge-camera-upgrade-confirmed-claims-leaker_id172879",
-            "source": "NewsAPI (PhoneArena)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Trusty Leaker Claims Samsung's Huge Galaxy S26 Ultra Camera Upgrade Is Now 'confirmed' - Phonearena"
-        },
-        {
-            "title": "Amazon now has 24GB M3 MacBook Air at $450 off the list price ($150+ under a discounted M4 model) - 9to5Toys",
-            "url": "http://9to5toys.com/2025/08/04/amazon-24gb-m3-macbook-air-deal/",
+            "title": "AirPods 4 now starting within $10 of Prime Day low at $99 shipped via Amazon, more - 9to5Toys",
+            "url": "http://9to5toys.com/2025/08/04/airpods-4-amazon-deals-summer/",
             "source": "NewsAPI (9to5Toys)",
             "published_date_obj": "2025-08-04",
-            "rewritten_title": "Amazon Now Has 24gb M3 Macbook Air at $450 Off the List Price ($150+ Under..."
+            "rewritten_title": "Airpods 4 Now Starting Within $10 of Prime Day Low at $99 Shipped Via Amazon,..."
         },
         {
-            "title": "Why Android E-Readers Are Superior to the Kindle Colorsoft (Especially If You Read Comics) - Lifehacker",
-            "url": "https://lifehacker.com/tech/android-e-readers-better-than-kindle-colorsoft",
-            "source": "NewsAPI (Lifehacker.com)",
+            "title": "Nintendo Switch price increases are now live \u2013 here's how much everything costs - The Shortcut | Matt Swider",
+            "url": "https://www.theshortcut.com/p/nintendo-switch-price-increases-are-now-live-heres-how-much-everything-costs",
+            "source": "NewsAPI (Theshortcut.com)",
             "published_date_obj": "2025-08-04",
-            "rewritten_title": "Why Android E-readers Are Superior to the Kindle Colorsoft (especially If You Read Comics) -..."
+            "rewritten_title": "Nintendo Switch Price Increases Are Now Live \u2013 Here's How Much Everything Costs - The..."
         },
         {
-            "title": "Fatekeeper looks like a spiritual successor to Dark Messiah, but where's the kick? - Rock Paper Shotgun",
-            "url": "https://www.rockpapershotgun.com/fatekeeper-looks-like-a-spiritual-successor-to-dark-messiah-but-wheres-the-kick",
-            "source": "NewsAPI (Rock Paper Shotgun)",
+            "title": "If you don't like Nintendo's controversial game key-cards, you can now let the company know directly - Eurogamer",
+            "url": "https://www.eurogamer.net/if-you-dont-like-nintendos-controversial-game-key-cards-you-can-now-let-the-company-know-directly",
+            "source": "NewsAPI (Eurogamer.net)",
             "published_date_obj": "2025-08-04",
-            "rewritten_title": "Fatekeeper Looks Like a Spiritual Successor to Dark Messiah, but Where's the Kick? - Rock..."
+            "rewritten_title": "If You Don't Like Nintendo's Controversial Game Key-cards, You Can Now Let the Company Know..."
         },
         {
-            "title": "Destiny 2\u2019s Power Grind Is Now Just Two 3-Minute Missions - Forbes",
-            "url": "https://www.forbes.com/sites/paultassi/2025/08/04/destiny-2s-power-grind-is-now-just-two-3-minute-missions/",
-            "source": "NewsAPI (Forbes)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Destiny 2\u2019s Power Grind Is Now Just Two 3-minute Missions - Forbes"
+            "title": "Why CISOs are making the SASE switch: Fewer vendors, smarter security, better AI guardrails",
+            "url": "https://venturebeat.com/security/facing-ai-powered-threats-cisos-consolidate-around-single-vendor-sase/",
+            "source": "NewsAPI (VentureBeat)",
+            "published_date_obj": "2025-07-07",
+            "rewritten_title": "Why Cisos Are Making the Sase Switch: Fewer Vendors, Smarter Security, Better Ai Guardrails"
         },
         {
-            "title": "Here\u2019s The New Price Of Every Nintendo Console And Accessory Thanks To Tariffs - Kotaku",
-            "url": "https://kotaku.com/nintendo-switch-2-prices-pro-controllers-tariffs-amiibo-2000614471",
-            "source": "NewsAPI (Kotaku)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Here\u2019s the New Price of Every Nintendo Console and Accessory Thanks to Tariffs - Kotaku"
-        },
-        {
-            "title": "Another Skyblivion dev diary shows off the new dungeons and expanded cities Oblivion Remastered never bothered with - Rock Paper Shotgun",
-            "url": "https://www.rockpapershotgun.com/another-skyblivion-dev-diary-shows-off-the-new-dungeons-and-expanded-cities-oblivion-remastered-never-bothered-with",
-            "source": "NewsAPI (Rock Paper Shotgun)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Another Skyblivion Dev Diary Shows Off the New Dungeons and Expanded Cities Oblivion Remastered Never..."
-        },
-        {
-            "title": "Google Confirms Accounts Are Being Hacked \u2014 How To Recover Yours - Forbes",
-            "url": "https://www.forbes.com/sites/daveywinder/2025/08/04/google-confirms-accounts-are-being-hacked---how-to-recover-yours/",
-            "source": "NewsAPI (Forbes)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Google Confirms Accounts Are Being Hacked \u2014 How to Recover Yours - Forbes"
-        },
-        {
-            "title": "iPhone 17 Air Battery Allegedly 2.49mm \u2013 Half the Thickness of 17 Pro's - MacRumors",
-            "url": "https://www.macrumors.com/2025/08/04/iphone-17-air-battery-half-thickness-17-pro/",
-            "source": "NewsAPI (MacRumors)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Iphone 17 Air Battery Allegedly 2.49mm \u2013 Half the Thickness of 17 Pro's - Macrumors"
-        },
-        {
-            "title": "Why Your Arm Shape Skews Blood Pressure Readings - Medscape",
-            "url": "https://www.medscape.com/viewarticle/why-your-arm-shape-skews-blood-pressure-readings-2025a1000kno",
-            "source": "NewsAPI (Medscape)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Why Your Arm Shape Skews Blood Pressure Readings - Medscape"
-        },
-        {
-            "title": "Apple's 18.8-Inch Foldable Device Could Miss 2026 Production Target - MacRumors",
-            "url": "https://www.macrumors.com/2025/08/04/apple-larger-foldable-miss-2026-production/",
-            "source": "NewsAPI (MacRumors)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Apple's 18.8-inch Foldable Device Could Miss 2026 Production Target - Macrumors"
-        },
-        {
-            "title": "Virtua Fighter 6's Combat Gameplay First Look Has Old Martial Arts Movie Vibes - IGN",
-            "url": "https://www.ign.com/articles/virtua-fighter-6s-combat-gameplay-first-look-has-old-martial-arts-movie-vibes",
-            "source": "NewsAPI (IGN)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Virtua Fighter 6's Combat Gameplay First Look Has Old Martial Arts Movie Vibes - Ign"
-        },
-        {
-            "title": "Shortcut AI Automates 90% of Spreadsheet Tasks Effortlessly - Geeky Gadgets",
-            "url": "https://www.geeky-gadgets.com/shortcut-ai-automates-90-of-spreadsheet-tasks-effortlessly/",
-            "source": "NewsAPI (Geeky Gadgets)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Shortcut Ai Automates 90% of Spreadsheet Tasks Effortlessly - Geeky Gadgets"
-        },
-        {
-            "title": "Someone is folding the Galaxy Z Fold 7 200,000 times live on YouTube - Android Authority",
-            "url": "https://www.androidauthority.com/samsung-galaxy-z-fold-7-live-fold-test-3583522/",
-            "source": "NewsAPI (Android Authority)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Someone Is Folding the Galaxy Z Fold 7 200,000 Times Live on Youtube - Android..."
-        },
-        {
-            "title": "Tommy Genesis - Pitchfork",
-            "url": "https://pitchfork.com/reviews/albums/tommy-genesis-genesis/",
-            "source": "NewsAPI (Pitchfork)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Tommy Genesis - Pitchfork"
-        },
-        {
-            "title": "Snoopy and Woodstock Return in the Latest Mission to Earthphase MoonSwatch - hypebeast.com",
-            "url": "https://hypebeast.com/2025/8/omega-x-swatch-moonswatch-mission-to-earthphase-moonshine-gold-release-info",
-            "source": "NewsAPI (HYPEBEAST)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Snoopy and Woodstock Return in the Latest Mission to Earthphase Moonswatch - Hypebeast.com"
-        },
-        {
-            "title": "Review: Ninja Gaiden: Ragebound (Switch) - A Gorgeous & Gory Return To The Series' 2D Roots - Nintendo Life",
-            "url": "https://www.nintendolife.com/reviews/switch-eshop/ninja-gaiden-ragebound",
-            "source": "NewsAPI (Nintendo Life)",
-            "published_date_obj": "2025-08-03",
-            "rewritten_title": "Review: Ninja Gaiden: Ragebound (switch) - a Gorgeous & Gory Return to the Series' 2d..."
-        },
-        {
-            "title": "AI Can Do a Lot\u2014But It Still Seems Totally Stumped by Sudoku - Inc.com",
-            "url": "https://www.inc.com/chris-morris/ai-stumped-by-sudoku-new-research-artificial-intelligence/91222198",
-            "source": "NewsAPI (Inc.)",
-            "published_date_obj": "2025-08-03",
-            "rewritten_title": "Ai Can Do a Lot\u2014but It Still Seems Totally Stumped by Sudoku - Inc.com"
-        },
-        {
-            "title": "PS Plus Free Games for August 2025 May Signal a Change in an Important Tradition - Game Rant",
-            "url": "https://gamerant.com/ps-plus-free-games-august-2025-tradition-change-reveals-when/",
-            "source": "NewsAPI (GameRant)",
-            "published_date_obj": "2025-08-03",
-            "rewritten_title": "Ps Plus Free Games for August 2025 May Signal a Change in an Important Tradition..."
-        },
-        {
-            "title": "The Real Reason 50%+ of Our Sales Team is Now AI (And What We Learned)",
-            "url": "https://www.saastr.com/the-real-reason-50-of-our-sales-team-is-now-ai-and-what-we-learned/",
+            "title": "Raising Prices Has Its Place.  But It Shouldn\u2019t Be One Of Your Best Ideas.",
+            "url": "https://www.saastr.com/raising-prices-has-its-place-but-it-shouldnt-be-one-of-your-best-ideas/",
             "source": "SaaStr",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "The Real Reason 50%+ of Our Sales Team Is Now Ai (and What We Learned)"
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Raising Prices Has Its Place. but It Shouldn\u2019t Be One of Your Best Ideas."
         },
         {
-            "title": "AI in Action Hackathon:  Celebrating the GitLab innovations",
-            "url": "https://about.gitlab.com/blog/ai-in-action-hackathon-celebrating-the-gitlab-innovations/",
-            "source": "GitLab Blog",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "Ai in Action Hackathon: Celebrating the Gitlab Innovations"
+            "title": "More control, 90% less CDP spend: why we moved from Segment to Jitsu",
+            "url": "https://alleged-peace.flywheelsites.com/more-control-less-spend-cdp/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "More Control, 90% Less Cdp Spend: Why We Moved From Segment to Jitsu"
         },
         {
-            "title": "Reducing double spend latency from 40 ms to < 1 ms on privacy proxy",
-            "url": "https://blog.cloudflare.com/reducing-double-spend-latency-from-40-ms-to-less-than-1-ms-on-privacy-proxy/",
-            "source": "CloudFlare Blog",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "Reducing Double Spend Latency From 40 Ms to < 1 Ms on Privacy Proxy"
+            "title": "How we reduced Snowflake costs by 70%: a practical optimization guide",
+            "url": "https://alleged-peace.flywheelsites.com/how-we-reduced-snowflake-costs-by-70-a-practical-optimization-guide/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "How We Reduced Snowflake Costs by 70%: a Practical Optimization Guide"
         },
         {
-            "title": "For the first time, OpenAI models are available on AWS",
-            "url": "https://techcrunch.com/2025/08/05/for-the-first-time-openai-models-are-available-on-aws/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "For the First Time, Openai Models Are Available on Aws"
+            "title": "Stay consistent with sequences that drive results",
+            "url": "https://alleged-peace.flywheelsites.com/stay-consistent-with-sequences/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Stay Consistent with Sequences That Drive Results"
         },
         {
-            "title": "11 Trending Reels on Instagram to Boost Your Reach Right Now",
-            "url": "https://buffer.com/resources/trending-reels-on-instagram/",
+            "title": "ChartMogul 2024: Year in Review",
+            "url": "https://alleged-peace.flywheelsites.com/chartmogul-2024-year-in-review/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Chartmogul 2024: Year in Review"
+        },
+        {
+            "title": "How to use kanban for sales opportunity management",
+            "url": "https://alleged-peace.flywheelsites.com/kanban-for-sales-opportunity-management/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "How to Use Kanban for Sales Opportunity Management"
+        },
+        {
+            "title": "Getting started with marketing attribution",
+            "url": "https://alleged-peace.flywheelsites.com/getting-started-with-marketing-attribution/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Getting Started with Marketing Attribution"
+        },
+        {
+            "title": "How Intruder gains perspective with ChartMogul",
+            "url": "https://alleged-peace.flywheelsites.com/how-intruder-gains-perspective-with-chartmogul/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "How Intruder Gains Perspective with Chartmogul"
+        },
+        {
+            "title": "How Slidebean tracks growth with ChartMogul",
+            "url": "https://alleged-peace.flywheelsites.com/how-slidebean-tracks-growth-with-chartmogul/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "How Slidebean Tracks Growth with Chartmogul"
+        },
+        {
+            "title": "Automate repetitive tasks in ChartMogul",
+            "url": "https://alleged-peace.flywheelsites.com/automate-repetitive-tasks-in-chartmogul/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Automate Repetitive Tasks in Chartmogul"
+        },
+        {
+            "title": "ChartMogul\u2019s product roadmap through 2024",
+            "url": "https://alleged-peace.flywheelsites.com/chartmoguls-product-roadmap-through-2024/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Chartmogul\u2019s Product Roadmap Through 2024"
+        },
+        {
+            "title": "ChartMogul 2023: year in review",
+            "url": "https://alleged-peace.flywheelsites.com/chartmogul-2023-year-in-review/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Chartmogul 2023: Year in Review"
+        },
+        {
+            "title": "What Growth Leaders are Prioritizing in 2024",
+            "url": "https://alleged-peace.flywheelsites.com/what-growth-leaders-are-prioritizing-in-2024/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "What Growth Leaders Are Prioritizing in 2024"
+        },
+        {
+            "title": "Unlocking Revenue Growth with Segmentation",
+            "url": "https://alleged-peace.flywheelsites.com/unlocking-revenue-growth-with-segmentation/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Unlocking Revenue Growth with Segmentation"
+        },
+        {
+            "title": "Being \u201cProduct-Led\u201d in 2023 Means Product-Led Sales",
+            "url": "https://alleged-peace.flywheelsites.com/product-led-sales/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Being \u201cproduct-led\u201d in 2023 Means Product-led Sales"
+        },
+        {
+            "title": "Strategies For Sustainable Growth In 2023",
+            "url": "https://alleged-peace.flywheelsites.com/strategies-for-sustainable-growth-in-2023/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Strategies for Sustainable Growth in 2023"
+        },
+        {
+            "title": "ChartMogul 2022: Year in Review",
+            "url": "https://alleged-peace.flywheelsites.com/chartmogul-2022-year-in-review/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Chartmogul 2022: Year in Review"
+        },
+        {
+            "title": "Revenue-Based Financing with Miguel Fern\u00e1ndez of Capchase",
+            "url": "https://alleged-peace.flywheelsites.com/revenue-based-financing-capchase/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Revenue-based Financing with Miguel Fern\u00e1ndez of Capchase"
+        },
+        {
+            "title": "A Recap of Our Offsite 2022 in Portugal",
+            "url": "https://alleged-peace.flywheelsites.com/offsite-2022/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "A Recap of Our Offsite 2022 in Portugal"
+        },
+        {
+            "title": "Hiring Global Talent With Liina Laas of Deel",
+            "url": "https://alleged-peace.flywheelsites.com/hiring-global-talent/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Hiring Global Talent with Liina Laas of Deel"
+        },
+        {
+            "title": "Moving ChartMogul to AWS and Kubernetes",
+            "url": "https://alleged-peace.flywheelsites.com/moving-chartmogul-to-aws-and-kubernetes/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Moving Chartmogul to Aws and Kubernetes"
+        },
+        {
+            "title": "From Chatbot to Concierge: AI Agents Boost Customer Connection in Retail\u2019s Digital Age",
+            "url": "https://www.salesforce.com/news/stories/ai-agents-boost-retail-customer-connection/",
+            "source": "Salesforce Blog",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "From Chatbot to Concierge: Ai Agents Boost Customer Connection in Retail\u2019s Digital Age"
+        },
+        {
+            "title": "Best Team Management Software for 2025: Top 12 Solutions",
+            "url": "https://slack.com/blog/collaboration/best-team-management-software-for-2025-top-12-solutions",
+            "source": "Slack Blog",
+            "published_date_obj": "2025-08-05",
+            "rewritten_title": "Best Team Management Software for 2025: Top 12 Solutions"
+        },
+        {
+            "title": "The 11 Best AI Video Editors for Creators and Marketers, Tried and Tested (+ Bonus AI Tool)",
+            "url": "https://buffer.com/resources/ai-video-tools/",
             "source": "Buffer Blog",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "11 Trending Reels on Instagram to Boost Your Reach Right Now"
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "The 11 Best Ai Video Editors for Creators and Marketers, Tried and Tested (+ Bonus..."
         },
         {
-            "title": "My Complete AI Content Process for Ahrefs",
-            "url": "https://ahrefs.com/blog/my-complete-ai-content-process-for-ahrefs/",
-            "source": "Ahrefs Blog",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "My Complete Ai Content Process for Ahrefs"
-        },
-        {
-            "title": "Everyone\u2019s a Snowflake: Designing Hardened Image Processes for the Real World",
-            "url": "https://www.docker.com/blog/hardened-image-best-practices/",
+            "title": "Accelerating FedRAMP Compliance with Docker Hardened Images",
+            "url": "https://www.docker.com/blog/fedramp-compliance-with-hardened-images/",
             "source": "Docker Blog",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "Everyone\u2019s a Snowflake: Designing Hardened Image Processes for the Real World"
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Accelerating Fedramp Compliance with Docker Hardened Images"
         },
         {
             "title": "25 proven tactics to accelerate AI adoption at your company",
-            "url": "https://www.lennysnewsletter.com/p/25-proven-tactics-to-accelerate-ai",
+            "url": "https://www.lennysnewsletter.com/p/25-proven-tactics-to-accelerate-ai-909",
             "source": "Lenny's Newsletter",
             "published_date_obj": "2025-08-05",
             "rewritten_title": "25 Proven Tactics to Accelerate Ai Adoption at Your Company"
         },
         {
-            "title": "Grok generates fake Taylor Swift nudes without being asked",
-            "url": "https://www.reddit.com/r/artificial/comments/1miqide/grok_generates_fake_taylor_swift_nudes_without/",
+            "title": "Nvidia rejects US demand for backdoors in AI chips",
+            "url": "https://www.reddit.com/r/artificial/comments/1mj6xhw/nvidia_rejects_us_demand_for_backdoors_in_ai_chips/",
             "source": "Reddit r/artificial",
             "published_date_obj": "2025-08-06",
-            "rewritten_title": "Grok Generates Fake Taylor Swift Nudes Without Being Asked"
+            "rewritten_title": "Nvidia Rejects Us Demand for Backdoors in Ai Chips"
         },
         {
-            "title": "Free AI Tax LLM",
-            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1mity2v/free_ai_tax_llm/",
-            "source": "Reddit r/LargeLanguageModels",
-            "published_date_obj": "2025-08-06",
-            "rewritten_title": "Free Ai Tax Llm"
-        },
-        {
-            "title": "Finally, a model that's SAFE",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1minpqr/finally_a_model_thats_safe/",
+            "title": "No, no, no, wait - on a second thought, I KNOW the answer!",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1mjju67/no_no_no_wait_on_a_second_thought_i_know_the/",
             "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "Finally, a Model That's Safe"
-        },
-        {
-            "title": "[D] Is modern academic published zero-sum?",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1miq2y4/d_is_modern_academic_published_zerosum/",
-            "source": "Reddit r/MachineLearning",
             "published_date_obj": "2025-08-06",
-            "rewritten_title": "[d] Is Modern Academic Published Zero-sum?"
+            "rewritten_title": "No, No, No, Wait - on a Second Thought, I Know the Answer!"
         },
         {
-            "title": "ChatGPT just gave me a moment with my Dad again",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1miq8yq/chatgpt_just_gave_me_a_moment_with_my_dad_again/",
+            "title": "Genie 3 turns Veo 3 generated drone shot into an interactive world you can take control mid-flight",
+            "url": "https://www.reddit.com/r/singularity/comments/1mjd3mk/genie_3_turns_veo_3_generated_drone_shot_into_an/",
+            "source": "Reddit r/singularity",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Genie 3 Turns Veo 3 Generated Drone Shot Into an Interactive World You Can Take..."
+        },
+        {
+            "title": "I asked ChatGPT to explain my job to a 5-year-old and now I'm questioning my entire career",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1mjdyvl/i_asked_chatgpt_to_explain_my_job_to_a_5yearold/",
             "source": "Reddit r/chatgpt",
             "published_date_obj": "2025-08-06",
-            "rewritten_title": "Chatgpt Just Gave Me a Moment with My Dad Again"
+            "rewritten_title": "I Asked Chatgpt to Explain My Job to a 5-year-old and Now I'm Questioning My..."
         },
         {
-            "title": "This is basically a lie to the app itself",
-            "url": "https://www.reddit.com/r/CharacterAI/comments/1miuboq/this_is_basically_a_lie_to_the_app_itself/",
-            "source": "Reddit r/characterai",
+            "title": "they are bunch if hypocrites",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1mjg4hc/they_are_bunch_if_hypocrites/",
+            "source": "Reddit r/chatgpt",
             "published_date_obj": "2025-08-06",
-            "rewritten_title": "This Is Basically a Lie to the App Itself"
+            "rewritten_title": "They Are Bunch If Hypocrites"
         },
         {
-            "title": "Oh so GPT 5 on Thursday and maybe open source today ?? Or something else ?",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1mid0j0/oh_so_gpt_5_on_thursday_and_maybe_open_source/",
+            "title": "Claude Opus 4.1 - Gets the job done no matter what the obstacle.",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1mjaxgt/claude_opus_41_gets_the_job_done_no_matter_what/",
+            "source": "Reddit r/claudeai",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Claude Opus 4.1 - Gets the Job Done No Matter What the Obstacle."
+        },
+        {
+            "title": "18+ chat styles",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1mjmxoi/18_chat_styles/",
+            "source": "Reddit r/characterai",
+            "published_date_obj": "2025-08-07",
+            "rewritten_title": "18+ Chat Styles"
+        },
+        {
+            "title": "you can just ask for things",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1mjeqa8/you_can_just_ask_for_things/",
             "source": "Reddit r/openai",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "Oh So Gpt 5 on Thursday and Maybe Open Source Today ?? or Something Else..."
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "You Can Just Ask for Things"
         },
         {
-            "title": "Qwen image prompt adherence is GT4-o level.",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1mi9syy/qwen_image_prompt_adherence_is_gt4o_level/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "Qwen Image Prompt Adherence Is Gt4-o Level."
+            "title": "13 AI tools/agents I use that ACTUALLY create real results",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1mjorf3/13_ai_toolsagents_i_use_that_actually_create_real/",
+            "source": "Reddit r/ai_agents",
+            "published_date_obj": "2025-08-07",
+            "rewritten_title": "13 Ai Tools/agents I Use That Actually Create Real Results"
         },
         {
-            "title": "Qwen. Videogames character playing his games",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1mijer8/qwen_videogames_character_playing_his_games/",
+            "title": "Instagirl v2.0 - Out Now!",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1mj1spf/instagirl_v20_out_now/",
             "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "Qwen. Videogames Character Playing His Games"
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Instagirl V2.0 - Out Now!"
+        },
+        {
+            "title": "Many people say all seeds in Wan look too similar, but here is simple trick to get every seed more unique: Just add this to the beginning of your positive prompt, does not need any custom nodes.",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1mjp2io/many_people_say_all_seeds_in_wan_look_too_similar/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-08-07",
+            "rewritten_title": "Many People Say All Seeds in Wan Look Too Similar, but Here Is Simple Trick..."
+        },
+        {
+            "title": "Qwen Image model and WAN 2.2 LOW NOISE is incredibly powerful.",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1mjhcz1/qwen_image_model_and_wan_22_low_noise_is/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Qwen Image Model and Wan 2.2 Low Noise Is Incredibly Powerful."
+        },
+        {
+            "title": "Investigating those strange reports of a \u201cFrankenstein\u2019s Monster\u201d",
+            "url": "https://www.reddit.com/r/aiArt/comments/1mj8uv6/investigating_those_strange_reports_of_a/",
+            "source": "Reddit r/AIArt",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Investigating Those Strange Reports of a \u201cfrankenstein\u2019s Monster\u201d"
         }
     ],
     "SaaS Acquisitions": [
         {
-            "title": "Nintendo survey seeks feedback on controversial game-key cards, physical and digital purchases - Video Games Chronicle",
-            "url": "https://www.videogameschronicle.com/news/nintendo-survey-seeks-feedback-on-controversial-game-key-cards-physical-and-digital-purchases/",
-            "source": "NewsAPI (Video Games Chronicle)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Nintendo Survey Seeks Feedback on Controversial Game-key Cards, Physical and Digital Purchases - Video Games..."
+            "title": "Without an ideal customer profile (ICP), your growth is just guesswork",
+            "url": "https://alleged-peace.flywheelsites.com/ideal-customer-profile-icp/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Without an Ideal Customer Profile (icp), Your Growth Is Just Guesswork"
+        },
+        {
+            "title": "Keep Deals Moving Forward with Tasks",
+            "url": "https://alleged-peace.flywheelsites.com/crm-tasks/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Keep Deals Moving Forward with Tasks"
+        },
+        {
+            "title": "When SaaS Companies Acquire Communities with James Mayes of Mind the Product",
+            "url": "https://alleged-peace.flywheelsites.com/when-saas-companies-acquire-communities/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "When Saas Companies Acquire Communities with James Mayes of Mind the Product"
         }
     ],
     "SaaS Metrics": [
         {
-            "title": "Leaked ChatGPT Conversation Shows User Identified as Lawyer Asking How to \"Displace a Small Amazonian Indigenous Community From Their Territories in Order to Build a Dam and a Hydroelectric Plant\" - Futurism",
-            "url": "https://futurism.com/leaked-chatgpt-lawyer-displace-amazonian",
-            "source": "NewsAPI (Futurism)",
-            "published_date_obj": "2025-08-04",
-            "rewritten_title": "Leaked Chatgpt Conversation Shows User Identified as Lawyer Asking How to \"displace a Small Amazonian..."
-        },
-        {
-            "title": "Steam Drops 'God-Tier' Free Download Gamers Are Obsessed With - GAMINGbible",
-            "url": "https://www.gamingbible.com/news/platform/steam/steam-drops-free-download-gamers-are-obsessed-with-277951-20250801",
-            "source": "NewsAPI (Gamingbible.com)",
-            "published_date_obj": "2025-08-03",
-            "rewritten_title": "Steam Drops 'god-tier' Free Download Gamers Are Obsessed with - Gamingbible"
-        },
-        {
-            "title": "How to Build a Good Basic Sales Plan for Your First SDRs",
-            "url": "https://www.saastr.com/dear-saastr-whats-a-good-comp-plan-for-our-first-sdrs/",
+            "title": "5 Interesting Learnings from Hinge Health at $550,000,000 ARR",
+            "url": "https://www.saastr.com/5-interesting-learnings-from-hinge-health/",
             "source": "SaaStr",
-            "published_date_obj": "2025-08-05",
-            "rewritten_title": "How to Build a Good Basic Sales Plan for Your First Sdrs"
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "5 Interesting Learnings From Hinge Health at $550,000,000 Arr"
+        },
+        {
+            "title": "Should discounts be included in MRR?",
+            "url": "https://alleged-peace.flywheelsites.com/should-discounts-be-included-in-mrr/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Should Discounts Be Included in Mrr?"
+        },
+        {
+            "title": "When should you recognize churn?",
+            "url": "https://alleged-peace.flywheelsites.com/when-should-you-recognize-churn/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "When Should You Recognize Churn?"
+        },
+        {
+            "title": "Penetration pricing in SaaS: risks, challenges, and pro tips",
+            "url": "https://alleged-peace.flywheelsites.com/penetration-pricing-in-saas/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Penetration Pricing in Saas: Risks, Challenges, and Pro Tips"
+        },
+        {
+            "title": "Send normalized subscription data to your data warehouse",
+            "url": "https://alleged-peace.flywheelsites.com/send-normalized-subscription-data-to-your-data-warehouse/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Send Normalized Subscription Data to Your Data Warehouse"
+        },
+        {
+            "title": "It\u2019s now easier to configure manual subscriptions",
+            "url": "https://alleged-peace.flywheelsites.com/its-now-easier-to-configure-manual-subscriptions/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "It\u2019s Now Easier to Configure Manual Subscriptions"
+        },
+        {
+            "title": "Net negative churn in SaaS \u2014 definition, benchmarks & tips",
+            "url": "https://alleged-peace.flywheelsites.com/negative-churn/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Net Negative Churn in Saas \u2014 Definition, Benchmarks & Tips"
+        },
+        {
+            "title": "A Guide To SaaS Customer Retention Metrics & Benchmarks in 2023",
+            "url": "https://alleged-peace.flywheelsites.com/customer-retention-guide-2023/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "A Guide to Saas Customer Retention Metrics & Benchmarks in 2023"
+        },
+        {
+            "title": "Gross vs net retention rates: a guide to revenue retention metrics",
+            "url": "https://alleged-peace.flywheelsites.com/gross-vs-net-retention/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Gross Vs Net Retention Rates: a Guide to Revenue Retention Metrics"
+        },
+        {
+            "title": "Retention Benchmarks and Insights From Studying Over 2,100 SaaS Businesses",
+            "url": "https://alleged-peace.flywheelsites.com/retention-benchmarks-and-insights/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Retention Benchmarks and Insights From Studying Over 2,100 Saas Businesses"
+        },
+        {
+            "title": "Two Most Crucial Metrics in SaaS: Net and Gross Retention Rates \u2014 Now Available in ChartMogul",
+            "url": "https://alleged-peace.flywheelsites.com/net-and-gross-retention-rates/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Two Most Crucial Metrics in Saas: Net and Gross Retention Rates \u2014 Now Available In..."
+        },
+        {
+            "title": "Get Real-time MRR Movements in Slack",
+            "url": "https://alleged-peace.flywheelsites.com/get-real-time-mrr-movements-in-slack/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Get Real-time Mrr Movements in Slack"
+        },
+        {
+            "title": "This Downturn Is Different: How to Drive Retention and Mitigate Churn in 2023",
+            "url": "https://alleged-peace.flywheelsites.com/drive-retention-and-mitigate-churn-in-a-downturn/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "This Downturn Is Different: How to Drive Retention and Mitigate Churn in 2023"
+        },
+        {
+            "title": "Net MRR Movements Brings Clarity to MRR Movements",
+            "url": "https://alleged-peace.flywheelsites.com/net-movements-per-customer/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Net Mrr Movements Brings Clarity to Mrr Movements"
+        },
+        {
+            "title": "Add Your MRR Movements to the Stripe Dashboard",
+            "url": "https://alleged-peace.flywheelsites.com/chartmogul-stripe-app/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Add Your Mrr Movements to the Stripe Dashboard"
+        },
+        {
+            "title": "See Future Changes to Your Recurring Revenue with CMRR",
+            "url": "https://alleged-peace.flywheelsites.com/see-future-changes-with-cmrr/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "See Future Changes to Your Recurring Revenue with Cmrr"
+        },
+        {
+            "title": "Choose How You Classify 100% Discounts; Downgrade and Churn",
+            "url": "https://alleged-peace.flywheelsites.com/choose-how-to-interpret-discounted-or-free-plan-customers-churn-or-downgrade/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Choose How You Classify 100% Discounts; Downgrade and Churn"
+        },
+        {
+            "title": "What is Churn? How Can It Be Negative? And What\u2019s a Good Monthly Churn Rate?",
+            "url": "https://alleged-peace.flywheelsites.com/churn-basics-and-benchmarks/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "What Is Churn? How Can It Be Negative? and What\u2019s a Good Monthly Churn Rate?"
+        },
+        {
+            "title": "Understanding and Benchmarking Your MRR Movements",
+            "url": "https://alleged-peace.flywheelsites.com/understanding-mrr-movements/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Understanding and Benchmarking Your Mrr Movements"
+        },
+        {
+            "title": "Running Pricing Experiments with Marc Boscher of Unito",
+            "url": "https://alleged-peace.flywheelsites.com/running-pricing-experiments/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Running Pricing Experiments with Marc Boscher of Unito"
+        },
+        {
+            "title": "How a Pricing Migration Enabled ChartMogul To Retain the Right Type of Customers",
+            "url": "https://alleged-peace.flywheelsites.com/chartmoguls-pricing-migration-story/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "How a Pricing Migration Enabled Chartmogul to Retain the Right Type of Customers"
+        },
+        {
+            "title": "What Is a Good Customer Churn Rate?",
+            "url": "https://alleged-peace.flywheelsites.com/good-customer-churn-rate/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "What Is a Good Customer Churn Rate?"
+        },
+        {
+            "title": "4 Ways to Add MRR Progress Bars to Your Twitter Profile",
+            "url": "https://alleged-peace.flywheelsites.com/twitter-mrr-bars/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "4 Ways to Add Mrr Progress Bars to Your Twitter Profile"
+        },
+        {
+            "title": "Two arrested for smuggling AI chips to China \u2014 Nvidia says no to kill switches",
+            "url": "https://techcrunch.com/2025/08/06/two-arrested-for-smuggling-ai-chips-to-china-nvidia-says-no-to-kill-switches/",
+            "source": "TechCrunch Enterprise",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Two Arrested for Smuggling Ai Chips to China \u2014 Nvidia Says No to Kill Switches"
+        },
+        {
+            "title": "Fix over-caching with dynamic IO caching in Next.js 15",
+            "url": "https://blog.logrocket.com/dynamic-io-caching-next-js-15/",
+            "source": "LogRocket",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Fix Over-caching with Dynamic Io Caching in Next.js 15"
+        },
+        {
+            "title": "GPT-5 arrives imminently. Here's what the hype won't tell you. | Curb your enthusiasm: OpenAI's latest model is said to be smarter than GPT-4, but not by much.",
+            "url": "https://www.reddit.com/r/artificial/comments/1mjd08m/gpt5_arrives_imminently_heres_what_the_hype_wont/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-08-06",
+            "rewritten_title": "Gpt-5 Arrives Imminently. Here's What the Hype Won't Tell You. | Curb Your Enthusiasm: Openai's..."
         }
     ]
 }
