@@ -1,464 +1,353 @@
 {
-    "SaaS Funding": [],
-    "Enterprise Software": [
+    "SaaS Funding": [
         {
-            "title": "Acrobat Studio Delivers New AI-Powered Home for Productivity and Creativity with PDF Spaces, Express Creation Tools, AI Agents - Adobe Newsroom",
-            "url": "https://news.adobe.com/news/2025/08/acrobat-studio-delivers-new-ai-powered-home-for-productivity-creativity",
-            "source": "NewsAPI (Adobe.com)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Acrobat Studio Delivers New Ai-powered Home for Productivity and Creativity with Pdf Spaces, Express Creation..."
+            "title": "The Latest 20VC+SaaStr: Databricks Hits $100B, CoreWeave\u2019s $11B Debt Gamble, and Why We\u2019re All Living in the AI Bubble",
+            "url": "https://www.saastr.com/the-latest-20vcsaastr-databricks-hits-100b-coreweaves-11b-debt-gamble-and-why-were-all-living-in-the-ai-bubble/",
+            "source": "SaaStr",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "The Latest 20vc+saastr: Databricks Hits $100b, Coreweave\u2019s $11b Debt Gamble, and Why We\u2019re All Living..."
+        },
+        {
+            "title": "The Great AI Equalizer: How Legacy Players and Tiny Startups Are Suddenly Your Biggest Competitive Threat",
+            "url": "https://www.saastr.com/the-great-ai-equalizer-how-legacy-players-and-tiny-startups-are-suddenly-your-biggest-competitive-threat/",
+            "source": "SaaStr",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "The Great Ai Equalizer: How Legacy Players and Tiny Startups Are Suddenly Your Biggest Competitive..."
         }
     ],
+    "Enterprise Software": [],
     "Product Launches": [
         {
-            "title": "Everything announced at Opening Night Live, Gamescom 2025 - Eurogamer",
-            "url": "https://www.eurogamer.net/everything-announced-at-opening-night-live-gamescom-2025",
-            "source": "NewsAPI (Eurogamer.net)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Everything Announced at Opening Night Live, Gamescom 2025 - Eurogamer"
+            "title": "Having recovery and/or SSD problems after recent Windows updates? You\u2019re not alone. - Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2025/08/having-recovery-and-or-ssd-problems-after-recent-windows-updates-youre-not-alone/",
+            "source": "NewsAPI (Ars Technica)",
+            "published_date_obj": "2025-08-20",
+            "rewritten_title": "Having Recovery And/or Ssd Problems After Recent Windows Updates? You\u2019re Not Alone. - Ars Technica"
         },
         {
-            "title": "Warhammer 40K: Dawn of War 4 announced, and it's coming from a surprise new developer next year - Eurogamer",
-            "url": "https://www.eurogamer.net/warhammer-40k-dawn-of-war-4-announced-and-its-coming-from-a-surprise-new-developer-next-year",
-            "source": "NewsAPI (Eurogamer.net)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Warhammer 40k: Dawn of War 4 Announced, and It's Coming From a Surprise New Developer..."
+            "title": "How the Relaunched Salesforce Military Program Helps Veterans and Spouses Build Careers in AI",
+            "url": "https://www.salesforce.com/news/stories/military-veteran-program-announcement-2025/",
+            "source": "Salesforce Blog",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "How the Relaunched Salesforce Military Program Helps Veterans and Spouses Build Careers in Ai"
         },
         {
-            "title": "watchOS 26 Public Beta Launches With Redesigned Blood Oxygen Feature - MacRumors",
-            "url": "https://www.macrumors.com/2025/08/19/watchos-26-public-beta-4/",
-            "source": "NewsAPI (MacRumors)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Watchos 26 Public Beta Launches with Redesigned Blood Oxygen Feature - Macrumors"
+            "title": "Research roadmap update, August 2025",
+            "url": "https://stackoverflow.blog/2025/08/21/research-roadmap-update-august-2025/",
+            "source": "Stack Overflow Blog",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Research Roadmap Update, August 2025"
         },
         {
-            "title": "Sony just launched five new PC gaming peripherals, so I tried them all at once - The Verge",
-            "url": "https://www.theverge.com/hands-on/757680/sony-inzone-pc-gaming-headset-keyboard-mouse-hands-on",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Sony Just Launched Five New Pc Gaming Peripherals, So I Tried Them All at Once..."
-        },
-        {
-            "title": "No Hollow Knight: Silksong release date announcement today as Special Announcement is scheduled for Thursday - Eurogamer",
-            "url": "https://www.eurogamer.net/no-hollow-knight-silksong-release-date-announcement-today-as-special-announcement-is-scheduled-for-thursday",
-            "source": "NewsAPI (Eurogamer.net)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "No Hollow Knight: Silksong Release Date Announcement Today as Special Announcement Is Scheduled for Thursday..."
-        },
-        {
-            "title": "ASUS Unveils ROG Matrix GeForce RTX 5090 \u201c30th Anniversary Edition\u201d Graphics Card: Up To 800W Power, Quad Axial-Tech Fans & Premium PCB With BTF Design - Wccftech",
-            "url": "https://wccftech.com/asus-rog-matrix-geforce-rtx-5090-30th-anniversary-edition-graphics-card-up-to-800w-power-quad-axial-tech-fans/",
-            "source": "NewsAPI (Wccftech)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Asus Unveils Rog Matrix Geforce Rtx 5090 \u201c30th Anniversary Edition\u201d Graphics Card: Up to 800w..."
-        },
-        {
-            "title": "Microsoft: August security updates break Windows recovery, reset - BleepingComputer",
-            "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-security-updates-break-windows-recovery-reset/",
-            "source": "NewsAPI (BleepingComputer)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Microsoft: August Security Updates Break Windows Recovery, Reset - Bleepingcomputer"
-        },
-        {
-            "title": "Nvidia (NVDA) Unveils Cloud Gaming Boost and China-Only Chip - TipRanks",
-            "url": "https://www.tipranks.com/news/nvidia-nvda-unveils-cloud-gaming-boost-and-china-only-chip",
-            "source": "NewsAPI (Tipranks.com)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Nvidia (nvda) Unveils Cloud Gaming Boost and China-only Chip - Tipranks"
+            "title": "August 22, 2025 marks the THREE YEAR anniversary of the release of the original Stable Diffusion text to image model. Seems like that was an eternity ago.",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1mwrvge/august_22_2025_marks_the_three_year_anniversary/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-08-22",
+            "rewritten_title": "August 22, 2025 Marks the Three Year Anniversary of the Release of the Original Stable..."
         }
     ],
     "SaaS Analytics": [
         {
-            "title": "How Xbox\u2019s cheaper, more global cloud gaming push hides a bigger next\u2011gen play - Windows Central",
-            "url": "https://www.windowscentral.com/gaming/xbox/xbox-hints-that-xbox-cloud-gaming-will-become-more-affordable-soon-across-more-regions-with-comments-on-xbox-next-gen-in-tow",
-            "source": "NewsAPI (Windows Central)",
-            "published_date_obj": "2025-08-18",
-            "rewritten_title": "How Xbox\u2019s Cheaper, More Global Cloud Gaming Push Hides a Bigger Next\u2011gen Play - Windows..."
+            "title": "Big Gamescom Trailers Cost Up To $520,000 To Show, And Other Fun Facts - aftermath.site",
+            "url": "https://aftermath.site/gamescom-opening-night-live-onl-games-trailers",
+            "source": "NewsAPI (Aftermath.site)",
+            "published_date_obj": "2025-08-19",
+            "rewritten_title": "Big Gamescom Trailers Cost Up to $520,000 to Show, and Other Fun Facts - Aftermath.site"
+        },
+        {
+            "title": "Embedded views: The future of work tracking in GitLab",
+            "url": "https://about.gitlab.com/blog/embedded-views-the-future-of-work-tracking-in-gitlab/",
+            "source": "GitLab Blog",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Embedded Views: the Future of Work Tracking in Gitlab"
+        },
+        {
+            "title": "AI is gutting office jobs\u2014now bartenders and baristas are seeing bigger wage growth than desk workers",
+            "url": "https://www.reddit.com/r/artificial/comments/1mwldiq/ai_is_gutting_office_jobsnow_bartenders_and/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Ai Is Gutting Office Jobs\u2014now Bartenders and Baristas Are Seeing Bigger Wage Growth Than Desk..."
         }
     ],
     "B2B Technology": [
         {
-            "title": "The CFO is Dead, Long Live the Chief Automation Officer: What OpenAI, Rippling, and Gorgias Got Right (and Wrong) About AI",
-            "url": "https://www.saastr.com/the-cfo-is-dead-long-live-the-chief-automation-officer-what-openai-rippling-and-gorgias-got-right-and-wrong-about-ai/",
-            "source": "SaaStr",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "The Cfo Is Dead, Long Live the Chief Automation Officer: What Openai, Rippling, and Gorgias..."
-        },
-        {
-            "title": "Dear SaaStr: We Have A Less Than 30 Day Sales Cycle.  How Long Should We Give Reps to Scale Up?",
-            "url": "https://www.saastr.com/dear-saastr-we-have-a-less-than-30-day-sales-cycle-how-long-should-we-give-reps-to-scale-up/",
-            "source": "SaaStr",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Dear Saastr: We Have a Less Than 30 Day Sales Cycle. How Long Should We..."
-        },
-        {
-            "title": "Model your SaaS growth with Scenarios",
-            "url": "https://alleged-peace.flywheelsites.com/model-your-saas-growth-with-scenarios/",
-            "source": "ChartMogul Blog",
-            "published_date_obj": null,
-            "rewritten_title": "Model Your Saas Growth with Scenarios"
+            "title": "Cloudflare incident on August 21, 2025",
+            "url": "https://blog.cloudflare.com/cloudflare-incident-on-august-21-2025/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2025-08-22",
+            "rewritten_title": "Cloudflare Incident on August 21, 2025"
         }
     ],
     "Software Industry": [
         {
-            "title": "Last-minute Pixel 10 leak suggests controversial change is really happening - Android Authority",
-            "url": "https://www.androidauthority.com/google-pixel-10-leak-no-physical-sim-3589062/",
-            "source": "NewsAPI (Android Authority)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Last-minute Pixel 10 Leak Suggests Controversial Change Is Really Happening - Android Authority"
+            "title": "Humans intervened every 9 minutes in AAA test of driver assists - Ars Technica",
+            "url": "https://arstechnica.com/cars/2025/08/humans-intervened-every-9-minutes-in-aaa-test-of-driver-assists/",
+            "source": "NewsAPI (Ars Technica)",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Humans Intervened Every 9 Minutes in Aaa Test of Driver Assists - Ars Technica"
         },
         {
-            "title": "iPhone 17 Pro may be a tougher sell than ever before - 9to5Mac",
-            "url": "https://9to5mac.com/2025/08/19/iphone-17-pro-may-be-a-tougher-sell-than-ever-before/",
-            "source": "NewsAPI (9to5Mac)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Iphone 17 Pro May Be a Tougher Sell Than Ever Before - 9to5mac"
-        },
-        {
-            "title": "Rumor: Starfield coming to Nintendo Switch 2 - Nintendo Everything",
-            "url": "https://nintendoeverything.com/rumor-starfield-coming-to-nintendo-switch-2/",
-            "source": "NewsAPI (Nintendoeverything.com)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Rumor: Starfield Coming to Nintendo Switch 2 - Nintendo Everything"
-        },
-        {
-            "title": "WoW: Midnight's gameplay has been shown off at Gamescom 2025 - Windows Central",
-            "url": "https://www.windowscentral.com/gaming/world-of-warcraft-midnight-expansion-gamescom-2025",
-            "source": "NewsAPI (Windows Central)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Wow: Midnight's Gameplay Has Been Shown Off at Gamescom 2025 - Windows Central"
-        },
-        {
-            "title": "Tales Of Xillia Remastered Coming This October, Confirmed 30fps For Switch - Nintendo Life",
-            "url": "https://www.nintendolife.com/news/2025/08/tales-of-xillia-remastered-coming-this-october-confirmed-30fps-for-switch",
-            "source": "NewsAPI (Nintendo Life)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Tales of Xillia Remastered Coming This October, Confirmed 30fps for Switch - Nintendo Life"
-        },
-        {
-            "title": "This sucks: you'll have to pay for two clans in Vampire: The Masquerade - Bloodlines 2 - Eurogamer",
-            "url": "https://www.eurogamer.net/this-sucks-youll-have-to-pay-for-two-clans-in-vampire-the-masquerade-bloodlines-2",
-            "source": "NewsAPI (Eurogamer.net)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "This Sucks: You'll Have to Pay for Two Clans in Vampire: the Masquerade - Bloodlines..."
-        },
-        {
-            "title": "Silent Hill f Gamescom Trailer Reveals Suzie Yeung as Hinako - IGN",
-            "url": "https://www.ign.com/articles/silent-hill-f-gamescom-trailer-reveals-suzie-yeung-as-hinako",
-            "source": "NewsAPI (IGN)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Silent Hill F Gamescom Trailer Reveals Suzie Yeung as Hinako - Ign"
-        },
-        {
-            "title": "Pok\u00e9mon Teases A Spooky Legends: Z-A Reveal Later This Week - Nintendo Life",
-            "url": "https://www.nintendolife.com/news/2025/08/pokemon-teases-a-spooky-legends-z-a-reveal-later-this-week",
-            "source": "NewsAPI (Nintendo Life)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Pok\u00e9mon Teases a Spooky Legends: Z-a Reveal Later This Week - Nintendo Life"
-        },
-        {
-            "title": "Call of Duty: Black Ops 7 Was Developed in Parallel to Black Ops 6, Treyarch says - IGN",
-            "url": "https://www.ign.com/articles/call-of-duty-black-ops-7-was-developed-in-parallel-to-black-ops-6-treyarch-says",
-            "source": "NewsAPI (IGN)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Call of Duty: Black Ops 7 Was Developed in Parallel to Black Ops 6, Treyarch..."
-        },
-        {
-            "title": "Asus has the new world\u2019s fastest OLED monitor at 720Hz, and it\u2019s dripping with style - The Verge",
-            "url": "https://www.theverge.com/news/761481/asus-720hz-gaming-monitor-rog-swift-oled-pg27aqwp-w",
+            "title": "Google\u2019s Gemini Live AI assistant will show you what it\u2019s talking about - The Verge",
+            "url": "https://www.theverge.com/news/763114/google-gemini-live-ai-visual-guidance-speech-update",
             "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Asus Has the New World\u2019s Fastest Oled Monitor at 720hz, and It\u2019s Dripping with Style..."
+            "published_date_obj": "2025-08-20",
+            "rewritten_title": "Google\u2019s Gemini Live Ai Assistant Will Show You What It\u2019s Talking About - the Verge"
         },
         {
-            "title": "Meta\u2019s First \u2018Real\u2019 Smart Glasses Have One Huge Problem - Gizmodo",
-            "url": "https://gizmodo.com/metas-first-real-smart-glasses-have-one-huge-problem-2000644924",
-            "source": "NewsAPI (Gizmodo.com)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Meta\u2019s First \u2018real\u2019 Smart Glasses Have One Huge Problem - Gizmodo"
+            "title": "Google\u2019s Journal app is real \u2014 and Pixel 10 owners get first dibs - Android Police",
+            "url": "https://www.androidpolice.com/new-google-pixel-journal-app/",
+            "source": "NewsAPI (Android Police)",
+            "published_date_obj": "2025-08-20",
+            "rewritten_title": "Google\u2019s Journal App Is Real \u2014 and Pixel 10 Owners Get First Dibs - Android..."
         },
         {
-            "title": "This often-ignored smartwatch health metric can help you manage stress - The Washington Post",
-            "url": "https://www.washingtonpost.com/wellness/2025/08/19/heart-rate-variability-stress-longevity/",
-            "source": "NewsAPI (The Washington Post)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "This Often-ignored Smartwatch Health Metric Can Help You Manage Stress - the Washington Post"
+            "title": "PlayStation 5 price changes in the U.S. - PlayStation.Blog",
+            "url": "https://blog.playstation.com/2025/08/20/playstation-5-price-changes-in-the-u-s/",
+            "source": "NewsAPI (Playstation.com)",
+            "published_date_obj": "2025-08-20",
+            "rewritten_title": "Playstation 5 Price Changes in the U.s. - Playstation.blog"
         },
         {
-            "title": "33.2.2 Patch Notes \u2014 Hearthstone - Blizzard News",
-            "url": "https://news.blizzard.com/en-us/article/24223662/33-2-2-patch-notes",
-            "source": "NewsAPI (Blizzard.com)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "33.2.2 Patch Notes \u2014 Hearthstone - Blizzard News"
-        },
-        {
-            "title": "Helldivers 2 ODST Crossover Will Add 4 Iconic Halo Weapons And More - GameSpot",
-            "url": "https://www.gamespot.com/gallery/helldivers-2-odst-crossover-will-add-4-iconic-halo-weapons-and-more/2900-6890/",
+            "title": "Meet Call of Duty Black Ops 7's Star-Studded Cast - GameSpot",
+            "url": "https://www.gamespot.com/gallery/meet-call-of-duty-black-ops-7s-star-studded-cast/2900-6893/",
             "source": "NewsAPI (GameSpot)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Helldivers 2 Odst Crossover Will Add 4 Iconic Halo Weapons and More - Gamespot"
+            "published_date_obj": "2025-08-20",
+            "rewritten_title": "Meet Call of Duty Black Ops 7's Star-studded Cast - Gamespot"
         },
         {
-            "title": "Made by Google 2025: What to expect from Google\u2019s new Pixel hardware - The Verge",
-            "url": "https://www.theverge.com/news/761300/made-by-google-what-to-expect-pixel-10-pro-xl-fold-watch-4-buds-2a",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Made by Google 2025: What to Expect From Google\u2019s New Pixel Hardware - the Verge"
-        },
-        {
-            "title": "The Kirby Air Riders Direct presentation showcased the game's wild vehicular action and more on Nintendo Switch 2 - Nintendo",
-            "url": "https://www.nintendo.com/us/whatsnew/the-kirby-air-riders-direct-presentation-showcased-the-games-wild-vehicular-action-and-more-on-nintendo-switch-2/",
-            "source": "NewsAPI (Nintendo.com)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "The Kirby Air Riders Direct Presentation Showcased the Game's Wild Vehicular Action and More On..."
-        },
-        {
-            "title": "How To Transition from Founder-Led Sales: Why Most Get It Wrong and How to Get It Right",
-            "url": "https://www.saastr.com/the-founders-guide-to-transitioning-from-founder-led-sales-why-most-get-it-wrong-and-how-to-get-it-right/",
+            "title": "The 2027 AI Burnout Wave is Coming. It Will Make 2023 Look Like a Vacation. But We Can\u2019t Slow Down.",
+            "url": "https://www.saastr.com/the-2027-ai-burnout-wave-is-coming-it-will-make-2023-look-like-a-vacation-but-we-cant-slow-down/",
             "source": "SaaStr",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "How to Transition From Founder-led Sales: Why Most Get It Wrong and How to Get..."
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "The 2027 Ai Burnout Wave Is Coming. It Will Make 2023 Look Like a Vacation...."
         },
         {
-            "title": "Who will maintain the future? Rethinking open source leadership for a new generation",
-            "url": "https://github.blog/open-source/maintainers/who-will-maintain-the-future-rethinking-open-source-leadership-for-a-new-generation/",
+            "title": "How To Do a QBR (Quarterly Business Review) Right",
+            "url": "https://www.saastr.com/dear-saastr-how-do-i-do-a-good-qbr-quarterly-business-review-with-customers/",
+            "source": "SaaStr",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "How to Do a Qbr (quarterly Business Review) Right"
+        },
+        {
+            "title": "Achieving Flow with AI",
+            "url": "https://www.tomtunguz.com/discover-ai-workflows-for-peak-productivity-at-flo/",
+            "source": "Tomasz Tunguz",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Achieving Flow with Ai"
+        },
+        {
+            "title": "How Agentic AI Can Help Overcome the Child Welfare Information Crisis",
+            "url": "https://www.salesforce.com/news/stories/agentic-ai-revolutionizes-child-welfare/",
+            "source": "Salesforce Blog",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "How Agentic Ai Can Help Overcome the Child Welfare Information Crisis"
+        },
+        {
+            "title": "Manufacturers Gain New AI Workforce: Salesforce\u2019s Agentforce for Manufacturing Optimizes Production, Boosts Sales, and Cuts Downtime",
+            "url": "https://www.salesforce.com/news/stories/agentforce-for-manufacturing-announcement/",
+            "source": "Salesforce Blog",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Manufacturers Gain New Ai Workforce: Salesforce\u2019s Agentforce for Manufacturing Optimizes Production, Boosts Sales, and Cuts..."
+        },
+        {
+            "title": "Explore the best of GitHub Universe: 9 spaces built to spark creativity, connection, and joy",
+            "url": "https://github.blog/news-insights/company-news/explore-the-best-of-github-universe-9-spaces-built-to-spark-creativity-connection-and-joy/",
             "source": "GitHub Blog",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Who Will Maintain the Future? Rethinking Open Source Leadership for a New Generation"
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Explore the Best of Github Universe: 9 Spaces Built to Spark Creativity, Connection, and Joy"
         },
         {
-            "title": "The GitLab documentation site gets a major design overhaul",
-            "url": "https://about.gitlab.com/blog/docs-site-design-overhaul/",
+            "title": "GitLab 18.3: Expanding AI orchestration in software engineering",
+            "url": "https://about.gitlab.com/blog/gitlab-13-expanding-ai-orchestration-in-software-engineering/",
             "source": "GitLab Blog",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "The Gitlab Documentation Site Gets a Major Design Overhaul"
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Gitlab 18.3: Expanding Ai Orchestration in Software Engineering"
         },
         {
-            "title": "Heroku AI Expands Model Offering with OpenAI\u2019s gpt-oss-120b",
-            "url": "https://www.heroku.com/blog/heroku-ai-openai-gpt-oss-120b-model-now-available/",
-            "source": "Heroku Blog",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Heroku Ai Expands Model Offering with Openai\u2019s Gpt-oss-120b"
-        },
-        {
-            "title": "How we built AI face cropping for Images",
-            "url": "https://blog.cloudflare.com/ai-face-cropping-for-images/",
+            "title": "How a volunteer-run wildfire site in Portugal stayed online during DDoS attacks",
+            "url": "https://blog.cloudflare.com/wildfire-fogos-pt-portugal-ddos-attack/",
             "source": "CloudFlare Blog",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "How We Built Ai Face Cropping for Images"
-        },
-        {
-            "title": "Learning in the flow: Unlocking employee potential through continuous learning",
-            "url": "https://stackoverflow.blog/2025/08/21/learning-in-the-flow-unlocking-employee-potential-through-continuous-learning/",
-            "source": "Stack Overflow Blog",
             "published_date_obj": "2025-08-21",
-            "rewritten_title": "Learning in the Flow: Unlocking Employee Potential Through Continuous Learning"
+            "rewritten_title": "How a Volunteer-run Wildfire Site in Portugal Stayed Online During Ddos Attacks"
         },
         {
-            "title": "Documents: The architect\u2019s programming language",
-            "url": "https://stackoverflow.blog/2025/08/20/documents-the-architect-s-programming-language/",
-            "source": "Stack Overflow Blog",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Documents: the Architect\u2019s Programming Language"
-        },
-        {
-            "title": "Meta to add 100MW of solar power from US gear",
-            "url": "https://techcrunch.com/2025/08/20/meta-to-add-100-mw-of-solar-power-from-u-s-gear/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Meta to Add 100mw of Solar Power From Us Gear"
-        },
-        {
-            "title": "Facebook Marketing for Small Businesses and Creators: Tips, Tools, and Tactics That Work",
-            "url": "https://buffer.com/resources/facebook-marketing/",
-            "source": "Buffer Blog",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Facebook Marketing for Small Businesses and Creators: Tips, Tools, and Tactics That Work"
-        },
-        {
-            "title": "Is ChatGPT Really Powered by Google? 118,931 Fan-Out Queries Analyzed",
-            "url": "https://ahrefs.com/blog/is-chatgpt-really-powered-by-google/",
+            "title": "SEO \u201cChunk Optimization\u201d is Overrated",
+            "url": "https://ahrefs.com/blog/seo-chunk-optimization/",
             "source": "Ahrefs Blog",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Is Chatgpt Really Powered by Google? 118,931 Fan-out Queries Analyzed"
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Seo \u201cchunk Optimization\u201d Is Overrated"
         },
         {
-            "title": "Search Everywhere Optimization: 5 Places to Optimize Beyond Google",
-            "url": "https://ahrefs.com/blog/search-everywhere-optimization/",
-            "source": "Ahrefs Blog",
-            "published_date_obj": "2025-08-18",
-            "rewritten_title": "Search Everywhere Optimization: 5 Places to Optimize Beyond Google"
-        },
-        {
-            "title": "The Supply Chain Paradox: When \u201cHardened\u201d Images Become a Vendor Lock-in Trap",
-            "url": "https://www.docker.com/blog/hardened-container-images-security-vendor-lock-in/",
+            "title": "Prototyping an AI Tutor with Docker Model Runner",
+            "url": "https://www.docker.com/blog/how-to-build-an-ai-tutor-with-model-runner/",
             "source": "Docker Blog",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "The Supply Chain Paradox: When \u201chardened\u201d Images Become a Vendor Lock-in Trap"
-        },
-        {
-            "title": "From LLM Wrappers to RL Sculptors: The Dawn of Reasoning AI",
-            "url": "https://www.battery.com/blog/from-llm-wrappers-to-rl-sculptors-the-dawn-of-reasoning-ai/",
-            "source": "Battery Ventures",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "From Llm Wrappers to Rl Sculptors: the Dawn of Reasoning Ai"
-        },
-        {
-            "title": "Why your AI product needs a different development lifecycle",
-            "url": "https://www.lennysnewsletter.com/p/why-your-ai-product-needs-a-different-2ea",
-            "source": "Lenny's Newsletter",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "Why Your Ai Product Needs a Different Development Lifecycle"
-        },
-        {
-            "title": "We asked 200 PMs: Is product management an art or a science?",
-            "url": "https://blog.logrocket.com/product-management-we-asked-200-pms-pm-art-or-science/",
-            "source": "LogRocket",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "We Asked 200 Pms: Is Product Management an Art or a Science?"
-        },
-        {
-            "title": "Does Gemini CLI fall short? Here\u2019s how Codex compares",
-            "url": "https://blog.logrocket.com/gemini-cli-vs-codex-cli/",
-            "source": "LogRocket",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Does Gemini Cli Fall Short? Here\u2019s How Codex Compares"
-        },
-        {
-            "title": "Is Next.js still developer-friendly?",
-            "url": "https://blog.logrocket.com/is-next-js-still-developer-friendly/",
-            "source": "LogRocket",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Is Next.js Still Developer-friendly?"
-        },
-        {
-            "title": "Most firms see no profit boost from generative AI: MIT",
-            "url": "https://www.reddit.com/r/artificial/comments/1mvme6r/most_firms_see_no_profit_boost_from_generative_ai/",
-            "source": "Reddit r/artificial",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Most Firms See No Profit Boost From Generative Ai: Mit"
-        },
-        {
-            "title": "Commentary: Say farewell to the AI bubble, and get ready for the crash",
-            "url": "https://www.reddit.com/r/artificial/comments/1mvm6h1/commentary_say_farewell_to_the_ai_bubble_and_get/",
-            "source": "Reddit r/artificial",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Commentary: Say Farewell to the Ai Bubble, and Get Ready for the Crash"
-        },
-        {
-            "title": "Why do some languages see higher MTPE demand than others?",
-            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1mveecl/why_do_some_languages_see_higher_mtpe_demand_than/",
-            "source": "Reddit r/LargeLanguageModels",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Why Do Some Languages See Higher Mtpe Demand Than Others?"
-        },
-        {
-            "title": "My LLM trained from scratch on only 1800s London texts brings up a real protest from 1834",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1mvnmjo/my_llm_trained_from_scratch_on_only_1800s_london/",
-            "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "My Llm Trained From Scratch on Only 1800s London Texts Brings Up a Real Protest..."
-        },
-        {
-            "title": "Google phd fellowship 2025 [D]",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1mvtjxw/google_phd_fellowship_2025_d/",
-            "source": "Reddit r/MachineLearning",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Google Phd Fellowship 2025 [d]"
-        },
-        {
-            "title": "Where AI gets its facts",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1mvn377/where_ai_gets_its_facts/",
-            "source": "Reddit r/chatgpt",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Where Ai Gets Its Facts"
-        },
-        {
-            "title": "new /context command in \u00a0Claude Code v1.0.86",
-            "url": "https://www.reddit.com/r/ClaudeAI/comments/1mvwrs8/new_context_command_in_claude_code_v1086/",
-            "source": "Reddit r/claudeai",
             "published_date_obj": "2025-08-21",
-            "rewritten_title": "New /context Command in Claude Code V1.0.86"
+            "rewritten_title": "Prototyping an Ai Tutor with Docker Model Runner"
         },
         {
-            "title": "finding the perfect bot but it\u2019s not the scenario you wanted",
-            "url": "https://www.reddit.com/r/CharacterAI/comments/1mvwd0m/finding_the_perfect_bot_but_its_not_the_scenario/",
+            "title": "How Intercom rose from the ashes by betting everything on AI | Eoghan McCabe (founder and CEO)",
+            "url": "https://www.lennysnewsletter.com/p/how-intercom-rose-from-the-ashes-eoghan-mccabe",
+            "source": "Lenny's Newsletter",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "How Intercom Rose From the Ashes by Betting Everything on Ai | Eoghan Mccabe (founder..."
+        },
+        {
+            "title": "Motion design is cool, but can hurt users \u2014 here\u2019s how I fixed it",
+            "url": "https://blog.logrocket.com/ux-design/motion-design-mistakes-and-fixes/",
+            "source": "LogRocket",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Motion Design Is Cool, but Can Hurt Users \u2014 Here\u2019s How I Fixed It"
+        },
+        {
+            "title": "Why you shouldn\u2019t ignore niche app user types",
+            "url": "https://blog.logrocket.com/product-management/why-you-shouldnt-ignore-niche-app-user-types/",
+            "source": "LogRocket",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Why You Shouldn\u2019t Ignore Niche App User Types"
+        },
+        {
+            "title": "Why is everyone freaking out over an AI crash right now?",
+            "url": "https://www.reddit.com/r/artificial/comments/1mws71a/why_is_everyone_freaking_out_over_an_ai_crash/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-08-22",
+            "rewritten_title": "Why Is Everyone Freaking Out Over an Ai Crash Right Now?"
+        },
+        {
+            "title": "AWS CEO says AI replacing junior staff is 'dumbest idea'",
+            "url": "https://www.reddit.com/r/artificial/comments/1mwd0pg/aws_ceo_says_ai_replacing_junior_staff_is_dumbest/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Aws Ceo Says Ai Replacing Junior Staff Is 'dumbest Idea'"
+        },
+        {
+            "title": "Can LLMs Explain Their Reasoning? - Lecture Clip",
+            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1mwhy8f/can_llms_explain_their_reasoning_lecture_clip/",
+            "source": "Reddit r/LargeLanguageModels",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Can Llms Explain Their Reasoning? - Lecture Clip"
+        },
+        {
+            "title": "What is Gemma 3 270M actually used for?",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1mwwr87/what_is_gemma_3_270m_actually_used_for/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2025-08-22",
+            "rewritten_title": "What Is Gemma 3 270m Actually Used For?"
+        },
+        {
+            "title": "[P] Language Diffusion in <80 Lines of Code",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1mwbq81/p_language_diffusion_in_80_lines_of_code/",
+            "source": "Reddit r/MachineLearning",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "[p] Language Diffusion in <80 Lines of Code"
+        },
+        {
+            "title": "Wow...It really came a long way...",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1mwdop8/wowit_really_came_a_long_way/",
+            "source": "Reddit r/chatgpt",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Wow...it Really Came a Long Way..."
+        },
+        {
+            "title": "So what do we think of the new South Park episode?",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1mwkunz/so_what_do_we_think_of_the_new_south_park_episode/",
+            "source": "Reddit r/chatgpt",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "So What Do We Think of the New South Park Episode?"
+        },
+        {
+            "title": "The AI when you tell them your persona's age be like",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1mwq3f6/the_ai_when_you_tell_them_your_personas_age_be/",
             "source": "Reddit r/characterai",
             "published_date_obj": "2025-08-21",
-            "rewritten_title": "Finding the Perfect Bot but It\u2019s Not the Scenario You Wanted"
+            "rewritten_title": "The Ai When You Tell Them Your Persona's Age Be Like"
         },
         {
-            "title": "I can't tell if this is parody or not anymore \ud83d\ude2d",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1mvscpp/i_cant_tell_if_this_is_parody_or_not_anymore/",
+            "title": "We Got 100% Real-Time Playable AI Generated Red Dead Redemption 2 Before GTA 6...",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1mwli2f/we_got_100_realtime_playable_ai_generated_red/",
             "source": "Reddit r/openai",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "I Can't Tell If This Is Parody or Not Anymore \ud83d\ude2d"
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "We Got 100% Real-time Playable Ai Generated Red Dead Redemption 2 Before Gta 6..."
         },
         {
-            "title": "Flashcard quiz in chatgpt !! (Quizgpt)",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1mve2re/flashcard_quiz_in_chatgpt_quizgpt/",
+            "title": "Seen them crazy videos but this one is pretty impressive. Wonder which AI did it. Roles are reversed in real life though",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1mwhqsr/seen_them_crazy_videos_but_this_one_is_pretty/",
             "source": "Reddit r/openai",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Flashcard Quiz in Chatgpt !! (quizgpt)"
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Seen Them Crazy Videos but This One Is Pretty Impressive. Wonder Which Ai Did It...."
         },
         {
-            "title": "Exploring how AI tools shape PhD research",
-            "url": "https://www.reddit.com/r/AI_Agents/comments/1mvn0dc/exploring_how_ai_tools_shape_phd_research/",
+            "title": "\"GPT-5 just casually did new mathematics ... It wasn't online. It wasn't memorized. It was new math.\"",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1mw54e4/gpt5_just_casually_did_new_mathematics_it_wasnt/",
+            "source": "Reddit r/openai",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "\"gpt-5 Just Casually Did New Mathematics ... It Wasn't Online. It Wasn't Memorized. It Was..."
+        },
+        {
+            "title": "2 years building agent memory systems, ended up just using Git",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1mw4jvp/2_years_building_agent_memory_systems_ended_up/",
             "source": "Reddit r/ai_agents",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Exploring How Ai Tools Shape Phd Research"
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "2 Years Building Agent Memory Systems, Ended Up Just Using Git"
         },
         {
-            "title": "The spike in thinly veiled advertising and third party AI generation sites needs to be addressed.",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1mvvvl1/the_spike_in_thinly_veiled_advertising_and_third/",
+            "title": "Experimenting with Wan 2.1 VACE",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1mwa53y/experimenting_with_wan_21_vace/",
             "source": "Reddit r/StableDiffusion",
             "published_date_obj": "2025-08-21",
-            "rewritten_title": "The Spike in Thinly Veiled Advertising and Third Party Ai Generation Sites Needs to Be..."
+            "rewritten_title": "Experimenting with Wan 2.1 Vace"
         },
         {
-            "title": "Qwen-Image-Edit LoRA training is here + we just dropped our first trained model",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1mvph52/qwenimageedit_lora_training_is_here_we_just/",
+            "title": "Fixing SD3 with Qwen Image Edit",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1mwjfqp/fixing_sd3_with_qwen_image_edit/",
             "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Qwen-image-edit Lora Training Is Here + We Just Dropped Our First Trained Model"
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Fixing Sd3 with Qwen Image Edit"
         },
         {
-            "title": "Qwen-Image-Edit is the best open-source image editing model by far on Artificial Analysis rankings, 2nd overall",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1mvni4c/qwenimageedit_is_the_best_opensource_image/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Qwen-image-edit Is the Best Open-source Image Editing Model by Far on Artificial Analysis Rankings, 2nd..."
-        },
-        {
-            "title": "The Haunting",
-            "url": "https://www.reddit.com/r/aiArt/comments/1mvjllj/the_haunting/",
+            "title": "\"Only black metal listeners will understand this.\"",
+            "url": "https://www.reddit.com/r/aiArt/comments/1mwt3k5/only_black_metal_listeners_will_understand_this/",
             "source": "Reddit r/AIArt",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "The Haunting"
+            "published_date_obj": "2025-08-22",
+            "rewritten_title": "\"only Black Metal Listeners Will Understand This.\""
         }
     ],
-    "SaaS Acquisitions": [],
+    "SaaS Acquisitions": [
+        {
+            "title": "Meta Signs $10 Billion-Plus Cloud Deal With Google",
+            "url": "https://www.reddit.com/r/singularity/comments/1mwqs45/meta_signs_10_billionplus_cloud_deal_with_google/",
+            "source": "Reddit r/singularity",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Meta Signs $10 Billion-plus Cloud Deal with Google"
+        }
+    ],
     "SaaS Metrics": [
         {
-            "title": "New brain implant can decode a person's 'inner monologue' - Live Science",
-            "url": "https://www.livescience.com/health/neuroscience/new-brain-implant-can-decode-a-persons-inner-monologue",
-            "source": "NewsAPI (Live Science)",
-            "published_date_obj": "2025-08-19",
-            "rewritten_title": "New Brain Implant Can Decode a Person's 'inner Monologue' - Live Science"
-        },
-        {
-            "title": "OpenAI Crosses $12 Billion ARR: The 3-Year Sprint That Redefined What\u2019s Possible in Scaling Software",
-            "url": "https://www.saastr.com/openai-crosses-12-billion-arr-the-3-year-sprint-that-redefined-whats-possible-in-scaling-software/",
+            "title": "Does It Matter How Fast You Get to $1B ARR, Within Reason? Probably Not.",
+            "url": "https://www.saastr.com/does-it-matter-how-fast-you-get-to-1b-arr-within-reason-probably-not/",
             "source": "SaaStr",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Openai Crosses $12 Billion Arr: the 3-year Sprint That Redefined What\u2019s Possible in Scaling Software"
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Does It Matter How Fast You Get to $1b Arr, Within Reason? Probably Not."
         },
         {
-            "title": "Anthropic bundles Claude Code into enterprise plans",
-            "url": "https://techcrunch.com/2025/08/20/anthropic-bundles-claude-code-into-enterprise-plans/",
+            "title": "8 Top Tips to Building Your Very First Sales Comp Plan",
+            "url": "https://www.saastr.com/top-tips-to-building-your-very-first-sales-comp-plan/",
+            "source": "SaaStr",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "8 Top Tips to Building Your Very First Sales Comp Plan"
+        },
+        {
+            "title": "Gas power plants approved for Meta\u2019s $10B data center, and not everyone is happy",
+            "url": "https://techcrunch.com/2025/08/21/gas-power-plants-approved-for-metas-10b-data-center-and-not-everyone-is-happy/",
             "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-08-20",
-            "rewritten_title": "Anthropic Bundles Claude Code Into Enterprise Plans"
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Gas Power Plants Approved for Meta\u2019s $10b Data Center, and Not Everyone Is Happy"
+        },
+        {
+            "title": "Just discovered the secret to a happy marriage from Claude Code",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1mwa47k/just_discovered_the_secret_to_a_happy_marriage/",
+            "source": "Reddit r/claudeai",
+            "published_date_obj": "2025-08-21",
+            "rewritten_title": "Just Discovered the Secret to a Happy Marriage From Claude Code"
         }
     ]
 }
