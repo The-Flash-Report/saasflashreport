@@ -1,291 +1,261 @@
 {
     "SaaS Funding": [
         {
-            "title": "LayerX uses AI to cut enterprise back-office workload, scores $100M in Series B | TechCrunch",
-            "url": "https://techcrunch.com/2025/09/01/layerx-uses-ai-to-cut-enterprise-back-office-workload-scores-100m-in-series-b/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-09-01",
-            "rewritten_title": "Layerx Uses Ai to Cut Enterprise Back-office Workload, Scores $100m in Series B | Techcrunch"
-        },
-        {
-            "title": "The #1 Reason to Hire a VP Legal By Your Series B:  Get That Stress Off Your Plate (Mostly)",
-            "url": "https://www.saastr.com/the-1-reason-to-hire-a-vp-legal-by-your-series-b/",
+            "title": "20VC x SaaStr Is Back!! Elon\u2019s $1 Trillion Pay Package, OpenAI\u2019s $10B Secondary, Sierra\u2019s $10B Valuation & The Great AI M&A Wave",
+            "url": "https://www.saastr.com/20vc-x-saastr-is-back-elons-1-trillion-pay-package-openais-10b-secondary-sierras-10b-valuation-the-great-ai-ma-wave/",
             "source": "SaaStr",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "The #1 Reason to Hire a Vp Legal by Your Series B: Get That Stress..."
-        },
-        {
-            "title": "saw a couple of these going around earlier and got curious",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1ndtzc8/saw_a_couple_of_these_going_around_earlier_and/",
-            "source": "Reddit r/chatgpt",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Saw a Couple of These Going Around Earlier and Got Curious"
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "20vc X Saastr Is Back!! Elon\u2019s $1 Trillion Pay Package, Openai\u2019s $10b Secondary, Sierra\u2019s $10b..."
         }
     ],
     "Enterprise Software": [
         {
-            "title": "Supercharge your Git workflows",
-            "url": "https://about.gitlab.com/blog/supercharge-your-git-workflows/",
-            "source": "GitLab Blog",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Supercharge Your Git Workflows"
-        },
-        {
-            "title": "From Hallucinations to Prompt Injection: Securing AI Workflows at Runtime",
-            "url": "https://www.docker.com/blog/secure-ai-agents-runtime-security/",
-            "source": "Docker Blog",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "From Hallucinations to Prompt Injection: Securing Ai Workflows at Runtime"
+            "title": "GitHub Copilot coding agent 101: Getting started with agentic workflows on GitHub",
+            "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-coding-agent-101-getting-started-with-agentic-workflows-on-github/",
+            "source": "GitHub Blog",
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Github Copilot Coding Agent 101: Getting Started with Agentic Workflows on Github"
         }
     ],
     "Product Launches": [
         {
-            "title": "Apple Events live updates: iPhone 17, iPhone Air, AirPods Pro 3, and new wearables just unveiled - ZDNET",
-            "url": "https://www.zdnet.com/article/apple-events-live-updates-iphone-17-iphone-air-airpods-pro-3-and-new-wearables-just-unveiled/",
-            "source": "NewsAPI (ZDNet)",
+            "title": "Spotify Is Finally Launching Lossless Audio For Premium Subscribers - The Hollywood Reporter",
+            "url": "http://www.hollywoodreporter.com/music/music-industry-news/spotify-lossless-audio-launch-1236366685/",
+            "source": "NewsAPI (Hollywood Reporter)",
             "published_date_obj": "2025-09-10",
-            "rewritten_title": "Apple Events Live Updates: Iphone 17, Iphone Air, Airpods Pro 3, and New Wearables Just..."
+            "rewritten_title": "Spotify Is Finally Launching Lossless Audio for Premium Subscribers - the Hollywood Reporter"
         },
         {
-            "title": "Your guide to GitHub Universe 2025: The schedule just launched!",
-            "url": "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2025-the-schedule-just-launched/",
+            "title": "GitHub Availability Report: August 2025",
+            "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2025/",
             "source": "GitHub Blog",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Your Guide to Github Universe 2025: the Schedule Just Launched!"
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Github Availability Report: August 2025"
         },
         {
-            "title": "OpenAI launched complete support for MCP",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1ndznrz/openai_launched_complete_support_for_mcp/",
-            "source": "Reddit r/openai",
+            "title": "We just released the world's first 70B intermediate checkpoints. Yes, Apache 2.0. Yes, we're still broke.",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1nedq3i/we_just_released_the_worlds_first_70b/",
+            "source": "Reddit r/LocalLLaMA",
             "published_date_obj": "2025-09-11",
-            "rewritten_title": "Openai Launched Complete Support for Mcp"
+            "rewritten_title": "We Just Released the World's First 70b Intermediate Checkpoints. Yes, Apache 2.0. Yes, We're Still..."
         }
     ],
     "SaaS Analytics": [
         {
-            "title": "Sync Your ChartMogul Data with Snowflake, Amazon Redshift, or Google BigQuery",
-            "url": "https://alleged-peace.flywheelsites.com/configure-snowflake-bigquery-redshift-as-destination/",
-            "source": "ChartMogul Blog",
-            "published_date_obj": null,
-            "rewritten_title": "Sync Your Chartmogul Data with Snowflake, Amazon Redshift, or Google Bigquery"
-        },
-        {
-            "title": "The Best Way to Keep a Secret in the Cloud Is Not to Have a Secret at All: The Birth of \u201cSecretless\u201d Cloud Workloads",
-            "url": "https://www.battery.com/blog/the-best-way-to-keep-a-secret-in-the-cloud-is-not-to-have-a-secret-at-all-the-birth-of-secretless-cloud-workloads/",
-            "source": "Battery Ventures",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "The Best Way to Keep a Secret in the Cloud Is Not to Have A..."
-        }
-    ],
-    "B2B Technology": [
-        {
-            "title": "Dear SaaStr:  What Are Some Red Flags in a Founder?",
-            "url": "https://www.saastr.com/dear-saastr-what-are-some-red-flags-in-a-founder/",
+            "title": "OpenAI vs. Anthropic: Ramp Data Shows 36% vs. 12% Penetration, But Velocity Curves Tell a Different Story",
+            "url": "https://www.saastr.com/openai-vs-anthropic-ramp-data-shows-36-vs-12-penetration-but-velocity-curves-tell-a-different-story/",
             "source": "SaaStr",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Dear Saastr: What Are Some Red Flags in a Founder?"
-        },
-        {
-            "title": "Securing Salesforce Integrations with Heroku AppLink",
-            "url": "https://www.heroku.com/blog/securing-salesforce-integrations-with-heroku-applink/",
-            "source": "Heroku Blog",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Securing Salesforce Integrations with Heroku Applink"
-        },
-        {
-            "title": "How AI is reshaping developer teams and the future of software development",
-            "url": "https://stackoverflow.blog/2025/09/11/how-ai-is-reshaping-developer-teams/",
-            "source": "Stack Overflow Blog",
             "published_date_obj": "2025-09-11",
-            "rewritten_title": "How Ai Is Reshaping Developer Teams and the Future of Software Development"
+            "rewritten_title": "Openai Vs. Anthropic: Ramp Data Shows 36% Vs. 12% Penetration, but Velocity Curves Tell A..."
         }
     ],
+    "B2B Technology": [],
     "Software Industry": [
         {
-            "title": "AirPods Pro 3 get foam-infused ear tips in five different sizes - 9to5Mac",
-            "url": "https://9to5mac.com/2025/09/09/airpods-pro-3-get-foam-infused-ear-tips-in-five-different-sizes/",
-            "source": "NewsAPI (9to5Mac)",
-            "published_date_obj": "2025-09-09",
-            "rewritten_title": "Airpods Pro 3 Get Foam-infused Ear Tips in Five Different Sizes - 9to5mac"
-        },
-        {
-            "title": "The New Apple Watches Are Here. You Should Probably Upgrade - WIRED",
-            "url": "https://www.wired.com/story/apple-watch-series-11-se-ultra-3/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2025-09-09",
-            "rewritten_title": "The New Apple Watches Are Here. You Should Probably Upgrade - Wired"
-        },
-        {
-            "title": "AI vs Gen Z: How AI has changed the career pathway for junior developers",
-            "url": "https://stackoverflow.blog/2025/09/10/ai-vs-gen-z/",
-            "source": "Stack Overflow Blog",
+            "title": "New iPhone 17 lineup and iPhone Air now at Verizon: 5G power, incredible trade-in offers and savings that add up - Verizon",
+            "url": "https://www.verizon.com/about/news/iphone-17-air-pro-max-verizon-offers",
+            "source": "NewsAPI (Verizon Communications)",
             "published_date_obj": "2025-09-10",
-            "rewritten_title": "Ai Vs Gen Z: How Ai Has Changed the Career Pathway for Junior Developers"
+            "rewritten_title": "New Iphone 17 Lineup and Iphone Air Now at Verizon: 5g Power, Incredible Trade-in Offers..."
         },
         {
-            "title": "100 Most Cited Domains in ChatGPT",
-            "url": "https://ahrefs.com/blog/most-cited-domains-in-chatgpt/",
-            "source": "Ahrefs Blog",
+            "title": "Let\u2019s compare the specs of the Apple Watch Series 11, Ultra 3, and SE 3 - The Verge",
+            "url": "https://www.theverge.com/tech/775584/apple-watch-series-11-ultra-3-se-specs-comparison",
+            "source": "NewsAPI (The Verge)",
             "published_date_obj": "2025-09-10",
-            "rewritten_title": "100 Most Cited Domains in Chatgpt"
+            "rewritten_title": "Let\u2019s Compare the Specs of the Apple Watch Series 11, Ultra 3, and Se 3..."
         },
         {
-            "title": "SEO vs. GEO: 5 Key Differences Despite the Similarities",
-            "url": "https://ahrefs.com/blog/seo-vs-geo/",
-            "source": "Ahrefs Blog",
+            "title": "watchOS 26 Adds Four New Apple Watch Faces - MacRumors",
+            "url": "https://www.macrumors.com/2025/09/10/watchos-26-adds-four-new-apple-watch-faces/",
+            "source": "NewsAPI (MacRumors)",
             "published_date_obj": "2025-09-10",
-            "rewritten_title": "Seo Vs. Geo: 5 Key Differences Despite the Similarities"
+            "rewritten_title": "Watchos 26 Adds Four New Apple Watch Faces - Macrumors"
         },
         {
-            "title": "From Tools to Teammates: CTO\u2019s Guide to Evolving Architecture for Agentic AI",
-            "url": "https://aws.amazon.com/blogs/enterprise-strategy/from-tools-to-teammates-ctos-guide-to-evolving-architecture-for-agentic-ai/",
-            "source": "AWS Enterprise",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "From Tools to Teammates: Cto\u2019s Guide to Evolving Architecture for Agentic Ai"
+            "title": "Why 95% of Sales Reps Won\u2019t Do What You Want Them to Do.  And What To Do About It.",
+            "url": "https://www.saastr.com/why-95-of-sales-reps-wont-do-what-you-want-them-to-do/",
+            "source": "SaaStr",
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Why 95% of Sales Reps Won\u2019t Do What You Want Them to Do. and What..."
         },
         {
-            "title": "Kubernetes v1.34: Use An Init Container To Define App Environment Variables",
-            "url": "https://kubernetes.io/blog/2025/09/10/kubernetes-v1-34-env-files/",
-            "source": "Kubernetes Blog",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Kubernetes V1.34: Use an Init Container to Define App Environment Variables"
+            "title": "Developer Relations at Theory",
+            "url": "https://www.tomtunguz.com/devrel-at-theory/",
+            "source": "Tomasz Tunguz",
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Developer Relations at Theory"
         },
         {
-            "title": "Redefining Endpoint Security in the AI Era: Why We Invested in Koi",
-            "url": "https://www.battery.com/blog/redefining-endpoint-security-in-the-ai-era-why-we-invested-in-koi/",
-            "source": "Battery Ventures",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Redefining Endpoint Security in the Ai Era: Why We Invested in Koi"
+            "title": "How Takeda Uses Agentic AI to Transform Customer Engagement and Help Improve Patient Outcomes",
+            "url": "https://www.salesforce.com/news/linked-content/how-takeda-uses-agentic-ai-to-transform-customer-engagement-and-help-improve-patient-outcomes/",
+            "source": "Salesforce Blog",
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "How Takeda Uses Agentic Ai to Transform Customer Engagement and Help Improve Patient Outcomes"
         },
         {
-            "title": "Building eval systems that improve your AI product",
-            "url": "https://www.lennysnewsletter.com/p/building-eval-systems-that-improve",
+            "title": "Box CEO Aaron Levie on AI\u2019s \u2018era of context\u2019",
+            "url": "https://techcrunch.com/2025/09/11/box-ceo-aaron-levie-on-ais-era-of-context/",
+            "source": "TechCrunch Enterprise",
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Box Ceo Aaron Levie on Ai\u2019s \u2018era of Context\u2019"
+        },
+        {
+            "title": "How a Jazz Guitar Professor Reaches Thousands of Aspiring Musicians with Buffer",
+            "url": "https://buffer.com/resources/barry-greene-educator-case-study/",
+            "source": "Buffer Blog",
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "How a Jazz Guitar Professor Reaches Thousands of Aspiring Musicians with Buffer"
+        },
+        {
+            "title": "16 Facebook Statistics to Know for 2025",
+            "url": "https://buffer.com/resources/facebook-statistics/",
+            "source": "Buffer Blog",
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "16 Facebook Statistics to Know for 2025"
+        },
+        {
+            "title": "$46B of hard truths from Ben Horowitz: Why founders fail and why you need to run toward fear (a16z co-founder)",
+            "url": "https://www.lennysnewsletter.com/p/46b-of-hard-truths-from-ben-horowitz",
             "source": "Lenny's Newsletter",
-            "published_date_obj": "2025-09-09",
-            "rewritten_title": "Building Eval Systems That Improve Your Ai Product"
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "$46b of Hard Truths From Ben Horowitz: Why Founders Fail and Why You Need To..."
         },
         {
-            "title": "I tried Google Stitch. Here\u2019s what I loved (and hated) about it",
-            "url": "https://blog.logrocket.com/ux-design/i-tried-google-stitch-heres-what-i-loved-hated/",
+            "title": "Too many tools: How to manage frontend tool overload",
+            "url": "https://blog.logrocket.com/frontend-tool-overload/",
             "source": "LogRocket",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "I Tried Google Stitch. Here\u2019s What I Loved (and Hated) About It"
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Too Many Tools: How to Manage Frontend Tool Overload"
         },
         {
-            "title": "What you actually need to build and ship AI-powered apps in 2025",
-            "url": "https://blog.logrocket.com/modern-ai-stack-2025/",
+            "title": "5 ways product managers can steward cross-pollination",
+            "url": "https://blog.logrocket.com/product-management/5-ways-product-managers-steward-cross-pollination/",
             "source": "LogRocket",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "What You Actually Need to Build and Ship Ai-powered Apps in 2025"
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "5 Ways Product Managers Can Steward Cross-pollination"
         },
         {
-            "title": "AI dev tool power rankings & comparison [Sept 2025]",
-            "url": "https://blog.logrocket.com/ai-dev-tool-power-rankings-sept-2025/",
-            "source": "LogRocket",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Ai Dev Tool Power Rankings & Comparison [sept 2025]"
-        },
-        {
-            "title": "Microsoft\u2019s AI Chief Says Machine Consciousness Is an 'Illusion'",
-            "url": "https://www.reddit.com/r/artificial/comments/1ndmmqg/microsofts_ai_chief_says_machine_consciousness_is/",
+            "title": "Users on X are using AI to animate still images of the Charlie Kirk suspect which results in a complete distortion of the original image",
+            "url": "https://www.reddit.com/r/artificial/comments/1nemzvd/users_on_x_are_using_ai_to_animate_still_images/",
             "source": "Reddit r/artificial",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Microsoft\u2019s Ai Chief Says Machine Consciousness Is an 'illusion'"
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Users on X Are Using Ai to Animate Still Images of the Charlie Kirk Suspect..."
         },
         {
-            "title": "The Internet Will Be More Dead Than Alive Within 3 Years, Trend Shows | All signs point to a future internet where bot-driven interactions far outnumber human ones.",
-            "url": "https://www.reddit.com/r/artificial/comments/1ndbx2h/the_internet_will_be_more_dead_than_alive_within/",
+            "title": "Futurism.com: \u201cExactly Six Months Ago, the CEO of Anthropic Said That in Six Months AI Would Be Writing 90 Percent of Code\u201d",
+            "url": "https://www.reddit.com/r/artificial/comments/1nemrqa/futurismcom_exactly_six_months_ago_the_ceo_of/",
             "source": "Reddit r/artificial",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "The Internet Will Be More Dead Than Alive Within 3 Years, Trend Shows | All..."
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Futurism.com: \u201cexactly Six Months Ago, the Ceo of Anthropic Said That in Six Months Ai..."
         },
         {
-            "title": "Why should I **not** buy an AMD AI Max+ 395 128GB right away ?",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ndoxxa/why_should_i_not_buy_an_amd_ai_max_395_128gb/",
-            "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Why Should I **not** Buy an Amd Ai Max+ 395 128gb Right Away ?"
+            "title": "People leaving AI companies be like",
+            "url": "https://www.reddit.com/r/artificial/comments/1ne447g/people_leaving_ai_companies_be_like/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "People Leaving Ai Companies Be Like"
         },
         {
-            "title": "Legal technology expert's reaction to realizing GPT-4 could replace his professional writing",
-            "url": "https://www.reddit.com/r/singularity/comments/1ndid36/legal_technology_experts_reaction_to_realizing/",
+            "title": "Futurism.com: \"Exactly Six Months Ago, the CEO of Anthropic Said That in Six Months AI Would Be Writing 90 Percent of Code\"",
+            "url": "https://www.reddit.com/r/singularity/comments/1nemx7j/futurismcom_exactly_six_months_ago_the_ceo_of/",
             "source": "Reddit r/singularity",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Legal Technology Expert's Reaction to Realizing Gpt-4 Could Replace His Professional Writing"
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Futurism.com: \"exactly Six Months Ago, the Ceo of Anthropic Said That in Six Months Ai..."
         },
         {
-            "title": "[D]NVIDIA Blackwell Ultra crushes MLPerf",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1ndo5md/dnvidia_blackwell_ultra_crushes_mlperf/",
+            "title": "Seedance 4.0 is so impressive and scary at the same time... (all these images are not real and don't exist btw)",
+            "url": "https://www.reddit.com/r/singularity/comments/1ned5ul/seedance_40_is_so_impressive_and_scary_at_the/",
+            "source": "Reddit r/singularity",
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Seedance 4.0 Is So Impressive and Scary at the Same Time... (all These Images Are..."
+        },
+        {
+            "title": "[D] Math foundations to understand Convergence proofs?",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1nehy84/d_math_foundations_to_understand_convergence/",
             "source": "Reddit r/MachineLearning",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "[d]nvidia Blackwell Ultra Crushes Mlperf"
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "[d] Math Foundations to Understand Convergence Proofs?"
         },
         {
-            "title": "No idea how to choose between these two excellent responses",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1ndkx4s/no_idea_how_to_choose_between_these_two_excellent/",
+            "title": "AI is quietly taking over the British government",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1ne4jr0/ai_is_quietly_taking_over_the_british_government/",
             "source": "Reddit r/chatgpt",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "No Idea How to Choose Between These Two Excellent Responses"
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Ai Is Quietly Taking Over the British Government"
         },
         {
-            "title": "The AI Nerf Is Real",
-            "url": "https://www.reddit.com/r/ClaudeAI/comments/1ndixur/the_ai_nerf_is_real/",
-            "source": "Reddit r/claudeai",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "The Ai Nerf Is Real"
+            "title": "I asked ChatGPT to make a Where's Waldo? for the next Halloween. Can you find him?",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1neezqb/i_asked_chatgpt_to_make_a_wheres_waldo_for_the/",
+            "source": "Reddit r/chatgpt",
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "I Asked Chatgpt to Make a Where's Waldo? for the Next Halloween. Can You Find..."
         },
         {
-            "title": "Some of yall need to just write fanfiction",
-            "url": "https://www.reddit.com/r/CharacterAI/comments/1ndq21r/some_of_yall_need_to_just_write_fanfiction/",
+            "title": "\"You're insufferable, you know that?\"",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1neml5y/youre_insufferable_you_know_that/",
             "source": "Reddit r/characterai",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Some of Yall Need to Just Write Fanfiction"
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "\"you're Insufferable, You Know That?\""
         },
         {
-            "title": "This sub has had a distinct lack of dancing 1girls lately",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1ndpfot/this_sub_has_had_a_distinct_lack_of_dancing/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "This Sub Has Had a Distinct Lack of Dancing 1girls Lately"
+            "title": "Enjoy ChatGPT while it lasts\u2026. the ads are coming",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1ne90w5/enjoy_chatgpt_while_it_lasts_the_ads_are_coming/",
+            "source": "Reddit r/openai",
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Enjoy Chatgpt While It Lasts\u2026. the Ads Are Coming"
         },
         {
-            "title": "InfiniteTalk 720P Blank Audio + UniAnimate Test~25sec",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1nds017/infinitetalk_720p_blank_audio_unianimate_test25sec/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Infinitetalk 720p Blank Audio + Unianimate Test~25sec"
+            "title": "OpenAI and Microsoft are partnering to deliver the Best AI Tools for Everyone",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1ner4vp/openai_and_microsoft_are_partnering_to_deliver/",
+            "source": "Reddit r/openai",
+            "published_date_obj": "2025-09-12",
+            "rewritten_title": "Openai and Microsoft Are Partnering to Deliver the Best Ai Tools for Everyone"
         },
         {
-            "title": "VibeVoice: now with pause tag support!",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1ndymgz/vibevoice_now_with_pause_tag_support/",
+            "title": "How we 10\u00d7\u2019d the speed & accuracy of an AI agent, what was wrong and how we fixed it?",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1nerrp2/how_we_10d_the_speed_accuracy_of_an_ai_agent_what/",
+            "source": "Reddit r/ai_agents",
+            "published_date_obj": "2025-09-12",
+            "rewritten_title": "How We 10\u00d7\u2019d the Speed & Accuracy of an Ai Agent, What Was Wrong And..."
+        },
+        {
+            "title": "WAN 2.2 Animation - Fixed Slow Motion",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1negdsn/wan_22_animation_fixed_slow_motion/",
             "source": "Reddit r/StableDiffusion",
             "published_date_obj": "2025-09-11",
-            "rewritten_title": "Vibevoice: Now with Pause Tag Support!"
-        }
-    ],
-    "SaaS Acquisitions": [
-        {
-            "title": "OpenAI and Oracle reportedly ink historic cloud computing deal",
-            "url": "https://techcrunch.com/2025/09/10/openai-and-oracle-reportedly-ink-historic-cloud-computing-deal/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Openai and Oracle Reportedly Ink Historic Cloud Computing Deal"
+            "rewritten_title": "Wan 2.2 Animation - Fixed Slow Motion"
         },
         {
-            "title": "Oracle, OpenAI Sign $300B Cloud Deal; Twice previous estimates, now 66% of Oracle's future revenue",
-            "url": "https://www.reddit.com/r/singularity/comments/1ndnttt/oracle_openai_sign_300b_cloud_deal_twice_previous/",
-            "source": "Reddit r/singularity",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "Oracle, Openai Sign $300b Cloud Deal; Twice Previous Estimates, Now 66% of Oracle's Future Revenue"
+            "title": "HuMO - New Audio to Talking Model(17B) from Bytedance",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1nejgkq/humo_new_audio_to_talking_model17b_from_bytedance/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Humo - New Audio to Talking Model(17b) From Bytedance"
+        },
+        {
+            "title": "Back to the 80s",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1neqgsd/back_to_the_80s/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-09-12",
+            "rewritten_title": "Back to the 80s"
+        },
+        {
+            "title": "Created these to showcase the uniqueness of AI art",
+            "url": "https://www.reddit.com/r/aiArt/comments/1nek6rk/created_these_to_showcase_the_uniqueness_of_ai_art/",
+            "source": "Reddit r/AIArt",
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Created These to Showcase the Uniqueness of Ai Art"
         }
     ],
+    "SaaS Acquisitions": [],
     "SaaS Metrics": [
         {
-            "title": "The Richest Person Battle: What Larry Ellison\u2019s Rise to #1 Tells Us About AI, Enterprise Software, and Why Revenue Still Matters Most",
-            "url": "https://www.saastr.com/the-richest-person-battle-what-larry-ellisons-rise-to-1-tells-us-about-ai-enterprise-software-and-why-revenue-still-matters-most/",
+            "title": "Dear SaaStr: How Should I Structure the Comp Plan for a VP of Customer Success?",
+            "url": "https://www.saastr.com/dear-saastr-how-should-i-structure-the-comp-plan-for-a-vp-of-customer-success/",
             "source": "SaaStr",
-            "published_date_obj": "2025-09-10",
-            "rewritten_title": "The Richest Person Battle: What Larry Ellison\u2019s Rise to #1 Tells Us About Ai, Enterprise..."
+            "published_date_obj": "2025-09-11",
+            "rewritten_title": "Dear Saastr: How Should I Structure the Comp Plan for a Vp of Customer Success?"
         }
     ]
 }
