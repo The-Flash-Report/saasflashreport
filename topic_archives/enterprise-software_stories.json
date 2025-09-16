@@ -1,5 +1,445 @@
 [
   {
+    "title": "What an MCP implementation looks like at a CRM company",
+    "url": "https://stackoverflow.blog/2025/09/16/what-an-mcp-implementation-looks-like-at-a-crm-company/",
+    "source": "Stack Overflow Blog",
+    "published_date_obj": "2025-09-16",
+    "rewritten_title": "What an Mcp Implementation Looks Like at a Crm Company",
+    "relevance_score": 13
+  },
+  {
+    "title": "The Great IPO Awakening: Are We Back?",
+    "url": "https://www.saastr.com/the-great-ipo-awakening-are-we-back/",
+    "source": "SaaStr",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "The Great Ipo Awakening: Are We Back?",
+    "relevance_score": 3
+  },
+  {
+    "title": "The Silent, Lurking Churn:  Activation Rates Less Than 90%",
+    "url": "https://www.saastr.com/the-silent-lurking-churn-activation-rates-less-than-90/",
+    "source": "SaaStr",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "The Silent, Lurking Churn: Activation Rates Less Than 90%",
+    "relevance_score": 3
+  },
+  {
+    "title": "Dear SaaStr: What\u2019s the Best Way to Help Top SDRs Become SMB Account Execs?",
+    "url": "https://www.saastr.com/dear-saastr-whats-the-best-way-to-help-top-sdrs-become-smb-account-execs/",
+    "source": "SaaStr",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "Dear Saastr: What\u2019s the Best Way to Help Top Sdrs Become Smb Account Execs?",
+    "relevance_score": 3
+  },
+  {
+    "title": "How AI Tools Differ from Human Tools",
+    "url": "https://www.tomtunguz.com/tools-evolution/",
+    "source": "Tomasz Tunguz",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "How Ai Tools Differ From Human Tools",
+    "relevance_score": 3
+  },
+  {
+    "title": "Deploying Agentforce in Slack: Salesforce\u2019s Journey to Saving over 500K Employee Hours Annually",
+    "url": "https://www.salesforce.com/news/stories/deploying-agentforce-slack-insights/",
+    "source": "Salesforce Blog",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "Deploying Agentforce in Slack: Salesforce\u2019s Journey to Saving Over 500k Employee Hours Annually",
+    "relevance_score": 3
+  },
+  {
+    "title": "Reaching more patients: How AI and data drive better representation in clinical trials",
+    "url": "https://www.salesforce.com/news/linked-content/reaching-more-patients-how-ai-and-data-drive-better-representation-in-clinical-trials/",
+    "source": "Salesforce Blog",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "Reaching More Patients: How Ai and Data Drive Better Representation in Clinical Trials",
+    "relevance_score": 3
+  },
+  {
+    "title": "Post-quantum security for SSH access on GitHub",
+    "url": "https://github.blog/engineering/platform-security/post-quantum-security-for-ssh-access-on-github/",
+    "source": "GitHub Blog",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "Post-quantum Security for Ssh Access on Github",
+    "relevance_score": 3
+  },
+  {
+    "title": "GitLab and Accenture announce Global Reseller Agreement",
+    "url": "https://about.gitlab.com/blog/gitlab-and-accenture-announce-global-reseller-agreement/",
+    "source": "GitLab Blog",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "Gitlab and Accenture Announce Global Reseller Agreement",
+    "relevance_score": 3
+  },
+  {
+    "title": "How we supercharged GitLab CI statuses with WebSockets",
+    "url": "https://about.gitlab.com/blog/how-we-supercharged-gitlab-ci-statuses-with-websockets/",
+    "source": "GitLab Blog",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "How We Supercharged Gitlab Ci Statuses with Websockets",
+    "relevance_score": 3
+  },
+  {
+    "title": "Integrating CrowdStrike Falcon Fusion SOAR with Cloudflare\u2019s SASE platform",
+    "url": "https://blog.cloudflare.com/integrating-crowdstrike-falcon-fusion-soar-with-cloudflares-sase-platform/",
+    "source": "CloudFlare Blog",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "Integrating Crowdstrike Falcon Fusion Soar with Cloudflare\u2019s Sase Platform",
+    "relevance_score": 3
+  },
+  {
+    "title": "China says Nvidia violated antitrust regulations",
+    "url": "https://techcrunch.com/2025/09/15/china-says-nvidia-violated-antitrust-regulations/",
+    "source": "TechCrunch Enterprise",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "China Says Nvidia Violated Antitrust Regulations",
+    "relevance_score": 3
+  },
+  {
+    "title": "Buffer vs. Later: Which Social Media Management Tool is Right for You?",
+    "url": "https://buffer.com/resources/buffer-vs-later/",
+    "source": "Buffer Blog",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "Buffer Vs. Later: Which Social Media Management Tool Is Right for You?",
+    "relevance_score": 3
+  },
+  {
+    "title": "10 Ways to Use Ahrefs\u2019 Brand Radar to Grow AI Visibility",
+    "url": "https://ahrefs.com/blog/brand-radar-use-cases/",
+    "source": "Ahrefs Blog",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "10 Ways to Use Ahrefs\u2019 Brand Radar to Grow Ai Visibility",
+    "relevance_score": 3
+  },
+  {
+    "title": "The Nine Rules of AI PoC Success: How to Build Demos That Actually Ship",
+    "url": "https://www.docker.com/blog/ai-poc-success-rules/",
+    "source": "Docker Blog",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "The Nine Rules of Ai Poc Success: How to Build Demos That Actually Ship",
+    "relevance_score": 3
+  },
+  {
+    "title": "Kubernetes v1.34: Decoupled Taint Manager Is Now Stable",
+    "url": "https://kubernetes.io/blog/2025/09/15/kubernetes-v1-34-decoupled-taint-manager-is-now-stable/",
+    "source": "Kubernetes Blog",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "Kubernetes V1.34: Decoupled Taint Manager Is Now Stable",
+    "relevance_score": 3
+  },
+  {
+    "title": "The New CRO Playbook: Leading Revenue Teams in the Age of AI",
+    "url": "https://www.battery.com/blog/the-new-cro-playbook-leading-revenue-teams-in-the-age-of-ai/",
+    "source": "Battery Ventures",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "The New Cro Playbook: Leading Revenue Teams in the Age of Ai",
+    "relevance_score": 3
+  },
+  {
+    "title": "How I built an Apple Watch workout app using Cursor and Xcode (with zero mobile-app experience) | Terry Lin",
+    "url": "https://www.lennysnewsletter.com/p/how-i-built-an-apple-watch-workout-app",
+    "source": "Lenny's Newsletter",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "How I Built an Apple Watch Workout App Using Cursor and Xcode (with Zero Mobile-app...",
+    "relevance_score": 3
+  },
+  {
+    "title": "6 alternatives to navigation menus (with real product examples)",
+    "url": "https://blog.logrocket.com/ux-design/ux-alternatives-to-navigation-menus/",
+    "source": "LogRocket",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "6 Alternatives to Navigation Menus (with Real Product Examples)",
+    "relevance_score": 3
+  },
+  {
+    "title": "Frontend developers are burned out, not lazy",
+    "url": "https://blog.logrocket.com/frontend-developers-burned-out-not-lazy/",
+    "source": "LogRocket",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "Frontend Developers Are Burned Out, Not Lazy",
+    "relevance_score": 3
+  },
+  {
+    "title": "Google's 27th birthday bash comes with Pixel freebies and big discounts - Android Authority",
+    "url": "https://www.androidauthority.com/google-store-birthday-pixel-deals-3597529/",
+    "source": "NewsAPI (Android Authority)",
+    "published_date_obj": "2025-09-15",
+    "rewritten_title": "Google's 27th Birthday Bash Comes with Pixel Freebies and Big Discounts - Android Authority",
+    "relevance_score": 2
+  },
+  {
+    "title": "Top JUCO Prospect KJ Perry Talks BYU Basketball Official Visit - Vanquish The Foe",
+    "url": "https://www.vanquishthefoe.com/byu-basketball/25064/top-juco-prospect-kj-perry-talks-byu-basketball-official-visit-recruiting",
+    "source": "NewsAPI (Vanquish The Foe)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Top Juco Prospect Kj Perry Talks Byu Basketball Official Visit - Vanquish the Foe",
+    "relevance_score": 2
+  },
+  {
+    "title": "Meta Connect 2025: What We Expect, And What We Don't - UploadVR",
+    "url": "https://www.uploadvr.com/meta-connect-2025-predictions-expectations/",
+    "source": "NewsAPI (UploadVR)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Meta Connect 2025: What We Expect, and What We Don't - Uploadvr",
+    "relevance_score": 2
+  },
+  {
+    "title": "What\u2019s next for Apple after the iPhone 17? - The Verge",
+    "url": "https://www.theverge.com/apple-rumors/777791/whats-next-for-apple-iphone-17-m5-ipad-pro",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "What\u2019s Next for Apple After the Iphone 17? - the Verge",
+    "relevance_score": 2
+  },
+  {
+    "title": "The Best Deals Today: Madden NFL 26, AirPods Pro 3, Fatal Fury: City of the Wolves, and More - IGN",
+    "url": "https://www.ign.com/articles/best-deals-for-september-14-2025",
+    "source": "NewsAPI (IGN)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "The Best Deals Today: Madden Nfl 26, Airpods Pro 3, Fatal Fury: City of The...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Artists\u2019 Graffiti-Filled Oregon House Is Flooded With Offers Just Days After Listing for $300K - Realtor.com",
+    "url": "https://www.realtor.com/news/unique-homes/oregon-salem-house-graffiti-artists-nic-sloy/",
+    "source": "NewsAPI (Realtor.com News)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Artists\u2019 Graffiti-filled Oregon House Is Flooded with Offers Just Days After Listing for $300k -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "iPhone 17 vs iPhone 16 Pro: Similar displays, distinctly different packages - 9to5Mac",
+    "url": "https://9to5mac.com/2025/09/14/apple-iphone-17-vs-iphone-16-pro-comparison-buyers-guide/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Iphone 17 Vs Iphone 16 Pro: Similar Displays, Distinctly Different Packages - 9to5mac",
+    "relevance_score": 2
+  },
+  {
+    "title": "Claude now has memory, but only for certain users - Mashable",
+    "url": "https://mashable.com/article/anthropic-claude-ai-now-has-memory-for-some-users",
+    "source": "NewsAPI (Mashable)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Claude Now Has Memory, but Only for Certain Users - Mashable",
+    "relevance_score": 2
+  },
+  {
+    "title": "Verizon gives customers another reason to be angry - PhoneArena",
+    "url": "https://www.phonearena.com/news/verizon-ai-customers-no-happy_id174015",
+    "source": "NewsAPI (PhoneArena)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Verizon Gives Customers Another Reason to Be Angry - Phonearena",
+    "relevance_score": 2
+  },
+  {
+    "title": "Borderlands 4 SHiFT Codes Today (September 2025): All Working Codes and How to Redeem - The Game Post",
+    "url": "https://thegamepost.com/borderlands-4-all-shift-codes/",
+    "source": "NewsAPI (Thegamepost.com)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Borderlands 4 Shift Codes Today (september 2025): All Working Codes and How to Redeem -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "M5 MacBook Pro: Here\u2019s what to expect - 9to5Mac",
+    "url": "https://9to5mac.com/2025/09/14/upcoming-m5-macbook-pro-refresh-what-to-expect-apple/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "M5 Macbook Pro: Here\u2019s What to Expect - 9to5mac",
+    "relevance_score": 2
+  },
+  {
+    "title": "Samsung Galaxy phones need a full redesign if they really want to embrace Qi2 - 9to5Google",
+    "url": "http://9to5google.com/2025/09/14/samsung-galaxy-phones-need-a-full-redesign-if-they-really-want-to-embrace-qi2/",
+    "source": "NewsAPI (9to5google.com)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Samsung Galaxy Phones Need a Full Redesign If They Really Want to Embrace Qi2 -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "I put Gmail against Notion Mail and the results surprised me - Android Police",
+    "url": "https://www.androidpolice.com/testing-notion-mail-vs-gmail/",
+    "source": "NewsAPI (Android Police)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "I Put Gmail Against Notion Mail and the Results Surprised Me - Android Police",
+    "relevance_score": 2
+  },
+  {
+    "title": "Samsung issues security warning for most Galaxy users to update their phones now \u2014 what you need to know - Tom's Guide",
+    "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-issues-security-warning-for-most-galaxy-users-to-update-their-phones-now-what-you-need-to-know",
+    "source": "NewsAPI (Tom's Guide)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Samsung Issues Security Warning for Most Galaxy Users to Update Their Phones Now \u2014 What...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Nudists Declare War on SpaceX - Futurism",
+    "url": "https://futurism.com/nudists-declare-war-spacex",
+    "source": "NewsAPI (Futurism)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Nudists Declare War on Spacex - Futurism",
+    "relevance_score": 2
+  },
+  {
+    "title": "The Helldivers community is coping with a spotlight it doesn\u2019t want - The Verge",
+    "url": "https://www.theverge.com/games/777738/helldivers-community-reddit-discord-charlie-kirk",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "The Helldivers Community Is Coping with a Spotlight It Doesn\u2019t Want - the Verge",
+    "relevance_score": 2
+  },
+  {
+    "title": "The next Apple TV draws closer, and it could be a true game-changer - Digital Trends",
+    "url": "https://www.digitaltrends.com/home-theater/the-next-apple-tv-draws-closer-and-it-could-be-a-true-game-changer/",
+    "source": "NewsAPI (Digital Trends)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "The Next Apple Tv Draws Closer, and It Could Be a True Game-changer - Digital...",
+    "relevance_score": 2
+  },
+  {
+    "title": "New VoidProxy phishing service targets Microsoft 365, Google accounts - BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/new-voidproxy-phishing-service-targets-microsoft-365-google-accounts/",
+    "source": "NewsAPI (BleepingComputer)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "New Voidproxy Phishing Service Targets Microsoft 365, Google Accounts - Bleepingcomputer",
+    "relevance_score": 2
+  },
+  {
+    "title": "Mariners Moose Tracks, 9/14/25: Jorge Polanco, Tarik Skubal, and Jose Altuve - Lookout Landing",
+    "url": "https://www.lookoutlanding.com/mariners-moose-tracks/134311/mariners-moose-tracks-9-14-25-jorge-polanco-tarik-skubal-and-jose-altuve",
+    "source": "NewsAPI (Lookout Landing)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Mariners Moose Tracks, 9/14/25: Jorge Polanco, Tarik Skubal, and Jose Altuve - Lookout Landing",
+    "relevance_score": 2
+  },
+  {
+    "title": "Where Are Borderlands 4\u2019s Legendary Loot Drops? - Forbes",
+    "url": "https://www.forbes.com/sites/paultassi/2025/09/14/where-are-borderlands-4s-legendary-loot-drops/",
+    "source": "NewsAPI (Forbes)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Where Are Borderlands 4\u2019s Legendary Loot Drops? - Forbes",
+    "relevance_score": 2
+  },
+  {
+    "title": "In Silksong, spite is my motivation to keep playing - The Verge",
+    "url": "https://www.theverge.com/games/777653/silksong-impressions-team-cherry-metroidvania-sherma-is-cool",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "In Silksong, Spite Is My Motivation to Keep Playing - the Verge",
+    "relevance_score": 2
+  },
+  {
+    "title": "The Order of Giants DLC Is Unfortunately a Bit of a Disappointment - Wccftech",
+    "url": "https://wccftech.com/the-order-of-giants-dlc-is-a-bit-of-a-disappointment/",
+    "source": "NewsAPI (Wccftech)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "The Order of Giants Dlc Is Unfortunately a Bit of a Disappointment - Wccftech",
+    "relevance_score": 2
+  },
+  {
+    "title": "Nintendo\u2019s latest Amiibo figures push the boundaries of size and price - Video Games Chronicle",
+    "url": "https://www.videogameschronicle.com/news/nintendos-latest-amiibo-figures-push-the-boundaries-of-size-and-price/",
+    "source": "NewsAPI (Video Games Chronicle)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Nintendo\u2019s Latest Amiibo Figures Push the Boundaries of Size and Price - Video Games Chronicle",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple Pitches a Return to Its Design Roots, Six Years After Jony Ive\u2019s Exit - Bloomberg.com",
+    "url": "https://www.bloomberg.com/news/newsletters/2025-09-14/apple-pitches-a-return-to-design-roots-six-years-after-jony-ive-exit-2026-plan",
+    "source": "NewsAPI (Bloomberg)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Apple Pitches a Return to Its Design Roots, Six Years After Jony Ive\u2019s Exit -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Phone batteries are getting more compact, but the US is missing out - The Verge",
+    "url": "https://www.theverge.com/the-stepback-newsletter/776517/silicon-carbon-batteries-phones",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Phone Batteries Are Getting More Compact, but the Us Is Missing Out - the Verge",
+    "relevance_score": 2
+  },
+  {
+    "title": "The iPhone to get this year - The Verge",
+    "url": "https://www.theverge.com/installer-newsletter/777346/best-iphone-17-airpods-jeopardy-installer",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "The Iphone to Get This Year - the Verge",
+    "relevance_score": 2
+  },
+  {
+    "title": "Florges Community Day Move Analysis: Is Chilling Water the Best Move in PvP? - Pok\u00e9mon GO Hub",
+    "url": "https://pokemongohub.net/post/pvp/florges-community-day-move-analysis-is-chilling-water-the-best-move-in-pvp/",
+    "source": "NewsAPI (Pokemon GO Hub)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Florges Community Day Move Analysis: Is Chilling Water the Best Move in Pvp? - Pok\u00e9mon...",
+    "relevance_score": 2
+  },
+  {
+    "title": "A new Borderlands 4 update helps its struggling PC performance, and Gearbox throws in more free skins as well - PCGamesN",
+    "url": "https://www.pcgamesn.com/borderlands-4/update-stability-improvements",
+    "source": "NewsAPI (PCGamesN)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "A New Borderlands 4 Update Helps Its Struggling Pc Performance, and Gearbox Throws in More...",
+    "relevance_score": 2
+  },
+  {
+    "title": "We now know how Quick Share for iPhone will work, and there's bad news (APK teardown) - Android Authority",
+    "url": "https://www.androidauthority.com/google-quick-share-iphone-process-apk-teardown-3597501/",
+    "source": "NewsAPI (Android Authority)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "We Now Know How Quick Share for Iphone Will Work, and There's Bad News (apk...",
+    "relevance_score": 2
+  },
+  {
+    "title": "The new Virtual Boy sounds like a joke, but it's really coming to Nintendo Switch - Creative Bloq",
+    "url": "https://www.creativebloq.com/entertainment/gaming/i-cant-wait-to-pay-usd100-to-experience-nintendos-biggest-ever-flop-on-switch-2",
+    "source": "NewsAPI (Creative Bloq)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "The New Virtual Boy Sounds Like a Joke, but It's Really Coming to Nintendo Switch...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Kodak Debuts the Charmera, a Mini Digital Keychain Camera - hypebeast.com",
+    "url": "https://hypebeast.com/2025/9/kodak-charmera-keychain-digital-camera-release-info",
+    "source": "NewsAPI (HYPEBEAST)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Kodak Debuts the Charmera, a Mini Digital Keychain Camera - Hypebeast.com",
+    "relevance_score": 2
+  },
+  {
+    "title": "4 hidden ChatGPT mobile tricks that make it way more useful - Tom's Guide",
+    "url": "https://www.tomsguide.com/ai/4-hidden-chatgpt-mobile-tricks-that-make-it-way-more-useful",
+    "source": "NewsAPI (Tom's Guide)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "4 Hidden Chatgpt Mobile Tricks That Make It Way More Useful - Tom's Guide",
+    "relevance_score": 2
+  },
+  {
+    "title": "Cut and bulk: Teenagers explain why they want to get ripped - BBC",
+    "url": "https://www.bbc.com/news/articles/cvg964v18l6o",
+    "source": "NewsAPI (BBC News)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Cut and Bulk: Teenagers Explain Why They Want to Get Ripped - Bbc",
+    "relevance_score": 2
+  },
+  {
+    "title": "Final Fantasy 7 Remake Intergrade has new Nintendo Switch 2 streamlined progression settings - Nintendo Everything",
+    "url": "https://nintendoeverything.com/final-fantasy-7-remake-intergrade-has-new-nintendo-switch-2-streamlined-progression-settings/",
+    "source": "NewsAPI (Nintendoeverything.com)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Final Fantasy 7 Remake Intergrade Has New Nintendo Switch 2 Streamlined Progression Settings - Nintendo...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Hands-on with MOFT\u2019s iPhone 17 cases and more: Fantastic options for a leather feel - 9to5Mac",
+    "url": "https://9to5mac.com/2025/09/13/moft-iphone-17-cases-and-magsafe-wallets-hands-on/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2025-09-14",
+    "rewritten_title": "Hands-on with Moft\u2019s Iphone 17 Cases and More: Fantastic Options for a Leather Feel -...",
+    "relevance_score": 2
+  },
+  {
     "title": "10 Hard-Won Lessons from Jeff Lawson (Founding CEO Twilio) on AI Disruption, Big M&A, and the Future of SaaS",
     "url": "https://www.saastr.com/10-hard-won-lessons-from-jeff-lawson-founding-ceo-twilio-ai-disruption-and-the-future-of-saas/",
     "source": "SaaStr",
@@ -37,6 +477,142 @@
     "source": "NewsAPI (9to5Mac)",
     "published_date_obj": "2025-09-14",
     "rewritten_title": "Airpods Pro 3 Have a Special New Ability From an Upcoming Apple Product - 9to5mac",
+    "relevance_score": 2
+  },
+  {
+    "title": "Hollow Knight: Silksong: How To Unlock Act 3 - Silk And Soul Quest - Nintendo Life",
+    "url": "https://www.nintendolife.com/guides/hollow-knight-silksong-how-to-unlock-act-3-silk-and-soul-quest",
+    "source": "NewsAPI (Nintendo Life)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "Hollow Knight: Silksong: How to Unlock Act 3 - Silk and Soul Quest - Nintendo...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Man travels 26 miles across ocean in mushroom kayak and survives whale encounter - Dexerto",
+    "url": "https://www.dexerto.com/entertainment/man-travels-26-miles-across-ocean-in-mushroom-kayak-and-survives-whale-encounter-3250870/",
+    "source": "NewsAPI (Dexerto)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "Man Travels 26 Miles Across Ocean in Mushroom Kayak and Survives Whale Encounter - Dexerto",
+    "relevance_score": 2
+  },
+  {
+    "title": "For the first time, iPhone 17 Pro truly feels deserving of the \u2018Pro\u2019 moniker - 9to5Mac",
+    "url": "https://9to5mac.com/2025/09/13/iphone-17-pro-apples-first-truly-pro-iphone-model-heres-why/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "For the First Time, Iphone 17 Pro Truly Feels Deserving of the \u2018pro\u2019 Moniker -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "This is the last chance to get lifetime access to Microsoft Office apps for just $5 each - Mashable",
+    "url": "https://mashable.com/article/sept-13-microsoft-office-professional-2021",
+    "source": "NewsAPI (Mashable)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "This Is the Last Chance to Get Lifetime Access to Microsoft Office Apps for Just...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Walmart Has the EA Sports College Football 26 Game for Almost 30% Off - Athlon Sports",
+    "url": "https://athlonsports.com/deals/ea-sports-college-football-26-playstation-5-walmart-sale",
+    "source": "NewsAPI (Athlon Sports)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "Walmart Has the Ea Sports College Football 26 Game for Almost 30% Off - Athlon...",
+    "relevance_score": 2
+  },
+  {
+    "title": "New Kalos Starter and Raichu Mega Evolutions Are Locked Behind Paywalls and DLCs - Pok\u00e9mon GO Hub",
+    "url": "https://pokemongohub.net/post/news/new-kalos-and-raichu-mega-evolutions-are-locked-behind-paywalls-and-dlcs/",
+    "source": "NewsAPI (Pokemon GO Hub)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "New Kalos Starter and Raichu Mega Evolutions Are Locked Behind Paywalls and Dlcs - Pok\u00e9mon...",
+    "relevance_score": 2
+  },
+  {
+    "title": "New difficulty tier list for the 2XKO closed beta released by Diaphone - EventHubs",
+    "url": "https://www.eventhubs.com/news/2025/sep/13/diaphone-2xko-learning-curve-tiers/",
+    "source": "NewsAPI (EventHubs)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "New Difficulty Tier List for the 2xko Closed Beta Released by Diaphone - Eventhubs",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple Watch Ultra 3 vs Apple Watch Ultra 2 \u2014 Same body, better screen - AppleInsider",
+    "url": "https://appleinsider.com/inside/apple-watch-ultra-3/vs/apple-watch-ultra-3-vs-apple-watch-ultra-2----same-body-better-screen",
+    "source": "NewsAPI (AppleInsider)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "Apple Watch Ultra 3 Vs Apple Watch Ultra 2 \u2014 Same Body, Better Screen -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "HybridPetya ransomware bypasses UEFI Secure Boot to maliciously encrypt hard drives - Notebookcheck",
+    "url": "https://www.notebookcheck.net/HybridPetya-ransomware-bypasses-UEFI-Secure-Boot-to-maliciously-encrypt-hard-drives.1113864.0.html",
+    "source": "NewsAPI (Notebookcheck.net)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "Hybridpetya Ransomware Bypasses Uefi Secure Boot to Maliciously Encrypt Hard Drives - Notebookcheck",
+    "relevance_score": 2
+  },
+  {
+    "title": "Popular Windows 11 hardware requirement bypass tool Flyoobe gets new initial setup UI, more - Neowin",
+    "url": "https://www.neowin.net/news/popular-windows-11-hardware-requirement-bypass-tool-flyoobe-gets-new-initial-setup-ui-more/",
+    "source": "NewsAPI (Neowin)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "Popular Windows 11 Hardware Requirement Bypass Tool Flyoobe Gets New Initial Setup Ui, More -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Microsoft reminds of Windows 10 support ending in 30 days - BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-of-windows-10-support-ending-in-30-days/",
+    "source": "NewsAPI (BleepingComputer)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "Microsoft Reminds of Windows 10 Support Ending in 30 Days - Bleepingcomputer",
+    "relevance_score": 2
+  },
+  {
+    "title": "The Pixel 10 Pro offers a competitive edge in smartphone photography - Android Central",
+    "url": "https://www.androidcentral.com/phones/google-pixel/theres-one-key-reason-the-pixel-10-pro-is-my-main-camera-for-work",
+    "source": "NewsAPI (Android Central)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "The Pixel 10 Pro Offers a Competitive Edge in Smartphone Photography - Android Central",
+    "relevance_score": 2
+  },
+  {
+    "title": "Google Gemini is the top free iPhone app - 9to5Google",
+    "url": "http://9to5google.com/2025/09/13/gemini-top-free-apple-app-store/",
+    "source": "NewsAPI (9to5google.com)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "Google Gemini Is the Top Free Iphone App - 9to5google",
+    "relevance_score": 2
+  },
+  {
+    "title": "\u2018Destiny 2\u2019 Just Emergency Patched In These Portal Buffs - Forbes",
+    "url": "https://www.forbes.com/sites/paultassi/2025/09/13/destiny-2-just-emergency-patched-in-these-portal-buffs/",
+    "source": "NewsAPI (Forbes)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "\u2018destiny 2\u2019 Just Emergency Patched in These Portal Buffs - Forbes",
+    "relevance_score": 2
+  },
+  {
+    "title": "The Petrolhead Corner: Porsche Unleashes It's New 911 Turbo S - Monochrome Watches",
+    "url": "https://monochrome-watches.com/the-petrolhead-corner-porsche-911-992-2-turbo-s-2025/",
+    "source": "NewsAPI (Monochrome-watches.com)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "The Petrolhead Corner: Porsche Unleashes It's New 911 Turbo S - Monochrome Watches",
+    "relevance_score": 2
+  },
+  {
+    "title": "Poll: Are you playing Borderlands 4 on Xbox this weekend? - TrueAchievements",
+    "url": "https://www.trueachievements.com/poll/60218/poll-are-you-playing-borderlands-4-on-xbox-this-weekend",
+    "source": "NewsAPI (TrueAchievements)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "Poll: Are You Playing Borderlands 4 on Xbox This Weekend? - Trueachievements",
+    "relevance_score": 2
+  },
+  {
+    "title": "Tips on stepping back from screens and starting a new hobby - AP News",
+    "url": "https://apnews.com/article/finding-a-hobby-screen-alternatives-ef4c9320e1ede4a0b3ce04f5f4b149dd",
+    "source": "NewsAPI (Associated Press)",
+    "published_date_obj": "2025-09-13",
+    "rewritten_title": "Tips on Stepping Back From Screens and Starting a New Hobby - Ap News",
     "relevance_score": 2
   },
   {
@@ -294,6 +870,14 @@
     "published_date_obj": "2025-09-13",
     "rewritten_title": "\ud83e\udde0 Community Wisdom: When Leadership Asks You to Build an Ai Feature, Giving Feedback To...",
     "relevance_score": 3
+  },
+  {
+    "title": "Hyrule Warriors: Age of Imprisonment Release Date Announced \u2014 And Yes, You Can Play as a Korok - IGN",
+    "url": "https://www.ign.com/articles/hyrule-warriors-age-of-imprisonment-release-date-announced-and-yes-you-can-play-as-a-korok",
+    "source": "NewsAPI (IGN)",
+    "published_date_obj": "2025-09-12",
+    "rewritten_title": "Hyrule Warriors: Age of Imprisonment Release Date Announced \u2014 and Yes, You Can Play As...",
+    "relevance_score": 2
   },
   {
     "title": "Watch Koenigsegg, Singer, And Bugatti Rimac CEOs Drive Each Other's Cars On Track - Jalopnik",
@@ -1014,589 +1598,5 @@
     "published_date_obj": "2025-09-10",
     "rewritten_title": "Dear Saastr: What Are Some Red Flags in a Founder?",
     "relevance_score": 3
-  },
-  {
-    "title": "Your guide to GitHub Universe 2025: The schedule just launched!",
-    "url": "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2025-the-schedule-just-launched/",
-    "source": "GitHub Blog",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "Your Guide to Github Universe 2025: the Schedule Just Launched!",
-    "relevance_score": 3
-  },
-  {
-    "title": "Supercharge your Git workflows",
-    "url": "https://about.gitlab.com/blog/supercharge-your-git-workflows/",
-    "source": "GitLab Blog",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "Supercharge Your Git Workflows",
-    "relevance_score": 3
-  },
-  {
-    "title": "Securing Salesforce Integrations with Heroku AppLink",
-    "url": "https://www.heroku.com/blog/securing-salesforce-integrations-with-heroku-applink/",
-    "source": "Heroku Blog",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "Securing Salesforce Integrations with Heroku Applink",
-    "relevance_score": 3
-  },
-  {
-    "title": "AI vs Gen Z: How AI has changed the career pathway for junior developers",
-    "url": "https://stackoverflow.blog/2025/09/10/ai-vs-gen-z/",
-    "source": "Stack Overflow Blog",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "Ai Vs Gen Z: How Ai Has Changed the Career Pathway for Junior Developers",
-    "relevance_score": 3
-  },
-  {
-    "title": "OpenAI and Oracle reportedly ink historic cloud computing deal",
-    "url": "https://techcrunch.com/2025/09/10/openai-and-oracle-reportedly-ink-historic-cloud-computing-deal/",
-    "source": "TechCrunch Enterprise",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "Openai and Oracle Reportedly Ink Historic Cloud Computing Deal",
-    "relevance_score": 3
-  },
-  {
-    "title": "100 Most Cited Domains in ChatGPT",
-    "url": "https://ahrefs.com/blog/most-cited-domains-in-chatgpt/",
-    "source": "Ahrefs Blog",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "100 Most Cited Domains in Chatgpt",
-    "relevance_score": 3
-  },
-  {
-    "title": "SEO vs. GEO: 5 Key Differences Despite the Similarities",
-    "url": "https://ahrefs.com/blog/seo-vs-geo/",
-    "source": "Ahrefs Blog",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "Seo Vs. Geo: 5 Key Differences Despite the Similarities",
-    "relevance_score": 3
-  },
-  {
-    "title": "From Tools to Teammates: CTO\u2019s Guide to Evolving Architecture for Agentic AI",
-    "url": "https://aws.amazon.com/blogs/enterprise-strategy/from-tools-to-teammates-ctos-guide-to-evolving-architecture-for-agentic-ai/",
-    "source": "AWS Enterprise",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "From Tools to Teammates: Cto\u2019s Guide to Evolving Architecture for Agentic Ai",
-    "relevance_score": 3
-  },
-  {
-    "title": "From Hallucinations to Prompt Injection: Securing AI Workflows at Runtime",
-    "url": "https://www.docker.com/blog/secure-ai-agents-runtime-security/",
-    "source": "Docker Blog",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "From Hallucinations to Prompt Injection: Securing Ai Workflows at Runtime",
-    "relevance_score": 3
-  },
-  {
-    "title": "Kubernetes v1.34: Use An Init Container To Define App Environment Variables",
-    "url": "https://kubernetes.io/blog/2025/09/10/kubernetes-v1-34-env-files/",
-    "source": "Kubernetes Blog",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "Kubernetes V1.34: Use an Init Container to Define App Environment Variables",
-    "relevance_score": 3
-  },
-  {
-    "title": "Redefining Endpoint Security in the AI Era: Why We Invested in Koi",
-    "url": "https://www.battery.com/blog/redefining-endpoint-security-in-the-ai-era-why-we-invested-in-koi/",
-    "source": "Battery Ventures",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "Redefining Endpoint Security in the Ai Era: Why We Invested in Koi",
-    "relevance_score": 3
-  },
-  {
-    "title": "The Best Way to Keep a Secret in the Cloud Is Not to Have a Secret at All: The Birth of \u201cSecretless\u201d Cloud Workloads",
-    "url": "https://www.battery.com/blog/the-best-way-to-keep-a-secret-in-the-cloud-is-not-to-have-a-secret-at-all-the-birth-of-secretless-cloud-workloads/",
-    "source": "Battery Ventures",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "The Best Way to Keep a Secret in the Cloud Is Not to Have A...",
-    "relevance_score": 3
-  },
-  {
-    "title": "I tried Google Stitch. Here\u2019s what I loved (and hated) about it",
-    "url": "https://blog.logrocket.com/ux-design/i-tried-google-stitch-heres-what-i-loved-hated/",
-    "source": "LogRocket",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "I Tried Google Stitch. Here\u2019s What I Loved (and Hated) About It",
-    "relevance_score": 3
-  },
-  {
-    "title": "What you actually need to build and ship AI-powered apps in 2025",
-    "url": "https://blog.logrocket.com/modern-ai-stack-2025/",
-    "source": "LogRocket",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "What You Actually Need to Build and Ship Ai-powered Apps in 2025",
-    "relevance_score": 3
-  },
-  {
-    "title": "AI dev tool power rankings & comparison [Sept 2025]",
-    "url": "https://blog.logrocket.com/ai-dev-tool-power-rankings-sept-2025/",
-    "source": "LogRocket",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "Ai Dev Tool Power Rankings & Comparison [sept 2025]",
-    "relevance_score": 3
-  },
-  {
-    "title": "Apple Events live updates: iPhone 17, iPhone Air, AirPods Pro 3, and new wearables just unveiled - ZDNET",
-    "url": "https://www.zdnet.com/article/apple-events-live-updates-iphone-17-iphone-air-airpods-pro-3-and-new-wearables-just-unveiled/",
-    "source": "NewsAPI (ZDNet)",
-    "published_date_obj": "2025-09-10",
-    "rewritten_title": "Apple Events Live Updates: Iphone 17, Iphone Air, Airpods Pro 3, and New Wearables Just...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Building eval systems that improve your AI product",
-    "url": "https://www.lennysnewsletter.com/p/building-eval-systems-that-improve",
-    "source": "Lenny's Newsletter",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Building Eval Systems That Improve Your Ai Product",
-    "relevance_score": 3
-  },
-  {
-    "title": "AirPods Pro 3 get foam-infused ear tips in five different sizes - 9to5Mac",
-    "url": "https://9to5mac.com/2025/09/09/airpods-pro-3-get-foam-infused-ear-tips-in-five-different-sizes/",
-    "source": "NewsAPI (9to5Mac)",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Airpods Pro 3 Get Foam-infused Ear Tips in Five Different Sizes - 9to5mac",
-    "relevance_score": 2
-  },
-  {
-    "title": "The New Apple Watches Are Here. You Should Probably Upgrade - WIRED",
-    "url": "https://www.wired.com/story/apple-watch-series-11-se-ultra-3/",
-    "source": "NewsAPI (Wired)",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "The New Apple Watches Are Here. You Should Probably Upgrade - Wired",
-    "relevance_score": 2
-  },
-  {
-    "title": "Holy Moly! SaaStr\u2019s New Startup Valuation Calculator Just Crossed 200,000 (!) Valuations in Its First 2 Weeks",
-    "url": "https://www.saastr.com/holy-moly-saastrs-new-startup-valuation-calculator-just-crossed-200000-valuations-in-its-first-2-weeks/",
-    "source": "SaaStr",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Holy Moly! Saastr\u2019s New Startup Valuation Calculator Just Crossed 200,000 (!) Valuations in Its First...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Why Anthropic, Cursor & FAL Ditched Traditional Sales Playbooks: The New Go-to-Market for Technical Teams and Product-Led Growth",
-    "url": "https://www.saastr.com/why-anthropic-cursor-fal-ditched-traditional-sales-playbooks-the-new-go-to-market-for-technical-teams-and-product-led-growth/",
-    "source": "SaaStr",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Why Anthropic, Cursor & Fal Ditched Traditional Sales Playbooks: the New Go-to-market for Technical Teams...",
-    "relevance_score": 3
-  },
-  {
-    "title": "996 Is Real, and It\u2019s Becoming Common \u2014 At Least in SF, Per The Latest Ramp Data. How Hard Can You Go?",
-    "url": "https://www.saastr.com/996-is-real-and-its-becoming-common-at-least-in-sf-per-the-latest-ramp-data-how-hard-can-you-go/",
-    "source": "SaaStr",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "996 Is Real, and It\u2019s Becoming Common \u2014 at Least in Sf, Per the Latest...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Dear SaaStr: Should I Visit My Customers More?",
-    "url": "https://www.saastr.com/dear-saastr-should-i-visit-my-customers-more-2/",
-    "source": "SaaStr",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Dear Saastr: Should I Visit My Customers More?",
-    "relevance_score": 3
-  },
-  {
-    "title": "10 Months into AI Agents : Which Are Used Most?",
-    "url": "https://www.tomtunguz.com/mcp-server-activity/",
-    "source": "Tomasz Tunguz",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "10 Months Into Ai Agents : Which Are Used Most?",
-    "relevance_score": 3
-  },
-  {
-    "title": "How to use the GitHub and JFrog integration for secure, traceable builds from commit to production",
-    "url": "https://github.blog/enterprise-software/devsecops/how-to-use-the-github-and-jfrog-integration-for-secure-traceable-builds-from-commit-to-production/",
-    "source": "GitHub Blog",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "How to Use the Github and Jfrog Integration for Secure, Traceable Builds From Commit To...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Nvidia unveils new GPU designed for long-context inference",
-    "url": "https://techcrunch.com/2025/09/09/nvidia-unveils-new-gpu-designed-for-long-context-inference/",
-    "source": "TechCrunch Enterprise",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Nvidia Unveils New Gpu Designed for Long-context Inference",
-    "relevance_score": 3
-  },
-  {
-    "title": "Best Time to Post on Instagram in 2025: Data from 2 Million Posts",
-    "url": "https://buffer.com/resources/when-is-the-best-time-to-post-on-instagram/",
-    "source": "Buffer Blog",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Best Time to Post on Instagram in 2025: Data From 2 Million Posts",
-    "relevance_score": 3
-  },
-  {
-    "title": "Kubernetes v1.34: Snapshottable API server cache",
-    "url": "https://kubernetes.io/blog/2025/09/09/kubernetes-v1-34-snapshottable-api-server-cache/",
-    "source": "Kubernetes Blog",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Kubernetes V1.34: Snapshottable Api Server Cache",
-    "relevance_score": 3
-  },
-  {
-    "title": "Building eval systems that improve your AI product",
-    "url": "https://www.lennysnewsletter.com/p/building-eval-systems-that-improve-cec",
-    "source": "Lenny's Newsletter",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Building Eval Systems That Improve Your Ai Product",
-    "relevance_score": 3
-  },
-  {
-    "title": "6 Metrics Buyers Ask For Before They Buy Your SaaS",
-    "url": "https://www.thesaascfo.com/6-metrics-buyers-ask-for-before-they-buy-your-saas/?utm_source=rss&utm_medium=rss&utm_campaign=6-metrics-buyers-ask-for-before-they-buy-your-saas",
-    "source": "The SaaS CFO",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "6 Metrics Buyers Ask for Before They Buy Your Saas",
-    "relevance_score": 3
-  },
-  {
-    "title": "Stop writing PRDs for AI \u2014 start using prompt sets instead",
-    "url": "https://blog.logrocket.com/ux-design/designing-ai-with-prompt-sets/",
-    "source": "LogRocket",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Stop Writing Prds for Ai \u2014 Start Using Prompt Sets Instead",
-    "relevance_score": 3
-  },
-  {
-    "title": "File-based routing in React Router v7 \u2013 Why keep it optional?",
-    "url": "https://blog.logrocket.com/file-based-routing-react-router-v7/",
-    "source": "LogRocket",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "File-based Routing in React Router V7 \u2013 Why Keep It Optional?",
-    "relevance_score": 3
-  },
-  {
-    "title": "MCP is replacing the browser: Here\u2019s how devs should prepare",
-    "url": "https://blog.logrocket.com/mcp-is-replacing-the-browser/",
-    "source": "LogRocket",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Mcp Is Replacing the Browser: Here\u2019s How Devs Should Prepare",
-    "relevance_score": 3
-  },
-  {
-    "title": "Steal my startup approved growth workshop agenda",
-    "url": "https://blog.logrocket.com/product-management/startup-approved-growth-workshop-agenda/",
-    "source": "LogRocket",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Steal My Startup Approved Growth Workshop Agenda",
-    "relevance_score": 3
-  },
-  {
-    "title": "Plex tells users to reset passwords after new data breach - BleepingComputer",
-    "url": "https://www.bleepingcomputer.com/news/security/plex-tells-users-to-reset-passwords-after-new-data-breach/",
-    "source": "NewsAPI (BleepingComputer)",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Plex Tells Users to Reset Passwords After New Data Breach - Bleepingcomputer",
-    "relevance_score": 2
-  },
-  {
-    "title": "Xbox sale round-up September 9, 2025 - TrueAchievements",
-    "url": "https://www.trueachievements.com/n60177/xbox-sale-roundup-september-9-2025",
-    "source": "NewsAPI (TrueAchievements)",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Xbox Sale Round-up September 9, 2025 - Trueachievements",
-    "relevance_score": 2
-  },
-  {
-    "title": "Ubisoft Releasing Star Wars Outlaws Switch 2 Demo \"Later This Year\" - Nintendo Life",
-    "url": "https://www.nintendolife.com/news/2025/09/ubisoft-releasing-star-wars-outlaws-switch-2-demo-later-this-year",
-    "source": "NewsAPI (Nintendo Life)",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "Ubisoft Releasing Star Wars Outlaws Switch 2 Demo \"later This Year\" - Nintendo Life",
-    "relevance_score": 2
-  },
-  {
-    "title": "What\u2019s new in Android\u2019s September 2025 Google System Updates [U] - 9to5Google",
-    "url": "http://9to5google.com/2025/09/08/september-2025-google-system-updates/",
-    "source": "NewsAPI (9to5google.com)",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "What\u2019s New in Android\u2019s September 2025 Google System Updates [u] - 9to5google",
-    "relevance_score": 2
-  },
-  {
-    "title": "We built stackoverflow.ai with the community and for the community",
-    "url": "https://stackoverflow.blog/2025/09/09/we-built-stackoverflow-ai-with-the-community-and-for-the-community/",
-    "source": "Stack Overflow Blog",
-    "published_date_obj": "2025-09-09",
-    "rewritten_title": "We Built Stackoverflow.ai with the Community and for the Community",
-    "relevance_score": 3
-  },
-  {
-    "title": "Keanu Reeves Would Come Back For Cyberpunk 2 - GameSpot",
-    "url": "https://www.gamespot.com/articles/keanu-reeves-would-come-back-for-cyberpunk-2/1100-6534536/",
-    "source": "NewsAPI (GameSpot)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Keanu Reeves Would Come Back for Cyberpunk 2 - Gamespot",
-    "relevance_score": 12
-  },
-  {
-    "title": "AirPods Pro 3 Won't Get 'Major' Audio or Active Noise Cancellation Improvements - MacRumors",
-    "url": "https://www.macrumors.com/2025/09/08/airpods-pro-3-no-major-anc-improvement/",
-    "source": "NewsAPI (MacRumors)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Airpods Pro 3 Won't Get 'major' Audio or Active Noise Cancellation Improvements - Macrumors",
-    "relevance_score": 2
-  },
-  {
-    "title": "\u201cThat it runs at all is a miracle\u201d \u2014 Borderlands 4 pres on PC specs - Windows Central",
-    "url": "https://www.windowscentral.com/gaming/borderlands-4s-randy-pitchford-warns-of-unplayable-performance-if-you-dont-meet-the-pc-system-requirements",
-    "source": "NewsAPI (Windows Central)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "\u201cthat It Runs at All Is a Miracle\u201d \u2014 Borderlands 4 Pres on Pc Specs...",
-    "relevance_score": 2
-  },
-  {
-    "title": "AMD\u2019s AI-powered FSR 4 upscaling is now available in most FSR 3.1 games - The Verge",
-    "url": "https://www.theverge.com/news/774142/amd-fsr-4-3-1-games-support-upscaling",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Amd\u2019s Ai-powered Fsr 4 Upscaling Is Now Available in Most Fsr 3.1 Games - The...",
-    "relevance_score": 2
-  },
-  {
-    "title": "iPhone 17: Last Minute Rumor Recap Ahead of Tomorrow's Apple Event - MacRumors",
-    "url": "https://www.macrumors.com/2025/09/08/apple-event-rumor-recap/",
-    "source": "NewsAPI (MacRumors)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Iphone 17: Last Minute Rumor Recap Ahead of Tomorrow's Apple Event - Macrumors",
-    "relevance_score": 2
-  },
-  {
-    "title": "Nintendo Switch modder ordered to pay $2 million in piracy lawsuit - The Verge",
-    "url": "https://www.theverge.com/news/774077/nintendo-switch-modder-ryan-daley-lawsuit",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Nintendo Switch Modder Ordered to Pay $2 Million in Piracy Lawsuit - the Verge",
-    "relevance_score": 2
-  },
-  {
-    "title": "This Is the New 911 Turbo S\u2014Porsche's Most Powerful 911 Ever - Motor1.com",
-    "url": "https://www.motor1.com/news/771380/2026-porsche-911-turbo-s/",
-    "source": "NewsAPI (Motor1 )",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "This Is the New 911 Turbo S\u2014porsche's Most Powerful 911 Ever - Motor1.com",
-    "relevance_score": 2
-  },
-  {
-    "title": "Apple's Upcoming 'Awe Dropping' Event With iPhone 17 Air Draws Criticism As Commentator Daniel Newman Slams 'Lack Of Innovation' - Yahoo Finance",
-    "url": "https://finance.yahoo.com/news/apples-upcoming-awe-dropping-event-183059932.html",
-    "source": "NewsAPI (Yahoo Entertainment)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Apple's Upcoming 'awe Dropping' Event with Iphone 17 Air Draws Criticism as Commentator Daniel Newman...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Where To Find All Mask Shards In Hollow Knight: Silksong - GameSpot",
-    "url": "https://www.gamespot.com/gallery/hollow-knight-silksong-mask-shard-locations-guide/2900-6992/",
-    "source": "NewsAPI (GameSpot)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Where to Find All Mask Shards in Hollow Knight: Silksong - Gamespot",
-    "relevance_score": 2
-  },
-  {
-    "title": "Nova Launcher\u2019s founder and sole developer has left - The Verge",
-    "url": "https://www.theverge.com/news/773937/nova-launcher-founder-left-kevin-barry-branch-open-source-android",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Nova Launcher\u2019s Founder and Sole Developer Has Left - the Verge",
-    "relevance_score": 2
-  },
-  {
-    "title": "Asus The Prime RTX 50 Series Graphics Cards Are Back Down to MSRP (The RTX 5070 Is Below MSRP) - IGN",
-    "url": "https://www.ign.com/articles/asus-prime-rtx-50-series-graphics-cards-are-back-down-to-msrp",
-    "source": "NewsAPI (IGN)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Asus the Prime Rtx 50 Series Graphics Cards Are Back Down to Msrp (the Rtx...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Best Buy's Big PS5/Xbox Video Game Clearance Sale Is Live Now - Kotaku",
-    "url": "https://kotaku.com/best-buys-video-game-clearance-sale-includes-some-good-deals-on-big-games-2000624096",
-    "source": "NewsAPI (Kotaku)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Best Buy's Big Ps5/xbox Video Game Clearance Sale Is Live Now - Kotaku",
-    "relevance_score": 2
-  },
-  {
-    "title": "LEGO SEGA Genesis Controller Is Now Available \u2013 But Only as a Gift With Purchase - IGN",
-    "url": "https://www.ign.com/articles/lego-sega-genesis-controller-where-to-buy",
-    "source": "NewsAPI (IGN)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Lego Sega Genesis Controller Is Now Available \u2013 but Only as a Gift with Purchase...",
-    "relevance_score": 2
-  },
-  {
-    "title": "All 54 lost clickwheel iPod games have now been preserved for posterity - Ars Technica",
-    "url": "https://arstechnica.com/gaming/2025/09/all-54-lost-clickwheel-ipod-games-have-now-been-preserved-for-posterity/",
-    "source": "NewsAPI (Ars Technica)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "All 54 Lost Clickwheel Ipod Games Have Now Been Preserved for Posterity - Ars Technica",
-    "relevance_score": 2
-  },
-  {
-    "title": "Visit the Pok\u00e9mon Trading Card Game: Mega Evolution Discovery Experience in Los Angeles - Pokemon.com",
-    "url": "https://www.pokemon.com/us/pokemon-news/visit-the-pokemon-trading-card-game-mega-evolution-discovery-experience-in-los-angeles",
-    "source": "NewsAPI (Pokemon.com)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Visit the Pok\u00e9mon Trading Card Game: Mega Evolution Discovery Experience in Los Angeles - Pokemon.com",
-    "relevance_score": 2
-  },
-  {
-    "title": "Sega Accused Of Using Police To Recover Nintendo Dev Kits It Had \"Negligently Disposed Of\" - Time Extension",
-    "url": "https://www.timeextension.com/news/2025/09/sega-accused-of-using-police-to-recover-nintendo-dev-kits-it-had-negligently-disposed-of",
-    "source": "NewsAPI (Timeextension.com)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Sega Accused of Using Police to Recover Nintendo Dev Kits It Had \"negligently Disposed Of\"...",
-    "relevance_score": 2
-  },
-  {
-    "title": "The Downside Of Game Pass, According To A Former Xbox Boss - GameSpot",
-    "url": "https://www.gamespot.com/articles/the-downside-of-game-pass-according-to-a-former-xbox-boss/1100-6534539/",
-    "source": "NewsAPI (GameSpot)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "The Downside of Game Pass, According to a Former Xbox Boss - Gamespot",
-    "relevance_score": 2
-  },
-  {
-    "title": "Porsche Will Put Lightweight Carbon-Fiber Windshield Wipers On Your New 911 For The Low, Low Price Of Just $1,310 - Jalopnik",
-    "url": "https://www.jalopnik.com/1961828/porsche-lightweight-carbon-fiber-windshield-wipers/",
-    "source": "NewsAPI (Jalopnik)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Porsche Will Put Lightweight Carbon-fiber Windshield Wipers on Your New 911 for the Low, Low...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Canon R5 C Price Plunges on Amazon. C50 Launch Incoming? - Y.M.Cinema",
-    "url": "https://ymcinema.com/2025/09/08/canon-r5-c-lowest-amazon-price-c50-launch-signal/",
-    "source": "NewsAPI (YMCinema Magazine)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Canon R5 C Price Plunges on Amazon. C50 Launch Incoming? - Y.m.cinema",
-    "relevance_score": 2
-  },
-  {
-    "title": "PS6 Will Go Modular With Optional Disc Drive - Report - GameSpot",
-    "url": "https://www.gamespot.com/articles/ps6-will-go-modular-with-optional-disc-drive-report/1100-6534538/",
-    "source": "NewsAPI (GameSpot)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Ps6 Will Go Modular with Optional Disc Drive - Report - Gamespot",
-    "relevance_score": 2
-  },
-  {
-    "title": "\"We Did Try To Keep 'Forest' In The Name\" - How Mario 64's Princess Peach Helped Bring Animal Crossing To The West - Time Extension",
-    "url": "https://www.timeextension.com/features/interview-we-did-try-to-keep-forest-in-the-name-how-mario-64s-princess-peach-helped-bring-animal-crossing-to-the-west",
-    "source": "NewsAPI (Timeextension.com)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "\"we Did Try to Keep 'forest' in the Name\" - How Mario 64's Princess Peach...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Hollow Knight: Silksong Has The Most Evil Fakeout: A Fake Bench - Kotaku",
-    "url": "https://kotaku.com/hollow-knight-silksong-fake-bench-trap-hunters-march-2000624049",
-    "source": "NewsAPI (Kotaku)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Hollow Knight: Silksong Has the Most Evil Fakeout: a Fake Bench - Kotaku",
-    "relevance_score": 2
-  },
-  {
-    "title": "After 6 years, Hollow Knight Silksong is here at last \u2014 and it was worth the wait - NPR",
-    "url": "https://www.npr.org/2025/09/08/nx-s1-5533199/hollow-knight-silksong",
-    "source": "NewsAPI (NPR)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "After 6 Years, Hollow Knight Silksong Is Here at Last \u2014 and It Was Worth...",
-    "relevance_score": 2
-  },
-  {
-    "title": "The \u2018Borderlands 4\u2019 Release Dates And Global Launch Times - Forbes",
-    "url": "https://www.forbes.com/sites/paultassi/2025/09/08/the-borderlands-4-release-dates-and-global-launch-times/",
-    "source": "NewsAPI (Forbes)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "The \u2018borderlands 4\u2019 Release Dates and Global Launch Times - Forbes",
-    "relevance_score": 2
-  },
-  {
-    "title": "No wearables needed: researchers use WiFi and Raspberry Pi to measure your heart rate in real time - TechSpot",
-    "url": "https://www.techspot.com/news/109367-no-wearables-needed-researchers-use-wifi-raspberry-pi.html",
-    "source": "NewsAPI (TechSpot)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "No Wearables Needed: Researchers Use Wifi and Raspberry Pi to Measure Your Heart Rate In...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Bose QuietComfort Ultra headphones will get a 2nd-gen update next month - 9to5Mac",
-    "url": "https://9to5mac.com/2025/09/08/bose-quietcomfort-ultra-headphones-will-get-a-2nd-gen-update-next-month/",
-    "source": "NewsAPI (9to5Mac)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Bose Quietcomfort Ultra Headphones Will Get a 2nd-gen Update Next Month - 9to5mac",
-    "relevance_score": 2
-  },
-  {
-    "title": "Exclusive: Startup lets you query AI with silent speech - Axios",
-    "url": "https://www.axios.com/2025/09/08/startup-query-ai-silent-speech-neural-interface",
-    "source": "NewsAPI (Axios)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Exclusive: Startup Lets You Query Ai with Silent Speech - Axios",
-    "relevance_score": 2
-  },
-  {
-    "title": "The iPhone 17\u2019s potential makeover might be just enough - The Verge",
-    "url": "https://www.theverge.com/tech/773538/iphone-17-event-awe-dropping-upgrade-apple-intelligence",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "The Iphone 17\u2019s Potential Makeover Might Be Just Enough - the Verge",
-    "relevance_score": 2
-  },
-  {
-    "title": "Lenovo says its $1,100 handheld will also get the Xbox mode coming to the ROG Xbox Ally - Video Games Chronicle",
-    "url": "https://www.videogameschronicle.com/news/lenovo-says-its-1100-handheld-will-also-get-the-xbox-mode-coming-to-the-rog-xbox-ally/",
-    "source": "NewsAPI (Video Games Chronicle)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Lenovo Says Its $1,100 Handheld Will Also Get the Xbox Mode Coming to the Rog...",
-    "relevance_score": 2
-  },
-  {
-    "title": "More leaked images give weight to Apple's iPhone 17 cross-body strap - AppleInsider",
-    "url": "https://appleinsider.com/articles/25/09/08/more-leaked-images-give-weight-to-apples-iphone-17-cross-body-strap",
-    "source": "NewsAPI (AppleInsider)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "More Leaked Images Give Weight to Apple's Iphone 17 Cross-body Strap - Appleinsider",
-    "relevance_score": 2
-  },
-  {
-    "title": "Want to keep Windows 10? Here\u2019s the one thing you must do before the October deadline - Tom's Guide",
-    "url": "https://www.tomsguide.com/computing/windows-operating-systems/want-to-keep-windows-10-heres-the-one-thing-you-must-do-before-the-october-deadline",
-    "source": "NewsAPI (Tom's Guide)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Want to Keep Windows 10? Here\u2019s the One Thing You Must Do Before the October...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Daily Crossword: The Lil Chano Puzzle \u2014 September 8 - Vulture",
-    "url": "http://www.vulture.com/article/daily-crossword-puzzle-september-8-2025.html",
-    "source": "NewsAPI (Vulture)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Daily Crossword: the Lil Chano Puzzle \u2014 September 8 - Vulture",
-    "relevance_score": 2
-  },
-  {
-    "title": "Octopath Traveler 0 Will Limit The Size Of Your City Based On Your Console - GameSpot",
-    "url": "https://www.gamespot.com/articles/octopath-traveler-0-will-limit-the-size-of-your-city-based-on-your-console/1100-6534529/",
-    "source": "NewsAPI (GameSpot)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "Octopath Traveler 0 Will Limit the Size of Your City Based on Your Console -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "The 7 coolest gadgets I saw at IFA Berlin 2025 (including picks you can actually buy) - ZDNET",
-    "url": "https://www.zdnet.com/article/the-9-coolest-gadgets-i-saw-at-ifa-berlin-2025-including-picks-you-can-actually-buy/",
-    "source": "NewsAPI (ZDNet)",
-    "published_date_obj": "2025-09-08",
-    "rewritten_title": "The 7 Coolest Gadgets I Saw at Ifa Berlin 2025 (including Picks You Can Actually...",
-    "relevance_score": 2
   }
 ]
