@@ -1,556 +1,451 @@
 {
     "SaaS Funding": [
         {
-            "title": "Should founders care about startup branding?",
-            "url": "https://alleged-peace.flywheelsites.com/startup-branding/",
-            "source": "ChartMogul Blog",
-            "published_date_obj": null,
-            "rewritten_title": "Should Founders Care About Startup Branding?"
+            "title": "LayerX uses AI to cut enterprise back-office workload, scores $100M in Series B | TechCrunch",
+            "url": "https://techcrunch.com/2025/09/01/layerx-uses-ai-to-cut-enterprise-back-office-workload-scores-100m-in-series-b/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2025-09-01",
+            "rewritten_title": "Layerx Uses Ai to Cut Enterprise Back-office Workload, Scores $100m in Series B | Techcrunch"
         },
         {
-            "title": "What top VCs want from AI founders: Inside the investor lens with Jon McNeill, Aileen Lee, and Steve Jang at TechCrunch Disrupt 2025",
-            "url": "https://techcrunch.com/2025/09/25/what-top-vcs-want-from-ai-founders-inside-the-investor-lens-with-jon-mcneill-aileen-lee-and-steve-jang-at-techcrunch-disrupt-2025/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "What Top Vcs Want From Ai Founders: Inside the Investor Lens with Jon Mcneill, Aileen..."
+            "title": "20VC + SaaStr is Back!! NVIDIA\u2019s $100B OpenAI Investment, H-1B\u2019s $100K Fee Impact on Startups, and Is \u201cTriple Triple Double Double\u201d Really Dead?",
+            "url": "https://www.saastr.com/20vc-saastr-is-back-nvidias-100b-openai-investment-h-1bs-100k-fee-impact-on-startups-and-why-triple-triple-double-double-is-dead/",
+            "source": "SaaStr",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "20vc + Saastr Is Back!! Nvidia\u2019s $100b Openai Investment, H-1b\u2019s $100k Fee Impact on Startups,..."
+        },
+        {
+            "title": "Dear SaaStr: We\u2019ve Only Raised $2m.  Should We Sponsor Events Like SaaStr Annual?",
+            "url": "https://www.saastr.com/dear-saastr-weve-only-raised-2m-should-we-sponsor-events-like-saastr-annual/",
+            "source": "SaaStr",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Dear Saastr: We\u2019ve Only Raised $2m. Should We Sponsor Events Like Saastr Annual?"
         }
     ],
     "Enterprise Software": [
         {
-            "title": "Databricks will bake OpenAI models into its products in $100M bet to spur enterprise adoption",
-            "url": "https://techcrunch.com/2025/09/25/databricks-will-bake-openai-models-into-its-products-in-100m-bet-to-spur-enterprise-adoption/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Databricks Will Bake Openai Models Into Its Products in $100m Bet to Spur Enterprise Adoption"
+            "title": "Enterprise Data Security: A Guide to Protecting Your Organization",
+            "url": "https://slack.com/blog/transformation/enterprise-data-security-a-guide-to-protecting-your-organization",
+            "source": "Slack Blog",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Enterprise Data Security: a Guide to Protecting Your Organization"
         }
     ],
     "Product Launches": [
         {
-            "title": "Fire Emblem Shadows announced for smart devices, out today [update: launch trailer] - Nintendo Everything",
-            "url": "https://nintendoeverything.com/fire-emblem-shadows-announced-for-smart-devices-out-today/",
-            "source": "NewsAPI (Nintendoeverything.com)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Fire Emblem Shadows Announced for Smart Devices, Out Today [update: Launch Trailer] - Nintendo Everything"
-        },
-        {
-            "title": "Qualcomm announces the Snapdragon 8 Elite Gen 5 - The Verge",
-            "url": "https://www.theverge.com/tech/784997/qualcomm-snapdragon-8-elite-gen-5",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Qualcomm Announces the Snapdragon 8 Elite Gen 5 - the Verge"
-        },
-        {
-            "title": "Qualcomm announces Snapdragon X2 Elite and Extreme for Windows PCs - The Verge",
-            "url": "https://www.theverge.com/news/785068/qualcomm-announces-snapdragon-x2-elite-and-extreme-for-windows-pcs",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Qualcomm Announces Snapdragon X2 Elite and Extreme for Windows Pcs - the Verge"
-        },
-        {
-            "title": "Apple Seeds First Public Betas of iOS 26.1, iPadOS 26.1 and macOS Tahoe 26.1 - MacRumors",
-            "url": "https://www.macrumors.com/2025/09/24/apple-releases-ios-26-1-public-beta-1/",
-            "source": "NewsAPI (MacRumors)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Apple Seeds First Public Betas of Ios 26.1, Ipados 26.1 and Macos Tahoe 26.1 -..."
-        },
-        {
-            "title": "Black Ops 7 will get a new Zombies map with every seasonal update - Dexerto",
-            "url": "https://www.dexerto.com/call-of-duty/every-black-ops-7-season-brings-a-new-zombies-map-3256298/",
-            "source": "NewsAPI (Dexerto)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Black Ops 7 Will Get a New Zombies Map with Every Seasonal Update - Dexerto"
-        },
-        {
-            "title": "Silent Hill f modder removes the fog a day before release, beginning game's logical transformation into a wholesome life sim - Rock Paper Shotgun",
-            "url": "https://www.rockpapershotgun.com/silent-hill-f-modder-removes-the-fog-a-day-before-release-beginning-games-logical-transformation-into-a-wholesome-life-sim",
-            "source": "NewsAPI (Rock Paper Shotgun)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Silent Hill F Modder Removes the Fog a Day Before Release, Beginning Game's Logical Transformation..."
-        },
-        {
-            "title": "10 things you need to know about Windows 11 version 25H2 - Windows Central",
-            "url": "https://www.windowscentral.com/microsoft/windows-11/10-interesting-facts-about-windows-11-version-25h2",
-            "source": "NewsAPI (Windows Central)",
-            "published_date_obj": "2025-09-23",
-            "rewritten_title": "10 Things You Need to Know About Windows 11 Version 25h2 - Windows Central"
-        },
-        {
-            "title": "Salesforce Launches MuleSoft Agent Fabric to Orchestrate and Govern Any AI Agent Across the Agentic Enterprise",
-            "url": "https://www.salesforce.com/news/stories/mulesoft-agent-fabric-announcement/",
-            "source": "Salesforce Blog",
+            "title": "Billionaire Xiaomi Founder Unveils a $630 Answer to iPhone 17 - Bloomberg.com",
+            "url": "https://www.bloomberg.com/news/articles/2025-09-25/billionaire-xiaomi-founder-unveils-a-630-answer-to-iphone-17",
+            "source": "NewsAPI (Bloomberg)",
             "published_date_obj": "2025-09-25",
-            "rewritten_title": "Salesforce Launches Mulesoft Agent Fabric to Orchestrate and Govern Any Ai Agent Across the Agentic..."
+            "rewritten_title": "Billionaire Xiaomi Founder Unveils a $630 Answer to Iphone 17 - Bloomberg.com"
         },
         {
-            "title": "Every Cloudflare feature, available to everyone",
-            "url": "https://blog.cloudflare.com/enterprise-grade-features-for-all/",
+            "title": "How to get free Windows 10 security updates through October 2026 - ZDNET",
+            "url": "https://www.zdnet.com/article/how-to-get-free-windows-10-security-updates-through-october-2026/",
+            "source": "NewsAPI (ZDNet)",
+            "published_date_obj": "2025-09-25",
+            "rewritten_title": "How to Get Free Windows 10 Security Updates Through October 2026 - Zdnet"
+        },
+        {
+            "title": "OnePlus will be first to launch a Snapdragon 8 Gen 5 (not Elite) phone - Android Authority",
+            "url": "https://www.androidauthority.com/oneplus-first-snapdragon-8-gen-5-phone-3601067/",
+            "source": "NewsAPI (Android Authority)",
+            "published_date_obj": "2025-09-25",
+            "rewritten_title": "Oneplus Will Be First to Launch a Snapdragon 8 Gen 5 (not Elite) Phone -..."
+        },
+        {
+            "title": "Network performance update: Birthday Week 2025",
+            "url": "https://blog.cloudflare.com/network-performance-update-birthday-week-2025/",
             "source": "CloudFlare Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Every Cloudflare Feature, Available to Everyone"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Network Performance Update: Birthday Week 2025"
         },
         {
-            "title": "Announcing Cloudflare Email Service\u2019s private beta",
-            "url": "https://blog.cloudflare.com/email-service/",
-            "source": "CloudFlare Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Announcing Cloudflare Email Service\u2019s Private Beta"
-        },
-        {
-            "title": "WAN2.5-Preview: They are collecting feedback to fine-tune this PREVIEW. The full release will have open training + inference code. The weights MAY be released, but not decided yet. WAN2.5 demands SIGNIFICANTLY more VRAM due to being 1080p and 10 seconds. Final system requirements unknown! (@50:57)",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1nqhycy/wan25preview_they_are_collecting_feedback_to/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Wan2.5-preview: They Are Collecting Feedback to Fine-tune This Preview. the Full Release Will Have Open..."
+            "title": "Climate TRACE Launches AI Tool to Track Fine Particulate Pollution from 660 Million Global Sources",
+            "url": "https://www.reddit.com/r/artificial/comments/1nrf13j/climate_trace_launches_ai_tool_to_track_fine/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Climate Trace Launches Ai Tool to Track Fine Particulate Pollution From 660 Million Global Sources"
         }
     ],
     "SaaS Analytics": [
         {
-            "title": "I tested the iPhone 17 Pro Max, and here's one big reason for a year-over-year upgrade - ZDNET",
-            "url": "https://www.zdnet.com/article/i-tested-the-iphone-17-pro-max-and-heres-one-big-reason-for-a-year-over-year-upgrade/",
-            "source": "NewsAPI (ZDNet)",
+            "title": "Hades 2 tops Metacritic's PC game chart for 2025 - GamesIndustry.biz",
+            "url": "https://www.gamesindustry.biz/hades-2-tops-metacritics-pc-game-chart-for-2025",
+            "source": "NewsAPI (GamesIndustry.biz)",
             "published_date_obj": "2025-09-25",
-            "rewritten_title": "I Tested the Iphone 17 Pro Max, and Here's One Big Reason for a Year-over-year..."
+            "rewritten_title": "Hades 2 Tops Metacritic's Pc Game Chart for 2025 - Gamesindustry.biz"
         },
         {
-            "title": "Blue Origin only bidder for new VIPER lander award - SpaceNews",
-            "url": "http://spacenews.com/blue-origin-only-bidder-for-new-viper-lander-award/",
-            "source": "NewsAPI (SpaceNews)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Blue Origin Only Bidder for New Viper Lander Award - Spacenews"
+            "title": "Sync Your ChartMogul Data with Snowflake, Amazon Redshift, or Google BigQuery",
+            "url": "https://alleged-peace.flywheelsites.com/configure-snowflake-bigquery-redshift-as-destination/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Sync Your Chartmogul Data with Snowflake, Amazon Redshift, or Google Bigquery"
         },
         {
-            "title": "The Life Sciences Industry Is in Flux; 94% of Leaders See AI Agents as Stabilizer",
-            "url": "https://www.salesforce.com/news/stories/life-sciences-ai-survey-insights-2025/",
-            "source": "Salesforce Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "The Life Sciences Industry Is in Flux; 94% of Leaders See Ai Agents as Stabilizer"
-        },
-        {
-            "title": "Announcing the Cloudflare Data Platform: ingest, store, and query your data directly on Cloudflare",
-            "url": "https://blog.cloudflare.com/cloudflare-data-platform/",
+            "title": "Introducing new regional Internet traffic and Certificate Transparency insights on Cloudflare Radar",
+            "url": "https://blog.cloudflare.com/new-regional-internet-traffic-and-certificate-transparency-insights-on-radar/",
             "source": "CloudFlare Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Announcing the Cloudflare Data Platform: Ingest, Store, and Query Your Data Directly on Cloudflare"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Introducing New Regional Internet Traffic and Certificate Transparency Insights on Cloudflare Radar"
         },
         {
-            "title": "A year of improving Node.js compatibility in Cloudflare Workers",
-            "url": "https://blog.cloudflare.com/nodejs-workers-2025/",
+            "title": "How Cloudflare uses the world\u2019s greatest collection of performance data to make the world\u2019s fastest global network even faster",
+            "url": "https://blog.cloudflare.com/how-cloudflare-uses-the-worlds-greatest-collection-of-performance-data/",
             "source": "CloudFlare Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "A Year of Improving Node.js Compatibility in Cloudflare Workers"
-        },
-        {
-            "title": "Announcing Changed Block Tracking API support (alpha)",
-            "url": "https://kubernetes.io/blog/2025/09/25/csi-changed-block-tracking/",
-            "source": "Kubernetes Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Announcing Changed Block Tracking Api Support (alpha)"
-        },
-        {
-            "title": "What using a screen reader taught me about real web accessibility",
-            "url": "https://blog.logrocket.com/what-using-a-screen-reader-taught-me/",
-            "source": "LogRocket",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "What Using a Screen Reader Taught Me About Real Web Accessibility"
-        },
-        {
-            "title": "Sam Altman\u2019s AI empire will devour as much power as New York City and San Diego combined. Experts say it\u2019s \u2018scary\u2019 | Fortune",
-            "url": "https://www.reddit.com/r/artificial/comments/1nq6ctf/sam_altmans_ai_empire_will_devour_as_much_power/",
-            "source": "Reddit r/artificial",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Sam Altman\u2019s Ai Empire Will Devour as Much Power as New York City and San..."
-        },
-        {
-            "title": "[P] How to Check If Your Training Data Is Representative: Using PSI and Cramer\u2019s V in Python",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1nqkwn4/p_how_to_check_if_your_training_data_is/",
-            "source": "Reddit r/MachineLearning",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "[p] How to Check If Your Training Data Is Representative: Using Psi and Cramer\u2019s V..."
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "How Cloudflare Uses the World\u2019s Greatest Collection of Performance Data to Make the World\u2019s Fastest..."
         }
     ],
     "B2B Technology": [
         {
-            "title": "Alibaba to offer Nvidia's physical AI development tools in its AI platform | TechCrunch",
-            "url": "https://techcrunch.com/2025/09/24/alibaba-to-offer-nvidias-physical-ai-development-tools-in-its-ai-platform/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Alibaba to Offer Nvidia's Physical Ai Development Tools in Its Ai Platform | Techcrunch"
-        },
-        {
-            "title": "SaaStr\u2019s AI Agent Playbook: How We Deployed 20+ Agents to Scale 8-Figure Revenue with Single-Digit Headcount",
-            "url": "https://www.saastr.com/saastrs-ai-agent-playbook-how-we-deployed-20-agents-to-scale-8-figure-revenue-with-single-digit-headcount/",
-            "source": "SaaStr",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Saastr\u2019s Ai Agent Playbook: How We Deployed 20+ Agents to Scale 8-figure Revenue with Single-digit..."
-        },
-        {
-            "title": "Dear SaaStr: Can I Have My SDR Manager Also Manage My Account Executives?",
-            "url": "https://www.saastr.com/dear-saastr-can-i-have-my-sdr-manager-also-manage-my-account-executives/",
-            "source": "SaaStr",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Dear Saastr: Can I Have My Sdr Manager Also Manage My Account Executives?"
-        },
-        {
-            "title": "Navigating Choppy SaaS Waters",
-            "url": "https://alleged-peace.flywheelsites.com/choppy-saas-waters/",
-            "source": "ChartMogul Blog",
-            "published_date_obj": null,
-            "rewritten_title": "Navigating Choppy Saas Waters"
-        },
-        {
-            "title": "GitLab named a Leader in the 2025 Gartner Magic Quadrant for DevOps Platforms",
-            "url": "https://about.gitlab.com/blog/gitlab-named-a-leader-in-the-2025-gartner-magic-quadrant-for-devops-platforms/",
+            "title": "GitLab Duo Agent Platform adds support for Model Context Protocol",
+            "url": "https://about.gitlab.com/blog/duo-agent-platform-with-mcp/",
             "source": "GitLab Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Gitlab Named a Leader in the 2025 Gartner Magic Quadrant for Devops Platforms"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Gitlab Duo Agent Platform Adds Support for Model Context Protocol"
         },
         {
-            "title": "Cloudflare's developer platform keeps getting better, faster, and more powerful. Here's everything that's new.",
-            "url": "https://blog.cloudflare.com/cloudflare-developer-platform-keeps-getting-better-faster-and-more-powerful/",
+            "title": "Cloudflare just got faster and more secure, powered by Rust",
+            "url": "https://blog.cloudflare.com/20-percent-internet-upgrade/",
             "source": "CloudFlare Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Cloudflare's Developer Platform Keeps Getting Better, Faster, and More Powerful. Here's Everything That's New."
-        },
-        {
-            "title": "Safe in the sandbox: security hardening for Cloudflare Workers",
-            "url": "https://blog.cloudflare.com/safe-in-the-sandbox-security-hardening-for-cloudflare-workers/",
-            "source": "CloudFlare Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Safe in the Sandbox: Security Hardening for Cloudflare Workers"
-        },
-        {
-            "title": "Microsoft cuts cloud services to Israeli military unit over Palestinian surveillance",
-            "url": "https://techcrunch.com/2025/09/25/microsoft-cuts-cloud-services-to-israeli-military-unit-over-palestinian-surveillance/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Microsoft Cuts Cloud Services to Israeli Military Unit Over Palestinian Surveillance"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Cloudflare Just Got Faster and More Secure, Powered by Rust"
         }
     ],
     "Software Industry": [
         {
-            "title": "\u2018Halloween: The Game\u2019 Stalks Consoles and PC Next September [Trailer] - Bloody Disgusting",
-            "url": "https://bloody-disgusting.com/video-games/3902963/halloween-stalks-consoles-and-pc-next-september-trailer/",
-            "source": "NewsAPI (Bloody Disgusting)",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "\u2018halloween: the Game\u2019 Stalks Consoles and Pc Next September [trailer] - Bloody Disgusting"
-        },
-        {
-            "title": "Google just asked the Supreme Court to save it from the Epic ruling - The Verge",
-            "url": "https://www.theverge.com/news/785456/google-just-asked-the-supreme-court-to-save-it-from-the-epic-ruling",
+            "title": "Microsoft and Asus open Xbox Ally preorders \u2014 the X costs $999 - The Verge",
+            "url": "https://www.theverge.com/news/784286/xbox-handheld-ally-x-price-preorder",
             "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Microsoft and Asus Open Xbox Ally Preorders \u2014 the X Costs $999 - the Verge"
+        },
+        {
+            "title": "Costco reportedly comments on removing Xbox stock - Windows Central",
+            "url": "https://www.windowscentral.com/gaming/xbox/costco-reportedly-comments-on-removing-xbox-stock-we-dont-have-any-plans-going-forward-to-carry-an-xbox-console",
+            "source": "NewsAPI (Windows Central)",
             "published_date_obj": "2025-09-25",
-            "rewritten_title": "Google Just Asked the Supreme Court to Save It From the Epic Ruling - The..."
+            "rewritten_title": "Costco Reportedly Comments on Removing Xbox Stock - Windows Central"
         },
         {
-            "title": "Google reveals its Android for PC is coming next year - The Verge",
-            "url": "https://www.theverge.com/tech/785351/google-reveals-its-android-for-pc-is-coming-next-year",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Google Reveals Its Android for Pc Is Coming Next Year - the Verge"
+            "title": "Nintendo of America President Doug Bowser Steps Down - Variety",
+            "url": "https://variety.com/2025/gaming/news/nintendo-doug-bowser-exits-president-1236529655/",
+            "source": "NewsAPI (Variety)",
+            "published_date_obj": "2025-09-25",
+            "rewritten_title": "Nintendo of America President Doug Bowser Steps Down - Variety"
         },
         {
-            "title": "Console wars death watch: Microsoft Flight Simulator coming to PS5 in December - Ars Technica",
-            "url": "https://arstechnica.com/gaming/2025/09/microsoft-flight-simulator-becomes-a-sony-flight-simulator-on-ps5-this-december/",
+            "title": "iPhone 17 Pro cameras reviewed by Halide creator Lux - 9to5Mac",
+            "url": "https://9to5mac.com/2025/09/25/iphone-17-pro-cameras-reviewed-by-halide-creator-lux/",
+            "source": "NewsAPI (9to5Mac)",
+            "published_date_obj": "2025-09-25",
+            "rewritten_title": "Iphone 17 Pro Cameras Reviewed by Halide Creator Lux - 9to5mac"
+        },
+        {
+            "title": "Fire Emblem Shadows impressions: The hottest of hot messes - Polygon",
+            "url": "https://www.polygon.com/fire-emblem-shadows-impressions/",
+            "source": "NewsAPI (Polygon)",
+            "published_date_obj": "2025-09-25",
+            "rewritten_title": "Fire Emblem Shadows Impressions: the Hottest of Hot Messes - Polygon"
+        },
+        {
+            "title": "Saros Lead Says Role Is \u2018One Of The Best Moments\u2019 Of His Life - Kotaku",
+            "url": "https://kotaku.com/saros-ps5-housemarque-rahul-kohli-arjun-devraj-actor-2000628800",
+            "source": "NewsAPI (Kotaku)",
+            "published_date_obj": "2025-09-25",
+            "rewritten_title": "Saros Lead Says Role Is \u2018one of the Best Moments\u2019 of His Life - Kotaku"
+        },
+        {
+            "title": "AirPods 4 vs. AirPods Pro 3 Buyer's Guide: 25 Differences Compared - MacRumors",
+            "url": "https://www.macrumors.com/guide/airpods-4-vs-airpods-pro-3/",
+            "source": "NewsAPI (MacRumors)",
+            "published_date_obj": "2025-09-25",
+            "rewritten_title": "Airpods 4 Vs. Airpods Pro 3 Buyer's Guide: 25 Differences Compared - Macrumors"
+        },
+        {
+            "title": "Apple claims MagSafe stands are responsible for iPhone 17 'Scratchgate' - Mashable",
+            "url": "https://mashable.com/article/apple-iphone-17-scratchgate-response-magsafe-stands",
+            "source": "NewsAPI (Mashable)",
+            "published_date_obj": "2025-09-25",
+            "rewritten_title": "Apple Claims Magsafe Stands Are Responsible for Iphone 17 'scratchgate' - Mashable"
+        },
+        {
+            "title": "\u2018Ghost of Yotei\u2019 sharpens the samurai revenge formula with raw feeling - The Washington Post",
+            "url": "https://www.washingtonpost.com/entertainment/video-games/2025/09/25/ghost-of-yotei-review/",
+            "source": "NewsAPI (The Washington Post)",
+            "published_date_obj": "2025-09-25",
+            "rewritten_title": "\u2018ghost of Yotei\u2019 Sharpens the Samurai Revenge Formula with Raw Feeling - the Washington Post"
+        },
+        {
+            "title": "Reviewing iOS 26 for power users: Reminders, Preview, and more - Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2025/09/reviewing-ios-26-for-power-users-reminders-preview-and-more/",
             "source": "NewsAPI (Ars Technica)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Console Wars Death Watch: Microsoft Flight Simulator Coming to Ps5 in December - Ars Technica"
+            "published_date_obj": "2025-09-25",
+            "rewritten_title": "Reviewing Ios 26 for Power Users: Reminders, Preview, and More - Ars Technica"
         },
         {
-            "title": "Here are our PS Plus monthly and catalogue games for October - Eurogamer",
-            "url": "https://www.eurogamer.net/here-are-our-ps-plus-monthly-and-catalogue-games-for-october",
-            "source": "NewsAPI (Eurogamer.net)",
+            "title": "Mega Evolution Brings Mega Might to Pok\u00e9mon TCG Live - Pokemon.com",
+            "url": "https://www.pokemon.com/us/pokemon-news/mega-evolution-brings-mega-might-to-pokemon-tcg-live",
+            "source": "NewsAPI (Pokemon.com)",
+            "published_date_obj": "2025-09-25",
+            "rewritten_title": "Mega Evolution Brings Mega Might to Pok\u00e9mon Tcg Live - Pokemon.com"
+        },
+        {
+            "title": "The OnePlus 15 gets early reveal, with new image engine and Snapdragon 8 Elite Gen 5 - 9to5Google",
+            "url": "http://9to5google.com/2025/09/25/oneplus-15-early-reveal/",
+            "source": "NewsAPI (9to5google.com)",
+            "published_date_obj": "2025-09-25",
+            "rewritten_title": "The Oneplus 15 Gets Early Reveal, with New Image Engine and Snapdragon 8 Elite Gen..."
+        },
+        {
+            "title": "Daily Crossword: The School Puzzle \u2014 September 25 - Vulture",
+            "url": "http://www.vulture.com/article/daily-crossword-puzzle-september-25-2025.html",
+            "source": "NewsAPI (Vulture)",
+            "published_date_obj": "2025-09-25",
+            "rewritten_title": "Daily Crossword: the School Puzzle \u2014 September 25 - Vulture"
+        },
+        {
+            "title": "Final Fantasy Tactics: The Ivalice Chronicles - Nintendo Switch 2 Edition Review (Switch 2) - Nintendo Life",
+            "url": "https://www.nintendolife.com/reviews/nintendo-switch-2/final-fantasy-tactics-the-ivalice-chronicles-nintendo-switch-2-edition",
+            "source": "NewsAPI (Nintendo Life)",
             "published_date_obj": "2025-09-24",
-            "rewritten_title": "Here Are Our Ps Plus Monthly and Catalogue Games for October - Eurogamer"
+            "rewritten_title": "Final Fantasy Tactics: the Ivalice Chronicles - Nintendo Switch 2 Edition Review (switch 2) -..."
         },
         {
             "title": "Battlefield 6 Boss says she owes it to the community to deliver the \"best Battlefield ever\" after 2042 failure - Notebookcheck",
-            "url": "https://www.notebookcheck.net/Battlefield-6-Boss-says-she-owes-it-to-the-community-to-deliver-the-best-Battlefield-ever-after-2042-failure.1123262.0.html",
+            "url": "https://www.notebookcheck.net/Battlefield-6-boss-says-she-owes-it-to-the-community-to-deliver-the-best-Battlefield-ever-after-2042-failure.1123262.0.html",
             "source": "NewsAPI (Notebookcheck.net)",
             "published_date_obj": "2025-09-24",
             "rewritten_title": "Battlefield 6 Boss Says She Owes It to the Community to Deliver the \"best Battlefield..."
         },
         {
-            "title": "Video: Hades 2 Casts A Spell Over Us On Switch 1 & 2 - Nintendo Life",
-            "url": "https://www.nintendolife.com/news/2025/09/video-hades-2-casts-a-spell-over-us-on-switch-1-and-2",
-            "source": "NewsAPI (Nintendo Life)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Video: Hades 2 Casts a Spell Over Us on Switch 1 & 2 - Nintendo..."
-        },
-        {
-            "title": "Reprogramming neuroblastoma by diet-enhanced polyamine depletion - Nature",
-            "url": "https://www.nature.com/articles/s41586-025-09564-0",
-            "source": "NewsAPI (Nature.com)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Reprogramming Neuroblastoma by Diet-enhanced Polyamine Depletion - Nature"
-        },
-        {
-            "title": "iOS 26.1 hints at iPhone adding support for third-party smartwatches - 9to5Mac",
-            "url": "https://9to5mac.com/2025/09/24/ios-26-1-hints-at-iphone-adding-support-for-third-party-smartwatches/",
-            "source": "NewsAPI (9to5Mac)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Ios 26.1 Hints at Iphone Adding Support for Third-party Smartwatches - 9to5mac"
-        },
-        {
-            "title": "PlayStation State of Play 24th September live - watch it here from 10pm BST for PS5 games - Eurogamer",
-            "url": "https://www.eurogamer.net/playstation-state-of-play-24th-september-live-report-watch-it-here-from-10pm-bst-for-news-on-the-next-ps5-games",
-            "source": "NewsAPI (Eurogamer.net)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Playstation State of Play 24th September Live - Watch It Here From 10pm Bst For..."
-        },
-        {
-            "title": "USELESS BREAKDOWN: Texas A&M vs Auburn college football preview - Good Bull Hunting",
-            "url": "https://www.goodbullhunting.com/useless-breakdown/38220/useless-breakdown-texas-am-vs-auburn",
-            "source": "NewsAPI (Goodbullhunting.com)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Useless Breakdown: Texas A&m Vs Auburn College Football Preview - Good Bull Hunting"
-        },
-        {
-            "title": "Final Fantasy Tactics\u2019 Themes of Class and Resistance Hit Way Harder in 2025 - Rolling Stone",
-            "url": "http://www.rollingstone.com/culture/rs-gaming/final-fantasy-tactics-the-ivalice-chronicles-review-1235433023/",
-            "source": "NewsAPI (Rolling Stone)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Final Fantasy Tactics\u2019 Themes of Class and Resistance Hit Way Harder in 2025 - Rolling..."
-        },
-        {
-            "title": "Pok\u00e9mon Legends: Z-A is bringing fashion back to the franchise - The Verge",
-            "url": "https://www.theverge.com/games/784264/pokemon-legends-z-a-hands-on-fashion-nintendo-switch-2",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Pok\u00e9mon Legends: Z-a Is Bringing Fashion Back to the Franchise - the Verge"
-        },
-        {
-            "title": "You're About to Miss the Windows 10 Deadline. Here's Your Last Chance to Act - CNET",
-            "url": "https://www.cnet.com/tech/services-and-software/youre-about-to-miss-the-windows-10-deadline-heres-your-last-chance-to-act/",
-            "source": "NewsAPI (CNET)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "You're About to Miss the Windows 10 Deadline. Here's Your Last Chance to Act -..."
-        },
-        {
-            "title": "Qualcomm drops 6G and ChromeOS bombshells at Snapdragon Summit - pcworld.com",
-            "url": "https://www.pcworld.com/article/2918989/qualcomm-drops-6g-and-chromeos-bombshells-at-snapdragon-summit.html",
-            "source": "NewsAPI (PCWorld)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "Qualcomm Drops 6g and Chromeos Bombshells at Snapdragon Summit - Pcworld.com"
-        },
-        {
-            "title": "'It reinforced the idea that anything can happen': The 'glitch' in Super Mario Bros that obsessed gamers - BBC",
-            "url": "https://www.bbc.com/culture/article/20250923-the-glitch-in-super-mario-bros-that-obsessed-gamers",
-            "source": "NewsAPI (BBC News)",
-            "published_date_obj": "2025-09-24",
-            "rewritten_title": "'it Reinforced the Idea That Anything Can Happen': the 'glitch' in Super Mario Bros That..."
-        },
-        {
-            "title": "Chinese gacha game accused of \u2018stealing\u2019 Spider-Man 2\u2019s animations - Dexerto",
-            "url": "https://www.dexerto.com/gaming/chinese-gacha-game-accused-of-stealing-spider-man-2s-animations-3255898/",
-            "source": "NewsAPI (Dexerto)",
-            "published_date_obj": "2025-09-23",
-            "rewritten_title": "Chinese Gacha Game Accused of \u2018stealing\u2019 Spider-man 2\u2019s Animations - Dexerto"
-        },
-        {
-            "title": "AirPods Pro 3 vs AirPods Pro 2 \u2013 Seven Key Differences To Help Smoothen Out Your Premium Wireless Earbuds Upgrade Path - Wccftech",
-            "url": "https://wccftech.com/airpods-pro-3-vs-airpods-pro-2-seven-key-differences/",
-            "source": "NewsAPI (Wccftech)",
-            "published_date_obj": "2025-09-23",
-            "rewritten_title": "Airpods Pro 3 Vs Airpods Pro 2 \u2013 Seven Key Differences to Help Smoothen Out..."
-        },
-        {
-            "title": "Ray-Ban Meta Gen 2 vs Gen 1: What's the difference? - Tom's Guide",
-            "url": "https://www.tomsguide.com/computing/smart-glasses/ray-ban-meta-ai-glasses-gen-1-vs-gen-2",
-            "source": "NewsAPI (Tom's Guide)",
-            "published_date_obj": "2025-09-23",
-            "rewritten_title": "Ray-ban Meta Gen 2 Vs Gen 1: What's the Difference? - Tom's Guide"
-        },
-        {
-            "title": "Don\u2019t Lose a Great CoFounder, Whatever It Takes",
-            "url": "https://www.saastr.com/dont-lose-a-great-cofounder-whatever-it-takes/",
+            "title": "A \u201cFractional\u201d VP of Sales Almost Never Works.  Avoid Them.  Here\u2019s Why.",
+            "url": "https://www.saastr.com/a-fractional-vp-of-sales-almost-never-works-avoid-them-heres-why/",
             "source": "SaaStr",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Don\u2019t Lose a Great Cofounder, Whatever It Takes"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "A \u201cfractional\u201d Vp of Sales Almost Never Works. Avoid Them. Here\u2019s Why."
         },
         {
-            "title": "The Math of Hypergrowth: Two Paths to the Same Goal",
-            "url": "https://www.tomtunguz.com/hypergrowth-vs-steady-compounding/",
-            "source": "Tomasz Tunguz",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "The Math of Hypergrowth: Two Paths to the Same Goal"
+            "title": "RACI Model Explained: Definition, Benefits, and How to Use It",
+            "url": "https://slack.com/blog/productivity/raci-model-explained-definition-benefits-and-how-to-use-it",
+            "source": "Slack Blog",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Raci Model Explained: Definition, Benefits, and How to Use It"
         },
         {
-            "title": "From Burnout to Breakthroughs: Agentforce Redefines Life Sciences Customer Engagement; Fidia Signs On as Early Adopter",
-            "url": "https://www.salesforce.com/news/stories/life-sciences-cloud-for-customer-engagement-availability/",
-            "source": "Salesforce Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "From Burnout to Breakthroughs: Agentforce Redefines Life Sciences Customer Engagement; Fidia Signs on as Early..."
+            "title": "Why Every Modern Team Needs a Work OS",
+            "url": "https://slack.com/blog/productivity/why-every-modern-team-needs-a-work-os",
+            "source": "Slack Blog",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Why Every Modern Team Needs a Work Os"
         },
         {
-            "title": "Building beyond the browser: Keeley Hammond on Electron, open source, and the future of maintainership",
-            "url": "https://github.blog/open-source/maintainers/building-beyond-the-browser-keeley-hammond-on-electron-open-source-and-the-future-of-maintainership/",
+            "title": "How to Choose the Right Communication Model for Every Team",
+            "url": "https://slack.com/blog/collaboration/communication-model",
+            "source": "Slack Blog",
+            "published_date_obj": "2025-09-24",
+            "rewritten_title": "How to Choose the Right Communication Model for Every Team"
+        },
+        {
+            "title": "Best Methods for Prioritizing Tasks and Projects at Work",
+            "url": "https://slack.com/blog/productivity/best-methods-for-prioritizing-tasks-and-projects-at-work",
+            "source": "Slack Blog",
+            "published_date_obj": "2025-09-24",
+            "rewritten_title": "Best Methods for Prioritizing Tasks and Projects at Work"
+        },
+        {
+            "title": "How GitHub protects developers from copyright enforcement overreach",
+            "url": "https://github.blog/news-insights/policy-news-and-insights/how-github-protects-developers-from-copyright-enforcement-overreach/",
             "source": "GitHub Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Building Beyond the Browser: Keeley Hammond on Electron, Open Source, and the Future of Maintainership"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "How Github Protects Developers From Copyright Enforcement Overreach"
         },
         {
-            "title": "R2 SQL: a deep dive into our new distributed query engine",
-            "url": "https://blog.cloudflare.com/r2-sql-deep-dive/",
+            "title": "Kicking off Cybersecurity Awareness Month 2025: Researcher Spotlights and Enhanced Incentives",
+            "url": "https://github.blog/security/vulnerability-research/kicking-off-cybersecurity-awareness-month-2025-researcher-spotlights-and-enhanced-incentives/",
+            "source": "GitHub Blog",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Kicking Off Cybersecurity Awareness Month 2025: Researcher Spotlights and Enhanced Incentives"
+        },
+        {
+            "title": "Introducing Observatory and Smart Shield \u2014 see how the world sees your website, and make it faster in one click",
+            "url": "https://blog.cloudflare.com/introducing-observatory-and-smart-shield/",
             "source": "CloudFlare Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "R2 Sql: a Deep Dive Into Our New Distributed Query Engine"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Introducing Observatory and Smart Shield \u2014 See How the World Sees Your Website, and Make..."
         },
         {
-            "title": "Choice: the path to AI sovereignty",
-            "url": "https://blog.cloudflare.com/sovereign-ai-and-choice/",
+            "title": "Monitoring AS-SETs and why they matter",
+            "url": "https://blog.cloudflare.com/monitoring-as-sets-and-why-they-matter/",
             "source": "CloudFlare Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Choice: the Path to Ai Sovereignty"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Monitoring As-sets and Why They Matter"
         },
         {
-            "title": "13 Trending Songs on TikTok in 2025 (+ How to Use Them)",
-            "url": "https://buffer.com/resources/trending-songs-tiktok/",
+            "title": "An AI Index for all our customers",
+            "url": "https://blog.cloudflare.com/an-ai-index-for-all-our-customers/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "An Ai Index for All Our Customers"
+        },
+        {
+            "title": "Code Mode: the better way to use MCP",
+            "url": "https://blog.cloudflare.com/code-mode/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Code Mode: the Better Way to Use Mcp"
+        },
+        {
+            "title": "Eliminating Cold Starts 2: shard and conquer",
+            "url": "https://blog.cloudflare.com/eliminating-cold-starts-2-shard-and-conquer/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Eliminating Cold Starts 2: Shard and Conquer"
+        },
+        {
+            "title": "Getting Backstage in front of a shifting dev experience",
+            "url": "https://stackoverflow.blog/2025/09/26/getting-backstage-in-front-of-a-shifting-dev-experience/",
+            "source": "Stack Overflow Blog",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Getting Backstage in Front of a Shifting Dev Experience"
+        },
+        {
+            "title": "The Right Bag for the Job: How Remote Workers at Buffer Choose Their Gear",
+            "url": "https://buffer.com/resources/remote-work-gear/",
             "source": "Buffer Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "13 Trending Songs on Tiktok in 2025 (+ How to Use Them)"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "The Right Bag for the Job: How Remote Workers at Buffer Choose Their Gear"
         },
         {
-            "title": "The 50 Best PR Pitching Opportunities in ChatGPT",
-            "url": "https://ahrefs.com/blog/pr-pitching-opportunities-chatgpt/",
-            "source": "Ahrefs Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "The 50 Best Pr Pitching Opportunities in Chatgpt"
-        },
-        {
-            "title": "Introducing the Docker Premium Support and TAM service",
-            "url": "https://www.docker.com/blog/introducing-the-docker-premium-support-and-tam-service/",
+            "title": "The Trust Paradox: When Your AI Gets Catfished",
+            "url": "https://www.docker.com/blog/mcp-prompt-injection-trust-paradox/",
             "source": "Docker Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Introducing the Docker Premium Support and Tam Service"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "The Trust Paradox: When Your Ai Gets Catfished"
         },
         {
-            "title": "Run, Test, and Evaluate Models and MCP Locally with Docker + Promptfoo",
-            "url": "https://www.docker.com/blog/evaluate-models-and-mcp-with-promptfoo-docker/",
-            "source": "Docker Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Run, Test, and Evaluate Models and Mcp Locally with Docker + Promptfoo"
+            "title": "Is Better Auth the key to solving authentication headaches?",
+            "url": "https://blog.logrocket.com/better-auth-authentication/",
+            "source": "LogRocket",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Is Better Auth the Key to Solving Authentication Headaches?"
         },
         {
-            "title": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
-            "url": "https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill",
-            "source": "Lenny's Newsletter",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Why Ai Evals Are the Hottest New Skill for Product Builders | Hamel Husain &..."
-        },
-        {
-            "title": "How the full-stack product lead is changing the industry",
-            "url": "https://blog.logrocket.com/product-management/how-the-full-stack-product-lead-is-changing-the-industry/",
+            "title": "Why I never skip prototyping anymore before design handoffs",
+            "url": "https://blog.logrocket.com/ux-design/never-skip-prototyping-before-design-handoffs/",
             "source": "LogRocket",
             "published_date_obj": "2025-09-25",
-            "rewritten_title": "How the Full-stack Product Lead Is Changing the Industry"
+            "rewritten_title": "Why I Never Skip Prototyping Anymore Before Design Handoffs"
         },
         {
-            "title": "Regulating AI hastens the Antichrist, says Palantir\u2019s Peter Thiel",
-            "url": "https://www.reddit.com/r/artificial/comments/1nqetf0/regulating_ai_hastens_the_antichrist_says/",
-            "source": "Reddit r/artificial",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Regulating Ai Hastens the Antichrist, Says Palantir\u2019s Peter Thiel"
-        },
-        {
-            "title": "Mathematician says GPT5 can now solve minor open math problems, those that would require a day/few days of a good PhD student",
-            "url": "https://www.reddit.com/r/artificial/comments/1nqqhwv/mathematician_says_gpt5_can_now_solve_minor_open/",
+            "title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+            "url": "https://www.reddit.com/r/artificial/comments/1nrfic3/richard_sutton_father_of_rl_thinks_llms_are_a/",
             "source": "Reddit r/artificial",
             "published_date_obj": "2025-09-26",
-            "rewritten_title": "Mathematician Says Gpt5 Can Now Solve Minor Open Math Problems, Those That Would Require A..."
+            "rewritten_title": "Richard Sutton \u2013 Father of Rl Thinks Llms Are a Dead End"
         },
         {
-            "title": "I trained an LLM from scratch AMA!",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1nqkayx/i_trained_an_llm_from_scratch_ama/",
+            "title": "How am I supposed to know which third party provider can be trusted not to completely lobotomize a model?",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1nr3n2r/how_am_i_supposed_to_know_which_third_party/",
             "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "I Trained an Llm From Scratch Ama!"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "How Am I Supposed to Know Which Third Party Provider Can Be Trusted Not To..."
         },
         {
-            "title": "Apparently all third party providers downgrade, none of them provide a max quality model",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1nqkx7o/apparently_all_third_party_providers_downgrade/",
-            "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Apparently All Third Party Providers Downgrade, None of Them Provide a Max Quality Model"
-        },
-        {
-            "title": "Gemini Robotics 1.5",
-            "url": "https://www.reddit.com/r/singularity/comments/1nqe32v/gemini_robotics_15/",
+            "title": "\"Sam Altman says GPT-8 will be true AGI if it solves quantum gravity \u2014 the father of quantum computing agrees\"",
+            "url": "https://www.reddit.com/r/singularity/comments/1nrd8a5/sam_altman_says_gpt8_will_be_true_agi_if_it/",
             "source": "Reddit r/singularity",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Gemini Robotics 1.5"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "\"sam Altman Says Gpt-8 Will Be True Agi If It Solves Quantum Gravity \u2014 The..."
         },
         {
-            "title": "Listen up software developers",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1nq8wti/listen_up_software_developers/",
+            "title": "[R] What do you do when your model is training?",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1nr1s6g/r_what_do_you_do_when_your_model_is_training/",
+            "source": "Reddit r/MachineLearning",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "[r] What Do You Do When Your Model Is Training?"
+        },
+        {
+            "title": "OpenAI is destroying users' trust in them",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1nrg8fn/openai_is_destroying_users_trust_in_them/",
             "source": "Reddit r/chatgpt",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Listen Up Software Developers"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Openai Is Destroying Users' Trust in Them"
         },
         {
-            "title": "Nothing to say here",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1nqeo6r/nothing_to_say_here/",
+            "title": "WHAT ARE THEY DOING AT OPEN AI!!!!???? 4.0",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1nrgt56/what_are_they_doing_at_open_ai_40/",
             "source": "Reddit r/chatgpt",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Nothing to Say Here"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "What Are They Doing at Open Ai!!!!???? 4.0"
         },
         {
-            "title": "Bro: I'm a MIT computer science student. Also Bro: uses Al for everything",
-            "url": "https://www.reddit.com/r/ClaudeAI/comments/1nqa532/bro_im_a_mit_computer_science_student_also_bro/",
+            "title": "How to free Your Claude from the dreaded \"Long Conversation Reminder\"",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1nricut/how_to_free_your_claude_from_the_dreaded_long/",
             "source": "Reddit r/claudeai",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Bro: I'm a Mit Computer Science Student. Also Bro: Uses Al for Everything"
+            "published_date_obj": "2025-09-27",
+            "rewritten_title": "How to Free Your Claude From the Dreaded \"long Conversation Reminder\""
         },
         {
-            "title": "Cai users whenever something small changes in the UI",
-            "url": "https://www.reddit.com/r/CharacterAI/comments/1nqfijo/cai_users_whenever_something_small_changes_in_the/",
+            "title": "there ain't gonna be any characters left",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1nr9oi2/there_aint_gonna_be_any_characters_left/",
             "source": "Reddit r/characterai",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Cai Users Whenever Something Small Changes in the Ui"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "There Ain't Gonna Be Any Characters Left"
         },
         {
-            "title": "Regulating AI hastens the Antichrist, says Peter Thiel",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1nqdc4x/regulating_ai_hastens_the_antichrist_says_peter/",
+            "title": "Forced Switching from GPT\u20114o to GPT\u20115",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1nrkf7j/forced_switching_from_gpt4o_to_gpt5/",
             "source": "Reddit r/openai",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Regulating Ai Hastens the Antichrist, Says Peter Thiel"
+            "published_date_obj": "2025-09-27",
+            "rewritten_title": "Forced Switching From Gpt\u20114o to Gpt\u20115"
         },
         {
-            "title": "Self-improving AI agent is a myth",
-            "url": "https://www.reddit.com/r/AI_Agents/comments/1nq9gv5/selfimproving_ai_agent_is_a_myth/",
+            "title": "For anyone who needs to hear it: they don't care about you",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1nr3t9k/for_anyone_who_needs_to_hear_it_they_dont_care/",
+            "source": "Reddit r/openai",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "For Anyone Who Needs to Hear It: They Don't Care About You"
+        },
+        {
+            "title": "I built 3 SEO agents to kill $5B SEO freelancing market. By 2030 Most freelance worker's work will be automated by agents",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1nrj1qq/i_built_3_seo_agents_to_kill_5b_seo_freelancing/",
             "source": "Reddit r/ai_agents",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Self-improving Ai Agent Is a Myth"
+            "published_date_obj": "2025-09-27",
+            "rewritten_title": "I Built 3 Seo Agents to Kill $5b Seo Freelancing Market. by 2030 Most Freelance..."
         },
         {
-            "title": "HuMo : create a full music video from a single img ref + song",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1nqc82s/humo_create_a_full_music_video_from_a_single_img/",
+            "title": "Running automatic1111 on a  card 30.000$ GPU (H200 with 141GB VRAM) VS a high End CPU",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1nrdz4f/running_automatic1111_on_a_card_30000_gpu_h200/",
             "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Humo : Create a Full Music Video From a Single Img Ref + Song"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Running Automatic1111 on a Card 30.000$ Gpu (h200 with 141gb Vram) Vs a High End..."
         },
         {
-            "title": "Some fun with Qwen Image Edit 2509",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1nqk2gm/some_fun_with_qwen_image_edit_2509/",
+            "title": "HunyuanImage 3.0 will be a 80b model.",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1nr3pv1/hunyuanimage_30_will_be_a_80b_model/",
             "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Some Fun with Qwen Image Edit 2509"
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Hunyuanimage 3.0 Will Be a 80b Model."
+        },
+        {
+            "title": "Dark magician girl cosplay",
+            "url": "https://www.reddit.com/r/aiArt/comments/1nrfbf6/dark_magician_girl_cosplay/",
+            "source": "Reddit r/AIArt",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "Dark Magician Girl Cosplay"
         }
     ],
     "SaaS Acquisitions": [],
     "SaaS Metrics": [
         {
-            "title": "How Process Street Helped a Financial Planning Firm Scale 200% Without Hiring More Staff",
-            "url": "https://www.process.st/cwm-financial-planning-case-study/",
-            "source": "Process Street",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "How Process Street Helped a Financial Planning Firm Scale 200% Without Hiring More Staff"
-        },
-        {
-            "title": "Partnering to make full-stack fast: deploy PlanetScale databases directly from Workers",
-            "url": "https://blog.cloudflare.com/planetscale-postgres-workers/",
-            "source": "CloudFlare Blog",
-            "published_date_obj": "2025-09-25",
-            "rewritten_title": "Partnering to Make Full-stack Fast: Deploy Planetscale Databases Directly From Workers"
+            "title": "The Efficient Frontier of AI",
+            "url": "https://www.tomtunguz.com/gepa-evo-blog/",
+            "source": "Tomasz Tunguz",
+            "published_date_obj": "2025-09-26",
+            "rewritten_title": "The Efficient Frontier of Ai"
         }
     ]
 }
