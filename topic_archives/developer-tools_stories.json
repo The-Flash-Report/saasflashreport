@@ -1,5 +1,461 @@
 [
   {
+    "title": "Open source is giving you choices with your agent systems",
+    "url": "https://stackoverflow.blog/2025/10/21/open-source-is-giving-you-choices-with-your-agent-systems/",
+    "source": "Stack Overflow Blog",
+    "published_date_obj": "2025-10-21",
+    "rewritten_title": "Open Source Is Giving You Choices with Your Agent Systems",
+    "relevance_score": 3
+  },
+  {
+    "title": "Inside the breach that broke the internet: The untold story of Log4Shell",
+    "url": "https://github.blog/open-source/inside-the-breach-that-broke-the-internet-the-untold-story-of-log4shell/",
+    "source": "GitHub Blog",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "Inside the Breach That Broke the Internet: the Untold Story of Log4shell",
+    "relevance_score": 13
+  },
+  {
+    "title": "This Week\u2019s Japanese Game Releases: NINJA GAIDEN 4, Double Dragon Revive, Once Upon a KATAMARI, more - Gematsu",
+    "url": "https://www.gematsu.com/2025/10/this-weeks-japanese-game-releases-ninja-gaiden-4-double-dragon-revive-once-upon-a-katamari-more",
+    "source": "NewsAPI (Gematsu)",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "This Week\u2019s Japanese Game Releases: Ninja Gaiden 4, Double Dragon Revive, Once Upon a Katamari,...",
+    "relevance_score": 12
+  },
+  {
+    "title": "Why SaaStr AI London 2025 Is Where You Learn AI + GTM From The People Actually Doing It.  At Scale.",
+    "url": "https://www.saastr.com/why-saastr-ai-london-2025-is-where-you-learn-ai-gtm-from-the-people-actually-doing-it-at-scale/",
+    "source": "SaaStr",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "Why Saastr Ai London 2025 Is Where You Learn Ai + Gtm From the People...",
+    "relevance_score": 3
+  },
+  {
+    "title": "From Zero to Replit Fluent: How 9 Apps and 500,000 Users Taught Me to How to \u2018Vibe\u2019 Apps Into Production",
+    "url": "https://www.saastr.com/from-zero-to-replit-fluent-how-9-apps-and-500000-users-taught-me-to-how-to-vibe-apps-into-production/",
+    "source": "SaaStr",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "From Zero to Replit Fluent: How 9 Apps and 500,000 Users Taught Me to How...",
+    "relevance_score": 3
+  },
+  {
+    "title": "From Columns to Rewards: Automating the Two Pillars That Drive Modern AI",
+    "url": "https://www.tomtunguz.com/reinforcement-learning-feature-engineering-era/",
+    "source": "Tomasz Tunguz",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "From Columns to Rewards: Automating the Two Pillars That Drive Modern Ai",
+    "relevance_score": 3
+  },
+  {
+    "title": "Planning Pros Cuts Compliance Time by 80% and Saves $20,000+ Annually with Process Street",
+    "url": "https://www.process.st/planning-pros-compliance-workflow-case-study/",
+    "source": "Process Street",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "Planning Pros Cuts Compliance Time by 80% and Saves $20,000+ Annually with Process Street",
+    "relevance_score": 3
+  },
+  {
+    "title": "The Agentic Wave",
+    "url": "https://www.salesforce.com/news/stories/the-agentic-wave/",
+    "source": "Salesforce Blog",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "The Agentic Wave",
+    "relevance_score": 3
+  },
+  {
+    "title": "Claude Haiku 4.5 now available in GitLab Duo Agentic Chat",
+    "url": "https://about.gitlab.com/blog/claude-haiku-4-5-now-available-in-gitlab-duo-agentic-chat/",
+    "source": "GitLab Blog",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "Claude Haiku 4.5 Now Available in Gitlab Duo Agentic Chat",
+    "relevance_score": 3
+  },
+  {
+    "title": "From multilingual semantic search to virtual assistants at Bosch Digital",
+    "url": "https://stackoverflow.blog/2025/10/20/from-multilingual-semantic-search-to-virtual-assistants-at-bosch-digital/",
+    "source": "Stack Overflow Blog",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "From Multilingual Semantic Search to Virtual Assistants at Bosch Digital",
+    "relevance_score": 3
+  },
+  {
+    "title": "Adobe launches a foundry service\u00a0that builds custom generative AI models\u00a0for\u00a0enterprises",
+    "url": "https://techcrunch.com/2025/10/20/adobe-launches-a-foundry-service-that-builds-custom-generative-ai-models-for-enterprises/",
+    "source": "TechCrunch Enterprise",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "Adobe Launches a Foundry Service That Builds Custom Generative Ai Models for Enterprises",
+    "relevance_score": 3
+  },
+  {
+    "title": "How to Make Your LinkedIn Profile Stand Out: 30+ Tips",
+    "url": "https://buffer.com/resources/linkedin-profile-tips/",
+    "source": "Buffer Blog",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "How to Make Your Linkedin Profile Stand Out: 30+ Tips",
+    "relevance_score": 3
+  },
+  {
+    "title": "Docker Model Runner Meets Open WebUI:\u00a0A Simpler Way to Run Local AI Models",
+    "url": "https://www.docker.com/blog/open-webui-docker-desktop-model-runner/",
+    "source": "Docker Blog",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "Docker Model Runner Meets Open Webui: a Simpler Way to Run Local Ai Models",
+    "relevance_score": 3
+  },
+  {
+    "title": "7 Common Kubernetes Pitfalls (and How I Learned to Avoid Them)",
+    "url": "https://kubernetes.io/blog/2025/10/20/seven-kubernetes-pitfalls-and-how-to-avoid/",
+    "source": "Kubernetes Blog",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "7 Common Kubernetes Pitfalls (and How I Learned to Avoid Them)",
+    "relevance_score": 3
+  },
+  {
+    "title": "How this Yelp AI PM works backward from \u201cgolden conversations\u201d to create high-quality prototypes using Claude Artifacts and Magic Patterns | Priya Badger",
+    "url": "https://www.lennysnewsletter.com/p/how-this-yelp-ai-pm-works-backward",
+    "source": "Lenny's Newsletter",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "How This Yelp Ai Pm Works Backward From \u201cgolden Conversations\u201d to Create High-quality Prototypes Using...",
+    "relevance_score": 3
+  },
+  {
+    "title": "AI meets Apple\u2019s HIG: Actual results from my redesign project",
+    "url": "https://blog.logrocket.com/ux-design/redesigning-with-apple-hig-and-ai/",
+    "source": "LogRocket",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "Ai Meets Apple\u2019s Hig: Actual Results From My Redesign Project",
+    "relevance_score": 3
+  },
+  {
+    "title": "Why third-party integrations break in React 19 \u2014 And how to future-proof them",
+    "url": "https://blog.logrocket.com/why-third-party-integrations-break-react-19-how-future-proof/",
+    "source": "LogRocket",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "Why Third-party Integrations Break in React 19 \u2014 and How to Future-proof Them",
+    "relevance_score": 3
+  },
+  {
+    "title": "AirPods Pro 3 proved me wrong, but they now have one unfortunate drawback - 9to5Mac",
+    "url": "https://9to5mac.com/2025/10/19/airpods-pro-3-pros-and-cons-after-one-month-of-testing/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2025-10-20",
+    "rewritten_title": "Airpods Pro 3 Proved Me Wrong, but They Now Have One Unfortunate Drawback - 9to5mac",
+    "relevance_score": 2
+  },
+  {
+    "title": "Tweets of the Week: CM Punk jumps into Rhea Ripley\u2019s arms, Iyo Sky moonsault into sea, more! - Cageside Seats",
+    "url": "https://www.cagesideseats.com/cageside-seats-features/391237/tweets-of-the-week-cm-punk-jumps-into-rhea-ripleys-arms-iyo-sky-moonsault-into-sea-more",
+    "source": "NewsAPI (Cageside Seats)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Tweets of the Week: Cm Punk Jumps Into Rhea Ripley\u2019s Arms, Iyo Sky Moonsault Into...",
+    "relevance_score": 12
+  },
+  {
+    "title": "Report: Resident Evil 0 Remake in Development, New Casting and Plot Details Unearthed - MP1st",
+    "url": "https://mp1st.com/news/report-resident-evil-0-remake-in-development-new-casting-and-plot-details-unearthed",
+    "source": "NewsAPI (http://mp1st.com/category/news)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Report: Resident Evil 0 Remake in Development, New Casting and Plot Details Unearthed - Mp1st",
+    "relevance_score": 12
+  },
+  {
+    "title": "TikTok videos continue to push infostealers in ClickFix attacks - BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/tiktok-videos-continue-to-push-infostealers-in-clickfix-attacks/",
+    "source": "NewsAPI (BleepingComputer)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Tiktok Videos Continue to Push Infostealers in Clickfix Attacks - Bleepingcomputer",
+    "relevance_score": 12
+  },
+  {
+    "title": "I've been using the iPhone 17 for a month \u2014 here's my pros and cons - Tom's Guide",
+    "url": "https://www.tomsguide.com/phones/iphones/ive-been-using-the-iphone-17-for-over-a-month-heres-what-i-really-think-about-it",
+    "source": "NewsAPI (Tom's Guide)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "I've Been Using the Iphone 17 for a Month \u2014 Here's My Pros and Cons...",
+    "relevance_score": 12
+  },
+  {
+    "title": "I ditched Spotify for this niche audiophile streaming service for a month \u2014 and I might be ready to go back - Tom's Guide",
+    "url": "https://www.tomsguide.com/entertainment/music-streaming/i-ditched-spotify-for-this-niche-audiophile-streaming-service-for-a-month-and-i-might-be-ready-to-go-back",
+    "source": "NewsAPI (Tom's Guide)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "I Ditched Spotify for This Niche Audiophile Streaming Service for a Month \u2014 and I...",
+    "relevance_score": 12
+  },
+  {
+    "title": "X is changing how it handles links to try and keep you in the app - The Verge",
+    "url": "https://www.theverge.com/news/802480/x-is-changing-how-it-handles-links-to-try-and-keep-you-in-the-app",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "X Is Changing How It Handles Links to Try and Keep You in the App...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Protect your family from ads, trackers, and malware for life for just $40 - Mashable",
+    "url": "https://mashable.com/article/oct-19-adguard-family-plan-lifetime-subscription",
+    "source": "NewsAPI (Mashable)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Protect Your Family From Ads, Trackers, and Malware for Life for Just $40 - Mashable",
+    "relevance_score": 2
+  },
+  {
+    "title": "Oversharing with AI: How your ChatGPT conversations could be used against you - The Independent",
+    "url": "https://www.the-independent.com/tech/ai-chatgpt-crime-data-ads-b2846677.html",
+    "source": "NewsAPI (The-independent.com)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Oversharing with Ai: How Your Chatgpt Conversations Could Be Used Against You - the Independent",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple Liquidates 2025 MacBook Airs, Now Cheaper Than Your Average Windows Laptop - Gizmodo",
+    "url": "https://gizmodo.com/apple-liquidates-2025-macbook-airs-now-cheaper-than-your-average-windows-laptop-2000674188",
+    "source": "NewsAPI (Gizmodo.com)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Apple Liquidates 2025 Macbook Airs, Now Cheaper Than Your Average Windows Laptop - Gizmodo",
+    "relevance_score": 2
+  },
+  {
+    "title": "A Raspberry Pi is a better addition to your TV than a Chromecast - XDA",
+    "url": "https://www.xda-developers.com/raspberry-pi-better-for-tv-than-chromecast/",
+    "source": "NewsAPI (XDA Developers)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "A Raspberry Pi Is a Better Addition to Your Tv Than a Chromecast - Xda",
+    "relevance_score": 2
+  },
+  {
+    "title": "What Google Messages features are rolling out [October 2025] - 9to5Google",
+    "url": "http://9to5google.com/2025/10/19/google-messages-features/",
+    "source": "NewsAPI (9to5google.com)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "What Google Messages Features Are Rolling Out [october 2025] - 9to5google",
+    "relevance_score": 2
+  },
+  {
+    "title": "10 Dependable Computers You Won't Have To Replace For 5+ Years - bgr.com",
+    "url": "https://www.bgr.com/1997458/reliable-long-lasting-computers/",
+    "source": "NewsAPI (BGR)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "10 Dependable Computers You Won't Have to Replace for 5+ Years - Bgr.com",
+    "relevance_score": 2
+  },
+  {
+    "title": "Powerbeats Fit review - GSMArena.com news - GSMArena.com",
+    "url": "https://www.gsmarena.com/powerbeats_fit_review-news-69969.php",
+    "source": "NewsAPI (GSMArena.com)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Powerbeats Fit Review - Gsmarena.com News - Gsmarena.com",
+    "relevance_score": 2
+  },
+  {
+    "title": "How did the Brewers get William Contreras? - Battery Power",
+    "url": "https://www.batterypower.com/community/121420/brewers-william-contreras-atlanta-braves-mlb-question",
+    "source": "NewsAPI (Batterypower.com)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "How Did the Brewers Get William Contreras? - Battery Power",
+    "relevance_score": 2
+  },
+  {
+    "title": "Some ChatGPT Users Are Saving 50% Off Their Plus Subscription - Here's How - bgr.com",
+    "url": "https://www.bgr.com/1996272/how-chatgpt-users-saving-50-percent-plus-subscription/",
+    "source": "NewsAPI (BGR)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Some Chatgpt Users Are Saving 50% Off Their Plus Subscription - Here's How - Bgr.com",
+    "relevance_score": 2
+  },
+  {
+    "title": "What Is Different About A Miller-Cycle Engine And Why Did Mazda Use It? - Jalopnik",
+    "url": "https://www.jalopnik.com/1997916/miller-cycle-engines-mazda/",
+    "source": "NewsAPI (Jalopnik)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "What Is Different About a Miller-cycle Engine and Why Did Mazda Use It? - Jalopnik",
+    "relevance_score": 2
+  },
+  {
+    "title": "Filming At The Speed Of Light, About One Foot Per Nanosecond - Hackaday",
+    "url": "https://hackaday.com/2025/10/19/filming-at-the-speed-of-light-about-one-foot-per-nanosecond/",
+    "source": "NewsAPI (Hackaday)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Filming at the Speed of Light, About One Foot Per Nanosecond - Hackaday",
+    "relevance_score": 2
+  },
+  {
+    "title": "I\u2019m only using an AI browser to watch YouTube now, and it\u2019s incredible - XDA",
+    "url": "https://www.xda-developers.com/only-using-an-ai-browser-to-watch-youtube/",
+    "source": "NewsAPI (XDA Developers)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "I\u2019m Only Using an Ai Browser to Watch Youtube Now, and It\u2019s Incredible - Xda",
+    "relevance_score": 2
+  },
+  {
+    "title": "The Sony Watchman was must-see TV - The Verge",
+    "url": "https://www.theverge.com/podcast/802307/sony-watchman-tv-version-history",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "The Sony Watchman Was Must-see Tv - the Verge",
+    "relevance_score": 2
+  },
+  {
+    "title": "Gnosia \u2012 SEASON PREMIERE - Anime News Network",
+    "url": "https://www.animenewsnetwork.com/review/gnosia/episodes-1-2/.230072",
+    "source": "NewsAPI (Anime News Network)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Gnosia \u2012 Season Premiere - Anime News Network",
+    "relevance_score": 2
+  },
+  {
+    "title": "Simplified Sachdev-Ye-Kitaev model simulated on trapped-ion quantum computer - Phys.org",
+    "url": "https://phys.org/news/2025-10-sachdev-ye-kitaev-simulated-ion.html",
+    "source": "NewsAPI (Phys.Org)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Simplified Sachdev-ye-kitaev Model Simulated on Trapped-ion Quantum Computer - Phys.org",
+    "relevance_score": 2
+  },
+  {
+    "title": "What does Fortnite Crew on Xbox Game Pass Ultimate give subscribers? - TrueAchievements",
+    "url": "https://www.trueachievements.com/news/fortnite-crew-xbox-game-pass-ultimate",
+    "source": "NewsAPI (TrueAchievements)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "What Does Fortnite Crew on Xbox Game Pass Ultimate Give Subscribers? - Trueachievements",
+    "relevance_score": 2
+  },
+  {
+    "title": "Opera\u2019s Neon shows just how confusing AI browsers still are - The Verge",
+    "url": "https://www.theverge.com/tech/801899/opera-neon-ai-browser-trial-run",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Opera\u2019s Neon Shows Just How Confusing Ai Browsers Still Are - the Verge",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple employees have \u2018concerns\u2019 over Siri performance in early iOS 26.4 builds: report - 9to5Mac",
+    "url": "https://9to5mac.com/2025/10/19/apple-employees-concerned-by-early-ios-26-4-apple-intelligence-sir-version/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Apple Employees Have \u2018concerns\u2019 Over Siri Performance in Early Ios 26.4 Builds: Report - 9to5mac",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple\u2019s M5 Product Lineup Offers Its Most Minor Upgrades in Years - Bloomberg.com",
+    "url": "https://www.bloomberg.com/news/newsletters/2025-10-19/apple-m5-ipad-pro-vision-pro-macbook-pro-impressions-review-touch-screen-mac-mgxnn1w8",
+    "source": "NewsAPI (Bloomberg)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Apple\u2019s M5 Product Lineup Offers Its Most Minor Upgrades in Years - Bloomberg.com",
+    "relevance_score": 2
+  },
+  {
+    "title": "13 Cool New Gadgets to Keep on Your Radar - Gear Patrol",
+    "url": "https://www.gearpatrol.com/audio/best-new-tech-releases-10-19-2025/",
+    "source": "NewsAPI (Gear Patrol)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "13 Cool New Gadgets to Keep on Your Radar - Gear Patrol",
+    "relevance_score": 2
+  },
+  {
+    "title": "Time to catch \u2018em all again - The Verge",
+    "url": "https://www.theverge.com/tech/801870/pokemon-legends-za-apple-m5-macbook-scorsese-installer",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Time to Catch \u2018em All Again - the Verge",
+    "relevance_score": 2
+  },
+  {
+    "title": "Amazon Is Liquidating the Govee Smart Table Lamp, Now Selling for Pennies if You're Prime - Gizmodo",
+    "url": "https://gizmodo.com/amazon-is-liquidating-the-govee-smart-table-lamp-now-selling-for-pennies-if-youre-prime-2000674062",
+    "source": "NewsAPI (Gizmodo.com)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Amazon Is Liquidating the Govee Smart Table Lamp, Now Selling for Pennies If You're Prime...",
+    "relevance_score": 2
+  },
+  {
+    "title": "The Matic Robot Vacuum Charms and Sucks (in a Good Way) - Gizmodo",
+    "url": "https://gizmodo.com/the-matic-robot-vacuum-charms-and-sucks-in-a-good-way-2000638109",
+    "source": "NewsAPI (Gizmodo.com)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "The Matic Robot Vacuum Charms and Sucks (in a Good Way) - Gizmodo",
+    "relevance_score": 2
+  },
+  {
+    "title": "Gemini in Google Home Keeps Mistaking My Dog for a Cat - WIRED",
+    "url": "https://www.wired.com/story/gemini-in-google-home-keeps-mistaking-my-dog-for-a-cat/",
+    "source": "NewsAPI (Wired)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Gemini in Google Home Keeps Mistaking My Dog for a Cat - Wired",
+    "relevance_score": 2
+  },
+  {
+    "title": "Dead Cells 2 didn't happen because the developers ignored \"pressure\" from players and followed their hearts - PCGamesN",
+    "url": "https://www.pcgamesn.com/dead-cells/2-why-it-never-happened",
+    "source": "NewsAPI (PCGamesN)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Dead Cells 2 Didn't Happen Because the Developers Ignored \"pressure\" From Players and Followed Their...",
+    "relevance_score": 2
+  },
+  {
+    "title": "As Pok\u00e9mon Legends: Z-A launches, we return to Pok\u00e9mon Legends: Arceus' rose-tinted take on the past, and the hard questions it raises about Japanese history - Eurogamer",
+    "url": "https://www.eurogamer.net/as-pokemon-legends-z-a-launches-we-return-to-pokemon-legends-arceus-rose-tinted-take-on-the-past-and-the-hard-questions-it-raises-about-japanese-history",
+    "source": "NewsAPI (Eurogamer.net)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "As Pok\u00e9mon Legends: Z-a Launches, We Return to Pok\u00e9mon Legends: Arceus' Rose-tinted Take on The...",
+    "relevance_score": 2
+  },
+  {
+    "title": "A cosmic heart bursts with light in new deep space astrophotographer portrait (photo) - Space",
+    "url": "https://www.space.com/stargazing/astrophotography/cosmic-heart-nebula-bursts-with-light-in-new-deep-space-astrophotographer-portrait-photo-october-2025",
+    "source": "NewsAPI (Space.com)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "A Cosmic Heart Bursts with Light in New Deep Space Astrophotographer Portrait (photo) - Space",
+    "relevance_score": 2
+  },
+  {
+    "title": "I tried to use an LG G7 in 2025; here\u2019s what happened - Android Police",
+    "url": "https://www.androidpolice.com/lg-g7-2025/",
+    "source": "NewsAPI (Android Police)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "I Tried to Use an Lg G7 in 2025; Here\u2019s What Happened - Android Police",
+    "relevance_score": 2
+  },
+  {
+    "title": "Whatever you do, don't buy these 6 Google gadgets right now - Android Authority",
+    "url": "https://www.androidauthority.com/dont-buy-these-google-gadgets-october-2025-3608007/",
+    "source": "NewsAPI (Android Authority)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Whatever You Do, Don't Buy These 6 Google Gadgets Right Now - Android Authority",
+    "relevance_score": 2
+  },
+  {
+    "title": "Microsoft Confirms Emergency Update For Millions Of Windows Users - Forbes",
+    "url": "https://www.forbes.com/sites/zakdoffman/2025/10/19/microsoft-confirms-emergency-update-for-millions-of-windows-users/",
+    "source": "NewsAPI (Forbes)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Microsoft Confirms Emergency Update for Millions of Windows Users - Forbes",
+    "relevance_score": 2
+  },
+  {
+    "title": "Microsoft confirms that Windows 11 25H2 is now available for everyone to grab - XDA",
+    "url": "https://www.xda-developers.com/microsoft-confirms-windows-11-25h2-now-available-everyone/",
+    "source": "NewsAPI (XDA Developers)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Microsoft Confirms That Windows 11 25h2 Is Now Available for Everyone to Grab - Xda",
+    "relevance_score": 2
+  },
+  {
+    "title": "MLS Cup 2025 hosting scenarios: Where could the final be held? - MLSsoccer.com",
+    "url": "https://www.mlssoccer.com/playoffs/2025/news/mls-cup-2025-hosting-scenarios-where-could-the-final-be-held",
+    "source": "NewsAPI (MLSsoccer.com)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Mls Cup 2025 Hosting Scenarios: Where Could the Final Be Held? - Mlssoccer.com",
+    "relevance_score": 2
+  },
+  {
+    "title": "Tales of Xillia Remastered gets full list of new features and improvements - Nintendo Everything",
+    "url": "https://nintendoeverything.com/tales-xillia-remastered-new-features-improvements-list/",
+    "source": "NewsAPI (Nintendoeverything.com)",
+    "published_date_obj": "2025-10-19",
+    "rewritten_title": "Tales of Xillia Remastered Gets Full List of New Features and Improvements - Nintendo Everything",
+    "relevance_score": 2
+  },
+  {
     "title": "10 Things To Know About Raising Venture Capital for The First Time",
     "url": "https://www.saastr.com/10-things-to-know-about-raising-venture-capital-for-the-first-time/",
     "source": "SaaStr",
@@ -29,6 +485,86 @@
     "source": "NewsAPI (9to5google.com)",
     "published_date_obj": "2025-10-19",
     "rewritten_title": "Gemini Shows Up Early on Google Tv with Speaker-like Voice Selection [gallery] - 9to5google",
+    "relevance_score": 2
+  },
+  {
+    "title": "MindsEye: How ex-Grand Theft Auto boss\u2019s grand vision became a \u00a3200m flop - BBC",
+    "url": "https://www.bbc.com/news/articles/c4gzn34gwvwo",
+    "source": "NewsAPI (BBC News)",
+    "published_date_obj": "2025-10-18",
+    "rewritten_title": "Mindseye: How Ex-grand Theft Auto Boss\u2019s Grand Vision Became a \u00a3200m Flop - Bbc",
+    "relevance_score": 2
+  },
+  {
+    "title": "Phasmophiobia's New Haunted Diner Map Arrives In November - GameSpot",
+    "url": "https://www.gamespot.com/articles/phasmophiobias-new-haunted-diner-map-arrives-in-november/1100-6535531/",
+    "source": "NewsAPI (GameSpot)",
+    "published_date_obj": "2025-10-18",
+    "rewritten_title": "Phasmophiobia's New Haunted Diner Map Arrives in November - Gamespot",
+    "relevance_score": 2
+  },
+  {
+    "title": "Ghost Of Yotei Fans Are Getting Sick Of Having No Enemies To Fight In The \"Literally Empty\" World - TheGamer",
+    "url": "https://www.thegamer.com/ghost-of-yotei-fans-getting-sick-of-no-enemies-to-fight-in-empty-world/",
+    "source": "NewsAPI (TheGamer)",
+    "published_date_obj": "2025-10-18",
+    "rewritten_title": "Ghost of Yotei Fans Are Getting Sick of Having No Enemies to Fight in The...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple's Vision Pro Developer Strap May Receive an Upgrade Next Week - MacRumors",
+    "url": "https://www.macrumors.com/2025/10/18/apple-may-update-vision-pro-developer-strap/",
+    "source": "NewsAPI (MacRumors)",
+    "published_date_obj": "2025-10-18",
+    "rewritten_title": "Apple's Vision Pro Developer Strap May Receive an Upgrade Next Week - Macrumors",
+    "relevance_score": 2
+  },
+  {
+    "title": "Xbox Ally and Xbox Ally X future roadmap explained \u2014 what comes next? - Windows Central",
+    "url": "https://www.windowscentral.com/hardware/handheld-gaming-pc/the-xbox-ally-handheld-gaming-pc-launches-worldwide-and-xbox-already-has-a-roadmap-for-its-future",
+    "source": "NewsAPI (Windows Central)",
+    "published_date_obj": "2025-10-18",
+    "rewritten_title": "Xbox Ally and Xbox Ally X Future Roadmap Explained \u2014 What Comes Next? - Windows...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Amazon Offering Flash Sale on AirPods Pro 2 - Consequence of Sound",
+    "url": "https://consequence.net/2025/10/amazon-flash-sale-airpods-pro-2/",
+    "source": "NewsAPI (Consequence.net)",
+    "published_date_obj": "2025-10-18",
+    "rewritten_title": "Amazon Offering Flash Sale on Airpods Pro 2 - Consequence of Sound",
+    "relevance_score": 2
+  },
+  {
+    "title": "Xbox Triple Confirms It\u2019s Still Making Next-Gen Consoles Post-ROG Ally - Forbes",
+    "url": "https://www.forbes.com/sites/paultassi/2025/10/18/xbox-triple-confirms-its-still-making-next-gen-consoles-post-rog-ally/",
+    "source": "NewsAPI (Forbes)",
+    "published_date_obj": "2025-10-18",
+    "rewritten_title": "Xbox Triple Confirms It\u2019s Still Making Next-gen Consoles Post-rog Ally - Forbes",
+    "relevance_score": 2
+  },
+  {
+    "title": "Tor browser's latest build cuts Mozilla's AI features in the name of privacy - TechSpot",
+    "url": "https://www.techspot.com/news/109907-tor-browser-latest-build-cuts-mozilla-ai-features.html",
+    "source": "NewsAPI (TechSpot)",
+    "published_date_obj": "2025-10-18",
+    "rewritten_title": "Tor Browser's Latest Build Cuts Mozilla's Ai Features in the Name of Privacy - Techspot",
+    "relevance_score": 2
+  },
+  {
+    "title": "Google Docs vs. Microsoft 365: After Using These Office Suites for Decades, the Winner Is Clear - PCMag",
+    "url": "https://www.pcmag.com/comparisons/google-docs-vs-microsoft-365-after-using-these-office-suites-for-decades",
+    "source": "NewsAPI (PCMag.com)",
+    "published_date_obj": "2025-10-18",
+    "rewritten_title": "Google Docs Vs. Microsoft 365: After Using These Office Suites for Decades, the Winner Is...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Company reaches pivotal milestone in delivering 'limitless' energy to the grid: 'We've laid out the world's first commercially viable ... pathway' - Yahoo",
+    "url": "https://www.yahoo.com/news/articles/company-reaches-pivotal-milestone-delivering-050000768.html",
+    "source": "NewsAPI (Yahoo Entertainment)",
+    "published_date_obj": "2025-10-18",
+    "rewritten_title": "Company Reaches Pivotal Milestone in Delivering 'limitless' Energy to the Grid: 'we've Laid Out The...",
     "relevance_score": 2
   },
   {
@@ -1062,541 +1598,5 @@
     "published_date_obj": "2025-10-16",
     "rewritten_title": "Windows 10 Extended Updates Program Not Showing Up? Here\u2019s What to Do - Pcworld.com",
     "relevance_score": 2
-  },
-  {
-    "title": "Panasonic Brings Gorgeous Gold Lumix S9 to the US - PetaPixel",
-    "url": "https://petapixel.com/2025/10/16/panasonic-brings-gorgeous-gold-lumix-s9-to-the-us/",
-    "source": "NewsAPI (PetaPixel)",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Panasonic Brings Gorgeous Gold Lumix S9 to the Us - Petapixel",
-    "relevance_score": 2
-  },
-  {
-    "title": "Exclusive: OpenAI hires black hole physicist in broader science push - Axios",
-    "url": "https://www.axios.com/2025/10/16/openai-science-black-hole-physicist",
-    "source": "NewsAPI (Axios)",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Exclusive: Openai Hires Black Hole Physicist in Broader Science Push - Axios",
-    "relevance_score": 2
-  },
-  {
-    "title": "Nine things to know before playing Pok\u00e9mon Legends Z-A - Eurogamer",
-    "url": "https://www.eurogamer.net/nine-things-to-know-before-playing-pokemon-legends-z-a",
-    "source": "NewsAPI (Eurogamer.net)",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Nine Things to Know Before Playing Pok\u00e9mon Legends Z-a - Eurogamer",
-    "relevance_score": 2
-  },
-  {
-    "title": "New space debris shield? Satellites and astronauts could suit up in novel 'Space Armor' - Space",
-    "url": "https://www.space.com/space-exploration/satellites/new-space-debris-shield-satellites-and-astronauts-could-suit-up-in-novel-space-armor",
-    "source": "NewsAPI (Space.com)",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "New Space Debris Shield? Satellites and Astronauts Could Suit Up in Novel 'space Armor' -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Confirmed: Samsung drops Galaxy S26 Edge in favor of Galaxy S26+ - SamMobile",
-    "url": "https://www.sammobile.com/news/galaxy-s26-edge-dropped-favor-galaxy-s26-plus-confirmed/",
-    "source": "NewsAPI (SamMobile)",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Confirmed: Samsung Drops Galaxy S26 Edge in Favor of Galaxy S26+ - Sammobile",
-    "relevance_score": 2
-  },
-  {
-    "title": "'Milestone': Google AI reveals new method to make cancer treatable - Interesting Engineering",
-    "url": "https://interestingengineering.com/health/google-deepmind-new-ai-cancer-treatment",
-    "source": "NewsAPI (Interesting Engineering)",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "'milestone': Google Ai Reveals New Method to Make Cancer Treatable - Interesting Engineering",
-    "relevance_score": 2
-  },
-  {
-    "title": "How to Participate in Pok\u00e9mon Legends: Z\u2011A Ranked Battles - Pokemon.com",
-    "url": "https://www.pokemon.com/us/strategy/how-to-participate-in-pokemon-legends-z-a-ranked-battles",
-    "source": "NewsAPI (Pokemon.com)",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "How to Participate in Pok\u00e9mon Legends: Z\u2011a Ranked Battles - Pokemon.com",
-    "relevance_score": 2
-  },
-  {
-    "title": "Best Pokemon To Catch Early In Pokemon Legends: Z-A And Where To Find Them - GameSpot",
-    "url": "https://www.gamespot.com/gallery/best-pokemon-to-catch-early-in-pokemon-legends-z-a-and-where-to-find-them/2900-7138/",
-    "source": "NewsAPI (GameSpot)",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Best Pokemon to Catch Early in Pokemon Legends: Z-a and Where to Find Them -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "20VC x SaaStr is Back!! The New Rules of Venture: Portfolio Construction, Kingmaking, and When Founders Walk Away",
-    "url": "https://www.saastr.com/20vc-x-saastr-is-back-the-new-rules-of-venture-portfolio-construction-kingmaking-and-when-founders-walk-away/",
-    "source": "SaaStr",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "20vc X Saastr Is Back!! the New Rules of Venture: Portfolio Construction, Kingmaking, and When...",
-    "relevance_score": 3
-  },
-  {
-    "title": "In Startups, The Harder You Work in Sales, The More Good Leads You Get",
-    "url": "https://www.saastr.com/n-startups-the-harder-you-work-in-sales-the-more-good-leads-you-get/",
-    "source": "SaaStr",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "In Startups, the Harder You Work in Sales, the More Good Leads You Get",
-    "relevance_score": 3
-  },
-  {
-    "title": "Dear SaaStr: What\u2019s a Good Lead-to-Demo Ratio for our SDR:AE Handoff?",
-    "url": "https://www.saastr.com/dear-saastr-whats-a-good-lead-to-demo-ratio-for-our-sdrae-handoff/",
-    "source": "SaaStr",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Dear Saastr: What\u2019s a Good Lead-to-demo Ratio for Our Sdr:ae Handoff?",
-    "relevance_score": 3
-  },
-  {
-    "title": "Good Morning & Good Luck",
-    "url": "https://www.tomtunguz.com/good-morning-and-good-luck/",
-    "source": "Tomasz Tunguz",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Good Morning & Good Luck",
-    "relevance_score": 3
-  },
-  {
-    "title": "Salesforce Ventures Deploys Over $850M of Its $1B AI Fund to Back the AI Revolution",
-    "url": "https://www.salesforce.com/news/stories/ventures-deploys-ai-fund/",
-    "source": "Salesforce Blog",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Salesforce Ventures Deploys Over $850m of Its $1b Ai Fund to Back the Ai Revolution",
-    "relevance_score": 3
-  },
-  {
-    "title": "How to navigate GitHub Universe (or any tech conference) if you\u2019re an introvert",
-    "url": "https://github.blog/news-insights/company-news/how-to-navigate-github-universe-or-any-tech-conference-if-youre-an-introvert/",
-    "source": "GitHub Blog",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "How to Navigate Github Universe (or Any Tech Conference) If You\u2019re an Introvert",
-    "relevance_score": 3
-  },
-  {
-    "title": "Variable and artifact sharing in GitLab parent-child pipelines",
-    "url": "https://about.gitlab.com/blog/variable-and-artifact-sharing-in-gitlab-parent-child-pipelines/",
-    "source": "GitLab Blog",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Variable and Artifact Sharing in Gitlab Parent-child Pipelines",
-    "relevance_score": 3
-  },
-  {
-    "title": "Improving the trustworthiness of Javascript on the Web",
-    "url": "https://blog.cloudflare.com/improving-the-trustworthiness-of-javascript-on-the-web/",
-    "source": "CloudFlare Blog",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Improving the Trustworthiness of Javascript on the Web",
-    "relevance_score": 3
-  },
-  {
-    "title": "18 Small Changes That Made Buffer a Little Better in 2025",
-    "url": "https://buffer.com/resources/small-product-changes-2025/",
-    "source": "Buffer Blog",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "18 Small Changes That Made Buffer a Little Better in 2025",
-    "relevance_score": 3
-  },
-  {
-    "title": "13 Trending Songs on TikTok in 2025 (+ How to Use Them)",
-    "url": "https://buffer.com/resources/trending-songs-tiktok/",
-    "source": "Buffer Blog",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "13 Trending Songs on Tiktok in 2025 (+ How to Use Them)",
-    "relevance_score": 3
-  },
-  {
-    "title": "Debug Docker Builds with Visual Studio Code",
-    "url": "https://www.docker.com/blog/debug-docker-builds-with-visual-studio-code/",
-    "source": "Docker Blog",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Debug Docker Builds with Visual Studio Code",
-    "relevance_score": 3
-  },
-  {
-    "title": "Figma\u2019s CEO: Why AI makes design, craft, and quality the new moat for startups | Dylan Field",
-    "url": "https://www.lennysnewsletter.com/p/why-ai-makes-design-craft-and-quality-the-new-moat",
-    "source": "Lenny's Newsletter",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Figma\u2019s Ceo: Why Ai Makes Design, Craft, and Quality the New Moat for Startups |...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Why is Zod so slow?",
-    "url": "https://blog.logrocket.com/why-zod-slow/",
-    "source": "LogRocket",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Why Is Zod So Slow?",
-    "relevance_score": 3
-  },
-  {
-    "title": "Why PMs need to master qualitative tests now more than ever",
-    "url": "https://blog.logrocket.com/product-management/master-qualitative-tests-now-more-than-ever/",
-    "source": "LogRocket",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Why Pms Need to Master Qualitative Tests Now More Than Ever",
-    "relevance_score": 3
-  },
-  {
-    "title": "Seoul weighs approval for Google, Apple high-resolution map requests",
-    "url": "https://techcrunch.com/2025/10/15/seoul-weighs-approval-for-google-apple-high-resolution-map-requests/",
-    "source": "TechCrunch Enterprise",
-    "published_date_obj": "2025-10-16",
-    "rewritten_title": "Seoul Weighs Approval for Google, Apple High-resolution Map Requests",
-    "relevance_score": 3
-  },
-  {
-    "title": "Battlefield 6 Devs Say New Conquest Tweaks Will Improve the Pace of Matches, But Fans Have Other Ideas - IGN",
-    "url": "https://www.ign.com/articles/battlefield-6-devs-say-new-conquest-tweaks-will-improve-the-pace-of-matches-but-fans-have-other-ideas",
-    "source": "NewsAPI (IGN)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Battlefield 6 Devs Say New Conquest Tweaks Will Improve the Pace of Matches, but Fans...",
-    "relevance_score": 12
-  },
-  {
-    "title": "Eddy Cue Explains Why Apple TV+ is Now Apple TV - MacRumors",
-    "url": "https://www.macrumors.com/2025/10/15/eddy-cue-explains-apple-tv-plus-name-change/",
-    "source": "NewsAPI (MacRumors)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Eddy Cue Explains Why Apple Tv+ Is Now Apple Tv - Macrumors",
-    "relevance_score": 2
-  },
-  {
-    "title": "Roku Hid Some Good News in an AI Update No One Wants - Lifehacker",
-    "url": "https://lifehacker.com/tech/roku-ai-assistant-update",
-    "source": "NewsAPI (Lifehacker.com)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Roku Hid Some Good News in an Ai Update No One Wants - Lifehacker",
-    "relevance_score": 2
-  },
-  {
-    "title": "Blizzard's Platform & Technology workers vote to unionize - GamesIndustry.biz",
-    "url": "https://www.gamesindustry.biz/blizzards-platform-technology-workers-vote-to-unionize",
-    "source": "NewsAPI (GamesIndustry.biz)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Blizzard's Platform & Technology Workers Vote to Unionize - Gamesindustry.biz",
-    "relevance_score": 2
-  },
-  {
-    "title": "PlayStation Plus Extra/Premium Games For October 2025 Include One Of The Best Horror Games Of All Time - GameSpot",
-    "url": "https://www.gamespot.com/gallery/playstation-plus-extra-premium-games-for-october-2025-include-one-of-the-best-horror-games-of-all-time/2900-7135/",
-    "source": "NewsAPI (GameSpot)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Playstation Plus Extra/premium Games for October 2025 Include One of the Best Horror Games Of...",
-    "relevance_score": 2
-  },
-  {
-    "title": "The Super Hero Team-based PVP Shooter - Marvel Rivals",
-    "url": "https://www.marvelrivals.com/gameupdate/20251015/41548_1264918.html",
-    "source": "NewsAPI (Marvelrivals.com)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "The Super Hero Team-based Pvp Shooter - Marvel Rivals",
-    "relevance_score": 2
-  },
-  {
-    "title": "Google Messages adds Key Verifier and spam link detection - 9to5Google",
-    "url": "http://9to5google.com/2025/10/15/google-messages-key-verifier-launch/",
-    "source": "NewsAPI (9to5google.com)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Google Messages Adds Key Verifier and Spam Link Detection - 9to5google",
-    "relevance_score": 2
-  },
-  {
-    "title": "7 Invisible Home Devices That Will Revolutionize Your Security - CNET",
-    "url": "https://www.cnet.com/home/security/7-invisible-home-devices-that-will-revolutionize-your-security/",
-    "source": "NewsAPI (CNET)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "7 Invisible Home Devices That Will Revolutionize Your Security - Cnet",
-    "relevance_score": 2
-  },
-  {
-    "title": "Once unthinkable, NASA and Lockheed now consider launching Orion on other rockets - Ars Technica",
-    "url": "https://arstechnica.com/space/2025/10/once-unthinkable-nasa-and-lockheed-now-consider-launching-orion-on-other-rockets/",
-    "source": "NewsAPI (Ars Technica)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Once Unthinkable, Nasa and Lockheed Now Consider Launching Orion on Other Rockets - Ars Technica",
-    "relevance_score": 12
-  },
-  {
-    "title": "Aziz Ansari explains why he doesn't use a smartphone or email \u2014 and why he's skeptical of ChatGPT - Business Insider",
-    "url": "https://www.businessinsider.com/aziz-ansari-flip-phone-no-email-chatgpt-luddite-smartphone-ai-2025-10",
-    "source": "NewsAPI (Business Insider)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Aziz Ansari Explains Why He Doesn't Use a Smartphone or Email \u2014 and Why He's...",
-    "relevance_score": 12
-  },
-  {
-    "title": "Tarkov's brutal FPS action collides with Dead by Daylight's horror crossovers in this new extraction shooter - PCGamesN",
-    "url": "https://www.pcgamesn.com/rules-of-engagement-the-grey-state/reveal",
-    "source": "NewsAPI (PCGamesN)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Tarkov's Brutal Fps Action Collides with Dead by Daylight's Horror Crossovers in This New Extraction...",
-    "relevance_score": 12
-  },
-  {
-    "title": "What do you think of YouTube\u2019s new video player redesign? [Poll] - 9to5Google",
-    "url": "http://9to5google.com/2025/10/15/what-do-you-think-of-youtubes-new-video-player-redesign-poll/",
-    "source": "NewsAPI (9to5google.com)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "What Do You Think of Youtube\u2019s New Video Player Redesign? [poll] - 9to5google",
-    "relevance_score": 12
-  },
-  {
-    "title": "Google\u2019s AI video generator is getting better editing and more audio - The Verge",
-    "url": "https://www.theverge.com/news/800371/google-veo-3-1-flow-audio",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Google\u2019s Ai Video Generator Is Getting Better Editing and More Audio - the Verge",
-    "relevance_score": 12
-  },
-  {
-    "title": "Roku might've just solved the biggest problem with home TV streaming - here's how - ZDNET",
-    "url": "https://www.zdnet.com/home-and-office/home-entertainment/roku-mightve-just-solved-the-biggest-problem-with-home-tv-streaming-heres-how/",
-    "source": "NewsAPI (ZDNet)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Roku Might've Just Solved the Biggest Problem with Home Tv Streaming - Here's How -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Apple\u2019s Head of ChatGPT-Like AI Search Effort to Leave for Meta - Bloomberg.com",
-    "url": "https://www.bloomberg.com/news/articles/2025-10-15/apple-s-newly-tapped-head-of-chatgpt-like-ai-search-effort-to-leave-for-meta",
-    "source": "NewsAPI (Bloomberg)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Apple\u2019s Head of Chatgpt-like Ai Search Effort to Leave for Meta - Bloomberg.com",
-    "relevance_score": 2
-  },
-  {
-    "title": "New PvZ Replanted Trailer Is Very Cringey And Not Good - Kotaku",
-    "url": "https://kotaku.com/new-plants-vs-zombies-remastered-replanted-trailer-cringe-fake-twitch-stream-2000635689",
-    "source": "NewsAPI (Kotaku)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "New Pvz Replanted Trailer Is Very Cringey and Not Good - Kotaku",
-    "relevance_score": 2
-  },
-  {
-    "title": "Pokemon Legends: Z-A datamine reveals returning Pokemon and new Mega Evolutions for DLC - Nintendo Everything",
-    "url": "https://nintendoeverything.com/pokemon-legends-z-a-datamine-reveals-returning-pokemon-and-new-mega-evolutions-for-dlc/",
-    "source": "NewsAPI (Nintendoeverything.com)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Pokemon Legends: Z-a Datamine Reveals Returning Pokemon and New Mega Evolutions for Dlc - Nintendo...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Here are our PS Plus Extra and Premium games for October - Eurogamer",
-    "url": "https://www.eurogamer.net/here-are-our-ps-plus-extra-and-premium-games-for-october",
-    "source": "NewsAPI (Eurogamer.net)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Here Are Our Ps Plus Extra and Premium Games for October - Eurogamer",
-    "relevance_score": 2
-  },
-  {
-    "title": "Apple Launches iPad Pro, Vision Pro and MacBook Pro With M5 Chip - Bloomberg.com",
-    "url": "https://www.bloomberg.com/news/articles/2025-10-15/apple-updates-ipad-pro-macbook-pro-vision-pro-with-its-m5-chip",
-    "source": "NewsAPI (Bloomberg)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Apple Launches Ipad Pro, Vision Pro and Macbook Pro with M5 Chip - Bloomberg.com",
-    "relevance_score": 2
-  },
-  {
-    "title": "Review: BALL x PIT (Switch) - Ballsy, Beautifully Balanced, Mercilessly Addictive - Nintendo Life",
-    "url": "https://www.nintendolife.com/reviews/nintendo-switch/ball-x-pit",
-    "source": "NewsAPI (Nintendo Life)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Review: Ball X Pit (switch) - Ballsy, Beautifully Balanced, Mercilessly Addictive - Nintendo Life",
-    "relevance_score": 2
-  },
-  {
-    "title": "Microsoft Suddenly Offers Windows 10 Update In Store\u2014Buy Now - Forbes",
-    "url": "https://www.forbes.com/sites/zakdoffman/2025/10/15/microsoft-suddenly-offers-windows-10-update-in-store-buy-now/",
-    "source": "NewsAPI (Forbes)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Microsoft Suddenly Offers Windows 10 Update in Store\u2014buy Now - Forbes",
-    "relevance_score": 2
-  },
-  {
-    "title": "How Sam Altman Played Hollywood With OpenAI's Sora 2 - The Hollywood Reporter",
-    "url": "http://www.hollywoodreporter.com/business/business-news/sam-altman-openai-sora-agencies-talent-1236401618/",
-    "source": "NewsAPI (Hollywood Reporter)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "How Sam Altman Played Hollywood with Openai's Sora 2 - the Hollywood Reporter",
-    "relevance_score": 2
-  },
-  {
-    "title": "\u2018Borderlands 4\u2019 Is On Sale After A Month As It Trails \u2018Borderlands 3\u2019 - Forbes",
-    "url": "https://www.forbes.com/sites/paultassi/2025/10/15/borderlands-4-is-on-sale-after-a-month-as-it-trails-borderlands-3/",
-    "source": "NewsAPI (Forbes)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "\u2018borderlands 4\u2019 Is on Sale After a Month as It Trails \u2018borderlands 3\u2019 - Forbes",
-    "relevance_score": 2
-  },
-  {
-    "title": "Battlefield 6 sells over 7m units across PC and console in five days - GamesIndustry.biz",
-    "url": "https://www.gamesindustry.biz/battlefield-6-sells-over-7m-units-across-pc-and-console-in-five-days",
-    "source": "NewsAPI (GamesIndustry.biz)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Battlefield 6 Sells Over 7m Units Across Pc and Console in Five Days - Gamesindustry.biz",
-    "relevance_score": 2
-  },
-  {
-    "title": "Study Reveals The Surprising Age at Which Your Brain Reaches Its Peak - ScienceAlert",
-    "url": "https://www.sciencealert.com/study-reveals-the-surprising-age-at-which-your-brain-reaches-its-peak",
-    "source": "NewsAPI (ScienceAlert)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Study Reveals the Surprising Age at Which Your Brain Reaches Its Peak - Sciencealert",
-    "relevance_score": 2
-  },
-  {
-    "title": "Two New Windows Zero-Days Exploited in the Wild \u2014 One Affects Every Version Ever Shipped - The Hacker News",
-    "url": "https://thehackernews.com/2025/10/two-new-windows-zero-days-exploited-in.html",
-    "source": "NewsAPI (Internet)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Two New Windows Zero-days Exploited in the Wild \u2014 One Affects Every Version Ever Shipped...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Google rolling out Android 16 QPR2 Beta 3 for Pixel - 9to5Google",
-    "url": "http://9to5google.com/2025/10/15/android-16-qpr2-beta-3-pixel/",
-    "source": "NewsAPI (9to5google.com)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Google Rolling Out Android 16 Qpr2 Beta 3 for Pixel - 9to5google",
-    "relevance_score": 2
-  },
-  {
-    "title": "Google will let friends help you recover an account - The Verge",
-    "url": "https://www.theverge.com/news/799780/google-account-recovery-trusted-contacts-mobile-number",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Google Will Let Friends Help You Recover an Account - the Verge",
-    "relevance_score": 2
-  },
-  {
-    "title": "5 Critical Phases of Building Your SaaS Sales Machine:  Jason Lemkin + Harry Stebbings",
-    "url": "https://www.saastr.com/5-critical-phases-of-building-your-saas-sales-machine-jason-lemkin-harry-stebbings/",
-    "source": "SaaStr",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "5 Critical Phases of Building Your Saas Sales Machine: Jason Lemkin + Harry Stebbings",
-    "relevance_score": 3
-  },
-  {
-    "title": "Dear SaaStr:  I\u2019m Joining as VP of Sales at $3m ARR.  What Should My Priorities Be?",
-    "url": "https://www.saastr.com/dear-saastr-im-joining-as-vp-of-sales-at-3m-arr-what-should-my-priorities-be/",
-    "source": "SaaStr",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Dear Saastr: I\u2019m Joining as Vp of Sales at $3m Arr. What Should My Priorities...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Building an Agentic Enterprise: The Dreamforce 2025 Keynote in Under 6 Minutes",
-    "url": "https://www.salesforce.com/news/linked-content/building-an-agentic-enterprise-the-dreamforce-2025-keynote-in-under-6-minutes/",
-    "source": "Salesforce Blog",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Building an Agentic Enterprise: the Dreamforce 2025 Keynote in Under 6 Minutes",
-    "relevance_score": 3
-  },
-  {
-    "title": "Take a Tour of Agentforce City, Where \u200cEnterprises Put Agents into Action",
-    "url": "https://www.salesforce.com/news/stories/agentforce-city-dreamforce-2025/",
-    "source": "Salesforce Blog",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Take a Tour of Agentforce City, Where \u200centerprises Put Agents Into Action",
-    "relevance_score": 3
-  },
-  {
-    "title": "Salesforce and AWS Accelerate AI Transformation for Agentic Enterprises",
-    "url": "https://www.salesforce.com/news/stories/aws-collaboration-accelerates-ai-tranformation/",
-    "source": "Salesforce Blog",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Salesforce and Aws Accelerate Ai Transformation for Agentic Enterprises",
-    "relevance_score": 3
-  },
-  {
-    "title": "What\u2019s new in Copilot Studio: September 2025",
-    "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-september-2025/",
-    "source": "Microsoft 365 Blog",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "What\u2019s New in Copilot Studio: September 2025",
-    "relevance_score": 3
-  },
-  {
-    "title": "What\u2019s new with Fin 3: The best AI Agent for complex queries across every channel",
-    "url": "https://www.intercom.com/blog/whats-new-with-fin-3/",
-    "source": "Intercom Blog",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "What\u2019s New with Fin 3: the Best Ai Agent for Complex Queries Across Every Channel",
-    "relevance_score": 3
-  },
-  {
-    "title": "Copilot: Faster, smarter, and built for how you work now",
-    "url": "https://github.blog/ai-and-ml/github-copilot/copilot-faster-smarter-and-built-for-how-you-work-now/",
-    "source": "GitHub Blog",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Copilot: Faster, Smarter, and Built for How You Work Now",
-    "relevance_score": 3
-  },
-  {
-    "title": "Secure coding in JavaScript",
-    "url": "https://stackoverflow.blog/2025/10/15/secure-coding-in-javascript/",
-    "source": "Stack Overflow Blog",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Secure Coding in Javascript",
-    "relevance_score": 3
-  },
-  {
-    "title": "Eightfold co-founders raise $35M for Viven, an AI digital twin startup for querying unavailable co-workers",
-    "url": "https://techcrunch.com/2025/10/15/eightfold-co-founders-raise-35m-for-viven-an-ai-digital-twin-startup-for-querying-unavailable-coworkers/",
-    "source": "TechCrunch Enterprise",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Eightfold Co-founders Raise $35m for Viven, an Ai Digital Twin Startup for Querying Unavailable Co-workers",
-    "relevance_score": 3
-  },
-  {
-    "title": "Liberate bags $50M at $300M valuation to bring AI deeper into insurance back offices",
-    "url": "https://techcrunch.com/2025/10/15/liberate-bags-50m-at-300m-valuation-to-bring-ai-deeper-into-insurance-back-offices/",
-    "source": "TechCrunch Enterprise",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Liberate Bags $50m at $300m Valuation to Bring Ai Deeper Into Insurance Back Offices",
-    "relevance_score": 3
-  },
-  {
-    "title": "Nscale\u00a0inks massive AI infrastructure deal with Microsoft",
-    "url": "https://techcrunch.com/2025/10/15/nscale-inks-massive-ai-infrastructure-deal-with-microsoft/",
-    "source": "TechCrunch Enterprise",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Nscale Inks Massive Ai Infrastructure Deal with Microsoft",
-    "relevance_score": 3
-  },
-  {
-    "title": "Everything I\u2019m Trying to Grow to 1,000 Followers on Threads",
-    "url": "https://buffer.com/resources/threads-growth-plan/",
-    "source": "Buffer Blog",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Everything I\u2019m Trying to Grow to 1,000 Followers on Threads",
-    "relevance_score": 3
-  },
-  {
-    "title": "Docker Hardened Images: crafted by humans, protected by AI",
-    "url": "https://www.docker.com/blog/docker-hardened-images-crafted-by-humans-protected-by-ai/",
-    "source": "Docker Blog",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Docker Hardened Images: Crafted by Humans, Protected by Ai",
-    "relevance_score": 3
-  },
-  {
-    "title": "How to add MCP Servers to Gemini CLI with Docker MCP Toolkit",
-    "url": "https://www.docker.com/blog/how-to-set-up-gemini-cli-with-mcp-toolkit/",
-    "source": "Docker Blog",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "How to Add Mcp Servers to Gemini Cli with Docker Mcp Toolkit",
-    "relevance_score": 3
-  },
-  {
-    "title": "Beyond Chatbots: How Liberate Is Automating the Future of Insurance",
-    "url": "https://www.battery.com/blog/beyond-chatbots-how-liberate-is-automating-the-future-of-insurance/",
-    "source": "Battery Ventures",
-    "published_date_obj": "2025-10-15",
-    "rewritten_title": "Beyond Chatbots: How Liberate Is Automating the Future of Insurance",
-    "relevance_score": 3
   }
 ]
