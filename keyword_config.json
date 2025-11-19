@@ -88,6 +88,17 @@
       "page_type": "curated",
       "meta_title": "Tech Breakthrough News - Revolutionary Technology Innovations",
       "meta_description": "Revolutionary tech breakthroughs, cutting-edge innovations, and game-changing technology developments."
+    },
+    "saas-news-today": {
+      "title": "SaaS News Today",
+      "description": "Today's most important SaaS industry news, breaking developments, and trending software business stories",
+      "filename": "saas-news-today.html",
+      "keywords": ["saas news today", "saas news", "saas updates", "software news", "enterprise software news", "b2b software news", "saas industry", "saas daily news", "saas funding news", "saas product news", "software industry news", "saas breaking news"],
+      "negative_keywords": ["tutorial", "course", "gambling"],
+      "max_articles": 30,
+      "page_type": "curated",
+      "meta_title": "SaaS News Today - Breaking Software Industry Updates & Daily News",
+      "meta_description": "SaaS news today: Latest funding rounds, product launches, enterprise software developments, and B2B technology trends updated daily."
     }
   },
   "settings": {

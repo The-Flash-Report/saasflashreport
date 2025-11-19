@@ -198,20 +198,20 @@ class FlashSummaryGenerator:
         html_content = content
 
         # Convert ## Headings to styled <h3>
-        html_content = re.sub(r'^##\s*(.+)$', f'<h3 style="color:{self.config.link_color}; font-size: 1.3em; margin: 20px 0 10px 0; font-weight: bold; border-bottom: 2px solid {self.config.link_color}; padding-bottom: 5px;">\\1</h3>', html_content, flags=re.MULTILINE)
+        html_content = re.sub(r'^##\s*(.+)$', f'<h3 style="color:{self.config.link_color}; font-size: 1.3em; margin: 20px 0 10px 0; font-weight: bold; border-bottom: 2px solid {self.config.link_color}; padding-bottom: 5px;">\\\\1</h3>', html_content, flags=re.MULTILINE)
 
         # Convert ### Headings to styled <h4>
-        html_content = re.sub(r'^###\s*(.+)$', f'<h4 style="color:{self.config.link_color}; font-size: 1.2em; margin: 15px 0 10px 0; font-weight: bold;">\\1</h4>', html_content, flags=re.MULTILINE)
+        html_content = re.sub(r'^###\s*(.+)$', f'<h4 style="color:{self.config.link_color}; font-size: 1.2em; margin: 15px 0 10px 0; font-weight: bold;">\\\\1</h4>', html_content, flags=re.MULTILINE)
 
         # Convert markdown links [text](url) to HTML links
-        html_content = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', f'<a href="\\2" target="_blank" rel="noopener" style="color: {self.config.link_color};">\\1</a>', html_content)
+        html_content = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', f'<a href="\\\\2" target="_blank" rel="noopener" style="color: {self.config.link_color};">\\\\1</a>', html_content)
         
         # Convert **bold** to <strong>
         html_content = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\\1</strong>', html_content)
         
         # Convert bullet points to styled list items with brand color
         # Handles -, *, and • prefixes
-        html_content = re.sub(r'^[*-•]\s+(.+)$', f'<span style="color: {self.config.link_color}; font-weight: bold;">•</span> \\1', html_content, flags=re.MULTILINE)
+        html_content = re.sub(r'^[*-•]\s+(.+)$', f'<span style="color: {self.config.link_color}; font-weight: bold;">•</span> \\\\1', html_content, flags=re.MULTILINE)
         
         # Convert newlines to <br> tags
         html_content = re.sub(r'\n', '<br>', html_content)
