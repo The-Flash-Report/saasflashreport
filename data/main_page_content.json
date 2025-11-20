@@ -1,18 +1,458 @@
 {
     "SaaS Funding": [],
-    "Enterprise Software": [],
-    "Product Launches": [],
-    "SaaS Analytics": [],
-    "B2B Technology": [],
-    "Software Industry": [],
-    "SaaS Acquisitions": [],
-    "SaaS Metrics": [
+    "Enterprise Software": [
         {
-            "title": "A guide to SaaS pricing models",
-            "url": "https://alleged-peace.flywheelsites.com/saas-pricing-models/",
+            "title": "\"Trailblazing\" Interplay co-founder Rebecca Heineman dies aged 62 - GamesIndustry.biz",
+            "url": "https://www.gamesindustry.biz/trailblazing-interplay-co-founder-rebecca-heineman-dies-aged-62",
+            "source": "NewsAPI (GamesIndustry.biz)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "\"trailblazing\" Interplay Co-founder Rebecca Heineman Dies Aged 62 - Gamesindustry.biz"
+        }
+    ],
+    "Product Launches": [
+        {
+            "title": "EA will skip next year\u2019s F1 game and release update DLC instead - The Verge",
+            "url": "https://www.theverge.com/news/823675/ea-f1-25-2026-2027-dlc-expansion-update-game",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "Ea Will Skip Next Year\u2019s F1 Game and Release Update Dlc Instead - the Verge"
+        },
+        {
+            "title": "Megabonk Developer Withdraws Game From The Game Awards, Saying It Doesn't Qualify for Debut Indie - IGN",
+            "url": "https://www.ign.com/articles/megabonk-developer-withdraws-game-from-the-game-awards-saying-it-doesnt-qualify-for-debut-indie",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Megabonk Developer Withdraws Game From the Game Awards, Saying It Doesn't Qualify for Debut Indie..."
+        },
+        {
+            "title": "Apple releases iOS 26.2 public beta 2, here\u2019s what\u2019s new - 9to5Mac",
+            "url": "https://9to5mac.com/2025/11/18/apple-releases-ios-26-2-public-beta-2-heres-whats-new/",
+            "source": "NewsAPI (9to5Mac)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Apple Releases Ios 26.2 Public Beta 2, Here\u2019s What\u2019s New - 9to5mac"
+        },
+        {
+            "title": "Google Play announces its best Android apps and games of 2025 - 9to5Google",
+            "url": "http://9to5google.com/2025/11/18/best-android-apps-games-2025/",
+            "source": "NewsAPI (9to5google.com)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Google Play Announces Its Best Android Apps and Games of 2025 - 9to5google"
+        },
+        {
+            "title": "Steam Frame Release Date Window, Possible Price, Specs, And Everything We Know About Valve's Next-Gen VR Headset - GameSpot",
+            "url": "https://www.gamespot.com/articles/steam-frame-release-date-price-specs-everything-we-know/1100-6536287/",
+            "source": "NewsAPI (GameSpot)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Steam Frame Release Date Window, Possible Price, Specs, and Everything We Know About Valve's Next-gen..."
+        },
+        {
+            "title": "xAI CEO Elon Musk, Nvidia CEO Jensen Huang, announced a new 500 megawatt data center for xAI in partnership with Saudi Arabia\u2019s Humain AI company, powered by Nvidia\u2019s computing chips.",
+            "url": "https://www.reddit.com/r/artificial/comments/1p1t9qu/xai_ceo_elon_musk_nvidia_ceo_jensen_huang/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-11-20",
+            "rewritten_title": "Xai Ceo Elon Musk, Nvidia Ceo Jensen Huang, Announced a New 500 Megawatt Data Center..."
+        },
+        {
+            "title": "[R] Segment Anything Model 3 (SAM 3) is released",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1p1cfvx/r_segment_anything_model_3_sam_3_is_released/",
+            "source": "Reddit r/MachineLearning",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "[r] Segment Anything Model 3 (sam 3) Is Released"
+        },
+        {
+            "title": "Meta Releases Segment Anything Model 3",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1p1f6we/meta_releases_segment_anything_model_3/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "Meta Releases Segment Anything Model 3"
+        }
+    ],
+    "SaaS Analytics": [
+        {
+            "title": "It's Time For Dragon Quest's Big Moment - GameSpot",
+            "url": "https://www.gamespot.com/articles/its-time-for-dragon-quests-big-moment/1100-6536241/",
+            "source": "NewsAPI (GameSpot)",
+            "published_date_obj": "2025-11-17",
+            "rewritten_title": "It's Time for Dragon Quest's Big Moment - Gamespot"
+        },
+        {
+            "title": "Rising data center electricity use risks blackouts during winter storms",
+            "url": "https://techcrunch.com/2025/11/19/rising-data-center-electricity-use-risks-blackouts-during-winter-storms/",
+            "source": "TechCrunch Enterprise",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "Rising Data Center Electricity Use Risks Blackouts During Winter Storms"
+        },
+        {
+            "title": "Nvidia sells an H100 for 10 times its manufacturing cost. Nvidia is the big villain company; it's because of them that large models like GPU 4 aren't available to run on consumer hardware. AI development will only advance when this company is dethroned.",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1p1m5gl/nvidia_sells_an_h100_for_10_times_its/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "Nvidia Sells an H100 for 10 Times Its Manufacturing Cost. Nvidia Is the Big Villain..."
+        }
+    ],
+    "B2B Technology": [
+        {
+            "title": "Why it has never been easier or cheaper to build a high-accuracy SaaS attribution model",
+            "url": "https://alleged-peace.flywheelsites.com/why-it-has-never-been-easier-or-cheaper-to-build-a-high-accuracy-saas-attribution-model/",
             "source": "ChartMogul Blog",
             "published_date_obj": null,
-            "rewritten_title": "A Guide to Saas Pricing Models"
+            "rewritten_title": "Why It Has Never Been Easier or Cheaper to Build a High-accuracy Saas Attribution Model"
+        }
+    ],
+    "Software Industry": [
+        {
+            "title": "The M4 MacBook Air is the best value in tech, here\u2019s why - 9to5Mac",
+            "url": "https://9to5mac.com/2025/11/18/the-m4-macbook-air-is-the-best-value-in-tech-heres-why/",
+            "source": "NewsAPI (9to5Mac)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "The M4 Macbook Air Is the Best Value in Tech, Here\u2019s Why - 9to5mac"
+        },
+        {
+            "title": "The Analogue 3D is the modern N64 fans have been waiting for - Ars Technica",
+            "url": "https://arstechnica.com/gaming/2025/11/the-analogue-3d-is-the-modern-n64-fans-have-been-waiting-for/",
+            "source": "NewsAPI (Ars Technica)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "The Analogue 3d Is the Modern N64 Fans Have Been Waiting for - Ars Technica"
+        },
+        {
+            "title": "Google Chrome bug exploited as an 0-day - patch now or risk full system compromise - theregister.com",
+            "url": "https://www.theregister.com/2025/11/18/google_chrome_seventh_0_day/",
+            "source": "NewsAPI (Theregister.com)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Google Chrome Bug Exploited as an 0-day - Patch Now or Risk Full System Compromise..."
+        },
+        {
+            "title": "Tomb Raider's 2013 reboot just shadow dropped on Switch and Switch 2 consoles - Eurogamer",
+            "url": "https://www.eurogamer.net/tomb-raiders-2013-reboot-just-shadow-dropped-on-switch-and-switch-2-consoles",
+            "source": "NewsAPI (Eurogamer.net)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Tomb Raider's 2013 Reboot Just Shadow Dropped on Switch and Switch 2 Consoles - Eurogamer"
+        },
+        {
+            "title": "Google Pulls Down AI Chatbot After It Accuses Senator of Terrible Crime - Futurism",
+            "url": "http://futurism.com/artificial-intelligence/google-chatbot-accuses-senator-crime",
+            "source": "NewsAPI (Futurism)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Google Pulls Down Ai Chatbot After It Accuses Senator of Terrible Crime - Futurism"
+        },
+        {
+            "title": "Microsoft to integrate Sysmon directly into Windows 11, Server 2025 - BleepingComputer",
+            "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-integrate-sysmon-directly-into-windows-11-server-2025/",
+            "source": "NewsAPI (BleepingComputer)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Microsoft to Integrate Sysmon Directly Into Windows 11, Server 2025 - Bleepingcomputer"
+        },
+        {
+            "title": "The Apple Watch Series 11 has plunged to a record low price - The Verge",
+            "url": "https://www.theverge.com/tech/823052/apple-watch-series-11-onn-4k-pro-deal-sale",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "The Apple Watch Series 11 Has Plunged to a Record Low Price - the Verge"
+        },
+        {
+            "title": "Review: Demonschool (Switch) - Jokes, Gore, And '90s Vibes Set Necrosoft's Tactical RPG Apart - Nintendo Life",
+            "url": "https://www.nintendolife.com/reviews/switch-eshop/demonschool",
+            "source": "NewsAPI (Nintendo Life)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Review: Demonschool (switch) - Jokes, Gore, and '90s Vibes Set Necrosoft's Tactical Rpg Apart -..."
+        },
+        {
+            "title": "Microsoft is turning Windows into an \u2018agentic OS,\u2019 starting with the taskbar - The Verge",
+            "url": "https://www.theverge.com/news/821948/microsoft-windows-11-ai-agents-taskbar-integration",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Microsoft Is Turning Windows Into an \u2018agentic Os,\u2019 Starting with the Taskbar - the Verge"
+        },
+        {
+            "title": "The 30 best Christmas gifts for gamers and movie lovers - The Verge",
+            "url": "https://www.theverge.com/gadgets/780850/gaming-entertainment-gifts-ideas-2025",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "The 30 Best Christmas Gifts for Gamers and Movie Lovers - the Verge"
+        },
+        {
+            "title": "Clair Obscur: Expedition 33\u2019s Game Awards nominations show \u2018indie\u2019 is still a meaningless term - Polygon",
+            "url": "https://www.polygon.com/clair-obscur-expedition-33-sandfall-indie-the-game-awards-nominations/",
+            "source": "NewsAPI (Polygon)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Clair Obscur: Expedition 33\u2019s Game Awards Nominations Show \u2018indie\u2019 Is Still a Meaningless Term -..."
+        },
+        {
+            "title": "'The World Is Just Not Ready for AI in Video Games' \u2014 Shroud Accuses The Game Awards of Being 'Rigged' Following Arc Raiders GOTY Snub - IGN",
+            "url": "https://www.ign.com/articles/the-world-is-just-not-ready-for-ai-in-video-games-shroud-accuses-the-game-awards-of-being-rigged-following-arc-raiders-goty-snub",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "'the World Is Just Not Ready for Ai in Video Games' \u2014 Shroud Accuses The..."
+        },
+        {
+            "title": "The Rumour Engine \u2013 18th of November - Warhammer Community",
+            "url": "https://www.warhammer-community.com/articles/hzhor33z/the-rumour-engine-18th-of-november",
+            "source": "NewsAPI (Warhammer-community.com)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "The Rumour Engine \u2013 18th of November - Warhammer Community"
+        },
+        {
+            "title": "As Arc Raiders faces backlash for its AI voices, Dispatch leads call the tech \"a production solution, not a creative one,\" saying it can only offer \"something you've heard before\" - GamesRadar+",
+            "url": "https://www.gamesradar.com/games/adventure/as-arc-raiders-faces-backlash-for-its-ai-voices-dispatch-leads-call-the-tech-a-production-solution-not-a-creative-one-saying-it-can-only-offer-something-youve-heard-before/",
+            "source": "NewsAPI (GamesRadar+)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "As Arc Raiders Faces Backlash for Its Ai Voices, Dispatch Leads Call the Tech \"a..."
+        },
+        {
+            "title": "Krafton CEO allegedly asked AI to \"brainstorm ways to avoid paying\" earnout bonus to Subnautica 2 devs - Eurogamer",
+            "url": "https://www.eurogamer.net/krafton-ceo-allegedly-asked-ai-to-brainstorm-ways-to-avoid-paying-earnout-bonus-to-subnautica-2-devs",
+            "source": "NewsAPI (Eurogamer.net)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Krafton Ceo Allegedly Asked Ai to \"brainstorm Ways to Avoid Paying\" Earnout Bonus to Subnautica..."
+        },
+        {
+            "title": "Battlefield 6 gets a new map today alongside major changes to controller aim assist, and even more weapon dispersion tweaks - VG247",
+            "url": "https://www.vg247.com/battlefield-6-patch-1-1-2-0-new-map-new-weapons-aim-assist-bloom-fixes",
+            "source": "NewsAPI (VG247)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Battlefield 6 Gets a New Map Today Alongside Major Changes to Controller Aim Assist, And..."
+        },
+        {
+            "title": "Amazon Liquidates Bose Headphones at 50% Off, Now Cheaper Than Mid-Range No-Name Models - Kotaku",
+            "url": "https://kotaku.com/amazon-liquidates-bose-headphones-at-50-off-now-cheaper-than-mid-range-no-name-models-2000644975",
+            "source": "NewsAPI (Kotaku)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Amazon Liquidates Bose Headphones at 50% Off, Now Cheaper Than Mid-range No-name Models - Kotaku"
+        },
+        {
+            "title": "The 6 Most Reliable Smart TV Brands, According To Consumer Reports - bgr.com",
+            "url": "https://www.bgr.com/2023042/most-reliable-smart-tv-brands-according-to-consumer-reports/",
+            "source": "NewsAPI (BGR)",
+            "published_date_obj": "2025-11-17",
+            "rewritten_title": "The 6 Most Reliable Smart Tv Brands, According to Consumer Reports - Bgr.com"
+        },
+        {
+            "title": "Is \u2018ARC Raiders\u2019 Or \u2018Black Ops 7\u2019 Winning In Playercount, Sales And Interest? - Forbes",
+            "url": "https://www.forbes.com/sites/paultassi/2025/11/17/is-arc-raiders-or-black-ops-7-winning-in-playercount-sales-and-interest/",
+            "source": "NewsAPI (Forbes)",
+            "published_date_obj": "2025-11-17",
+            "rewritten_title": "Is \u2018arc Raiders\u2019 or \u2018black Ops 7\u2019 Winning in Playercount, Sales and Interest? - Forbes"
+        },
+        {
+            "title": "PS5 Bags Another Hit Console Exclusive Before 2025 Ends - PlayStation LifeStyle",
+            "url": "https://www.playstationlifestyle.net/2025/11/17/ps5-exclusive-rpg-where-winds-meet-2025-hit/",
+            "source": "NewsAPI (PlayStation LifeStyle)",
+            "published_date_obj": "2025-11-17",
+            "rewritten_title": "Ps5 Bags Another Hit Console Exclusive Before 2025 Ends - Playstation Lifestyle"
+        },
+        {
+            "title": "OLED TVs Are Great, But The Smart Money Buys A Different Panel - bgr.com",
+            "url": "https://www.bgr.com/2023187/oled-tv-not-always-worth-money-budget-options/",
+            "source": "NewsAPI (BGR)",
+            "published_date_obj": "2025-11-17",
+            "rewritten_title": "Oled Tvs Are Great, but the Smart Money Buys a Different Panel - Bgr.com"
+        },
+        {
+            "title": "The #1 Clear Sign a VP Will Fail.  Be Honest With Yourself When You See It",
+            "url": "https://www.saastr.com/the-1-clear-sign-a-vp-will-fail/",
+            "source": "SaaStr",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "The #1 Clear Sign a Vp Will Fail. Be Honest with Yourself When You See..."
+        },
+        {
+            "title": "Colony Living Transformed Tenant Onboarding Process and Increased Efficiency by 75% with Process Street",
+            "url": "https://www.process.st/colony-living-case-study/",
+            "source": "Process Street",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "Colony Living Transformed Tenant Onboarding Process and Increased Efficiency by 75% with Process Street"
+        },
+        {
+            "title": "For These Companies, Always-On AI Is a Matter of Course",
+            "url": "https://www.salesforce.com/news/stories/always-on-ai-customer-stories/",
+            "source": "Salesforce Blog",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "For These Companies, Always-on Ai Is a Matter of Course"
+        },
+        {
+            "title": "How we\u2019re making GitHub Copilot smarter with fewer tools",
+            "url": "https://github.blog/ai-and-ml/github-copilot/how-were-making-github-copilot-smarter-with-fewer-tools/",
+            "source": "GitHub Blog",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "How We\u2019re Making Github Copilot Smarter with Fewer Tools"
+        },
+        {
+            "title": "How to write a great agents.md: Lessons from over 2,500 repositories",
+            "url": "https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/",
+            "source": "GitHub Blog",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "How to Write a Great Agents.md: Lessons From Over 2,500 Repositories"
+        },
+        {
+            "title": "How a Simple Google Sheet Helped Me Post Consistently on LinkedIn for the First Time in 5 Years",
+            "url": "https://buffer.com/resources/google-sheet-helped-me-post-consistently/",
+            "source": "Buffer Blog",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "How a Simple Google Sheet Helped Me Post Consistently on Linkedin for the First Time..."
+        },
+        {
+            "title": "6 Must-Try Instagram Story Ideas for Your Next Post",
+            "url": "https://buffer.com/resources/instagram-story-ideas/",
+            "source": "Buffer Blog",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "6 Must-try Instagram Story Ideas for Your Next Post"
+        },
+        {
+            "title": "Why I joined Docker: security at the center of the software supply chain",
+            "url": "https://www.docker.com/blog/why-i-joined-docker-security-at-the-center-of-the-software-supply-chain/",
+            "source": "Docker Blog",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "Why I Joined Docker: Security at the Center of the Software Supply Chain"
+        },
+        {
+            "title": "6 Must-Have MCP Servers (and How to Use Them)",
+            "url": "https://www.docker.com/blog/top-mcp-servers-2025/",
+            "source": "Docker Blog",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "6 Must-have Mcp Servers (and How to Use Them)"
+        },
+        {
+            "title": "\u201cFarm-to-table software\u201d: How I built a Thanksgiving party hub using Lovable for managing invites, dishes, shared recipes, and photos",
+            "url": "https://www.lennysnewsletter.com/p/farm-to-table-software-how-i-built",
+            "source": "Lenny's Newsletter",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "\u201cfarm-to-table Software\u201d: How I Built a Thanksgiving Party Hub Using Lovable for Managing Invites, Dishes,..."
+        },
+        {
+            "title": "The Replay (11/19/25): React 19.2: The async shift is finally here",
+            "url": "https://blog.logrocket.com/the-replay-11-19-25/",
+            "source": "LogRocket",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "The Replay (11/19/25): React 19.2: the Async Shift Is Finally Here"
+        },
+        {
+            "title": "React 19.2: The async shift is finally here",
+            "url": "https://blog.logrocket.com/react-19-2-the-async-shift/",
+            "source": "LogRocket",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "React 19.2: the Async Shift Is Finally Here"
+        },
+        {
+            "title": "No bailout will be provided when AI bubble bursts",
+            "url": "https://www.reddit.com/r/artificial/comments/1p1pmfv/no_bailout_will_be_provided_when_ai_bubble_bursts/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-11-20",
+            "rewritten_title": "No Bailout Will Be Provided When Ai Bubble Bursts"
+        },
+        {
+            "title": "Half of novelists believe AI is likely to replace their work entirely, research finds",
+            "url": "https://www.reddit.com/r/artificial/comments/1p1obty/half_of_novelists_believe_ai_is_likely_to_replace/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-11-20",
+            "rewritten_title": "Half of Novelists Believe Ai Is Likely to Replace Their Work Entirely, Research Finds"
+        },
+        {
+            "title": "How to use LM-harness ?",
+            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1p17dr2/how_to_use_lmharness/",
+            "source": "Reddit r/LargeLanguageModels",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "How to Use Lm-harness ?"
+        },
+        {
+            "title": "The wildest LLM backdoor I\u2019ve seen yet",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1p1grbb/the_wildest_llm_backdoor_ive_seen_yet/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "The Wildest Llm Backdoor I\u2019ve Seen Yet"
+        },
+        {
+            "title": "A day with a medieval court jester (Sora video)",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1p1qhfo/a_day_with_a_medieval_court_jester_sora_video/",
+            "source": "Reddit r/chatgpt",
+            "published_date_obj": "2025-11-20",
+            "rewritten_title": "A Day with a Medieval Court Jester (sora Video)"
+        },
+        {
+            "title": "True story!",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1p1mian/true_story/",
+            "source": "Reddit r/claudeai",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "True Story!"
+        },
+        {
+            "title": "A message from tumblr.",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1p1e89t/a_message_from_tumblr/",
+            "source": "Reddit r/characterai",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "A Message From Tumblr."
+        },
+        {
+            "title": "GPT-5.1 Pro is rolling out today to all Pro users.",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1p1llhl/gpt51_pro_is_rolling_out_today_to_all_pro_users/",
+            "source": "Reddit r/openai",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "Gpt-5.1 Pro Is Rolling Out Today to All Pro Users."
+        },
+        {
+            "title": "AI Agents truth no one talks about",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1p1ah7m/ai_agents_truth_no_one_talks_about/",
+            "source": "Reddit r/ai_agents",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "Ai Agents Truth No One Talks About"
+        }
+    ],
+    "SaaS Acquisitions": [
+        {
+            "title": "The Apple deals worth shopping before Black Friday (and the discounts to expect) - The Verge",
+            "url": "https://www.theverge.com/tech/821484/black-friday-best-early-apple-deals-2025",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "The Apple Deals Worth Shopping Before Black Friday (and the Discounts to Expect) - The..."
+        },
+        {
+            "title": "Deals for Today: The Best Early Black Friday Discounts and Restocks on Pok\u00e9mon TCG and MTG - IGN",
+            "url": "https://www.ign.com/articles/deals-for-today-the-best-early-black-friday-discounts-and-restocks-on-pokmon-tcg-and-mtg",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Deals for Today: the Best Early Black Friday Discounts and Restocks on Pok\u00e9mon Tcg And..."
+        },
+        {
+            "title": "GameStop Reveals Its Black Friday Ad for 2025 Alongside Early Deals - IGN",
+            "url": "https://www.ign.com/articles/gamestop-reveals-its-black-friday-ad-for-2025-alongside-early-deals",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Gamestop Reveals Its Black Friday Ad for 2025 Alongside Early Deals - Ign"
+        },
+        {
+            "title": "The Alienware Black Friday Sale Starts Early with Some Amazing Deals on Gaming PCs and Laptops - IGN",
+            "url": "https://www.ign.com/articles/dell-alienware-early-black-friday-sale-2025-best-deals-on-gaming-pcs-and-laptops",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "The Alienware Black Friday Sale Starts Early with Some Amazing Deals on Gaming Pcs And..."
+        },
+        {
+            "title": "Amazon Fire TV Stick 4K Select is only $10 as an early Black Friday deal - Mashable",
+            "url": "https://mashable.com/article/nov-18-amazon-fire-tv-stick-4k-select-deal",
+            "source": "NewsAPI (Mashable)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Amazon Fire Tv Stick 4k Select Is Only $10 as an Early Black Friday Deal..."
+        }
+    ],
+    "SaaS Metrics": [
+        {
+            "title": "Guild Wars Reforged, a free 20th anniversary revamp of the original Guild Wars, arrives this December - Rock Paper Shotgun",
+            "url": "https://www.rockpapershotgun.com/guild-wars-reforged-a-free-20th-anniversary-revamp-of-the-original-guild-wars-arrives-this-december",
+            "source": "NewsAPI (Rock Paper Shotgun)",
+            "published_date_obj": "2025-11-18",
+            "rewritten_title": "Guild Wars Reforged, a Free 20th Anniversary Revamp of the Original Guild Wars, Arrives This..."
+        },
+        {
+            "title": "5 Interesting Learnings from Valve at $17 Billion in ARR",
+            "url": "https://www.saastr.com/5-interesting-learnings-from-valve-at-17-billion-in-arr/",
+            "source": "SaaStr",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "5 Interesting Learnings From Valve at $17 Billion in Arr"
+        },
+        {
+            "title": "As Lovable hits $200M ARR, its CEO credits staying in Europe for its success",
+            "url": "https://techcrunch.com/2025/11/19/as-lovable-hits-200m-arr-its-ceo-credits-staying-in-europe-for-its-success/",
+            "source": "TechCrunch Enterprise",
+            "published_date_obj": "2025-11-19",
+            "rewritten_title": "As Lovable Hits $200m Arr, Its Ceo Credits Staying in Europe for Its Success"
         }
     ]
 }
