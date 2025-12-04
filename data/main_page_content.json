@@ -1,634 +1,423 @@
 {
     "SaaS Funding": [
         {
-            "title": "Amazon's Cyber Monday deals put the Pixel 10 series at an even lower price than Black Friday - 9to5Google",
-            "url": "http://9to5google.com/2025/12/01/amazons-cyber-monday-deals-put-pixel-10-series-at-lowest-price-yet/",
-            "source": "NewsAPI (9to5google.com)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Amazon's Cyber Monday Deals Put the Pixel 10 Series at an Even Lower Price Than..."
+            "title": "Amazon hopes to jump-start its AI coding tool Kiro by giving it away to startups",
+            "url": "https://techcrunch.com/2025/12/03/amazon-hopes-to-jump-start-its-ai-coding-tool-kiro-by-giving-it-away-to-startups/",
+            "source": "TechCrunch Enterprise",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Amazon Hopes to Jump-start Its Ai Coding Tool Kiro by Giving It Away to Startups"
+        },
+        {
+            "title": "Micron Announces Exit from Crucial Consumer Business",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1pdcytv/micron_announces_exit_from_crucial_consumer/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Micron Announces Exit From Crucial Consumer Business"
         }
     ],
     "Enterprise Software": [
         {
-            "title": "Six Easy Tips for Workflow Mapping With Examples",
-            "url": "https://slack.com/blog/productivity/workflow-mapping",
-            "source": "Slack Blog",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Six Easy Tips for Workflow Mapping with Examples"
+            "title": "Survey says: Enterprises shift from AI pilots to production\u2014and agentic systems surge ahead",
+            "url": "https://www.battery.com/blog/survey-says-enterprises-shift-from-ai-pilots-to-production-and-agentic-systems-surge-ahead/",
+            "source": "Battery Ventures",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Survey Says: Enterprises Shift From Ai Pilots to Production\u2014and Agentic Systems Surge Ahead"
         }
     ],
     "Product Launches": [
         {
-            "title": "When Will Apple Release iOS 26.2? - MacRumors",
-            "url": "https://www.macrumors.com/2025/12/01/ios-26-2-release-date/",
-            "source": "NewsAPI (MacRumors)",
+            "title": "Fallout 76: Burning Springs Release Notes - Bethesda.net",
+            "url": "https://bethesda.net/en/article/2tpInvSHR0w7C8GXqEEbrz/fallout-76-burning-springs-release-notes",
+            "source": "NewsAPI (Bethesda.net)",
             "published_date_obj": "2025-12-02",
-            "rewritten_title": "When Will Apple Release Ios 26.2? - Macrumors"
+            "rewritten_title": "Fallout 76: Burning Springs Release Notes - Bethesda.net"
         },
         {
-            "title": "Ayaneo Announces a Monster of a New Gaming Handheld - IGN",
-            "url": "https://www.ign.com/articles/ayaneo-announces-a-monster-of-a-new-gaming-handheld",
-            "source": "NewsAPI (IGN)",
+            "title": "Lexus Sports Car Will Be Unveiled Together With The GR GT - Carscoops",
+            "url": "https://www.carscoops.com/2025/12/lexus-has-a-surprise-or-three-for-sports-car-fans/",
+            "source": "NewsAPI (CarScoops)",
             "published_date_obj": "2025-12-02",
-            "rewritten_title": "Ayaneo Announces a Monster of a New Gaming Handheld - Ign"
+            "rewritten_title": "Lexus Sports Car Will Be Unveiled Together with the Gr Gt - Carscoops"
         },
         {
-            "title": "LET IT DIE offline version announced - Gematsu",
-            "url": "https://www.gematsu.com/2025/12/let-it-die-offline-version-announced",
-            "source": "NewsAPI (Gematsu)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Let It Die Offline Version Announced - Gematsu"
+            "title": "Updated Android Security Bulletin sets stage for a hefty December 2025 security patch - Android Authority",
+            "url": "https://www.androidauthority.com/december-2025-android-security-bulletin-3621152/",
+            "source": "NewsAPI (Android Authority)",
+            "published_date_obj": "2025-12-02",
+            "rewritten_title": "Updated Android Security Bulletin Sets Stage for a Hefty December 2025 Security Patch - Android..."
         },
         {
-            "title": "DualSense Wireless Controller \u2013 Genshin Impact Limited Edition announced - Gematsu",
-            "url": "https://www.gematsu.com/2025/12/dualsense-wireless-controller-genshin-impact-limited-edition-announced",
-            "source": "NewsAPI (Gematsu)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Dualsense Wireless Controller \u2013 Genshin Impact Limited Edition Announced - Gematsu"
-        },
-        {
-            "title": "Team Cherry says it's \"unfortunate\" that Silksong launch disrupted other indies - GamesIndustry.biz",
-            "url": "https://www.gamesindustry.biz/team-cherry-says-its-unfortunate-that-silksong-launch-disrupted-other-indies",
-            "source": "NewsAPI (GamesIndustry.biz)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Team Cherry Says It's \"unfortunate\" That Silksong Launch Disrupted Other Indies - Gamesindustry.biz"
-        },
-        {
-            "title": "Fortnite Chapter 7 launches with apparent \"AI slop,\" days after Epic CEO Tim Sweeney suggested Steam should bin AI disclosures - PCGamesN",
-            "url": "https://www.pcgamesn.com/fortnite/chapter-7-ai-art",
-            "source": "NewsAPI (PCGamesN)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Fortnite Chapter 7 Launches with Apparent \"ai Slop,\" Days After Epic Ceo Tim Sweeney Suggested..."
-        },
-        {
-            "title": "Salesforce Quarterly Highlights: FY26 Q3 Product Releases and Corporate Announcements",
-            "url": "https://www.salesforce.com/news/stories/fy26-q3-highlights/",
+            "title": "Salesforce and AWS Deepen Collaboration to Launch Agentforce 360 for AWS, Driving Faster, Safer AI Success for Enterprises",
+            "url": "https://www.salesforce.com/news/stories/agentforce-360-for-aws-announcement/",
             "source": "Salesforce Blog",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Salesforce Quarterly Highlights: Fy26 Q3 Product Releases and Corporate Announcements"
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Salesforce and Aws Deepen Collaboration to Launch Agentforce 360 for Aws, Driving Faster, Safer Ai..."
         },
         {
-            "title": "Salesforce Introduces Agentforce Nonprofit with New AI Agents to Empower Staff, Drive Fundraising, and Maximize Mission Delivery",
-            "url": "https://www.salesforce.com/news/stories/agentforce-nonprofit-announcement/",
-            "source": "Salesforce Blog",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Salesforce Introduces Agentforce Nonprofit with New Ai Agents to Empower Staff, Drive Fundraising, and Maximize..."
-        },
-        {
-            "title": "AWS launches new Nova AI models and a service that gives customers more control",
-            "url": "https://techcrunch.com/2025/12/02/aws-launches-new-nova-ai-models-and-a-service-that-gives-customers-more-control/",
+            "title": "AWS doubles down on custom\u00a0LLMs with\u00a0features meant to simplify model creation",
+            "url": "https://techcrunch.com/2025/12/03/aws-doubles-down-on-custom-llms-with-features-meant-to-simplify-model-creation/",
             "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Aws Launches New Nova Ai Models and a Service That Gives Customers More Control"
-        },
-        {
-            "title": "Amazon releases an impressive new AI chip and teases an Nvidia-friendly roadmap",
-            "url": "https://techcrunch.com/2025/12/02/amazon-releases-an-impressive-new-ai-chip-and-teases-a-nvidia-friendly-roadmap/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Amazon Releases an Impressive New Ai Chip and Teases an Nvidia-friendly Roadmap"
-        },
-        {
-            "title": "AWS announces new capabilities for its AI agent builder",
-            "url": "https://techcrunch.com/2025/12/02/aws-announces-new-capabilities-for-its-ai-agent-builder/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Aws Announces New Capabilities for Its Ai Agent Builder"
-        },
-        {
-            "title": "A year free of PostHog ($16,500 value): The all-in-one analytics, experimentation, feature flag, surveys, session replay, error tracking, data warehouse, LLM analytics platform",
-            "url": "https://www.lennysnewsletter.com/p/a-year-free-of-posthog-16500-value",
-            "source": "Lenny's Newsletter",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "A Year Free of Posthog ($16,500 Value): the All-in-one Analytics, Experimentation, Feature Flag, Surveys, Session..."
-        },
-        {
-            "title": "Mistral just released Mistral 3 \u2014 a full open-weight model family from 3B all the way up to 675B parameters.",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1pceipb/mistral_just_released_mistral_3_a_full_openweight/",
-            "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Mistral Just Released Mistral 3 \u2014 a Full Open-weight Model Family From 3b All The..."
-        },
-        {
-            "title": "Z Image Turbo ControlNet released by Alibaba on HF",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1pc2enz/z_image_turbo_controlnet_released_by_alibaba_on_hf/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Z Image Turbo Controlnet Released by Alibaba on Hf"
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Aws Doubles Down on Custom Llms with Features Meant to Simplify Model Creation"
         }
     ],
     "SaaS Analytics": [
         {
-            "title": "Arc Games is now an independent publisher - GamesIndustry.biz",
-            "url": "https://www.gamesindustry.biz/arc-games-is-now-an-independent-publisher",
+            "title": "Epic Games Store decides \"at the last minute\" not to distribute Horses - GamesIndustry.biz",
+            "url": "https://www.gamesindustry.biz/epic-games-store-decides-at-the-last-minute-not-to-distribute-horses",
             "source": "NewsAPI (GamesIndustry.biz)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Arc Games Is Now an Independent Publisher - Gamesindustry.biz"
+            "published_date_obj": "2025-12-02",
+            "rewritten_title": "Epic Games Store Decides \"at the Last Minute\" Not to Distribute Horses - Gamesindustry.biz"
         },
         {
-            "title": "Amazon Goes Full Liquidation on Fitbit Charge 6, Now at Record Low for Cyber Monday - Kotaku",
-            "url": "https://kotaku.com/amazon-goes-full-liquidation-on-fitbit-charge-6-now-at-record-low-for-cyber-monday-2000648957",
-            "source": "NewsAPI (Kotaku)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Amazon Goes Full Liquidation on Fitbit Charge 6, Now at Record Low for Cyber Monday..."
+            "title": "Elden Ring Nightreign's DLC is \"definitely a little bit harder\" than the main game, \"but it's not ridiculous\", says director - Eurogamer",
+            "url": "https://www.eurogamer.net/elden-ring-nightreign-dlc-difficulty-harder-than-main-game-the-forsaken-hollows",
+            "source": "NewsAPI (Eurogamer.net)",
+            "published_date_obj": "2025-12-02",
+            "rewritten_title": "Elden Ring Nightreign's Dlc Is \"definitely a Little Bit Harder\" Than the Main Game, \"but..."
+        },
+        {
+            "title": "Salesforce Delivers Record Third Quarter Fiscal 2026 Results Driven by Agentforce & Data 360",
+            "url": "https://www.salesforce.com/news/press-releases/2025/12/03/fy26-q3-earnings/",
+            "source": "Salesforce Blog",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Salesforce Delivers Record Third Quarter Fiscal 2026 Results Driven by Agentforce & Data 360"
+        },
+        {
+            "title": "Your stack, your rules: Introducing custom agents in GitHub Copilot for observability, IaC, and security",
+            "url": "https://github.blog/news-insights/product-news/your-stack-your-rules-introducing-custom-agents-in-github-copilot-for-observability-iac-and-security/",
+            "source": "GitHub Blog",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Your Stack, Your Rules: Introducing Custom Agents in Github Copilot for Observability, Iac, and Security"
+        },
+        {
+            "title": "Cloudflare WAF proactively protects against React vulnerability",
+            "url": "https://blog.cloudflare.com/waf-rules-react-vulnerability/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Cloudflare Waf Proactively Protects Against React Vulnerability"
         },
         {
             "title": "All the biggest news from AWS\u2019 big tech show re:Invent 2025",
-            "url": "https://techcrunch.com/2025/12/02/all-the-biggest-news-from-aws-big-tech-show-reinvent-2025/",
+            "url": "https://techcrunch.com/2025/12/03/all-the-biggest-news-from-aws-big-tech-show-reinvent-2025/",
             "source": "TechCrunch Enterprise",
             "published_date_obj": "2025-12-03",
             "rewritten_title": "All the Biggest News From Aws\u2019 Big Tech Show Re:invent 2025"
         },
         {
-            "title": "Tanstack DB 0.5 Query-Driven Sync: Loading data will never be the same",
-            "url": "https://blog.logrocket.com/tanstack-db-0-5-query-driven-sync/",
-            "source": "LogRocket",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Tanstack Db 0.5 Query-driven Sync: Loading Data Will Never Be the Same"
+            "title": "Andy Jassy says Amazon\u2019s Nvidia competitor chip is already a multibillion-dollar business",
+            "url": "https://techcrunch.com/2025/12/03/andy-jassy-says-amazons-nvidia-competitor-chip-is-already-a-multi-billion-dollar-business/",
+            "source": "TechCrunch Enterprise",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Andy Jassy Says Amazon\u2019s Nvidia Competitor Chip Is Already a Multibillion-dollar Business"
         },
         {
-            "title": "It's been a big week for AI ; Here are 10 massive changes you might've missed:",
-            "url": "https://www.reddit.com/r/artificial/comments/1pcg76z/its_been_a_big_week_for_ai_here_are_10_massive/",
+            "title": "Short vs. Long Content in AI Overviews: The Data Says Both Work",
+            "url": "https://ahrefs.com/blog/short-vs-long-content-in-ai-overviews/",
+            "source": "Ahrefs Blog",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Short Vs. Long Content in Ai Overviews: the Data Says Both Work"
+        },
+        {
+            "title": "Why you should treat data as inventory, not infrastructure",
+            "url": "https://blog.logrocket.com/product-management/treat-data-inventory-not-infrastructure/",
+            "source": "LogRocket",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Why You Should Treat Data as Inventory, Not Infrastructure"
+        },
+        {
+            "title": "Bank of America predicts an 'air pocket,' not an AI bubble, fueled by mountains of debt piling up from the data center rush | Fortune",
+            "url": "https://www.reddit.com/r/artificial/comments/1pdi0q7/bank_of_america_predicts_an_air_pocket_not_an_ai/",
             "source": "Reddit r/artificial",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "It's Been a Big Week for Ai ; Here Are 10 Massive Changes You Might've..."
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Bank of America Predicts an 'air Pocket,' Not an Ai Bubble, Fueled by Mountains Of..."
         }
     ],
     "B2B Technology": [
         {
-            "title": "Model your SaaS growth with Scenarios",
-            "url": "https://alleged-peace.flywheelsites.com/model-your-saas-growth-with-scenarios/",
-            "source": "ChartMogul Blog",
-            "published_date_obj": null,
-            "rewritten_title": "Model Your Saas Growth with Scenarios"
+            "title": "Cloudflare's 2025 Q3 DDoS threat report -- including Aisuru, the apex of botnets",
+            "url": "https://blog.cloudflare.com/ddos-threat-report-2025-q3/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Cloudflare's 2025 Q3 Ddos Threat Report -- Including Aisuru, the Apex of Botnets"
+        },
+        {
+            "title": "Anthropic CEO Dario Amodei says competitors are \"YOLO-ing\" capital and taking too much risk. (Bloomberg Interview)",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1pdfrs3/anthropic_ceo_dario_amodei_says_competitors_are/",
+            "source": "Reddit r/claudeai",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Anthropic Ceo Dario Amodei Says Competitors Are \"yolo-ing\" Capital and Taking Too Much Risk. (bloomberg..."
         }
     ],
     "Software Industry": [
         {
-            "title": "PlayStation Store \"End of Year\" Sale Delivers Over 4,000 Discounted Items - MP1st",
-            "url": "https://mp1st.com/news/playstation-store-end-of-year-sale-over-4000-discounted-items",
-            "source": "NewsAPI (http://mp1st.com/category/news)",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Playstation Store \"end of Year\" Sale Delivers Over 4,000 Discounted Items - Mp1st"
-        },
-        {
-            "title": "Elden Ring Nightreign's Forsaken Hollows Has Reignited My Interest With Exciting Additions - GameSpot",
-            "url": "https://www.gamespot.com/articles/elden-ring-nightreign-forsaken-hollows-dlc-has-reignited-my-interest/1100-6536543/",
-            "source": "NewsAPI (GameSpot)",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Elden Ring Nightreign's Forsaken Hollows Has Reignited My Interest with Exciting Additions - Gamespot"
-        },
-        {
-            "title": "The Apple Watch Series 11 is $70 off, beating its Black Friday price - The Verge",
-            "url": "https://www.theverge.com/gadgets/835083/cyber-monday-apple-watch-series-11-deal-sale-2025",
+            "title": "The Switch 2 is still on sale at multiple retailers if you missed out during Cyber Monday - The Verge",
+            "url": "https://www.theverge.com/gadgets/836519/nintendo-switch-2-mario-kart-world-bundle-walmart-deal",
             "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "The Apple Watch Series 11 Is $70 Off, Beating Its Black Friday Price - The..."
+            "published_date_obj": "2025-12-02",
+            "rewritten_title": "The Switch 2 Is Still on Sale at Multiple Retailers If You Missed Out During..."
         },
         {
-            "title": "Netflix Won\u2019t Let You Cast Shows From Your Phone to Your TV Anymore - WIRED",
-            "url": "https://www.wired.com/story/netflix-wont-let-you-cast-shows-from-your-phone-to-your-tv-anymore/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Netflix Won\u2019t Let You Cast Shows From Your Phone to Your Tv Anymore - Wired"
-        },
-        {
-            "title": "You can double your Switch 2\u2019s storage with Samsung\u2019s $40 microSD Express card - The Verge",
-            "url": "https://www.theverge.com/gadgets/835100/samsung-switch-2-microsd-express-cyber-monday-deal-sale",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "You Can Double Your Switch 2\u2019s Storage with Samsung\u2019s $40 Microsd Express Card - The..."
-        },
-        {
-            "title": "Nightreign Reveals Its Deadliest Field Boss And I Don't Believe It - Kotaku",
-            "url": "https://kotaku.com/nightreigns-bell-bearing-carion-draconic-tree-sentinel-2000649218",
-            "source": "NewsAPI (Kotaku)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Nightreign Reveals Its Deadliest Field Boss and I Don't Believe It - Kotaku"
-        },
-        {
-            "title": "After a Witcher -free decade, CDPR still promises three sequels in six years - Ars Technica",
-            "url": "https://arstechnica.com/gaming/2025/12/after-a-witcher-free-decade-cdpr-still-promises-three-sequels-in-six-years/",
+            "title": "Testing shows why the Steam Machine\u2019s 8GB of graphics RAM could be a problem - Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2025/12/steamos-has-problems-with-8gb-gpus-but-valve-is-working-on-it/",
             "source": "NewsAPI (Ars Technica)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "After a Witcher -free Decade, Cdpr Still Promises Three Sequels in Six Years - Ars..."
+            "published_date_obj": "2025-12-02",
+            "rewritten_title": "Testing Shows Why the Steam Machine\u2019s 8gb of Graphics Ram Could Be a Problem -..."
         },
         {
-            "title": "Despite Past Viral AI Fakes, This Grand Theft Auto 6 Leak Looks Real - GameSpot",
-            "url": "https://www.gamespot.com/articles/despite-past-viral-ai-fakes-this-grand-theft-auto-6-leak-looks-real/1100-6536617/",
-            "source": "NewsAPI (GameSpot)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Despite Past Viral Ai Fakes, This Grand Theft Auto 6 Leak Looks Real - Gamespot"
+            "title": "Red Dead Redemption Out Now on Netflix, iOS, Android, PS5, Xbox Series, and Nintendo Switch 2 - Rockstar Games",
+            "url": "https://www.rockstargames.com/newswire/article/9k3a83o3247a9k/red-dead-redemption-out-now-on-netflix-ios-android-ps5-xbox-series-and",
+            "source": "NewsAPI (Rockstargames.com)",
+            "published_date_obj": "2025-12-02",
+            "rewritten_title": "Red Dead Redemption Out Now on Netflix, Ios, Android, Ps5, Xbox Series, and Nintendo Switch..."
         },
         {
-            "title": "What to expect from AMD, NVIDIA and Intel at CES 2026 - VideoCardz.com",
-            "url": "https://videocardz.com/newz/what-to-expect-from-amd-nvidia-and-intel-at-ces-2026",
-            "source": "NewsAPI (Videocardz.com)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "What to Expect From Amd, Nvidia and Intel at Ces 2026 - Videocardz.com"
+            "title": "Samsung reveals Galaxy Z TriFold with 10-inch foldable screen, astronomical price - Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2025/12/samsungs-galaxy-z-trifold-is-a-10-inch-tablet-that-fits-in-your-pocket/",
+            "source": "NewsAPI (Ars Technica)",
+            "published_date_obj": "2025-12-02",
+            "rewritten_title": "Samsung Reveals Galaxy Z Trifold with 10-inch Foldable Screen, Astronomical Price - Ars Technica"
         },
         {
-            "title": "Marvel Cosmic Invasion is another mighty brawler from Dotemu - AV Club",
-            "url": "https://www.avclub.com/marvel-cosmic-invasion-review",
-            "source": "NewsAPI (The A.V. Club)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Marvel Cosmic Invasion Is Another Mighty Brawler From Dotemu - Av Club"
+            "title": "Meet Amar Subramanya, the 46-year-old Google and Microsoft veteran who will steer Apple AI strategy - Fortune",
+            "url": "https://fortune.com/2025/12/02/amar-subramanya-apple-ai-veteran-google-microsoft-career-research-education-machine-learning/",
+            "source": "NewsAPI (Fortune)",
+            "published_date_obj": "2025-12-02",
+            "rewritten_title": "Meet Amar Subramanya, the 46-year-old Google and Microsoft Veteran Who Will Steer Apple Ai Strategy..."
         },
         {
-            "title": "Arc Raiders Fan Website Lets You Place Bounties On Players - Kotaku",
-            "url": "https://kotaku.com/arc-raiders-pvp-betrayal-bounty-rat-camp-2000649163",
-            "source": "NewsAPI (Kotaku)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Arc Raiders Fan Website Lets You Place Bounties on Players - Kotaku"
+            "title": "Pok\u00e9mon Legends: Z-A Mega Dimension DLC Trailer Reveals a Surprise Second Mega Evolution For a Fan-Favorite Pok\u00e9mon - ign.com",
+            "url": "https://www.ign.com/articles/pokemon-legends-z-a-mega-dimension-dlc-trailer-reveals-a-surprise-second-mega-evolution-for-a-fan-favorite-pokmon",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2025-12-02",
+            "rewritten_title": "Pok\u00e9mon Legends: Z-a Mega Dimension Dlc Trailer Reveals a Surprise Second Mega Evolution for A..."
         },
         {
-            "title": "/dev: 2026 Season One Gameplay Preview - League of Legends",
-            "url": "https://www.leagueoflegends.com/en-ph/news/dev/dev-2026-season-one-gameplay-preview/",
-            "source": "NewsAPI (Leagueoflegends.com)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "/dev: 2026 Season One Gameplay Preview - League of Legends"
+            "title": "Metroid Prime 4: Beyond is a technical marvel and game design nightmare - NPR",
+            "url": "https://www.npr.org/2025/12/02/nx-s1-5627515/metroid-prime-4-beyond-review",
+            "source": "NewsAPI (NPR)",
+            "published_date_obj": "2025-12-02",
+            "rewritten_title": "Metroid Prime 4: Beyond Is a Technical Marvel and Game Design Nightmare - Npr"
         },
         {
-            "title": "Verizon will give you a free iPhone, iPad, and Apple Watch for Cyber Monday - how to qualify - ZDNET",
-            "url": "https://www.zdnet.com/article/verizon-will-give-you-a-free-iphone-ipad-and-apple-watch-for-cyber-monday-how-to-qualify/",
-            "source": "NewsAPI (ZDNet)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Verizon Will Give You a Free Iphone, Ipad, and Apple Watch for Cyber Monday -..."
+            "title": "The 25 Best Video Games of 2025 - Rolling Stone",
+            "url": "http://www.rollingstone.com/culture/rs-gaming-lists/best-video-games-of-2025-1235469710/",
+            "source": "NewsAPI (Rolling Stone)",
+            "published_date_obj": "2025-12-02",
+            "rewritten_title": "The 25 Best Video Games of 2025 - Rolling Stone"
         },
         {
-            "title": "iPad Mini Drops to New All-Time Low Price of $349 for Cyber Week - MacRumors",
-            "url": "https://www.macrumors.com/2025/12/01/ipad-mini-drops-cyber-monday/",
-            "source": "NewsAPI (MacRumors)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Ipad Mini Drops to New All-time Low Price of $349 for Cyber Week - Macrumors"
-        },
-        {
-            "title": "Where Winds Meet's side quests can be skipped by tricking the AI NPCs with infamous \"Solid Snake Method\" - Eurogamer",
-            "url": "https://www.eurogamer.net/where-winds-meets-side-quests-can-be-skipped-by-tricking-the-ai-npcs-with-infamous-solid-snake-method",
-            "source": "NewsAPI (Eurogamer.net)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Where Winds Meet's Side Quests Can Be Skipped by Tricking the Ai Npcs with Infamous..."
-        },
-        {
-            "title": "Miniature of the Year 2025: Vote for your favourites and enter a competition to win the best - Warhammer Community",
-            "url": "https://www.warhammer-community.com/articles/1geonm0v/miniature-of-the-year-2025-vote-for-your-favourites-and-enter-a-competition-to-win-the-best",
+            "title": "Grotmas Calendar Day 2 \u2013 The Helsmiths of Hashut join the battle for Ghyran - Warhammer Community",
+            "url": "https://www.warhammer-community.com/articles/4mnabgwa/grotmas-calendar-day-2-the-helsmiths-of-hashut-join-the-battle-for-ghyran",
             "source": "NewsAPI (Warhammer-community.com)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Miniature of the Year 2025: Vote for Your Favourites and Enter a Competition to Win..."
+            "published_date_obj": "2025-12-02",
+            "rewritten_title": "Grotmas Calendar Day 2 \u2013 the Helsmiths of Hashut Join the Battle for Ghyran -..."
         },
         {
-            "title": "\u2018Destiny 2: Renegades\u2019 Is Surprisingly Good For New Players - Forbes",
-            "url": "https://www.forbes.com/sites/paultassi/2025/12/01/destiny-2-renegades-is-surprisingly-good-for-new-players/",
-            "source": "NewsAPI (Forbes)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "\u2018destiny 2: Renegades\u2019 Is Surprisingly Good for New Players - Forbes"
+            "title": "Ask the Developer Vol. 20: Drag x Drive \u2014 Part 1 - Nintendo",
+            "url": "https://www.nintendo.com/us/whatsnew/ask-the-developer-vol-20-drag-x-drive-part-1/",
+            "source": "NewsAPI (Nintendo.com)",
+            "published_date_obj": "2025-12-02",
+            "rewritten_title": "Ask the Developer Vol. 20: Drag X Drive \u2014 Part 1 - Nintendo"
         },
         {
-            "title": "Pixel's new RCS change could let your boss see all messages on your phone - Android Central",
-            "url": "https://www.androidcentral.com/phones/google-pixel/pixel-feature-allow-read-rcs-messages-boss",
-            "source": "NewsAPI (Android Central)",
+            "title": "Huge discounts hit iPad, iPad Air, and more for Cyber Monday (from $274) - 9to5Mac",
+            "url": "https://9to5mac.com/2025/12/01/ipad-black-friday-deals/",
+            "source": "NewsAPI (9to5Mac)",
             "published_date_obj": "2025-12-01",
-            "rewritten_title": "Pixel's New Rcs Change Could Let Your Boss See All Messages on Your Phone -..."
+            "rewritten_title": "Huge Discounts Hit Ipad, Ipad Air, and More for Cyber Monday (from $274) - 9to5mac"
         },
         {
-            "title": "Red Dead Redemption is coming to Xbox on PC - XboxEra",
-            "url": "https://xboxera.com/2025/12/01/red-dead-redemption-is-coming-to-xbox-on-pc/",
-            "source": "NewsAPI (Xboxera.com)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Red Dead Redemption Is Coming to Xbox on Pc - Xboxera"
-        },
-        {
-            "title": "\u2018Stranger Things\u2019 season five criticised for Nintendo \u201ccardinal sin\u201d - NME",
-            "url": "https://www.nme.com/news/gaming-news/stranger-things-season-five-criticised-nintendo-cardinal-sin-derek-3914477",
-            "source": "NewsAPI (NME)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "\u2018stranger Things\u2019 Season Five Criticised for Nintendo \u201ccardinal Sin\u201d - Nme"
-        },
-        {
-            "title": "Apple\u2019s M2 MacBook Air is just $599 during Cyber Monday - The Verge",
-            "url": "https://www.theverge.com/gadgets/834693/apple-m2-macbook-air-cyber-monday-deal-sale",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Apple\u2019s M2 Macbook Air Is Just $599 During Cyber Monday - the Verge"
-        },
-        {
-            "title": "After 40 years of adventure games, Ron Gilbert pivots to outrunning Death - Ars Technica",
-            "url": "https://arstechnica.com/gaming/2025/12/after-40-years-of-adventure-games-ron-gilbert-pivots-to-outrunning-death/",
-            "source": "NewsAPI (Ars Technica)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "After 40 Years of Adventure Games, Ron Gilbert Pivots to Outrunning Death - Ars Technica"
-        },
-        {
-            "title": "5 Cool New Gadgets That Use Your Car's USB Port - bgr.com",
-            "url": "https://www.bgr.com/2034834/cool-gadgets-use-car-usb-port/",
-            "source": "NewsAPI (BGR)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "5 Cool New Gadgets That Use Your Car's Usb Port - Bgr.com"
-        },
-        {
-            "title": "Pok\u00e9mon TCG: Phantasmal Flames Booster Box at Lowest Price Ever for Cyber Monday - IGN",
-            "url": "https://www.ign.com/articles/pokemon-tcg-phantasmal-flames-booster-box-at-lowest-price-ever-for-amazon-cyber-monday",
+            "title": "The AirPods Pro 3 Wireless Noise Canceling Earbuds Drops to $149.99 for Cyber Monday - IGN",
+            "url": "https://www.ign.com/articles/best-cyber-monday-airpods-pro-3-deal-2025",
             "source": "NewsAPI (IGN)",
             "published_date_obj": "2025-12-01",
-            "rewritten_title": "Pok\u00e9mon Tcg: Phantasmal Flames Booster Box at Lowest Price Ever for Cyber Monday - Ign"
+            "rewritten_title": "The Airpods Pro 3 Wireless Noise Canceling Earbuds Drops to $149.99 for Cyber Monday -..."
         },
         {
-            "title": "\u2018Security Disaster\u2019\u2014500 Million Microsoft Users Say No To Windows 11 - Forbes",
-            "url": "https://www.forbes.com/sites/zakdoffman/2025/12/01/security-disaster-500-million-microsoft-users-say-no-to-windows-11/",
-            "source": "NewsAPI (Forbes)",
+            "title": "Sony Breaks Its Controller Price History on the PlayStation DualSense, Dropping It to a Record Low to Close Out Cyber Monday - Kotaku",
+            "url": "https://kotaku.com/sony-breaks-its-controller-price-history-on-the-playstation-dualsense-dropping-it-to-a-record-low-to-close-out-cyber-monday-2000648946",
+            "source": "NewsAPI (Kotaku)",
             "published_date_obj": "2025-12-01",
-            "rewritten_title": "\u2018security Disaster\u2019\u2014500 Million Microsoft Users Say No to Windows 11 - Forbes"
+            "rewritten_title": "Sony Breaks Its Controller Price History on the Playstation Dualsense, Dropping It to a Record..."
         },
         {
-            "title": "Google Home users are forcing Gemini on their devices with this URL hack - Android Authority",
-            "url": "https://www.androidauthority.com/google-home-force-gemini-url-trick-3620768/",
-            "source": "NewsAPI (Android Authority)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Google Home Users Are Forcing Gemini on Their Devices with This Url Hack - Android..."
-        },
-        {
-            "title": "$99.99 for Bose QuietComfort headphones after $60 Amazon pay-with-points promotion - Frequent Miler",
-            "url": "https://frequentmiler.com/99-99-for-bose-quietcomfort-headphones-after-60-amazon-pay-with-points-promotion/",
-            "source": "NewsAPI (Frequentmiler.com)",
-            "published_date_obj": "2025-11-30",
-            "rewritten_title": "$99.99 for Bose Quietcomfort Headphones After $60 Amazon Pay-with-points Promotion - Frequent Miler"
-        },
-        {
-            "title": "There\u2019s No Excuse for \u201cWe\u2019ll Get Back to You in 1 Business Day\u201d in the Age of AI",
-            "url": "https://www.saastr.com/theres-no-excuse-for-well-get-back-to-you-in-1-business-day-in-the-age-of-ai/",
-            "source": "SaaStr",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "There\u2019s No Excuse for \u201cwe\u2019ll Get Back to You in 1 Business Day\u201d in The..."
-        },
-        {
-            "title": "Service in Action: Salesforce Drives Giving Tuesday Impact Across the World",
-            "url": "https://www.salesforce.com/news/stories/giving-tuesday-2025/",
-            "source": "Salesforce Blog",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Service in Action: Salesforce Drives Giving Tuesday Impact Across the World"
-        },
-        {
-            "title": "Five proven employee engagement strategies to motivate your team",
-            "url": "https://slack.com/blog/collaboration/five-proven-employee-engagement-strategies-to-motivate-your-team",
-            "source": "Slack Blog",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Five Proven Employee Engagement Strategies to Motivate Your Team"
-        },
-        {
-            "title": "How To Manage Multiple Projects and Operate Like a Pro",
-            "url": "https://slack.com/blog/productivity/how-to-manage-multiple-projects",
-            "source": "Slack Blog",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "How to Manage Multiple Projects and Operate Like a Pro"
-        },
-        {
-            "title": "\u201cThe local-first rebellion\u201d: How Home Assistant became the most important project in your house",
-            "url": "https://github.blog/open-source/maintainers/the-local-first-rebellion-how-home-assistant-became-the-most-important-project-in-your-house/",
-            "source": "GitHub Blog",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "\u201cthe Local-first Rebellion\u201d: How Home Assistant Became the Most Important Project in Your House"
-        },
-        {
-            "title": "Automate embedded systems compliance with GitLab and CodeSonar",
-            "url": "https://about.gitlab.com/blog/automate-embedded-systems-compliance-with-gitlab-and-codesonar/",
-            "source": "GitLab Blog",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Automate Embedded Systems Compliance with Gitlab and Codesonar"
-        },
-        {
-            "title": "Introducing Stack Overflow AI Assist\u2014a tool for the modern developer",
-            "url": "https://stackoverflow.blog/2025/12/02/introducing-stack-overflow-ai-assist-a-tool-for-the-modern-developer/",
-            "source": "Stack Overflow Blog",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Introducing Stack Overflow Ai Assist\u2014a Tool for the Modern Developer"
-        },
-        {
-            "title": "Disrupting yourself in the age of AI",
-            "url": "https://stackoverflow.blog/2025/12/02/disrupting-yourself-in-the-age-of-ai/",
-            "source": "Stack Overflow Blog",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Disrupting Yourself in the Age of Ai"
-        },
-        {
-            "title": "Abstraction, but for robots",
-            "url": "https://stackoverflow.blog/2025/12/02/abstraction-but-for-robots/",
-            "source": "Stack Overflow Blog",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Abstraction, but for Robots"
-        },
-        {
-            "title": "Amazon challenges competitors with on-premises Nvidia \u2018AI Factories\u2019",
-            "url": "https://techcrunch.com/2025/12/02/amazon-challenges-competitors-with-on-premises-nvidia-ai-factories/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-12-03",
-            "rewritten_title": "Amazon Challenges Competitors with On-premises Nvidia \u2018ai Factories\u2019"
-        },
-        {
-            "title": "Amazon previews 3 AI agents, including \u2018Kiro\u2019 that can code on its own for days",
-            "url": "https://techcrunch.com/2025/12/02/amazon-previews-3-ai-agents-including-kiro-that-can-code-on-its-own-for-days/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Amazon Previews 3 Ai Agents, Including \u2018kiro\u2019 That Can Code on Its Own for Days"
-        },
-        {
-            "title": "AWS re:Invent 2025: How to watch and follow along live",
-            "url": "https://techcrunch.com/2025/12/02/aws-reinvent-2025-how-to-watch-and-follow-along-live/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Aws Re:invent 2025: How to Watch and Follow Along Live"
-        },
-        {
-            "title": "How Buffer Helped Me Triple My LinkedIn Impressions and Grow My Newsletter",
-            "url": "https://buffer.com/resources/how-buffer-helped-me-triple-my-linkedin-impressions-and-grow-my-newsletter/",
-            "source": "Buffer Blog",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "How Buffer Helped Me Triple My Linkedin Impressions and Grow My Newsletter"
-        },
-        {
-            "title": "13 Trending Sounds on Instagram in December 2025 (+ How to Use Them)",
-            "url": "https://buffer.com/resources/trending-audio-instagram/",
-            "source": "Buffer Blog",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "13 Trending Sounds on Instagram in December 2025 (+ How to Use Them)"
-        },
-        {
-            "title": "13 Trending Songs on TikTok in Dec 2025 (+ How to Use Them)",
-            "url": "https://buffer.com/resources/trending-songs-tiktok/",
-            "source": "Buffer Blog",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "13 Trending Songs on Tiktok in Dec 2025 (+ How to Use Them)"
-        },
-        {
-            "title": "Building AI agents shouldn\u2019t be hard. According to theCUBE Research, Docker makes it easy",
-            "url": "https://www.docker.com/blog/building-ai-agents-shouldnt-be-hard-according-to-thecube-research-docker-makes-it-easy/",
-            "source": "Docker Blog",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Building Ai Agents Shouldn\u2019t Be Hard. According to Thecube Research, Docker Makes It Easy"
-        },
-        {
-            "title": "\u201cPMs who use AI will replace those who don\u2019t\u201d: Google\u2019s AI product lead on the new PM toolkit | Marily Nika",
-            "url": "https://www.lennysnewsletter.com/p/pms-who-use-ai-will-replace-those",
-            "source": "Lenny's Newsletter",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "\u201cpms Who Use Ai Will Replace Those Who Don\u2019t\u201d: Google\u2019s Ai Product Lead on The..."
-        },
-        {
-            "title": "The Public Playbook for Monetizing, Measuring, and Defending AI Value",
-            "url": "https://www.thesaascfo.com/the-public-playbook-for-monetizing-measuring-and-defending-ai-value/?utm_source=rss&utm_medium=rss&utm_campaign=the-public-playbook-for-monetizing-measuring-and-defending-ai-value",
-            "source": "The SaaS CFO",
-            "published_date_obj": "2025-12-03",
-            "rewritten_title": "The Public Playbook for Monetizing, Measuring, and Defending Ai Value"
-        },
-        {
-            "title": "Sam Altman told employees he was declaring a \"code red\"",
-            "url": "https://www.reddit.com/r/artificial/comments/1pc0pms/sam_altman_told_employees_he_was_declaring_a_code/",
-            "source": "Reddit r/artificial",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Sam Altman Told Employees He Was Declaring a \"code Red\""
-        },
-        {
-            "title": "Is this a good intuition for understanding token embeddings?",
-            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1pc5sro/is_this_a_good_intuition_for_understanding_token/",
-            "source": "Reddit r/LargeLanguageModels",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Is This a Good Intuition for Understanding Token Embeddings?"
-        },
-        {
-            "title": "This is why OpenAI is in a Code Red",
-            "url": "https://www.reddit.com/r/singularity/comments/1pcsay9/this_is_why_openai_is_in_a_code_red/",
-            "source": "Reddit r/singularity",
-            "published_date_obj": "2025-12-03",
-            "rewritten_title": "This Is Why Openai Is in a Code Red"
-        },
-        {
-            "title": "[D] Published paper uses hardcoded seed and collapsed model to report fraudulent results",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1pcaxi3/d_published_paper_uses_hardcoded_seed_and/",
-            "source": "Reddit r/MachineLearning",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "[d] Published Paper Uses Hardcoded Seed and Collapsed Model to Report Fraudulent Results"
-        },
-        {
-            "title": "Altman memo: new OpenAI model coming next week, outperforming Gemini 3",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1pck0w0/altman_memo_new_openai_model_coming_next_week/",
-            "source": "Reddit r/openai",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Altman Memo: New Openai Model Coming Next Week, Outperforming Gemini 3"
-        },
-        {
-            "title": "Is MCP overrated?",
-            "url": "https://www.reddit.com/r/AI_Agents/comments/1pcjxm1/is_mcp_overrated/",
-            "source": "Reddit r/ai_agents",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Is Mcp Overrated?"
-        },
-        {
-            "title": "Okay\u2026 Z-Image Is GENUINELY Revolutionary. The Fact That We Can Upscale to THIS Quality THIS Coherently Without ControlNET Tiles?!?! The Fact That There\u2019s THIS Much Prompt Understanding with Hyper-Detailed Prompts??? The Fact That the Images Look THIS Beautiful with Only 6B Parameters?!?! THIS Is IT.",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1pcpgc7/okay_zimage_is_genuinely_revolutionary_the_fact/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-12-03",
-            "rewritten_title": "Okay\u2026 Z-image Is Genuinely Revolutionary. the Fact That We Can Upscale to This Quality This..."
-        },
-        {
-            "title": "Not *exactly* what I was asking for...but ..you do you, z-image",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1pct6vh/not_exactly_what_i_was_asking_forbut_you_do_you/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2025-12-03",
-            "rewritten_title": "Not *exactly* What I Was Asking For...but ..you Do You, Z-image"
-        }
-    ],
-    "SaaS Acquisitions": [
-        {
-            "title": "Here are 25 great laptop deals you can still grab before Cyber Monday ends - The Verge",
-            "url": "https://www.theverge.com/gadgets/835403/cyber-monday-laptop-deals-macbook-chromebook-surface-2025",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Here Are 25 Great Laptop Deals You Can Still Grab Before Cyber Monday Ends -..."
-        },
-        {
-            "title": "As a PS5 Gamer, I\u2019d Hate to Miss These PlayStation Cyber Monday Deals, and Time\u2019s Almost Up - IGN",
-            "url": "https://www.ign.com/articles/the-best-playstation-ps5-deals-cyber-monday-2025",
-            "source": "NewsAPI (IGN)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "As a Ps5 Gamer, I\u2019d Hate to Miss These Playstation Cyber Monday Deals, and Time\u2019s..."
-        },
-        {
-            "title": "Amazon's Buy 2, Get 1 Free Board Games Sale Is the Best New Cyber Monday Deal - IGN",
-            "url": "https://www.ign.com/articles/board-games-buy-2-get-1-free-cyber-monday-2025",
-            "source": "NewsAPI (IGN)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Amazon's Buy 2, Get 1 Free Board Games Sale Is the Best New Cyber Monday..."
-        },
-        {
-            "title": "The Meta Quest 3 VR Headset Drops to Basically $199 With This Amazon Cyber Monday Deal - IGN",
-            "url": "https://www.ign.com/articles/best-cyber-monday-meta-quest-deal-is-quest-3s-vr-headset-at-amazon",
-            "source": "NewsAPI (IGN)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "The Meta Quest 3 Vr Headset Drops to Basically $199 with This Amazon Cyber Monday..."
-        },
-        {
-            "title": "This Unbeatable LG OLED Deal Takes the Cyber Monday Crown - CNET",
-            "url": "https://www.cnet.com/deals/this-unbeatable-lg-oled-deal-takes-the-cyber-monday-crown/",
-            "source": "NewsAPI (CNET)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "This Unbeatable Lg Oled Deal Takes the Cyber Monday Crown - Cnet"
-        },
-        {
-            "title": "Best Cyber Monday 2025 deals at Best Buy: AirPods Max, Windows laptops, and more - Mashable",
-            "url": "https://mashable.com/article/best-cyber-monday-best-buy-deals-live-2025",
-            "source": "NewsAPI (Mashable)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "Best Cyber Monday 2025 Deals at Best Buy: Airpods Max, Windows Laptops, and More -..."
-        },
-        {
-            "title": "The Alienware Cyber Monday Sale Looks Better Than Black Friday With New Gaming PC and Laptop Deals - IGN",
-            "url": "https://www.ign.com/articles/alienware-cyber-monday-sale-2025-best-deals-on-gaming-pcs-and-laptops",
-            "source": "NewsAPI (IGN)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "The Alienware Cyber Monday Sale Looks Better Than Black Friday with New Gaming Pc And..."
-        },
-        {
-            "title": "All of the best Cyber Monday deals: Google Pixel 10/Fold up to $400 off, Galaxy gear, much more - 9to5Google",
-            "url": "http://9to5google.com/2025/12/01/all-best-cyber-monday-deals-google/",
-            "source": "NewsAPI (9to5google.com)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "All of the Best Cyber Monday Deals: Google Pixel 10/fold Up to $400 Off, Galaxy..."
-        },
-        {
-            "title": "I'm a TV expert and these are the best Cyber Monday TV deals in every size - Tom's Guide",
-            "url": "https://www.tomsguide.com/live/news/cyber-monday-tv-deals-live-all-the-best-deals-happening-now",
+            "title": "A massive Samsung Galaxy S26 leak just revealed all the key specs - Tom's Guide",
+            "url": "https://www.tomsguide.com/phones/a-massive-samsung-galaxy-s26-leak-just-revealed-all-the-key-specs",
             "source": "NewsAPI (Tom's Guide)",
             "published_date_obj": "2025-12-01",
-            "rewritten_title": "I'm a Tv Expert and These Are the Best Cyber Monday Tv Deals in Every..."
+            "rewritten_title": "A Massive Samsung Galaxy S26 Leak Just Revealed All the Key Specs - Tom's Guide"
         },
         {
-            "title": "The top 3D printer deal I recommend this Cyber Monday is $170 off the Anycubic Kobra 3 V2 Combo - Creative Bloq",
-            "url": "https://www.creativebloq.com/3d/3d-printing/there-are-just-6-hours-left-to-claim-usd170-off-this-top-3d-printer",
-            "source": "NewsAPI (Creative Bloq)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "The Top 3d Printer Deal I Recommend This Cyber Monday Is $170 Off the Anycubic..."
+            "title": "AI Agents Catching Other AI Agents Cutting Corners and Hallucinating. And Why That Means AI is Getting SO, So Much Better",
+            "url": "https://www.saastr.com/ai-agents-catching-other-ai-agents-cutting-corners-and-hallucinating-and-why-that-means-ai-is-getting-so-so-much-better/",
+            "source": "SaaStr",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Ai Agents Catching Other Ai Agents Cutting Corners and Hallucinating. and Why That Means Ai..."
         },
         {
-            "title": "Anthropic acquires Bun (JavaScript Runtime) to accelerate code, announces Claude Code hit $1B milestone.",
-            "url": "https://www.reddit.com/r/ClaudeAI/comments/1pchfcd/anthropic_acquires_bun_javascript_runtime_to/",
-            "source": "Reddit r/claudeai",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "Anthropic Acquires Bun (javascript Runtime) to Accelerate Code, Announces Claude Code Hit $1b Milestone."
+            "title": "Top 10 Posts of 2025",
+            "url": "https://www.tomtunguz.com/top-10-posts-2025/",
+            "source": "Tomasz Tunguz",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Top 10 Posts of 2025"
+        },
+        {
+            "title": "Guide: Migrate from Azure DevOps to GitLab",
+            "url": "https://about.gitlab.com/blog/migration-from-azure-devops-to-gitlab/",
+            "source": "GitLab Blog",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Guide: Migrate From Azure Devops to Gitlab"
+        },
+        {
+            "title": "180+ Social Media Calendar for Every Holiday of 2026 (+ Ideas for Posts)",
+            "url": "https://buffer.com/resources/social-media-calendar-dates-2026/",
+            "source": "Buffer Blog",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "180+ Social Media Calendar for Every Holiday of 2026 (+ Ideas for Posts)"
+        },
+        {
+            "title": "27 Simple, Free SEO Tools to Boost Your Search Rankings in 2026",
+            "url": "https://buffer.com/resources/best-free-seo-tools/",
+            "source": "Buffer Blog",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "27 Simple, Free Seo Tools to Boost Your Search Rankings in 2026"
+        },
+        {
+            "title": "Securing the Docker MCP Catalog: Commit Pinning, Agentic Auditing, and Publisher Trust Levels",
+            "url": "https://www.docker.com/blog/enhancing-mcp-trust-with-the-docker-mcp-catalog/",
+            "source": "Docker Blog",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Securing the Docker Mcp Catalog: Commit Pinning, Agentic Auditing, and Publisher Trust Levels"
+        },
+        {
+            "title": "Gemini 3 vs. Claude Opus 4.5 vs. GPT-5.1 Codex: Which AI model is the best designer?",
+            "url": "https://www.lennysnewsletter.com/p/which-ai-model-is-the-best-designer",
+            "source": "Lenny's Newsletter",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Gemini 3 Vs. Claude Opus 4.5 Vs. Gpt-5.1 Codex: Which Ai Model Is the Best..."
+        },
+        {
+            "title": "UX for reversible actions: A decision framework for designing with recovery in mind",
+            "url": "https://blog.logrocket.com/ux-design/ux-reversible-actions-framework/",
+            "source": "LogRocket",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Ux for Reversible Actions: a Decision Framework for Designing with Recovery in Mind"
+        },
+        {
+            "title": "The Replay (12/3/25): React\u2019s next era, AI code review tools, and more",
+            "url": "https://blog.logrocket.com/the-replay-12-3-25/",
+            "source": "LogRocket",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "The Replay (12/3/25): React\u2019s Next Era, Ai Code Review Tools, and More"
+        },
+        {
+            "title": "Microsoft's reported sales struggles are a warning that huge AI spending might take a while to pay off",
+            "url": "https://www.reddit.com/r/artificial/comments/1pdb7ml/microsofts_reported_sales_struggles_are_a_warning/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Microsoft's Reported Sales Struggles Are a Warning That Huge Ai Spending Might Take a While..."
+        },
+        {
+            "title": "Microsoft slashes AI sales growth targets as customers resist unproven agents",
+            "url": "https://www.reddit.com/r/artificial/comments/1pdcr4z/microsoft_slashes_ai_sales_growth_targets_as/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Microsoft Slashes Ai Sales Growth Targets as Customers Resist Unproven Agents"
+        },
+        {
+            "title": "8 local LLMs on a single Strix Halo debating whether a hot dog is a sandwich",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1pdh0sm/8_local_llms_on_a_single_strix_halo_debating/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "8 Local Llms on a Single Strix Halo Debating Whether a Hot Dog Is A..."
+        },
+        {
+            "title": "The death of ChatGPT",
+            "url": "https://www.reddit.com/r/singularity/comments/1pd9rue/the_death_of_chatgpt/",
+            "source": "Reddit r/singularity",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "The Death of Chatgpt"
+        },
+        {
+            "title": "[P] I trained Qwen2.5-Coder-7B for a niche diagramming language and reached 86% code accuracy",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1pdk10w/p_i_trained_qwen25coder7b_for_a_niche_diagramming/",
+            "source": "Reddit r/MachineLearning",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "[p] I Trained Qwen2.5-coder-7b for a Niche Diagramming Language and Reached 86% Code Accuracy"
+        },
+        {
+            "title": "Decided to try Nano Banano Pro based on the hype, I can't believe how many people it can handle accurately.",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1pdd9s2/decided_to_try_nano_banano_pro_based_on_the_hype/",
+            "source": "Reddit r/chatgpt",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Decided to Try Nano Banano Pro Based on the Hype, I Can't Believe How Many..."
+        },
+        {
+            "title": "Robot makes coffee for entire day",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1pdjosi/robot_makes_coffee_for_entire_day/",
+            "source": "Reddit r/openai",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Robot Makes Coffee for Entire Day"
+        },
+        {
+            "title": "what I learned from burning $500 on ai video generators",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1pdkirm/what_i_learned_from_burning_500_on_ai_video/",
+            "source": "Reddit r/ai_agents",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "What I Learned From Burning $500 on Ai Video Generators"
+        },
+        {
+            "title": "It's your choice at end",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1pd03sd/its_your_choice_at_end/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "It's Your Choice at End"
+        },
+        {
+            "title": "Skip steps and raise the shift to unlock diversity of Z-image-Turbo",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1pdea07/skip_steps_and_raise_the_shift_to_unlock/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "Skip Steps and Raise the Shift to Unlock Diversity of Z-image-turbo"
+        },
+        {
+            "title": "How can I achieve this artstyle",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1pdi7ww/how_can_i_achieve_this_artstyle/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "How Can I Achieve This Artstyle"
+        },
+        {
+            "title": "Vulcan Hedonists",
+            "url": "https://www.reddit.com/r/aiArt/comments/1pdlqyu/vulcan_hedonists/",
+            "source": "Reddit r/AIArt",
+            "published_date_obj": "2025-12-04",
+            "rewritten_title": "Vulcan Hedonists"
         }
     ],
+    "SaaS Acquisitions": [],
     "SaaS Metrics": [
         {
-            "title": "World Of Warcraft Midnight: How Blizzard Is Planning On Upending Player Housing As We Know It - Screen Rant",
-            "url": "https://screenrant.com/world-of-warcraft-midnight-housing-future-cover-story-preview/",
-            "source": "NewsAPI (Screen Rant)",
-            "published_date_obj": "2025-12-01",
-            "rewritten_title": "World of Warcraft Midnight: How Blizzard Is Planning on Upending Player Housing as We Know..."
+            "title": "Delayed Marvel Cosmic Invasion achievements finally arrive on Xbox - TrueAchievements",
+            "url": "https://www.trueachievements.com/news/marvel-cosmic-invasion-xbox-achievements",
+            "source": "NewsAPI (TrueAchievements)",
+            "published_date_obj": "2025-12-02",
+            "rewritten_title": "Delayed Marvel Cosmic Invasion Achievements Finally Arrive on Xbox - Trueachievements"
         },
         {
-            "title": "2026 customer service planning series: Vol. 03",
-            "url": "https://www.intercom.com/blog/inside-the-ai-first-support-team/",
-            "source": "Intercom Blog",
-            "published_date_obj": "2025-12-02",
-            "rewritten_title": "2026 Customer Service Planning Series: Vol. 03"
+            "title": "Enhanced support for tracking free trials and freemium subscriptions in ChartMogul",
+            "url": "https://alleged-peace.flywheelsites.com/enhanced-support-for-tracking-free-trials-and-freemium-subscriptions-in-chartmogul/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Enhanced Support for Tracking Free Trials and Freemium Subscriptions in Chartmogul"
+        },
+        {
+            "title": "The next era of React has arrived: Here\u2019s what you need to know",
+            "url": "https://blog.logrocket.com/the-next-era-of-react/",
+            "source": "LogRocket",
+            "published_date_obj": "2025-12-03",
+            "rewritten_title": "The Next Era of React Has Arrived: Here\u2019s What You Need to Know"
         }
     ]
 }
