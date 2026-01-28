@@ -1,11 +1,363 @@
 [
   {
+    "title": "Experimenting with Gateway API using kind",
+    "url": "https://kubernetes.io/blog/2026/01/28/experimenting-gateway-api-with-kind/",
+    "source": "Kubernetes Blog",
+    "published_date_obj": "2026-01-28",
+    "rewritten_title": "Experimenting with Gateway Api Using Kind",
+    "relevance_score": 3
+  },
+  {
+    "title": "How to set up GitLab SAML SSO with Google Workspace",
+    "url": "https://about.gitlab.com/blog/how-to-set-up-gitlab-saml-sso-with-google-workspace/",
+    "source": "GitLab Blog",
+    "published_date_obj": "2026-01-27",
+    "rewritten_title": "How to Set Up Gitlab Saml Sso with Google Workspace",
+    "relevance_score": 13
+  },
+  {
+    "title": "Please Stop Selling Like It\u2019s 2021",
+    "url": "https://www.saastr.com/please-stop-selling-like-its-2021/",
+    "source": "SaaStr",
+    "published_date_obj": "2026-01-27",
+    "rewritten_title": "Please Stop Selling Like It\u2019s 2021",
+    "relevance_score": 3
+  },
+  {
+    "title": "Is Your Margin My Opportunity in Software?",
+    "url": "https://www.tomtunguz.com/is-your-margin-my-opportunity-software/",
+    "source": "Tomasz Tunguz",
+    "published_date_obj": "2026-01-27",
+    "rewritten_title": "Is Your Margin My Opportunity in Software?",
+    "relevance_score": 3
+  },
+  {
+    "title": "7 learnings from Anders Hejlsberg: The architect behind C# and TypeScript",
+    "url": "https://github.blog/developer-skills/programming-languages-and-frameworks/7-learnings-from-anders-hejlsberg-the-architect-behind-c-and-typescript/",
+    "source": "GitHub Blog",
+    "published_date_obj": "2026-01-27",
+    "rewritten_title": "7 Learnings From Anders Hejlsberg: the Architect Behind C# and Typescript",
+    "relevance_score": 3
+  },
+  {
+    "title": "Help shape the future of open source in Europe",
+    "url": "https://github.blog/news-insights/policy-news-and-insights/help-shape-the-future-of-open-source-in-europe/",
+    "source": "GitHub Blog",
+    "published_date_obj": "2026-01-27",
+    "rewritten_title": "Help Shape the Future of Open Source in Europe",
+    "relevance_score": 3
+  },
+  {
+    "title": "Building a serverless, post-quantum Matrix homeserver",
+    "url": "https://blog.cloudflare.com/serverless-matrix-homeserver-workers/",
+    "source": "CloudFlare Blog",
+    "published_date_obj": "2026-01-27",
+    "rewritten_title": "Building a Serverless, Post-quantum Matrix Homeserver",
+    "relevance_score": 3
+  },
+  {
+    "title": "Spy vs spy at scale",
+    "url": "https://stackoverflow.blog/2026/01/27/spy-vs-spy-at-scale/",
+    "source": "Stack Overflow Blog",
+    "published_date_obj": "2026-01-27",
+    "rewritten_title": "Spy Vs Spy at Scale",
+    "relevance_score": 3
+  },
+  {
+    "title": "Risotto raises $10M seed to use AI to make ticketing systems easier to use",
+    "url": "https://techcrunch.com/2026/01/27/risotto-raises-10m-seed-to-use-ai-to-make-ticketing-systems-easier-to-use/",
+    "source": "TechCrunch Enterprise",
+    "published_date_obj": "2026-01-27",
+    "rewritten_title": "Risotto Raises $10m Seed to Use Ai to Make Ticketing Systems Easier to Use",
+    "relevance_score": 3
+  },
+  {
+    "title": "Airtable jumps into the AI agent game with Superagent",
+    "url": "https://techcrunch.com/2026/01/27/airtables-valuation-fell-by-7-million-its-founder-thinks-that-was-just-the-warm-up/",
+    "source": "TechCrunch Enterprise",
+    "published_date_obj": "2026-01-27",
+    "rewritten_title": "Airtable Jumps Into the Ai Agent Game with Superagent",
+    "relevance_score": 3
+  },
+  {
+    "title": "7 Tips for Managing Multiple Social Media Accounts Like a Pro",
+    "url": "https://buffer.com/resources/manage-multiple-social-media-accounts/",
+    "source": "Buffer Blog",
+    "published_date_obj": "2026-01-27",
+    "rewritten_title": "7 Tips for Managing Multiple Social Media Accounts Like a Pro",
+    "relevance_score": 3
+  },
+  {
+    "title": "Cluster API v1.12: Introducing In-place Updates and Chained Upgrades",
+    "url": "https://kubernetes.io/blog/2026/01/27/cluster-api-v1-12-release/",
+    "source": "Kubernetes Blog",
+    "published_date_obj": "2026-01-27",
+    "rewritten_title": "Cluster Api V1.12: Introducing In-place Updates and Chained Upgrades",
+    "relevance_score": 3
+  },
+  {
+    "title": "Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer\u2014now free with your paid subscription",
+    "url": "https://www.lennysnewsletter.com/p/product-pass-drop-canva-elevenlabs",
+    "source": "Lenny's Newsletter",
+    "published_date_obj": "2026-01-27",
+    "rewritten_title": "Product Pass Drop: Canva, Elevenlabs, Manus, Factory, Amp, Railway, Framer\u2014now Free with Your Paid Subscription",
+    "relevance_score": 3
+  },
+  {
+    "title": "Kirby Air Riders Has Been Updated To Version 1.3.0, Here Are The Full Patch Notes - Nintendo Life",
+    "url": "https://www.nintendolife.com/news/2026/01/kirby-air-riders-has-been-updated-to-version-1-3-0-here-are-the-full-patch-notes",
+    "source": "NewsAPI (Nintendo Life)",
+    "published_date_obj": "2026-01-27",
+    "rewritten_title": "Kirby Air Riders Has Been Updated to Version 1.3.0, Here Are the Full Patch Notes...",
+    "relevance_score": 2
+  },
+  {
+    "title": "AirTag 2: Three tidbits you might have missed - 9to5Mac",
+    "url": "https://9to5mac.com/2026/01/26/airtag-2-three-tidbits-you-might-have-missed/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2026-01-27",
+    "rewritten_title": "Airtag 2: Three Tidbits You Might Have Missed - 9to5mac",
+    "relevance_score": 2
+  },
+  {
     "title": "Qualcomm backs SpotDraft to scale on-device contract AI with valuation doubling toward $400M",
     "url": "https://techcrunch.com/2026/01/26/qualcomm-backs-spotdraft-to-scale-on-device-contract-ai-with-valuation-doubling-toward-400m/",
     "source": "TechCrunch Enterprise",
     "published_date_obj": "2026-01-27",
     "rewritten_title": "Qualcomm Backs Spotdraft to Scale On-device Contract Ai with Valuation Doubling Toward $400m",
     "relevance_score": 3
+  },
+  {
+    "title": "Former astronaut on lunar spacesuits: \u201cI don\u2019t think they\u2019re great right now\u201d - Ars Technica",
+    "url": "https://arstechnica.com/space/2026/01/former-astronaut-on-lunar-spacesuits-i-dont-think-theyre-great-right-now/",
+    "source": "NewsAPI (Ars Technica)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Former Astronaut on Lunar Spacesuits: \u201ci Don\u2019t Think They\u2019re Great Right Now\u201d - Ars Technica",
+    "relevance_score": 12
+  },
+  {
+    "title": "How to Track AI Overviews: Mentions, Citations, Click Loss, and the Traffic Google Won\u2019t Show You",
+    "url": "https://ahrefs.com/blog/how-to-track-ai-overviews/",
+    "source": "Ahrefs Blog",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "How to Track Ai Overviews: Mentions, Citations, Click Loss, and the Traffic Google Won\u2019t Show...",
+    "relevance_score": 3
+  },
+  {
+    "title": "Code Vein II Review - Bloodsucking The Fun Away - Game Informer",
+    "url": "https://gameinformer.com/review/code-vein-ii/bloodsucking-the-fun-away",
+    "source": "NewsAPI (Gameinformer.com)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Code Vein Ii Review - Bloodsucking the Fun Away - Game Informer",
+    "relevance_score": 2
+  },
+  {
+    "title": "DrDisrespect Lies About Being Invited To Highguard Preview Event - Kotaku",
+    "url": "https://kotaku.com/drdisrespect-lies-about-being-invited-to-highguard-preview-event-2000663184",
+    "source": "NewsAPI (Kotaku)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Drdisrespect Lies About Being Invited to Highguard Preview Event - Kotaku",
+    "relevance_score": 2
+  },
+  {
+    "title": "China's Thermal Battery Breakthrough Might Change Everything - bgr.com",
+    "url": "https://www.bgr.com/2081338/china-high-efficiency-cathodes-thermal-batteries/",
+    "source": "NewsAPI (BGR)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "China's Thermal Battery Breakthrough Might Change Everything - Bgr.com",
+    "relevance_score": 2
+  },
+  {
+    "title": "Scientists recover the oldest wooden tools from a site in Greece - AP News",
+    "url": "https://apnews.com/article/oldest-wooden-tools-marathousa-1-6e07cfc79f6d8ba648138f805531b933",
+    "source": "NewsAPI (Associated Press)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Scientists Recover the Oldest Wooden Tools From a Site in Greece - Ap News",
+    "relevance_score": 2
+  },
+  {
+    "title": "MTG Arena Announcements \u2013 January 26, 2026 - Magic: The Gathering",
+    "url": "https://magic.wizards.com/en/news/mtg-arena/announcements-january-26-2026",
+    "source": "NewsAPI (Wizards.com)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Mtg Arena Announcements \u2013 January 26, 2026 - Magic: the Gathering",
+    "relevance_score": 2
+  },
+  {
+    "title": "Microsoft patches actively exploited Office zero-day vulnerability - BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-actively-exploited-office-zero-day-vulnerability/",
+    "source": "NewsAPI (BleepingComputer)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Microsoft Patches Actively Exploited Office Zero-day Vulnerability - Bleepingcomputer",
+    "relevance_score": 2
+  },
+  {
+    "title": "Scientists Investigating 2,000-Year-Old Artifact That Appears to Be a Battery - Futurism",
+    "url": "http://futurism.com/future-society/scientists-ancient-artifiact-battery",
+    "source": "NewsAPI (Futurism)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Scientists Investigating 2,000-year-old Artifact That Appears to Be a Battery - Futurism",
+    "relevance_score": 2
+  },
+  {
+    "title": "\u2018Highguard\u2019: Wildlight Founders on How Their Debut Game Is Not Like \u2018Concord\u2019 or \u2018Overwatch\u2019 - Variety",
+    "url": "https://variety.com/2026/gaming/news/highguard-release-details-wildlight-overwatch-concord-1236641015/",
+    "source": "NewsAPI (Variety)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "\u2018highguard\u2019: Wildlight Founders on How Their Debut Game Is Not Like \u2018concord\u2019 or \u2018overwatch\u2019 -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Clawdbot is a viral AI assistant: What it is, how to try it - Mashable",
+    "url": "https://mashable.com/article/what-is-clawdbot-how-to-try",
+    "source": "NewsAPI (Mashable)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Clawdbot Is a Viral Ai Assistant: What It Is, How to Try It - Mashable",
+    "relevance_score": 2
+  },
+  {
+    "title": "Cloudflare misconfiguration behind recent BGP route leak - BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/cloudflare-misconfiguration-behind-recent-bgp-route-leak/",
+    "source": "NewsAPI (BleepingComputer)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Cloudflare Misconfiguration Behind Recent Bgp Route Leak - Bleepingcomputer",
+    "relevance_score": 2
+  },
+  {
+    "title": "Playground Games on its Fable reboot's inception - Eurogamer",
+    "url": "https://www.eurogamer.net/fable-studio-playground-games-wanted-to-step-out-of-forza-horizon-as-far-back-as-2017-to-learn-and-grow-as-developers",
+    "source": "NewsAPI (Eurogamer.net)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Playground Games on Its Fable Reboot's Inception - Eurogamer",
+    "relevance_score": 2
+  },
+  {
+    "title": "Headwinds: Ready to go against the odds? - ARC Raiders",
+    "url": "https://arcraiders.com/news/headwinds-content-update",
+    "source": "NewsAPI (Arcraiders.com)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Headwinds: Ready to Go Against the Odds? - Arc Raiders",
+    "relevance_score": 2
+  },
+  {
+    "title": "Ubisoft launches voluntary redundancy process to cut 200 jobs from Paris head office - GamesIndustry.biz",
+    "url": "https://www.gamesindustry.biz/ubisoft-launches-voluntary-redundancy-process-to-cut-200-jobs-from-paris-head-office",
+    "source": "NewsAPI (GamesIndustry.biz)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Ubisoft Launches Voluntary Redundancy Process to Cut 200 Jobs From Paris Head Office - Gamesindustry.biz",
+    "relevance_score": 2
+  },
+  {
+    "title": "An Update to End-of-Round Procedures at Pok\u00e9mon TCG Championship Events - Pokemon.com",
+    "url": "https://www.pokemon.com/us/pokemon-news/an-update-to-end-of-round-procedures-at-pokemon-tcg-championship-events",
+    "source": "NewsAPI (Pokemon.com)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "An Update to End-of-round Procedures at Pok\u00e9mon Tcg Championship Events - Pokemon.com",
+    "relevance_score": 2
+  },
+  {
+    "title": "\u2018Resident Evil Requiem\u2019 Developers Talk \u201cVital\u201d Return to Raccoon City, Tease \u201cUmbrella Curse\u201d, Claire And Ada & Pairing Leon Kennedy With A New Leading Lady - Deadline",
+    "url": "http://deadline.com/2026/01/resident-evil-9-interview-1236696589/",
+    "source": "NewsAPI (Deadline)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "\u2018resident Evil Requiem\u2019 Developers Talk \u201cvital\u201d Return to Raccoon City, Tease \u201cumbrella Curse\u201d, Claire And...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Latest Intel chips beat Apple\u2019s M5 in multi-core scores \u2013 for maybe two days - 9to5Mac",
+    "url": "https://9to5mac.com/2026/01/26/latest-intel-chips-beat-apples-m5-in-multi-core-scores-for-maybe-two-days/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Latest Intel Chips Beat Apple\u2019s M5 in Multi-core Scores \u2013 for Maybe Two Days -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple unveils the new Black Unity Apple Watch band - Apple",
+    "url": "https://www.apple.com/newsroom/2026/01/apple-unveils-the-new-black-unity-apple-watch-band/",
+    "source": "NewsAPI (Apple Newsroom)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Apple Unveils the New Black Unity Apple Watch Band - Apple",
+    "relevance_score": 2
+  },
+  {
+    "title": "149M logins exposed in unsecured database, inc 900k Apple accounts - 9to5Mac",
+    "url": "https://9to5mac.com/2026/01/26/149m-logins-exposed-in-unsecured-database-inc-900k-apple-accounts/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "149m Logins Exposed in Unsecured Database, Inc 900k Apple Accounts - 9to5mac",
+    "relevance_score": 2
+  },
+  {
+    "title": "'FTL in a Warhammer 40,000 Skin' Game Pulled From Steam After What May Be a Nuisance DMCA Takedown From a Troll Claiming to Be Games Workshop - IGN",
+    "url": "https://www.ign.com/articles/ftl-in-a-warhammer-40000-skin-game-pulled-from-steam-after-what-may-be-a-nuisance-dmca-takedown-from-a-troll-claiming-to-be-games-workshop",
+    "source": "NewsAPI (IGN)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "'ftl in a Warhammer 40,000 Skin' Game Pulled From Steam After What May Be A...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Two-bedroom ranch minutes from Scituate Harbor for $750,000 - The Boston Globe",
+    "url": "https://www.bostonglobe.com/2026/01/26/real-estate/scituate-harbor-oceanside-ranch-house/",
+    "source": "NewsAPI (The Boston Globe)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Two-bedroom Ranch Minutes From Scituate Harbor for $750,000 - the Boston Globe",
+    "relevance_score": 2
+  },
+  {
+    "title": "Microsoft\u2019s first Windows 11 update of 2026 has been a mess - The Verge",
+    "url": "https://www.theverge.com/news/867647/microsoft-windows-11-january-2026-update-bugs-issues",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Microsoft\u2019s First Windows 11 Update of 2026 Has Been a Mess - the Verge",
+    "relevance_score": 2
+  },
+  {
+    "title": "Ashly Burch may not be returning for Life is Strange: Reunion, but \"Max and Chloe will always have a special place\" in her heart - Eurogamer",
+    "url": "https://www.eurogamer.net/ashly-burch-may-not-be-returning-for-life-is-strange-reunion-but-max-and-chloe-will-always-have-a-special-place-in-her-heart",
+    "source": "NewsAPI (Eurogamer.net)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Ashly Burch May Not Be Returning for Life Is Strange: Reunion, but \"max and Chloe...",
+    "relevance_score": 2
+  },
+  {
+    "title": "This week in PC games: is Highguard a nothingburger? Plus, Winnie the Cthulhooh, Code Vein 2 and a plant-based RTS - Rock Paper Shotgun",
+    "url": "https://www.rockpapershotgun.com/this-week-in-pc-games-is-highguard-a-nothingburger-plus-winnie-the-chulhooh-code-vein-2-and-a-plant-based-rts",
+    "source": "NewsAPI (Rock Paper Shotgun)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "This Week in Pc Games: Is Highguard a Nothingburger? Plus, Winnie the Cthulhooh, Code Vein...",
+    "relevance_score": 2
+  },
+  {
+    "title": "UK Charts: Final Fantasy VII Remake Intergrade Knocks Animal Crossing Down A Peg - Nintendo Life",
+    "url": "https://www.nintendolife.com/news/2026/01/uk-charts-final-fantasy-vii-remake-intergrade-knocks-animal-crossing-down-a-peg",
+    "source": "NewsAPI (Nintendo Life)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Uk Charts: Final Fantasy Vii Remake Intergrade Knocks Animal Crossing Down a Peg - Nintendo...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Apple\u2019s AI Pin: The Wearable That Could Replace Your Smartphone - Geeky Gadgets",
+    "url": "https://www.geeky-gadgets.com/apples-ai-pin-the-wearable-that-could-replace-your-smartphone/",
+    "source": "NewsAPI (Geeky Gadgets)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Apple\u2019s Ai Pin: the Wearable That Could Replace Your Smartphone - Geeky Gadgets",
+    "relevance_score": 2
+  },
+  {
+    "title": "This is Android 17\u2019s blur, new screen recorder, & more in leaked screenshots [Gallery] - 9to5Google",
+    "url": "http://9to5google.com/2026/01/26/android-17-leak/",
+    "source": "NewsAPI (9to5google.com)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "This Is Android 17\u2019s Blur, New Screen Recorder, & More in Leaked Screenshots [gallery] -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Google will settle its Assistant spying lawsuit for $68 million - The Verge",
+    "url": "https://www.theverge.com/news/868078/google-assistant-lawsuit-settlement",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2026-01-26",
+    "rewritten_title": "Google Will Settle Its Assistant Spying Lawsuit for $68 Million - the Verge",
+    "relevance_score": 2
   },
   {
     "title": "The New Rule: $500K ARR Per Employee is the New $200K",
@@ -149,6 +501,22 @@
     "source": "NewsAPI (Buzzfeed)",
     "published_date_obj": "2026-01-26",
     "rewritten_title": "I Don\u2019t Wanna Gatekeep, So I\u2019m Putting These 27 Cool Things on Your Radar -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Sleep-tracking devices have limits. Experts want users to know what they are - KSL News",
+    "url": "https://www.ksl.com/article/51438074/sleep-tracking-devices-have-limits-experts-want-users-to-know-what-they-are",
+    "source": "NewsAPI (KSL.com)",
+    "published_date_obj": "2026-01-25",
+    "rewritten_title": "Sleep-tracking Devices Have Limits. Experts Want Users to Know What They Are - Ksl News",
+    "relevance_score": 2
+  },
+  {
+    "title": "RuneScape gold counts as real stolen property after UK judge rules in $700K theft case - Dexerto",
+    "url": "https://www.dexerto.com/gaming/runescape-gold-counts-as-real-stolen-property-after-uk-judge-rules-in-700k-theft-case-3309301/",
+    "source": "NewsAPI (Dexerto)",
+    "published_date_obj": "2026-01-25",
+    "rewritten_title": "Runescape Gold Counts as Real Stolen Property After Uk Judge Rules in $700k Theft Case...",
     "relevance_score": 2
   },
   {
@@ -1229,374 +1597,6 @@
     "source": "NewsAPI (Pokemon GO Hub)",
     "published_date_obj": "2026-01-23",
     "rewritten_title": "A Pve Analysis of Precious Pals: Taken Over! - Pok\u00e9mon Go Hub",
-    "relevance_score": 2
-  },
-  {
-    "title": "Reminder: Final Fantasy VII Remake Intergrade 'Limited Early Purchase Edition' Offer Ends Next Week - Nintendo Life",
-    "url": "https://www.nintendolife.com/news/2026/01/reminder-final-fantasy-vii-remake-intergrade-limited-early-purchase-edition-offer-ends-next-week",
-    "source": "NewsAPI (Nintendo Life)",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "Reminder: Final Fantasy Vii Remake Intergrade 'limited Early Purchase Edition' Offer Ends Next Week -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "I use the 'unicorn prompt' with every chatbot \u2014 it instantly fixes the worst AI problem - Tom's Guide",
-    "url": "https://www.tomsguide.com/ai/i-use-the-unicorn-prompt-with-every-chatbot-it-instantly-fixes-the-worst-ai-problem",
-    "source": "NewsAPI (Tom's Guide)",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "I Use the 'unicorn Prompt' with Every Chatbot \u2014 It Instantly Fixes the Worst Ai...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Pok\u00e9mon Dev Game Freak Steps Up the Production Values for Beast of Reincarnation on PS5 - Push Square",
-    "url": "https://www.pushsquare.com/news/2026/01/pokemon-dev-game-freak-steps-up-the-production-values-for-beast-of-reincarnation-on-ps5",
-    "source": "NewsAPI (Push Square)",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "Pok\u00e9mon Dev Game Freak Steps Up the Production Values for Beast of Reincarnation on Ps5...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Videos show Samsung Galaxy S26's new Privacy Display - Mashable",
-    "url": "https://mashable.com/article/samsung-galaxy-s26-privacy-display",
-    "source": "NewsAPI (Mashable)",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "Videos Show Samsung Galaxy S26's New Privacy Display - Mashable",
-    "relevance_score": 2
-  },
-  {
-    "title": "New Windows 11 KB5074109 Update Breaks Systems - Microsoft Asks Users to Remove Update - Cyber Security News",
-    "url": "https://cybersecuritynews.com/windows-11-update-breaks-systems/",
-    "source": "NewsAPI (Cybersecuritynews.com)",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "New Windows 11 Kb5074109 Update Breaks Systems - Microsoft Asks Users to Remove Update -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Forza Horizon 6 Gameplay Trailer: 550 Cars, A Huge Japan Map, And Even Touge Battles - Motor1.com",
-    "url": "https://www.motor1.com/news/785222/forza-horizon-6-details-gameplay-trailer/",
-    "source": "NewsAPI (Motor1 )",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "Forza Horizon 6 Gameplay Trailer: 550 Cars, a Huge Japan Map, and Even Touge Battles...",
-    "relevance_score": 2
-  },
-  {
-    "title": "If AI GTM Tools Were Half as Good As Cursor or Replit, It Would Be a Different World Today. They Will Get There.",
-    "url": "https://www.saastr.com/if-ai-gtm-tools-were-half-as-good-as-cursor-or-replit-it-would-be-a-different-world-today-they-will-get-there/",
-    "source": "SaaStr",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "If Ai Gtm Tools Were Half as Good as Cursor or Replit, It Would Be...",
-    "relevance_score": 3
-  },
-  {
-    "title": "a16z\u2019s State of Markets: $4.7T in Private Unicorns,",
-    "url": "https://www.saastr.com/a16zs-state-of-markets-4-7t-in-private-unicorns/",
-    "source": "SaaStr",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "A16z\u2019s State of Markets: $4.7t in Private Unicorns,",
-    "relevance_score": 3
-  },
-  {
-    "title": "Think Big, Start Small, Scale Fast: Customer Learnings on AI Deployments",
-    "url": "https://www.salesforce.com/news/stories/think-big-start-small-scale-fast/",
-    "source": "Salesforce Blog",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "Think Big, Start Small, Scale Fast: Customer Learnings on Ai Deployments",
-    "relevance_score": 3
-  },
-  {
-    "title": "Route leak incident on January 22, 2026",
-    "url": "https://blog.cloudflare.com/route-leak-incident-january-22-2026/",
-    "source": "CloudFlare Blog",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "Route Leak Incident on January 22, 2026",
-    "relevance_score": 3
-  },
-  {
-    "title": "AI can 10x developers...in creating tech debt",
-    "url": "https://stackoverflow.blog/2026/01/23/ai-can-10x-developers-in-creating-tech-debt/",
-    "source": "Stack Overflow Blog",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "Ai Can 10x Developers...in Creating Tech Debt",
-    "relevance_score": 3
-  },
-  {
-    "title": "How to Automate Arm Migration with Docker MCP Toolkit, VS Code, and GitHub Copilot",
-    "url": "https://www.docker.com/blog/automate-arm-migration-docker-mcp-copilot/",
-    "source": "Docker Blog",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "How to Automate Arm Migration with Docker Mcp Toolkit, Vs Code, and Github Copilot",
-    "relevance_score": 3
-  },
-  {
-    "title": "How to animate SVG with CSS: Tutorial with examples",
-    "url": "https://blog.logrocket.com/how-to-animate-svg-css-tutorial-examples/",
-    "source": "LogRocket",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "How to Animate Svg with Css: Tutorial with Examples",
-    "relevance_score": 3
-  },
-  {
-    "title": "A dev\u2019s guide to Tailwind CSS in 2026",
-    "url": "https://blog.logrocket.com/tailwind-css-guide/",
-    "source": "LogRocket",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "A Dev\u2019s Guide to Tailwind Css in 2026",
-    "relevance_score": 3
-  },
-  {
-    "title": "Google and Epic Games struck a secretive $800 million deal, 'helping Google market Android' - 9to5Google",
-    "url": "http://9to5google.com/2026/01/22/google-epic-games-deal-court-reveal/",
-    "source": "NewsAPI (9to5google.com)",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "Google and Epic Games Struck a Secretive $800 Million Deal, 'helping Google Market Android' -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "PSA: Switch 2 Visual And Performance Improvements Included In New Rocket League Update - Nintendo Life",
-    "url": "https://www.nintendolife.com/news/2026/01/psa-switch-2-visual-and-performance-improvements-included-in-new-rocket-league-update",
-    "source": "NewsAPI (Nintendo Life)",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "Psa: Switch 2 Visual and Performance Improvements Included in New Rocket League Update - Nintendo...",
-    "relevance_score": 2
-  },
-  {
-    "title": "OpenAI\u00a0is coming for those sweet enterprise dollars in 2026",
-    "url": "https://techcrunch.com/2026/01/22/openai-is-coming-for-those-sweet-enterprise-dollars-in-2026/",
-    "source": "TechCrunch Enterprise",
-    "published_date_obj": "2026-01-23",
-    "rewritten_title": "Openai Is Coming for Those Sweet Enterprise Dollars in 2026",
-    "relevance_score": 3
-  },
-  {
-    "title": "Warhammer 40,000: Space Marine 2's Upcoming Techmarine Class Has a Unique Ability That Has Fans Very Excited Indeed - IGN",
-    "url": "https://www.ign.com/articles/warhammer-40000-space-marine-2s-upcoming-techmarine-class-has-a-unique-ability-that-has-fans-very-excited-indeed",
-    "source": "NewsAPI (IGN)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Warhammer 40,000: Space Marine 2's Upcoming Techmarine Class Has a Unique Ability That Has Fans...",
-    "relevance_score": 12
-  },
-  {
-    "title": "I tried exercising with open-ear headphones and bone conduction \u2014 for me, there was one clear winner - Tom's Guide",
-    "url": "https://www.tomsguide.com/audio/headphones/i-tried-exercising-with-open-ear-headphones-and-bone-conduction-for-me-there-was-one-clear-winner",
-    "source": "NewsAPI (Tom's Guide)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "I Tried Exercising with Open-ear Headphones and Bone Conduction \u2014 for Me, There Was One...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Raspberry Pi Flash Drive available now from $30: a high-quality essential accessory - Raspberry Pi",
-    "url": "https://www.raspberrypi.com/news/raspberry-pi-flash-drive-available-now-from-30-a-high-quality-essential-accessory/",
-    "source": "NewsAPI (Raspberrypi.com)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Raspberry Pi Flash Drive Available Now From $30: a High-quality Essential Accessory - Raspberry Pi",
-    "relevance_score": 2
-  },
-  {
-    "title": "Report: Apple plans to launch AI-powered wearable pin device as soon as 2027 - Ars Technica",
-    "url": "https://arstechnica.com/apple/2026/01/report-apple-plans-to-launch-ai-powered-wearable-pin-device-as-soon-as-2027/",
-    "source": "NewsAPI (Ars Technica)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Report: Apple Plans to Launch Ai-powered Wearable Pin Device as Soon as 2027 - Ars...",
-    "relevance_score": 2
-  },
-  {
-    "title": "New study shows just how effective Apple Watch is at detecting AFib - 9to5Mac",
-    "url": "https://9to5mac.com/2026/01/22/apple-watch-afib-study-effective-standard-care/",
-    "source": "NewsAPI (9to5Mac)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "New Study Shows Just How Effective Apple Watch Is at Detecting Afib - 9to5mac",
-    "relevance_score": 2
-  },
-  {
-    "title": "Halo x MOPOP Supper Fan Club | Halo - Official Site (en) - Halo Waypoint",
-    "url": "https://www.halowaypoint.com/news/mopop-supper-fan-club",
-    "source": "NewsAPI (Halowaypoint.com)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Halo X Mopop Supper Fan Club | Halo - Official Site (en) - Halo Waypoint",
-    "relevance_score": 2
-  },
-  {
-    "title": "Winapp is Microsoft\u2019s new command line utility for developers. - The Verge",
-    "url": "https://www.theverge.com/news/865976/winapp-is-microsofts-new-command-line-utility-for-developers",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Winapp Is Microsoft\u2019s New Command Line Utility for Developers. - the Verge",
-    "relevance_score": 2
-  },
-  {
-    "title": "12-Player Animal Crossing: New Horizons Is a Nightmare Because Nintendo Handles Online Functionality in the Most Ridiculous Way Possible - IGN",
-    "url": "https://www.ign.com/articles/12-player-animal-crossing-new-horizons-is-a-nightmare-because-nintendo-handles-online-functionality-in-the-most-ridiculous-way-possible",
-    "source": "NewsAPI (IGN)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "12-player Animal Crossing: New Horizons Is a Nightmare Because Nintendo Handles Online Functionality in The...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Fujifilm SX400 is the love child of a bridge camera and a CCTV bullet cam - Digital Camera World",
-    "url": "https://www.digitalcameraworld.com/cameras/compact-cameras/fujifilm-sx400-is-the-love-child-of-a-bridge-camera-and-a-cctv-bullet-cam",
-    "source": "NewsAPI (Digital Camera World)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Fujifilm Sx400 Is the Love Child of a Bridge Camera and a Cctv Bullet Cam...",
-    "relevance_score": 2
-  },
-  {
-    "title": "PS5 Pro Finally Getting a AAA Game With Major Enhancements - PlayStation LifeStyle",
-    "url": "https://www.playstationlifestyle.net/2026/01/22/marathon-ps5-pro-enhancements-revealed/",
-    "source": "NewsAPI (PlayStation LifeStyle)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Ps5 Pro Finally Getting a Aaa Game with Major Enhancements - Playstation Lifestyle",
-    "relevance_score": 2
-  },
-  {
-    "title": "Xbox System Update Drops, Adds Highly Requested Handy New Feature - GAMINGbible",
-    "url": "https://www.gamingbible.com/news/platform/xbox/xbox-system-update-adds-highly-requested-feature-358730-20260122",
-    "source": "NewsAPI (Gamingbible.com)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Xbox System Update Drops, Adds Highly Requested Handy New Feature - Gamingbible",
-    "relevance_score": 2
-  },
-  {
-    "title": "If You've Installed Any of These 17 Browser Extensions, Delete Them Now - Lifehacker",
-    "url": "https://lifehacker.com/tech/delete-malicious-ghostposter-browser-extensions",
-    "source": "NewsAPI (Lifehacker.com)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "If You've Installed Any of These 17 Browser Extensions, Delete Them Now - Lifehacker",
-    "relevance_score": 2
-  },
-  {
-    "title": "Creepy robotic hand detaches at the wrist before scurrying away to collect objects - Live Science",
-    "url": "https://www.livescience.com/technology/robotics/creepy-robotic-hand-detaches-at-the-wrist-before-scurrying-away-to-collect-objects",
-    "source": "NewsAPI (Live Science)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Creepy Robotic Hand Detaches at the Wrist Before Scurrying Away to Collect Objects - Live...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Lights Out for Google Smart Home Devices As Bulbs, Switches, More Go Down - PCMag",
-    "url": "https://www.pcmag.com/news/lights-out-for-google-smart-home-devices-as-bulbs-switches-more-outage",
-    "source": "NewsAPI (PCMag.com)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Lights Out for Google Smart Home Devices as Bulbs, Switches, More Go Down - Pcmag",
-    "relevance_score": 2
-  },
-  {
-    "title": "Over 100 fake citations slip through peer review at top AI conference - the-decoder.com",
-    "url": "https://the-decoder.com/over-100-fake-citations-slip-through-peer-review-at-top-ai-conference/",
-    "source": "NewsAPI (The-decoder.com)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Over 100 Fake Citations Slip Through Peer Review at Top Ai Conference - The-decoder.com",
-    "relevance_score": 2
-  },
-  {
-    "title": "Adobe After Effects finally levels up with its biggest update in years - Creative Bloq",
-    "url": "https://www.creativebloq.com/photography/video-editing-software/adobe-after-effects-finally-levels-up-with-its-biggest-update-in-years",
-    "source": "NewsAPI (Creative Bloq)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Adobe After Effects Finally Levels Up with Its Biggest Update in Years - Creative Bloq",
-    "relevance_score": 2
-  },
-  {
-    "title": "Fable Reboot Release Window Set for Fall 2026, Launches Day 1 on PS5 - IGN",
-    "url": "https://www.ign.com/articles/fable-reboot-release-window-set-for-fall-2026-launches-day-1-on-ps5",
-    "source": "NewsAPI (IGN)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Fable Reboot Release Window Set for Fall 2026, Launches Day 1 on Ps5 - Ign",
-    "relevance_score": 2
-  },
-  {
-    "title": "Beast of Reincarnation Game Director Answers All Our Burning Questions About the Pokemon Developer's Upcoming Action Game - IGN",
-    "url": "https://www.ign.com/articles/beast-of-reincarnation-game-director-answers-all-our-burning-questions-about-the-pokemon-developers-upcoming-action-game",
-    "source": "NewsAPI (IGN)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Beast of Reincarnation Game Director Answers All Our Burning Questions About the Pokemon Developer's Upcoming...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Seven years after its last Bluetooth turntable, Sony is spoiling us with two new models - What Hi-Fi?",
-    "url": "https://www.whathifi.com/hi-fi/turntables/sony-lifts-the-lid-on-two-new-bluetooth-turntables-with-sleek-minimalist-designs",
-    "source": "NewsAPI (What Hi-Fi? US)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Seven Years After Its Last Bluetooth Turntable, Sony Is Spoiling Us with Two New Models...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Metagame Mentor: The Top Standard Decks to Expect at Pro Tour Lorwyn Eclipsed - MAGIC PLAY",
-    "url": "https://magic.gg/news/metagame-mentor-the-top-standard-decks-to-expect-at-pro-tour-lorwyn-eclipsed",
-    "source": "NewsAPI (Magic.gg)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Metagame Mentor: the Top Standard Decks to Expect at Pro Tour Lorwyn Eclipsed - Magic...",
-    "relevance_score": 2
-  },
-  {
-    "title": "You can try the Galaxy Z TriFold in these US stores starting January 23 - 9to5Google",
-    "url": "http://9to5google.com/2026/01/22/you-can-try-the-galaxy-z-trifold-in-these-us-stores-starting-january-23/",
-    "source": "NewsAPI (9to5google.com)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "You Can Try the Galaxy Z Trifold in These Us Stores Starting January 23 -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "AMD\u2019s faster Ryzen 7 9850X3D CPU arrives on January 29th for $499 - The Verge",
-    "url": "https://www.theverge.com/news/865648/amd-ryzen-7-9850x3d-price-release-date-announcement",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Amd\u2019s Faster Ryzen 7 9850x3d Cpu Arrives on January 29th for $499 - the Verge",
-    "relevance_score": 2
-  },
-  {
-    "title": "Wrap the Karin Everon RS in the New Mosh Mosh Livery - Rockstar Games",
-    "url": "https://www.rockstargames.com/newswire/article/2581391535k91o/wrap-the-karin-everon-rs-in-the-new-mosh-mosh-livery",
-    "source": "NewsAPI (Rockstargames.com)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Wrap the Karin Everon Rs in the New Mosh Mosh Livery - Rockstar Games",
-    "relevance_score": 2
-  },
-  {
-    "title": "Nintendo Switch 2 led December sales in the U.S., now at 4.4 million, doubled Switch 1's performance - Nintendo Everything",
-    "url": "https://nintendoeverything.com/nintendo-switch-2-led-december-sales-in-the-u-s-now-at-4-4-million-doubled-switch-1s-performance/",
-    "source": "NewsAPI (Nintendoeverything.com)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Nintendo Switch 2 Led December Sales in the U.s., Now at 4.4 Million, Doubled Switch...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Nintendo is following up Alarmo with a weird Talking Flower in March - The Verge",
-    "url": "https://www.theverge.com/tech/865618/nintendo-talking-flower-preorder-super-mario-wonder",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Nintendo Is Following Up Alarmo with a Weird Talking Flower in March - the Verge",
-    "relevance_score": 2
-  },
-  {
-    "title": "Intel Announces Discontinuation Period For 12th Generation Alder Lake And Sapphire Rapids Scalable CPUs - Wccftech",
-    "url": "https://wccftech.com/intel-announces-discontinuation-period-for-12th-generation-alder-lake-and-sapphire-rapids-scalable-cpus/",
-    "source": "NewsAPI (Wccftech)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Intel Announces Discontinuation Period for 12th Generation Alder Lake and Sapphire Rapids Scalable Cpus -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Prompted Playlists in Beta Coming to Premium Listeners in More Markets - Spotify",
-    "url": "https://newsroom.spotify.com/2026-01-22/prompted-playlists-expansion/",
-    "source": "NewsAPI (Spotify.com)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "Prompted Playlists in Beta Coming to Premium Listeners in More Markets - Spotify",
-    "relevance_score": 2
-  },
-  {
-    "title": "With Google Deal, Apple\u2019s Craig Federighi Plots a Cautious Course in AI - The Information",
-    "url": "https://www.theinformation.com/articles/google-deal-apples-craig-federighi-plots-cautious-course-ai",
-    "source": "NewsAPI (The Information)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "With Google Deal, Apple\u2019s Craig Federighi Plots a Cautious Course in Ai - the Information",
-    "relevance_score": 2
-  },
-  {
-    "title": "1Password is introducing a new phishing prevention feature - The Verge",
-    "url": "https://www.theverge.com/tech/864980/1password-security-phishing-attack-prevention-password-browser-extension-scammers",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2026-01-22",
-    "rewritten_title": "1password Is Introducing a New Phishing Prevention Feature - the Verge",
     "relevance_score": 2
   }
 ]
