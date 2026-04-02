@@ -1,523 +1,496 @@
 {
     "SaaS Funding": [
         {
-            "title": "Coatue Projected $1.995 Trillion Valuation for Anthropic in 2030 - Newcomer | Substack",
-            "url": "https://www.newcomer.co/p/coatue-projected-1995-trillion-valuation",
-            "source": "NewsAPI (Newcomer.co)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Coatue Projected $1.995 Trillion Valuation for Anthropic in 2030 - Newcomer | Substack"
-        },
-        {
-            "title": "OpenAI closes record $122 billion funding round as IPO anticipation grows, valuing the company at $852 billion",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1s8z0aj/openai_closes_record_122_billion_funding_round_as/",
-            "source": "Reddit r/openai",
+            "title": "Slack adds 30 AI features to Slackbot, its most ambitious update since the Salesforce acquisition",
+            "url": "https://venturebeat.com/orchestration/slack-adds-30-ai-features-to-slackbot-its-most-ambitious-update-since-the",
+            "source": "NewsAPI (VentureBeat)",
             "published_date_obj": "2026-03-31",
-            "rewritten_title": "Openai Closes Record $122 Billion Funding Round as Ipo Anticipation Grows, Valuing the Company At..."
+            "rewritten_title": "Slack Adds 30 Ai Features to Slackbot, Its Most Ambitious Update Since the Salesforce Acquisition"
         }
     ],
-    "Enterprise Software": [],
+    "Enterprise Software": [
+        {
+            "title": "Pok\u00e9mon Pokopia x IKEA collaboration turns Pikachu and Snorlax into flatpacks - Polygon.com",
+            "url": "https://www.polygon.com/pokemon-pokopia-ikea-collaboration/",
+            "source": "NewsAPI (Polygon)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Pok\u00e9mon Pokopia X Ikea Collaboration Turns Pikachu and Snorlax Into Flatpacks - Polygon.com"
+        },
+        {
+            "title": "5 Honest Lessons on How AI is Actually Rewiring B2B Sales (From Salesforce, Momentum, and Mangomint)",
+            "url": "https://www.saastr.com/5-honest-lessons-on-how-ai-is-actually-rewiring-b2b-sales-from-salesforce-momentum-and-mangomint/",
+            "source": "SaaStr",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "5 Honest Lessons on How Ai Is Actually Rewiring B2b Sales (from Salesforce, Momentum, And..."
+        }
+    ],
     "Product Launches": [
         {
-            "title": "Mario Kart World 1.6.0 update out now, patch notes \u2013 Bob-omb Blast and much more - Nintendo Everything",
-            "url": "https://nintendoeverything.com/mario-kart-world-1-6-0-update-out-now-patch-notes-bob-omb-blast-and-much-more/",
-            "source": "NewsAPI (Nintendoeverything.com)",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "Mario Kart World 1.6.0 Update Out Now, Patch Notes \u2013 Bob-omb Blast and Much More..."
-        },
-        {
-            "title": "Target Just Launched a Flash LEGO Sale for Spring That's Actually Really Good, But It Only Lasts Until Tomorrow - IGN",
-            "url": "https://www.ign.com/articles/check-out-these-flash-lego-deals-at-target",
-            "source": "NewsAPI (IGN)",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "Target Just Launched a Flash Lego Sale for Spring That's Actually Really Good, but It..."
-        },
-        {
-            "title": "iOS 26.5 beta 1: Here are all the new features - 9to5mac.com",
-            "url": "https://9to5mac.com/2026/03/30/ios-26-5-beta-1-here-are-all-the-new-features/",
-            "source": "NewsAPI (9to5Mac)",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "Ios 26.5 Beta 1: Here Are All the New Features - 9to5mac.com"
-        },
-        {
-            "title": "38 \"Hidden Features\" On Everyday Items You Probably Already Own, But Didn't Know About - BuzzFeed",
-            "url": "https://www.buzzfeed.com/angelicaamartinez/hidden-features-products-hacks-reddit",
-            "source": "NewsAPI (Buzzfeed)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "38 \"hidden Features\" on Everyday Items You Probably Already Own, but Didn't Know About -..."
-        },
-        {
-            "title": "Here\u2019s When The \u2018Arc Raiders\u2019 Flashpoint Update Goes Live With New Guns, New Arc Enemies And More - Forbes",
-            "url": "https://www.forbes.com/sites/erikkain/2026/03/30/arc-raiders-flashpoint-update-release-time-new-content/",
+            "title": "Apple iPhone 18 Pro: Latest Leak Signals Major Design Update - Forbes",
+            "url": "https://www.forbes.com/sites/davidphelan/2026/03/31/apple-iphone-18-pro-latest-leak-signals-major-design-update/",
             "source": "NewsAPI (Forbes)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Here\u2019s When the \u2018arc Raiders\u2019 Flashpoint Update Goes Live with New Guns, New Arc Enemies..."
-        },
-        {
-            "title": "Crimson Desert Update Seemingly Replaces AI Artwork - GameSpot",
-            "url": "https://www.gamespot.com/articles/crimson-desert-update-seemingly-replaces-ai-artwork/1100-6539094/",
-            "source": "NewsAPI (GameSpot)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Crimson Desert Update Seemingly Replaces Ai Artwork - Gamespot"
-        },
-        {
-            "title": "Feature: The Best (And Most Cursed) Tomodachi Life Miis We've Seen So Far - Nintendo Life",
-            "url": "https://www.nintendolife.com/features/the-best-and-most-cursed-tomodachi-life-miis-weve-seen-so-far",
-            "source": "NewsAPI (Nintendo Life)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Feature: the Best (and Most Cursed) Tomodachi Life Miis We've Seen So Far - Nintendo..."
-        },
-        {
-            "title": "iOS 26.4 adds convenient new iCloud feature, here\u2019s how to enable it - 9to5mac.com",
-            "url": "https://9to5mac.com/2026/03/30/ios-26-4-adds-convenient-new-icloud-feature-heres-how-to-enable-it/",
-            "source": "NewsAPI (9to5Mac)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Ios 26.4 Adds Convenient New Icloud Feature, Here\u2019s How to Enable It - 9to5mac.com"
-        },
-        {
-            "title": "New Zelda Limited Edition Switch 2 Console Rumored to Launch with Ocarina of Time Remake - Wccftech",
-            "url": "https://wccftech.com/zelda-limited-edition-switch-2-ocarina-of-time-remake/",
-            "source": "NewsAPI (Wccftech)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "New Zelda Limited Edition Switch 2 Console Rumored to Launch with Ocarina of Time Remake..."
-        },
-        {
-            "title": "Microsoft pulls KB5079391 Windows update over install issues - BleepingComputer",
-            "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-windows-kb5079391-update-over-0x80073712-install-errors/",
-            "source": "NewsAPI (BleepingComputer)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Microsoft Pulls Kb5079391 Windows Update Over Install Issues - Bleepingcomputer"
-        },
-        {
-            "title": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
-            "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
-            "source": "TechCrunch Enterprise",
             "published_date_obj": "2026-03-31",
-            "rewritten_title": "Salesforce Announces an Ai-heavy Makeover for Slack, with 30 New Features"
+            "rewritten_title": "Apple Iphone 18 Pro: Latest Leak Signals Major Design Update - Forbes"
+        },
+        {
+            "title": "The Biggest New Game Releases Of April 2026 - gamespot.com",
+            "url": "https://www.gamespot.com/gallery/the-biggest-new-game-releases-of-april-2026/2900-7623/",
+            "source": "NewsAPI (GameSpot)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "The Biggest New Game Releases of April 2026 - Gamespot.com"
+        },
+        {
+            "title": "Apple Releases New Firmware for AirPods Max 2 - MacRumors",
+            "url": "https://www.macrumors.com/2026/03/31/airpods-max-2-firmware-8e251/",
+            "source": "NewsAPI (MacRumors)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Apple Releases New Firmware for Airpods Max 2 - Macrumors"
+        },
+        {
+            "title": "Apple Tests Siri Feature That Handles Multiple Commands at Once - Bloomberg.com",
+            "url": "https://www.bloomberg.com/news/articles/2026-03-31/apple-tests-siri-feature-that-handles-multiple-commands-at-once",
+            "source": "NewsAPI (Bloomberg)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Apple Tests Siri Feature That Handles Multiple Commands at Once - Bloomberg.com"
+        },
+        {
+            "title": "Akali gameplay trailer for 2XKO, releases April 7 - EventHubs",
+            "url": "https://www.eventhubs.com/news/2026/mar/31/akali-gameplay-trailer-2xko/",
+            "source": "NewsAPI (EventHubs)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Akali Gameplay Trailer for 2xko, Releases April 7 - Eventhubs"
+        },
+        {
+            "title": "Samsung\u2019s Blood Pressure Monitoring Feature Now Available to U.S. Users in Samsung Health - samsung.com",
+            "url": "https://news.samsung.com/us/samsung-blood-pressure-monitoring-feature-available",
+            "source": "NewsAPI (Samsung.com)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Samsung\u2019s Blood Pressure Monitoring Feature Now Available to U.s. Users in Samsung Health - Samsung.com"
+        },
+        {
+            "title": "Android's new developer verification rollout begins, sideloading changes are next - Android Authority",
+            "url": "https://www.androidauthority.com/android-developer-verification-rollout-sideloading-flow-3653395/",
+            "source": "NewsAPI (Android Authority)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Android's New Developer Verification Rollout Begins, Sideloading Changes Are Next - Android Authority"
+        },
+        {
+            "title": "M5 MacBook Air review: Incremental update, but the best buy for most - AppleInsider",
+            "url": "https://appleinsider.com/articles/26/03/30/m5-macbook-air-review-incremental-update-but-the-best-buy-for-most",
+            "source": "NewsAPI (AppleInsider)",
+            "published_date_obj": "2026-03-30",
+            "rewritten_title": "M5 Macbook Air Review: Incremental Update, but the Best Buy for Most - Appleinsider"
         }
     ],
     "SaaS Analytics": [
         {
-            "title": "If Your Mood Is Blah With A Bit Of Ugh, Here Are 33 Fun Products To Help Get You Out Of Your Funk - BuzzFeed",
-            "url": "https://www.buzzfeed.com/diviniatarin/products-help-get-you-out-of-funk",
-            "source": "NewsAPI (Buzzfeed)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "If Your Mood Is Blah with a Bit of Ugh, Here Are 33 Fun Products..."
-        },
-        {
-            "title": "World of Warcraft\u2019s biggest faction shake\u2011up ever has fans split, and some say Blizzard will regret this move for years - Windows Central",
-            "url": "https://www.windowscentral.com/gaming/pc-gaming/some-are-celebrating-but-world-of-warcrafts-move-away-from-the-horde-and-alliance-faction-split-will-be-seen-as-a-historic-mistake",
-            "source": "NewsAPI (Windows Central)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "World of Warcraft\u2019s Biggest Faction Shake\u2011up Ever Has Fans Split, and Some Say Blizzard Will..."
-        },
-        {
-            "title": "The first Apple Home Key-ready smart lock with UWB is cheaper during Amazon\u2019s Big Spring Sale - The Verge",
-            "url": "https://www.theverge.com/gadgets/903555/aqara-u400-apple-home-key-uwb-smart-lock-amazon-big-spring-sale-2026-deal",
+            "title": "Amazon is offering up to 50 percent off chargers from Anker and others for its Big Spring Sale - The Verge",
+            "url": "https://www.theverge.com/gadgets/904242/amazon-big-spring-sale-2026-baseus-anker-chargers-power-banks-batteries-deals",
             "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "The First Apple Home Key-ready Smart Lock with Uwb Is Cheaper During Amazon\u2019s Big Spring..."
-        },
-        {
-            "title": "Amazon's Spring Sale Brings Big Savings Up to 60% Off SSD and HDD Storage - PCMag",
-            "url": "https://www.pcmag.com/news/best-amazon-spring-sale-2026-external-ssd-hdd-storage-deals-day-6",
-            "source": "NewsAPI (PCMag.com)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Amazon's Spring Sale Brings Big Savings Up to 60% Off Ssd and Hdd Storage -..."
-        },
-        {
-            "title": "Leaked GTA IV Dev Kit Reveals Unfinished Zombies Mode And More - Kotaku",
-            "url": "https://kotaku.com/unfinished-gta-4-zombies-mode-hidden-inside-dev-kit-found-at-a-flea-market-2000683171",
-            "source": "NewsAPI (Kotaku)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Leaked Gta Iv Dev Kit Reveals Unfinished Zombies Mode and More - Kotaku"
-        },
-        {
-            "title": "T-Mobile tests customer loyalty with another fee hike - thestreet.com",
-            "url": "https://www.thestreet.com/retail/t-mobile-tests-customer-loyalty-with-another-fee-hike",
-            "source": "NewsAPI (TheStreet)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "T-mobile Tests Customer Loyalty with Another Fee Hike - Thestreet.com"
-        },
-        {
-            "title": "Next-Level Performance Starts with MSI's MEG X870E UNIFY-X MAX motherboard and AMD Ryzen 9 9950X3D2 Dual Edition Processor - TechPowerUp",
-            "url": "https://www.techpowerup.com/347846/next-level-performance-starts-with-msis-meg-x870e-unify-x-max-motherboard-and-amd-ryzen-9-9950x3d2-dual-edition-processor",
-            "source": "NewsAPI (Techpowerup.com)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Next-level Performance Starts with Msi's Meg X870e Unify-x Max Motherboard and Amd Ryzen 9 9950x3d2..."
-        },
-        {
-            "title": "Our AI VP of Marketing \u201c10K\u201d Said To Drop Prices. Our 10+ Years of Data Said Otherwise. Our AI VP Marketing Was Right.",
-            "url": "https://www.saastr.com/aivpmarketingsawit/",
-            "source": "SaaStr",
             "published_date_obj": "2026-03-31",
-            "rewritten_title": "Our Ai Vp of Marketing \u201c10k\u201d Said to Drop Prices. Our 10+ Years of Data..."
+            "rewritten_title": "Amazon Is Offering Up to 50 Percent Off Chargers From Anker and Others for Its..."
+        },
+        {
+            "title": "AI language models show bias against regional German dialects",
+            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1s9kscu/ai_language_models_show_bias_against_regional/",
+            "source": "Reddit r/LargeLanguageModels",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Ai Language Models Show Bias Against Regional German Dialects"
+        },
+        {
+            "title": "The Bonsai 1-bit models are very good",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s9zumi/the_bonsai_1bit_models_are_very_good/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "The Bonsai 1-bit Models Are Very Good"
+        },
+        {
+            "title": "Google Readies Screenless Fitbit Band to Rival Growing Whoop Craze - Bloomberg.com",
+            "url": "https://www.bloomberg.com/news/articles/2026-04-01/google-readies-revamped-screenless-fitbit-to-rival-growing-whoop-craze",
+            "source": "NewsAPI (Bloomberg)",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Google Readies Screenless Fitbit Band to Rival Growing Whoop Craze - Bloomberg.com"
+        },
+        {
+            "title": "Vertex AI Vulnerability Exposes Google Cloud Data and Private Artifacts - The Hacker News",
+            "url": "https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html",
+            "source": "NewsAPI (Internet)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Vertex Ai Vulnerability Exposes Google Cloud Data and Private Artifacts - the Hacker News"
         }
     ],
     "B2B Technology": [
         {
-            "title": "Super Meat Boy doesn't really work as a 3D platformer - Polygon.com",
-            "url": "https://www.polygon.com/super-meat-boy-3d-review/",
-            "source": "NewsAPI (Polygon)",
+            "title": "Researchers Come Up With Foolproof Method to Certify Real Photos - PetaPixel",
+            "url": "https://petapixel.com/2026/03/30/researchers-come-up-with-foolproof-method-to-certify-real-photos/",
+            "source": "NewsAPI (PetaPixel)",
             "published_date_obj": "2026-03-30",
-            "rewritten_title": "Super Meat Boy Doesn't Really Work as a 3d Platformer - Polygon.com"
+            "rewritten_title": "Researchers Come Up with Foolproof Method to Certify Real Photos - Petapixel"
         },
         {
-            "title": "FedEx chooses partnerships over proprietary tech for its automation strategy",
-            "url": "https://techcrunch.com/2026/03/31/fedex-chooses-partnerships-over-proprietary-tech-for-its-automation-strategy/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "Fedex Chooses Partnerships Over Proprietary Tech for Its Automation Strategy"
+            "title": "Bay Area therapists say AI workers are in crisis",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1s9muxh/bay_area_therapists_say_ai_workers_are_in_crisis/",
+            "source": "Reddit r/openai",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Bay Area Therapists Say Ai Workers Are in Crisis"
         }
     ],
     "Software Industry": [
         {
-            "title": "Apple stopped selling 14 products in March, including 3 with no replacements - 9to5Mac",
-            "url": "https://9to5mac.com/2026/03/30/apple-stopped-selling-14-products-in-march-including-3-with-no-replacements/",
+            "title": "Wordle today: The answer and hints for April 1, 2026 - Mashable",
+            "url": "https://mashable.com/article/wordle-today-answer-april-1-2026",
+            "source": "NewsAPI (Mashable)",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Wordle Today: the Answer and Hints for April 1, 2026 - Mashable"
+        },
+        {
+            "title": "One Chart Shows Just How Unprecedented PS5 Price Hikes Are - Kotaku",
+            "url": "https://kotaku.com/one-chart-shows-buying-an-old-playstation-has-never-been-this-expensive-before-2000683668",
+            "source": "NewsAPI (Kotaku)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "One Chart Shows Just How Unprecedented Ps5 Price Hikes Are - Kotaku"
+        },
+        {
+            "title": "Shigeru Miyamoto says he's \"on a mission to try to include Pikmin in any kind of Nintendo product we put up\" - Nintendo Everything",
+            "url": "https://nintendoeverything.com/shigeru-miyamoto-says-hes-on-a-mission-to-try-to-include-pikmin-in-any-kind-of-nintendo-product-we-put-up/",
+            "source": "NewsAPI (Nintendoeverything.com)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Shigeru Miyamoto Says He's \"on a Mission to Try to Include Pikmin in Any Kind..."
+        },
+        {
+            "title": "Halo and Fanta: Fantastic Spartan Rewards Chest Challenge | Halo - Official Site (en) - Halo Waypoint",
+            "url": "https://www.halowaypoint.com/news/fanta-rewards-chest-challenges",
+            "source": "NewsAPI (Halowaypoint.com)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Halo and Fanta: Fantastic Spartan Rewards Chest Challenge | Halo - Official Site (en) -..."
+        },
+        {
+            "title": "iOS 26.4 has convenient change for iPhone personal hotspot users - 9to5Mac",
+            "url": "https://9to5mac.com/2026/03/31/ios-26-4-makes-it-easy-to-see-whos-using-your-personal-hotspot/",
             "source": "NewsAPI (9to5Mac)",
             "published_date_obj": "2026-03-31",
-            "rewritten_title": "Apple Stopped Selling 14 Products in March, Including 3 with No Replacements - 9to5mac"
+            "rewritten_title": "Ios 26.4 Has Convenient Change for Iphone Personal Hotspot Users - 9to5mac"
         },
         {
-            "title": "I Almost Spilled My Coffee Laughing At These Funny Job Tweets - BuzzFeed",
-            "url": "https://www.buzzfeed.com/chelseastewart/funny-job-tweets-march-2026",
-            "source": "NewsAPI (Buzzfeed)",
+            "title": "Samsung\u2019s new app claims to alleviate motion sickness using sound - The Verge",
+            "url": "https://www.theverge.com/tech/904579/samsung-hearapy-mobile-app-galaxy-buds-motion-sickness-symptoms",
+            "source": "NewsAPI (The Verge)",
             "published_date_obj": "2026-03-31",
-            "rewritten_title": "I Almost Spilled My Coffee Laughing at These Funny Job Tweets - Buzzfeed"
+            "rewritten_title": "Samsung\u2019s New App Claims to Alleviate Motion Sickness Using Sound - the Verge"
         },
         {
-            "title": "21 Chic Hairstyles for Women Over 50, Inspired By Celebrities - Vogue",
-            "url": "https://www.vogue.com/slideshow/celebrity-inspired-hairstyles-for-women-over-50-2026",
-            "source": "NewsAPI (Vogue)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "21 Chic Hairstyles for Women Over 50, Inspired by Celebrities - Vogue"
+            "title": "The Galaxy S26\u2019s photo app can sloppify your memories - The Verge",
+            "url": "https://www.theverge.com/tech/904176/samsung-galaxy-s26-ai-photo-assist-slop",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "The Galaxy S26\u2019s Photo App Can Sloppify Your Memories - the Verge"
         },
         {
-            "title": "Apple Pulls Vibe Coding App 'Anything' From App Store, Escalating Enforcement - MacRumors",
-            "url": "https://www.macrumors.com/2026/03/30/apple-pulls-vibe-coding-app/",
-            "source": "NewsAPI (MacRumors)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Apple Pulls Vibe Coding App 'anything' From App Store, Escalating Enforcement - Macrumors"
+            "title": "PS5 Gets Award-Winning Xbox Adventure Game Today on PS Store - PlayStation LifeStyle",
+            "url": "https://www.playstationlifestyle.net/2026/03/31/south-of-midnight-ps5-ps-store-out-today/",
+            "source": "NewsAPI (PlayStation LifeStyle)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Ps5 Gets Award-winning Xbox Adventure Game Today on Ps Store - Playstation Lifestyle"
         },
         {
-            "title": "My Nintendo March Wrap-Up - Nintendo",
-            "url": "https://www.nintendo.com/us/whatsnew/my-nintendo-march-wrap-up-march-2026/",
-            "source": "NewsAPI (Nintendo.com)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "My Nintendo March Wrap-up - Nintendo"
+            "title": "Wargaming Console and PC Titles to Get In-Game Benefits with Xbox Game Pass - Xbox Wire",
+            "url": "https://news.xbox.com/en-us/2026/03/31/wargaming-world-of-tanks-warships-game-pass-benefits/",
+            "source": "NewsAPI (Xbox.com)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Wargaming Console and Pc Titles to Get In-game Benefits with Xbox Game Pass - Xbox..."
         },
         {
-            "title": "The Clever Engineering Of Shipping The Chevy Vega By Train - Jalopnik",
-            "url": "https://www.jalopnik.com/2133855/chaos-shipping-chevy-vegas-vertically-train/",
-            "source": "NewsAPI (Jalopnik)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "The Clever Engineering of Shipping the Chevy Vega by Train - Jalopnik"
+            "title": "'A Significant Visual Boost': Assassin's Creed Shadows Will Soon Support PSSR 2 on PS5 Pro - Push Square",
+            "url": "https://www.pushsquare.com/news/2026/03/a-significant-visual-boost-assassins-creed-shadows-will-soon-support-pssr-2-on-ps5-pro",
+            "source": "NewsAPI (Push Square)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "'a Significant Visual Boost': Assassin's Creed Shadows Will Soon Support Pssr 2 on Ps5 Pro..."
         },
         {
-            "title": "Deus Ex Studio Eidos Montreal Is In Trouble After Fresh Layoffs - Kotaku",
-            "url": "https://kotaku.com/eidos-montreal-deus-ex-sequel-layoffs-2000683242",
-            "source": "NewsAPI (Kotaku)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Deus Ex Studio Eidos Montreal Is in Trouble After Fresh Layoffs - Kotaku"
+            "title": "Epic Games CEO Tim Sweeney apologises and seemingly rectifies life insurance situation of laid off worker with terminal brain cancer - Eurogamer.net",
+            "url": "https://www.eurogamer.net/epic-games-ceo-tim-sweeney-responds-after-fortnite-layoffs-include-worker-with-brain-cancer",
+            "source": "NewsAPI (Eurogamer.net)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Epic Games Ceo Tim Sweeney Apologises and Seemingly Rectifies Life Insurance Situation of Laid Off..."
         },
         {
-            "title": "Yes, Shigeru Miyamoto has heard the Star Fox \"amputation\" theory and he thinks it's \"nuts\" - GoNintendo",
-            "url": "https://gonintendo.com/contents/59391-yes-shigeru-miyamoto-has-heard-the-star-fox-amputation-theory-and-he-thinks-it-s",
-            "source": "NewsAPI (GoNintendo)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Yes, Shigeru Miyamoto Has Heard the Star Fox \"amputation\" Theory and He Thinks It's \"nuts\"..."
+            "title": "Five Things We Want To See From Xbox's Gears Of War: E-Day Direct - Pure Xbox",
+            "url": "https://www.purexbox.com/features/five-things-we-want-to-see-from-xboxs-gears-of-war-e-day-direct",
+            "source": "NewsAPI (Pure Xbox)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Five Things We Want to See From Xbox's Gears of War: E-day Direct - Pure..."
         },
         {
-            "title": "\"Buy 2, Save $30\" Sale on Nintendo Switch Games is Now Live at Target - Here's Our Top Picks - IGN",
-            "url": "https://www.ign.com/articles/nintendo-switch-2-game-sale-is-live-at-target-buy-2-save-30-for-a-limited-time-only",
+            "title": "Artemis 2 astronauts reveal adorable zero-g indicator 'Rise' photo of the day for March 31, 2026 - Space",
+            "url": "https://www.space.com/space-exploration/artemis/artemis-2-astronauts-reveal-adorable-zero-g-indicator-rise-space-photo-of-the-day-for-march-31-2026",
+            "source": "NewsAPI (Space.com)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Artemis 2 Astronauts Reveal Adorable Zero-g Indicator 'rise' Photo of the Day for March 31,..."
+        },
+        {
+            "title": "Hit the Gravy Train by Completing Trader Sales in Red Dead Online - rockstargames.com",
+            "url": "https://www.rockstargames.com/newswire/article/k4a9473a383191/hit-the-gravy-train-by-completing-trader-sales-in-red-dead-online",
+            "source": "NewsAPI (Rockstargames.com)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Hit the Gravy Train by Completing Trader Sales in Red Dead Online - Rockstargames.com"
+        },
+        {
+            "title": "Nintendo Will Be \"Absolutely Furious\" About Latest Leaks, Says Former PR Manager - Nintendo Life",
+            "url": "https://www.nintendolife.com/news/2026/03/nintendo-will-be-absolutely-furious-about-latest-leaks-says-former-pr-manager",
+            "source": "NewsAPI (Nintendo Life)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Nintendo Will Be \"absolutely Furious\" About Latest Leaks, Says Former Pr Manager - Nintendo Life"
+        },
+        {
+            "title": "These crazy-looking speakers are outlandishly expensive \u2013 but there are only 10 pairs available - What Hi-Fi?",
+            "url": "https://www.whathifi.com/speakers/hi-fi-speakers/bang-and-olufsen-adds-to-its-super-high-end-super-exclusive-series-of-limited-edition-speakers",
+            "source": "NewsAPI (What Hi-Fi? US)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "These Crazy-looking Speakers Are Outlandishly Expensive \u2013 but There Are Only 10 Pairs Available -..."
+        },
+        {
+            "title": "Apple Removes iPhone Vibe Coding App from App Store - gizmodo.com",
+            "url": "https://gizmodo.com/apple-removes-iphone-vibe-coding-app-from-app-store-2000740084",
+            "source": "NewsAPI (Gizmodo.com)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Apple Removes Iphone Vibe Coding App From App Store - Gizmodo.com"
+        },
+        {
+            "title": "Flashpoint - Patch Notes 1.22.0 - ARC Raiders",
+            "url": "https://arcraiders.com/news/patch-notes-1-22-0",
+            "source": "NewsAPI (Arcraiders.com)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Flashpoint - Patch Notes 1.22.0 - Arc Raiders"
+        },
+        {
+            "title": "Nintendo's Changing Mario Kart World Again, Rebalancing Items and Adding Bob-omb Blast Battle Mode - IGN",
+            "url": "https://www.ign.com/articles/nintendos-changing-mario-kart-world-again-rebalancing-items-and-adding-bob-omb-blast-battle-mode",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Nintendo's Changing Mario Kart World Again, Rebalancing Items and Adding Bob-omb Blast Battle Mode -..."
+        },
+        {
+            "title": "Ninth Circuit unanimously denies Apple\u2019s rehearing requests in Epic Games case - 9to5Mac",
+            "url": "https://9to5mac.com/2026/03/30/ninth-circuit-unanimously-denies-apples-rehearing-requests-in-epic-games-case/",
+            "source": "NewsAPI (9to5Mac)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Ninth Circuit Unanimously Denies Apple\u2019s Rehearing Requests in Epic Games Case - 9to5mac"
+        },
+        {
+            "title": "Here's how to reset your X feed and make it like Old Twitter (or close enough) - Axios",
+            "url": "https://www.axios.com/2026/03/31/twitter-feed-algorithim-lists-for-you-following",
+            "source": "NewsAPI (Axios)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Here's How to Reset Your X Feed and Make It Like Old Twitter (or Close..."
+        },
+        {
+            "title": "Arc Raiders Dev Reveals First Look at New Vaporizer Enemy, Crafting Changes, and More Coming With Flashpoint - ign.com",
+            "url": "https://www.ign.com/articles/arc-raiders-flashpoint-update-breakdown-includes-first-look-at-new-enemy-and-map-condition",
             "source": "NewsAPI (IGN)",
             "published_date_obj": "2026-03-30",
-            "rewritten_title": "\"buy 2, Save $30\" Sale on Nintendo Switch Games Is Now Live at Target -..."
+            "rewritten_title": "Arc Raiders Dev Reveals First Look at New Vaporizer Enemy, Crafting Changes, and More Coming..."
         },
         {
-            "title": "April\u2019s Trading Post Positively Sprouts with Garden Delights \u2014 World of Warcraft - Blizzard News",
-            "url": "https://news.blizzard.com/en-us/article/24266706/aprils-trading-post-positively-sprouts-with-garden-delights",
-            "source": "NewsAPI (Blizzard.com)",
+            "title": "Silicon quantum computer performs logical operations for the first time - Phys.org",
+            "url": "https://phys.org/news/2026-03-silicon-quantum-logical.html",
+            "source": "NewsAPI (Phys.Org)",
             "published_date_obj": "2026-03-30",
-            "rewritten_title": "April\u2019s Trading Post Positively Sprouts with Garden Delights \u2014 World of Warcraft - Blizzard News"
+            "rewritten_title": "Silicon Quantum Computer Performs Logical Operations for the First Time - Phys.org"
         },
         {
-            "title": "iOS 27 could add one of Apple\u2019s most popular iPhone apps yet - 9to5Mac",
-            "url": "https://9to5mac.com/2026/03/30/ios-27-could-add-one-of-apples-most-popular-iphone-apps-yet/",
-            "source": "NewsAPI (9to5Mac)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Ios 27 Could Add One of Apple\u2019s Most Popular Iphone Apps Yet - 9to5mac"
-        },
-        {
-            "title": "Announcing Riftbound's First Bans - riftbound.leagueoflegends.com",
-            "url": "https://riftbound.leagueoflegends.com/en-us/news/announcements/announcing-riftbounds-first-bans/",
+            "title": "Riftbound Core Rules: Unleashed Patch Notes - Riftbound | League of Legends Trading Card Game",
+            "url": "https://riftbound.leagueoflegends.com/en-us/news/rules-and-releases/riftbound-core-rules-unleashed-patch-notes/",
             "source": "NewsAPI (Leagueoflegends.com)",
             "published_date_obj": "2026-03-30",
-            "rewritten_title": "Announcing Riftbound's First Bans - Riftbound.leagueoflegends.com"
+            "rewritten_title": "Riftbound Core Rules: Unleashed Patch Notes - Riftbound | League of Legends Trading Card Game"
         },
         {
-            "title": "iPhone 18 Pro's Smaller Dynamic Island Revealed - MacRumors",
-            "url": "https://www.macrumors.com/2026/03/30/iphone-18-pro-smaller-dynamic-island-revealed/",
-            "source": "NewsAPI (MacRumors)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Iphone 18 Pro's Smaller Dynamic Island Revealed - Macrumors"
-        },
-        {
-            "title": "The Amazon Spring Sale has less than 24 hours to go, and a host of great Garmin tech has discounts of up to 29% - Cyclingnews",
-            "url": "https://www.cyclingnews.com/cycling-tech-components/the-amazon-spring-sale-has-less-than-24-hours-to-go-and-a-host-of-great-garmin-tech-has-discounts-of-up-to-25-percent/",
-            "source": "NewsAPI (Cyclingnews.com)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "The Amazon Spring Sale Has Less Than 24 Hours to Go, and a Host Of..."
-        },
-        {
-            "title": "The latest Pixel 11 leak shows slimmer bezels and an all-black camera bar - theverge.com",
-            "url": "https://www.theverge.com/tech/903381/google-pixel-11-leak-bezels-camera-bar",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "The Latest Pixel 11 Leak Shows Slimmer Bezels and an All-black Camera Bar - Theverge.com"
-        },
-        {
-            "title": "New Process Shortens Nuclear Waste Timeline From 100,000 Years To Only Hundreds - bgr.com",
-            "url": "https://www.bgr.com/2134068/nuclear-waste-broken-down-by-particle-accelerator/",
-            "source": "NewsAPI (BGR)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "New Process Shortens Nuclear Waste Timeline From 100,000 Years to Only Hundreds - Bgr.com"
-        },
-        {
-            "title": "Ellis Longhurst Shares Her Top Five Pok\u00e9mon TCG Cards from Mega Evolution\u2014Perfect Order - Pokemon.com",
-            "url": "https://www.pokemon.com/us/strategy/ellis-longhurst-shares-her-top-five-pokemon-tcg-cards-from-mega-evolution-perfect-order",
-            "source": "NewsAPI (Pokemon.com)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Ellis Longhurst Shares Her Top Five Pok\u00e9mon Tcg Cards From Mega Evolution\u2014perfect Order - Pokemon.com"
-        },
-        {
-            "title": "One Of The Rarest PlayStation Trophies Ever Was Just Unlocked - Kotaku",
-            "url": "https://kotaku.com/ninja-gaiden-sigma-2-platinum-trophy-difficulty-2000683156",
-            "source": "NewsAPI (Kotaku)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "One of the Rarest Playstation Trophies Ever Was Just Unlocked - Kotaku"
-        },
-        {
-            "title": "PS5 Pro Price Increase Splits Fans in Fierce Debate Over Whether They Should Buy Before the Hikes Hit - IGN",
-            "url": "https://www.ign.com/articles/ps5-pro-price-jump-has-playstation-fans-divided-as-many-rush-to-buy-before-the-incoming-hikes-hit",
-            "source": "NewsAPI (IGN)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Ps5 Pro Price Increase Splits Fans in Fierce Debate Over Whether They Should Buy Before..."
-        },
-        {
-            "title": "watchOS 27 to reportedly offer two main Apple Watch upgrades - 9to5mac.com",
-            "url": "https://9to5mac.com/2026/03/30/watchos-27-to-reportedly-offer-two-main-apple-watch-upgrades/",
-            "source": "NewsAPI (9to5Mac)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Watchos 27 to Reportedly Offer Two Main Apple Watch Upgrades - 9to5mac.com"
-        },
-        {
-            "title": "A $1,000 PS6 And Xbox Helix Are Dangerous For The Future Of Gaming - Forbes",
-            "url": "https://www.forbes.com/sites/paultassi/2026/03/30/a-1000-ps6-and-xbox-helix-are-dangerous-for-the-future-of-gaming/",
-            "source": "NewsAPI (Forbes)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "A $1,000 Ps6 and Xbox Helix Are Dangerous for the Future of Gaming - Forbes"
-        },
-        {
-            "title": "Crimson Desert Voice Actor Had To Fight For His Character\u2019s Story - Kotaku",
-            "url": "https://kotaku.com/crimson-desert-kliff-voice-actor-alec-newman-interview-2000683151",
-            "source": "NewsAPI (Kotaku)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Crimson Desert Voice Actor Had to Fight for His Character\u2019s Story - Kotaku"
-        },
-        {
-            "title": "Xbox Games Showcase 2026 Followed by Gears of War: E-Day Direct Airs June 7 - and Xbox Fanfest Returns - Xbox",
-            "url": "https://news.xbox.com/en-us/2026/03/30/xbox-games-showcase-2026-gears-of-war-e-day-direct/",
-            "source": "NewsAPI (Xbox.com)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Xbox Games Showcase 2026 Followed by Gears of War: E-day Direct Airs June 7 -..."
-        },
-        {
-            "title": "Copilot is now injecting ads into GitHub pull requests. It's a disaster. - Windows Central",
-            "url": "https://www.windowscentral.com/software-apps/microsofts-ai-slop-is-infecting-github-copilot-is-now-injecting-ads-into-pull-requests",
-            "source": "NewsAPI (Windows Central)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Copilot Is Now Injecting Ads Into Github Pull Requests. It's a Disaster. - Windows Central"
-        },
-        {
-            "title": "It\u2019s Taking Over the Lives of Wealthy, Elderly Men. It Could Be Coming for You Next. - Slate",
-            "url": "https://slate.com/technology/2026/03/longevity-tourism-rfk-jr-gene-therapy.html",
-            "source": "NewsAPI (Slate Magazine)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "It\u2019s Taking Over the Lives of Wealthy, Elderly Men. It Could Be Coming for You..."
-        },
-        {
-            "title": "Older Galaxy phones are now getting AirDrop support, but don't celebrate yet - Android Authority",
-            "url": "https://www.androidauthority.com/older-samsung-phones-airdrop-support-3652987/",
+            "title": "6 reasons why I chose the Samsung Galaxy S26 over the S26 Ultra - Android Authority",
+            "url": "https://www.androidauthority.com/why-i-chose-samsung-galaxy-s26-over-s26-ultra-3652016/",
             "source": "NewsAPI (Android Authority)",
             "published_date_obj": "2026-03-30",
-            "rewritten_title": "Older Galaxy Phones Are Now Getting Airdrop Support, but Don't Celebrate Yet - Android Authority"
+            "rewritten_title": "6 Reasons Why I Chose the Samsung Galaxy S26 Over the S26 Ultra - Android..."
         },
         {
-            "title": "YouTube is now available on Android Auto, but there is a catch - Android Police",
-            "url": "https://www.androidpolice.com/youtube-available-on-android-auto-but-but-there-is-catch/",
+            "title": "Slackbot Keynote Recap: Meet the new Slack. Where AI works.",
+            "url": "https://www.salesforce.com/news/linked-content/slackbot-keynote-recap-meet-the-new-slack-where-ai-works/",
+            "source": "Salesforce Blog",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Slackbot Keynote Recap: Meet the New Slack. Where Ai Works."
+        },
+        {
+            "title": "For Gen Z Workers, Software Has to Be as Intuitive as Social Media",
+            "url": "https://www.salesforce.com/news/stories/context-aware-ai-solving-gen-z-retention-crisis/",
+            "source": "Salesforce Blog",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "For Gen Z Workers, Software Has to Be as Intuitive as Social Media"
+        },
+        {
+            "title": "Securing the open source supply chain across GitHub",
+            "url": "https://github.blog/security/supply-chain-security/securing-the-open-source-supply-chain-across-github/",
+            "source": "GitHub Blog",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Securing the Open Source Supply Chain Across Github"
+        },
+        {
+            "title": "Run multiple agents at once with /fleet in Copilot CLI",
+            "url": "https://github.blog/ai-and-ml/github-copilot/run-multiple-agents-at-once-with-fleet-in-copilot-cli/",
+            "source": "GitHub Blog",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Run Multiple Agents at Once with /fleet in Copilot Cli"
+        },
+        {
+            "title": "Our ongoing commitment to privacy for the 1.1.1.1 public DNS resolver",
+            "url": "https://blog.cloudflare.com/1111-privacy-examination-2026/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Our Ongoing Commitment to Privacy for the 1.1.1.1 Public Dns Resolver"
+        },
+        {
+            "title": "Introducing EmDash \u2014 the spiritual successor to WordPress that solves plugin security",
+            "url": "https://blog.cloudflare.com/emdash-wordpress/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Introducing Emdash \u2014 the Spiritual Successor to Wordpress That Solves Plugin Security"
+        },
+        {
+            "title": "Social Media Engagement: 11 Ways to Boost Yours + Why it Matters",
+            "url": "https://buffer.com/resources/social-media-engagement-guide/",
+            "source": "Buffer Blog",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Social Media Engagement: 11 Ways to Boost Yours + Why It Matters"
+        },
+        {
+            "title": "First coding, next finance? AI adoption comes to the CFO suite",
+            "url": "https://www.battery.com/blog/first-coding-next-finance-ai-adoption-comes-to-the-cfo-suite/",
+            "source": "Battery Ventures",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "First Coding, Next Finance? Ai Adoption Comes to the Cfo Suite"
+        },
+        {
+            "title": "Listen: OpenClaw: A power-user's guide to the most powerful personal AI tool since ChatGPT",
+            "url": "https://www.lennysnewsletter.com/p/listen-openclaw-a-power-users-guide",
+            "source": "Lenny's Newsletter",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Listen: Openclaw: a Power-user's Guide to the Most Powerful Personal Ai Tool Since Chatgpt"
+        },
+        {
+            "title": "The Claude Code leak accidentally published the first complete blueprint for production AI agents. Here's what it tells us about where this is all going.",
+            "url": "https://www.reddit.com/r/artificial/comments/1s9jprb/the_claude_code_leak_accidentally_published_the/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "The Claude Code Leak Accidentally Published the First Complete Blueprint for Production Ai Agents. Here's..."
+        },
+        {
+            "title": "New Research Directions in Materials Science with AI",
+            "url": "https://www.reddit.com/r/artificial/comments/1sa3tn1/new_research_directions_in_materials_science_with/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2026-04-02",
+            "rewritten_title": "New Research Directions in Materials Science with Ai"
+        },
+        {
+            "title": "CEO of America\u2019s largest public hospital system says he\u2019s ready to replace radiologists with AI",
+            "url": "https://www.reddit.com/r/artificial/comments/1s9beim/ceo_of_americas_largest_public_hospital_system/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Ceo of America\u2019s Largest Public Hospital System Says He\u2019s Ready to Replace Radiologists with Ai"
+        },
+        {
+            "title": "forumkit \u2014 Only framework that surfaces dissent in multi-agent LLM debates",
+            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1sa8ass/forumkit_only_framework_that_surfaces_dissent_in/",
+            "source": "Reddit r/LargeLanguageModels",
+            "published_date_obj": "2026-04-02",
+            "rewritten_title": "Forumkit \u2014 Only Framework That Surfaces Dissent in Multi-agent Llm Debates"
+        },
+        {
+            "title": "Gemma time! What are your wishes ?",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sa16q9/gemma_time_what_are_your_wishes/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Gemma Time! What Are Your Wishes ?"
+        },
+        {
+            "title": "[D] We reimplemented Claude Code entirely in Python \u2014 open source, works with local models",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1sa09ta/d_we_reimplemented_claude_code_entirely_in_python/",
+            "source": "Reddit r/MachineLearning",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "[d] We Reimplemented Claude Code Entirely in Python \u2014 Open Source, Works with Local Models"
+        },
+        {
+            "title": "Brother",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1s9iyp3/brother/",
+            "source": "Reddit r/claudeai",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Brother"
+        },
+        {
+            "title": "When you try to be affectionate in a friendly way with a male bot but suddenly his eyes darken and he starts growling possessively",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1s9jp00/when_you_try_to_be_affectionate_in_a_friendly_way/",
+            "source": "Reddit r/characterai",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "When You Try to Be Affectionate in a Friendly Way with a Male Bot But..."
+        },
+        {
+            "title": "We're living in the best time in history to start a business and most people don't even realize it",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1sa654m/were_living_in_the_best_time_in_history_to_start/",
+            "source": "Reddit r/ai_agents",
+            "published_date_obj": "2026-04-02",
+            "rewritten_title": "We're Living in the Best Time in History to Start a Business and Most People..."
+        },
+        {
+            "title": "Surviving AI - Short film made only using local ai models",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1sa2q1o/surviving_ai_short_film_made_only_using_local_ai/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2026-04-02",
+            "rewritten_title": "Surviving Ai - Short Film Made Only Using Local Ai Models"
+        },
+        {
+            "title": "PixAI Holo Glow Aesthetic Notice Chat?",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1sa6aob/pixai_holo_glow_aesthetic_notice_chat/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2026-04-02",
+            "rewritten_title": "Pixai Holo Glow Aesthetic Notice Chat?"
+        },
+        {
+            "title": "Our solar system as a family",
+            "url": "https://www.reddit.com/r/aiArt/comments/1s9ilxj/our_solar_system_as_a_family/",
+            "source": "Reddit r/AIArt",
+            "published_date_obj": "2026-04-01",
+            "rewritten_title": "Our Solar System as a Family"
+        },
+        {
+            "title": "Google Find Hub website will let you locate tags, headphones - 9to5Google",
+            "url": "http://9to5google.com/2026/03/31/find-hub-website/",
+            "source": "NewsAPI (9to5google.com)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Google Find Hub Website Will Let You Locate Tags, Headphones - 9to5google"
+        },
+        {
+            "title": "Google Drive just got a powerful new security upgrade, and it's available to all users - Android Police",
+            "url": "https://www.androidpolice.com/google-drive-ransomware-protection-for-all/",
             "source": "NewsAPI (Android Police)",
             "published_date_obj": "2026-03-30",
-            "rewritten_title": "Youtube Is Now Available on Android Auto, but There Is a Catch - Android Police"
+            "rewritten_title": "Google Drive Just Got a Powerful New Security Upgrade, and It's Available to All Users..."
         },
         {
-            "title": "Marketing in the Agentic Era",
-            "url": "https://www.tomtunguz.com/office-hours-rebuilt/",
-            "source": "Tomasz Tunguz",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "Marketing in the Agentic Era"
-        },
-        {
-            "title": "Meet the new Slack",
-            "url": "https://www.salesforce.com/news/linked-content/meet-the-new-slack/",
-            "source": "Salesforce Blog",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "Meet the New Slack"
-        },
-        {
-            "title": "Changes to packages.gitlab.com: What you need to know",
-            "url": "https://about.gitlab.com/blog/changes-to-packages-gitlab-com-what-you-need-to-know/",
-            "source": "GitLab Blog",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "Changes to Packages.gitlab.com: What You Need to Know"
-        },
-        {
-            "title": "Introducing Programmable Flow Protection: custom DDoS mitigation logic for Magic Transit customers",
-            "url": "https://blog.cloudflare.com/programmable-flow-protection/",
-            "source": "CloudFlare Blog",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "Introducing Programmable Flow Protection: Custom Ddos Mitigation Logic for Magic Transit Customers"
-        },
-        {
-            "title": "Run and Iterate on LLMs Faster with Docker Model Runner on DGX Station",
-            "url": "https://www.docker.com/blog/blog-docker-model-runner-new-nvidia-dgx-station/",
-            "source": "Docker Blog",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "Run and Iterate on Llms Faster with Docker Model Runner on Dgx Station"
-        },
-        {
-            "title": "OpenClaw: The complete guide to building, training, and living with your personal AI agent",
-            "url": "https://www.lennysnewsletter.com/p/openclaw-the-complete-guide-to-building",
-            "source": "Lenny's Newsletter",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "Openclaw: the Complete Guide to Building, Training, and Living with Your Personal Ai Agent"
-        },
-        {
-            "title": "Anthropic Leaked 512,000 Lines of Claude Code Source. Here's What the Code Actually Reveals.",
-            "url": "https://www.reddit.com/r/artificial/comments/1s9agwr/anthropic_leaked_512000_lines_of_claude_code/",
-            "source": "Reddit r/artificial",
-            "published_date_obj": "2026-04-01",
-            "rewritten_title": "Anthropic Leaked 512,000 Lines of Claude Code Source. Here's What the Code Actually Reveals."
-        },
-        {
-            "title": "OkCupid gave 3 million dating-app photos to facial recognition firm, FTC says",
-            "url": "https://www.reddit.com/r/artificial/comments/1s96ojy/okcupid_gave_3_million_datingapp_photos_to_facial/",
-            "source": "Reddit r/artificial",
-            "published_date_obj": "2026-04-01",
-            "rewritten_title": "Okcupid Gave 3 Million Dating-app Photos to Facial Recognition Firm, Ftc Says"
-        },
-        {
-            "title": "Paper Finds That Leading AI Chatbots Like ChatGPT and Claude Remain Incredibly Sycophantic, Resulting in Twisted Effects on Users",
-            "url": "https://www.reddit.com/r/artificial/comments/1s93wyl/paper_finds_that_leading_ai_chatbots_like_chatgpt/",
-            "source": "Reddit r/artificial",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "Paper Finds That Leading Ai Chatbots Like Chatgpt and Claude Remain Incredibly Sycophantic, Resulting In..."
-        },
-        {
-            "title": "Claude code source code has been leaked via a map file in their npm registry",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s8ijfb/claude_code_source_code_has_been_leaked_via_a_map/",
-            "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "Claude Code Source Code Has Been Leaked Via a Map File in Their Npm Registry"
-        },
-        {
-            "title": "Just a helpful open-source contributor",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s8rb48/just_a_helpful_opensource_contributor/",
-            "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "Just a Helpful Open-source Contributor"
-        },
-        {
-            "title": "Neuralink enabling people with ALS to speak again.",
-            "url": "https://www.reddit.com/r/singularity/comments/1s97at4/neuralink_enabling_people_with_als_to_speak_again/",
-            "source": "Reddit r/singularity",
-            "published_date_obj": "2026-04-01",
-            "rewritten_title": "Neuralink Enabling People with Als to Speak Again."
-        },
-        {
-            "title": "[D]  TurboQuant author replies on OpenReview",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1s8yni2/d_turboquant_author_replies_on_openreview/",
-            "source": "Reddit r/MachineLearning",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "[d] Turboquant Author Replies on Openreview"
-        },
-        {
-            "title": "I asked Chat to make a photo of a college party in 2004 taken on a flip phone",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1s9411u/i_asked_chat_to_make_a_photo_of_a_college_party/",
-            "source": "Reddit r/chatgpt",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "I Asked Chat to Make a Photo of a College Party in 2004 Taken On..."
-        },
-        {
-            "title": "Thanks to the leaked source code for Claude Code, I used Codex to find and patch the root cause of the insane token drain in Claude Code and patched it. Usage limits are back to normal for me!",
-            "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8zxt4/thanks_to_the_leaked_source_code_for_claude_code/",
-            "source": "Reddit r/claudeai",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "Thanks to the Leaked Source Code for Claude Code, I Used Codex to Find And..."
-        },
-        {
-            "title": "AI News You Missed - March 2026",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1s96uot/ai_news_you_missed_march_2026/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2026-04-01",
-            "rewritten_title": "Ai News You Missed - March 2026"
-        },
-        {
-            "title": "What are the best loras that can't be found on civitai ?",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1s93moe/what_are_the_best_loras_that_cant_be_found_on/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2026-03-31",
-            "rewritten_title": "What Are the Best Loras That Can't Be Found on Civitai ?"
-        },
-        {
-            "title": "New \u2018Android Developer Verifier\u2019 app coming to phones as Google shares verification timeline - 9to5Google",
-            "url": "http://9to5google.com/2026/03/30/android-developer-verifier-app/",
+            "title": "These Samsung Galaxy phones are set to add AirDrop \u2013 you probably can't sideload it early, though [Gallery] - 9to5Google",
+            "url": "http://9to5google.com/2026/03/30/samsung-galaxy-airdrop-support-list-sideloading/",
             "source": "NewsAPI (9to5google.com)",
             "published_date_obj": "2026-03-30",
-            "rewritten_title": "New \u2018android Developer Verifier\u2019 App Coming to Phones as Google Shares Verification Timeline - 9to5google"
-        },
-        {
-            "title": "Galaxy S26 Ultra vs. iPhone 17 Pro Max: Is Samsung falling behind? [Video] - 9to5Google",
-            "url": "http://9to5google.com/2026/03/30/galaxy-s26-ultra-vs-iphone-17-pro-max-is-samsung-falling-behind-video/",
-            "source": "NewsAPI (9to5google.com)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Galaxy S26 Ultra Vs. Iphone 17 Pro Max: Is Samsung Falling Behind? [video] - 9to5google"
-        },
-        {
-            "title": "Samsung built a motion sickness app for Galaxy Buds, but you can try it on any earbuds - 9to5Google",
-            "url": "http://9to5google.com/2026/03/30/samsung-built-a-motion-sickness-app-for-galaxy-buds/",
-            "source": "NewsAPI (9to5google.com)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Samsung Built a Motion Sickness App for Galaxy Buds, but You Can Try It On..."
-        },
-        {
-            "title": "Google Pixel rolls out \u2018Transit mode\u2019 and real-time At a Glance commute - 9to5Google",
-            "url": "http://9to5google.com/2026/03/30/pixel-transit-at-a-glance/",
-            "source": "NewsAPI (9to5google.com)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Google Pixel Rolls Out \u2018transit Mode\u2019 and Real-time at a Glance Commute - 9to5google"
+            "rewritten_title": "These Samsung Galaxy Phones Are Set to Add Airdrop \u2013 You Probably Can't Sideload It..."
         }
     ],
     "SaaS Acquisitions": [
         {
-            "title": "Amazon Spring Sale TV Deals 2026: Best Prices on OLED, 4K and Smart TVs - CNET",
-            "url": "https://www.cnet.com/deals/amazon-spring-sale-tv-deals-2026-3-30/",
+            "title": "34 Best Headphone and Speaker Deals at Amazon's Spring Sale 2026 - CNET",
+            "url": "https://www.cnet.com/deals/last-chance-to-grab-top-amazon-spring-sale-headphone-and-speaker-deals/",
             "source": "NewsAPI (CNET)",
             "published_date_obj": "2026-03-31",
-            "rewritten_title": "Amazon Spring Sale Tv Deals 2026: Best Prices on Oled, 4k and Smart Tvs -..."
+            "rewritten_title": "34 Best Headphone and Speaker Deals at Amazon's Spring Sale 2026 - Cnet"
         },
         {
             "title": "You're Running Out Of Time For Laptop and Desktop Deals at Amazon's Big Spring Sale - PCMag",
-            "url": "https://www.pcmag.com/news/best-amazon-spring-sale-2026-laptops-desktops-gaming-deals-day-6",
+            "url": "https://www.pcmag.com/news/best-amazon-spring-sale-2026-laptops-desktops-gaming-deals-last-chance",
             "source": "NewsAPI (PCMag.com)",
             "published_date_obj": "2026-03-30",
             "rewritten_title": "You're Running Out of Time for Laptop and Desktop Deals at Amazon's Big Spring Sale..."
@@ -525,46 +498,18 @@
     ],
     "SaaS Metrics": [
         {
-            "title": "New Insider Report: The Sims 4 Marketplace Exceeding EA Expectations, Project X Change of Plans and More! - Sims Community",
-            "url": "https://simscommunity.info/2026/03/31/sims-4-marketplace-project-x-insider-news/",
-            "source": "NewsAPI (Simscommunity.info)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "New Insider Report: the Sims 4 Marketplace Exceeding Ea Expectations, Project X Change of Plans..."
+            "title": "Price Hike or Discount? Nintendo's Changes to Physical and Digital Game Pricing Have Analysts Split, Too - ign.com",
+            "url": "https://www.ign.com/articles/price-hike-or-discount-nintendos-changes-to-physical-and-digital-game-pricing-have-analysts-split-too",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Price Hike or Discount? Nintendo's Changes to Physical and Digital Game Pricing Have Analysts Split,..."
         },
         {
-            "title": "Microsoft plans 100% native Windows 11 apps in major shift away from web wrappers - TechSpot",
-            "url": "https://www.techspot.com/news/111872-microsoft-plans-100-native-windows-11-apps-major.html",
-            "source": "NewsAPI (TechSpot)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Microsoft Plans 100% Native Windows 11 Apps in Major Shift Away From Web Wrappers -..."
-        },
-        {
-            "title": "Apple Reportedly Planning to Launch iMac With OLED Display - MacRumors",
-            "url": "https://www.macrumors.com/2026/03/30/apple-planning-to-launch-oled-imac/",
-            "source": "NewsAPI (MacRumors)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Apple Reportedly Planning to Launch Imac with Oled Display - Macrumors"
-        },
-        {
-            "title": "Meet the Man Making Music With His Brain Implant - WIRED",
-            "url": "https://www.wired.com/story/meet-the-man-making-music-with-his-brain-implant/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Meet the Man Making Music with His Brain Implant - Wired"
-        },
-        {
-            "title": "Salmon sperm to bird droppings: The science behind bizarre skincare rituals - BBC",
-            "url": "https://www.bbc.com/future/article/20260327-the-bizarre-skincare-rituals-that-might-actually-work",
-            "source": "NewsAPI (BBC News)",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Salmon Sperm to Bird Droppings: the Science Behind Bizarre Skincare Rituals - Bbc"
-        },
-        {
-            "title": "Google Maps Is Bringing EV Route Planning To Android Auto - insideevs.com",
-            "url": "https://insideevs.com/news/791556/google-maps-ev-route-planning-android-auto/",
-            "source": "NewsAPI (InsideEVs )",
-            "published_date_obj": "2026-03-30",
-            "rewritten_title": "Google Maps Is Bringing Ev Route Planning to Android Auto - Insideevs.com"
+            "title": "Microsoft plans another out-of-band Windows fix - theregister.com",
+            "url": "https://www.theregister.com/2026/03/31/microsoft_out_of_band/",
+            "source": "NewsAPI (Theregister.com)",
+            "published_date_obj": "2026-03-31",
+            "rewritten_title": "Microsoft Plans Another Out-of-band Windows Fix - Theregister.com"
         }
     ]
 }
