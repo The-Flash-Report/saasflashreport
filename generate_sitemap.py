@@ -25,7 +25,7 @@ def generate_sitemap():
     })
     
     # Static pages (high priority)
-    static_pages = ['about.html', 'contact.html', 'contact-success.html', 'thank-you.html']
+    static_pages = ['about.html', 'contact.html', 'contact-success.html', 'thank-you.html', 'privacy.html']
     for page in static_pages:
         if os.path.exists(page):
             urls.append({
@@ -124,7 +124,7 @@ def generate_sitemap():
     
     print(f"Generated sitemap.xml with {len(urls)} total URLs:")
     print(f"  - 1 main page")
-    print(f"  - {len([u for u in urls if '/about.html' in u['url'] or '/contact' in u['url'] or '/thank-you' in u['url']])} static pages")
+    print(f"  - {len([u for u in urls if '/about.html' in u['url'] or '/contact' in u['url'] or '/thank-you' in u['url'] or '/privacy' in u['url']])} static pages")
     print(f"  - {len([u for u in urls if '/archive/' in u['url']])} archive pages")
     print(f"  - {len([u for u in urls if '/topics/' in u['url']])} topic pages")
 
