@@ -1,430 +1,347 @@
 {
-    "SaaS Funding": [],
+    "SaaS Funding": [
+        {
+            "title": "H1 secures $40M from CVS, proving SaaS startups can still attract investment | TechCrunch",
+            "url": "https://techcrunch.com/2026/05/28/h1-secures-40m-from-cvs-proving-saas-startups-can-still-attract-investment/",
+            "source": "NewsAPI (TechCrunch)",
+            "published_date_obj": "2026-05-28",
+            "rewritten_title": "H1 Secures $40m From Cvs, Proving Saas Startups Can Still Attract Investment | Techcrunch"
+        },
+        {
+            "title": "Asked GPT to create the average Tinder profiles around the world",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1u489r4/asked_gpt_to_create_the_average_tinder_profiles/",
+            "source": "Reddit r/chatgpt",
+            "published_date_obj": "2026-06-12",
+            "rewritten_title": "Asked Gpt to Create the Average Tinder Profiles Around the World"
+        }
+    ],
     "Enterprise Software": [
         {
-            "title": "Anthropic taps TCS to scale its enterprise AI deployments",
-            "url": "https://techcrunch.com/2026/06/11/anthropic-taps-tcs-to-scale-its-enterprise-ai-deployments/",
-            "source": "TechCrunch Enterprise",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Anthropic Taps Tcs to Scale Its Enterprise Ai Deployments"
+            "title": "Who Got the Most Leads at SaaStr AI Annual 2026? The Top 15 Tell You Exactly Where B2B Budget Is Going",
+            "url": "https://www.saastr.com/who-got-the-most-leads-at-saastr-ai-annual-2026-the-top-15-tell-you-exactly-where-b2b-budget-is-going/",
+            "source": "SaaStr",
+            "published_date_obj": "2026-06-12",
+            "rewritten_title": "Who Got the Most Leads at Saastr Ai Annual 2026? the Top 15 Tell You..."
+        },
+        {
+            "title": "ChartMogul + Crono: bringing outbound workflow to ChartMogul CRM",
+            "url": "https://alleged-peace.flywheelsites.com/chartmogul-crono-bringing-outbound-leads-into-chartmogul-crm/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Chartmogul + Crono: Bringing Outbound Workflow to Chartmogul Crm"
+        },
+        {
+            "title": "To all the real ones still sharing their prompts and workflows \u2014 I raise my glass \ud83c\udf7e\ud83c\udf77",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1u46fyd/to_all_the_real_ones_still_sharing_their_prompts/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2026-06-12",
+            "rewritten_title": "To All the Real Ones Still Sharing Their Prompts and Workflows \u2014 I Raise My..."
         }
     ],
     "Product Launches": [
         {
-            "title": "Toby Fox Shares New Development Update On Deltarune Chapter 6 - Nintendo Life",
-            "url": "https://www.nintendolife.com/news/2026/06/toby-fox-shares-new-development-update-on-deltarune-chapter-6",
-            "source": "NewsAPI (Nintendo Life)",
-            "published_date_obj": "2026-06-09",
-            "rewritten_title": "Toby Fox Shares New Development Update on Deltarune Chapter 6 - Nintendo Life"
+            "title": "Kingdom Hearts 4 PS5 Release Date Hopium Hits New High - Push Square",
+            "url": "https://www.pushsquare.com/news/2026/06/kingdom-hearts-4-ps5-release-date-hopium-hits-new-high",
+            "source": "NewsAPI (Push Square)",
+            "published_date_obj": "2026-06-11",
+            "rewritten_title": "Kingdom Hearts 4 Ps5 Release Date Hopium Hits New High - Push Square"
         },
         {
-            "title": "Update: New information for Yasmine and Arjun revealed as the newcomer DLC for Street Fighter 6 Season 4 - EventHubs",
-            "url": "https://www.eventhubs.com/news/2026/jun/09/street-fighter-yasmine-details/",
-            "source": "NewsAPI (EventHubs)",
-            "published_date_obj": "2026-06-09",
-            "rewritten_title": "Update: New Information for Yasmine and Arjun Revealed as the Newcomer Dlc for Street Fighter..."
-        },
-        {
-            "title": "Google Chrome 0-Day Vulnerability Exploited in the Wild \u2014 Update Now - CyberSecurityNews",
-            "url": "https://cybersecuritynews.com/google-chrome-0-day-vulnerability-exploited-in-the-wild-update-now/",
-            "source": "NewsAPI (Cybersecuritynews.com)",
-            "published_date_obj": "2026-06-09",
-            "rewritten_title": "Google Chrome 0-day Vulnerability Exploited in the Wild \u2014 Update Now - Cybersecuritynews"
-        },
-        {
-            "title": "EU Says Decision Not to Launch Siri AI in Europe Is Apple's Alone - MacRumors",
-            "url": "https://www.macrumors.com/2026/06/09/eu-says-decision-not-to-launch-siri-ai-in-europe-is-apples/",
+            "title": "Apple Maps to Get These 10 New Features in iOS 27 - MacRumors",
+            "url": "https://www.macrumors.com/2026/06/11/apple-maps-to-get-these-10-new-features-in-ios-27/",
             "source": "NewsAPI (MacRumors)",
-            "published_date_obj": "2026-06-09",
-            "rewritten_title": "Eu Says Decision Not to Launch Siri Ai in Europe Is Apple's Alone - Macrumors"
+            "published_date_obj": "2026-06-11",
+            "rewritten_title": "Apple Maps to Get These 10 New Features in Ios 27 - Macrumors"
         },
         {
-            "title": "GitHub availability report: May 2026",
-            "url": "https://github.blog/news-insights/company-news/github-availability-report-may-2026/",
-            "source": "GitHub Blog",
+            "title": "Minecraft 26.2 Release Candidate 1 - Minecraft",
+            "url": "https://www.minecraft.net/en-us/article/minecraft-26-2-release-candidate-1",
+            "source": "NewsAPI (Minecraft.net)",
             "published_date_obj": "2026-06-11",
-            "rewritten_title": "Github Availability Report: May 2026"
+            "rewritten_title": "Minecraft 26.2 Release Candidate 1 - Minecraft"
         },
         {
-            "title": "GitLab Patch Release: 19.0.2, 18.11.5, 18.10.8",
-            "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-0-2-released/",
-            "source": "GitLab Blog",
+            "title": "Bypass Siri AI Waitlist on macOS 27 Golden Gate Beta: Here's How - MacRumors",
+            "url": "https://www.macrumors.com/how-to/bypass-siri-ai-waitlist-macos-27-beta/",
+            "source": "NewsAPI (MacRumors)",
             "published_date_obj": "2026-06-11",
-            "rewritten_title": "Gitlab Patch Release: 19.0.2, 18.11.5, 18.10.8"
+            "rewritten_title": "Bypass Siri Ai Waitlist on Macos 27 Golden Gate Beta: Here's How - Macrumors"
         },
         {
-            "title": "Gemma 4 Quadruple Release, 12B, 12B QAT, 26B-A4B QAT and 31B QAT Uncensored Heretics!",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3flg9/gemma_4_quadruple_release_12b_12b_qat_26ba4b_qat/",
-            "source": "Reddit r/LocalLLaMA",
+            "title": "Deezer launches an AI music detector for other streaming services - The Verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple",
+            "source": "NewsAPI (The Verge)",
             "published_date_obj": "2026-06-11",
-            "rewritten_title": "Gemma 4 Quadruple Release, 12b, 12b Qat, 26b-a4b Qat and 31b Qat Uncensored Heretics!"
+            "rewritten_title": "Deezer Launches an Ai Music Detector for Other Streaming Services - the Verge"
         },
         {
-            "title": "Anthropic: \u201cAI is too dangerous\u201d also Anthropic: releases the most dangerous AI model ever",
-            "url": "https://www.reddit.com/r/AI_Agents/comments/1u38g6a/anthropic_ai_is_too_dangerous_also_anthropic/",
-            "source": "Reddit r/ai_agents",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Anthropic: \u201cai Is Too Dangerous\u201d Also Anthropic: Releases the Most Dangerous Ai Model Ever"
+            "title": "Report: Ubisoft Announces More Studio Closures And Layoffs Amid New Organizational Restructuring - Game Informer",
+            "url": "https://gameinformer.com/2026/06/10/report-ubisoft-announces-more-studio-closures-and-layoffs-amid-new-organizational",
+            "source": "NewsAPI (Gameinformer.com)",
+            "published_date_obj": "2026-06-10",
+            "rewritten_title": "Report: Ubisoft Announces More Studio Closures and Layoffs Amid New Organizational Restructuring - Game Informer"
+        },
+        {
+            "title": "iPhone 18 Pro: Three new features might make you want to upgrade - 9to5Mac",
+            "url": "https://9to5mac.com/2026/06/10/iphone-18-pro-three-new-features-might-make-you-want-to-upgrade/",
+            "source": "NewsAPI (9to5Mac)",
+            "published_date_obj": "2026-06-10",
+            "rewritten_title": "Iphone 18 Pro: Three New Features Might Make You Want to Upgrade - 9to5mac"
+        },
+        {
+            "title": "Windows\u2019 June update finally makes your sluggish PC feel snappier - PCWorld",
+            "url": "https://www.pcworld.com/article/3162218/windows-june-update-finally-makes-your-sluggish-pc-feel-snappier.html",
+            "source": "NewsAPI (PCWorld)",
+            "published_date_obj": "2026-06-10",
+            "rewritten_title": "Windows\u2019 June Update Finally Makes Your Sluggish Pc Feel Snappier - Pcworld"
+        },
+        {
+            "title": "Apple Removes Walkie-Talkie From Apple Watch in watchOS 27 Beta - MacRumors",
+            "url": "https://www.macrumors.com/2026/06/10/watchos-27-removes-walkie-talkie/",
+            "source": "NewsAPI (MacRumors)",
+            "published_date_obj": "2026-06-10",
+            "rewritten_title": "Apple Removes Walkie-talkie From Apple Watch in Watchos 27 Beta - Macrumors"
+        },
+        {
+            "title": "Windows BitLocker 0-Day Vulnerability Allows Attackers to Bypass Security Feature - CyberSecurityNews",
+            "url": "https://cybersecuritynews.com/windows-bitlocker-0-day-bypass-vulnerability/",
+            "source": "NewsAPI (Cybersecuritynews.com)",
+            "published_date_obj": "2026-06-10",
+            "rewritten_title": "Windows Bitlocker 0-day Vulnerability Allows Attackers to Bypass Security Feature - Cybersecuritynews"
         }
     ],
     "SaaS Analytics": [
         {
-            "title": "Ubisoft closing Winnipeg and Belgrade studios and making further layoffs - Game Developer",
-            "url": "https://www.gamedeveloper.com/business/ubisoft-closing-winnipeg-and-belgrade-studios-and-making-further-layoffs",
-            "source": "NewsAPI (Gamedeveloper.com)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Ubisoft Closing Winnipeg and Belgrade Studios and Making Further Layoffs - Game Developer"
-        },
-        {
-            "title": "Logitech\u2019s new Mobi Fold squeezes a lot of functionality into a tiny folding mouse - The Verge",
-            "url": "https://www.theverge.com/tech/945549/logitech-mobi-fold-wireless-bluetooth-travel-mouse-hands-on",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Logitech\u2019s New Mobi Fold Squeezes a Lot of Functionality Into a Tiny Folding Mouse -..."
-        },
-        {
-            "title": "Your Data Layer Used to Hide Behind Your Product. Now It Is the Product.  With Firebolt\u2019s CEO",
-            "url": "https://www.saastr.com/your-data-layer-used-to-hide-behind-your-product-now-it-is-the-product-with-firebolts-ceo/",
-            "source": "SaaStr",
+            "title": "Spyro\u2019s Big Comeback Wouldn\u2019t Be Possible Without First Escaping The Call Of Duty Mines - Kotaku",
+            "url": "https://kotaku.com/spyros-big-comeback-wouldnt-be-possible-without-first-escaping-the-call-of-duty-mines-2000705537",
+            "source": "NewsAPI (Kotaku)",
             "published_date_obj": "2026-06-11",
-            "rewritten_title": "Your Data Layer Used to Hide Behind Your Product. Now It Is the Product. With..."
+            "rewritten_title": "Spyro\u2019s Big Comeback Wouldn\u2019t Be Possible Without First Escaping the Call of Duty Mines -..."
         },
         {
-            "title": "Sync Your ChartMogul Data with Snowflake, Amazon Redshift, or Google BigQuery",
-            "url": "https://alleged-peace.flywheelsites.com/configure-snowflake-bigquery-redshift-as-destination/",
-            "source": "ChartMogul Blog",
-            "published_date_obj": null,
-            "rewritten_title": "Sync Your Chartmogul Data with Snowflake, Amazon Redshift, or Google Bigquery"
+            "title": "PlayStation Plus Drops 8 More Free Games For June - GAMINGbible",
+            "url": "https://www.gamingbible.com/news/platform/playstation/playstation-plus-extra-premium-june-2026-268323-20260610",
+            "source": "NewsAPI (Gamingbible.com)",
+            "published_date_obj": "2026-06-10",
+            "rewritten_title": "Playstation Plus Drops 8 More Free Games for June - Gamingbible"
         },
         {
-            "title": "Docker Hardened Images enhanced vulnerability scanning with Docker and Aikido",
-            "url": "https://www.docker.com/blog/docker-hardened-images-enhanced-vulnerability-scanning-with-docker-and-aikido/",
-            "source": "Docker Blog",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Docker Hardened Images Enhanced Vulnerability Scanning with Docker and Aikido"
+            "title": "Scaling Security Insights: how we achieved a 10x increase in global scanning capacity",
+            "url": "https://blog.cloudflare.com/scaling-security-scans/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2026-06-12",
+            "rewritten_title": "Scaling Security Insights: How We Achieved a 10x Increase in Global Scanning Capacity"
         }
     ],
     "B2B Technology": [
         {
-            "title": "Luna Ultra: Insta360 Finally Reveals Full Details of the Leica-Branded Gimbal Camera - PetaPixel",
-            "url": "https://petapixel.com/2026/06/10/luna-ultra-insta360-finally-reveals-full-details-of-the-leica-branded-gimbal-camera/",
-            "source": "NewsAPI (PetaPixel)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Luna Ultra: Insta360 Finally Reveals Full Details of the Leica-branded Gimbal Camera - Petapixel"
+            "title": "A CEO's Cost of Capital Advantage",
+            "url": "https://www.tomtunguz.com/personal-cost-of-capital/",
+            "source": "Tomasz Tunguz",
+            "published_date_obj": "2026-06-12",
+            "rewritten_title": "A Ceo's Cost of Capital Advantage"
         },
         {
-            "title": "The AI Became the Commodity. Here\u2019s What 6 Verticals Agreed Was the Actual Moat at SaaStr AI 2026",
-            "url": "https://www.saastr.com/the-ai-became-the-commodity-heres-what-6-verticals-agreed-was-the-actual-moat-at-saastr-ai-annual-2026/",
-            "source": "SaaStr",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "The Ai Became the Commodity. Here\u2019s What 6 Verticals Agreed Was the Actual Moat At..."
+            "title": "Introducing the native ChartMogul integration for n8n",
+            "url": "https://alleged-peace.flywheelsites.com/introducing-the-native-chartmogul-integration-for-n8n/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Introducing the Native Chartmogul Integration for N8n"
         },
         {
-            "title": "Which Social Media APIs Support Multi-Platform Posting? 6 Free + Paid Options",
-            "url": "https://buffer.com/resources/social-media-api-multi-platform-posting/",
-            "source": "Buffer Blog",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Which Social Media Apis Support Multi-platform Posting? 6 Free + Paid Options"
+            "title": "Fast forever: how to keep shipping at speed as your SaaS company grows",
+            "url": "https://alleged-peace.flywheelsites.com/fast-forever-how-to-keep-shipping-at-speed-as-your-saas-company-grows/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Fast Forever: How to Keep Shipping at Speed as Your Saas Company Grows"
         }
     ],
     "Software Industry": [
         {
-            "title": "Apple\u2019s new Siri AI knows when to shut up - The Verge",
-            "url": "https://www.theverge.com/tech/948155/apple-siri-ai-chatbot-personality",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Apple\u2019s New Siri Ai Knows When to Shut Up - the Verge"
-        },
-        {
-            "title": "Gears of War: E-Day \u2013 Everything We Learned Behind Closed Doors at Xbox - IGN",
-            "url": "https://www.ign.com/articles/gears-e-day-devs-on-gears-lore-game-length-new-movement-mechanics-and-ai",
-            "source": "NewsAPI (IGN)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Gears of War: E-day \u2013 Everything We Learned Behind Closed Doors at Xbox - Ign"
-        },
-        {
-            "title": "New Destiny 3 Event is Officially Happening on June 17 - GameRant",
-            "url": "https://gamerant.com/new-destiny-3-event-is-officially-happening-on-june-17/",
-            "source": "NewsAPI (GameRant)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "New Destiny 3 Event Is Officially Happening on June 17 - Gamerant"
-        },
-        {
-            "title": "Apple Shares Massive List of Over 250 Changes Across iOS 27, macOS Golden Gate, and More - MacRumors",
-            "url": "https://www.macrumors.com/2026/06/10/apple-lists-250-changes-ios-27-and-more/",
-            "source": "NewsAPI (MacRumors)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Apple Shares Massive List of Over 250 Changes Across Ios 27, Macos Golden Gate, And..."
-        },
-        {
-            "title": "Framework Laptop 13 Pro To Begin Shipping In July - Phoronix",
-            "url": "https://www.phoronix.com/news/Framework-13-Pro-July",
-            "source": "NewsAPI (Phoronix)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Framework Laptop 13 Pro to Begin Shipping in July - Phoronix"
-        },
-        {
-            "title": "The Super Hero Team-based PVP Shooter - Marvel Rivals",
-            "url": "https://www.marvelrivals.com/20260610/41525_1303717.html",
-            "source": "NewsAPI (Marvelrivals.com)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "The Super Hero Team-based Pvp Shooter - Marvel Rivals"
-        },
-        {
-            "title": "Video: Kingdom Hearts 3 Nintendo Switch 2 vs. PS5 vs. Steam Deck graphics comparison - Nintendo Everything",
-            "url": "https://nintendoeverything.com/video-kingdom-hearts-3-nintendo-switch-2-vs-ps5-vs-steam-deck-graphics-comparison/",
-            "source": "NewsAPI (Nintendoeverything.com)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Video: Kingdom Hearts 3 Nintendo Switch 2 Vs. Ps5 Vs. Steam Deck Graphics Comparison -..."
-        },
-        {
-            "title": "Fable PS5's Innovative Life Sim Loop Has Me Smitten - Push Square",
-            "url": "https://www.pushsquare.com/news/2026/06/fable-ps5s-innovative-life-sim-loop-has-me-smitten",
-            "source": "NewsAPI (Push Square)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Fable Ps5's Innovative Life Sim Loop Has Me Smitten - Push Square"
-        },
-        {
-            "title": "Sony 'Exploring New Ways' to Deliver PS Plus Games - Push Square",
-            "url": "https://www.pushsquare.com/news/2026/06/sony-exploring-new-ways-to-deliver-ps-plus-games",
-            "source": "NewsAPI (Push Square)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Sony 'exploring New Ways' to Deliver Ps Plus Games - Push Square"
-        },
-        {
-            "title": "Xbox Exclusives, Showcase Without Blade, Elder Scrolls 6, More From Matt Booty - Variety",
-            "url": "https://variety.com/2026/gaming/news/xbox-exclusives-showcase-blade-elder-scrolls-6-matt-booty-1236771373/",
-            "source": "NewsAPI (Variety)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Xbox Exclusives, Showcase Without Blade, Elder Scrolls 6, More From Matt Booty - Variety"
-        },
-        {
-            "title": "Despite its trailer, Capcom says its Resident Evil - Code: Veronica remake is third-person and taking its cue from Resident Evil 2 - Eurogamer",
-            "url": "https://www.eurogamer.net/resident-evil-veronica-first-person",
-            "source": "NewsAPI (Eurogamer.net)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Despite Its Trailer, Capcom Says Its Resident Evil - Code: Veronica Remake Is Third-person And..."
-        },
-        {
-            "title": "Stellar Blade CEO Brushes Off Complaints About Sequel's Protagonist - Kotaku",
-            "url": "https://kotaku.com/stellar-blade-blood-rain-evie-young-appearance-eve-sexualized-shift-up-2000704314",
+            "title": "Stranger Than Heaven Devs Say Adding Tupac To The Game Was A \u2018Good Idea\u2019 - Kotaku",
+            "url": "https://kotaku.com/stranger-than-heaven-devs-say-adding-tupac-to-the-game-was-a-good-idea-2000705565",
             "source": "NewsAPI (Kotaku)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Stellar Blade Ceo Brushes Off Complaints About Sequel's Protagonist - Kotaku"
+            "published_date_obj": "2026-06-11",
+            "rewritten_title": "Stranger Than Heaven Devs Say Adding Tupac to the Game Was a \u2018good Idea\u2019 -..."
         },
         {
-            "title": "Lenovo\u2019s new rugged Android tablet has a removable battery, now on sale for $499 - 9to5Google",
-            "url": "http://9to5google.com/2026/06/10/lenovo-thinktab-x11-android-tablet-launch/",
+            "title": "PS5's God of War Laufey Dominated Summer Game Fest - Push Square",
+            "url": "https://www.pushsquare.com/news/2026/06/ps5s-god-of-war-laufey-dominated-summer-game-fest",
+            "source": "NewsAPI (Push Square)",
+            "published_date_obj": "2026-06-11",
+            "rewritten_title": "Ps5's God of War Laufey Dominated Summer Game Fest - Push Square"
+        },
+        {
+            "title": "The Legend of Heroes: Trails from Zero - Gematsu",
+            "url": "https://www.gematsu.com/2026/06/the-legend-of-heroes-trails-from-zero-and-the-legend-of-heroes-trails-to-azure-for-ps5-switch-2-launch-september-10",
+            "source": "NewsAPI (Gematsu)",
+            "published_date_obj": "2026-06-11",
+            "rewritten_title": "The Legend of Heroes: Trails From Zero - Gematsu"
+        },
+        {
+            "title": "How To Unlock Destiny 2\u2019s Two Secret, Final Endings - Forbes",
+            "url": "https://www.forbes.com/sites/paultassi/2026/06/11/how-to-unlock-destiny-2s-two-secret-final-endings/",
+            "source": "NewsAPI (Forbes)",
+            "published_date_obj": "2026-06-11",
+            "rewritten_title": "How to Unlock Destiny 2\u2019s Two Secret, Final Endings - Forbes"
+        },
+        {
+            "title": "iFixit Trump phone teardown confirms it\u2019s an HTC dupe - The Verge",
+            "url": "https://www.theverge.com/gadgets/948262/trump-phone-t1-ifixit-teardown-htc-u24-pro",
+            "source": "NewsAPI (The Verge)",
+            "published_date_obj": "2026-06-11",
+            "rewritten_title": "Ifixit Trump Phone Teardown Confirms It\u2019s an Htc Dupe - the Verge"
+        },
+        {
+            "title": "Jon Prosser seeks another shot to respond to Apple\u2019s Liquid Glass leak lawsuit - 9to5Mac",
+            "url": "https://9to5mac.com/2026/06/10/jon-prosser-seeks-another-shot-to-respond-to-apples-liquid-glass-leak-lawsuit/",
+            "source": "NewsAPI (9to5Mac)",
+            "published_date_obj": "2026-06-10",
+            "rewritten_title": "Jon Prosser Seeks Another Shot to Respond to Apple\u2019s Liquid Glass Leak Lawsuit - 9to5mac"
+        },
+        {
+            "title": "YouTube rolling out new in-app messaging with invite-only chats - 9to5Google",
+            "url": "http://9to5google.com/2026/06/10/youtube-new-messaging-chat/",
             "source": "NewsAPI (9to5google.com)",
             "published_date_obj": "2026-06-10",
-            "rewritten_title": "Lenovo\u2019s New Rugged Android Tablet Has a Removable Battery, Now on Sale for $499 -..."
+            "rewritten_title": "Youtube Rolling Out New In-app Messaging with Invite-only Chats - 9to5google"
         },
         {
-            "title": "Alien: Isolation 2 is Poised to Deliver Another Bold Chapter in Survival Horror - XBOX Wire",
-            "url": "https://news.xbox.com/en-us/2026/06/10/alien-isolation-2-poised-to-deliver-another-bold-chapter/",
-            "source": "NewsAPI (Xbox.com)",
+            "title": "Stellar Blade: BLOOD RAIN dev explains why protagonist looks so young - Niche Gamer",
+            "url": "https://nichegamer.com/stellar-blade-blood-rain-why-protag-so-young/",
+            "source": "NewsAPI (Niche Gamer)",
             "published_date_obj": "2026-06-10",
-            "rewritten_title": "Alien: Isolation 2 Is Poised to Deliver Another Bold Chapter in Survival Horror - Xbox..."
+            "rewritten_title": "Stellar Blade: Blood Rain Dev Explains Why Protagonist Looks So Young - Niche Gamer"
         },
         {
-            "title": "Here's What's In The 'Premium Upgrade' Editions For Fable, Gears & Halo On Xbox - Pure Xbox",
-            "url": "https://www.purexbox.com/news/2026/06/heres-whats-in-the-premium-upgrade-editions-for-fable-gears-and-halo-on-xbox",
-            "source": "NewsAPI (Pure Xbox)",
+            "title": "Xbox CEO Admits the Console Arms Race Has Gone Too Far - Gizmodo",
+            "url": "https://gizmodo.com/xbox-ceo-admits-the-console-arms-race-has-gone-too-far-2000770035",
+            "source": "NewsAPI (Gizmodo.com)",
             "published_date_obj": "2026-06-10",
-            "rewritten_title": "Here's What's in the 'premium Upgrade' Editions for Fable, Gears & Halo on Xbox -..."
+            "rewritten_title": "Xbox Ceo Admits the Console Arms Race Has Gone Too Far - Gizmodo"
         },
         {
-            "title": "Xbox exploring \u2018radically different\u2019 console business models - The Verge",
-            "url": "https://www.theverge.com/news/947537/microsoft-xbox-console-hardware-price-changes-ramageddon",
-            "source": "NewsAPI (The Verge)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Xbox Exploring \u2018radically Different\u2019 Console Business Models - the Verge"
-        },
-        {
-            "title": "Fire Emblem: Fortune's Weave's world map is partially inspired by medieval Spain, even if the Dagdan Empire setting looks much older - Eurogamer",
-            "url": "https://www.eurogamer.net/fire-emblem-fortunes-weave-spain-regions",
+            "title": "Despite reports and a video takedown, Gears of War: E-Day developers insist it was never in development for PS5 - Eurogamer",
+            "url": "https://www.eurogamer.net/gears-of-war-e-day-ps5-snub-smaller-audience-interview",
             "source": "NewsAPI (Eurogamer.net)",
             "published_date_obj": "2026-06-10",
-            "rewritten_title": "Fire Emblem: Fortune's Weave's World Map Is Partially Inspired by Medieval Spain, Even If The..."
+            "rewritten_title": "Despite Reports and a Video Takedown, Gears of War: E-day Developers Insist It Was Never..."
         },
         {
-            "title": "Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs - The Hacker News",
-            "url": "https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html",
-            "source": "NewsAPI (Internet)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Microsoft Patches Record 206 Flaws, Including Three Zero-days and Critical Rce Bugs - the Hacker..."
-        },
-        {
-            "title": "Switch 2 Zelda: Ocarina of Time remake has some fans regretting what they wished for - Creative Bloq",
-            "url": "https://www.creativebloq.com/3d/video-game-design/switch-2-zelda-ocarina-of-time-remake-is-making-some-fans-regret-what-they-wished-for",
-            "source": "NewsAPI (Creative Bloq)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Switch 2 Zelda: Ocarina of Time Remake Has Some Fans Regretting What They Wished For..."
-        },
-        {
-            "title": "Nintendo Shares Slide After 2026 Game Showcase Disappoints - Bloomberg.com",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-10/nintendo-shares-slide-after-2026-game-showcase-disappoints",
-            "source": "NewsAPI (Bloomberg)",
-            "published_date_obj": "2026-06-10",
-            "rewritten_title": "Nintendo Shares Slide After 2026 Game Showcase Disappoints - Bloomberg.com"
-        },
-        {
-            "title": "Why \u201cNo\u201d in M&A Usually Means \u201cNo Forever\u201d",
-            "url": "https://www.saastr.com/why-no-in-ma-usually-means-no-forever/",
+            "title": "Why AI SDRs Take 2 Weeks to Deploy. And Why Most People Still Prefer Chat.",
+            "url": "https://www.saastr.com/why-ai-sdrs-take-2-weeks-to-deploy-and-why-most-people-still-prefer-chat/",
             "source": "SaaStr",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Why \u201cno\u201d in M&a Usually Means \u201cno Forever\u201d"
+            "published_date_obj": "2026-06-12",
+            "rewritten_title": "Why Ai Sdrs Take 2 Weeks to Deploy. and Why Most People Still Prefer Chat."
         },
         {
-            "title": "Model Context Protocol (MCP) Explained in 90 Seconds",
-            "url": "https://www.salesforce.com/news/linked-content/model-context-protocol-mcp-explained-in-90-seconds/",
-            "source": "Salesforce Blog",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Model Context Protocol (mcp) Explained in 90 Seconds"
+            "title": "PLG is getting more technical, more cross-functional, and more human",
+            "url": "https://alleged-peace.flywheelsites.com/plg-is-getting-more-technical-more-cross-functional-and-more-human/",
+            "source": "ChartMogul Blog",
+            "published_date_obj": null,
+            "rewritten_title": "Plg Is Getting More Technical, More Cross-functional, and More Human"
         },
         {
-            "title": "How to make the case for giving your AI Agent system access",
-            "url": "https://www.intercom.com/blog/giving-your-ai-agent-system-access/",
-            "source": "Intercom Blog",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "How to Make the Case for Giving Your Ai Agent System Access"
+            "title": "What Is an AI Coworker, and How Is It Different From a Chatbot?",
+            "url": "https://www.process.st/what-is-an-ai-coworker/",
+            "source": "Process Street",
+            "published_date_obj": "2026-06-12",
+            "rewritten_title": "What Is an Ai Coworker, and How Is It Different From a Chatbot?"
         },
         {
-            "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
-            "url": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
+            "title": "How we made GitHub Copilot CLI more selective about delegation",
+            "url": "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
             "source": "GitHub Blog",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Making Secret Scanning More Trustworthy: Reducing False Positives at Scale"
-        },
-        {
-            "title": "Google's Genie 3 turns a text prompt into a playable open world you can explore. It's rough now. Future of games, or a tech demo?",
-            "url": "https://www.reddit.com/r/artificial/comments/1u3jlw6/googles_genie_3_turns_a_text_prompt_into_a/",
-            "source": "Reddit r/artificial",
             "published_date_obj": "2026-06-12",
-            "rewritten_title": "Google's Genie 3 Turns a Text Prompt Into a Playable Open World You Can Explore...."
+            "rewritten_title": "How We Made Github Copilot Cli More Selective About Delegation"
         },
         {
-            "title": "Claude Fable made me realize I don't need a better model",
-            "url": "https://www.reddit.com/r/artificial/comments/1u3acx4/claude_fable_made_me_realize_i_dont_need_a_better/",
+            "title": "Anthropic suspends access to Claude Fable and Mythos for all users after US government order",
+            "url": "https://www.reddit.com/r/artificial/comments/1u4ef3y/anthropic_suspends_access_to_claude_fable_and/",
             "source": "Reddit r/artificial",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Claude Fable Made Me Realize I Don't Need a Better Model"
+            "published_date_obj": "2026-06-13",
+            "rewritten_title": "Anthropic Suspends Access to Claude Fable and Mythos for All Users After Us Government Order"
         },
         {
-            "title": "This 2000s photo is 100% AI-generated. Be honest: how many details did you check before scrolling?",
-            "url": "https://www.reddit.com/r/artificial/comments/1u3lmrn/this_2000s_photo_is_100_aigenerated_be_honest_how/",
+            "title": "US Government Kills Fable 5: Here's What Happened",
+            "url": "https://www.reddit.com/r/artificial/comments/1u4gtk8/us_government_kills_fable_5_heres_what_happened/",
             "source": "Reddit r/artificial",
+            "published_date_obj": "2026-06-13",
+            "rewritten_title": "Us Government Kills Fable 5: Here's What Happened"
+        },
+        {
+            "title": "World of Claudecraft: The first opensource MMORPG made 100% by AI (Fable 5)",
+            "url": "https://www.reddit.com/r/artificial/comments/1u4h7k1/world_of_claudecraft_the_first_opensource_mmorpg/",
+            "source": "Reddit r/artificial",
+            "published_date_obj": "2026-06-13",
+            "rewritten_title": "World of Claudecraft: the First Opensource Mmorpg Made 100% by Ai (fable 5)"
+        },
+        {
+            "title": "Anthropic forced to abruptly disable Fable 5 & Mythos 5 globally by US Gov over a jailbreak. This is exactly why we need local models.",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u4e1p5/anthropic_forced_to_abruptly_disable_fable_5/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2026-06-13",
+            "rewritten_title": "Anthropic Forced to Abruptly Disable Fable 5 & Mythos 5 Globally by Us Gov Over..."
+        },
+        {
+            "title": "Diffusion Gemma is 4x faster, but makes 6x more mistakes!",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u4bne8/diffusion_gemma_is_4x_faster_but_makes_6x_more/",
+            "source": "Reddit r/LocalLLaMA",
             "published_date_obj": "2026-06-12",
-            "rewritten_title": "This 2000s Photo Is 100% Ai-generated. Be Honest: How Many Details Did You Check Before..."
+            "rewritten_title": "Diffusion Gemma Is 4x Faster, but Makes 6x More Mistakes!"
         },
         {
-            "title": "Qwen Who? DiffusionGemma running at 1,500 tk/s on a Digital Pregnancy Test.",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2wks2/qwen_who_diffusiongemma_running_at_1500_tks_on_a/",
-            "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Qwen Who? Diffusiongemma Running at 1,500 Tk/s on a Digital Pregnancy Test."
-        },
-        {
-            "title": "What models you guys running on 8GB? 16GB VRAM? 24GB? 32GB? 48GB?",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3c8q4/what_models_you_guys_running_on_8gb_16gb_vram/",
-            "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "What Models You Guys Running on 8gb? 16gb Vram? 24gb? 32gb? 48gb?"
-        },
-        {
-            "title": "Differences Between Claude Opus 4.8 and Claude Fable 5 on MineBench",
-            "url": "https://www.reddit.com/r/singularity/comments/1u35fjw/differences_between_claude_opus_48_and_claude/",
+            "title": "US government directive to suspend access to Fable 5 and Mythos 5",
+            "url": "https://www.reddit.com/r/singularity/comments/1u4cxr8/us_government_directive_to_suspend_access_to/",
             "source": "Reddit r/singularity",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Differences Between Claude Opus 4.8 and Claude Fable 5 on Minebench"
+            "published_date_obj": "2026-06-13",
+            "rewritten_title": "Us Government Directive to Suspend Access to Fable 5 and Mythos 5"
         },
         {
-            "title": "Anthropic walks back policy on silent nerfing for AI/ML, will notify users [N]",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/",
-            "source": "Reddit r/MachineLearning",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Anthropic Walks Back Policy on Silent Nerfing for Ai/ml, Will Notify Users [n]"
-        },
-        {
-            "title": "Did AI actually replace Photoshop?",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1u3fxsj/did_ai_actually_replace_photoshop/",
-            "source": "Reddit r/chatgpt",
-            "published_date_obj": "2026-06-12",
-            "rewritten_title": "Did Ai Actually Replace Photoshop?"
-        },
-        {
-            "title": "Literally buying a plot of land - thinking about future",
-            "url": "https://www.reddit.com/r/ClaudeAI/comments/1u3fgsu/literally_buying_a_plot_of_land_thinking_about/",
+            "title": "Fable 5 indefinitely suspended due to national security concerns",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1u4cyvh/fable_5_indefinitely_suspended_due_to_national/",
             "source": "Reddit r/claudeai",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Literally Buying a Plot of Land - Thinking About Future"
+            "published_date_obj": "2026-06-13",
+            "rewritten_title": "Fable 5 Indefinitely Suspended Due to National Security Concerns"
         },
         {
-            "title": "THE F*CK ARE YOU TALKING ABOUT?!?!?!",
-            "url": "https://www.reddit.com/r/CharacterAI/comments/1u3981b/the_fck_are_you_talking_about/",
+            "title": "Do they even listen bro \ud83d\udc94",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1u457bp/do_they_even_listen_bro/",
             "source": "Reddit r/characterai",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "The F*ck Are You Talking About?!?!?!"
-        },
-        {
-            "title": "Who knew",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1u2rykp/who_knew/",
-            "source": "Reddit r/openai",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Who Knew"
-        },
-        {
-            "title": "CEO Thoughts: What's Next at LTX",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1u3a4dp/ceo_thoughts_whats_next_at_ltx/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Ceo Thoughts: What's Next at Ltx"
-        },
-        {
-            "title": "Highest quality Ideogram 4.0 quantizations that run on a 3090 or smaller cards",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1u37xho/highest_quality_ideogram_40_quantizations_that/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2026-06-11",
-            "rewritten_title": "Highest Quality Ideogram 4.0 Quantizations That Run on a 3090 or Smaller Cards"
-        },
-        {
-            "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1u3kqy4/interleavethinker_reinforcing_agentic_interleaved/",
-            "source": "Reddit r/StableDiffusion",
             "published_date_obj": "2026-06-12",
-            "rewritten_title": "Interleavethinker: Reinforcing Agentic Interleaved Generation"
+            "rewritten_title": "Do They Even Listen Bro \ud83d\udc94"
+        },
+        {
+            "title": "Anthropic says it\u2019s complying with US government order to suspend Fable 5 and Mythos 5 access over jailbreak concerns",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1u4daad/anthropic_says_its_complying_with_us_government/",
+            "source": "Reddit r/openai",
+            "published_date_obj": "2026-06-13",
+            "rewritten_title": "Anthropic Says It\u2019s Complying with Us Government Order to Suspend Fable 5 and Mythos 5..."
+        },
+        {
+            "title": "Agents have entered the World of Claudecraft: Open source vibecoded MMORPG",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1u4hstu/agents_have_entered_the_world_of_claudecraft_open/",
+            "source": "Reddit r/ai_agents",
+            "published_date_obj": "2026-06-13",
+            "rewritten_title": "Agents Have Entered the World of Claudecraft: Open Source Vibecoded Mmorpg"
         }
     ],
     "SaaS Acquisitions": [
         {
-            "title": "Google\u2019s backstops underpin $35 billion chip deal for Anthropic",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-09/google-s-backstops-underpin-35-billion-chip-deal-for-anthropic",
-            "source": "NewsAPI (Bloomberg)",
+            "title": "Deals: AirPods Pro 3 hit best price ever at $179, MacBook Pro $300 off, Series 11 $130 off, more - 9to5Mac",
+            "url": "https://9to5mac.com/2026/06/10/deals-airpods-pro-240w-beats-cable-macbook-pro/",
+            "source": "NewsAPI (9to5Mac)",
             "published_date_obj": "2026-06-10",
-            "rewritten_title": "Google\u2019s Backstops Underpin $35 Billion Chip Deal for Anthropic"
-        },
-        {
-            "title": "At Disrupt 2026: Databricks\u2019 co-founder on what kills enterprise AI deals | TechCrunch",
-            "url": "https://techcrunch.com/2026/05/28/techcrunch-disrupt-2026-databricks-co-founder-on-what-kills-enterprise-ai-deals/",
-            "source": "NewsAPI (TechCrunch)",
-            "published_date_obj": "2026-05-28",
-            "rewritten_title": "At Disrupt 2026: Databricks\u2019 Co-founder on What Kills Enterprise Ai Deals | Techcrunch"
+            "rewritten_title": "Deals: Airpods Pro 3 Hit Best Price Ever at $179, Macbook Pro $300 Off, Series..."
         }
     ],
     "SaaS Metrics": [
         {
-            "title": "Instagram now lets you rearrange your Photos grid - 9to5Mac",
-            "url": "https://9to5mac.com/2026/06/09/instagram-now-lets-you-rearrange-your-photos-grid/",
-            "source": "NewsAPI (9to5Mac)",
+            "title": "How Final Fantasy VII's Tifa Arrived In Street Fighter 6 - Game Informer",
+            "url": "https://gameinformer.com/sgf-2026/2026/06/10/how-final-fantasy-viis-tifa-arrived-in-street-fighter-6",
+            "source": "NewsAPI (Gameinformer.com)",
             "published_date_obj": "2026-06-10",
-            "rewritten_title": "Instagram Now Lets You Rearrange Your Photos Grid - 9to5mac"
-        },
-        {
-            "title": "Gross vs net retention rates: a guide to revenue retention metrics",
-            "url": "https://alleged-peace.flywheelsites.com/gross-vs-net-retention/",
-            "source": "ChartMogul Blog",
-            "published_date_obj": null,
-            "rewritten_title": "Gross Vs Net Retention Rates: a Guide to Revenue Retention Metrics"
+            "rewritten_title": "How Final Fantasy Vii's Tifa Arrived in Street Fighter 6 - Game Informer"
         }
     ]
 }
