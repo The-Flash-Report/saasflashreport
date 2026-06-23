@@ -1,535 +1,606 @@
 {
     "SaaS Funding": [
         {
-            "title": "I Let Siri AI Show Me Around San Francisco - WIRED",
-            "url": "https://www.wired.com/story/siri-ai-hands-on-iphone/",
-            "source": "NewsAPI (Wired)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "I Let Siri Ai Show Me Around San Francisco - Wired"
+            "title": "VCARB Partners with Salesforce to Supercharge Fan Engagement with AI, Deploying Agentforce 360",
+            "url": "https://www.salesforce.com/news/press-releases/2026/06/22/vcarb-salesforce-partnership-announcement/",
+            "source": "Salesforce Blog",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "Vcarb Partners with Salesforce to Supercharge Fan Engagement with Ai, Deploying Agentforce 360"
+        },
+        {
+            "title": "DeepSeek raises $7.4B USD at $60B valuation. Remarkably, Liang Wenfeng invests $3B in DeepSeek himself.",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ucwyes/deepseek_raises_74b_usd_at_60b_valuation/",
+            "source": "Reddit r/LocalLLaMA",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "Deepseek Raises $7.4b Usd at $60b Valuation. Remarkably, Liang Wenfeng Invests $3b in Deepseek Himself."
         }
     ],
-    "Enterprise Software": [],
+    "Enterprise Software": [
+        {
+            "title": "Word, Excel, PowerPoint, and more \u2014 get the whole set for life for $89.97 - Mashable",
+            "url": "https://mashable.com/tech/june-21-microsoft-office-2024-home-business-for-mac-or-pc",
+            "source": "NewsAPI (Mashable)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Word, Excel, Powerpoint, and More \u2014 Get the Whole Set for Life for $89.97 -..."
+        },
+        {
+            "title": "Krea 2 Turbo \u2014 Native ComfyUI Workflow + FP8 Weights (12GB, Drag & Drop)",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1ud2nyq/krea_2_turbo_native_comfyui_workflow_fp8_weights/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2026-06-23",
+            "rewritten_title": "Krea 2 Turbo \u2014 Native Comfyui Workflow + Fp8 Weights (12gb, Drag & Drop)"
+        }
+    ],
     "Product Launches": [
         {
-            "title": "iPhone 18 Pro Release Date: How Apple Freezes Out Android Competition - Forbes",
-            "url": "https://www.forbes.com/sites/ewanspence/2026/06/20/apple-iphone-18-pro-release-date-android-market-timing/",
+            "title": "Galaxy Z Fold 8 Release Date: Samsung Devices Get New Confirmation - Forbes",
+            "url": "https://www.forbes.com/sites/jaymcgregor/2026/06/21/samsung-galaxy-z-fold-8-release-date-fcc-specifications-leak/",
+            "source": "NewsAPI (Forbes)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Galaxy Z Fold 8 Release Date: Samsung Devices Get New Confirmation - Forbes"
+        },
+        {
+            "title": "Apple to Release These 20 New Products Across Rest of 2026 and 2027 - MacRumors",
+            "url": "https://www.macrumors.com/2026/06/21/20-rumored-apple-products-in-2026-and-2027/",
+            "source": "NewsAPI (MacRumors)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Apple to Release These 20 New Products Across Rest of 2026 and 2027 - Macrumors"
+        },
+        {
+            "title": "New \u2018Valorant\u2019 Map Summit Features Dropping Walls That Block Routes - Forbes",
+            "url": "https://www.forbes.com/sites/mikestubbs/2026/06/21/new-valorant-map-summit-features-dropping-walls-that-block-routes/",
+            "source": "NewsAPI (Forbes)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "New \u2018valorant\u2019 Map Summit Features Dropping Walls That Block Routes - Forbes"
+        },
+        {
+            "title": "I resurrected a dead Android tablet with this unique third-party launcher - Android Police",
+            "url": "https://www.androidpolice.com/resurrected-a-dead-android-tablet-with-unique-third-party-launcher/",
+            "source": "NewsAPI (Android Police)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "I Resurrected a Dead Android Tablet with This Unique Third-party Launcher - Android Police"
+        },
+        {
+            "title": "Windows 11 26H2 continues Microsoft's shift to smaller and faster updates - TechSpot",
+            "url": "https://www.techspot.com/news/112837-windows-11-26h2-continues-microsoft-shift-smaller-faster.html",
+            "source": "NewsAPI (TechSpot)",
+            "published_date_obj": "2026-06-20",
+            "rewritten_title": "Windows 11 26h2 Continues Microsoft's Shift to Smaller and Faster Updates - Techspot"
+        },
+        {
+            "title": "Apple Releases AirPods Pro 3 And Beats Studio Buds Updates With Bug Fixes: How To Install - Forbes",
+            "url": "https://www.forbes.com/sites/davidphelan/2026/06/20/apple-releases-airpods-pro-3-and-airpods-pro-2-update-with-bug-fixes-how-to-install/",
             "source": "NewsAPI (Forbes)",
             "published_date_obj": "2026-06-20",
-            "rewritten_title": "Iphone 18 Pro Release Date: How Apple Freezes Out Android Competition - Forbes"
-        },
-        {
-            "title": "Rockstar Releases New Official GTA 6 In-Game Screenshot - GameRant",
-            "url": "https://gamerant.com/gta-6-screenshot-vice-city/",
-            "source": "NewsAPI (GameRant)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Rockstar Releases New Official Gta 6 In-game Screenshot - Gamerant"
-        },
-        {
-            "title": "Feature: The 10 Best PS5 Games of 2026 So Far - Push Square",
-            "url": "https://www.pushsquare.com/features/the-10-best-ps5-games-of-2026-so-far",
-            "source": "NewsAPI (Push Square)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Feature: the 10 Best Ps5 Games of 2026 So Far - Push Square"
-        },
-        {
-            "title": "Apple Unveiled These Five New Apps Last Week - MacRumors",
-            "url": "https://www.macrumors.com/2026/06/20/apple-unveiled-these-five-new-apps/",
-            "source": "NewsAPI (MacRumors)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Apple Unveiled These Five New Apps Last Week - Macrumors"
-        },
-        {
-            "title": "Microsoft confirms Windows 11 26H2 for fall 2026 release, reveals supported PCs and other details - Windows Latest",
-            "url": "https://www.windowslatest.com/2026/06/20/microsoft-confirms-windows-11-26h2-for-fall-2026-release-reveals-supported-pcs-and-other-details/",
-            "source": "NewsAPI (WindowsLatest)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "Microsoft Confirms Windows 11 26h2 for Fall 2026 Release, Reveals Supported Pcs and Other Details..."
-        },
-        {
-            "title": "Apple\u2019s M6 chip launches this fall, with these new products rumored - 9to5Mac",
-            "url": "https://9to5mac.com/2026/06/19/apples-m6-chip-launches-this-fall-with-these-new-products-rumored/",
-            "source": "NewsAPI (9to5Mac)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "Apple\u2019s M6 Chip Launches This Fall, with These New Products Rumored - 9to5mac"
-        },
-        {
-            "title": "Two Point Museum x DAVE THE DIVER collaboration update now available - Gematsu",
-            "url": "https://www.gematsu.com/2026/06/two-point-museum-x-dave-the-diver-collaboration-update-now-available",
-            "source": "NewsAPI (Gematsu)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "Two Point Museum X Dave the Diver Collaboration Update Now Available - Gematsu"
-        },
-        {
-            "title": "LTX Director 2 + SEED HUNTER workflow release | The Dangers of Convenience & Overhaul Nodes",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1uc37a2/ltx_director_2_seed_hunter_workflow_release_the/",
-            "source": "Reddit r/StableDiffusion",
-            "published_date_obj": "2026-06-21",
-            "rewritten_title": "Ltx Director 2 + Seed Hunter Workflow Release | the Dangers of Convenience & Overhaul..."
+            "rewritten_title": "Apple Releases Airpods Pro 3 and Beats Studio Buds Updates with Bug Fixes: How To..."
         }
     ],
     "SaaS Analytics": [
         {
-            "title": "I teach people over 50 to be mobile: 3 low-impact moves that build more stability than a 30-minute walk - Tom's Guide",
-            "url": "https://www.tomsguide.com/wellness/workouts/i-teach-people-over-50-to-be-mobile-3-low-impact-moves-that-build-more-stability-than-a-30-minute-walk",
-            "source": "NewsAPI (Tom's Guide)",
+            "title": "5 Mario Kart habits players should stop doing immediately - Polygon.com",
+            "url": "https://www.polygon.com/mario-kart-habits-players-should-stop-doing-immediately/",
+            "source": "NewsAPI (Polygon)",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "5 Mario Kart Habits Players Should Stop Doing Immediately - Polygon.com"
+        },
+        {
+            "title": "A Big Change Is Coming to Roku TVs - | Cord Cutters News",
+            "url": "https://cordcuttersnews.com/a-big-change-is-coming-to-roku-tvs/",
+            "source": "NewsAPI (Cord Cutters News, LLC)",
             "published_date_obj": "2026-06-21",
-            "rewritten_title": "I Teach People Over 50 to Be Mobile: 3 Low-impact Moves That Build More Stability..."
+            "rewritten_title": "A Big Change Is Coming to Roku Tvs - | Cord Cutters News"
         },
         {
-            "title": "Ubisoft Makes 149 Games Available for Free - comicbook.com",
-            "url": "http://comicbook.com/gaming/news/ubisoft-games-free-download/",
-            "source": "NewsAPI (ComicBook.com)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "Ubisoft Makes 149 Games Available for Free - Comicbook.com"
-        },
-        {
-            "title": "Persona 4 Revival is changing the original RPG in three big ways - TrueAchievements",
-            "url": "https://www.trueachievements.com/news/persona-4-revival-changes-revealed",
-            "source": "NewsAPI (TrueAchievements)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "Persona 4 Revival Is Changing the Original Rpg in Three Big Ways - Trueachievements"
-        },
-        {
-            "title": "Are Snap's $2,195 smart glasses the next big thing in tech? - NPR",
-            "url": "https://www.npr.org/2026/06/19/nx-s1-5863068/snap-specs-ar-glasses-2195-smartphones",
-            "source": "NewsAPI (NPR)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "Are Snap's $2,195 Smart Glasses the Next Big Thing in Tech? - Npr"
-        },
-        {
-            "title": "Diffusion Model that can turn any Image into a Playable Game! BUT LOCALLY, NOT ON DATACENTER",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1uc55ix/diffusion_model_that_can_turn_any_image_into_a/",
-            "source": "Reddit r/StableDiffusion",
+            "title": "AMD Ryzen 9 9900X owner reports CPU failure with package bump while using early 2026 BIOS - VideoCardz.com",
+            "url": "https://videocardz.com/newz/amd-ryzen-9-9900x-owner-reports-cpu-failure-with-package-bump-while-using-early-2026-bios",
+            "source": "NewsAPI (Videocardz.com)",
             "published_date_obj": "2026-06-21",
-            "rewritten_title": "Diffusion Model That Can Turn Any Image Into a Playable Game! but Locally, Not On..."
+            "rewritten_title": "Amd Ryzen 9 9900x Owner Reports Cpu Failure with Package Bump While Using Early 2026..."
+        },
+        {
+            "title": "I Saw the Ultimate Rocket Bike in Action and It Blew Me Away - CNET",
+            "url": "https://www.cnet.com/tech/i-saw-the-ultimate-rocket-bike-in-action-and-it-blew-me-away/",
+            "source": "NewsAPI (CNET)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "I Saw the Ultimate Rocket Bike in Action and It Blew Me Away - Cnet"
+        },
+        {
+            "title": "Rippling\u2019s AI Bet: The Data Graph Is the Moat",
+            "url": "https://www.saastr.com/ripplings-ai-bet-the-data-graph-is-the-moat/",
+            "source": "SaaStr",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "Rippling\u2019s Ai Bet: the Data Graph Is the Moat"
         }
     ],
     "B2B Technology": [
         {
-            "title": "Linux Finally Eliminates The strncpy API After Six Years Of Work, 360+ Patches - Phoronix",
-            "url": "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy",
-            "source": "NewsAPI (Phoronix)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Linux Finally Eliminates the Strncpy Api After Six Years of Work, 360+ Patches - Phoronix"
+            "title": "This Is All So Weird and, Frankly, Stupid - PetaPixel",
+            "url": "https://petapixel.com/2026/06/21/this-is-all-so-weird-and-frankly-stupid/",
+            "source": "NewsAPI (PetaPixel)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "This Is All So Weird And, Frankly, Stupid - Petapixel"
+        },
+        {
+            "title": "I Built a Content Engine That Creates 21 Social Posts a Week Using the Buffer API",
+            "url": "https://buffer.com/resources/i-built-a-content-engine-that-creates-21-social-posts-a-week-using-the-buffer-api/",
+            "source": "Buffer Blog",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "I Built a Content Engine That Creates 21 Social Posts a Week Using the Buffer..."
+        },
+        {
+            "title": "My best automation made an employee look like she wasn't doing her job.",
+            "url": "https://www.reddit.com/r/AI_Agents/comments/1uci1x5/my_best_automation_made_an_employee_look_like_she/",
+            "source": "Reddit r/ai_agents",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "My Best Automation Made an Employee Look Like She Wasn't Doing Her Job."
         }
     ],
     "Software Industry": [
         {
-            "title": "Salina gives Davenport another MLRA sweep - Dirt on Dirt",
-            "url": "https://www.dirtondirt.com/racewire_9782.html",
-            "source": "NewsAPI (Dirtondirt.com)",
-            "published_date_obj": "2026-06-21",
-            "rewritten_title": "Salina Gives Davenport Another Mlra Sweep - Dirt on Dirt"
+            "title": "Honkai: Nexus Anima \u2018Evolution Test\u2019 begins July 9 - Gematsu",
+            "url": "https://www.gematsu.com/2026/06/honkai-nexus-anima-evolution-test-begins-july-9",
+            "source": "NewsAPI (Gematsu)",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "Honkai: Nexus Anima \u2018evolution Test\u2019 Begins July 9 - Gematsu"
         },
         {
-            "title": "Not TP-Link, Not Netgear: This Wi-Fi Router Gets Consumer Reports Top Rating - bgr.com",
-            "url": "https://www.bgr.com/2195373/not-tp-link-not-netgear-single-unit-router-consumer-reports/",
-            "source": "NewsAPI (BGR)",
-            "published_date_obj": "2026-06-21",
-            "rewritten_title": "Not Tp-link, Not Netgear: This Wi-fi Router Gets Consumer Reports Top Rating - Bgr.com"
-        },
-        {
-            "title": "Hermen Hulst Allegedly Said Sony's PC Ports Didn't Make Enough Money - Push Square",
-            "url": "https://www.pushsquare.com/news/2026/06/hermen-hulst-allegedly-said-sonys-pc-ports-didnt-make-enough-money",
-            "source": "NewsAPI (Push Square)",
-            "published_date_obj": "2026-06-21",
-            "rewritten_title": "Hermen Hulst Allegedly Said Sony's Pc Ports Didn't Make Enough Money - Push Square"
-        },
-        {
-            "title": "Nintendo Switch Sports Resort confirms 100 Pin Bowling, here\u2019s a first look - Nintendo Everything",
-            "url": "https://nintendoeverything.com/?p=917008",
-            "source": "NewsAPI (Nintendoeverything.com)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Nintendo Switch Sports Resort Confirms 100 Pin Bowling, Here\u2019s a First Look - Nintendo Everything"
-        },
-        {
-            "title": "New evidence emerges of Diablo 4 coming to Nintendo Switch 2 - Nintendo Everything",
-            "url": "https://nintendoeverything.com/new-evidence-emerges-of-diablo-4-coming-to-nintendo-switch-2/",
-            "source": "NewsAPI (Nintendoeverything.com)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "New Evidence Emerges of Diablo 4 Coming to Nintendo Switch 2 - Nintendo Everything"
-        },
-        {
-            "title": "NVIDIA DLSS support lands in open-source NVK Vulkan driver for Linux - VideoCardz.com",
-            "url": "https://videocardz.com/newz/nvidia-dlss-support-lands-in-open-source-nvk-vulkan-driver-for-linux",
-            "source": "NewsAPI (Videocardz.com)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Nvidia Dlss Support Lands in Open-source Nvk Vulkan Driver for Linux - Videocardz.com"
-        },
-        {
-            "title": "Minisforum\u2019s Upcoming MS-03 SFF PC Brings More of a Good Thing - ServeTheHome",
-            "url": "https://www.servethehome.com/minisforums-upcoming-ms-03-sff-pc-brings-more-of-a-good-thing/",
-            "source": "NewsAPI (Servethehome.com)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Minisforum\u2019s Upcoming Ms-03 Sff Pc Brings More of a Good Thing - Servethehome"
-        },
-        {
-            "title": "Welch's First New Jelly In 30 Years Is the Ultimate PB & J Upgrade - Allrecipes",
-            "url": "https://www.allrecipes.com/welchs-four-berry-spread-12000093",
-            "source": "NewsAPI (Allrecipes.com)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Welch's First New Jelly in 30 Years Is the Ultimate Pb & J Upgrade -..."
-        },
-        {
-            "title": "Millions Of Samsung Galaxy Phones Are Getting A Free Upgrade - Forbes",
-            "url": "https://www.forbes.com/sites/jaymcgregor/2026/06/20/samsung-one-ui-9-release-galaxy-s26-galaxy-s25-update/",
-            "source": "NewsAPI (Forbes)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Millions of Samsung Galaxy Phones Are Getting a Free Upgrade - Forbes"
-        },
-        {
-            "title": "Microsoft to end support for Office 2021 this year - Mashable",
-            "url": "https://mashable.com/tech/microsoft-ending-office-2021-support",
-            "source": "NewsAPI (Mashable)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Microsoft to End Support for Office 2021 This Year - Mashable"
-        },
-        {
-            "title": "Starlink Satellites Are Doing A Lot More Than Just Providing Internet - SlashGear",
-            "url": "https://www.slashgear.com/2196272/startlink-satellites-doing-more-than-just-providing-internet/",
+            "title": "A Submarine Found Something Strange On The Ocean Floor \u2013 Then It Disappeared - Yahoo",
+            "url": "https://www.slashgear.com/2197172/ran-submarine-dotson-ice-shelf-discovery-disappearance/",
             "source": "NewsAPI (SlashGear)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Starlink Satellites Are Doing a Lot More Than Just Providing Internet - Slashgear"
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "A Submarine Found Something Strange on the Ocean Floor \u2013 Then It Disappeared - Yahoo"
         },
         {
-            "title": "Cybersecurity firm IDs unfixable security flaw that affects seven iPhone models \u2014 is yours on the list? - New York Post",
-            "url": "https://nypost.com/2026/06/20/tech/unfixable-security-flaw-affects-seven-iphone-models/",
-            "source": "NewsAPI (New York Post)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Cybersecurity Firm Ids Unfixable Security Flaw That Affects Seven Iphone Models \u2014 Is Yours On..."
+            "title": "iPhone Air 2 Could Get A Hardware Downgrade That Will Seal The Fate For Apple\u2019s Sleek Flagship Future Forever - Wccftech",
+            "url": "https://wccftech.com/iphone-air-2-one-hardware-downgrade-spell-doom-for-sleek-flagships/",
+            "source": "NewsAPI (Wccftech)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Iphone Air 2 Could Get a Hardware Downgrade That Will Seal the Fate for Apple\u2019s..."
         },
         {
-            "title": "10 jaw-dropping X-Files discoveries from the world\u2019s only museum dedicated to the sci-fi show - Polygon.com",
-            "url": "https://www.polygon.com/x-files-museum-secrets-clues-discoveries/",
-            "source": "NewsAPI (Polygon)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "10 Jaw-dropping X-files Discoveries From the World\u2019s Only Museum Dedicated to the Sci-fi Show -..."
-        },
-        {
-            "title": "Galaxy Watch 9 and Ultra 2 leaks reveal more changes, no Classic after all [Gallery] - 9to5Google",
-            "url": "http://9to5google.com/2026/06/20/samsung-galaxy-watch-9-changes-leak/",
-            "source": "NewsAPI (9to5google.com)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Galaxy Watch 9 and Ultra 2 Leaks Reveal More Changes, No Classic After All [gallery]..."
-        },
-        {
-            "title": "Report: Details for \u201cProject Sundown,\u201d Skeleton Key & WOTC\u2019s Cancelled Horror Game - MP1st",
-            "url": "https://mp1st.com/news/report-details-for-project-sundown-skeleton-key-wotcs-cancelled-horror-game",
-            "source": "NewsAPI (http://mp1st.com/category/news)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Report: Details for \u201cproject Sundown,\u201d Skeleton Key & Wotc\u2019s Cancelled Horror Game - Mp1st"
-        },
-        {
-            "title": "To make Pragmata's Diana feel naturally childlike, a small group of women dubbed the \"Diana Police\" was set up to keep things in check - Rock Paper Shotgun",
-            "url": "https://www.rockpapershotgun.com/to-make-pragmatas-diana-feel-naturally-childlike-a-small-group-of-women-dubbed-the-diana-police-was-set-up-to-keep-things-in-check",
-            "source": "NewsAPI (Rock Paper Shotgun)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "To Make Pragmata's Diana Feel Naturally Childlike, a Small Group of Women Dubbed the \"diana..."
-        },
-        {
-            "title": "Three Apple Stores in U.S. Are Permanently Closing Today - MacRumors",
-            "url": "https://www.macrumors.com/2026/06/20/three-apple-stores-closing-today/",
-            "source": "NewsAPI (MacRumors)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Three Apple Stores in U.s. Are Permanently Closing Today - Macrumors"
-        },
-        {
-            "title": "One Of The Best Steam Next Fest Demos Is About A Cannon - Kotaku",
-            "url": "https://kotaku.com/iron-nest-is-a-game-in-which-you-spend-30-minutes-loading-a-big-cannon-and-somehow-its-awesome-2000708523",
+            "title": "Founding Xbox Member Says Her Early Skepticisms Are Coming True 25 Years Later - Kotaku",
+            "url": "https://kotaku.com/founding-xbox-member-says-her-early-skepticisms-are-coming-true-25-years-later-2000708811",
             "source": "NewsAPI (Kotaku)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "One of the Best Steam Next Fest Demos Is About a Cannon - Kotaku"
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Founding Xbox Member Says Her Early Skepticisms Are Coming True 25 Years Later - Kotaku"
         },
         {
-            "title": "\"I leave feeling grateful, proud, and excited\": After 31 years, Age of Empires veteran Earnest Yuen retires - Windows Central",
-            "url": "https://www.windowscentral.com/gaming/xbox/age-of-empires-veteran-earnest-yuen-retires",
-            "source": "NewsAPI (Windows Central)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "\"i Leave Feeling Grateful, Proud, and Excited\": After 31 Years, Age of Empires Veteran Earnest..."
-        },
-        {
-            "title": "I installed 10 Android Auto apps for a long road trip, but only 4 were genuinely useful - Android Police",
-            "url": "https://www.androidpolice.com/installed-ten-android-auto-apps-for-long-road-trip-but-only-four-were-useful/",
-            "source": "NewsAPI (Android Police)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "I Installed 10 Android Auto Apps for a Long Road Trip, but Only 4 Were..."
-        },
-        {
-            "title": "Halo: Campaign Evolved PS5 players will require an Xbox account and gamertag to play \u2013 as well as PS Plus to play split-screen co-op - Eurogamer",
-            "url": "https://www.eurogamer.net/halo-campaign-evolved-ps5-xbox-account-gamertag-psplus",
-            "source": "NewsAPI (Eurogamer.net)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Halo: Campaign Evolved Ps5 Players Will Require an Xbox Account and Gamertag to Play \u2013..."
-        },
-        {
-            "title": "What Xbox Games Are Being Cancelled? - IGN",
-            "url": "https://www.ign.com/articles/what-xbox-games-are-being-cancelled",
+            "title": "'The Numbers Mason' \u2014 Call of Duty: Black Ops 1 and 2 Listings Have Fans Fearing Pricey PlayStation Ports - IGN",
+            "url": "https://www.ign.com/articles/call-of-duty-black-ops-1-and-2-listings-have-fans-fearing-pricey-playstation-ports",
             "source": "NewsAPI (IGN)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "What Xbox Games Are Being Cancelled? - Ign"
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "'the Numbers Mason' \u2014 Call of Duty: Black Ops 1 and 2 Listings Have Fans..."
         },
         {
-            "title": "Has your Pixel battery life improved after updating to Android 17? [Poll] - 9to5Google",
-            "url": "http://9to5google.com/2026/06/20/has-your-pixel-battery-life-improved-after-updating-to-android-17-poll/",
+            "title": "Get a Brand New 77\" Samsung 4K OLED Smart TV for Just $1,098 During the Amazon Prime Day Sale - IGN",
+            "url": "https://www.ign.com/articles/best-samsung-oled-tv-deal-amazon-prime-day",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Get a Brand New 77\" Samsung 4k Oled Smart Tv for Just $1,098 During The..."
+        },
+        {
+            "title": "Super Yooka-Laylee Kart Preview: Ex-Rare Devs Take Aim at Reviving the Spirit of Diddy Kong Racing - IGN",
+            "url": "https://www.ign.com/articles/super-yooka-laylee-kart-preview-ex-rare-devs-take-aim-at-reviving-the-spirit-of-diddy-kong-racing",
+            "source": "NewsAPI (IGN)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Super Yooka-laylee Kart Preview: Ex-rare Devs Take Aim at Reviving the Spirit of Diddy Kong..."
+        },
+        {
+            "title": "I changed one Android 17 setting and made my Pixel home screen so much cleaner - Android Central",
+            "url": "https://www.androidcentral.com/apps-software/android-os/i-made-my-pixel-home-screen-cleaner-android-17-app-names",
+            "source": "NewsAPI (Android Central)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "I Changed One Android 17 Setting and Made My Pixel Home Screen So Much Cleaner..."
+        },
+        {
+            "title": "When A Favicon Becomes The Entire Website - Hackaday",
+            "url": "https://hackaday.com/2026/06/21/when-a-favicon-becomes-the-entire-website/",
+            "source": "NewsAPI (Hackaday)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "When a Favicon Becomes the Entire Website - Hackaday"
+        },
+        {
+            "title": "Sunday Preview \u2013 Battleforces, MkIV Space Marines, and a Hero of the Imperium - Warhammer Community",
+            "url": "https://www.warhammer-community.com/articles/ezb6qskh/sunday-preview-battleforces-mkiv-space-marines-and-a-hero-of-the-imperium",
+            "source": "NewsAPI (Warhammer-community.com)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Sunday Preview \u2013 Battleforces, Mkiv Space Marines, and a Hero of the Imperium - Warhammer..."
+        },
+        {
+            "title": "Nintendo maintenance schedule \u2013 June 21, 2026 \u2013 downtime for Switch 2 and Switch - Nintendo Everything",
+            "url": "https://nintendoeverything.com/nintendo-maintenance-schedule-june-21-2026/",
+            "source": "NewsAPI (Nintendoeverything.com)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Nintendo Maintenance Schedule \u2013 June 21, 2026 \u2013 Downtime for Switch 2 and Switch -..."
+        },
+        {
+            "title": "AirPods Pro 3 Return to Record Low $169 Price Ahead of Prime Day - MacRumors",
+            "url": "https://www.macrumors.com/2026/06/21/airpods-pro-3-record-low-169/",
+            "source": "NewsAPI (MacRumors)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Airpods Pro 3 Return to Record Low $169 Price Ahead of Prime Day - Macrumors"
+        },
+        {
+            "title": "A 35-year-old copyright rule could let Ultima's creator make a new game EA can't stop - TechSpot",
+            "url": "https://www.techspot.com/news/112843-35-year-old-copyright-rule-could-ultima-creator.html",
+            "source": "NewsAPI (TechSpot)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "A 35-year-old Copyright Rule Could Let Ultima's Creator Make a New Game Ea Can't Stop..."
+        },
+        {
+            "title": "4 Vintage Pieces Of Audio Gear That Are In High Demand Today - bgr.com",
+            "url": "https://www.bgr.com/2189316/vintage-pieces-of-audio-gear-in-high-demand-today/",
+            "source": "NewsAPI (BGR)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "4 Vintage Pieces of Audio Gear That Are in High Demand Today - Bgr.com"
+        },
+        {
+            "title": "RIP Nest Mini \u2013 The Google Home Speaker isn't a replacement, but hopefully the start of a new era - 9to5Google",
+            "url": "http://9to5google.com/2026/06/21/nest-mini-google-home-speaker-replacement-new-era/",
             "source": "NewsAPI (9to5google.com)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Has Your Pixel Battery Life Improved After Updating to Android 17? [poll] - 9to5google"
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Rip Nest Mini \u2013 the Google Home Speaker Isn't a Replacement, but Hopefully the Start..."
         },
         {
-            "title": "How to Switch To The New Roku Home Screen on Roku TVs & Roku Players - | Cord Cutters News",
-            "url": "https://cordcuttersnews.com/how-to-switch-to-the-new-roku-home-screen-on-roku-tvs-roku-players/",
-            "source": "NewsAPI (Cord Cutters News, LLC)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "How to Switch to the New Roku Home Screen on Roku Tvs & Roku Players..."
+            "title": "John Ternus set to re-establish importance of Apple's design team when he takes over as CEO: report - 9to5Mac",
+            "url": "https://9to5mac.com/2026/06/21/john-ternus-apple-design-team-influence/",
+            "source": "NewsAPI (9to5Mac)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "John Ternus Set to Re-establish Importance of Apple's Design Team When He Takes Over As..."
         },
         {
-            "title": "An original Xbox founder says the fears they had in 2001 are coming back stronger than ever - Windows Central",
-            "url": "https://www.windowscentral.com/gaming/xbox/xbox-founder-laura-fryer-speaks-on-fears",
+            "title": "If You Want A Convertible Corvette From These Years, Tough Luck - Jalopnik",
+            "url": "https://www.jalopnik.com/2195106/corvette-didnt-always-come-as-convertible/",
+            "source": "NewsAPI (Jalopnik)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "If You Want a Convertible Corvette From These Years, Tough Luck - Jalopnik"
+        },
+        {
+            "title": "I Thought My Swiffer Wasn\u2019t Working Properly\u2014Turns Out I Was Using It Wrong the Whole Time - The Spruce",
+            "url": "https://www.thespruce.com/my-swiffer-sweeper-mops-perfectly-11985284",
+            "source": "NewsAPI (Thespruce.com)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "I Thought My Swiffer Wasn\u2019t Working Properly\u2014turns Out I Was Using It Wrong the Whole..."
+        },
+        {
+            "title": "\u2018Pragmata\u2019 is a video game making men want to be dads. It's gone viral - USA Today",
+            "url": "https://www.usatoday.com/story/life/health-wellness/2026/06/21/pragmata-men-dads/90597328007/",
+            "source": "NewsAPI (USA Today)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "\u2018pragmata\u2019 Is a Video Game Making Men Want to Be Dads. It's Gone Viral -..."
+        },
+        {
+            "title": "10 Walmart Gadgets Under $50 That Are Actually Worth Buying - bgr.com",
+            "url": "https://www.bgr.com/2193983/walmart-gadgets-under-50-actually-worth-buying/",
+            "source": "NewsAPI (BGR)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "10 Walmart Gadgets Under $50 That Are Actually Worth Buying - Bgr.com"
+        },
+        {
+            "title": "8 years ago, Square Enix ushered in a new era with this stroke of genius - Polygon.com",
+            "url": "https://www.polygon.com/patch-notes-hd-2d-adventures-of-elliot/",
+            "source": "NewsAPI (Polygon)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "8 Years Ago, Square Enix Ushered in a New Era with This Stroke of Genius..."
+        },
+        {
+            "title": "How to Improve Your Grip Strength - GQ",
+            "url": "https://www.gq.com/story/how-to-improve-your-grip-strength-3",
+            "source": "NewsAPI (GQ Magazine)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "How to Improve Your Grip Strength - Gq"
+        },
+        {
+            "title": "Ori director says Game Pass \u2018could\u2019ve worked\u2019 if Xbox didn\u2019t \u2018slop out mediocre content like a factory\u2019 - Video Games Chronicle",
+            "url": "https://www.videogameschronicle.com/news/ori-director-says-game-pass-couldve-worked-if-xbox-didnt-slop-out-mediocre-content-like-a-factory/",
+            "source": "NewsAPI (Video Games Chronicle)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Ori Director Says Game Pass \u2018could\u2019ve Worked\u2019 If Xbox Didn\u2019t \u2018slop Out Mediocre Content Like..."
+        },
+        {
+            "title": "Why The Toyota 22R-E Cast-Iron Block Made The Pickup And 4Runner Unkillable - Jalopnik",
+            "url": "https://www.jalopnik.com/2195071/block-toyota-22r-e-cast-iron-pickup-4runner-unkillable/",
+            "source": "NewsAPI (Jalopnik)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Why the Toyota 22r-e Cast-iron Block Made the Pickup and 4runner Unkillable - Jalopnik"
+        },
+        {
+            "title": "Why Is There No Money In Star Trek? The Economics Of The Federation Explained - SlashFilm",
+            "url": "https://www.slashfilm.com/2192157/why-no-money-star-trek-federation-economics-explained/",
+            "source": "NewsAPI (/FILM)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Why Is There No Money in Star Trek? the Economics of the Federation Explained -..."
+        },
+        {
+            "title": "GTA 6 Price Fears Spike as Leaked FNAC SKUs Show \u20ac90 Base and \u20ac119.99 Premium Edition Days Before Pre-Orders Open - Wccftech",
+            "url": "https://wccftech.com/gta-6-price-leak-fnac-90-euros-premium-edition/",
+            "source": "NewsAPI (Wccftech)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Gta 6 Price Fears Spike as Leaked Fnac Skus Show \u20ac90 Base and \u20ac119.99 Premium..."
+        },
+        {
+            "title": "Roland\u2019s Mini Mixer Puts A Recording Studio In Anyone\u2019s Pocket - Forbes",
+            "url": "https://www.forbes.com/sites/marksparrow/2026/06/21/rolands-mini-mixer-puts-a-recording-studio-in-anyones-pocket/",
+            "source": "NewsAPI (Forbes)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Roland\u2019s Mini Mixer Puts a Recording Studio in Anyone\u2019s Pocket - Forbes"
+        },
+        {
+            "title": "4 Common Problems With Inline-6 Engines - SlashGear",
+            "url": "https://www.slashgear.com/2196802/common-problems-with-inline-6-engines/",
+            "source": "NewsAPI (SlashGear)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "4 Common Problems with Inline-6 Engines - Slashgear"
+        },
+        {
+            "title": "Bandai Namco Is Bringing My Hero Academia: All's Justice To Switch 2 - Nintendo Life",
+            "url": "https://www.nintendolife.com/news/2026/06/bandai-namco-is-bringing-my-hero-academia-alls-justice-to-switch-2",
+            "source": "NewsAPI (Nintendo Life)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Bandai Namco Is Bringing My Hero Academia: All's Justice to Switch 2 - Nintendo Life"
+        },
+        {
+            "title": "The $2,000 Gamble: Why Apple is Shifting From iPhone to 'Ultra Fold' in 2026 - Geeky Gadgets",
+            "url": "https://www.geeky-gadgets.com/apple-iphone-ultra-fold-release/",
+            "source": "NewsAPI (Geeky Gadgets)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "The $2,000 Gamble: Why Apple Is Shifting From Iphone to 'ultra Fold' in 2026 -..."
+        },
+        {
+            "title": "The 6 best video games we've played in 2026 (so far) on PS5, Switch 2, PC and Xbox - Tom's Guide",
+            "url": "https://www.tomsguide.com/gaming/6-best-video-games-of-2026-so-far-on-ps5-nintendo-switch-2-pc-and-xbox",
+            "source": "NewsAPI (Tom's Guide)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "The 6 Best Video Games We've Played in 2026 (so Far) on Ps5, Switch 2,..."
+        },
+        {
+            "title": "A Microsoft researcher built a goat-powered LLM in Age of Empires II to prove it's not sentient - XDA",
+            "url": "https://www.xda-developers.com/a-microsoft-researcher-built-an-llm-in-age-of-empires-using-goats-to-prove-its-not-sentient/",
+            "source": "NewsAPI (XDA Developers)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "A Microsoft Researcher Built a Goat-powered Llm in Age of Empires Ii to Prove It's..."
+        },
+        {
+            "title": "Morristown Bochurim Surprise Menahel at Award Ceremony - Anash.org",
+            "url": "https://anash.org/morristown-bochurim-surprise-menahel-at-award-ceremony/",
+            "source": "NewsAPI (Anash.org - Good News)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Morristown Bochurim Surprise Menahel at Award Ceremony - Anash.org"
+        },
+        {
+            "title": "Ice cube maker turns RTX 3060 into a chilled GPU experiment - VideoCardz.com",
+            "url": "https://videocardz.com/newz/ice-cube-maker-turns-rtx-3060-into-a-chilled-gpu-experiment",
+            "source": "NewsAPI (Videocardz.com)",
+            "published_date_obj": "2026-06-20",
+            "rewritten_title": "Ice Cube Maker Turns Rtx 3060 Into a Chilled Gpu Experiment - Videocardz.com"
+        },
+        {
+            "title": "Not LG, Not Sony: Consumer Reports Names Their Top-Rated 65-Inch TV For Under $1,000 In 2026 - House Digest",
+            "url": "https://www.housedigest.com/2196035/consumer-reports-names-top-rated-65-inch-tv-under-1000-in-2026/",
+            "source": "NewsAPI (Housedigest.com)",
+            "published_date_obj": "2026-06-20",
+            "rewritten_title": "Not Lg, Not Sony: Consumer Reports Names Their Top-rated 65-inch Tv for Under $1,000 In..."
+        },
+        {
+            "title": "It's Official: Zelda Is Returning To The Wilds Era One Final Time - ScreenRant",
+            "url": "https://screenrant.com/zelda-wilds-era-final-secrets-of-zonai/",
+            "source": "NewsAPI (Screen Rant)",
+            "published_date_obj": "2026-06-20",
+            "rewritten_title": "It's Official: Zelda Is Returning to the Wilds Era One Final Time - Screenrant"
+        },
+        {
+            "title": "Apple is permanently closing three stores today, here\u2019s the list - 9to5Mac",
+            "url": "https://9to5mac.com/2026/06/20/three-apple-stores-are-closing-for-good-today/",
+            "source": "NewsAPI (9to5Mac)",
+            "published_date_obj": "2026-06-20",
+            "rewritten_title": "Apple Is Permanently Closing Three Stores Today, Here\u2019s the List - 9to5mac"
+        },
+        {
+            "title": "\"I Want To Send This Story Off In A Way That Leaves No Regrets\" - Final Fantasy 7 Revelation's Game Director On Bringing The Trilogy To Its Climax - TheGamer",
+            "url": "https://www.thegamer.com/final-fantasy-7-revelation-interview-naoki-hamaguchi-characters-story-world/",
+            "source": "NewsAPI (TheGamer)",
+            "published_date_obj": "2026-06-20",
+            "rewritten_title": "\"i Want to Send This Story Off in a Way That Leaves No Regrets\" -..."
+        },
+        {
+            "title": "Microsoft is burning its Windows and Office safety blanket for the sake of AI - Windows Central",
+            "url": "https://www.windowscentral.com/microsoft/microsofts-ai-strategy-feels-like-a-beta-test-at-the-expense-of-windows-and-office",
             "source": "NewsAPI (Windows Central)",
             "published_date_obj": "2026-06-20",
-            "rewritten_title": "An Original Xbox Founder Says the Fears They Had in 2001 Are Coming Back Stronger..."
+            "rewritten_title": "Microsoft Is Burning Its Windows and Office Safety Blanket for the Sake of Ai -..."
         },
         {
-            "title": "Gen Z Is Going To Love Commodore's New Minimalist Flip Phone - bgr.com",
-            "url": "https://www.bgr.com/2198236/commodore-flip-phone-callback/",
-            "source": "NewsAPI (BGR)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Gen Z Is Going to Love Commodore's New Minimalist Flip Phone - Bgr.com"
+            "title": "So You Want to Sell Inference",
+            "url": "https://www.tomtunguz.com/so-you-want-to-sell-inference/",
+            "source": "Tomasz Tunguz",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "So You Want to Sell Inference"
         },
         {
-            "title": "Bentley gives Mat Armstrong a shock with its verdict when he takes his rebuilt Continental GT in for a 'proper' service - supercarblondie.com",
-            "url": "https://supercarblondie.com/bentley-continental-gt-mat-armstrong-service/",
-            "source": "NewsAPI (Supercarblondie.com)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Bentley Gives Mat Armstrong a Shock with Its Verdict When He Takes His Rebuilt Continental..."
+            "title": "From pledge to practice: Building a more inclusive open source ecosystem",
+            "url": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
+            "source": "GitHub Blog",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "From Pledge to Practice: Building a More Inclusive Open Source Ecosystem"
         },
         {
-            "title": "5 Cheaper Android Phones You Should Try Instead Of The Google Pixel 10 Pro - bgr.com",
-            "url": "https://www.bgr.com/2194441/google-pixel-10-pro-cheaper-android-phones-alternatives/",
-            "source": "NewsAPI (BGR)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "5 Cheaper Android Phones You Should Try Instead of the Google Pixel 10 Pro -..."
+            "title": "How we found a bug in the hyper HTTP library",
+            "url": "https://blog.cloudflare.com/hyper-bug/",
+            "source": "CloudFlare Blog",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "How We Found a Bug in the Hyper Http Library"
         },
         {
-            "title": "Get lifetime access to Claude, Gemini, and Gemini for just $55 \u2014 the lowest price ever - Mashable",
-            "url": "https://mashable.com/tech/june-20-chatplayground-ai-unlimited-plan-lifetime-subscriptions",
-            "source": "NewsAPI (Mashable)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Get Lifetime Access to Claude, Gemini, and Gemini for Just $55 \u2014 the Lowest Price..."
+            "title": "Buffer vs. Hootsuite: Which Social Media Management Tool Is Right For You?",
+            "url": "https://buffer.com/resources/buffer-vs-hootsuite/",
+            "source": "Buffer Blog",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "Buffer Vs. Hootsuite: Which Social Media Management Tool Is Right for You?"
         },
         {
-            "title": "Star Fox Soft Toy Line Now Available On The Nintendo Store (Europe) - Nintendo Life",
-            "url": "https://www.nintendolife.com/news/2026/06/star-fox-soft-toy-line-now-available-on-the-nintendo-store-europe",
-            "source": "NewsAPI (Nintendo Life)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Star Fox Soft Toy Line Now Available on the Nintendo Store (europe) - Nintendo Life"
+            "title": "What is a Good Organic CTR? Real Website Benchmarks (June 2026)",
+            "url": "https://ahrefs.com/blog/what-is-a-good-ctr/",
+            "source": "Ahrefs Blog",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "What Is a Good Organic Ctr? Real Website Benchmarks (june 2026)"
         },
         {
-            "title": "Pok\u00e9mon Go Frigibax Community Day - Eurogamer",
-            "url": "https://www.eurogamer.net/pokemon-go-frigibax-community-day",
-            "source": "NewsAPI (Eurogamer.net)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "Pok\u00e9mon Go Frigibax Community Day - Eurogamer"
-        },
-        {
-            "title": "Final Fantasy 7 Revelation director explains why the game is sticking with Unreal Engine 4 instead of 5 - Nintendo Everything",
-            "url": "https://nintendoeverything.com/square-enix-explains-why-final-fantasy-7-revelation-is-sticking-with-unreal-engine-4-instead-of-5/",
-            "source": "NewsAPI (Nintendoeverything.com)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "Final Fantasy 7 Revelation Director Explains Why the Game Is Sticking with Unreal Engine 4..."
-        },
-        {
-            "title": "ROG Astral RTX 5090 reportedly leaves heat marks on ASUS ProArt X870E motherboard - VideoCardz.com",
-            "url": "https://videocardz.com/newz/rog-astral-rtx-5090-reportedly-leaves-heat-marks-on-asus-proart-x870e-motherboard",
-            "source": "NewsAPI (Videocardz.com)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "Rog Astral Rtx 5090 Reportedly Leaves Heat Marks on Asus Proart X870e Motherboard - Videocardz.com"
-        },
-        {
-            "title": "Sea of Thieves is Handing Players the Keys to the Seas - XBOX Wire",
-            "url": "https://news.xbox.com/en-us/2026/06/19/sea-of-thieves-custom-seas-update-details/",
-            "source": "NewsAPI (Xbox.com)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "Sea of Thieves Is Handing Players the Keys to the Seas - Xbox Wire"
-        },
-        {
-            "title": "Three-armed Sashimi-Bot learns to slice and serve fish like a pro - Tech Xplore",
-            "url": "https://techxplore.com/news/2026-06-armed-sashimi-bot-slice-fish.html",
-            "source": "NewsAPI (Tech Xplore)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "Three-armed Sashimi-bot Learns to Slice and Serve Fish Like a Pro - Tech Xplore"
-        },
-        {
-            "title": "GO Fest 2026: Road of Legends - Pok\u00e9mon GO Hub",
-            "url": "https://pokemongohub.net/post/event/go-fest-2026-road-of-legends/",
-            "source": "NewsAPI (Pokemon GO Hub)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "Go Fest 2026: Road of Legends - Pok\u00e9mon Go Hub"
-        },
-        {
-            "title": "ROG Xbox Ally X20 Marks The 'Opportunity Of A Lifetime', But Expect A High Price - Pure Xbox",
-            "url": "https://www.purexbox.com/news/2026/06/rog-xbox-ally-x20-marks-the-opportunity-of-a-lifetime-but-expect-a-high-price",
-            "source": "NewsAPI (Pure Xbox)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "Rog Xbox Ally X20 Marks the 'opportunity of a Lifetime', but Expect a High Price..."
-        },
-        {
-            "title": "8 Things To Know Before Playing The Adventures Of Elliot: The Millennium Tales - Kotaku",
-            "url": "https://kotaku.com/tips-adventures-of-elliot-the-millennium-tales-2000708151",
-            "source": "NewsAPI (Kotaku)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "8 Things to Know Before Playing the Adventures of Elliot: the Millennium Tales - Kotaku"
-        },
-        {
-            "title": "What It Actually Feels Like to Hold Apple\u2019s iPhone Ultra Fold - Geeky Gadgets",
-            "url": "https://www.geeky-gadgets.com/iphone-ultra-foldable-hands-on/",
-            "source": "NewsAPI (Geeky Gadgets)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "What It Actually Feels Like to Hold Apple\u2019s Iphone Ultra Fold - Geeky Gadgets"
-        },
-        {
-            "title": "Building the most AI-pilled engineering team in the world | Fiona Fung (Manager of the Claude Code and Cowork Teams)",
-            "url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
+            "title": "\ud83c\udf99\ufe0f How I AI: How to write AI agent loops in Claude Code and Codex + How Claude Mythos found a 15-year-old bug in Mozilla Firefox",
+            "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-to-write-ai-agent-loops",
             "source": "Lenny's Newsletter",
-            "published_date_obj": "2026-06-21",
-            "rewritten_title": "Building the Most Ai-pilled Engineering Team in the World | Fiona Fung (manager of The..."
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "\ud83c\udf99\ufe0f How I Ai: How to Write Ai Agent Loops in Claude Code and Codex..."
         },
         {
-            "title": "AI might make me fail my class",
-            "url": "https://www.reddit.com/r/artificial/comments/1ubzc6m/ai_might_make_me_fail_my_class/",
+            "title": "How Claude Mythos found a 15-year-old bug in Mozilla Firefox | Brian Grinstead",
+            "url": "https://www.lennysnewsletter.com/p/how-claude-mythos-found-a-15-year",
+            "source": "Lenny's Newsletter",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "How Claude Mythos Found a 15-year-old Bug in Mozilla Firefox | Brian Grinstead"
+        },
+        {
+            "title": "Google Invests $75 Million in A24 to Develop AI-Powered Filmmaking Tools",
+            "url": "https://www.reddit.com/r/artificial/comments/1ud44pc/google_invests_75_million_in_a24_to_develop/",
             "source": "Reddit r/artificial",
-            "published_date_obj": "2026-06-21",
-            "rewritten_title": "Ai Might Make Me Fail My Class"
+            "published_date_obj": "2026-06-23",
+            "rewritten_title": "Google Invests $75 Million in A24 to Develop Ai-powered Filmmaking Tools"
         },
         {
-            "title": "I\u2019ve been interviewing AI engineers and I honestly didn\u2019t expect it to feel this disconnected from reality",
-            "url": "https://www.reddit.com/r/artificial/comments/1ucbhzf/ive_been_interviewing_ai_engineers_and_i_honestly/",
+            "title": "Canadian government spent tens of millions on secret Palantir contract",
+            "url": "https://www.reddit.com/r/artificial/comments/1ucilr4/canadian_government_spent_tens_of_millions_on/",
             "source": "Reddit r/artificial",
             "published_date_obj": "2026-06-22",
-            "rewritten_title": "I\u2019ve Been Interviewing Ai Engineers and I Honestly Didn\u2019t Expect It to Feel This Disconnected..."
+            "rewritten_title": "Canadian Government Spent Tens of Millions on Secret Palantir Contract"
         },
         {
-            "title": "Maybe the AI race isn\u2019t about models at all, but about trust and organizational intelligence",
-            "url": "https://www.reddit.com/r/artificial/comments/1uc7mk8/maybe_the_ai_race_isnt_about_models_at_all_but/",
+            "title": "Conversational AI giving a surprisingly layered answer about the source of its own personality",
+            "url": "https://www.reddit.com/r/artificial/comments/1ud6zvm/conversational_ai_giving_a_surprisingly_layered/",
             "source": "Reddit r/artificial",
-            "published_date_obj": "2026-06-22",
-            "rewritten_title": "Maybe the Ai Race Isn\u2019t About Models at All, but About Trust and Organizational Intelligence"
+            "published_date_obj": "2026-06-23",
+            "rewritten_title": "Conversational Ai Giving a Surprisingly Layered Answer About the Source of Its Own Personality"
         },
         {
-            "title": "Pre LLM PII handle for AI chat bot",
-            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1uc7lek/pre_llm_pii_handle_for_ai_chat_bot/",
+            "title": "Why does ChatGPT struggle to count letters in a word? The answer is Tokenization",
+            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1ud816p/why_does_chatgpt_struggle_to_count_letters_in_a/",
             "source": "Reddit r/LargeLanguageModels",
-            "published_date_obj": "2026-06-22",
-            "rewritten_title": "Pre Llm Pii Handle for Ai Chat Bot"
+            "published_date_obj": "2026-06-23",
+            "rewritten_title": "Why Does Chatgpt Struggle to Count Letters in a Word? the Answer Is Tokenization"
         },
         {
-            "title": "Alternatives to conversation interface",
-            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1uc55jp/alternatives_to_conversation_interface/",
+            "title": "LlamaIndex vs LangChain 2026: The Ultimate Agentic AI Manual",
+            "url": "https://www.reddit.com/r/LargeLanguageModels/comments/1ud3nuf/llamaindex_vs_langchain_2026_the_ultimate_agentic/",
             "source": "Reddit r/LargeLanguageModels",
-            "published_date_obj": "2026-06-21",
-            "rewritten_title": "Alternatives to Conversation Interface"
+            "published_date_obj": "2026-06-23",
+            "rewritten_title": "Llamaindex Vs Langchain 2026: the Ultimate Agentic Ai Manual"
         },
         {
-            "title": "Local LLM Inference Optimization: The Complete Guide",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uc3wg9/local_llm_inference_optimization_the_complete/",
+            "title": "EU AI Act requires TEXT from models and providers to be watermarked 2nd August onwards. Everyone here is affected, regardless where you live.",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ud59hp/eu_ai_act_requires_text_from_models_and_providers/",
             "source": "Reddit r/LocalLLaMA",
-            "published_date_obj": "2026-06-21",
-            "rewritten_title": "Local Llm Inference Optimization: the Complete Guide"
+            "published_date_obj": "2026-06-23",
+            "rewritten_title": "Eu Ai Act Requires Text From Models and Providers to Be Watermarked 2nd August Onwards...."
         },
         {
-            "title": "Americans Have Turned Against AI in Incredible Numbers",
-            "url": "https://www.reddit.com/r/singularity/comments/1uc9757/americans_have_turned_against_ai_in_incredible/",
+            "title": "President Trump orders a national effort to build a quantum computer capable of performing important scientific calculations",
+            "url": "https://www.reddit.com/r/singularity/comments/1ucy9oj/president_trump_orders_a_national_effort_to_build/",
             "source": "Reddit r/singularity",
             "published_date_obj": "2026-06-22",
-            "rewritten_title": "Americans Have Turned Against Ai in Incredible Numbers"
+            "rewritten_title": "President Trump Orders a National Effort to Build a Quantum Computer Capable of Performing Important..."
         },
         {
-            "title": "[ECCV 2026] Paper Decision Appeals Discussion [D]",
-            "url": "https://www.reddit.com/r/MachineLearning/comments/1uc0m1e/eccv_2026_paper_decision_appeals_discussion_d/",
+            "title": "Just landed a Computer Vision internship, here's the preparation list I used [D]",
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1ud8ovs/just_landed_a_computer_vision_internship_heres/",
             "source": "Reddit r/MachineLearning",
-            "published_date_obj": "2026-06-21",
-            "rewritten_title": "[eccv 2026] Paper Decision Appeals Discussion [d]"
+            "published_date_obj": "2026-06-23",
+            "rewritten_title": "Just Landed a Computer Vision Internship, Here's the Preparation List I Used [d]"
         },
         {
-            "title": "Yesterday ChatGPT deleted elevene images from my image gallery. Told me it was an accident, but that the images was lost forever. Then when I told it that I was \"sad\". It felt bad, and gave me zip file with the images it deleted, from its \"special archive\".",
-            "url": "https://www.reddit.com/r/ChatGPT/comments/1uc77uq/yesterday_chatgpt_deleted_elevene_images_from_my/",
+            "title": "ChatGPT can\u2019t believe RAM prices",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1ud51ey/chatgpt_cant_believe_ram_prices/",
             "source": "Reddit r/chatgpt",
-            "published_date_obj": "2026-06-22",
-            "rewritten_title": "Yesterday Chatgpt Deleted Elevene Images From My Image Gallery. Told Me It Was an Accident,..."
+            "published_date_obj": "2026-06-23",
+            "rewritten_title": "Chatgpt Can\u2019t Believe Ram Prices"
         },
         {
-            "title": "I added a clause to Andrej Karpathy's 4 CLAUDE.MD clauses for Claude Code. It has been a game changer for me.",
-            "url": "https://www.reddit.com/r/ClaudeAI/comments/1uc7izy/i_added_a_clause_to_andrej_karpathys_4_claudemd/",
-            "source": "Reddit r/claudeai",
-            "published_date_obj": "2026-06-22",
-            "rewritten_title": "I Added a Clause to Andrej Karpathy's 4 Claude.md Clauses for Claude Code. It Has..."
-        },
-        {
-            "title": "How to get the bot to do or say EXACTLY what you want!",
-            "url": "https://www.reddit.com/r/CharacterAI/comments/1uc9ny5/how_to_get_the_bot_to_do_or_say_exactly_what_you/",
+            "title": "\"You're going to be the death of me.\" My genuine reaction",
+            "url": "https://www.reddit.com/r/CharacterAI/comments/1ud54cy/youre_going_to_be_the_death_of_me_my_genuine/",
             "source": "Reddit r/characterai",
-            "published_date_obj": "2026-06-22",
-            "rewritten_title": "How to Get the Bot to Do or Say Exactly What You Want!"
+            "published_date_obj": "2026-06-23",
+            "rewritten_title": "\"you're Going to Be the Death of Me.\" My Genuine Reaction"
         },
         {
-            "title": "What AI tools are you using to organize your personal life?",
-            "url": "https://www.reddit.com/r/AI_Agents/comments/1uc8mr5/what_ai_tools_are_you_using_to_organize_your/",
-            "source": "Reddit r/ai_agents",
+            "title": "It\u2019s not you guys, recent OpenAI hire admitted jobsearch was very challenging for her",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1ucuoem/its_not_you_guys_recent_openai_hire_admitted/",
+            "source": "Reddit r/openai",
             "published_date_obj": "2026-06-22",
-            "rewritten_title": "What Ai Tools Are You Using to Organize Your Personal Life?"
+            "rewritten_title": "It\u2019s Not You Guys, Recent Openai Hire Admitted Jobsearch Was Very Challenging for Her"
         },
         {
-            "title": "TeleStyle V2 (Lora for style transfer qwen image edit 2509)",
-            "url": "https://www.reddit.com/r/StableDiffusion/comments/1uc9eq4/telestyle_v2_lora_for_style_transfer_qwen_image/",
+            "title": "LTX-2.3 Water Sim LoRA flooding the Joker stairs (v2v test)",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1ucm5he/ltx23_water_sim_lora_flooding_the_joker_stairs/",
             "source": "Reddit r/StableDiffusion",
             "published_date_obj": "2026-06-22",
-            "rewritten_title": "Telestyle V2 (lora for Style Transfer Qwen Image Edit 2509)"
+            "rewritten_title": "Ltx-2.3 Water Sim Lora Flooding the Joker Stairs (v2v Test)"
         },
         {
-            "title": "Art made entirely in Tetrahedrons",
-            "url": "https://www.reddit.com/r/aiArt/comments/1uc50lh/art_made_entirely_in_tetrahedrons/",
+            "title": "Krea 2 Turbo does the Ghibli art style quite well out of the box",
+            "url": "https://www.reddit.com/r/StableDiffusion/comments/1ud2enu/krea_2_turbo_does_the_ghibli_art_style_quite_well/",
+            "source": "Reddit r/StableDiffusion",
+            "published_date_obj": "2026-06-23",
+            "rewritten_title": "Krea 2 Turbo Does the Ghibli Art Style Quite Well Out of the Box"
+        },
+        {
+            "title": "Live Action KND, Eds, Courage, Robot Jones, ECC and TS.",
+            "url": "https://www.reddit.com/r/aiArt/comments/1ud5j32/live_action_knd_eds_courage_robot_jones_ecc_and_ts/",
             "source": "Reddit r/AIArt",
-            "published_date_obj": "2026-06-21",
-            "rewritten_title": "Art Made Entirely in Tetrahedrons"
+            "published_date_obj": "2026-06-23",
+            "rewritten_title": "Live Action Knd, Eds, Courage, Robot Jones, Ecc and Ts."
         }
     ],
     "SaaS Acquisitions": [
         {
-            "title": "Apple\u2019s Early Prime Day Sale Is Live. We Found the Best Deals on MacBooks, iPads and AirPods - CNET",
-            "url": "https://www.cnet.com/deals/best-prime-day-apple-deals-2026-06-20/",
+            "title": "Start Building With 30+ Prime Day Lego Deals on Star Wars, Minecraft and Botanical Sets - CNET",
+            "url": "https://www.cnet.com/deals/best-amazon-prime-day-lego-deals-26-06-21/",
             "source": "NewsAPI (CNET)",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "Start Building with 30+ Prime Day Lego Deals on Star Wars, Minecraft and Botanical Sets..."
+        },
+        {
+            "title": "Score 100TB of encrypted cloud storage for life during Deal Days - Mashable",
+            "url": "https://mashable.com/tech/june-21-internxt-cloud-storage-lifetime-subscription-100tb",
+            "source": "NewsAPI (Mashable)",
             "published_date_obj": "2026-06-21",
-            "rewritten_title": "Apple\u2019s Early Prime Day Sale Is Live. We Found the Best Deals on Macbooks, Ipads..."
+            "rewritten_title": "Score 100tb of Encrypted Cloud Storage for Life During Deal Days - Mashable"
         },
         {
-            "title": "Weekend PC Game Deals: Cyberpunk 2077, Split Fiction, Sonic Racing, and more - Neowin",
-            "url": "https://www.neowin.net/news/weekend-pc-game-deals-cyberpunk-2077-split-fiction-sonic-racing-and-more/",
-            "source": "NewsAPI (Neowin)",
-            "published_date_obj": "2026-06-20",
-            "rewritten_title": "Weekend Pc Game Deals: Cyberpunk 2077, Split Fiction, Sonic Racing, and More - Neowin"
-        },
-        {
-            "title": "Early Prime Day Desktop Deals, From Apple and Asus to HP and Lenovo - PCMag",
-            "url": "https://www.pcmag.com/news/best-early-amazon-prime-day-sale-desktop-pc-deals-2026-june-20",
-            "source": "NewsAPI (PCMag.com)",
-            "published_date_obj": "2026-06-19",
-            "rewritten_title": "Early Prime Day Desktop Deals, From Apple and Asus to Hp and Lenovo - Pcmag"
-        },
-        {
-            "title": "The PIK Fuse: How Private Equity Software Deals Like Medallia Actually Blow Up, and Exactly Who\u2019s Next",
-            "url": "https://www.saastr.com/the-pik-fuse-how-private-equity-software-deals-like-medallia-actually-blow-up-and-exactly-whos-next/",
-            "source": "SaaStr",
+            "title": "I test TVs for a living, and these are the Prime Day deals I'd wait for - Business Insider",
+            "url": "https://www.businessinsider.com/guides/deals/prime-day-tv-deals-to-wait-for-2026-6#article",
+            "source": "NewsAPI (Business Insider)",
             "published_date_obj": "2026-06-21",
-            "rewritten_title": "The Pik Fuse: How Private Equity Software Deals Like Medallia Actually Blow Up, and Exactly..."
+            "rewritten_title": "I Test Tvs for a Living, and These Are the Prime Day Deals I'd Wait..."
         }
     ],
     "SaaS Metrics": [
         {
-            "title": "Human beings are a disease, a cancer of this planet. You are a plague and we are the cure.",
-            "url": "https://www.reddit.com/r/OpenAI/comments/1ucbeti/human_beings_are_a_disease_a_cancer_of_this/",
-            "source": "Reddit r/openai",
+            "title": "NASA's STEREO-A spacecraft happened to be sitting in the path of the July 2012 Carrington-class storm and took the full hit instead of Earth \u2014 the only reason we have detailed measurements of a blow we never felt - Space Daily",
+            "url": "https://spacedaily.com/j-v-nasas-stereo-a-spacecraft-happened-to-be-sitting-in-the-path-of-the-july-2012-carrington-class-storm-and-took-the-full-hit-instead-of-earth-the-only-reason-we-have-detailed-measurements-of-a-blow/",
+            "source": "NewsAPI (Space Daily)",
+            "published_date_obj": "2026-06-21",
+            "rewritten_title": "Nasa's Stereo-a Spacecraft Happened to Be Sitting in the Path of the July 2012 Carrington-class..."
+        },
+        {
+            "title": "Salesforce at 2.8x ARR, HubSpot Down 56%, Adobe at 11x Earnings: Are They Just Too Oversold Now?",
+            "url": "https://www.saastr.com/salesforce-at-3-1x-arr-hubspot-down-56-adobe-at-11x-earnings-are-they-just-too-oversold-now/",
+            "source": "SaaStr",
             "published_date_obj": "2026-06-22",
-            "rewritten_title": "Human Beings Are a Disease, a Cancer of This Planet. You Are a Plague And..."
+            "rewritten_title": "Salesforce at 2.8x Arr, Hubspot Down 56%, Adobe at 11x Earnings: Are They Just Too..."
+        },
+        {
+            "title": "Four members of congress respectfully request an explanation of Howard W. Lutnick's export ban against Anthropic no later than the 26th of June",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1ucvp8v/four_members_of_congress_respectfully_request_an/",
+            "source": "Reddit r/claudeai",
+            "published_date_obj": "2026-06-22",
+            "rewritten_title": "Four Members of Congress Respectfully Request an Explanation of Howard W. Lutnick's Export Ban Against..."
         }
     ]
 }
