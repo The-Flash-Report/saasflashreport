@@ -17,6 +17,23 @@
   nav.breadcrumbs { display: none !important; }
 </style>
 
+{% if articles %}
+<!-- ItemList structured data for this topic listing (generated from the page's own stories) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": {{ (keyword_page_config.title ~ " - SaaS Flash Report") | tojson }},
+  "numberOfItems": {{ articles|length }},
+  "itemListElement": [
+    {%- for article in articles %}
+    {"@type": "ListItem", "position": {{ loop.index }}, "url": {{ article.url | tojson }}, "name": {{ article.rewritten_title | tojson }}}{{ "," if not loop.last }}
+    {%- endfor %}
+  ]
+}
+</script>
+{% endif %}
+
 <!-- Topic Archive Summary -->
 {% if total_pages > 1 or total_stories > 20 %}
 <div class="topic-archive-summary" style="background-color: #f8f8f8; padding: 15px; margin-bottom: 25px; border-radius: 6px; border-left: 4px solid #3B82F6;">

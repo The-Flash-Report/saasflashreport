@@ -25,7 +25,9 @@ def generate_sitemap():
     })
     
     # Static pages (high priority)
-    static_pages = ['about.html', 'contact.html', 'contact-success.html', 'thank-you.html', 'privacy.html']
+    # contact-success.html and thank-you.html are noindex utility pages and are
+    # deliberately excluded from the sitemap.
+    static_pages = ['about.html', 'contact.html', 'privacy.html', 'saas-tools.html', 'market-analysis.html', 'saas-funding-signals.html']
     for page in static_pages:
         if os.path.exists(page):
             urls.append({
