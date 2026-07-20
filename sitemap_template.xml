@@ -4,7 +4,7 @@
     <url>
         <loc>https://aiflashreport.com/</loc>
         <lastmod>{{ current_date }}</lastmod>
-        <changefreq>daily</changefreq>
+        <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     
@@ -12,7 +12,7 @@
     <url>
         <loc>https://aiflashreport.com/archive/</loc>
         <lastmod>{{ current_date }}</lastmod>
-        <changefreq>daily</changefreq>
+        <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     

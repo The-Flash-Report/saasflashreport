@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-SaaS Flash Report is an automated news aggregation website that provides a daily roundup of the latest news and developments in the Software-as-a-Service industry. It sources articles from various RSS feeds, NewsAPI, Reddit, and Perplexity AI, categorizes them, and presents them in a clean, easy-to-read format focused on SaaS funding, enterprise software, product launches, and B2B technology trends.
+SaaS Flash Report is an automated news aggregation website that provides a regularly updated roundup of the latest news and developments in the Software-as-a-Service industry. It sources articles from various RSS feeds, NewsAPI, Reddit, and Perplexity AI, categorizes them, and presents them in a clean, easy-to-read format focused on SaaS funding, enterprise software, product launches, and B2B technology trends.
 
 The live site can be found at [saasflashreport.com](https://saasflashreport.com).
 
@@ -31,13 +31,13 @@ The live site can be found at [saasflashreport.com](https://saasflashreport.com)
 saasflashreport/
 ├── .github/
 │   └── workflows/
-│       └── daily-update.yml  # GitHub Actions workflow for daily SaaS updates
+│       └── weekly-update.yml # GitHub Actions workflow for weekly SaaS updates
 ├── .cursor/
 │   └── rules/
 │       ├── git-workflow.mdc        # SOP for git usage
 │       ├── project-brief.mdc       # Original project brief
 │       └── seo-guidelines.mdc      # SEO best practices
-├── archive/                    # Stores daily HTML archives
+├── archive/                    # Stores per-run HTML archives
 ├── aggregator.py               # Main Python script for fetching, processing, and generating the site
 ├── template.html               # Jinja2 template for the HTML pages
 ├── requirements.txt            # Python dependencies
@@ -88,7 +88,7 @@ saasflashreport/
     *   Fetch data from all configured SaaS industry sources.
     *   Process and categorize SaaS headlines.
     *   Generate/update `index.html`.
-    *   Generate/update a daily archive file in the `archive/` directory.
+    *   Generate/update a per-run archive file in the `archive/` directory.
     *   Update the `archive_index.html` page.
 
 6.  **View the site:**
@@ -96,7 +96,7 @@ saasflashreport/
 
 ## Deployment Process
 
-The site is automatically updated daily via a GitHub Actions workflow defined in `.github/workflows/daily-update.yml`.
+The site is automatically updated weekly via a GitHub Actions workflow defined in `.github/workflows/weekly-update.yml`.
 This workflow:
 1.  Checks out the `main` branch.
 2.  Sets up Python and installs dependencies.

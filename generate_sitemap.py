@@ -20,7 +20,7 @@ def generate_sitemap():
     urls.append({
         'url': f"{base_url}/",
         'lastmod': current_date,
-        'changefreq': 'daily',
+        'changefreq': 'weekly',
         'priority': '1.0'
     })
     
@@ -40,7 +40,7 @@ def generate_sitemap():
         urls.append({
             'url': f"{base_url}/rss.xml",
             'lastmod': current_date,
-            'changefreq': 'daily',
+            'changefreq': 'weekly',
             'priority': '0.9'
         })
     
@@ -49,7 +49,7 @@ def generate_sitemap():
         urls.append({
             'url': f"{base_url}/archive/",
             'lastmod': current_date,
-            'changefreq': 'daily',
+            'changefreq': 'weekly',
             'priority': '0.8'
         })
     
@@ -63,7 +63,7 @@ def generate_sitemap():
             urls.append({
                 'url': f"{base_url}/archive/index.html",
                 'lastmod': current_date,
-                'changefreq': 'daily',
+                'changefreq': 'weekly',
                 'priority': '0.8'
             })
         else:

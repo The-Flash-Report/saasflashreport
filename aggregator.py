@@ -1144,7 +1144,7 @@ def call_perplexity_api_with_retry(prompt):
         "messages": [
             {
                 "role": "system",
-                "content": "You are an AI assistant that creates daily flash summaries of SaaS news. Provide concise, well-formatted responses with clear structure and accurate citations."
+                "content": "You are an AI assistant that creates flash summaries of the latest SaaS news. Provide concise, well-formatted responses with clear structure and accurate citations."
             },
             {
                 "role": "user", 
@@ -1596,15 +1596,15 @@ def main():
     # 4. Get Prompt of the Day
 
 
-    # 4.5. Generate Daily SaaS Flash Summary
-    print("Generating Daily SaaS Flash Summary...")
+    # 4.5. Generate SaaS Flash Summary
+    print("Generating SaaS Flash Summary...")
     current_date = datetime.datetime.now().strftime("%B %d, %Y")
     
     flash_summary_html = ""
     perplexity_summary_markdown = None
 
     # ALWAYS generate a flash summary - independent of RSS headlines
-    flash_summary_prompt = f"""Create a daily SaaS news summary for today's date {current_date}. Format as follows:
+    flash_summary_prompt = f"""Create a SaaS news summary for {current_date}. Format as follows:
 
 **SAAS NEWS FLASH - {current_date}**
 
@@ -1618,7 +1618,7 @@ def main():
 
 IMPORTANT: Include working links and sources with each story. Use citations [1], [2], etc. and provide the corresponding URLs at the bottom.
 
-Focus on: SaaS funding rounds, product launches, acquisitions, enterprise software deals, pricing changes, and major SaaS industry developments from the last 24 hours.
+Focus on: SaaS funding rounds, product launches, acquisitions, enterprise software deals, pricing changes, and major SaaS industry developments from the past week.
 
 Generate fresh, current content about today's SaaS developments. Use your knowledge of recent events and news."""
 
@@ -1661,10 +1661,10 @@ Generate fresh, current content about today's SaaS developments. Use your knowle
         </div>
         """
 
-    # 4.6. Generate Daily SaaS Metrics Report
-    print("Generating Daily SaaS Metrics Report...")
+    # 4.6. Generate SaaS Metrics Report
+    print("Generating SaaS Metrics Report...")
     
-    metrics_prompt = f"""Analyze the current SaaS industry metrics and provide a daily snapshot for {current_date}. Format as follows:
+    metrics_prompt = f"""Analyze the current SaaS industry metrics and provide a current snapshot for {current_date}. Format as follows:
 
 **📊 SaaS METRICS SNAPSHOT - {current_date}**
 
@@ -1688,7 +1688,7 @@ Keep metrics specific, include actual numbers when possible, and cite sources. F
     # Default placeholder content for metrics
     metrics_placeholder = f"""<div style="padding: 20px; background-color: #f8f9fa; border-left: 4px solid #3B82F6; margin: 20px 0;">
     <h2 style="color: #3B82F6; margin-top: 0;">📊 SaaS Metrics Snapshot - {current_date}</h2>
-    <p style="color: #666; font-style: italic;">Daily SaaS industry metrics will appear here when the Perplexity API is configured.</p>
+    <p style="color: #666; font-style: italic;">SaaS industry metrics will appear here when the Perplexity API is configured.</p>
     
     <h3>Metrics Coming Soon:</h3>
     <ul>
