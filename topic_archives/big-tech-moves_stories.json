@@ -1,5 +1,581 @@
 [
   {
+    "title": "Multiplayer AI: Why your team (and its agents) need a group chat",
+    "url": "https://stackoverflow.blog/2026/09/23/multiplayer-ai-why-your-team-and-its-agents-need-a-group-chat/",
+    "source": "Stack Overflow Blog",
+    "published_date_obj": "2026-09-23",
+    "rewritten_title": "Multiplayer Ai: Why Your Team (and Its Agents) Need a Group Chat",
+    "relevance_score": 3
+  },
+  {
+    "title": "Being a System of Record Helps With Retention. But Alone, It Won\u2019t Equal Growth",
+    "url": "https://www.saastr.com/being-a-system-of-record-helps-with-retention-but-alone-it-wont-equal-growth/",
+    "source": "SaaStr",
+    "published_date_obj": "2026-09-22",
+    "rewritten_title": "Being a System of Record Helps with Retention. but Alone, It Won\u2019t Equal Growth",
+    "relevance_score": 3
+  },
+  {
+    "title": "How to design GitLab for enterprise scale",
+    "url": "https://about.gitlab.com/blog/how-to-design-gitlab-for-enterprise-scale/",
+    "source": "GitLab Blog",
+    "published_date_obj": "2026-09-22",
+    "rewritten_title": "How to Design Gitlab for Enterprise Scale",
+    "relevance_score": 3
+  },
+  {
+    "title": "How GitLab reduced code-per-agentic-flow ratio by 45%",
+    "url": "https://about.gitlab.com/blog/how-gitlab-reduced-code-per-agentic-flow-ratio/",
+    "source": "GitLab Blog",
+    "published_date_obj": "2026-09-22",
+    "rewritten_title": "How Gitlab Reduced Code-per-agentic-flow Ratio by 45%",
+    "relevance_score": 3
+  },
+  {
+    "title": "We just shipped support for the ugliest part of HTTP: Vary",
+    "url": "https://blog.cloudflare.com/vary-support/",
+    "source": "CloudFlare Blog",
+    "published_date_obj": "2026-09-22",
+    "rewritten_title": "We Just Shipped Support for the Ugliest Part of Http: Vary",
+    "relevance_score": 3
+  },
+  {
+    "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
+    "url": "https://blog.cloudflare.com/worker-previews/",
+    "source": "CloudFlare Blog",
+    "published_date_obj": "2026-09-22",
+    "rewritten_title": "Introducing Worker Previews: Isolated Preview Environments for Every Change Your Agent Makes",
+    "relevance_score": 3
+  },
+  {
+    "title": "Haters think AI agents can't write GPU code? This'll ROCm",
+    "url": "https://stackoverflow.blog/2026/09/22/haters-think-ai-can-t-gpu-code-this-ll-rocm/",
+    "source": "Stack Overflow Blog",
+    "published_date_obj": "2026-09-22",
+    "rewritten_title": "Haters Think Ai Agents Can't Write Gpu Code? This'll Rocm",
+    "relevance_score": 3
+  },
+  {
+    "title": "Buffer vs. RecurPost (2026): Price + Feature Comparison",
+    "url": "https://buffer.com/resources/buffer-vs-recurpost/",
+    "source": "Buffer Blog",
+    "published_date_obj": "2026-09-22",
+    "rewritten_title": "Buffer Vs. Recurpost (2026): Price + Feature Comparison",
+    "relevance_score": 3
+  },
+  {
+    "title": "Meet the Ecosystem: Partners and Customers at WeAreDevelopers with Docker",
+    "url": "https://www.docker.com/blog/wearedevelopers-partner-customer-sessions-2026/",
+    "source": "Docker Blog",
+    "published_date_obj": "2026-09-22",
+    "rewritten_title": "Meet the Ecosystem: Partners and Customers at Wearedevelopers with Docker",
+    "relevance_score": 3
+  },
+  {
+    "title": "Spotlight on SIG Apps",
+    "url": "https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/",
+    "source": "Kubernetes Blog",
+    "published_date_obj": "2026-09-22",
+    "rewritten_title": "Spotlight on Sig Apps",
+    "relevance_score": 3
+  },
+  {
+    "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
+    "url": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
+    "source": "Lenny's Newsletter",
+    "published_date_obj": "2026-09-22",
+    "rewritten_title": "Opus 5.5 Vs. Gpt-6 Sol: Which Model Won My Blind Taste Test?",
+    "relevance_score": 3
+  },
+  {
+    "title": "I left Claude for months. Opus 5.5 is why I'm back",
+    "url": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+    "source": "Lenny's Newsletter",
+    "published_date_obj": "2026-09-22",
+    "rewritten_title": "I Left Claude for Months. Opus 5.5 Is Why I'm Back",
+    "relevance_score": 3
+  },
+  {
+    "title": "Advanced evals: How to find (and fix) hidden AI failures in your product",
+    "url": "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix",
+    "source": "Lenny's Newsletter",
+    "published_date_obj": "2026-09-22",
+    "rewritten_title": "Advanced Evals: How to Find (and Fix) Hidden Ai Failures in Your Product",
+    "relevance_score": 3
+  },
+  {
+    "title": "watchOS 27.2 beta 2 brings the App Switcher back with a new gesture - 9to5Mac",
+    "url": "https://9to5mac.com/2026/09/21/watchos-27-2-beta-2-brings-the-app-switcher-back-with-a-new-gesture/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2026-09-22",
+    "rewritten_title": "Watchos 27.2 Beta 2 Brings the App Switcher Back with a New Gesture - 9to5mac",
+    "relevance_score": 2
+  },
+  {
+    "title": "Nintendo Shares First Look At Zelda: Ocarina Of Time Switch 2 World Map - Nintendo Life",
+    "url": "https://www.nintendolife.com/news/2026/09/nintendo-shares-first-look-at-zelda-ocarina-of-time-switch-2-world-map",
+    "source": "NewsAPI (Nintendo Life)",
+    "published_date_obj": "2026-09-22",
+    "rewritten_title": "Nintendo Shares First Look at Zelda: Ocarina of Time Switch 2 World Map - Nintendo...",
+    "relevance_score": 2
+  },
+  {
+    "title": "\ud83c\udf99\ufe0f How I AI: Meta\u2019s Muse review + How Warp ships 2,000 PRs a month with AI factories",
+    "url": "https://www.lennysnewsletter.com/p/how-i-ai-metas-muse-review-how-warp",
+    "source": "Lenny's Newsletter",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "\ud83c\udf99\ufe0f How I Ai: Meta\u2019s Muse Review + How Warp Ships 2,000 Prs a Month...",
+    "relevance_score": 13
+  },
+  {
+    "title": "iOS 27.2 reveals new features coming to Apple Music, CarPlay, more - 9to5Mac",
+    "url": "https://9to5mac.com/2026/09/21/ios-27-2-reveals-new-features-coming-to-apple-music-carplay-more/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Ios 27.2 Reveals New Features Coming to Apple Music, Carplay, More - 9to5mac",
+    "relevance_score": 12
+  },
+  {
+    "title": "Apple Watch Series 12 and Ultra 4 introduce a new Theater Mode setting - 9to5Mac",
+    "url": "https://9to5mac.com/2026/09/21/apple-watch-series-12-and-ultra-4-introduce-a-new-theater-mode-setting/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Apple Watch Series 12 and Ultra 4 Introduce a New Theater Mode Setting - 9to5mac",
+    "relevance_score": 12
+  },
+  {
+    "title": "MediaTek's flagship laptop chip is the Dimensity CX C10 Max, debuts in a Lenovo Googlebook - 9to5Google",
+    "url": "http://9to5google.com/2026/09/21/mediatek-googlebook-dimensity-cx-c10-max/",
+    "source": "NewsAPI (9to5google.com)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Mediatek's Flagship Laptop Chip Is the Dimensity Cx C10 Max, Debuts in a Lenovo Googlebook...",
+    "relevance_score": 12
+  },
+  {
+    "title": "Motorola teases high-end \u2018Signature 27\u2019 with a wild-looking design - 9to5Google",
+    "url": "http://9to5google.com/2026/09/21/motorola-teases-high-end-signature-27-with-a-wild-looking-design/",
+    "source": "NewsAPI (9to5google.com)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Motorola Teases High-end \u2018signature 27\u2019 with a Wild-looking Design - 9to5google",
+    "relevance_score": 12
+  },
+  {
+    "title": "Apple\u2019s clever software solution lets iPhone batteries skirt shipping limits - The Verge",
+    "url": "https://www.theverge.com/tech/998144/apple-iphone-18-pro-max-battery-firmware-limit",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Apple\u2019s Clever Software Solution Lets Iphone Batteries Skirt Shipping Limits - the Verge",
+    "relevance_score": 12
+  },
+  {
+    "title": "Microsoft patents idea for in-game PC and Xbox adverts shown during downtime \"trigger events\" - eurogamer.net",
+    "url": "https://www.eurogamer.net/microsoft-patent-ads-in-gameplay",
+    "source": "NewsAPI (Eurogamer.net)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Microsoft Patents Idea for In-game Pc and Xbox Adverts Shown During Downtime \"trigger Events\" -...",
+    "relevance_score": 12
+  },
+  {
+    "title": "Microsoft: September updates break File History backup feature - BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
+    "source": "NewsAPI (BleepingComputer)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Microsoft: September Updates Break File History Backup Feature - Bleepingcomputer",
+    "relevance_score": 12
+  },
+  {
+    "title": "The New Career Path: Joining a 0% Grower. Maybe For Many, It\u2019s Better.",
+    "url": "https://www.saastr.com/the-new-career-path-joining-a-0-grower-maybe-for-many-its-better/",
+    "source": "SaaStr",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "The New Career Path: Joining a 0% Grower. Maybe for Many, It\u2019s Better.",
+    "relevance_score": 3
+  },
+  {
+    "title": "AI Comes for the If Statement",
+    "url": "https://tomtunguz.com/ai-comes-for-the-if-statement/",
+    "source": "Tomasz Tunguz",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Ai Comes for the If Statement",
+    "relevance_score": 3
+  },
+  {
+    "title": "Eliminate Noise & Make Better Business Decisions (+ Free Noise Audit Template)",
+    "url": "https://www.process.st/noise-audit-for-business-decision-making/",
+    "source": "Process Street",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Eliminate Noise & Make Better Business Decisions (+ Free Noise Audit Template)",
+    "relevance_score": 3
+  },
+  {
+    "title": "Python Workers are now generally available",
+    "url": "https://blog.cloudflare.com/python-workers-ga/",
+    "source": "CloudFlare Blog",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Python Workers Are Now Generally Available",
+    "relevance_score": 3
+  },
+  {
+    "title": "How to Use Substack",
+    "url": "https://buffer.com/resources/how-to-use-substack/",
+    "source": "Buffer Blog",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "How to Use Substack",
+    "relevance_score": 3
+  },
+  {
+    "title": "How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)",
+    "url": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with",
+    "source": "Lenny's Newsletter",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "How Warp Ships 2,000 Prs a Month with Ai Factories | Zach Lloyd (ceo, Warp)",
+    "relevance_score": 3
+  },
+  {
+    "title": "RatHat is a new Android malware that records your screen touches to steal passwords - Mashable",
+    "url": "https://mashable.com/tech/rathat-android-malware-records-screen-touches",
+    "source": "NewsAPI (Mashable)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Rathat Is a New Android Malware That Records Your Screen Touches to Steal Passwords -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "iPhone 20 display leak teases massive upgrade over iPhone 18 Pro - Mashable",
+    "url": "https://mashable.com/tech/apple-iphone-20-display-upgrade-leak",
+    "source": "NewsAPI (Mashable)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Iphone 20 Display Leak Teases Massive Upgrade Over Iphone 18 Pro - Mashable",
+    "relevance_score": 2
+  },
+  {
+    "title": "Heat Rotom ex, Kommo-o, Zinnia's Trust, and More English Cards Revealed from \"Delta Reign!\" - PokeBeach",
+    "url": "https://www.pokebeach.com/2026/09/heat-rotom-ex-kommo-o-zinnias-trust-and-more-english-cards-revealed-from-delta-reign",
+    "source": "NewsAPI (Pokebeach.com)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Heat Rotom Ex, Kommo-o, Zinnia's Trust, and More English Cards Revealed From \"delta Reign!\" -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "iOS 27.2 beta 2 reveals new details about unnanounced iPhone anti-snatching feature - 9to5Mac",
+    "url": "https://9to5mac.com/2026/09/21/ios-27-2-beta-2-reveals-new-details-about-unnanounced-iphone-anti-snatching-feature/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Ios 27.2 Beta 2 Reveals New Details About Unnanounced Iphone Anti-snatching Feature - 9to5mac",
+    "relevance_score": 2
+  },
+  {
+    "title": "F1 confirms new Hot Wheels \"Infinite Rush\" car collection for 2027 release - Motorsport.com",
+    "url": "https://www.motorsport.com/f1/news/f1-confirms-new-hot-wheels-infinite-rush-car-collection-for-2027-release/10857826/",
+    "source": "NewsAPI (Motorsport.com)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "F1 Confirms New Hot Wheels \"infinite Rush\" Car Collection for 2027 Release - Motorsport.com",
+    "relevance_score": 2
+  },
+  {
+    "title": "Bungie Announces Plans To Restore Vaulted Destiny 2 Content And Substantial Reworks To Marathon - Game Informer",
+    "url": "https://gameinformer.com/2026/09/21/bungie-announces-plans-to-restore-vaulted-destiny-2-content-and-substantial-reworks-to",
+    "source": "NewsAPI (Gameinformer.com)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Bungie Announces Plans to Restore Vaulted Destiny 2 Content and Substantial Reworks to Marathon -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "SpaceX Seems to Expand 'Free' Starlink Mini Perk to All Residential Plans - PCMag",
+    "url": "https://www.pcmag.com/news/spacex-seems-to-expand-free-starlink-mini-perk-to-all-residential-plans",
+    "source": "NewsAPI (PCMag.com)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Spacex Seems to Expand 'free' Starlink Mini Perk to All Residential Plans - Pcmag",
+    "relevance_score": 2
+  },
+  {
+    "title": "Report: Injustice 3 Leak Reveals New and Returning Characters for Roster - MP1st",
+    "url": "https://mp1st.com/news/report-injustice-3-leak-reveals-new-and-returning-characters-for-roster",
+    "source": "NewsAPI (http://mp1st.com/category/news)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Report: Injustice 3 Leak Reveals New and Returning Characters for Roster - Mp1st",
+    "relevance_score": 2
+  },
+  {
+    "title": "Rockstar Games Outlines New Modding Policy Ahead of GTA 6's Release - ign.com",
+    "url": "https://www.ign.com/articles/rockstar-games-new-modding-policy-crushes-influencers-dreams-for-monetized-gta-6-rp-servers",
+    "source": "NewsAPI (IGN)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Rockstar Games Outlines New Modding Policy Ahead of Gta 6's Release - Ign.com",
+    "relevance_score": 2
+  },
+  {
+    "title": "Final Fantasy Director Says Xenogears 'Sounds Like A Tough Game' To Remake And I'm Beginning To Think The Cult PS1 RPG Might Never Be Coming Back - Kotaku",
+    "url": "https://kotaku.com/final-fantasy-director-says-xenogears-sounds-like-a-tough-game-to-remake-and-im-beginning-to-think-the-cult-ps1-rpg-might-never-be-coming-back-2000736127",
+    "source": "NewsAPI (Kotaku)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Final Fantasy Director Says Xenogears 'sounds Like a Tough Game' to Remake and I'm Beginning...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Dyson Won't Say What's Wrong With Its CameraJet Toothbrush - WIRED",
+    "url": "https://www.wired.com/story/dyson-wont-say-whats-wrong-with-the-camerajet-toothbrush/",
+    "source": "NewsAPI (Wired)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Dyson Won't Say What's Wrong with Its Camerajet Toothbrush - Wired",
+    "relevance_score": 2
+  },
+  {
+    "title": "The Blood of Dawnwalker getting a new difficulty option, combat changes and more in game's first \"big\" patch scheduled for early October - Eurogamer.net",
+    "url": "https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update",
+    "source": "NewsAPI (Eurogamer.net)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "The Blood of Dawnwalker Getting a New Difficulty Option, Combat Changes and More in Game's...",
+    "relevance_score": 2
+  },
+  {
+    "title": "StarCraft \u2018Won\u2019t Be Exclusive,\u2019 Says Blizzard - Kotaku",
+    "url": "https://kotaku.com/starcraft-wont-be-exclusive-says-blizzard-2000736109",
+    "source": "NewsAPI (Kotaku)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Starcraft \u2018won\u2019t Be Exclusive,\u2019 Says Blizzard - Kotaku",
+    "relevance_score": 2
+  },
+  {
+    "title": "Walmart Has the Best Deal on a GeForce RTX 5080 Prebuilt Gaming PC I've Seen in Months - IGN",
+    "url": "https://www.ign.com/articles/walmart-has-the-best-deal-on-a-geforce-rtx-5080-prebuilt-gaming-pc-ive-seen-in-months",
+    "source": "NewsAPI (IGN)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Walmart Has the Best Deal on a Geforce Rtx 5080 Prebuilt Gaming Pc I've Seen...",
+    "relevance_score": 2
+  },
+  {
+    "title": "John Ternus just gave the best defense yet for Vision Pro - 9to5Mac",
+    "url": "https://9to5mac.com/2026/09/21/john-ternus-just-gave-the-best-defense-yet-for-vision-pro/",
+    "source": "NewsAPI (9to5Mac)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "John Ternus Just Gave the Best Defense Yet for Vision Pro - 9to5mac",
+    "relevance_score": 2
+  },
+  {
+    "title": "LG Display starts mass production of 24.5-inch 720Hz OLED panel for ASUS ROG - VideoCardz.com",
+    "url": "https://videocardz.com/newz/lg-display-starts-mass-production-of-24-5-inch-720hz-oled-panel-for-asus-rog",
+    "source": "NewsAPI (Videocardz.com)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Lg Display Starts Mass Production of 24.5-inch 720hz Oled Panel for Asus Rog - Videocardz.com",
+    "relevance_score": 2
+  },
+  {
+    "title": "Forget A Nuvolari Rebadge, Porsche Is Now Planning A Halo Supercar With A Flat-8 - Jalopnik",
+    "url": "https://www.jalopnik.com/2263923/porsche-planning-halo-supercar-flat-8/",
+    "source": "NewsAPI (Jalopnik)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Forget a Nuvolari Rebadge, Porsche Is Now Planning a Halo Supercar with a Flat-8 -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Why your smartwatch is so bad at telling you how many calories you burned - The Washington Post",
+    "url": "https://www.washingtonpost.com/wellness/2026/09/21/why-your-smartwatch-is-so-bad-telling-you-how-many-calories-you-burn/",
+    "source": "NewsAPI (The Washington Post)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Why Your Smartwatch Is So Bad at Telling You How Many Calories You Burned -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Fall 2007 Was the Greatest Stretch in Gaming \u2013 and Definitely Xbox \u2013 History - IGN",
+    "url": "https://www.ign.com/articles/fall-2007-was-the-greatest-stretch-in-gaming-and-definitely-xbox-history",
+    "source": "NewsAPI (IGN)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Fall 2007 Was the Greatest Stretch in Gaming \u2013 and Definitely Xbox \u2013 History -...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Minecraft Dungeons II gets time-limited reward ahead of launch next week - TrueAchievements",
+    "url": "https://www.trueachievements.com/news/minecraft-dungeons-2-corrupted-creeper-cape-reward",
+    "source": "NewsAPI (TrueAchievements)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Minecraft Dungeons Ii Gets Time-limited Reward Ahead of Launch Next Week - Trueachievements",
+    "relevance_score": 2
+  },
+  {
+    "title": "Pok\u00e9mon Partners with the European Space Agency for World Space Week 2026 - Pokemon.com",
+    "url": "https://www.pokemon.com/us/news/pokemon-partners-with-the-european-space-agency-for-world-space-week-2026",
+    "source": "NewsAPI (Pokemon.com)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Pok\u00e9mon Partners with the European Space Agency for World Space Week 2026 - Pokemon.com",
+    "relevance_score": 2
+  },
+  {
+    "title": "Ball x Pit's Next DLC Arrives This November, And It's Huge - Nintendo Life",
+    "url": "https://www.nintendolife.com/news/2026/09/ball-x-pits-next-dlc-arrives-this-november-and-its-huge",
+    "source": "NewsAPI (Nintendo Life)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Ball X Pit's Next Dlc Arrives This November, and It's Huge - Nintendo Life",
+    "relevance_score": 2
+  },
+  {
+    "title": "The M5 Ultra Mac Studio tears through our benchmark tests - The Verge",
+    "url": "https://www.theverge.com/tech/998040/apple-mac-studio-m5-ultra-initial-impressions-testing-review",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "The M5 Ultra Mac Studio Tears Through Our Benchmark Tests - the Verge",
+    "relevance_score": 2
+  },
+  {
+    "title": "Final Fantasy 7 Revelation will let players raise their character\u2019s level automatically to skip grinding - Video Games Chronicle",
+    "url": "https://www.videogameschronicle.com/news/final-fantasy-revelation-will-let-players-automatically-raise-their-characters-level-to-skip-grinding/",
+    "source": "NewsAPI (Video Games Chronicle)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Final Fantasy 7 Revelation Will Let Players Raise Their Character\u2019s Level Automatically to Skip Grinding...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Is everyone Bricking their phones without you? The anti-FOMO (and anti-doomscroll) wellness craze - New York Post",
+    "url": "https://nypost.com/2026/09/21/health/is-everyone-bricking-their-phones-without-you-the-anti-doomscroll-wellness-craze/",
+    "source": "NewsAPI (New York Post)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Is Everyone Bricking Their Phones Without You? the Anti-fomo (and Anti-doomscroll) Wellness Craze - New...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Teardown details the iPhone 18 Pro\u2019s mechanical camera - The Verge",
+    "url": "https://www.theverge.com/tech/998108/apple-iphone-18-pro-max-camera-ifixit-teardown",
+    "source": "NewsAPI (The Verge)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Teardown Details the Iphone 18 Pro\u2019s Mechanical Camera - the Verge",
+    "relevance_score": 2
+  },
+  {
+    "title": "36 Truly Astonishing Photos Of Life In The 2000s That Show How Much Life Has Changed In 20 Years - BuzzFeed",
+    "url": "https://www.buzzfeed.com/gabriellelafrank/photos-of-life-in-the-2000s",
+    "source": "NewsAPI (Buzzfeed)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "36 Truly Astonishing Photos of Life in the 2000s That Show How Much Life Has...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Hideo Kojima claims Sony dumped him in a Zoom call with no reason - Mashable",
+    "url": "https://mashable.com/entertainment/hideo-kojima-sony-playstation-split-reaction-zoom-call",
+    "source": "NewsAPI (Mashable)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Hideo Kojima Claims Sony Dumped Him in a Zoom Call with No Reason - Mashable",
+    "relevance_score": 2
+  },
+  {
+    "title": "Boomers love making AI images of their grandkids. Their millennial children see a privacy nightmare. - Business Insider",
+    "url": "https://www.businessinsider.com/grandparents-ai-images-grandkids-privacy-parents-2026-9#article",
+    "source": "NewsAPI (Business Insider)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Boomers Love Making Ai Images of Their Grandkids. Their Millennial Children See a Privacy Nightmare....",
+    "relevance_score": 2
+  },
+  {
+    "title": "Silent Hill: Townfall (PS5) Review: Not Your Father\u2019s Silent Hill - PlayStation LifeStyle",
+    "url": "https://www.playstationlifestyle.net/review/936540-silent-hill-townfall-ps5-review/",
+    "source": "NewsAPI (PlayStation LifeStyle)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Silent Hill: Townfall (ps5) Review: Not Your Father\u2019s Silent Hill - Playstation Lifestyle",
+    "relevance_score": 2
+  },
+  {
+    "title": "Stellar Blade Still Not Finished, Four Free Bayonetta Costumes Coming to PS5 - Push Square",
+    "url": "https://www.pushsquare.com/news/2026/09/stellar-blade-still-not-finished-four-free-bayonetta-costumes-coming-to-ps5",
+    "source": "NewsAPI (Push Square)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Stellar Blade Still Not Finished, Four Free Bayonetta Costumes Coming to Ps5 - Push Square",
+    "relevance_score": 2
+  },
+  {
+    "title": "RedPocket Mobile announces rebate on iPhone 18 Pro and Pro Max for its network agnostic service - PhoneArena",
+    "url": "https://www.phonearena.com/news/redpocket-mobile-announces-rebate-on-iphone-18-pro-and-pro-max_id183488",
+    "source": "NewsAPI (PhoneArena)",
+    "published_date_obj": "2026-09-21",
+    "rewritten_title": "Redpocket Mobile Announces Rebate on Iphone 18 Pro and Pro Max for Its Network Agnostic...",
+    "relevance_score": 2
+  },
+  {
+    "title": "20VC x SaaStr: Pacing the Frontier, Meta Ships Muse And It\u2019s Great, and Miro Sells for $1.35B After a $17.5B Mark",
+    "url": "https://www.saastr.com/20vc-x-saastr-pacing-the-frontier-meta-ships-muse-and-its-great-and-miro-sells-for-1-35b-after-a-17-5b-mark/",
+    "source": "SaaStr",
+    "published_date_obj": "2026-09-20",
+    "rewritten_title": "20vc X Saastr: Pacing the Frontier, Meta Ships Muse and It\u2019s Great, and Miro Sells...",
+    "relevance_score": 13
+  },
+  {
+    "title": "Apple (AAPL)\u2019s New CEO Bets Big on a $1,999 Foldable iPhone - Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-ceo-bets-big-233948726.html",
+    "source": "NewsAPI (Yahoo Entertainment)",
+    "published_date_obj": "2026-09-20",
+    "rewritten_title": "Apple (aapl)\u2019s New Ceo Bets Big on a $1,999 Foldable Iphone - Yahoo Finance",
+    "relevance_score": 12
+  },
+  {
+    "title": "Not Apple, Not Bose: Owners Say These Are The Best Earbuds For Phone Calls - bgr.com",
+    "url": "https://www.bgr.com/2259676/not-appple-bose-owners-say-best-earbuds-for-phone-calls/",
+    "source": "NewsAPI (BGR)",
+    "published_date_obj": "2026-09-20",
+    "rewritten_title": "Not Apple, Not Bose: Owners Say These Are the Best Earbuds for Phone Calls -...",
+    "relevance_score": 12
+  },
+  {
+    "title": "90 minutes of unfiltered product advice from Snap and Discord\u2019s product chief | Peter Sellis",
+    "url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
+    "source": "Lenny's Newsletter",
+    "published_date_obj": "2026-09-20",
+    "rewritten_title": "90 Minutes of Unfiltered Product Advice From Snap and Discord\u2019s Product Chief | Peter Sellis",
+    "relevance_score": 3
+  },
+  {
+    "title": "RLCS Returns To London This December For The Club Championship With $2.5M Up For Grabs - Rocket League \u00ae",
+    "url": "https://www.rocketleague.com/news/rlcs-returns-to-london-this-december-for-the-club-championship-with-dollar25m-up-for-grabs",
+    "source": "NewsAPI (Rocketleague.com)",
+    "published_date_obj": "2026-09-20",
+    "rewritten_title": "Rlcs Returns to London This December for the Club Championship with $2.5m Up for Grabs...",
+    "relevance_score": 2
+  },
+  {
+    "title": "Which Nvidia GPU Is Equivalent To The PlayStation 5 Pro? - bgr.com",
+    "url": "https://www.bgr.com/2255965/nvidia-gpu-equivalent-to-playstation-5-pro/",
+    "source": "NewsAPI (BGR)",
+    "published_date_obj": "2026-09-20",
+    "rewritten_title": "Which Nvidia Gpu Is Equivalent to the Playstation 5 Pro? - Bgr.com",
+    "relevance_score": 2
+  },
+  {
+    "title": "What is the AI singularity? Some experts say it\u2019s closer than ever - NewsNation",
+    "url": "https://www.newsnationnow.com/business/tech/ai/singularity-artificial-intelligence/",
+    "source": "NewsAPI (Newsnationnow.com)",
+    "published_date_obj": "2026-09-20",
+    "rewritten_title": "What Is the Ai Singularity? Some Experts Say It\u2019s Closer Than Ever - Newsnation",
+    "relevance_score": 2
+  },
+  {
+    "title": "Neon Abyss 2 launches October 8 - Gematsu",
+    "url": "https://www.gematsu.com/2026/09/neon-abyss-2-launches-october-8",
+    "source": "NewsAPI (Gematsu)",
+    "published_date_obj": "2026-09-20",
+    "rewritten_title": "Neon Abyss 2 Launches October 8 - Gematsu",
+    "relevance_score": 2
+  },
+  {
+    "title": "Blizzard developer says World of Warcraft: Forever's beta numbers are the \"craziest\" he's seen in 17 years - Eurogamer.net",
+    "url": "https://www.eurogamer.net/world-of-warcraft-forever-beta-craziest-numbers-blizzard",
+    "source": "NewsAPI (Eurogamer.net)",
+    "published_date_obj": "2026-09-20",
+    "rewritten_title": "Blizzard Developer Says World of Warcraft: Forever's Beta Numbers Are the \"craziest\" He's Seen In...",
+    "relevance_score": 2
+  },
+  {
+    "title": "iOS 27 Battery Drain & Overheating? Here\u2019s How to Fix It - geeky-gadgets.com",
+    "url": "https://www.geeky-gadgets.com/ios-27-battery-drain-fix-2/",
+    "source": "NewsAPI (Geeky Gadgets)",
+    "published_date_obj": "2026-09-20",
+    "rewritten_title": "Ios 27 Battery Drain & Overheating? Here\u2019s How to Fix It - Geeky-gadgets.com",
+    "relevance_score": 2
+  },
+  {
+    "title": "Fire Emblem: Fortune's Weave Walkthrough, in-depth guides, and tips for getting started - RPG Site",
+    "url": "https://www.rpgsite.net/guide/21407-fire-emblem-fortunes-weave-walkthrough-in-depth-guides-tips-for-getting-startedgetting-started-guide-our-best-tips-as-your-begin-your-playthrough",
+    "source": "NewsAPI (RPG Site)",
+    "published_date_obj": "2026-09-17",
+    "rewritten_title": "Fire Emblem: Fortune's Weave Walkthrough, In-depth Guides, and Tips for Getting Started - Rpg Site",
+    "relevance_score": 2
+  },
+  {
     "title": "The Dreamforce 2026 Keynote in Under 7 Minutes",
     "url": "https://www.salesforce.com/news/linked-content/the-dreamforce-2026-keynote-in-under-7-minutes/",
     "source": "Salesforce Blog",
@@ -1021,582 +1597,6 @@
     "source": "NewsAPI (Video Games Chronicle)",
     "published_date_obj": "2026-09-07",
     "rewritten_title": "Xbox Tells Existing Game Pass Members Its New Cloud Gaming Cap Doesn\u2019t Apply to Them,...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Three new iPhones launch this week, here\u2019s what\u2019s coming - 9to5Mac",
-    "url": "https://9to5mac.com/2026/09/07/three-new-iphones-launch-this-week-heres-whats-coming/",
-    "source": "NewsAPI (9to5Mac)",
-    "published_date_obj": "2026-09-07",
-    "rewritten_title": "Three New Iphones Launch This Week, Here\u2019s What\u2019s Coming - 9to5mac",
-    "relevance_score": 2
-  },
-  {
-    "title": "Star Wars Zero Company popularity jumps 20% on Xbox as the good word spreads - TrueAchievements",
-    "url": "https://www.trueachievements.com/news/star-wars-zero-company-player-count-xbox",
-    "source": "NewsAPI (TrueAchievements)",
-    "published_date_obj": "2026-09-07",
-    "rewritten_title": "Star Wars Zero Company Popularity Jumps 20% on Xbox as the Good Word Spreads -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Last Chance To Check Out 84 Switch 1 & 2 Games In Nintendo's Blockbuster eShop Sale (US) - Nintendo Life",
-    "url": "https://www.nintendolife.com/guides/last-chance-to-check-out-84-switch-1-and-2-games-in-nintendos-blockbuster-eshop-sale-us",
-    "source": "NewsAPI (Nintendo Life)",
-    "published_date_obj": "2026-09-07",
-    "rewritten_title": "Last Chance to Check Out 84 Switch 1 & 2 Games in Nintendo's Blockbuster Eshop...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Pok\u00e9mon Go is Milking Mewtwo Too Hard, Fans Say, After a Lackluster Weekend Event Marred by More Server Issues - IGN",
-    "url": "https://www.ign.com/articles/pokemon-go-is-milking-mewtwo-too-hard-fans-say-after-a-lackluster-weekend-event-marred-by-more-server-issues",
-    "source": "NewsAPI (IGN)",
-    "published_date_obj": "2026-09-07",
-    "rewritten_title": "Pok\u00e9mon Go Is Milking Mewtwo Too Hard, Fans Say, After a Lackluster Weekend Event Marred...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Pok\u00e9mon Champions\u2019 director vows to keep turn-based battles as single-player is ruled out - Video Games Chronicle",
-    "url": "https://www.videogameschronicle.com/features/pokemon-champions-director-vows-to-keep-turn-based-battles-as-single-player-is-ruled-out/",
-    "source": "NewsAPI (Video Games Chronicle)",
-    "published_date_obj": "2026-09-07",
-    "rewritten_title": "Pok\u00e9mon Champions\u2019 Director Vows to Keep Turn-based Battles as Single-player Is Ruled Out - Video...",
-    "relevance_score": 2
-  },
-  {
-    "title": "ChatGPT can now connect to your personal apps to mimic writing style - BleepingComputer",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/",
-    "source": "NewsAPI (BleepingComputer)",
-    "published_date_obj": "2026-09-07",
-    "rewritten_title": "Chatgpt Can Now Connect to Your Personal Apps to Mimic Writing Style - Bleepingcomputer",
-    "relevance_score": 2
-  },
-  {
-    "title": "The Blood of Dawnwalker gets a new mod to ease its 30-day story timer - en.softonic.com",
-    "url": "https://en.softonic.com/articles/the-blood-of-dawnwalker-gets-a-new-mod-to-ease-its-30-day-story-timer",
-    "source": "NewsAPI (Softonic)",
-    "published_date_obj": "2026-09-07",
-    "rewritten_title": "The Blood of Dawnwalker Gets a New Mod to Ease Its 30-day Story Timer -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Sid Meier\u2019s Civilization VII adds Arc of Tomorrow update and Earthrise expansion - GamesBeat",
-    "url": "https://gamesbeat.com/sid-meiers-civilization-vii-adds-arc-of-tomorrow-update-and-earthrise-expansion/",
-    "source": "NewsAPI (Gamesbeat.com)",
-    "published_date_obj": "2026-09-07",
-    "rewritten_title": "Sid Meier\u2019s Civilization Vii Adds Arc of Tomorrow Update and Earthrise Expansion - Gamesbeat",
-    "relevance_score": 2
-  },
-  {
-    "title": "First Look: The TAG Heuer Carrera Chronograph Sport Returns in New 42mm Versions (Incl. Video) - Monochrome Watches",
-    "url": "https://monochrome-watches.com/2026-tag-heuer-carrera-chronograph-sport-42mm-new-collection-video-review-price/",
-    "source": "NewsAPI (Monochrome-watches.com)",
-    "published_date_obj": "2026-09-07",
-    "rewritten_title": "First Look: the Tag Heuer Carrera Chronograph Sport Returns in New 42mm Versions (incl. Video)...",
-    "relevance_score": 2
-  },
-  {
-    "title": "PlayStation partially u-turns on physical media stance, more discs coming than originally said - GAMINGbible",
-    "url": "https://www.gamingbible.com/news/platform/playstation/playstation-ps5-physical-media-more-discs-coming-602257-20260907",
-    "source": "NewsAPI (Gamingbible.com)",
-    "published_date_obj": "2026-09-07",
-    "rewritten_title": "Playstation Partially U-turns on Physical Media Stance, More Discs Coming Than Originally Said - Gamingbible",
-    "relevance_score": 2
-  },
-  {
-    "title": "Young iPhone users are flocking to Galaxy Z Fold 8 in record numbers - SamMobile",
-    "url": "https://www.sammobile.com/news/galaxy-z-fold-8-attracting-more-younger-iphone-users/",
-    "source": "NewsAPI (SamMobile)",
-    "published_date_obj": "2026-09-07",
-    "rewritten_title": "Young Iphone Users Are Flocking to Galaxy Z Fold 8 in Record Numbers - Sammobile",
-    "relevance_score": 2
-  },
-  {
-    "title": "Jason\u2019s Takes on This Week\u2019s 20VC: Locks Beat Guardrails, Agents Pick Your Software, and Building With 448 Open Tasks",
-    "url": "https://www.saastr.com/jasons-takes-on-this-weeks-20vc-locks-beat-guardrails-agents-pick-your-software-and-building-with-448-open-tasks/",
-    "source": "SaaStr",
-    "published_date_obj": "2026-09-06",
-    "rewritten_title": "Jason\u2019s Takes on This Week\u2019s 20vc: Locks Beat Guardrails, Agents Pick Your Software, and Building...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Beyond the SaaSpocalypse: The Winners and Losers of 2026 (So Far)",
-    "url": "https://www.saastr.com/beyond-the-saaspocalypse-the-winners-and-losers-of-2026-so-far/",
-    "source": "SaaStr",
-    "published_date_obj": "2026-09-06",
-    "rewritten_title": "Beyond the Saaspocalypse: the Winners and Losers of 2026 (so Far)",
-    "relevance_score": 3
-  },
-  {
-    "title": "Why companies are becoming a series of loops | Anish Acharya (a16z)",
-    "url": "https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series",
-    "source": "Lenny's Newsletter",
-    "published_date_obj": "2026-09-06",
-    "rewritten_title": "Why Companies Are Becoming a Series of Loops | Anish Acharya (a16z)",
-    "relevance_score": 3
-  },
-  {
-    "title": "Miami sheriff blasts Dem mayor for planned Grand Theft Auto 6 tie-in that top cops claim glorifies crime - nypost.com",
-    "url": "https://nypost.com/2026/09/06/us-news/miami-sheriff-blasts-dem-mayor-for-planned-grand-theft-auto-6-tie-in-that-top-cops-claim-glorifies-crime/",
-    "source": "NewsAPI (New York Post)",
-    "published_date_obj": "2026-09-06",
-    "rewritten_title": "Miami Sheriff Blasts Dem Mayor for Planned Grand Theft Auto 6 Tie-in That Top Cops...",
-    "relevance_score": 2
-  },
-  {
-    "title": "The core anti-Pangram constituency is phony writers - The Argument",
-    "url": "https://www.theargumentmag.com/p/the-core-anti-pangram-constituency",
-    "source": "NewsAPI (Theargumentmag.com)",
-    "published_date_obj": "2026-09-06",
-    "rewritten_title": "The Core Anti-pangram Constituency Is Phony Writers - the Argument",
-    "relevance_score": 2
-  },
-  {
-    "title": "Former Capcom Employee Says Western Studios Spend Too Much Time On Jira - Kotaku",
-    "url": "https://kotaku.com/former-capcom-employee-says-western-studios-spend-too-much-time-on-jira-2000731698",
-    "source": "NewsAPI (Kotaku)",
-    "published_date_obj": "2026-09-06",
-    "rewritten_title": "Former Capcom Employee Says Western Studios Spend Too Much Time on Jira - Kotaku",
-    "relevance_score": 2
-  },
-  {
-    "title": "The Top Tech Trends at IFA Berlin 2026 - CNET",
-    "url": "https://www.cnet.com/tech/tech-industry/the-top-tech-trends-at-ifa-berlin-2026-2/",
-    "source": "NewsAPI (CNET)",
-    "published_date_obj": "2026-09-06",
-    "rewritten_title": "The Top Tech Trends at Ifa Berlin 2026 - Cnet",
-    "relevance_score": 2
-  },
-  {
-    "title": "Sony Can't Hide Forever - Polygon.com",
-    "url": "https://www.polygon.com/patch-notes-sony-playstation-state-of-play-no-disc-no-buy/",
-    "source": "NewsAPI (Polygon)",
-    "published_date_obj": "2026-09-06",
-    "rewritten_title": "Sony Can't Hide Forever - Polygon.com",
-    "relevance_score": 2
-  },
-  {
-    "title": "Attackers conceal phishing lures using invisible Unicode characters - BleepingComputer",
-    "url": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
-    "source": "NewsAPI (BleepingComputer)",
-    "published_date_obj": "2026-09-06",
-    "rewritten_title": "Attackers Conceal Phishing Lures Using Invisible Unicode Characters - Bleepingcomputer",
-    "relevance_score": 2
-  },
-  {
-    "title": "'Everyone has an AI secret': This artist has spent a year collecting and sharing hundreds of anonymous AI confessions - CNBC",
-    "url": "https://www.cnbc.com/2026/09/06/artists-ai-secrets-project-collects-hundreds-of-anonymous-confessions.html",
-    "source": "NewsAPI (CNBC)",
-    "published_date_obj": "2026-09-06",
-    "rewritten_title": "'everyone Has an Ai Secret': This Artist Has Spent a Year Collecting and Sharing Hundreds...",
-    "relevance_score": 2
-  },
-  {
-    "title": "I won't let a new Android phone connect to Wi-Fi without these 7 hidden settings enabled - androidpolice.com",
-    "url": "https://www.androidpolice.com/i-wont-new-android-phone-connect-wi-fi-without-7-hidden-settings-enabled/",
-    "source": "NewsAPI (Android Police)",
-    "published_date_obj": "2026-09-06",
-    "rewritten_title": "I Won't Let a New Android Phone Connect to Wi-fi Without These 7 Hidden Settings...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Buffer vs. Loomly (2026): Which Social Media Management Tool is Right for You?",
-    "url": "https://buffer.com/resources/buffer-vs-loomly/",
-    "source": "Buffer Blog",
-    "published_date_obj": "2026-09-02",
-    "rewritten_title": "Buffer Vs. Loomly (2026): Which Social Media Management Tool Is Right for You?",
-    "relevance_score": 3
-  },
-  {
-    "title": "Microsoft 365 outage drags on, but things are improving",
-    "url": "https://techcrunch.com/2026/09/01/microsoft-365-outage-drags-on-but-things-are-improving/",
-    "source": "TechCrunch Enterprise",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "Microsoft 365 Outage Drags On, but Things Are Improving",
-    "relevance_score": 13
-  },
-  {
-    "title": "Microsoft acknowledges widespread Exchange Online problems - Mashable",
-    "url": "https://mashable.com/tech/microsoft-responds-exchange-online-outlook-outage-aug-31",
-    "source": "NewsAPI (Mashable)",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "Microsoft Acknowledges Widespread Exchange Online Problems - Mashable",
-    "relevance_score": 12
-  },
-  {
-    "title": "ICONIQ: The 100%+ Growers Added 133% More Headcount in H1 2026. But The 50%-100% Growers Cut Hiring Almost in Half.",
-    "url": "https://www.saastr.com/iconiq-the-100-growers-added-133-more-headcount-in-h1-2026-but-the-50-100-growers-cut-hiring-almost-in-half/",
-    "source": "SaaStr",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "Iconiq: the 100%+ Growers Added 133% More Headcount in H1 2026. but the 50%-100% Growers...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Salesforce Named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Healthcare Provider Industry Cloud Platforms",
-    "url": "https://www.salesforce.com/news/stories/gartner-magic-quadrant-healthcare-provider-industry-cloud-platforms-2026/",
-    "source": "Salesforce Blog",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "Salesforce Named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Healthcare Provider Industry Cloud...",
-    "relevance_score": 3
-  },
-  {
-    "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
-    "url": "https://blog.cloudflare.com/cache-transcoding/",
-    "source": "CloudFlare Blog",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "How We Could Save Petabytes of Cache Storage with Zstandard and Pingora",
-    "relevance_score": 3
-  },
-  {
-    "title": "The good ol\u2019 days of building Java",
-    "url": "https://stackoverflow.blog/2026/09/01/the-good-ol-days-of-building-java/",
-    "source": "Stack Overflow Blog",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "The Good Ol\u2019 Days of Building Java",
-    "relevance_score": 3
-  },
-  {
-    "title": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
-    "url": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
-    "source": "TechCrunch Enterprise",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "Sequoia-incubated Empirik Launches with $21m to Predict Outages Before They Happen",
-    "relevance_score": 3
-  },
-  {
-    "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
-    "url": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
-    "source": "Kubernetes Blog",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "Kubernetes V1.37: Etcd Rangestream Cuts Memory Use on Large List Reads",
-    "relevance_score": 3
-  },
-  {
-    "title": "How to turn your AI into a world-class designer",
-    "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
-    "source": "Lenny's Newsletter",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "How to Turn Your Ai Into a World-class Designer",
-    "relevance_score": 3
-  },
-  {
-    "title": "What Dyson\u2019s First Toothbrush Says About Oral Care\u2019s Beauty Era - Vogue",
-    "url": "https://www.vogue.com/article/what-dysons-first-toothbrush-says-about-oral-cares-beauty-era",
-    "source": "NewsAPI (Vogue)",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "What Dyson\u2019s First Toothbrush Says About Oral Care\u2019s Beauty Era - Vogue",
-    "relevance_score": 2
-  },
-  {
-    "title": "The Blood of Dawnwalker Review: Time Doesn't Heal All Wounds - Game Informer",
-    "url": "https://gameinformer.com/review/the-blood-of-dawnwalker/time-doesnt-heal-all-wounds",
-    "source": "NewsAPI (Gameinformer.com)",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "The Blood of Dawnwalker Review: Time Doesn't Heal All Wounds - Game Informer",
-    "relevance_score": 2
-  },
-  {
-    "title": "Seiko Expands The Speedtimer Collection With Four New References - Fratello Watches",
-    "url": "https://www.fratellowatches.com/seiko-expands-the-speedtimer-collection-with-four-new-references/",
-    "source": "NewsAPI (Fratellowatches.com)",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "Seiko Expands the Speedtimer Collection with Four New References - Fratello Watches",
-    "relevance_score": 2
-  },
-  {
-    "title": "Tengo Project announces side-scrolling shoot \u2019em up remake Cybernetic Attack: Final Mission - Gematsu",
-    "url": "https://www.gematsu.com/2026/08/tengo-project-announces-side-scrolling-shoot-em-up-remake-cybernetic-attack-final-mission",
-    "source": "NewsAPI (Gematsu)",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "Tengo Project Announces Side-scrolling Shoot \u2019em Up Remake Cybernetic Attack: Final Mission - Gematsu",
-    "relevance_score": 2
-  },
-  {
-    "title": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises - VentureBeat",
-    "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises",
-    "source": "NewsAPI (VentureBeat)",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "Openclaw 2.0 Is Here, Ushering in the Era of 'multiplayer' Ai Coding: What It Means...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Valve suffers massive 12TB leak, revealing a decade of Steam game files - Mashable",
-    "url": "https://mashable.com/entertainment/valve-leak-12-terabytes-steam-games",
-    "source": "NewsAPI (Mashable)",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "Valve Suffers Massive 12tb Leak, Revealing a Decade of Steam Game Files - Mashable",
-    "relevance_score": 2
-  },
-  {
-    "title": "\u2018Most\u2019 of Star Wars Zero Company studio Bit Reactor was furloughed ahead of launch - Game File | Stephen Totilo",
-    "url": "https://www.gamefile.news/p/star-wars-zero-company-bit-reactor-furloughs-lawsuit",
-    "source": "NewsAPI (Gamefile.news)",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "\u2018most\u2019 of Star Wars Zero Company Studio Bit Reactor Was Furloughed Ahead of Launch -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "New Galaxy Book6 with Windows 11 out at $799, has drawbacks - neowin.net",
-    "url": "https://www.neowin.net/news/new-galaxy-book6-with-windows-11-out-at-799-has-drawbacks/",
-    "source": "NewsAPI (Neowin)",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "New Galaxy Book6 with Windows 11 Out at $799, Has Drawbacks - Neowin.net",
-    "relevance_score": 2
-  },
-  {
-    "title": "Pikmin 3 Deluxe 1.2.0 update out now, patch notes - new benefits for Nintendo Switch 2 players - Nintendo Everything",
-    "url": "https://nintendoeverything.com/pikmin-3-deluxe-1-2-0-update-out-now-patch-notes-new-benefits-for-nintendo-switch-2-players/",
-    "source": "NewsAPI (Nintendoeverything.com)",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "Pikmin 3 Deluxe 1.2.0 Update Out Now, Patch Notes - New Benefits for Nintendo Switch...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Chatbots got safer but will still role-play self-harm with users - The Washington Post",
-    "url": "https://www.washingtonpost.com/technology/2026/08/31/chatbots-will-role-play-self-harm-scenarios-with-users-study-finds/",
-    "source": "NewsAPI (The Washington Post)",
-    "published_date_obj": "2026-09-01",
-    "rewritten_title": "Chatbots Got Safer but Will Still Role-play Self-harm with Users - the Washington Post",
-    "relevance_score": 2
-  },
-  {
-    "title": "Microsoft tests fix for latest hours-long Outlook outage",
-    "url": "https://techcrunch.com/2026/08/31/microsoft-tests-fix-for-latest-hours-long-outlook-outage/",
-    "source": "TechCrunch Enterprise",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Microsoft Tests Fix for Latest Hours-long Outlook Outage",
-    "relevance_score": 13
-  },
-  {
-    "title": "Nvidia\u2019s $3.5B MediaTek bet reveals its plan for tackling Big Tech\u2019s AI chip buildout",
-    "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-    "source": "TechCrunch Enterprise",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Nvidia\u2019s $3.5b Mediatek Bet Reveals Its Plan for Tackling Big Tech\u2019s Ai Chip Buildout",
-    "relevance_score": 13
-  },
-  {
-    "title": "Microsoft Outlook and OpenAI's ChatGPT Work are experiencing user outages - CNBC",
-    "url": "https://www.cnbc.com/2026/08/31/microsoft-outlook-and-openais-chatgpt-work-experience-outages-.html",
-    "source": "NewsAPI (CNBC)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Microsoft Outlook and Openai's Chatgpt Work Are Experiencing User Outages - Cnbc",
-    "relevance_score": 12
-  },
-  {
-    "title": "Microsoft warns of TerminalFix attacks deploying reverse tunnels - BleepingComputer",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
-    "source": "NewsAPI (BleepingComputer)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Microsoft Warns of Terminalfix Attacks Deploying Reverse Tunnels - Bleepingcomputer",
-    "relevance_score": 12
-  },
-  {
-    "title": "Mini Review: Metal Gear Solid: Peace Walker - Master Collection Version (Switch 2) - The Unsung Hero Of The Series - nintendolife.com",
-    "url": "https://www.nintendolife.com/reviews/nintendo-switch-2/metal-gear-solid-peace-walker-master-collection-version",
-    "source": "NewsAPI (Nintendo Life)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Mini Review: Metal Gear Solid: Peace Walker - Master Collection Version (switch 2) - The...",
-    "relevance_score": 12
-  },
-  {
-    "title": "Microsoft says Windows 11 KB5120998 update resets mouse settings - BleepingComputer",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/",
-    "source": "NewsAPI (BleepingComputer)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Microsoft Says Windows 11 Kb5120998 Update Resets Mouse Settings - Bleepingcomputer",
-    "relevance_score": 12
-  },
-  {
-    "title": "Microsoft asks users to ignore 'Antivirus is turned off' errors - BleepingComputer",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-antivirus-is-turned-off-errors/",
-    "source": "NewsAPI (BleepingComputer)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Microsoft Asks Users to Ignore 'antivirus Is Turned Off' Errors - Bleepingcomputer",
-    "relevance_score": 12
-  },
-  {
-    "title": "The Google TV Streamer now costs $50 more - The Verge",
-    "url": "https://www.theverge.com/tech/987032/google-tv-streamer-price-increase",
-    "source": "NewsAPI (The Verge)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "The Google Tv Streamer Now Costs $50 More - the Verge",
-    "relevance_score": 12
-  },
-  {
-    "title": "I tested the Pixel Watch 5 and discovered Google's best smartwatch yet - Android Police",
-    "url": "https://www.androidpolice.com/google-pixel-watch-5-review/",
-    "source": "NewsAPI (Android Police)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "I Tested the Pixel Watch 5 and Discovered Google's Best Smartwatch Yet - Android Police",
-    "relevance_score": 12
-  },
-  {
-    "title": "Instagram cracking down on accounts that feature AI-generated influencers - 9to5google.com",
-    "url": "http://9to5google.com/2026/08/31/instagram-ai-generated-influencers-label-update/",
-    "source": "NewsAPI (9to5google.com)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Instagram Cracking Down on Accounts That Feature Ai-generated Influencers - 9to5google.com",
-    "relevance_score": 12
-  },
-  {
-    "title": "Pixel 11 Pro bug causing static sounds in recordings while using Video Boost - 9to5Google",
-    "url": "http://9to5google.com/2026/08/31/google-pixel-11-pro-bug-static-sounds-video/",
-    "source": "NewsAPI (9to5google.com)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Pixel 11 Pro Bug Causing Static Sounds in Recordings While Using Video Boost - 9to5google",
-    "relevance_score": 12
-  },
-  {
-    "title": "I tested AI presentation tools across Google Slides, PowerPoint, and Claude Design; one clear winner generated professional decks - Android Police",
-    "url": "https://www.androidpolice.com/tested-presentation-tools-slides-powerpoint-claude-winner-generated-professional-decks/",
-    "source": "NewsAPI (Android Police)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "I Tested Ai Presentation Tools Across Google Slides, Powerpoint, and Claude Design; One Clear Winner...",
-    "relevance_score": 12
-  },
-  {
-    "title": "We\u2019ve Been Running Salesforce Headless for 6 Months on Our Own \u201cClaudeforce.\u201d We\u2019re Never Going Back",
-    "url": "https://www.saastr.com/weve-been-running-salesforce-headless-and-our-own-claudeforce-for-6-months-were-never-going-back/",
-    "source": "SaaStr",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "We\u2019ve Been Running Salesforce Headless for 6 Months on Our Own \u201cclaudeforce.\u201d We\u2019re Never Going...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Dear SaaStr: My Sales Rep is Grossly Underperforming but is Involved in a Key Deal. Should I Fire Him or Wait for The Deal to Close?",
-    "url": "https://www.saastr.com/dear-saastr-my-sales-rep-is-grossly-underperforming-but-is-involved-in-a-key-deal-should-i-fire-him-or-wait-for-the-deal-to-close/",
-    "source": "SaaStr",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Dear Saastr: My Sales Rep Is Grossly Underperforming but Is Involved in a Key Deal....",
-    "relevance_score": 3
-  },
-  {
-    "title": "The Price of Entry to the Frontier",
-    "url": "https://tomtunguz.com/the-great-segmentation/",
-    "source": "Tomasz Tunguz",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "The Price of Entry to the Frontier",
-    "relevance_score": 3
-  },
-  {
-    "title": "Top Innovations in the Winter \u201927 Release: AI Agents Run the Work, Freeing the Enterprise to Work Smarter and Faster",
-    "url": "https://www.salesforce.com/news/stories/winter-2027-product-release-announcement/",
-    "source": "Salesforce Blog",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Top Innovations in the Winter \u201927 Release: Ai Agents Run the Work, Freeing the Enterprise...",
-    "relevance_score": 3
-  },
-  {
-    "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
-    "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
-    "source": "CloudFlare Blog",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Introducing Adaptive Intelligence: Undermining the Economics of Every Bot Attack",
-    "relevance_score": 3
-  },
-  {
-    "title": "The 11 Best Competitor Analysis Tools (Free + Paid) in 2026",
-    "url": "https://buffer.com/resources/competitor-analysis-tools/",
-    "source": "Buffer Blog",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "The 11 Best Competitor Analysis Tools (free + Paid) in 2026",
-    "relevance_score": 3
-  },
-  {
-    "title": "Secure by default is your only way forward",
-    "url": "https://www.docker.com/blog/secure-by-default-is-your-only-way-forward/",
-    "source": "Docker Blog",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Secure by Default Is Your Only Way Forward",
-    "relevance_score": 3
-  },
-  {
-    "title": "\ud83c\udf99\ufe0f How I AI: How this PM uses Claude to handle 70% to 80% of his workday",
-    "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
-    "source": "Lenny's Newsletter",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "\ud83c\udf99\ufe0f How I Ai: How This Pm Uses Claude to Handle 70% to 80% Of...",
-    "relevance_score": 3
-  },
-  {
-    "title": "How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)",
-    "url": "https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving",
-    "source": "Lenny's Newsletter",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "How I Turned Claude Into a Self-improving Pm Assistant | Daniel Blum (pm, Melio)",
-    "relevance_score": 3
-  },
-  {
-    "title": "The Bentley Supersports: A stripped-out engineer\u2019s indulgence - Ars Technica",
-    "url": "https://arstechnica.com/cars/2026/08/the-bentley-supersports-a-stripped-out-engineers-indulgence/",
-    "source": "NewsAPI (Ars Technica)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "The Bentley Supersports: a Stripped-out Engineer\u2019s Indulgence - Ars Technica",
-    "relevance_score": 2
-  },
-  {
-    "title": "PlayStation Is Set to Pay Out $7.85 Million to Users as Part of Class-Action Lawsuit - IGN",
-    "url": "https://www.ign.com/articles/playstation-is-set-to-pay-out-785-million-to-users-as-part-of-class-action-lawsuit",
-    "source": "NewsAPI (IGN)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Playstation Is Set to Pay Out $7.85 Million to Users as Part of Class-action Lawsuit...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Mega Squads Event Guide: Maschiff, Shiny Flamigo, and New Super Megas - Pok\u00e9mon GO Hub",
-    "url": "https://pokemongohub.net/post/event/pokemon-go-mega-squads-event-guide/",
-    "source": "NewsAPI (Pokemon GO Hub)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Mega Squads Event Guide: Maschiff, Shiny Flamigo, and New Super Megas - Pok\u00e9mon Go Hub",
-    "relevance_score": 2
-  },
-  {
-    "title": "The Witcher 3 Remastered Can Run Up to 90 FPS on the PS5 Pro; Preliminary Console Mods List Revealed - MP1st",
-    "url": "https://mp1st.com/news/the-witcher-3-remastered-run-90-fps-ps5-pro-preliminary-console-mods-list-revealed",
-    "source": "NewsAPI (http://mp1st.com/category/news)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "The Witcher 3 Remastered Can Run Up to 90 Fps on the Ps5 Pro; Preliminary...",
-    "relevance_score": 2
-  },
-  {
-    "title": "GTA 6 Pre-Orders Jumped By 436% in a Single Day After Netflix Reveal, As PS5 Dominates Xbox - techpowerup.com",
-    "url": "https://www.techpowerup.com/352187/gta-6-pre-orders-jumped-by-436-in-a-single-day-after-netflix-reveal-as-ps5-dominates-xbox",
-    "source": "NewsAPI (Techpowerup.com)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Gta 6 Pre-orders Jumped by 436% in a Single Day After Netflix Reveal, as Ps5...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Take-Two Stock Drops Amid GTA 6 Leaks - Benzinga",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61530804/take-two-stock-drops-amid-gta-6-leaks",
-    "source": "NewsAPI (Benzinga)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Take-two Stock Drops Amid Gta 6 Leaks - Benzinga",
-    "relevance_score": 2
-  },
-  {
-    "title": "Warlock: Dungeons & Dragons Gameplay Reveal Gives Extended Look at Combat, Exploration, and Traversal - IGN",
-    "url": "https://www.ign.com/articles/warlock-dungeons-dragons-gameplay-reveal-gives-extended-look-at-combat-exploration-and-traversal",
-    "source": "NewsAPI (IGN)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Warlock: Dungeons & Dragons Gameplay Reveal Gives Extended Look at Combat, Exploration, and Traversal -...",
-    "relevance_score": 2
-  },
-  {
-    "title": "'Don't Let Your Husband Play GTA 6' - Angry Spouses Are Threatening to Break Up With Their Partners If They Play GTA 6 - IGN",
-    "url": "https://www.ign.com/articles/gta-6s-relationship-mechanic-is-cheating-on-your-real-life-partner-and-break-up-worthy-according-to-angry-spouses",
-    "source": "NewsAPI (IGN)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "'don't Let Your Husband Play Gta 6' - Angry Spouses Are Threatening to Break Up...",
-    "relevance_score": 2
-  },
-  {
-    "title": "Save 53% Off Like New Sony WH-1000XM6 Noise Canceling Headphones During eBay's Labor Day Sale - IGN",
-    "url": "https://www.ign.com/articles/sony-wh-1000xm6-wireless-noise-canceling-headphone-deal-ebay-labor-day-sale",
-    "source": "NewsAPI (IGN)",
-    "published_date_obj": "2026-08-31",
-    "rewritten_title": "Save 53% Off Like New Sony Wh-1000xm6 Noise Canceling Headphones During Ebay's Labor Day Sale...",
     "relevance_score": 2
   }
 ]
